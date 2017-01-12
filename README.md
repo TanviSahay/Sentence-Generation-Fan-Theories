@@ -3,6 +3,7 @@ In the last 20 years, American entertainment, ranging from movies to television 
 novels, has seen a colossal increase in its fan following, and with this increase, more and more people have
 begun to keep a story going even when it is on hiatus, giving rise to fan-proposed theories of what the
 future of a story might be. In this projcet, these fan theories have been used as the data set over which several models have been trained and their generative performance has been compared. 
+
 Three generative models, N-grams, Hidden Markov Models(HMM) and Long-
 Short Term Memory(LSTM) recurrent neural networks have been explored and their results compared to
 analyze how they perform for the proposed task. The Stanford OpenIE package has been used to extract
