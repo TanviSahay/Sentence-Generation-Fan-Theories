@@ -1,0 +1,17 @@
+Sentence #1 (15 tokens):
+Bran will reunite with his Starks siblings at Winterfell and inform Jon of his parentage
+[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
+[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD]
+[Text=reunite CharacterOffsetBegin=10 CharacterOffsetEnd=17 PartOfSpeech=VB]
+[Text=with CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=IN]
+[Text=his CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=PRP$]
+[Text=Starks CharacterOffsetBegin=27 CharacterOffsetEnd=33 PartOfSpeech=NNP]
+[Text=siblings CharacterOffsetBegin=34 CharacterOffsetEnd=42 PartOfSpeech=NNS]
+[Text=at CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=IN]
+[Text=Winterfell CharacterOffsetBegin=46 CharacterOffsetEnd=56 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=CC]
+[Text=inform CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=VB]
+[Text=Jon CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=NNP]
+[Text=of CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=IN]
+[Text=his CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=PRP$]
+[Text=parentage CharacterOffsetBegin=79 CharacterOffsetEnd=88 PartOfSpeech=NN]

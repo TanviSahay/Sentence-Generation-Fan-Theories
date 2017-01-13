@@ -1,0 +1,9 @@
+Sentence #1 (7 tokens):
+The Wall comes down in the finale
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
+[Text=Wall CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NN]
+[Text=comes CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=VBZ]
+[Text=down CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=RP]
+[Text=in CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=IN]
+[Text=the CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=DT]
+[Text=finale CharacterOffsetBegin=27 CharacterOffsetEnd=33 PartOfSpeech=NN]

@@ -1,0 +1,10 @@
+Sentence #1 (8 tokens):
+Jamie will kill Cersei and then off himself
+[Text=Jamie CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
+[Text=will CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=MD]
+[Text=kill CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=VB]
+[Text=Cersei CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=NNP]
+[Text=and CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=CC]
+[Text=then CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=RB]
+[Text=off CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=IN]
+[Text=himself CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=PRP]

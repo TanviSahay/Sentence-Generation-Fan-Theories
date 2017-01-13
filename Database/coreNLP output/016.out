@@ -1,0 +1,17 @@
+Sentence #1 (15 tokens):
+Dany will suffer some major loses at sea, due to Euron or a storm
+[Text=Dany CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
+[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD]
+[Text=suffer CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=VB]
+[Text=some CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=DT]
+[Text=major CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=JJ]
+[Text=loses CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=VBZ]
+[Text=at CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=IN]
+[Text=sea CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=NN]
+[Text=, CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=,]
+[Text=due CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=JJ]
+[Text=to CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=TO]
+[Text=Euron CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=NNP]
+[Text=or CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=CC]
+[Text=a CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=DT]
+[Text=storm CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=NN]

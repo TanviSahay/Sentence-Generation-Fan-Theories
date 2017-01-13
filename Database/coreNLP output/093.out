@@ -1,0 +1,38 @@
+Sentence #1 (15 tokens):
+Dragonglass is pooped out by dragons rather than just being obsidian
+Does this matter?
+[Text=Dragonglass CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=NNP]
+[Text=is CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=VBZ]
+[Text=pooped CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=VBN]
+[Text=out CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=RP]
+[Text=by CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=IN]
+[Text=dragons CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=NNS]
+[Text=rather CharacterOffsetBegin=37 CharacterOffsetEnd=43 PartOfSpeech=RB]
+[Text=than CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=IN]
+[Text=just CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=RB]
+[Text=being CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=VBG]
+[Text=obsidian CharacterOffsetBegin=60 CharacterOffsetEnd=68 PartOfSpeech=JJ]
+[Text=Does CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=VBZ]
+[Text=this CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=DT]
+[Text=matter CharacterOffsetBegin=79 CharacterOffsetEnd=85 PartOfSpeech=NN]
+[Text=? CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=.]
+Sentence #2 (11 tokens):
+No, and we'll probably never find out anyway.
+[Text=No CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=DT]
+[Text=, CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=,]
+[Text=and CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=CC]
+[Text=we CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=PRP]
+[Text='ll CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=MD]
+[Text=probably CharacterOffsetBegin=101 CharacterOffsetEnd=109 PartOfSpeech=RB]
+[Text=never CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=RB]
+[Text=find CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=VB]
+[Text=out CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=RP]
+[Text=anyway CharacterOffsetBegin=125 CharacterOffsetEnd=131 PartOfSpeech=RB]
+[Text=. CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=.]
+Sentence #3 (5 tokens):
+But it's funny.
+[Text=But CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=CC]
+[Text=it CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=PRP]
+[Text='s CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=VBZ]
+[Text=funny CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=JJ]
+[Text=. CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=.]

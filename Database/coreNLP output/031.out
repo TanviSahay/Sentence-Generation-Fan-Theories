@@ -1,0 +1,25 @@
+Sentence #1 (8 tokens):
+Tyrion would bridge them into a marriage.
+[Text=Tyrion CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP]
+[Text=would CharacterOffsetBegin=7 CharacterOffsetEnd=12 PartOfSpeech=MD]
+[Text=bridge CharacterOffsetBegin=13 CharacterOffsetEnd=19 PartOfSpeech=VB]
+[Text=them CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=PRP]
+[Text=into CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=IN]
+[Text=a CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=DT]
+[Text=marriage CharacterOffsetBegin=32 CharacterOffsetEnd=40 PartOfSpeech=NN]
+[Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=.]
+Sentence #2 (13 tokens):
+It was hinted on through their talk on alliances to secure Westeros.
+[Text=It CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=PRP]
+[Text=was CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=VBD]
+[Text=hinted CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=VBN]
+[Text=on CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=IN]
+[Text=through CharacterOffsetBegin=59 CharacterOffsetEnd=66 PartOfSpeech=IN]
+[Text=their CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=PRP$]
+[Text=talk CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=NN]
+[Text=on CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=IN]
+[Text=alliances CharacterOffsetBegin=81 CharacterOffsetEnd=90 PartOfSpeech=NNS]
+[Text=to CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=TO]
+[Text=secure CharacterOffsetBegin=94 CharacterOffsetEnd=100 PartOfSpeech=VB]
+[Text=Westeros CharacterOffsetBegin=101 CharacterOffsetEnd=109 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=.]

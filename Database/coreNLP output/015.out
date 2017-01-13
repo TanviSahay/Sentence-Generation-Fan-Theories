@@ -1,0 +1,7 @@
+Sentence #1 (5 tokens):
+Arya will kill Melisandre.
+[Text=Arya CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
+[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD]
+[Text=kill CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=VB]
+[Text=Melisandre CharacterOffsetBegin=15 CharacterOffsetEnd=25 PartOfSpeech=NNP]
+[Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=.]
