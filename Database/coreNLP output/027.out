@@ -1,54 +1,174 @@
 Sentence #1 (18 tokens):
 Sansa will make out like she's betraying Jon but she will put an end to LF.
-[Text=Sansa CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=MD]
-[Text=make CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=VB]
-[Text=out CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=RP]
-[Text=like CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=IN]
-[Text=she CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=VBZ]
-[Text=betraying CharacterOffsetBegin=31 CharacterOffsetEnd=40 PartOfSpeech=VBG]
-[Text=Jon CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=NNP]
-[Text=but CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=CC]
-[Text=she CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=PRP]
-[Text=will CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=MD]
-[Text=put CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=VB]
-[Text=an CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=DT]
-[Text=end CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=TO]
-[Text=LF CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=.]
+[Text=Sansa CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=make CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=VB Lemma=make NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=betraying CharacterOffsetBegin=31 CharacterOffsetEnd=40 PartOfSpeech=VBG Lemma=betray NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=but CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=49 CharacterOffsetEnd=52 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=put CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=VB Lemma=put NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=end CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=NN Lemma=end NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=LF CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=NN Lemma=lf NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=74 CharacterOffsetEnd=75 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Sansa))
+      (VP (MD will)
+        (VP (VB make)
+          (PRT (RP out))
+          (SBAR (IN like)
+            (S
+              (NP (PRP she))
+              (VP (VBZ 's)
+                (VP (VBG betraying)
+                  (NP (NNP Jon)))))))))
+    (CC but)
+    (S
+      (NP (PRP she))
+      (VP (MD will)
+        (VP (VB put)
+          (NP (DT an) (NN end))
+          (PP (TO to)
+            (NP (NN LF))))))
+    (. .)))
+
+root(ROOT-0, make-3)
+nsubj(make-3, Sansa-1)
+aux(make-3, will-2)
+compound:prt(make-3, out-4)
+mark(betraying-8, like-5)
+nsubj(betraying-8, she-6)
+aux(betraying-8, 's-7)
+advcl:like(make-3, betraying-8)
+dobj(betraying-8, Jon-9)
+cc(make-3, but-10)
+nsubj(put-13, she-11)
+aux(put-13, will-12)
+conj:but(make-3, put-13)
+det(end-15, an-14)
+dobj(put-13, end-15)
+case(LF-17, to-16)
+nmod:to(put-13, LF-17)
+punct(make-3, .-18)
+
 Sentence #2 (7 tokens):
 Possibly with the help of Varys.
-[Text=Possibly CharacterOffsetBegin=76 CharacterOffsetEnd=84 PartOfSpeech=RB]
-[Text=with CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=DT]
-[Text=help CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=IN]
-[Text=Varys CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=.]
+[Text=Possibly CharacterOffsetBegin=76 CharacterOffsetEnd=84 PartOfSpeech=RB Lemma=possibly NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=help CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NN Lemma=help NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Varys CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=NNP Lemma=Varys NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (PP
+      (ADVP (RB Possibly))
+      (IN with)
+      (NP
+        (NP (DT the) (NN help))
+        (PP (IN of)
+          (NP (NNP Varys)))))
+    (. .)))
+
+root(ROOT-0, help-4)
+advmod(help-4, Possibly-1)
+case(help-4, with-2)
+det(help-4, the-3)
+case(Varys-6, of-5)
+nmod:of(help-4, Varys-6)
+punct(help-4, .-7)
+
 Sentence #3 (23 tokens):
 She's gone through too much betrayal (and character development) to do that to one of her last family members.
-[Text=She CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=VBZ]
-[Text=gone CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=VBN]
-[Text=through CharacterOffsetBegin=120 CharacterOffsetEnd=127 PartOfSpeech=IN]
-[Text=too CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=RB]
-[Text=much CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=JJ]
-[Text=betrayal CharacterOffsetBegin=137 CharacterOffsetEnd=145 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=-LRB-]
-[Text=and CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=CC]
-[Text=character CharacterOffsetBegin=151 CharacterOffsetEnd=160 PartOfSpeech=NN]
-[Text=development CharacterOffsetBegin=161 CharacterOffsetEnd=172 PartOfSpeech=NN]
-[Text=-RRB- CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=-RRB-]
-[Text=to CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=TO]
-[Text=do CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=VB]
-[Text=that CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=DT]
-[Text=to CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=TO]
-[Text=one CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=CD]
-[Text=of CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=PRP$]
-[Text=last CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=JJ]
-[Text=family CharacterOffsetBegin=204 CharacterOffsetEnd=210 PartOfSpeech=NN]
-[Text=members CharacterOffsetBegin=211 CharacterOffsetEnd=218 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=.]
+[Text=She CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=gone CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=VBN Lemma=go NamedEntityTag=O]
+[Text=through CharacterOffsetBegin=120 CharacterOffsetEnd=127 PartOfSpeech=IN Lemma=through NamedEntityTag=O]
+[Text=too CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=RB Lemma=too NamedEntityTag=O]
+[Text=much CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=JJ Lemma=much NamedEntityTag=O]
+[Text=betrayal CharacterOffsetBegin=137 CharacterOffsetEnd=145 PartOfSpeech=NN Lemma=betrayal NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=character CharacterOffsetBegin=151 CharacterOffsetEnd=160 PartOfSpeech=NN Lemma=character NamedEntityTag=O]
+[Text=development CharacterOffsetBegin=161 CharacterOffsetEnd=172 PartOfSpeech=NN Lemma=development NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=172 CharacterOffsetEnd=173 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=VB Lemma=do NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=of CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=last CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=JJ Lemma=last NamedEntityTag=O]
+[Text=family CharacterOffsetBegin=204 CharacterOffsetEnd=210 PartOfSpeech=NN Lemma=family NamedEntityTag=O]
+[Text=members CharacterOffsetBegin=211 CharacterOffsetEnd=218 PartOfSpeech=NNS Lemma=member NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (VBZ 's)
+      (VP (VBN gone)
+        (PP (IN through)
+          (NP
+            (NP
+              (ADJP (RB too) (JJ much))
+              (NN betrayal))
+            (PRN (-LRB- -LRB-)
+              (CC and)
+              (NP
+                (NP (NN character))
+                (NP (NN development)))
+              (-RRB- -RRB-))))
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (NP (DT that))
+              (PP (TO to)
+                (NP
+                  (NP (CD one))
+                  (PP (IN of)
+                    (NP (PRP$ her) (JJ last) (NN family) (NNS members))))))))))
+    (. .)))
+
+root(ROOT-0, gone-3)
+nsubjpass(gone-3, She-1)
+nsubj:xsubj(do-14, She-1)
+auxpass(gone-3, 's-2)
+case(betrayal-7, through-4)
+advmod(much-6, too-5)
+amod(betrayal-7, much-6)
+nmod:through(gone-3, betrayal-7)
+punct(character-10, -LRB--8)
+cc(character-10, and-9)
+dep(betrayal-7, character-10)
+dep(character-10, development-11)
+punct(character-10, -RRB--12)
+mark(do-14, to-13)
+xcomp(gone-3, do-14)
+dobj(do-14, that-15)
+case(one-17, to-16)
+nmod:to(do-14, one-17)
+case(members-22, of-18)
+nmod:poss(members-22, her-19)
+amod(members-22, last-20)
+compound(members-22, family-21)
+nmod:of(one-17, members-22)
+punct(gone-3, .-23)
+
+Coreference set:
+	(1,6,[6,7]) -> (1,1,[1,2]), that is: "she" -> "Sansa"
+	(1,11,[11,12]) -> (1,1,[1,2]), that is: "she" -> "Sansa"
+Coreference set:
+	(3,1,[1,2]) -> (2,6,[6,7]), that is: "She" -> "Varys"
+Coreference set:
+	(3,15,[15,16]) -> (3,10,[10,12]), that is: "that" -> "character development"

@@ -1,45 +1,140 @@
 Sentence #1 (9 tokens):
 Zombie Gregor Clegane has the head of Joffrey.
-[Text=Zombie CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP]
-[Text=Gregor CharacterOffsetBegin=7 CharacterOffsetEnd=13 PartOfSpeech=NNP]
-[Text=Clegane CharacterOffsetBegin=14 CharacterOffsetEnd=21 PartOfSpeech=NNP]
-[Text=has CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=DT]
-[Text=head CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=IN]
-[Text=Joffrey CharacterOffsetBegin=38 CharacterOffsetEnd=45 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=.]
+[Text=Zombie CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Zombie NamedEntityTag=O]
+[Text=Gregor CharacterOffsetBegin=7 CharacterOffsetEnd=13 PartOfSpeech=NNP Lemma=Gregor NamedEntityTag=PERSON]
+[Text=Clegane CharacterOffsetBegin=14 CharacterOffsetEnd=21 PartOfSpeech=NNP Lemma=Clegane NamedEntityTag=PERSON]
+[Text=has CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=head CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=NN Lemma=head NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Joffrey CharacterOffsetBegin=38 CharacterOffsetEnd=45 PartOfSpeech=NNP Lemma=Joffrey NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Zombie) (NNP Gregor) (NNP Clegane))
+    (VP (VBZ has)
+      (NP
+        (NP (DT the) (NN head))
+        (PP (IN of)
+          (NP (NNP Joffrey)))))
+    (. .)))
+
+root(ROOT-0, has-4)
+compound(Clegane-3, Zombie-1)
+compound(Clegane-3, Gregor-2)
+nsubj(has-4, Clegane-3)
+det(head-6, the-5)
+dobj(has-4, head-6)
+case(Joffrey-8, of-7)
+nmod:of(head-6, Joffrey-8)
+punct(has-4, .-9)
+
 Sentence #2 (11 tokens):
 Because the eye color isn't right, you dig?
-[Text=Because CharacterOffsetBegin=47 CharacterOffsetEnd=54 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=DT]
-[Text=eye CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=NN]
-[Text=color CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=VBZ]
-[Text=n't CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=RB]
-[Text=right CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=,]
-[Text=you CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=PRP]
-[Text=dig CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=VB]
-[Text=? CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=.]
+[Text=Because CharacterOffsetBegin=47 CharacterOffsetEnd=54 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=eye CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=NN Lemma=eye NamedEntityTag=O]
+[Text=color CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=NN Lemma=color NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=right CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=RB Lemma=right NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=dig CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=VB Lemma=dig NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR (IN Because)
+      (S
+        (NP (DT the) (NN eye) (NN color))
+        (VP (VBZ is) (RB n't)
+          (ADJP (RB right)))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VB dig))
+    (. ?)))
+
+root(ROOT-0, dig-10)
+mark(right-7, Because-1)
+det(color-4, the-2)
+compound(color-4, eye-3)
+nsubj(right-7, color-4)
+cop(right-7, is-5)
+neg(right-7, n't-6)
+advcl:because(dig-10, right-7)
+punct(dig-10, ,-8)
+nsubj(dig-10, you-9)
+punct(dig-10, ?-11)
+
 Sentence #3 (19 tokens):
 And Joffrey's head was less decomposed so Qyburn thought it would work better than Gregor's head.
-[Text=And CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=CC]
-[Text=Joffrey CharacterOffsetBegin=95 CharacterOffsetEnd=102 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=POS]
-[Text=head CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=NN]
-[Text=was CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=VBD]
-[Text=less CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=RBR]
-[Text=decomposed CharacterOffsetBegin=119 CharacterOffsetEnd=129 PartOfSpeech=VBN]
-[Text=so CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=RB]
-[Text=Qyburn CharacterOffsetBegin=133 CharacterOffsetEnd=139 PartOfSpeech=JJ]
-[Text=thought CharacterOffsetBegin=140 CharacterOffsetEnd=147 PartOfSpeech=VBD]
-[Text=it CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=MD]
-[Text=work CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=VB]
-[Text=better CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=JJR]
-[Text=than CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=IN]
-[Text=Gregor CharacterOffsetBegin=174 CharacterOffsetEnd=180 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=POS]
-[Text=head CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=.]
+[Text=And CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Joffrey CharacterOffsetBegin=95 CharacterOffsetEnd=102 PartOfSpeech=NNP Lemma=Joffrey NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=head CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=NN Lemma=head NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=less CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=RBR Lemma=less NamedEntityTag=O]
+[Text=decomposed CharacterOffsetBegin=119 CharacterOffsetEnd=129 PartOfSpeech=VBN Lemma=decompose NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=Qyburn CharacterOffsetBegin=133 CharacterOffsetEnd=139 PartOfSpeech=JJ Lemma=qyburn NamedEntityTag=PERSON]
+[Text=thought CharacterOffsetBegin=140 CharacterOffsetEnd=147 PartOfSpeech=VBD Lemma=think NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=work CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=VB Lemma=work NamedEntityTag=O]
+[Text=better CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=JJR Lemma=better NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=Gregor CharacterOffsetBegin=174 CharacterOffsetEnd=180 PartOfSpeech=NNP Lemma=Gregor NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=head CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=NN Lemma=head NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC And)
+    (NP
+      (NP (NNP Joffrey) (POS 's))
+      (NN head))
+    (VP (VBD was)
+      (ADVP (RBR less))
+      (VP (VBN decomposed)
+        (SBAR
+          (S
+            (NP (RB so) (JJ Qyburn))
+            (VP (VBD thought)
+              (SBAR
+                (S
+                  (NP (PRP it))
+                  (VP (MD would)
+                    (VP (VB work)
+                      (NP (JJR better))
+                      (PP (IN than)
+                        (NP
+                          (NP (NNP Gregor) (POS 's))
+                          (NN head))))))))))))
+    (. .)))
+
+root(ROOT-0, decomposed-7)
+cc(decomposed-7, And-1)
+nmod:poss(head-4, Joffrey-2)
+case(Joffrey-2, 's-3)
+nsubjpass(decomposed-7, head-4)
+auxpass(decomposed-7, was-5)
+advmod(decomposed-7, less-6)
+advmod(Qyburn-9, so-8)
+nsubj(thought-10, Qyburn-9)
+ccomp(decomposed-7, thought-10)
+nsubj(work-13, it-11)
+aux(work-13, would-12)
+ccomp(thought-10, work-13)
+dobj(work-13, better-14)
+case(head-18, than-15)
+nmod:poss(head-18, Gregor-16)
+case(Gregor-16, 's-17)
+nmod:than(work-13, head-18)
+punct(decomposed-7, .-19)
+
+Coreference set:
+	(3,2,[2,4]) -> (1,8,[8,9]), that is: "Joffrey 's" -> "Joffrey"
+	(3,11,[11,12]) -> (1,8,[8,9]), that is: "it" -> "Joffrey"
+Coreference set:
+	(3,16,[16,18]) -> (1,3,[1,4]), that is: "Gregor 's" -> "Zombie Gregor Clegane"
+Coreference set:
+	(1,6,[5,9]) -> (3,4,[2,5]), that is: "the head of Joffrey" -> "Joffrey 's head"

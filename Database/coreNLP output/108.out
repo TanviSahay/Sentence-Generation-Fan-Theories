@@ -1,173 +1,527 @@
 Sentence #1 (7 tokens):
 Jon Snow is fireproof like Daenerys.
-[Text=Jon CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ]
-[Text=fireproof CharacterOffsetBegin=12 CharacterOffsetEnd=21 PartOfSpeech=JJ]
-[Text=like CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=IN]
-[Text=Daenerys CharacterOffsetBegin=27 CharacterOffsetEnd=35 PartOfSpeech=NNPS]
-[Text=. CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=.]
+[Text=Jon CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=9 CharacterOffsetEnd=11 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=fireproof CharacterOffsetBegin=12 CharacterOffsetEnd=21 PartOfSpeech=JJ Lemma=fireproof NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=Daenerys CharacterOffsetBegin=27 CharacterOffsetEnd=35 PartOfSpeech=NNPS Lemma=Daenerys NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=35 CharacterOffsetEnd=36 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Jon) (NNP Snow))
+    (VP (VBZ is)
+      (ADJP (JJ fireproof)
+        (PP (IN like)
+          (NP (NNPS Daenerys)))))
+    (. .)))
+
+root(ROOT-0, fireproof-4)
+compound(Snow-2, Jon-1)
+nsubj(fireproof-4, Snow-2)
+cop(fireproof-4, is-3)
+case(Daenerys-6, like-5)
+nmod:like(fireproof-4, Daenerys-6)
+punct(fireproof-4, .-7)
+
 Sentence #2 (34 tokens):
 We are now pretty damned certain that Jon Snow is Daenerys's nephew, although this still hasn't been 100% proven, despite the flashback scene at the Tower of Joy.
-[Text=We CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=PRP]
-[Text=are CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=VBP]
-[Text=now CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=RB]
-[Text=pretty CharacterOffsetBegin=48 CharacterOffsetEnd=54 PartOfSpeech=RB]
-[Text=damned CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=RB]
-[Text=certain CharacterOffsetBegin=62 CharacterOffsetEnd=69 PartOfSpeech=JJ]
-[Text=that CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=IN]
-[Text=Jon CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=VBZ]
-[Text=Daenerys CharacterOffsetBegin=87 CharacterOffsetEnd=95 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=POS]
-[Text=nephew CharacterOffsetBegin=98 CharacterOffsetEnd=104 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=,]
-[Text=although CharacterOffsetBegin=106 CharacterOffsetEnd=114 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=DT]
-[Text=still CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=RB]
-[Text=has CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=VBZ]
-[Text=n't CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=RB]
-[Text=been CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=VBN]
-[Text=100 CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=CD]
-[Text=% CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=NN]
-[Text=proven CharacterOffsetBegin=143 CharacterOffsetEnd=149 PartOfSpeech=VBN]
-[Text=, CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=,]
-[Text=despite CharacterOffsetBegin=151 CharacterOffsetEnd=158 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=DT]
-[Text=flashback CharacterOffsetBegin=163 CharacterOffsetEnd=172 PartOfSpeech=NN]
-[Text=scene CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=DT]
-[Text=Tower CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=IN]
-[Text=Joy CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=.]
+[Text=We CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=pretty CharacterOffsetBegin=48 CharacterOffsetEnd=54 PartOfSpeech=RB Lemma=pretty NamedEntityTag=O]
+[Text=damned CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=RB Lemma=damned NamedEntityTag=O]
+[Text=certain CharacterOffsetBegin=62 CharacterOffsetEnd=69 PartOfSpeech=JJ Lemma=certain NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=Daenerys CharacterOffsetBegin=87 CharacterOffsetEnd=95 PartOfSpeech=NNP Lemma=Daenerys NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=nephew CharacterOffsetBegin=98 CharacterOffsetEnd=104 PartOfSpeech=NN Lemma=nephew NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=although CharacterOffsetBegin=106 CharacterOffsetEnd=114 PartOfSpeech=IN Lemma=although NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=still CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=RB Lemma=still NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=100 CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=CD Lemma=100 NamedEntityTag=PERCENT NormalizedNamedEntityTag=%100.0]
+[Text=% CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=NN Lemma=% NamedEntityTag=PERCENT NormalizedNamedEntityTag=%100.0]
+[Text=proven CharacterOffsetBegin=143 CharacterOffsetEnd=149 PartOfSpeech=VBN Lemma=prove NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=despite CharacterOffsetBegin=151 CharacterOffsetEnd=158 PartOfSpeech=IN Lemma=despite NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=flashback CharacterOffsetBegin=163 CharacterOffsetEnd=172 PartOfSpeech=NN Lemma=flashback NamedEntityTag=O]
+[Text=scene CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=NN Lemma=scene NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Tower CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=NN Lemma=tower NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Joy CharacterOffsetBegin=195 CharacterOffsetEnd=198 PartOfSpeech=NNP Lemma=Joy NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBP are)
+      (ADVP (RB now))
+      (ADJP
+        (ADJP (RB pretty) (RB damned) (JJ certain))
+        (SBAR (IN that)
+          (S
+            (NP (NNP Jon) (NNP Snow))
+            (VP (VBZ is)
+              (NP
+                (NP (NNP Daenerys) (POS 's))
+                (NN nephew))
+              (, ,)
+              (SBAR (IN although)
+                (S
+                  (NP (DT this))
+                  (ADVP (RB still))
+                  (VP (VBZ has) (RB n't)
+                    (VP (VBN been)
+                      (VP
+                        (NP (CD 100) (NN %))
+                        (VBN proven))))))
+              (, ,)
+              (PP (IN despite)
+                (NP (DT the) (NN flashback) (NN scene)))
+              (PP (IN at)
+                (NP
+                  (NP (DT the) (NN Tower))
+                  (PP (IN of)
+                    (NP (NNP Joy))))))))))
+    (. .)))
+
+root(ROOT-0, certain-6)
+nsubj(certain-6, We-1)
+cop(certain-6, are-2)
+advmod(certain-6, now-3)
+advmod(certain-6, pretty-4)
+advmod(certain-6, damned-5)
+mark(nephew-13, that-7)
+compound(Snow-9, Jon-8)
+nsubj(nephew-13, Snow-9)
+cop(nephew-13, is-10)
+nmod:poss(nephew-13, Daenerys-11)
+case(Daenerys-11, 's-12)
+ccomp(certain-6, nephew-13)
+punct(nephew-13, ,-14)
+mark(proven-23, although-15)
+nsubjpass(proven-23, this-16)
+advmod(proven-23, still-17)
+aux(proven-23, has-18)
+neg(proven-23, n't-19)
+auxpass(proven-23, been-20)
+nummod(%-22, 100-21)
+dobj(proven-23, %-22)
+advcl:although(nephew-13, proven-23)
+punct(nephew-13, ,-24)
+case(scene-28, despite-25)
+det(scene-28, the-26)
+compound(scene-28, flashback-27)
+nmod:despite(nephew-13, scene-28)
+case(Tower-31, at-29)
+det(Tower-31, the-30)
+nmod:at(nephew-13, Tower-31)
+case(Joy-33, of-32)
+nmod:of(Tower-31, Joy-33)
+punct(certain-6, .-34)
+
 Sentence #3 (47 tokens):
 Assuming this is fact, then fans have reckoned that Jon's Targaryen blood has given him special powers that he doesn't even know he has (other than, you know, coming back to life and surviving epic battles despite crazy odds).
-[Text=Assuming CharacterOffsetBegin=201 CharacterOffsetEnd=209 PartOfSpeech=VBG]
-[Text=this CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=DT]
-[Text=is CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=VBZ]
-[Text=fact CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=,]
-[Text=then CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=RB]
-[Text=fans CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=VBP]
-[Text=reckoned CharacterOffsetBegin=239 CharacterOffsetEnd=247 PartOfSpeech=VBN]
-[Text=that CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=IN]
-[Text=Jon CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=POS]
-[Text=Targaryen CharacterOffsetBegin=259 CharacterOffsetEnd=268 PartOfSpeech=JJ]
-[Text=blood CharacterOffsetBegin=269 CharacterOffsetEnd=274 PartOfSpeech=NN]
-[Text=has CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=VBZ]
-[Text=given CharacterOffsetBegin=279 CharacterOffsetEnd=284 PartOfSpeech=VBN]
-[Text=him CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=PRP]
-[Text=special CharacterOffsetBegin=289 CharacterOffsetEnd=296 PartOfSpeech=JJ]
-[Text=powers CharacterOffsetBegin=297 CharacterOffsetEnd=303 PartOfSpeech=NNS]
-[Text=that CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=PRP]
-[Text=does CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=VBZ]
-[Text=n't CharacterOffsetBegin=316 CharacterOffsetEnd=319 PartOfSpeech=RB]
-[Text=even CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=RB]
-[Text=know CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=VB]
-[Text=he CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=PRP]
-[Text=has CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=VBZ]
-[Text=-LRB- CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=-LRB-]
-[Text=other CharacterOffsetBegin=338 CharacterOffsetEnd=343 PartOfSpeech=JJ]
-[Text=than CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=IN]
-[Text=, CharacterOffsetBegin=348 CharacterOffsetEnd=349 PartOfSpeech=,]
-[Text=you CharacterOffsetBegin=350 CharacterOffsetEnd=353 PartOfSpeech=PRP]
-[Text=know CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=VBP]
-[Text=, CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=,]
-[Text=coming CharacterOffsetBegin=360 CharacterOffsetEnd=366 PartOfSpeech=VBG]
-[Text=back CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=372 CharacterOffsetEnd=374 PartOfSpeech=TO]
-[Text=life CharacterOffsetBegin=375 CharacterOffsetEnd=379 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=CC]
-[Text=surviving CharacterOffsetBegin=384 CharacterOffsetEnd=393 PartOfSpeech=VBG]
-[Text=epic CharacterOffsetBegin=394 CharacterOffsetEnd=398 PartOfSpeech=NN]
-[Text=battles CharacterOffsetBegin=399 CharacterOffsetEnd=406 PartOfSpeech=NNS]
-[Text=despite CharacterOffsetBegin=407 CharacterOffsetEnd=414 PartOfSpeech=IN]
-[Text=crazy CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=JJ]
-[Text=odds CharacterOffsetBegin=421 CharacterOffsetEnd=425 PartOfSpeech=NNS]
-[Text=-RRB- CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=-RRB-]
-[Text=. CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=.]
+[Text=Assuming CharacterOffsetBegin=201 CharacterOffsetEnd=209 PartOfSpeech=VBG Lemma=assume NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=fact CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=NN Lemma=fact NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=then CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=RB Lemma=then NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=reckoned CharacterOffsetBegin=239 CharacterOffsetEnd=247 PartOfSpeech=VBN Lemma=reckon NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=256 CharacterOffsetEnd=258 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Targaryen CharacterOffsetBegin=259 CharacterOffsetEnd=268 PartOfSpeech=JJ Lemma=targaryen NamedEntityTag=O]
+[Text=blood CharacterOffsetBegin=269 CharacterOffsetEnd=274 PartOfSpeech=NN Lemma=blood NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=given CharacterOffsetBegin=279 CharacterOffsetEnd=284 PartOfSpeech=VBN Lemma=give NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=special CharacterOffsetBegin=289 CharacterOffsetEnd=296 PartOfSpeech=JJ Lemma=special NamedEntityTag=O]
+[Text=powers CharacterOffsetBegin=297 CharacterOffsetEnd=303 PartOfSpeech=NNS Lemma=power NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=does CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=316 CharacterOffsetEnd=319 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=even CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=RB Lemma=even NamedEntityTag=O]
+[Text=know CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=VB Lemma=know NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=338 CharacterOffsetEnd=343 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=348 CharacterOffsetEnd=349 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=350 CharacterOffsetEnd=353 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=know CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=VBP Lemma=know NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=358 CharacterOffsetEnd=359 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=coming CharacterOffsetBegin=360 CharacterOffsetEnd=366 PartOfSpeech=VBG Lemma=come NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=372 CharacterOffsetEnd=374 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=life CharacterOffsetBegin=375 CharacterOffsetEnd=379 PartOfSpeech=NN Lemma=life NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=surviving CharacterOffsetBegin=384 CharacterOffsetEnd=393 PartOfSpeech=VBG Lemma=survive NamedEntityTag=O]
+[Text=epic CharacterOffsetBegin=394 CharacterOffsetEnd=398 PartOfSpeech=NN Lemma=epic NamedEntityTag=O]
+[Text=battles CharacterOffsetBegin=399 CharacterOffsetEnd=406 PartOfSpeech=NNS Lemma=battle NamedEntityTag=O]
+[Text=despite CharacterOffsetBegin=407 CharacterOffsetEnd=414 PartOfSpeech=IN Lemma=despite NamedEntityTag=O]
+[Text=crazy CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=JJ Lemma=crazy NamedEntityTag=O]
+[Text=odds CharacterOffsetBegin=421 CharacterOffsetEnd=425 PartOfSpeech=NNS Lemma=odds NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=425 CharacterOffsetEnd=426 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (S
+        (VP (VBG Assuming)
+          (NP (DT this))))
+      (VP (VBZ is)
+        (NP (NN fact))))
+    (, ,) (RB then)
+    (S
+      (NP (NNS fans))
+      (VP (VBP have)
+        (VP (VBN reckoned)
+          (SBAR (IN that)
+            (S
+              (NP
+                (NP (NNP Jon) (POS 's))
+                (JJ Targaryen) (NN blood))
+              (VP (VBZ has)
+                (VP (VBN given)
+                  (NP (PRP him))
+                  (NP
+                    (NP (JJ special) (NNS powers))
+                    (SBAR (IN that)
+                      (S
+                        (NP (PRP he))
+                        (VP (VBZ does) (RB n't)
+                          (ADVP (RB even))
+                          (VP (VB know)
+                            (S
+                              (NP (PRP he))
+                              (VP (VBZ has)))
+                            (PRN (-LRB- -LRB-)
+                              (ADJP (JJ other)
+                                (PP (IN than)
+                                  (PRN (, ,)
+                                    (S
+                                      (NP (PRP you))
+                                      (VP (VBP know)))
+                                    (, ,))
+                                  (S
+                                    (VP
+                                      (VP (VBG coming)
+                                        (ADVP (RB back))
+                                        (PP (TO to)
+                                          (NP (NN life))))
+                                      (CC and)
+                                      (VP (VBG surviving)
+                                        (NP (NN epic) (NNS battles))
+                                        (PP (IN despite)
+                                          (NP (JJ crazy) (NNS odds))))))))
+                              (-RRB- -RRB-))))))))))))))
+    (. .)))
+
+root(ROOT-0, fact-4)
+csubj(fact-4, Assuming-1)
+dobj(Assuming-1, this-2)
+cop(fact-4, is-3)
+punct(fact-4, ,-5)
+advmod(reckoned-9, then-6)
+nsubj(reckoned-9, fans-7)
+aux(reckoned-9, have-8)
+parataxis(fact-4, reckoned-9)
+mark(given-16, that-10)
+nmod:poss(blood-14, Jon-11)
+case(Jon-11, 's-12)
+amod(blood-14, Targaryen-13)
+nsubj(given-16, blood-14)
+aux(given-16, has-15)
+ccomp(reckoned-9, given-16)
+iobj(given-16, him-17)
+amod(powers-19, special-18)
+dobj(given-16, powers-19)
+mark(know-25, that-20)
+nsubj(know-25, he-21)
+aux(know-25, does-22)
+neg(know-25, n't-23)
+advmod(know-25, even-24)
+dep(powers-19, know-25)
+nsubj(has-27, he-26)
+ccomp(know-25, has-27)
+punct(other-29, -LRB--28)
+dep(know-25, other-29)
+case(coming-35, than-30)
+punct(know-33, ,-31)
+nsubj(know-33, you-32)
+dep(coming-35, know-33)
+punct(know-33, ,-34)
+advcl:than(other-29, coming-35)
+advmod(coming-35, back-36)
+case(life-38, to-37)
+nmod:to(coming-35, life-38)
+cc(coming-35, and-39)
+advcl:than(other-29, surviving-40)
+conj:and(coming-35, surviving-40)
+compound(battles-42, epic-41)
+dobj(surviving-40, battles-42)
+case(odds-45, despite-43)
+amod(odds-45, crazy-44)
+nmod:despite(surviving-40, odds-45)
+punct(other-29, -RRB--46)
+punct(fact-4, .-47)
+
 Sentence #4 (16 tokens):
 So maybe, like his aunt, he's immune to powerful heat and fire?
-[Text=So CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=IN]
-[Text=maybe CharacterOffsetBegin=432 CharacterOffsetEnd=437 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=437 CharacterOffsetEnd=438 PartOfSpeech=,]
-[Text=like CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=PRP$]
-[Text=aunt CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=452 CharacterOffsetEnd=453 PartOfSpeech=,]
-[Text=he CharacterOffsetBegin=454 CharacterOffsetEnd=456 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=VBZ]
-[Text=immune CharacterOffsetBegin=459 CharacterOffsetEnd=465 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=TO]
-[Text=powerful CharacterOffsetBegin=469 CharacterOffsetEnd=477 PartOfSpeech=JJ]
-[Text=heat CharacterOffsetBegin=478 CharacterOffsetEnd=482 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=CC]
-[Text=fire CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=NN]
-[Text=? CharacterOffsetBegin=491 CharacterOffsetEnd=492 PartOfSpeech=.]
+[Text=So CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=IN Lemma=so NamedEntityTag=O]
+[Text=maybe CharacterOffsetBegin=432 CharacterOffsetEnd=437 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=437 CharacterOffsetEnd=438 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=aunt CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=NN Lemma=aunt NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=452 CharacterOffsetEnd=453 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=454 CharacterOffsetEnd=456 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=456 CharacterOffsetEnd=458 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=immune CharacterOffsetBegin=459 CharacterOffsetEnd=465 PartOfSpeech=JJ Lemma=immune NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=powerful CharacterOffsetBegin=469 CharacterOffsetEnd=477 PartOfSpeech=JJ Lemma=powerful NamedEntityTag=O]
+[Text=heat CharacterOffsetBegin=478 CharacterOffsetEnd=482 PartOfSpeech=NN Lemma=heat NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=fire CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=NN Lemma=fire NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=491 CharacterOffsetEnd=492 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (IN So) (RB maybe))
+    (, ,)
+    (PP (IN like)
+      (NP (PRP$ his) (NN aunt)))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBZ 's)
+      (ADJP (JJ immune)
+        (PP (TO to)
+          (NP (JJ powerful) (NN heat)
+            (CC and)
+            (NN fire)))))
+    (. ?)))
+
+root(ROOT-0, immune-10)
+case(maybe-2, So-1)
+advmod(immune-10, maybe-2)
+punct(immune-10, ,-3)
+case(aunt-6, like-4)
+nmod:poss(aunt-6, his-5)
+nmod:like(immune-10, aunt-6)
+punct(immune-10, ,-7)
+nsubj(immune-10, he-8)
+cop(immune-10, 's-9)
+case(heat-13, to-11)
+amod(heat-13, powerful-12)
+nmod:to(immune-10, heat-13)
+cc(heat-13, and-14)
+nmod:to(immune-10, fire-15)
+conj:and(heat-13, fire-15)
+punct(immune-10, ?-16)
+
 Sentence #5 (5 tokens):
 Well, probably not.
-[Text=Well CharacterOffsetBegin=493 CharacterOffsetEnd=497 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=497 CharacterOffsetEnd=498 PartOfSpeech=,]
-[Text=probably CharacterOffsetBegin=499 CharacterOffsetEnd=507 PartOfSpeech=RB]
-[Text=not CharacterOffsetBegin=508 CharacterOffsetEnd=511 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=511 CharacterOffsetEnd=512 PartOfSpeech=.]
+[Text=Well CharacterOffsetBegin=493 CharacterOffsetEnd=497 PartOfSpeech=RB Lemma=well NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=497 CharacterOffsetEnd=498 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=probably CharacterOffsetBegin=499 CharacterOffsetEnd=507 PartOfSpeech=RB Lemma=probably NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=508 CharacterOffsetEnd=511 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=511 CharacterOffsetEnd=512 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (INTJ (RB Well))
+    (, ,)
+    (ADVP (RB probably) (RB not))
+    (. .)))
+
+root(ROOT-0, not-4)
+discourse(not-4, Well-1)
+punct(not-4, ,-2)
+advmod(not-4, probably-3)
+punct(not-4, .-5)
+
 Sentence #6 (30 tokens):
 Other fans have also noted that not all Targaryens have this trait, as her brother Viserys would probably have shrugged off that molten gold thrown over his head.
-[Text=Other CharacterOffsetBegin=513 CharacterOffsetEnd=518 PartOfSpeech=JJ]
-[Text=fans CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=524 CharacterOffsetEnd=528 PartOfSpeech=VBP]
-[Text=also CharacterOffsetBegin=529 CharacterOffsetEnd=533 PartOfSpeech=RB]
-[Text=noted CharacterOffsetBegin=534 CharacterOffsetEnd=539 PartOfSpeech=VBN]
-[Text=that CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=IN]
-[Text=not CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=RB]
-[Text=all CharacterOffsetBegin=549 CharacterOffsetEnd=552 PartOfSpeech=DT]
-[Text=Targaryens CharacterOffsetBegin=553 CharacterOffsetEnd=563 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=564 CharacterOffsetEnd=568 PartOfSpeech=VBP]
-[Text=this CharacterOffsetBegin=569 CharacterOffsetEnd=573 PartOfSpeech=DT]
-[Text=trait CharacterOffsetBegin=574 CharacterOffsetEnd=579 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=579 CharacterOffsetEnd=580 PartOfSpeech=,]
-[Text=as CharacterOffsetBegin=581 CharacterOffsetEnd=583 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=PRP$]
-[Text=brother CharacterOffsetBegin=588 CharacterOffsetEnd=595 PartOfSpeech=NN]
-[Text=Viserys CharacterOffsetBegin=596 CharacterOffsetEnd=603 PartOfSpeech=NNP]
-[Text=would CharacterOffsetBegin=604 CharacterOffsetEnd=609 PartOfSpeech=MD]
-[Text=probably CharacterOffsetBegin=610 CharacterOffsetEnd=618 PartOfSpeech=RB]
-[Text=have CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=VB]
-[Text=shrugged CharacterOffsetBegin=624 CharacterOffsetEnd=632 PartOfSpeech=VBN]
-[Text=off CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=RP]
-[Text=that CharacterOffsetBegin=637 CharacterOffsetEnd=641 PartOfSpeech=DT]
-[Text=molten CharacterOffsetBegin=642 CharacterOffsetEnd=648 PartOfSpeech=NN]
-[Text=gold CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=NN]
-[Text=thrown CharacterOffsetBegin=654 CharacterOffsetEnd=660 PartOfSpeech=VBN]
-[Text=over CharacterOffsetBegin=661 CharacterOffsetEnd=665 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=666 CharacterOffsetEnd=669 PartOfSpeech=PRP$]
-[Text=head CharacterOffsetBegin=670 CharacterOffsetEnd=674 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=674 CharacterOffsetEnd=675 PartOfSpeech=.]
+[Text=Other CharacterOffsetBegin=513 CharacterOffsetEnd=518 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=524 CharacterOffsetEnd=528 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=529 CharacterOffsetEnd=533 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=noted CharacterOffsetBegin=534 CharacterOffsetEnd=539 PartOfSpeech=VBN Lemma=note NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=549 CharacterOffsetEnd=552 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=Targaryens CharacterOffsetBegin=553 CharacterOffsetEnd=563 PartOfSpeech=NNS Lemma=targaryen NamedEntityTag=PERSON]
+[Text=have CharacterOffsetBegin=564 CharacterOffsetEnd=568 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=569 CharacterOffsetEnd=573 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=trait CharacterOffsetBegin=574 CharacterOffsetEnd=579 PartOfSpeech=NN Lemma=trait NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=579 CharacterOffsetEnd=580 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=581 CharacterOffsetEnd=583 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=brother CharacterOffsetBegin=588 CharacterOffsetEnd=595 PartOfSpeech=NN Lemma=brother NamedEntityTag=O]
+[Text=Viserys CharacterOffsetBegin=596 CharacterOffsetEnd=603 PartOfSpeech=NNP Lemma=Viserys NamedEntityTag=PERSON]
+[Text=would CharacterOffsetBegin=604 CharacterOffsetEnd=609 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=probably CharacterOffsetBegin=610 CharacterOffsetEnd=618 PartOfSpeech=RB Lemma=probably NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=shrugged CharacterOffsetBegin=624 CharacterOffsetEnd=632 PartOfSpeech=VBN Lemma=shrug NamedEntityTag=O]
+[Text=off CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=RP Lemma=off NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=637 CharacterOffsetEnd=641 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=molten CharacterOffsetBegin=642 CharacterOffsetEnd=648 PartOfSpeech=NN Lemma=molten NamedEntityTag=O]
+[Text=gold CharacterOffsetBegin=649 CharacterOffsetEnd=653 PartOfSpeech=NN Lemma=gold NamedEntityTag=O]
+[Text=thrown CharacterOffsetBegin=654 CharacterOffsetEnd=660 PartOfSpeech=VBN Lemma=throw NamedEntityTag=O]
+[Text=over CharacterOffsetBegin=661 CharacterOffsetEnd=665 PartOfSpeech=IN Lemma=over NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=666 CharacterOffsetEnd=669 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=head CharacterOffsetBegin=670 CharacterOffsetEnd=674 PartOfSpeech=NN Lemma=head NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=674 CharacterOffsetEnd=675 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (JJ Other) (NNS fans))
+    (VP (VBP have)
+      (ADVP (RB also))
+      (VP (VBN noted)
+        (SBAR (IN that)
+          (S
+            (NP (RB not) (DT all) (NNS Targaryens))
+            (VP (VBP have)
+              (NP (DT this) (NN trait))
+              (, ,)
+              (SBAR (IN as)
+                (S
+                  (NP (PRP$ her) (NN brother) (NNP Viserys))
+                  (VP (MD would)
+                    (ADVP (RB probably))
+                    (VP (VB have)
+                      (VP (VBN shrugged)
+                        (PRT (RP off))
+                        (NP
+                          (NP (DT that) (NN molten) (NN gold))
+                          (VP (VBN thrown)
+                            (PP (IN over)
+                              (NP (PRP$ his) (NN head)))))))))))))))
+    (. .)))
+
+root(ROOT-0, noted-5)
+amod(fans-2, Other-1)
+nsubj(noted-5, fans-2)
+aux(noted-5, have-3)
+advmod(noted-5, also-4)
+mark(have-10, that-6)
+neg(Targaryens-9, not-7)
+det(Targaryens-9, all-8)
+nsubj(have-10, Targaryens-9)
+ccomp(noted-5, have-10)
+det(trait-12, this-11)
+dobj(have-10, trait-12)
+punct(have-10, ,-13)
+mark(shrugged-21, as-14)
+nmod:poss(Viserys-17, her-15)
+compound(Viserys-17, brother-16)
+nsubj(shrugged-21, Viserys-17)
+aux(shrugged-21, would-18)
+advmod(shrugged-21, probably-19)
+aux(shrugged-21, have-20)
+advcl:as(have-10, shrugged-21)
+compound:prt(shrugged-21, off-22)
+det(gold-25, that-23)
+compound(gold-25, molten-24)
+dobj(shrugged-21, gold-25)
+acl(gold-25, thrown-26)
+case(head-29, over-27)
+nmod:poss(head-29, his-28)
+nmod:over(thrown-26, head-29)
+punct(noted-5, .-30)
+
 Sentence #7 (12 tokens):
 But we could still see some unexpected traits from Jon yet.
-[Text=But CharacterOffsetBegin=678 CharacterOffsetEnd=681 PartOfSpeech=CC]
-[Text=we CharacterOffsetBegin=682 CharacterOffsetEnd=684 PartOfSpeech=PRP]
-[Text=could CharacterOffsetBegin=685 CharacterOffsetEnd=690 PartOfSpeech=MD]
-[Text=still CharacterOffsetBegin=691 CharacterOffsetEnd=696 PartOfSpeech=RB]
-[Text=see CharacterOffsetBegin=697 CharacterOffsetEnd=700 PartOfSpeech=VB]
-[Text=some CharacterOffsetBegin=701 CharacterOffsetEnd=705 PartOfSpeech=DT]
-[Text=unexpected CharacterOffsetBegin=706 CharacterOffsetEnd=716 PartOfSpeech=JJ]
-[Text=traits CharacterOffsetBegin=717 CharacterOffsetEnd=723 PartOfSpeech=NNS]
-[Text=from CharacterOffsetBegin=724 CharacterOffsetEnd=728 PartOfSpeech=IN]
-[Text=Jon CharacterOffsetBegin=729 CharacterOffsetEnd=732 PartOfSpeech=NNP]
-[Text=yet CharacterOffsetBegin=733 CharacterOffsetEnd=736 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=736 CharacterOffsetEnd=737 PartOfSpeech=.]
+[Text=But CharacterOffsetBegin=678 CharacterOffsetEnd=681 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=682 CharacterOffsetEnd=684 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=685 CharacterOffsetEnd=690 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=still CharacterOffsetBegin=691 CharacterOffsetEnd=696 PartOfSpeech=RB Lemma=still NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=697 CharacterOffsetEnd=700 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=some CharacterOffsetBegin=701 CharacterOffsetEnd=705 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=unexpected CharacterOffsetBegin=706 CharacterOffsetEnd=716 PartOfSpeech=JJ Lemma=unexpected NamedEntityTag=O]
+[Text=traits CharacterOffsetBegin=717 CharacterOffsetEnd=723 PartOfSpeech=NNS Lemma=trait NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=724 CharacterOffsetEnd=728 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=729 CharacterOffsetEnd=732 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=yet CharacterOffsetBegin=733 CharacterOffsetEnd=736 PartOfSpeech=RB Lemma=yet NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=736 CharacterOffsetEnd=737 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC But)
+    (NP (PRP we))
+    (VP (MD could)
+      (ADVP (RB still))
+      (VP (VB see)
+        (NP (DT some) (JJ unexpected) (NNS traits))
+        (PP (IN from)
+          (NP (NNP Jon)))
+        (ADVP (RB yet))))
+    (. .)))
+
+root(ROOT-0, see-5)
+cc(see-5, But-1)
+nsubj(see-5, we-2)
+aux(see-5, could-3)
+advmod(see-5, still-4)
+det(traits-8, some-6)
+amod(traits-8, unexpected-7)
+dobj(see-5, traits-8)
+case(Jon-10, from-9)
+nmod:from(see-5, Jon-10)
+advmod(see-5, yet-11)
+punct(see-5, .-12)
+
 Sentence #8 (6 tokens):
 Our money's on dragon-riding.
-[Text=Our CharacterOffsetBegin=738 CharacterOffsetEnd=741 PartOfSpeech=PRP$]
-[Text=money CharacterOffsetBegin=742 CharacterOffsetEnd=747 PartOfSpeech=NN]
-[Text='s CharacterOffsetBegin=747 CharacterOffsetEnd=749 PartOfSpeech=POS]
-[Text=on CharacterOffsetBegin=750 CharacterOffsetEnd=752 PartOfSpeech=IN]
-[Text=dragon-riding CharacterOffsetBegin=753 CharacterOffsetEnd=766 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=766 CharacterOffsetEnd=767 PartOfSpeech=.]
+[Text=Our CharacterOffsetBegin=738 CharacterOffsetEnd=741 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O]
+[Text=money CharacterOffsetBegin=742 CharacterOffsetEnd=747 PartOfSpeech=NN Lemma=money NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=747 CharacterOffsetEnd=749 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=750 CharacterOffsetEnd=752 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=dragon-riding CharacterOffsetBegin=753 CharacterOffsetEnd=766 PartOfSpeech=NN Lemma=dragon-riding NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=766 CharacterOffsetEnd=767 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP
+    (NP
+      (NP (PRP$ Our) (NN money) (POS 's))
+      (PP (IN on)
+        (NP (NN dragon-riding))))
+    (. .)))
+
+root(ROOT-0, money-2)
+nmod:poss(money-2, Our-1)
+case(money-2, 's-3)
+case(dragon-riding-5, on-4)
+nmod:on(money-2, dragon-riding-5)
+punct(money-2, .-6)
+
+Coreference set:
+	(2,9,[8,10]) -> (1,2,[1,3]), that is: "Jon Snow" -> "Jon Snow"
+	(2,13,[11,14]) -> (1,2,[1,3]), that is: "Daenerys 's nephew" -> "Jon Snow"
+	(3,11,[11,13]) -> (1,2,[1,3]), that is: "Jon 's" -> "Jon Snow"
+	(3,17,[17,18]) -> (1,2,[1,3]), that is: "him" -> "Jon Snow"
+	(3,21,[21,22]) -> (1,2,[1,3]), that is: "he" -> "Jon Snow"
+	(3,26,[26,27]) -> (1,2,[1,3]), that is: "he" -> "Jon Snow"
+	(4,5,[5,6]) -> (1,2,[1,3]), that is: "his" -> "Jon Snow"
+	(4,8,[8,9]) -> (1,2,[1,3]), that is: "he" -> "Jon Snow"
+	(7,10,[10,11]) -> (1,2,[1,3]), that is: "Jon" -> "Jon Snow"
+Coreference set:
+	(2,11,[11,13]) -> (1,6,[6,7]), that is: "Daenerys 's" -> "Daenerys"
+Coreference set:
+	(8,1,[1,2]) -> (7,2,[2,3]), that is: "Our" -> "we"
+Coreference set:
+	(3,2,[2,3]) -> (2,16,[16,17]), that is: "this" -> "this"
+Coreference set:
+	(6,15,[15,16]) -> (6,9,[9,10]), that is: "her" -> "Targaryens"
+Coreference set:
+	(6,28,[28,29]) -> (6,17,[15,18]), that is: "his" -> "her brother Viserys"

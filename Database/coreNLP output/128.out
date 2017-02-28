@@ -1,127 +1,407 @@
-Sentence #1 (20 tokens):
-Tyrion is a Targaryen
+Sentence #1 (5 tokens):
+Tyrion is a Targaryen.
+[Text=Tyrion CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Tyrion NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Targaryen CharacterOffsetBegin=12 CharacterOffsetEnd=21 PartOfSpeech=NNP Lemma=Targaryen NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Tyrion))
+    (VP (VBZ is)
+      (NP (DT a) (NNP Targaryen)))
+    (. .)))
 
+root(ROOT-0, Targaryen-4)
+nsubj(Targaryen-4, Tyrion-1)
+cop(Targaryen-4, is-2)
+det(Targaryen-4, a-3)
+punct(Targaryen-4, .-5)
+
+Sentence #2 (16 tokens):
 Remember when Tywin Lannister told Tyrion, "You're no son of mine"?
-[Text=Tyrion CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=10 CharacterOffsetEnd=11 PartOfSpeech=DT]
-[Text=Targaryen CharacterOffsetBegin=12 CharacterOffsetEnd=21 PartOfSpeech=NNP]
-[Text=Remember CharacterOffsetBegin=23 CharacterOffsetEnd=31 PartOfSpeech=VB]
-[Text=when CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=WRB]
-[Text=Tywin CharacterOffsetBegin=37 CharacterOffsetEnd=42 PartOfSpeech=NNP]
-[Text=Lannister CharacterOffsetBegin=43 CharacterOffsetEnd=52 PartOfSpeech=NNP]
-[Text=told CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=VBD]
-[Text=Tyrion CharacterOffsetBegin=58 CharacterOffsetEnd=64 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=,]
-[Text=`` CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=``]
-[Text=You CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=PRP]
-[Text='re CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=VBP]
-[Text=no CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=DT]
-[Text=son CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=IN]
-[Text=mine CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=NN]
-[Text='' CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech='']
-[Text=? CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=.]
-Sentence #2 (6 tokens):
+[Text=Remember CharacterOffsetBegin=24 CharacterOffsetEnd=32 PartOfSpeech=VB Lemma=remember NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=Tywin CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=NNP Lemma=Tywin NamedEntityTag=PERSON]
+[Text=Lannister CharacterOffsetBegin=44 CharacterOffsetEnd=53 PartOfSpeech=NNP Lemma=Lannister NamedEntityTag=PERSON]
+[Text=told CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=VBD Lemma=tell NamedEntityTag=O]
+[Text=Tyrion CharacterOffsetBegin=59 CharacterOffsetEnd=65 PartOfSpeech=NNP Lemma=Tyrion NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=67 CharacterOffsetEnd=68 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=You CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text='re CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=DT Lemma=no NamedEntityTag=O]
+[Text=son CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=NN Lemma=son NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=mine CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=NN Lemma=mine NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (SQ
+    (VP (VB Remember)
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (NNP Tywin) (NNP Lannister))
+          (VP (VBD told)
+            (NP (NNP Tyrion))
+            (, ,)
+            (S (`` ``)
+              (NP (PRP You))
+              (VP (VBP 're)
+                (NP
+                  (NP (DT no) (NN son))
+                  (PP (IN of)
+                    (NP (NN mine)))))
+              ('' ''))))))
+    (. ?)))
+
+root(ROOT-0, Remember-1)
+advmod(told-5, when-2)
+compound(Lannister-4, Tywin-3)
+nsubj(told-5, Lannister-4)
+advcl(Remember-1, told-5)
+dobj(told-5, Tyrion-6)
+punct(told-5, ,-7)
+punct(son-12, ``-8)
+nsubj(son-12, You-9)
+cop(son-12, 're-10)
+neg(son-12, no-11)
+dep(told-5, son-12)
+case(mine-14, of-13)
+nmod:of(son-12, mine-14)
+punct(son-12, ''-15)
+punct(Remember-1, ?-16)
+
+Sentence #3 (6 tokens):
 What if he meant it?
-[Text=What CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=WP]
-[Text=if CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=PRP]
-[Text=meant CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=VBD]
-[Text=it CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=PRP]
-[Text=? CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=.]
-Sentence #3 (21 tokens):
+[Text=What CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=if CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=meant CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=VBD Lemma=mean NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (SBAR (WP What) (IN if)
+    (S
+      (NP (PRP he))
+      (VP (VBD meant)
+        (NP (PRP it))))
+    (. ?)))
+
+root(ROOT-0, meant-4)
+dep(meant-4, What-1)
+mark(meant-4, if-2)
+nsubj(meant-4, he-3)
+dobj(meant-4, it-5)
+punct(meant-4, ?-6)
+
+Sentence #4 (21 tokens):
 In the books, Daenerys' dad, the Mad King, was infatuated with Tywin's wife, Joanna.
-[Text=In CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=DT]
-[Text=books CharacterOffsetBegin=119 CharacterOffsetEnd=124 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=,]
-[Text=Daenerys CharacterOffsetBegin=126 CharacterOffsetEnd=134 PartOfSpeech=NNS]
-[Text=' CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=POS]
-[Text=dad CharacterOffsetBegin=136 CharacterOffsetEnd=139 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=DT]
-[Text=Mad CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=NNP]
-[Text=King CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=,]
-[Text=was CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=VBD]
-[Text=infatuated CharacterOffsetBegin=159 CharacterOffsetEnd=169 PartOfSpeech=VBN]
-[Text=with CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=IN]
-[Text=Tywin CharacterOffsetBegin=175 CharacterOffsetEnd=180 PartOfSpeech=NN]
-[Text='s CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=POS]
-[Text=wife CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=187 CharacterOffsetEnd=188 PartOfSpeech=,]
-[Text=Joanna CharacterOffsetBegin=189 CharacterOffsetEnd=195 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=.]
-Sentence #4 (15 tokens):
+[Text=In CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=books CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=NNS Lemma=book NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Daenerys CharacterOffsetBegin=127 CharacterOffsetEnd=135 PartOfSpeech=NNS Lemma=daenery NamedEntityTag=PERSON]
+[Text=' CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=POS Lemma=' NamedEntityTag=O]
+[Text=dad CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=NN Lemma=dad NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=140 CharacterOffsetEnd=141 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mad CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=NNP Lemma=Mad NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=infatuated CharacterOffsetBegin=160 CharacterOffsetEnd=170 PartOfSpeech=VBN Lemma=infatuate NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=Tywin CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=NN Lemma=tywin NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=wife CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=NN Lemma=wife NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=188 CharacterOffsetEnd=189 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Joanna CharacterOffsetBegin=190 CharacterOffsetEnd=196 PartOfSpeech=NNP Lemma=Joanna NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (NNS books)))
+    (, ,)
+    (NP
+      (NP
+        (NP (NNS Daenerys) (POS '))
+        (NN dad))
+      (, ,)
+      (NP (DT the) (NNP Mad) (NNP King))
+      (, ,))
+    (VP (VBD was)
+      (VP (VBN infatuated)
+        (PP (IN with)
+          (NP
+            (NP
+              (NP (NN Tywin) (POS 's))
+              (NN wife))
+            (, ,)
+            (NP (NNP Joanna))))))
+    (. .)))
+
+root(ROOT-0, infatuated-14)
+case(books-3, In-1)
+det(books-3, the-2)
+nmod:in(infatuated-14, books-3)
+punct(infatuated-14, ,-4)
+nmod:poss(dad-7, Daenerys-5)
+case(Daenerys-5, '-6)
+nsubjpass(infatuated-14, dad-7)
+punct(dad-7, ,-8)
+det(King-11, the-9)
+compound(King-11, Mad-10)
+appos(dad-7, King-11)
+punct(dad-7, ,-12)
+auxpass(infatuated-14, was-13)
+case(wife-18, with-15)
+nmod:poss(wife-18, Tywin-16)
+case(Tywin-16, 's-17)
+nmod:with(infatuated-14, wife-18)
+punct(wife-18, ,-19)
+appos(wife-18, Joanna-20)
+punct(infatuated-14, .-21)
+
+Sentence #5 (15 tokens):
 George R.R. Martin also describes Tyrion as looking radically different from Cersei and Jaime.
-[Text=George CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=NNP]
-[Text=R.R. CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=NNP]
-[Text=Martin CharacterOffsetBegin=209 CharacterOffsetEnd=215 PartOfSpeech=NNP]
-[Text=also CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=RB]
-[Text=describes CharacterOffsetBegin=221 CharacterOffsetEnd=230 PartOfSpeech=VBZ]
-[Text=Tyrion CharacterOffsetBegin=231 CharacterOffsetEnd=237 PartOfSpeech=NNP]
-[Text=as CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=IN]
-[Text=looking CharacterOffsetBegin=241 CharacterOffsetEnd=248 PartOfSpeech=VBG]
-[Text=radically CharacterOffsetBegin=249 CharacterOffsetEnd=258 PartOfSpeech=RB]
-[Text=different CharacterOffsetBegin=259 CharacterOffsetEnd=268 PartOfSpeech=JJ]
-[Text=from CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=IN]
-[Text=Cersei CharacterOffsetBegin=274 CharacterOffsetEnd=280 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=CC]
-[Text=Jaime CharacterOffsetBegin=285 CharacterOffsetEnd=290 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=.]
-Sentence #5 (53 tokens):
+[Text=George CharacterOffsetBegin=198 CharacterOffsetEnd=204 PartOfSpeech=NNP Lemma=George NamedEntityTag=PERSON]
+[Text=R.R. CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=NNP Lemma=R.R. NamedEntityTag=PERSON]
+[Text=Martin CharacterOffsetBegin=210 CharacterOffsetEnd=216 PartOfSpeech=NNP Lemma=Martin NamedEntityTag=PERSON]
+[Text=also CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=describes CharacterOffsetBegin=222 CharacterOffsetEnd=231 PartOfSpeech=VBZ Lemma=describe NamedEntityTag=O]
+[Text=Tyrion CharacterOffsetBegin=232 CharacterOffsetEnd=238 PartOfSpeech=NNP Lemma=Tyrion NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=looking CharacterOffsetBegin=242 CharacterOffsetEnd=249 PartOfSpeech=VBG Lemma=look NamedEntityTag=O]
+[Text=radically CharacterOffsetBegin=250 CharacterOffsetEnd=259 PartOfSpeech=RB Lemma=radically NamedEntityTag=O]
+[Text=different CharacterOffsetBegin=260 CharacterOffsetEnd=269 PartOfSpeech=JJ Lemma=different NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=270 CharacterOffsetEnd=274 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=275 CharacterOffsetEnd=281 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=LOCATION]
+[Text=and CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Jaime CharacterOffsetBegin=286 CharacterOffsetEnd=291 PartOfSpeech=NNP Lemma=Jaime NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=291 CharacterOffsetEnd=292 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP George) (NNP R.R.) (NNP Martin))
+    (ADVP (RB also))
+    (VP (VBZ describes)
+      (NP (NNP Tyrion))
+      (PP (IN as)
+        (S
+          (VP (VBG looking)
+            (ADJP (RB radically) (JJ different))
+            (PP (IN from)
+              (NP (NNP Cersei)
+                (CC and)
+                (NNP Jaime)))))))
+    (. .)))
+
+root(ROOT-0, describes-5)
+compound(Martin-3, George-1)
+compound(Martin-3, R.R.-2)
+nsubj(describes-5, Martin-3)
+advmod(describes-5, also-4)
+dobj(describes-5, Tyrion-6)
+mark(looking-8, as-7)
+advcl:as(describes-5, looking-8)
+advmod(different-10, radically-9)
+xcomp(looking-8, different-10)
+case(Cersei-12, from-11)
+nmod:from(looking-8, Cersei-12)
+cc(Cersei-12, and-13)
+nmod:from(looking-8, Jaime-14)
+conj:and(Cersei-12, Jaime-14)
+punct(describes-5, .-15)
+
+Sentence #6 (53 tokens):
 Instead of the golden Lannister hair of his siblings, Tyrion is said to have blonde hair so pale it's almost white, much like the silvery hair of the Targaryens.Tyrion is also said to have had a life-long fascination with dragons, even dreaming of them when he was younger.
-[Text=Instead CharacterOffsetBegin=292 CharacterOffsetEnd=299 PartOfSpeech=RB]
-[Text=of CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=DT]
-[Text=golden CharacterOffsetBegin=307 CharacterOffsetEnd=313 PartOfSpeech=JJ]
-[Text=Lannister CharacterOffsetBegin=314 CharacterOffsetEnd=323 PartOfSpeech=NN]
-[Text=hair CharacterOffsetBegin=324 CharacterOffsetEnd=328 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=PRP$]
-[Text=siblings CharacterOffsetBegin=336 CharacterOffsetEnd=344 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=,]
-[Text=Tyrion CharacterOffsetBegin=346 CharacterOffsetEnd=352 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=VBZ]
-[Text=said CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=VBN]
-[Text=to CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=TO]
-[Text=have CharacterOffsetBegin=364 CharacterOffsetEnd=368 PartOfSpeech=VB]
-[Text=blonde CharacterOffsetBegin=369 CharacterOffsetEnd=375 PartOfSpeech=JJ]
-[Text=hair CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=NN]
-[Text=so CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=IN]
-[Text=pale CharacterOffsetBegin=384 CharacterOffsetEnd=388 PartOfSpeech=JJ]
-[Text=it CharacterOffsetBegin=389 CharacterOffsetEnd=391 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=VBZ]
-[Text=almost CharacterOffsetBegin=394 CharacterOffsetEnd=400 PartOfSpeech=RB]
-[Text=white CharacterOffsetBegin=401 CharacterOffsetEnd=406 PartOfSpeech=JJ]
-[Text=, CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=,]
-[Text=much CharacterOffsetBegin=408 CharacterOffsetEnd=412 PartOfSpeech=JJ]
-[Text=like CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=DT]
-[Text=silvery CharacterOffsetBegin=422 CharacterOffsetEnd=429 PartOfSpeech=JJ]
-[Text=hair CharacterOffsetBegin=430 CharacterOffsetEnd=434 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=435 CharacterOffsetEnd=437 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=438 CharacterOffsetEnd=441 PartOfSpeech=DT]
-[Text=Targaryens.Tyrion CharacterOffsetBegin=442 CharacterOffsetEnd=459 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=VBZ]
-[Text=also CharacterOffsetBegin=463 CharacterOffsetEnd=467 PartOfSpeech=RB]
-[Text=said CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=VBD]
-[Text=to CharacterOffsetBegin=473 CharacterOffsetEnd=475 PartOfSpeech=TO]
-[Text=have CharacterOffsetBegin=476 CharacterOffsetEnd=480 PartOfSpeech=VB]
-[Text=had CharacterOffsetBegin=481 CharacterOffsetEnd=484 PartOfSpeech=VBD]
-[Text=a CharacterOffsetBegin=485 CharacterOffsetEnd=486 PartOfSpeech=DT]
-[Text=life-long CharacterOffsetBegin=487 CharacterOffsetEnd=496 PartOfSpeech=JJ]
-[Text=fascination CharacterOffsetBegin=497 CharacterOffsetEnd=508 PartOfSpeech=NN]
-[Text=with CharacterOffsetBegin=509 CharacterOffsetEnd=513 PartOfSpeech=IN]
-[Text=dragons CharacterOffsetBegin=514 CharacterOffsetEnd=521 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=521 CharacterOffsetEnd=522 PartOfSpeech=,]
-[Text=even CharacterOffsetBegin=523 CharacterOffsetEnd=527 PartOfSpeech=RB]
-[Text=dreaming CharacterOffsetBegin=528 CharacterOffsetEnd=536 PartOfSpeech=VBG]
-[Text=of CharacterOffsetBegin=537 CharacterOffsetEnd=539 PartOfSpeech=IN]
-[Text=them CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=PRP]
-[Text=when CharacterOffsetBegin=545 CharacterOffsetEnd=549 PartOfSpeech=WRB]
-[Text=he CharacterOffsetBegin=550 CharacterOffsetEnd=552 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=553 CharacterOffsetEnd=556 PartOfSpeech=VBD]
-[Text=younger CharacterOffsetBegin=557 CharacterOffsetEnd=564 PartOfSpeech=JJR]
-[Text=. CharacterOffsetBegin=564 CharacterOffsetEnd=565 PartOfSpeech=.]
+[Text=Instead CharacterOffsetBegin=293 CharacterOffsetEnd=300 PartOfSpeech=RB Lemma=instead NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=301 CharacterOffsetEnd=303 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=golden CharacterOffsetBegin=308 CharacterOffsetEnd=314 PartOfSpeech=JJ Lemma=golden NamedEntityTag=O]
+[Text=Lannister CharacterOffsetBegin=315 CharacterOffsetEnd=324 PartOfSpeech=NN Lemma=lannister NamedEntityTag=O]
+[Text=hair CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=NN Lemma=hair NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=siblings CharacterOffsetBegin=337 CharacterOffsetEnd=345 PartOfSpeech=NNS Lemma=sibling NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=345 CharacterOffsetEnd=346 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Tyrion CharacterOffsetBegin=347 CharacterOffsetEnd=353 PartOfSpeech=NN Lemma=tyrion NamedEntityTag=LOCATION]
+[Text=is CharacterOffsetBegin=354 CharacterOffsetEnd=356 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=said CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=VBN Lemma=say NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=blonde CharacterOffsetBegin=370 CharacterOffsetEnd=376 PartOfSpeech=JJ Lemma=blonde NamedEntityTag=O]
+[Text=hair CharacterOffsetBegin=377 CharacterOffsetEnd=381 PartOfSpeech=NN Lemma=hair NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=382 CharacterOffsetEnd=384 PartOfSpeech=IN Lemma=so NamedEntityTag=O]
+[Text=pale CharacterOffsetBegin=385 CharacterOffsetEnd=389 PartOfSpeech=JJ Lemma=pale NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=392 CharacterOffsetEnd=394 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=almost CharacterOffsetBegin=395 CharacterOffsetEnd=401 PartOfSpeech=RB Lemma=almost NamedEntityTag=O]
+[Text=white CharacterOffsetBegin=402 CharacterOffsetEnd=407 PartOfSpeech=JJ Lemma=white NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=much CharacterOffsetBegin=409 CharacterOffsetEnd=413 PartOfSpeech=JJ Lemma=much NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=414 CharacterOffsetEnd=418 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=silvery CharacterOffsetBegin=423 CharacterOffsetEnd=430 PartOfSpeech=JJ Lemma=silvery NamedEntityTag=O]
+[Text=hair CharacterOffsetBegin=431 CharacterOffsetEnd=435 PartOfSpeech=NN Lemma=hair NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=436 CharacterOffsetEnd=438 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Targaryens.Tyrion CharacterOffsetBegin=443 CharacterOffsetEnd=460 PartOfSpeech=NN Lemma=targaryens.tyrion NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=461 CharacterOffsetEnd=463 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=464 CharacterOffsetEnd=468 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=said CharacterOffsetBegin=469 CharacterOffsetEnd=473 PartOfSpeech=VBD Lemma=say NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=474 CharacterOffsetEnd=476 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=477 CharacterOffsetEnd=481 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=had CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=VBD Lemma=have NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=486 CharacterOffsetEnd=487 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=life-long CharacterOffsetBegin=488 CharacterOffsetEnd=497 PartOfSpeech=JJ Lemma=life-long NamedEntityTag=O]
+[Text=fascination CharacterOffsetBegin=498 CharacterOffsetEnd=509 PartOfSpeech=NN Lemma=fascination NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=510 CharacterOffsetEnd=514 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=dragons CharacterOffsetBegin=515 CharacterOffsetEnd=522 PartOfSpeech=NNS Lemma=dragon NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=522 CharacterOffsetEnd=523 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=even CharacterOffsetBegin=524 CharacterOffsetEnd=528 PartOfSpeech=RB Lemma=even NamedEntityTag=O]
+[Text=dreaming CharacterOffsetBegin=529 CharacterOffsetEnd=537 PartOfSpeech=VBG Lemma=dream NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=them CharacterOffsetBegin=541 CharacterOffsetEnd=545 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=546 CharacterOffsetEnd=550 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=551 CharacterOffsetEnd=553 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=younger CharacterOffsetBegin=558 CharacterOffsetEnd=565 PartOfSpeech=JJR Lemma=younger NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=565 CharacterOffsetEnd=566 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (RB Instead)
+      (PP (IN of)
+        (NP
+          (NP (DT the) (JJ golden) (NN Lannister) (NN hair))
+          (PP (IN of)
+            (NP (PRP$ his) (NNS siblings))))))
+    (, ,)
+    (NP (NN Tyrion))
+    (VP (VBZ is)
+      (VP (VBN said)
+        (S
+          (VP (TO to)
+            (VP (VB have)
+              (NP (JJ blonde) (NN hair))
+              (SBAR (IN so)
+                (S
+                  (S
+                    (ADJP (JJ pale)
+                      (SBAR
+                        (S
+                          (NP (PRP it))
+                          (VP (VBZ 's)
+                            (ADJP
+                              (ADJP (RB almost) (JJ white))
+                              (, ,)
+                              (ADJP (JJ much)))
+                            (SBAR (IN like)
+                              (S
+                                (NP
+                                  (NP (DT the)
+                                    (ADJP (JJ silvery))
+                                    (NN hair))
+                                  (PP (IN of)
+                                    (NP (DT the) (NN Targaryens.Tyrion))))
+                                (VP (VBZ is)
+                                  (ADVP (RB also))))))))))
+                  (VP (VBD said)
+                    (S
+                      (VP (TO to)
+                        (VP (VB have)
+                          (VP (VBD had)
+                            (NP
+                              (NP (DT a) (JJ life-long) (NN fascination))
+                              (PP (IN with)
+                                (NP (NNS dragons))))))))
+                    (, ,)
+                    (S
+                      (ADVP (RB even))
+                      (VP (VBG dreaming)
+                        (PP (IN of)
+                          (NP (PRP them)))
+                        (SBAR
+                          (WHADVP (WRB when))
+                          (S
+                            (NP (PRP he))
+                            (VP (VBD was)
+                              (NP (JJR younger)))))))))))))))
+    (. .)))
+
+root(ROOT-0, said-13)
+advmod(hair-6, Instead-1)
+case(hair-6, of-2)
+det(hair-6, the-3)
+amod(hair-6, golden-4)
+compound(hair-6, Lannister-5)
+advcl:of(said-13, hair-6)
+case(siblings-9, of-7)
+nmod:poss(siblings-9, his-8)
+nmod:of(hair-6, siblings-9)
+punct(said-13, ,-10)
+nsubjpass(said-13, Tyrion-11)
+nsubj:xsubj(have-15, Tyrion-11)
+auxpass(said-13, is-12)
+mark(have-15, to-14)
+xcomp(said-13, have-15)
+amod(hair-17, blonde-16)
+dobj(have-15, hair-17)
+mark(said-35, so-18)
+csubj(said-35, pale-19)
+nsubj(white-23, it-20)
+cop(white-23, 's-21)
+advmod(white-23, almost-22)
+ccomp(pale-19, white-23)
+punct(white-23, ,-24)
+dep(white-23, much-25)
+mark(is-33, like-26)
+det(hair-29, the-27)
+amod(hair-29, silvery-28)
+nsubj(is-33, hair-29)
+case(Targaryens.Tyrion-32, of-30)
+det(Targaryens.Tyrion-32, the-31)
+nmod:of(hair-29, Targaryens.Tyrion-32)
+advcl:like(white-23, is-33)
+advmod(is-33, also-34)
+advcl:so(have-15, said-35)
+mark(had-38, to-36)
+aux(had-38, have-37)
+xcomp(said-35, had-38)
+det(fascination-41, a-39)
+amod(fascination-41, life-long-40)
+dobj(had-38, fascination-41)
+case(dragons-43, with-42)
+nmod:with(fascination-41, dragons-43)
+punct(said-35, ,-44)
+advmod(dreaming-46, even-45)
+xcomp(said-35, dreaming-46)
+case(them-48, of-47)
+nmod:of(dreaming-46, them-48)
+advmod(younger-52, when-49)
+nsubj(younger-52, he-50)
+cop(younger-52, was-51)
+advcl(dreaming-46, younger-52)
+punct(said-13, .-53)
+
+Coreference set:
+	(1,1,[1,2]) -> (2,6,[6,7]), that is: "Tyrion" -> "Tyrion"
+	(1,4,[3,5]) -> (2,6,[6,7]), that is: "a Targaryen" -> "Tyrion"
+	(5,6,[6,7]) -> (2,6,[6,7]), that is: "Tyrion" -> "Tyrion"
+Coreference set:
+	(3,3,[3,4]) -> (2,4,[3,5]), that is: "he" -> "Tywin Lannister"
+Coreference set:
+	(2,9,[9,10]) -> (2,12,[11,15]), that is: "You" -> "no son of mine"
+Coreference set:
+	(4,7,[5,8]) -> (4,11,[9,12]), that is: "Daenerys ' dad" -> "the Mad King"
+Coreference set:
+	(4,18,[16,19]) -> (4,20,[20,21]), that is: "Tywin 's wife" -> "Joanna"
+Coreference set:
+	(6,8,[8,9]) -> (5,3,[1,4]), that is: "his" -> "George R.R. Martin"
+	(6,50,[50,51]) -> (5,3,[1,4]), that is: "he" -> "George R.R. Martin"
+	(6,52,[52,53]) -> (5,3,[1,4]), that is: "younger" -> "George R.R. Martin"
+Coreference set:
+	(6,20,[20,21]) -> (6,6,[3,10]), that is: "it" -> "the golden Lannister hair of his siblings"
+Coreference set:
+	(6,48,[48,49]) -> (6,43,[43,44]), that is: "them" -> "dragons"

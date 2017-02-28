@@ -1,108 +1,345 @@
-Sentence #1 (20 tokens):
-Aegon Targaryen is alive
+Sentence #1 (5 tokens):
+Aegon Targaryen is alive.
+[Text=Aegon CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Aegon NamedEntityTag=ORGANIZATION]
+[Text=Targaryen CharacterOffsetBegin=6 CharacterOffsetEnd=15 PartOfSpeech=NNP Lemma=Targaryen NamedEntityTag=ORGANIZATION]
+[Text=is CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=alive CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=JJ Lemma=alive NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Aegon) (NNP Targaryen))
+    (VP (VBZ is)
+      (ADJP (JJ alive)))
+    (. .)))
 
+root(ROOT-0, alive-4)
+compound(Targaryen-2, Aegon-1)
+nsubj(alive-4, Targaryen-2)
+cop(alive-4, is-3)
+punct(alive-4, .-5)
+
+Sentence #2 (16 tokens):
 When Robert Baratheon overthrew the Mad King, he killed every Targaryen he could find.
-[Text=Aegon CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=Targaryen CharacterOffsetBegin=6 CharacterOffsetEnd=15 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=VBZ]
-[Text=alive CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=JJ]
-[Text=When CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=WRB]
-[Text=Robert CharacterOffsetBegin=31 CharacterOffsetEnd=37 PartOfSpeech=NNP]
-[Text=Baratheon CharacterOffsetBegin=38 CharacterOffsetEnd=47 PartOfSpeech=NNP]
-[Text=overthrew CharacterOffsetBegin=48 CharacterOffsetEnd=57 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=DT]
-[Text=Mad CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=NNP]
-[Text=King CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=,]
-[Text=he CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=PRP]
-[Text=killed CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=VBD]
-[Text=every CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=DT]
-[Text=Targaryen CharacterOffsetBegin=88 CharacterOffsetEnd=97 PartOfSpeech=NNP]
-[Text=he CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=PRP]
-[Text=could CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=MD]
-[Text=find CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=.]
-Sentence #2 (29 tokens):
+[Text=When CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=Robert CharacterOffsetBegin=32 CharacterOffsetEnd=38 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON]
+[Text=Baratheon CharacterOffsetBegin=39 CharacterOffsetEnd=48 PartOfSpeech=NNP Lemma=Baratheon NamedEntityTag=PERSON]
+[Text=overthrew CharacterOffsetBegin=49 CharacterOffsetEnd=58 PartOfSpeech=VBD Lemma=overthrow NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mad CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=NNP Lemma=Mad NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=killed CharacterOffsetBegin=76 CharacterOffsetEnd=82 PartOfSpeech=VBD Lemma=kill NamedEntityTag=O]
+[Text=every CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=DT Lemma=every NamedEntityTag=O]
+[Text=Targaryen CharacterOffsetBegin=89 CharacterOffsetEnd=98 PartOfSpeech=NNP Lemma=Targaryen NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=find CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=VB Lemma=find NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (NNP Robert) (NNP Baratheon))
+        (VP (VBD overthrew)
+          (NP (DT the) (NNP Mad) (NNP King)))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD killed)
+      (NP
+        (NP (DT every) (NNP Targaryen))
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (MD could)
+              (VP (VB find)))))))
+    (. .)))
+
+root(ROOT-0, killed-10)
+advmod(overthrew-4, When-1)
+compound(Baratheon-3, Robert-2)
+nsubj(overthrew-4, Baratheon-3)
+advcl(killed-10, overthrew-4)
+det(King-7, the-5)
+compound(King-7, Mad-6)
+dobj(overthrew-4, King-7)
+punct(killed-10, ,-8)
+nsubj(killed-10, he-9)
+det(Targaryen-12, every-11)
+dobj(killed-10, Targaryen-12)
+nsubj(find-15, he-13)
+aux(find-15, could-14)
+acl:relcl(Targaryen-12, find-15)
+punct(killed-10, .-16)
+
+Sentence #3 (29 tokens):
 But in the books, one Targaryen, Aegon, was allegedly swapped with another child by Varys and raised by Illyrio Mopatis in secret as Young Griff.
-[Text=But CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=CC]
-[Text=in CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=DT]
-[Text=books CharacterOffsetBegin=124 CharacterOffsetEnd=129 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=,]
-[Text=one CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=CD]
-[Text=Targaryen CharacterOffsetBegin=135 CharacterOffsetEnd=144 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=,]
-[Text=Aegon CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=,]
-[Text=was CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=VBD]
-[Text=allegedly CharacterOffsetBegin=157 CharacterOffsetEnd=166 PartOfSpeech=RB]
-[Text=swapped CharacterOffsetBegin=167 CharacterOffsetEnd=174 PartOfSpeech=VBN]
-[Text=with CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=IN]
-[Text=another CharacterOffsetBegin=180 CharacterOffsetEnd=187 PartOfSpeech=DT]
-[Text=child CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=NN]
-[Text=by CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=IN]
-[Text=Varys CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=CC]
-[Text=raised CharacterOffsetBegin=207 CharacterOffsetEnd=213 PartOfSpeech=VBN]
-[Text=by CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=IN]
-[Text=Illyrio CharacterOffsetBegin=217 CharacterOffsetEnd=224 PartOfSpeech=NNP]
-[Text=Mopatis CharacterOffsetBegin=225 CharacterOffsetEnd=232 PartOfSpeech=NNP]
-[Text=in CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=IN]
-[Text=secret CharacterOffsetBegin=236 CharacterOffsetEnd=242 PartOfSpeech=JJ]
-[Text=as CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=IN]
-[Text=Young CharacterOffsetBegin=246 CharacterOffsetEnd=251 PartOfSpeech=NNP]
-[Text=Griff CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=.]
-Sentence #3 (23 tokens):
+[Text=But CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=books CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=NNS Lemma=book NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=Targaryen CharacterOffsetBegin=136 CharacterOffsetEnd=145 PartOfSpeech=NNP Lemma=Targaryen NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Aegon CharacterOffsetBegin=147 CharacterOffsetEnd=152 PartOfSpeech=NNP Lemma=Aegon NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=allegedly CharacterOffsetBegin=158 CharacterOffsetEnd=167 PartOfSpeech=RB Lemma=allegedly NamedEntityTag=O]
+[Text=swapped CharacterOffsetBegin=168 CharacterOffsetEnd=175 PartOfSpeech=VBN Lemma=swap NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=another CharacterOffsetBegin=181 CharacterOffsetEnd=188 PartOfSpeech=DT Lemma=another NamedEntityTag=O]
+[Text=child CharacterOffsetBegin=189 CharacterOffsetEnd=194 PartOfSpeech=NN Lemma=child NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=Varys CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=NNP Lemma=Varys NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=raised CharacterOffsetBegin=208 CharacterOffsetEnd=214 PartOfSpeech=VBN Lemma=raise NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=Illyrio CharacterOffsetBegin=218 CharacterOffsetEnd=225 PartOfSpeech=NNP Lemma=Illyrio NamedEntityTag=PERSON]
+[Text=Mopatis CharacterOffsetBegin=226 CharacterOffsetEnd=233 PartOfSpeech=NNP Lemma=Mopatis NamedEntityTag=PERSON]
+[Text=in CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=secret CharacterOffsetBegin=237 CharacterOffsetEnd=243 PartOfSpeech=JJ Lemma=secret NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=Young CharacterOffsetBegin=247 CharacterOffsetEnd=252 PartOfSpeech=NNP Lemma=Young NamedEntityTag=PERSON]
+[Text=Griff CharacterOffsetBegin=253 CharacterOffsetEnd=258 PartOfSpeech=NNP Lemma=Griff NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC But)
+    (PP (IN in)
+      (NP (DT the) (NNS books)))
+    (, ,)
+    (NP
+      (NP (CD one) (NNP Targaryen))
+      (, ,)
+      (NP (NNP Aegon))
+      (, ,))
+    (VP (VBD was)
+      (ADVP (RB allegedly))
+      (VP
+        (VP (VBN swapped)
+          (PP (IN with)
+            (NP (DT another) (NN child)))
+          (PP (IN by)
+            (NP (NNP Varys))))
+        (CC and)
+        (VP (VBN raised)
+          (PP (IN by)
+            (NP
+              (NP (NNP Illyrio) (NNP Mopatis))
+              (PP (IN in)
+                (NP
+                  (NP (JJ secret))
+                  (PP (IN as)
+                    (NP (NNP Young) (NNP Griff))))))))))
+    (. .)))
+
+root(ROOT-0, swapped-13)
+cc(swapped-13, But-1)
+case(books-4, in-2)
+det(books-4, the-3)
+nmod:in(swapped-13, books-4)
+punct(swapped-13, ,-5)
+nummod(Targaryen-7, one-6)
+nsubjpass(swapped-13, Targaryen-7)
+nsubjpass(raised-20, Targaryen-7)
+punct(Targaryen-7, ,-8)
+appos(Targaryen-7, Aegon-9)
+punct(Targaryen-7, ,-10)
+auxpass(swapped-13, was-11)
+advmod(swapped-13, allegedly-12)
+case(child-16, with-14)
+det(child-16, another-15)
+nmod:with(swapped-13, child-16)
+case(Varys-18, by-17)
+nmod:agent(swapped-13, Varys-18)
+cc(swapped-13, and-19)
+conj:and(swapped-13, raised-20)
+case(Mopatis-23, by-21)
+compound(Mopatis-23, Illyrio-22)
+nmod:by(raised-20, Mopatis-23)
+case(secret-25, in-24)
+nmod:in(Mopatis-23, secret-25)
+case(Griff-28, as-26)
+compound(Griff-28, Young-27)
+nmod:as(secret-25, Griff-28)
+punct(swapped-13, .-29)
+
+Sentence #4 (23 tokens):
 That character has yet to appear in the show - that is, unless ... he's a character we already know?
-[Text=That CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=DT]
-[Text=character CharacterOffsetBegin=265 CharacterOffsetEnd=274 PartOfSpeech=NN]
-[Text=has CharacterOffsetBegin=275 CharacterOffsetEnd=278 PartOfSpeech=VBZ]
-[Text=yet CharacterOffsetBegin=279 CharacterOffsetEnd=282 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=283 CharacterOffsetEnd=285 PartOfSpeech=TO]
-[Text=appear CharacterOffsetBegin=286 CharacterOffsetEnd=292 PartOfSpeech=VB]
-[Text=in CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=DT]
-[Text=show CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=NN]
-[Text=- CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=:]
-[Text=that CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=WDT]
-[Text=is CharacterOffsetBegin=312 CharacterOffsetEnd=314 PartOfSpeech=VBZ]
-[Text=, CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=,]
-[Text=unless CharacterOffsetBegin=316 CharacterOffsetEnd=322 PartOfSpeech=IN]
-[Text=... CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=:]
-[Text=he CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=DT]
-[Text=character CharacterOffsetBegin=334 CharacterOffsetEnd=343 PartOfSpeech=NN]
-[Text=we CharacterOffsetBegin=344 CharacterOffsetEnd=346 PartOfSpeech=PRP]
-[Text=already CharacterOffsetBegin=347 CharacterOffsetEnd=354 PartOfSpeech=RB]
-[Text=know CharacterOffsetBegin=355 CharacterOffsetEnd=359 PartOfSpeech=VB]
-[Text=? CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=.]
-Sentence #4 (26 tokens):
+[Text=That CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=character CharacterOffsetBegin=266 CharacterOffsetEnd=275 PartOfSpeech=NN Lemma=character NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=276 CharacterOffsetEnd=279 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=yet CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=RB Lemma=yet NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=284 CharacterOffsetEnd=286 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=appear CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=VB Lemma=appear NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=297 CharacterOffsetEnd=300 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=show CharacterOffsetBegin=301 CharacterOffsetEnd=305 PartOfSpeech=NN Lemma=show NamedEntityTag=O]
+[Text=- CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=: Lemma=- NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=313 CharacterOffsetEnd=315 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=unless CharacterOffsetBegin=317 CharacterOffsetEnd=323 PartOfSpeech=IN Lemma=unless NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=: Lemma=... NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=328 CharacterOffsetEnd=330 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=character CharacterOffsetBegin=335 CharacterOffsetEnd=344 PartOfSpeech=NN Lemma=character NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=345 CharacterOffsetEnd=347 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=already CharacterOffsetBegin=348 CharacterOffsetEnd=355 PartOfSpeech=RB Lemma=already NamedEntityTag=O]
+[Text=know CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=VB Lemma=know NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=360 CharacterOffsetEnd=361 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (DT That) (NN character))
+      (VP (VBZ has)
+        (ADVP (RB yet))
+        (S
+          (VP (TO to)
+            (VP (VB appear)
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NN show))
+                  (: -)
+                  (SBAR
+                    (WHNP (WDT that))
+                    (S
+                      (VP (VBZ is)))))))))
+        (, ,)
+        (PP (IN unless))))
+    (: ...)
+    (S
+      (NP (PRP he))
+      (VP (VBZ 's)
+        (NP
+          (NP (DT a) (NN character))
+          (SBAR
+            (S
+              (NP (PRP we))
+              (ADVP (RB already))
+              (VP (VB know)))))))
+    (. ?)))
+
+root(ROOT-0, has-3)
+det(character-2, That-1)
+nsubj(has-3, character-2)
+nsubj:xsubj(appear-6, character-2)
+advmod(has-3, yet-4)
+mark(appear-6, to-5)
+xcomp(has-3, appear-6)
+case(show-9, in-7)
+det(show-9, the-8)
+nmod:in(appear-6, show-9)
+nsubj(is-12, show-9)
+punct(show-9, --10)
+ref(show-9, that-11)
+acl:relcl(show-9, is-12)
+punct(has-3, ,-13)
+nmod(has-3, unless-14)
+punct(has-3, ...-15)
+nsubj(character-19, he-16)
+cop(character-19, 's-17)
+det(character-19, a-18)
+parataxis(has-3, character-19)
+nsubj(know-22, we-20)
+advmod(know-22, already-21)
+acl:relcl(character-19, know-22)
+punct(has-3, ?-23)
+
+Sentence #5 (26 tokens):
 Some fans have suggested that Samwell Tarly or Daario Naharis could secretly be Aegon, although neither are described as looking very Targaryen in appearance.
-[Text=Some CharacterOffsetBegin=361 CharacterOffsetEnd=365 PartOfSpeech=DT]
-[Text=fans CharacterOffsetBegin=366 CharacterOffsetEnd=370 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=371 CharacterOffsetEnd=375 PartOfSpeech=VBP]
-[Text=suggested CharacterOffsetBegin=376 CharacterOffsetEnd=385 PartOfSpeech=VBN]
-[Text=that CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=IN]
-[Text=Samwell CharacterOffsetBegin=391 CharacterOffsetEnd=398 PartOfSpeech=NNP]
-[Text=Tarly CharacterOffsetBegin=399 CharacterOffsetEnd=404 PartOfSpeech=NNP]
-[Text=or CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=CC]
-[Text=Daario CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=NNP]
-[Text=Naharis CharacterOffsetBegin=415 CharacterOffsetEnd=422 PartOfSpeech=NNP]
-[Text=could CharacterOffsetBegin=423 CharacterOffsetEnd=428 PartOfSpeech=MD]
-[Text=secretly CharacterOffsetBegin=429 CharacterOffsetEnd=437 PartOfSpeech=RB]
-[Text=be CharacterOffsetBegin=438 CharacterOffsetEnd=440 PartOfSpeech=VB]
-[Text=Aegon CharacterOffsetBegin=441 CharacterOffsetEnd=446 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=,]
-[Text=although CharacterOffsetBegin=448 CharacterOffsetEnd=456 PartOfSpeech=IN]
-[Text=neither CharacterOffsetBegin=457 CharacterOffsetEnd=464 PartOfSpeech=DT]
-[Text=are CharacterOffsetBegin=465 CharacterOffsetEnd=468 PartOfSpeech=VBP]
-[Text=described CharacterOffsetBegin=469 CharacterOffsetEnd=478 PartOfSpeech=VBN]
-[Text=as CharacterOffsetBegin=479 CharacterOffsetEnd=481 PartOfSpeech=IN]
-[Text=looking CharacterOffsetBegin=482 CharacterOffsetEnd=489 PartOfSpeech=VBG]
-[Text=very CharacterOffsetBegin=490 CharacterOffsetEnd=494 PartOfSpeech=RB]
-[Text=Targaryen CharacterOffsetBegin=495 CharacterOffsetEnd=504 PartOfSpeech=JJ]
-[Text=in CharacterOffsetBegin=505 CharacterOffsetEnd=507 PartOfSpeech=IN]
-[Text=appearance CharacterOffsetBegin=508 CharacterOffsetEnd=518 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=518 CharacterOffsetEnd=519 PartOfSpeech=.]
+[Text=Some CharacterOffsetBegin=362 CharacterOffsetEnd=366 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=suggested CharacterOffsetBegin=377 CharacterOffsetEnd=386 PartOfSpeech=VBN Lemma=suggest NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=387 CharacterOffsetEnd=391 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Samwell CharacterOffsetBegin=392 CharacterOffsetEnd=399 PartOfSpeech=NNP Lemma=Samwell NamedEntityTag=PERSON]
+[Text=Tarly CharacterOffsetBegin=400 CharacterOffsetEnd=405 PartOfSpeech=NNP Lemma=Tarly NamedEntityTag=PERSON]
+[Text=or CharacterOffsetBegin=406 CharacterOffsetEnd=408 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=Daario CharacterOffsetBegin=409 CharacterOffsetEnd=415 PartOfSpeech=NNP Lemma=Daario NamedEntityTag=PERSON]
+[Text=Naharis CharacterOffsetBegin=416 CharacterOffsetEnd=423 PartOfSpeech=NNP Lemma=Naharis NamedEntityTag=PERSON]
+[Text=could CharacterOffsetBegin=424 CharacterOffsetEnd=429 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=secretly CharacterOffsetBegin=430 CharacterOffsetEnd=438 PartOfSpeech=RB Lemma=secretly NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=439 CharacterOffsetEnd=441 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=Aegon CharacterOffsetBegin=442 CharacterOffsetEnd=447 PartOfSpeech=NNP Lemma=Aegon NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=although CharacterOffsetBegin=449 CharacterOffsetEnd=457 PartOfSpeech=IN Lemma=although NamedEntityTag=O]
+[Text=neither CharacterOffsetBegin=458 CharacterOffsetEnd=465 PartOfSpeech=DT Lemma=neither NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=described CharacterOffsetBegin=470 CharacterOffsetEnd=479 PartOfSpeech=VBN Lemma=describe NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=480 CharacterOffsetEnd=482 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=looking CharacterOffsetBegin=483 CharacterOffsetEnd=490 PartOfSpeech=VBG Lemma=look NamedEntityTag=O]
+[Text=very CharacterOffsetBegin=491 CharacterOffsetEnd=495 PartOfSpeech=RB Lemma=very NamedEntityTag=O]
+[Text=Targaryen CharacterOffsetBegin=496 CharacterOffsetEnd=505 PartOfSpeech=JJ Lemma=targaryen NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=506 CharacterOffsetEnd=508 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=appearance CharacterOffsetBegin=509 CharacterOffsetEnd=519 PartOfSpeech=NN Lemma=appearance NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT Some) (NNS fans))
+    (VP (VBP have)
+      (VP (VBN suggested)
+        (SBAR (IN that)
+          (S
+            (NP (NNP Samwell) (NNP Tarly)
+              (CC or)
+              (NNP Daario) (NNP Naharis))
+            (VP (MD could)
+              (ADVP (RB secretly))
+              (VP (VB be)
+                (NP (NNP Aegon))
+                (, ,)
+                (SBAR (IN although)
+                  (S
+                    (NP (DT neither))
+                    (VP (VBP are)
+                      (VP (VBN described)
+                        (PP (IN as)
+                          (S
+                            (VP (VBG looking)
+                              (NP (RB very) (JJ Targaryen))
+                              (PP (IN in)
+                                (NP (NN appearance))))))))))))))))
+    (. .)))
+
+root(ROOT-0, suggested-4)
+det(fans-2, Some-1)
+nsubj(suggested-4, fans-2)
+aux(suggested-4, have-3)
+mark(Aegon-14, that-5)
+compound(Tarly-7, Samwell-6)
+nsubj(Aegon-14, Tarly-7)
+cc(Tarly-7, or-8)
+compound(Naharis-10, Daario-9)
+conj:or(Tarly-7, Naharis-10)
+nsubj(Aegon-14, Naharis-10)
+aux(Aegon-14, could-11)
+advmod(Aegon-14, secretly-12)
+cop(Aegon-14, be-13)
+ccomp(suggested-4, Aegon-14)
+punct(Aegon-14, ,-15)
+mark(described-19, although-16)
+nsubjpass(described-19, neither-17)
+auxpass(described-19, are-18)
+advcl:although(Aegon-14, described-19)
+mark(looking-21, as-20)
+advcl:as(described-19, looking-21)
+advmod(Targaryen-23, very-22)
+dobj(looking-21, Targaryen-23)
+case(appearance-25, in-24)
+nmod:in(looking-21, appearance-25)
+punct(suggested-4, .-26)
+
+Coreference set:
+	(3,7,[7,8]) -> (1,2,[1,3]), that is: "Targaryen" -> "Aegon Targaryen"
+	(3,9,[9,10]) -> (1,2,[1,3]), that is: "Aegon" -> "Aegon Targaryen"
+	(5,14,[14,15]) -> (1,2,[1,3]), that is: "Aegon" -> "Aegon Targaryen"
+	(5,23,[22,24]) -> (1,2,[1,3]), that is: "very Targaryen" -> "Aegon Targaryen"
+Coreference set:
+	(2,9,[9,10]) -> (2,3,[2,4]), that is: "he" -> "Robert Baratheon"
+	(2,13,[13,14]) -> (2,3,[2,4]), that is: "he" -> "Robert Baratheon"
+Coreference set:
+	(4,16,[16,17]) -> (4,2,[1,3]), that is: "he" -> "That character"
+	(4,19,[18,23]) -> (4,2,[1,3]), that is: "a character we already know" -> "That character"

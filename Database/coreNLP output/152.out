@@ -1,168 +1,528 @@
 Sentence #1 (8 tokens):
 Robb Warged Into Greywind And Is Alive.
-[Text=Robb CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=Warged CharacterOffsetBegin=5 CharacterOffsetEnd=11 PartOfSpeech=NNP]
-[Text=Into CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=NNP]
-[Text=Greywind CharacterOffsetBegin=17 CharacterOffsetEnd=25 PartOfSpeech=NNP]
-[Text=And CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=CC]
-[Text=Is CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=VBZ]
-[Text=Alive CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=.]
+[Text=Robb CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Robb NamedEntityTag=O]
+[Text=Warged CharacterOffsetBegin=5 CharacterOffsetEnd=11 PartOfSpeech=NNP Lemma=Warged NamedEntityTag=O]
+[Text=Into CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=NNP Lemma=Into NamedEntityTag=O]
+[Text=Greywind CharacterOffsetBegin=17 CharacterOffsetEnd=25 PartOfSpeech=NNP Lemma=Greywind NamedEntityTag=O]
+[Text=And CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Is CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=Alive CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=JJ Lemma=alive NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP
+    (NP (NNP Robb) (NNP Warged))
+    (PP (NNP Into)
+      (NP (NNP Greywind)))
+    (SBAR (CC And)
+      (S
+        (VP (VBZ Is)
+          (ADJP (JJ Alive)))))
+    (. .)))
+
+root(ROOT-0, Warged-2)
+compound(Warged-2, Robb-1)
+dep(Greywind-4, Into-3)
+nmod(Warged-2, Greywind-4)
+cc(Alive-7, And-5)
+cop(Alive-7, Is-6)
+dep(Warged-2, Alive-7)
+punct(Warged-2, .-8)
+
 Sentence #2 (9 tokens):
 This theory has been around for a while.
-[Text=This CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=45 CharacterOffsetEnd=51 PartOfSpeech=NN]
-[Text=has CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=VBZ]
-[Text=been CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=VBN]
-[Text=around CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=IN]
-[Text=for CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=DT]
-[Text=while CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=.]
+[Text=This CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=45 CharacterOffsetEnd=51 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=around CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=IN Lemma=around NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=72 CharacterOffsetEnd=73 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=while CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=NN Lemma=while NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This) (NN theory))
+    (VP (VBZ has)
+      (VP (VBN been)
+        (ADJP (IN around)
+          (PP (IN for)
+            (NP (DT a) (NN while))))))
+    (. .)))
+
+root(ROOT-0, around-5)
+det(theory-2, This-1)
+nsubj(around-5, theory-2)
+aux(around-5, has-3)
+cop(around-5, been-4)
+case(while-8, for-6)
+det(while-8, a-7)
+nmod:for(around-5, while-8)
+punct(around-5, .-9)
+
 Sentence #3 (23 tokens):
 As a seriously devoted Robb Stark/Richard Madden fan, I really want to believe that he made it through The Red Wedding.
-[Text=As CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=DT]
-[Text=seriously CharacterOffsetBegin=86 CharacterOffsetEnd=95 PartOfSpeech=RB]
-[Text=devoted CharacterOffsetBegin=96 CharacterOffsetEnd=103 PartOfSpeech=JJ]
-[Text=Robb CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=NNP]
-[Text=Stark/Richard CharacterOffsetBegin=109 CharacterOffsetEnd=122 PartOfSpeech=NNP]
-[Text=Madden CharacterOffsetBegin=123 CharacterOffsetEnd=129 PartOfSpeech=NNP]
-[Text=fan CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=,]
-[Text=I CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=PRP]
-[Text=really CharacterOffsetBegin=137 CharacterOffsetEnd=143 PartOfSpeech=RB]
-[Text=want CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=VBP]
-[Text=to CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=TO]
-[Text=believe CharacterOffsetBegin=152 CharacterOffsetEnd=159 PartOfSpeech=VB]
-[Text=that CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=PRP]
-[Text=made CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=VBD]
-[Text=it CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=PRP]
-[Text=through CharacterOffsetBegin=176 CharacterOffsetEnd=183 PartOfSpeech=IN]
-[Text=The CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=DT]
-[Text=Red CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=JJ]
-[Text=Wedding CharacterOffsetBegin=192 CharacterOffsetEnd=199 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=.]
+[Text=As CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=seriously CharacterOffsetBegin=86 CharacterOffsetEnd=95 PartOfSpeech=RB Lemma=seriously NamedEntityTag=O]
+[Text=devoted CharacterOffsetBegin=96 CharacterOffsetEnd=103 PartOfSpeech=JJ Lemma=devoted NamedEntityTag=O]
+[Text=Robb CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=NNP Lemma=Robb NamedEntityTag=PERSON]
+[Text=Stark/Richard CharacterOffsetBegin=109 CharacterOffsetEnd=122 PartOfSpeech=NNP Lemma=Stark/Richard NamedEntityTag=PERSON]
+[Text=Madden CharacterOffsetBegin=123 CharacterOffsetEnd=129 PartOfSpeech=NNP Lemma=Madden NamedEntityTag=PERSON]
+[Text=fan CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=NN Lemma=fan NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=really CharacterOffsetBegin=137 CharacterOffsetEnd=143 PartOfSpeech=RB Lemma=really NamedEntityTag=O]
+[Text=want CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=VBP Lemma=want NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=believe CharacterOffsetBegin=152 CharacterOffsetEnd=159 PartOfSpeech=VB Lemma=believe NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=made CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=VBD Lemma=make NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=through CharacterOffsetBegin=176 CharacterOffsetEnd=183 PartOfSpeech=IN Lemma=through NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Red CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=JJ Lemma=red NamedEntityTag=O]
+[Text=Wedding CharacterOffsetBegin=192 CharacterOffsetEnd=199 PartOfSpeech=NN Lemma=wedding NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN As)
+      (NP (DT a)
+        (ADJP
+          (ADVP (RB seriously))
+          (JJ devoted))
+        (NNP Robb) (NNP Stark/Richard) (NNP Madden) (NN fan)))
+    (, ,)
+    (NP (PRP I))
+    (ADVP (RB really))
+    (VP (VBP want)
+      (S
+        (VP (TO to)
+          (VP (VB believe)
+            (SBAR (IN that)
+              (S
+                (NP (PRP he))
+                (VP (VBD made)
+                  (NP (PRP it))
+                  (PP (IN through)
+                    (NP (DT The) (JJ Red) (NN Wedding))))))))))
+    (. .)))
+
+root(ROOT-0, want-12)
+case(fan-8, As-1)
+det(fan-8, a-2)
+advmod(devoted-4, seriously-3)
+amod(fan-8, devoted-4)
+compound(fan-8, Robb-5)
+compound(fan-8, Stark/Richard-6)
+compound(fan-8, Madden-7)
+nmod:as(want-12, fan-8)
+punct(want-12, ,-9)
+nsubj(want-12, I-10)
+nsubj:xsubj(believe-14, I-10)
+advmod(want-12, really-11)
+mark(believe-14, to-13)
+xcomp(want-12, believe-14)
+mark(made-17, that-15)
+nsubj(made-17, he-16)
+ccomp(believe-14, made-17)
+dobj(made-17, it-18)
+case(Wedding-22, through-19)
+det(Wedding-22, The-20)
+amod(Wedding-22, Red-21)
+nmod:through(made-17, Wedding-22)
+punct(want-12, .-23)
+
 Sentence #4 (16 tokens):
 I'm usually cool with any theory that allows me to believe this is true.
-[Text=I CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=PRP]
-[Text='m CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=VBP]
-[Text=usually CharacterOffsetBegin=205 CharacterOffsetEnd=212 PartOfSpeech=RB]
-[Text=cool CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=JJ]
-[Text=with CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=IN]
-[Text=any CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=227 CharacterOffsetEnd=233 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=WDT]
-[Text=allows CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=VBZ]
-[Text=me CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=PRP]
-[Text=to CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=TO]
-[Text=believe CharacterOffsetBegin=252 CharacterOffsetEnd=259 PartOfSpeech=VB]
-[Text=this CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=DT]
-[Text=is CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=VBZ]
-[Text=true CharacterOffsetBegin=268 CharacterOffsetEnd=272 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=.]
+[Text=I CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text='m CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=usually CharacterOffsetBegin=205 CharacterOffsetEnd=212 PartOfSpeech=RB Lemma=usually NamedEntityTag=O]
+[Text=cool CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=JJ Lemma=cool NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=any CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=DT Lemma=any NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=227 CharacterOffsetEnd=233 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=allows CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=VBZ Lemma=allow NamedEntityTag=O]
+[Text=me CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=believe CharacterOffsetBegin=252 CharacterOffsetEnd=259 PartOfSpeech=VB Lemma=believe NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=265 CharacterOffsetEnd=267 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=true CharacterOffsetBegin=268 CharacterOffsetEnd=272 PartOfSpeech=JJ Lemma=true NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP 'm)
+      (ADVP (RB usually))
+      (ADJP (JJ cool)
+        (PP (IN with)
+          (NP
+            (NP (DT any) (NN theory))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (VBZ allows)
+                  (S
+                    (NP (PRP me))
+                    (VP (TO to)
+                      (VP (VB believe)
+                        (SBAR
+                          (S
+                            (NP (DT this))
+                            (VP (VBZ is)
+                              (ADJP (JJ true)))))))))))))))
+    (. .)))
+
+root(ROOT-0, cool-4)
+nsubj(cool-4, I-1)
+cop(cool-4, 'm-2)
+advmod(cool-4, usually-3)
+case(theory-7, with-5)
+det(theory-7, any-6)
+nmod:with(cool-4, theory-7)
+nsubj(allows-9, theory-7)
+ref(theory-7, that-8)
+acl:relcl(theory-7, allows-9)
+dobj(allows-9, me-10)
+nsubj:xsubj(believe-12, me-10)
+mark(believe-12, to-11)
+xcomp(allows-9, believe-12)
+nsubj(true-15, this-13)
+cop(true-15, is-14)
+ccomp(believe-12, true-15)
+punct(cool-4, .-16)
+
 Sentence #5 (11 tokens):
 Unfortunately this particular one just doesn't make any sense.
-[Text=Unfortunately CharacterOffsetBegin=274 CharacterOffsetEnd=287 PartOfSpeech=RB]
-[Text=this CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=DT]
-[Text=particular CharacterOffsetBegin=293 CharacterOffsetEnd=303 PartOfSpeech=JJ]
-[Text=one CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=CD]
-[Text=just CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=RB]
-[Text=does CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=VBZ]
-[Text=n't CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=RB]
-[Text=make CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=VB]
-[Text=any CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=DT]
-[Text=sense CharacterOffsetBegin=330 CharacterOffsetEnd=335 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=335 CharacterOffsetEnd=336 PartOfSpeech=.]
+[Text=Unfortunately CharacterOffsetBegin=274 CharacterOffsetEnd=287 PartOfSpeech=RB Lemma=unfortunately NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=particular CharacterOffsetBegin=293 CharacterOffsetEnd=303 PartOfSpeech=JJ Lemma=particular NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=just CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=does CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=make CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=VB Lemma=make NamedEntityTag=O]
+[Text=any CharacterOffsetBegin=326 CharacterOffsetEnd=329 PartOfSpeech=DT Lemma=any NamedEntityTag=O]
+[Text=sense CharacterOffsetBegin=330 CharacterOffsetEnd=335 PartOfSpeech=NN Lemma=sense NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=335 CharacterOffsetEnd=336 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Unfortunately))
+    (NP (DT this) (JJ particular) (CD one))
+    (ADVP (RB just))
+    (VP (VBZ does) (RB n't)
+      (VP (VB make)
+        (NP (DT any) (NN sense))))
+    (. .)))
+
+root(ROOT-0, make-8)
+advmod(make-8, Unfortunately-1)
+det(one-4, this-2)
+amod(one-4, particular-3)
+nsubj(make-8, one-4)
+advmod(make-8, just-5)
+aux(make-8, does-6)
+neg(make-8, n't-7)
+det(sense-10, any-9)
+dobj(make-8, sense-10)
+punct(make-8, .-11)
+
 Sentence #6 (17 tokens):
 Basically, it says that Robb warged into Greywind before he was killed by Roose Bolton.
-[Text=Basically CharacterOffsetBegin=337 CharacterOffsetEnd=346 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=,]
-[Text=it CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=PRP]
-[Text=says CharacterOffsetBegin=351 CharacterOffsetEnd=355 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=IN]
-[Text=Robb CharacterOffsetBegin=361 CharacterOffsetEnd=365 PartOfSpeech=NNP]
-[Text=warged CharacterOffsetBegin=366 CharacterOffsetEnd=372 PartOfSpeech=VBD]
-[Text=into CharacterOffsetBegin=373 CharacterOffsetEnd=377 PartOfSpeech=IN]
-[Text=Greywind CharacterOffsetBegin=378 CharacterOffsetEnd=386 PartOfSpeech=NNP]
-[Text=before CharacterOffsetBegin=387 CharacterOffsetEnd=393 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=VBD]
-[Text=killed CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=VBN]
-[Text=by CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=IN]
-[Text=Roose CharacterOffsetBegin=411 CharacterOffsetEnd=416 PartOfSpeech=NNP]
-[Text=Bolton CharacterOffsetBegin=417 CharacterOffsetEnd=423 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=.]
+[Text=Basically CharacterOffsetBegin=337 CharacterOffsetEnd=346 PartOfSpeech=RB Lemma=basically NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=says CharacterOffsetBegin=351 CharacterOffsetEnd=355 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Robb CharacterOffsetBegin=361 CharacterOffsetEnd=365 PartOfSpeech=NNP Lemma=Robb NamedEntityTag=PERSON]
+[Text=warged CharacterOffsetBegin=366 CharacterOffsetEnd=372 PartOfSpeech=VBD Lemma=warge NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=373 CharacterOffsetEnd=377 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=Greywind CharacterOffsetBegin=378 CharacterOffsetEnd=386 PartOfSpeech=NNP Lemma=Greywind NamedEntityTag=O]
+[Text=before CharacterOffsetBegin=387 CharacterOffsetEnd=393 PartOfSpeech=IN Lemma=before NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=397 CharacterOffsetEnd=400 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=killed CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=VBN Lemma=kill NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=Roose CharacterOffsetBegin=411 CharacterOffsetEnd=416 PartOfSpeech=NNP Lemma=Roose NamedEntityTag=PERSON]
+[Text=Bolton CharacterOffsetBegin=417 CharacterOffsetEnd=423 PartOfSpeech=NNP Lemma=Bolton NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Basically))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ says)
+      (SBAR (IN that)
+        (S
+          (NP (NNP Robb))
+          (VP (VBD warged)
+            (PP (IN into)
+              (NP (NNP Greywind)))
+            (SBAR (IN before)
+              (S
+                (NP (PRP he))
+                (VP (VBD was)
+                  (VP (VBN killed)
+                    (PP (IN by)
+                      (NP (NNP Roose) (NNP Bolton)))))))))))
+    (. .)))
+
+root(ROOT-0, says-4)
+advmod(says-4, Basically-1)
+punct(says-4, ,-2)
+nsubj(says-4, it-3)
+mark(warged-7, that-5)
+nsubj(warged-7, Robb-6)
+ccomp(says-4, warged-7)
+case(Greywind-9, into-8)
+nmod:into(warged-7, Greywind-9)
+mark(killed-13, before-10)
+nsubjpass(killed-13, he-11)
+auxpass(killed-13, was-12)
+advcl:before(warged-7, killed-13)
+case(Bolton-16, by-14)
+compound(Bolton-16, Roose-15)
+nmod:agent(killed-13, Bolton-16)
+punct(says-4, .-17)
+
 Sentence #7 (10 tokens):
 That's great but it simply didn't happen.
-[Text=That CharacterOffsetBegin=425 CharacterOffsetEnd=429 PartOfSpeech=DT]
-[Text='s CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=VBZ]
-[Text=great CharacterOffsetBegin=432 CharacterOffsetEnd=437 PartOfSpeech=JJ]
-[Text=but CharacterOffsetBegin=438 CharacterOffsetEnd=441 PartOfSpeech=CC]
-[Text=it CharacterOffsetBegin=442 CharacterOffsetEnd=444 PartOfSpeech=PRP]
-[Text=simply CharacterOffsetBegin=445 CharacterOffsetEnd=451 PartOfSpeech=RB]
-[Text=did CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=VBD]
-[Text=n't CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=RB]
-[Text=happen CharacterOffsetBegin=459 CharacterOffsetEnd=465 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=.]
+[Text=That CharacterOffsetBegin=425 CharacterOffsetEnd=429 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=great CharacterOffsetBegin=432 CharacterOffsetEnd=437 PartOfSpeech=JJ Lemma=great NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=438 CharacterOffsetEnd=441 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=442 CharacterOffsetEnd=444 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=simply CharacterOffsetBegin=445 CharacterOffsetEnd=451 PartOfSpeech=RB Lemma=simply NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=happen CharacterOffsetBegin=459 CharacterOffsetEnd=465 PartOfSpeech=VB Lemma=happen NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (DT That))
+      (VP (VBZ 's)
+        (ADJP (JJ great))))
+    (CC but)
+    (S
+      (NP (PRP it))
+      (ADVP (RB simply))
+      (VP (VBD did) (RB n't)
+        (VP (VB happen))))
+    (. .)))
+
+root(ROOT-0, great-3)
+nsubj(great-3, That-1)
+cop(great-3, 's-2)
+cc(great-3, but-4)
+nsubj(happen-9, it-5)
+advmod(happen-9, simply-6)
+aux(happen-9, did-7)
+neg(happen-9, n't-8)
+conj:but(great-3, happen-9)
+punct(great-3, .-10)
+
 Sentence #8 (23 tokens):
 First, we would've seen him warg since his face was shown the whole time and he clearly didn't warg.
-[Text=First CharacterOffsetBegin=467 CharacterOffsetEnd=472 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=,]
-[Text=we CharacterOffsetBegin=474 CharacterOffsetEnd=476 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=477 CharacterOffsetEnd=482 PartOfSpeech=MD]
-[Text='ve CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=VB]
-[Text=seen CharacterOffsetBegin=486 CharacterOffsetEnd=490 PartOfSpeech=VBN]
-[Text=him CharacterOffsetBegin=491 CharacterOffsetEnd=494 PartOfSpeech=PRP]
-[Text=warg CharacterOffsetBegin=495 CharacterOffsetEnd=499 PartOfSpeech=NN]
-[Text=since CharacterOffsetBegin=500 CharacterOffsetEnd=505 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=506 CharacterOffsetEnd=509 PartOfSpeech=PRP$]
-[Text=face CharacterOffsetBegin=510 CharacterOffsetEnd=514 PartOfSpeech=NN]
-[Text=was CharacterOffsetBegin=515 CharacterOffsetEnd=518 PartOfSpeech=VBD]
-[Text=shown CharacterOffsetBegin=519 CharacterOffsetEnd=524 PartOfSpeech=VBN]
-[Text=the CharacterOffsetBegin=525 CharacterOffsetEnd=528 PartOfSpeech=DT]
-[Text=whole CharacterOffsetBegin=529 CharacterOffsetEnd=534 PartOfSpeech=JJ]
-[Text=time CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=CC]
-[Text=he CharacterOffsetBegin=544 CharacterOffsetEnd=546 PartOfSpeech=PRP]
-[Text=clearly CharacterOffsetBegin=547 CharacterOffsetEnd=554 PartOfSpeech=RB]
-[Text=did CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=VBD]
-[Text=n't CharacterOffsetBegin=558 CharacterOffsetEnd=561 PartOfSpeech=RB]
-[Text=warg CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=566 CharacterOffsetEnd=567 PartOfSpeech=.]
+[Text=First CharacterOffsetBegin=467 CharacterOffsetEnd=472 PartOfSpeech=RB Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0]
+[Text=, CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=474 CharacterOffsetEnd=476 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=477 CharacterOffsetEnd=482 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text='ve CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=seen CharacterOffsetBegin=486 CharacterOffsetEnd=490 PartOfSpeech=VBN Lemma=see NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=491 CharacterOffsetEnd=494 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=warg CharacterOffsetBegin=495 CharacterOffsetEnd=499 PartOfSpeech=NN Lemma=warg NamedEntityTag=O]
+[Text=since CharacterOffsetBegin=500 CharacterOffsetEnd=505 PartOfSpeech=IN Lemma=since NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=506 CharacterOffsetEnd=509 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=face CharacterOffsetBegin=510 CharacterOffsetEnd=514 PartOfSpeech=NN Lemma=face NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=515 CharacterOffsetEnd=518 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=shown CharacterOffsetBegin=519 CharacterOffsetEnd=524 PartOfSpeech=VBN Lemma=show NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=525 CharacterOffsetEnd=528 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=whole CharacterOffsetBegin=529 CharacterOffsetEnd=534 PartOfSpeech=JJ Lemma=whole NamedEntityTag=O]
+[Text=time CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=NN Lemma=time NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=544 CharacterOffsetEnd=546 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=clearly CharacterOffsetBegin=547 CharacterOffsetEnd=554 PartOfSpeech=RB Lemma=clearly NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=558 CharacterOffsetEnd=561 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=warg CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=NN Lemma=warg NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=566 CharacterOffsetEnd=567 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB First))
+    (, ,)
+    (S
+      (NP (PRP we))
+      (VP (MD would)
+        (VP (VB 've)
+          (VP (VBN seen)
+            (NP (PRP him) (NN warg))
+            (SBAR (IN since)
+              (S
+                (NP (PRP$ his) (NN face))
+                (VP (VBD was)
+                  (VP (VBN shown)
+                    (NP (DT the) (JJ whole) (NN time))))))))))
+    (CC and)
+    (S
+      (NP (PRP he))
+      (ADVP (RB clearly))
+      (VP (VBD did) (RB n't)
+        (NP (NN warg))))
+    (. .)))
+
+root(ROOT-0, seen-6)
+advmod(seen-6, First-1)
+punct(seen-6, ,-2)
+nsubj(seen-6, we-3)
+aux(seen-6, would-4)
+aux(seen-6, 've-5)
+dep(warg-8, him-7)
+dobj(seen-6, warg-8)
+mark(shown-13, since-9)
+nmod:poss(face-11, his-10)
+nsubjpass(shown-13, face-11)
+auxpass(shown-13, was-12)
+advcl:since(seen-6, shown-13)
+det(time-16, the-14)
+amod(time-16, whole-15)
+dobj(shown-13, time-16)
+cc(seen-6, and-17)
+nsubj(did-20, he-18)
+advmod(did-20, clearly-19)
+conj:and(seen-6, did-20)
+neg(did-20, n't-21)
+dobj(did-20, warg-22)
+punct(seen-6, .-23)
+
 Sentence #9 (15 tokens):
 Second, even if he did warg into Greywind, Greywind was killed too.
-[Text=Second CharacterOffsetBegin=568 CharacterOffsetEnd=574 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=574 CharacterOffsetEnd=575 PartOfSpeech=,]
-[Text=even CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=RB]
-[Text=if CharacterOffsetBegin=581 CharacterOffsetEnd=583 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=584 CharacterOffsetEnd=586 PartOfSpeech=PRP]
-[Text=did CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=VBD]
-[Text=warg CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=NN]
-[Text=into CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=IN]
-[Text=Greywind CharacterOffsetBegin=601 CharacterOffsetEnd=609 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=609 CharacterOffsetEnd=610 PartOfSpeech=,]
-[Text=Greywind CharacterOffsetBegin=611 CharacterOffsetEnd=619 PartOfSpeech=NNP]
-[Text=was CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=VBD]
-[Text=killed CharacterOffsetBegin=624 CharacterOffsetEnd=630 PartOfSpeech=VBN]
-[Text=too CharacterOffsetBegin=631 CharacterOffsetEnd=634 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=634 CharacterOffsetEnd=635 PartOfSpeech=.]
+[Text=Second CharacterOffsetBegin=568 CharacterOffsetEnd=574 PartOfSpeech=RB Lemma=second NamedEntityTag=ORDINAL NormalizedNamedEntityTag=2.0]
+[Text=, CharacterOffsetBegin=574 CharacterOffsetEnd=575 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=even CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=RB Lemma=even NamedEntityTag=O]
+[Text=if CharacterOffsetBegin=581 CharacterOffsetEnd=583 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=584 CharacterOffsetEnd=586 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=warg CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=NN Lemma=warg NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=Greywind CharacterOffsetBegin=601 CharacterOffsetEnd=609 PartOfSpeech=NNP Lemma=Greywind NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=609 CharacterOffsetEnd=610 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Greywind CharacterOffsetBegin=611 CharacterOffsetEnd=619 PartOfSpeech=NNP Lemma=Greywind NamedEntityTag=PERSON]
+[Text=was CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=killed CharacterOffsetBegin=624 CharacterOffsetEnd=630 PartOfSpeech=VBN Lemma=kill NamedEntityTag=O]
+[Text=too CharacterOffsetBegin=631 CharacterOffsetEnd=634 PartOfSpeech=RB Lemma=too NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=634 CharacterOffsetEnd=635 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Second))
+    (, ,)
+    (SBAR (RB even) (IN if)
+      (S
+        (NP (PRP he))
+        (VP (VBD did)
+          (NP (NN warg))
+          (PP (IN into)
+            (NP (NNP Greywind))))))
+    (, ,)
+    (NP (NNP Greywind))
+    (VP (VBD was)
+      (VP (VBN killed)
+        (ADVP (RB too))))
+    (. .)))
+
+root(ROOT-0, killed-13)
+advmod(killed-13, Second-1)
+punct(killed-13, ,-2)
+advmod(did-6, even-3)
+mark(did-6, if-4)
+nsubj(did-6, he-5)
+advcl:if(killed-13, did-6)
+dobj(did-6, warg-7)
+case(Greywind-9, into-8)
+nmod:into(did-6, Greywind-9)
+punct(killed-13, ,-10)
+nsubjpass(killed-13, Greywind-11)
+auxpass(killed-13, was-12)
+advmod(killed-13, too-14)
+punct(killed-13, .-15)
+
 Sentence #10 (6 tokens):
 Either way, Robb died.
-[Text=Either CharacterOffsetBegin=636 CharacterOffsetEnd=642 PartOfSpeech=DT]
-[Text=way CharacterOffsetBegin=643 CharacterOffsetEnd=646 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=646 CharacterOffsetEnd=647 PartOfSpeech=,]
-[Text=Robb CharacterOffsetBegin=648 CharacterOffsetEnd=652 PartOfSpeech=NNP]
-[Text=died CharacterOffsetBegin=653 CharacterOffsetEnd=657 PartOfSpeech=VBD]
-[Text=. CharacterOffsetBegin=657 CharacterOffsetEnd=658 PartOfSpeech=.]
+[Text=Either CharacterOffsetBegin=636 CharacterOffsetEnd=642 PartOfSpeech=DT Lemma=either NamedEntityTag=O]
+[Text=way CharacterOffsetBegin=643 CharacterOffsetEnd=646 PartOfSpeech=NN Lemma=way NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=646 CharacterOffsetEnd=647 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Robb CharacterOffsetBegin=648 CharacterOffsetEnd=652 PartOfSpeech=NNP Lemma=Robb NamedEntityTag=PERSON]
+[Text=died CharacterOffsetBegin=653 CharacterOffsetEnd=657 PartOfSpeech=VBD Lemma=die NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=657 CharacterOffsetEnd=658 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT Either) (NN way))
+    (, ,)
+    (NP (NNP Robb))
+    (VP (VBD died))
+    (. .)))
+
+root(ROOT-0, died-5)
+det(way-2, Either-1)
+nsubj(died-5, way-2)
+punct(died-5, ,-3)
+nsubj(died-5, Robb-4)
+punct(died-5, .-6)
+
 Sentence #11 (8 tokens):
 Everyone stop making me relive that moment.
-[Text=Everyone CharacterOffsetBegin=659 CharacterOffsetEnd=667 PartOfSpeech=NN]
-[Text=stop CharacterOffsetBegin=668 CharacterOffsetEnd=672 PartOfSpeech=NN]
-[Text=making CharacterOffsetBegin=673 CharacterOffsetEnd=679 PartOfSpeech=VBG]
-[Text=me CharacterOffsetBegin=680 CharacterOffsetEnd=682 PartOfSpeech=PRP]
-[Text=relive CharacterOffsetBegin=683 CharacterOffsetEnd=689 PartOfSpeech=VBP]
-[Text=that CharacterOffsetBegin=690 CharacterOffsetEnd=694 PartOfSpeech=IN]
-[Text=moment CharacterOffsetBegin=695 CharacterOffsetEnd=701 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=701 CharacterOffsetEnd=702 PartOfSpeech=.]
+[Text=Everyone CharacterOffsetBegin=659 CharacterOffsetEnd=667 PartOfSpeech=NN Lemma=everyone NamedEntityTag=O]
+[Text=stop CharacterOffsetBegin=668 CharacterOffsetEnd=672 PartOfSpeech=NN Lemma=stop NamedEntityTag=O]
+[Text=making CharacterOffsetBegin=673 CharacterOffsetEnd=679 PartOfSpeech=VBG Lemma=make NamedEntityTag=O]
+[Text=me CharacterOffsetBegin=680 CharacterOffsetEnd=682 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=relive CharacterOffsetBegin=683 CharacterOffsetEnd=689 PartOfSpeech=VBP Lemma=relive NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=690 CharacterOffsetEnd=694 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=moment CharacterOffsetBegin=695 CharacterOffsetEnd=701 PartOfSpeech=NN Lemma=moment NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=701 CharacterOffsetEnd=702 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (NN Everyone) (NN stop))
+      (VP (VBG making)
+        (NP (PRP me))))
+    (VP (VBP relive)
+      (PP (IN that)
+        (NP (NN moment))))
+    (. .)))
+
+root(ROOT-0, relive-5)
+compound(stop-2, Everyone-1)
+nsubj(relive-5, stop-2)
+acl(stop-2, making-3)
+dobj(making-3, me-4)
+case(moment-7, that-6)
+nmod:that(relive-5, moment-7)
+punct(relive-5, .-8)
+
+Coreference set:
+	(1,4,[4,5]) -> (9,9,[9,10]), that is: "Greywind" -> "Greywind"
+	(6,9,[9,10]) -> (9,9,[9,10]), that is: "Greywind" -> "Greywind"
+	(9,11,[11,12]) -> (9,9,[9,10]), that is: "Greywind" -> "Greywind"
+Coreference set:
+	(3,18,[18,19]) -> (2,2,[1,3]), that is: "it" -> "This theory"
+Coreference set:
+	(6,6,[6,7]) -> (3,7,[5,8]), that is: "Robb" -> "Robb Stark/Richard Madden"
+	(6,11,[11,12]) -> (3,7,[5,8]), that is: "he" -> "Robb Stark/Richard Madden"
+	(8,7,[7,8]) -> (3,7,[5,8]), that is: "him" -> "Robb Stark/Richard Madden"
+	(10,4,[4,5]) -> (3,7,[5,8]), that is: "Robb" -> "Robb Stark/Richard Madden"
+Coreference set:
+	(3,16,[16,17]) -> (3,8,[2,9]), that is: "he" -> "a seriously devoted Robb Stark/Richard Madden fan"
+Coreference set:
+	(4,1,[1,2]) -> (3,10,[10,11]), that is: "I" -> "I"
+	(4,10,[10,11]) -> (3,10,[10,11]), that is: "me" -> "I"
+	(11,4,[4,5]) -> (3,10,[10,11]), that is: "me" -> "I"
+Coreference set:
+	(6,3,[3,4]) -> (5,4,[2,5]), that is: "it" -> "this particular one"
+	(7,1,[1,2]) -> (5,4,[2,5]), that is: "That" -> "this particular one"
+	(7,5,[5,6]) -> (5,4,[2,5]), that is: "it" -> "this particular one"
+Coreference set:
+	(8,10,[10,11]) -> (8,8,[7,9]), that is: "his" -> "him warg"
+	(8,18,[18,19]) -> (8,8,[7,9]), that is: "he" -> "him warg"
+	(9,5,[5,6]) -> (8,8,[7,9]), that is: "he" -> "him warg"

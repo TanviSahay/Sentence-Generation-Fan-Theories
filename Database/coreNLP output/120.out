@@ -1,270 +1,847 @@
 Sentence #1 (9 tokens):
 THE FACELESS MEN'S GOD IS ACTUALLY MONEY.
-[Text=THE CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
-[Text=FACELESS CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NNP]
-[Text=MEN CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=NNP]
-[Text='S CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=POS]
-[Text=GOD CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=NNP]
-[Text=IS CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=VBZ]
-[Text=ACTUALLY CharacterOffsetBegin=26 CharacterOffsetEnd=34 PartOfSpeech=NNP]
-[Text=MONEY CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=.]
+[Text=THE CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=FACELESS CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NNP Lemma=FACELESS NamedEntityTag=O]
+[Text=MEN CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=NNP Lemma=MEN NamedEntityTag=O]
+[Text='S CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=GOD CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=NNP Lemma=GOD NamedEntityTag=O]
+[Text=IS CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=ACTUALLY CharacterOffsetBegin=26 CharacterOffsetEnd=34 PartOfSpeech=NNP Lemma=ACTUALLY NamedEntityTag=O]
+[Text=MONEY CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=NNP Lemma=MONEY NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (DT THE) (NNP FACELESS) (NNP MEN) (POS 'S))
+      (NNP GOD))
+    (VP (VBZ IS)
+      (NP (NNP ACTUALLY) (NNP MONEY)))
+    (. .)))
+
+root(ROOT-0, MONEY-8)
+det(MEN-3, THE-1)
+compound(MEN-3, FACELESS-2)
+nmod:poss(GOD-5, MEN-3)
+case(MEN-3, 'S-4)
+nsubj(MONEY-8, GOD-5)
+cop(MONEY-8, IS-6)
+compound(MONEY-8, ACTUALLY-7)
+punct(MONEY-8, .-9)
+
 Sentence #2 (26 tokens):
 Perhaps the Faceless Men and the Iron Bank –both major institutions of Braavos – are actually in league with each other and structurally affiliated?
-[Text=Perhaps CharacterOffsetBegin=42 CharacterOffsetEnd=49 PartOfSpeech=RB]
-[Text=the CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=DT]
-[Text=Faceless CharacterOffsetBegin=54 CharacterOffsetEnd=62 PartOfSpeech=JJ]
-[Text=Men CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=CC]
-[Text=the CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=DT]
-[Text=Iron CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=NNP]
-[Text=Bank CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=NNP]
-[Text=-- CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=:]
-[Text=both CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=DT]
-[Text=major CharacterOffsetBegin=91 CharacterOffsetEnd=96 PartOfSpeech=JJ]
-[Text=institutions CharacterOffsetBegin=97 CharacterOffsetEnd=109 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=IN]
-[Text=Braavos CharacterOffsetBegin=113 CharacterOffsetEnd=120 PartOfSpeech=NNP]
-[Text=-- CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=:]
-[Text=are CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=VBP]
-[Text=actually CharacterOffsetBegin=127 CharacterOffsetEnd=135 PartOfSpeech=RB]
-[Text=in CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=IN]
-[Text=league CharacterOffsetBegin=139 CharacterOffsetEnd=145 PartOfSpeech=NN]
-[Text=with CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=IN]
-[Text=each CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=DT]
-[Text=other CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=JJ]
-[Text=and CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=CC]
-[Text=structurally CharacterOffsetBegin=166 CharacterOffsetEnd=178 PartOfSpeech=RB]
-[Text=affiliated CharacterOffsetBegin=179 CharacterOffsetEnd=189 PartOfSpeech=VBN]
-[Text=? CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=.]
+[Text=Perhaps CharacterOffsetBegin=42 CharacterOffsetEnd=49 PartOfSpeech=RB Lemma=perhaps NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Faceless CharacterOffsetBegin=54 CharacterOffsetEnd=62 PartOfSpeech=JJ Lemma=faceless NamedEntityTag=MISC]
+[Text=Men CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=NN Lemma=men NamedEntityTag=MISC]
+[Text=and CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Iron CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=NNP Lemma=Iron NamedEntityTag=ORGANIZATION]
+[Text=Bank CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=NNP Lemma=Bank NamedEntityTag=ORGANIZATION]
+[Text=-- CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=both CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=DT Lemma=both NamedEntityTag=O]
+[Text=major CharacterOffsetBegin=91 CharacterOffsetEnd=96 PartOfSpeech=JJ Lemma=major NamedEntityTag=O]
+[Text=institutions CharacterOffsetBegin=97 CharacterOffsetEnd=109 PartOfSpeech=NNS Lemma=institution NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Braavos CharacterOffsetBegin=113 CharacterOffsetEnd=120 PartOfSpeech=NNP Lemma=Braavos NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=actually CharacterOffsetBegin=127 CharacterOffsetEnd=135 PartOfSpeech=RB Lemma=actually NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=league CharacterOffsetBegin=139 CharacterOffsetEnd=145 PartOfSpeech=NN Lemma=league NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=each CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=DT Lemma=each NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=156 CharacterOffsetEnd=161 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=structurally CharacterOffsetBegin=166 CharacterOffsetEnd=178 PartOfSpeech=RB Lemma=structurally NamedEntityTag=O]
+[Text=affiliated CharacterOffsetBegin=179 CharacterOffsetEnd=189 PartOfSpeech=VBN Lemma=affiliate NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Perhaps))
+    (NP
+      (NP (DT the) (JJ Faceless) (NN Men))
+      (CC and)
+      (NP
+        (NP (DT the) (NNP Iron) (NNP Bank))
+        (PRN (: --)
+          (NP
+            (NP (DT both) (JJ major) (NNS institutions))
+            (PP (IN of)
+              (NP (NNP Braavos))))
+          (: --))))
+    (VP
+      (VP (VBP are)
+        (ADVP (RB actually))
+        (PP (IN in)
+          (NP
+            (NP (NN league))
+            (PP (IN with)
+              (NP (DT each) (JJ other))))))
+      (CC and)
+      (VP
+        (ADVP (RB structurally))
+        (VBN affiliated)))
+    (. ?)))
+
+root(ROOT-0, league-19)
+advmod(league-19, Perhaps-1)
+det(Men-4, the-2)
+amod(Men-4, Faceless-3)
+nsubj(league-19, Men-4)
+nsubj(affiliated-25, Men-4)
+cc(Men-4, and-5)
+det(Bank-8, the-6)
+compound(Bank-8, Iron-7)
+conj:and(Men-4, Bank-8)
+nsubj(league-19, Bank-8)
+punct(institutions-12, ---9)
+det(institutions-12, both-10)
+amod(institutions-12, major-11)
+dep(Bank-8, institutions-12)
+case(Braavos-14, of-13)
+nmod:of(institutions-12, Braavos-14)
+punct(institutions-12, ---15)
+cop(league-19, are-16)
+advmod(league-19, actually-17)
+case(league-19, in-18)
+case(other-22, with-20)
+det(other-22, each-21)
+nmod:with(league-19, other-22)
+cc(league-19, and-23)
+advmod(affiliated-25, structurally-24)
+conj:and(league-19, affiliated-25)
+punct(league-19, ?-26)
+
 Sentence #3 (23 tokens):
 The Iron Bank is known as the richest organisation in the world, and has enough money to bring down entire regimes.
-[Text=The CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=DT]
-[Text=Iron CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=NNP]
-[Text=Bank CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=VBZ]
-[Text=known CharacterOffsetBegin=209 CharacterOffsetEnd=214 PartOfSpeech=VBN]
-[Text=as CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=DT]
-[Text=richest CharacterOffsetBegin=222 CharacterOffsetEnd=229 PartOfSpeech=JJS]
-[Text=organisation CharacterOffsetBegin=230 CharacterOffsetEnd=242 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=DT]
-[Text=world CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=CC]
-[Text=has CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=VBZ]
-[Text=enough CharacterOffsetBegin=265 CharacterOffsetEnd=271 PartOfSpeech=JJ]
-[Text=money CharacterOffsetBegin=272 CharacterOffsetEnd=277 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=TO]
-[Text=bring CharacterOffsetBegin=281 CharacterOffsetEnd=286 PartOfSpeech=VB]
-[Text=down CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=RP]
-[Text=entire CharacterOffsetBegin=292 CharacterOffsetEnd=298 PartOfSpeech=JJ]
-[Text=regimes CharacterOffsetBegin=299 CharacterOffsetEnd=306 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Iron CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=NNP Lemma=Iron NamedEntityTag=ORGANIZATION]
+[Text=Bank CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=NNP Lemma=Bank NamedEntityTag=ORGANIZATION]
+[Text=is CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=known CharacterOffsetBegin=209 CharacterOffsetEnd=214 PartOfSpeech=VBN Lemma=know NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=richest CharacterOffsetBegin=222 CharacterOffsetEnd=229 PartOfSpeech=JJS Lemma=richest NamedEntityTag=O]
+[Text=organisation CharacterOffsetBegin=230 CharacterOffsetEnd=242 PartOfSpeech=NN Lemma=organisation NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=world CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=NN Lemma=world NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=enough CharacterOffsetBegin=265 CharacterOffsetEnd=271 PartOfSpeech=JJ Lemma=enough NamedEntityTag=O]
+[Text=money CharacterOffsetBegin=272 CharacterOffsetEnd=277 PartOfSpeech=NN Lemma=money NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=bring CharacterOffsetBegin=281 CharacterOffsetEnd=286 PartOfSpeech=VB Lemma=bring NamedEntityTag=O]
+[Text=down CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=RP Lemma=down NamedEntityTag=O]
+[Text=entire CharacterOffsetBegin=292 CharacterOffsetEnd=298 PartOfSpeech=JJ Lemma=entire NamedEntityTag=O]
+[Text=regimes CharacterOffsetBegin=299 CharacterOffsetEnd=306 PartOfSpeech=NNS Lemma=regime NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NNP Iron) (NNP Bank))
+    (VP
+      (VP (VBZ is)
+        (VP (VBN known)
+          (PP (IN as)
+            (NP
+              (NP (DT the) (JJS richest) (NN organisation))
+              (PP (IN in)
+                (NP (DT the) (NN world)))))))
+      (, ,)
+      (CC and)
+      (VP (VBZ has)
+        (NP (JJ enough) (NN money)
+          (S
+            (VP (TO to)
+              (VP (VB bring)
+                (PRT (RP down))
+                (NP (JJ entire) (NNS regimes))))))))
+    (. .)))
+
+root(ROOT-0, known-5)
+det(Bank-3, The-1)
+compound(Bank-3, Iron-2)
+nsubjpass(known-5, Bank-3)
+nsubj(has-15, Bank-3)
+auxpass(known-5, is-4)
+case(organisation-9, as-6)
+det(organisation-9, the-7)
+amod(organisation-9, richest-8)
+nmod:as(known-5, organisation-9)
+case(world-12, in-10)
+det(world-12, the-11)
+nmod:in(organisation-9, world-12)
+punct(known-5, ,-13)
+cc(known-5, and-14)
+conj:and(known-5, has-15)
+amod(money-17, enough-16)
+dobj(has-15, money-17)
+mark(bring-19, to-18)
+acl:to(money-17, bring-19)
+compound:prt(bring-19, down-20)
+amod(regimes-22, entire-21)
+dobj(bring-19, regimes-22)
+punct(known-5, .-23)
+
 Sentence #4 (15 tokens):
 If you don't pay them back, someone's going to get you.
-[Text=If CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=IN]
-[Text=you CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=PRP]
-[Text=do CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=VBP]
-[Text=n't CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=RB]
-[Text=pay CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=VB]
-[Text=them CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=PRP]
-[Text=back CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=,]
-[Text=someone CharacterOffsetBegin=336 CharacterOffsetEnd=343 PartOfSpeech=NN]
-[Text='s CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=POS]
-[Text=going CharacterOffsetBegin=346 CharacterOffsetEnd=351 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=352 CharacterOffsetEnd=354 PartOfSpeech=TO]
-[Text=get CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=VB]
-[Text=you CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=.]
+[Text=If CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=pay CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=VB Lemma=pay NamedEntityTag=O]
+[Text=them CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=someone CharacterOffsetBegin=336 CharacterOffsetEnd=343 PartOfSpeech=NN Lemma=someone NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=going CharacterOffsetBegin=346 CharacterOffsetEnd=351 PartOfSpeech=VBG Lemma=go NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=352 CharacterOffsetEnd=354 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=get CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=VB Lemma=get NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP you))
+        (VP (VBP do) (RB n't)
+          (VP (VB pay)
+            (NP (PRP them))
+            (ADVP (RB back))))))
+    (, ,)
+    (NP
+      (NP
+        (NP (NN someone) (POS 's))
+        (VBG going))
+      (PP (TO to)))
+    (VP (VB get)
+      (NP (PRP you)))
+    (. .)))
+
+root(ROOT-0, get-13)
+mark(pay-5, If-1)
+nsubj(pay-5, you-2)
+aux(pay-5, do-3)
+neg(pay-5, n't-4)
+advcl:if(get-13, pay-5)
+dobj(pay-5, them-6)
+advmod(pay-5, back-7)
+punct(get-13, ,-8)
+nsubj(get-13, someone-9)
+case(someone-9, 's-10)
+amod(someone-9, going-11)
+acl(someone-9, to-12)
+dobj(get-13, you-14)
+punct(get-13, .-15)
+
 Sentence #5 (5 tokens):
 Maybe a Faceless Man?
-[Text=Maybe CharacterOffsetBegin=364 CharacterOffsetEnd=369 PartOfSpeech=RB]
-[Text=a CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=DT]
-[Text=Faceless CharacterOffsetBegin=372 CharacterOffsetEnd=380 PartOfSpeech=JJ]
-[Text=Man CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=NN]
-[Text=? CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=.]
+[Text=Maybe CharacterOffsetBegin=364 CharacterOffsetEnd=369 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Faceless CharacterOffsetBegin=372 CharacterOffsetEnd=380 PartOfSpeech=JJ Lemma=faceless NamedEntityTag=MISC]
+[Text=Man CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC]
+[Text=? CharacterOffsetBegin=384 CharacterOffsetEnd=385 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (ADVP (RB Maybe))
+    (NP (DT a) (JJ Faceless) (NN Man))
+    (. ?)))
+
+root(ROOT-0, Man-4)
+dep(Man-4, Maybe-1)
+det(Man-4, a-2)
+amod(Man-4, Faceless-3)
+punct(Man-4, ?-5)
+
 Sentence #6 (28 tokens):
 The FM charge huge fees for their services but the fees are also relative to the wealth of the person hiring them and who the target is.
-[Text=The CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=DT]
-[Text=FM CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=NNP]
-[Text=charge CharacterOffsetBegin=394 CharacterOffsetEnd=400 PartOfSpeech=NN]
-[Text=huge CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=JJ]
-[Text=fees CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=NNS]
-[Text=for CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=IN]
-[Text=their CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=PRP$]
-[Text=services CharacterOffsetBegin=421 CharacterOffsetEnd=429 PartOfSpeech=NNS]
-[Text=but CharacterOffsetBegin=430 CharacterOffsetEnd=433 PartOfSpeech=CC]
-[Text=the CharacterOffsetBegin=434 CharacterOffsetEnd=437 PartOfSpeech=DT]
-[Text=fees CharacterOffsetBegin=438 CharacterOffsetEnd=442 PartOfSpeech=NNS]
-[Text=are CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=VBP]
-[Text=also CharacterOffsetBegin=447 CharacterOffsetEnd=451 PartOfSpeech=RB]
-[Text=relative CharacterOffsetBegin=452 CharacterOffsetEnd=460 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=461 CharacterOffsetEnd=463 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=464 CharacterOffsetEnd=467 PartOfSpeech=DT]
-[Text=wealth CharacterOffsetBegin=468 CharacterOffsetEnd=474 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=475 CharacterOffsetEnd=477 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=DT]
-[Text=person CharacterOffsetBegin=482 CharacterOffsetEnd=488 PartOfSpeech=NN]
-[Text=hiring CharacterOffsetBegin=489 CharacterOffsetEnd=495 PartOfSpeech=VBG]
-[Text=them CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=PRP]
-[Text=and CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=CC]
-[Text=who CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=WP]
-[Text=the CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=DT]
-[Text=target CharacterOffsetBegin=513 CharacterOffsetEnd=519 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=520 CharacterOffsetEnd=522 PartOfSpeech=VBZ]
-[Text=. CharacterOffsetBegin=522 CharacterOffsetEnd=523 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=FM CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=NNP Lemma=FM NamedEntityTag=O]
+[Text=charge CharacterOffsetBegin=394 CharacterOffsetEnd=400 PartOfSpeech=NN Lemma=charge NamedEntityTag=O]
+[Text=huge CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=JJ Lemma=huge NamedEntityTag=O]
+[Text=fees CharacterOffsetBegin=406 CharacterOffsetEnd=410 PartOfSpeech=NNS Lemma=fee NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=411 CharacterOffsetEnd=414 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=services CharacterOffsetBegin=421 CharacterOffsetEnd=429 PartOfSpeech=NNS Lemma=service NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=430 CharacterOffsetEnd=433 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=434 CharacterOffsetEnd=437 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=fees CharacterOffsetBegin=438 CharacterOffsetEnd=442 PartOfSpeech=NNS Lemma=fee NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=447 CharacterOffsetEnd=451 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=relative CharacterOffsetBegin=452 CharacterOffsetEnd=460 PartOfSpeech=JJ Lemma=relative NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=461 CharacterOffsetEnd=463 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=464 CharacterOffsetEnd=467 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=wealth CharacterOffsetBegin=468 CharacterOffsetEnd=474 PartOfSpeech=NN Lemma=wealth NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=475 CharacterOffsetEnd=477 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=person CharacterOffsetBegin=482 CharacterOffsetEnd=488 PartOfSpeech=NN Lemma=person NamedEntityTag=O]
+[Text=hiring CharacterOffsetBegin=489 CharacterOffsetEnd=495 PartOfSpeech=VBG Lemma=hire NamedEntityTag=O]
+[Text=them CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=target CharacterOffsetBegin=513 CharacterOffsetEnd=519 PartOfSpeech=NN Lemma=target NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=520 CharacterOffsetEnd=522 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=522 CharacterOffsetEnd=523 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NNP FM))
+    (VP (NN charge)
+      (SBAR
+        (SBAR
+          (S
+            (NP
+              (NP (JJ huge) (NNS fees))
+              (PP (IN for)
+                (NP
+                  (NP (PRP$ their) (NNS services))
+                  (PP (CC but)
+                    (NP (DT the) (NNS fees))))))
+            (VP (VBP are)
+              (ADVP (RB also))
+              (VP
+                (ADVP (JJ relative)
+                  (PP (TO to)
+                    (NP
+                      (NP (DT the) (NN wealth))
+                      (PP (IN of)
+                        (NP (DT the) (NN person))))))
+                (VBG hiring)
+                (NP (PRP them))))))
+        (CC and)
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (NP (DT the) (NN target))
+            (VP (VBZ is))))))
+    (. .)))
+
+root(ROOT-0, charge-3)
+det(FM-2, The-1)
+nsubj(charge-3, FM-2)
+amod(fees-5, huge-4)
+nsubj(hiring-21, fees-5)
+case(services-8, for-6)
+nmod:poss(services-8, their-7)
+nmod:for(fees-5, services-8)
+case(fees-11, but-9)
+det(fees-11, the-10)
+nmod:but(services-8, fees-11)
+aux(hiring-21, are-12)
+advmod(hiring-21, also-13)
+advmod(hiring-21, relative-14)
+case(wealth-17, to-15)
+det(wealth-17, the-16)
+nmod:to(relative-14, wealth-17)
+case(person-20, of-18)
+det(person-20, the-19)
+nmod:of(wealth-17, person-20)
+dep(charge-3, hiring-21)
+dobj(hiring-21, them-22)
+cc(hiring-21, and-23)
+dobj(is-27, who-24)
+det(target-26, the-25)
+nsubj(is-27, target-26)
+dep(charge-3, is-27)
+conj:and(hiring-21, is-27)
+punct(charge-3, .-28)
+
 Sentence #7 (20 tokens):
 A wealthy person will pay more than a poor person, but the proportions will essentially be the same.
-[Text=A CharacterOffsetBegin=524 CharacterOffsetEnd=525 PartOfSpeech=DT]
-[Text=wealthy CharacterOffsetBegin=526 CharacterOffsetEnd=533 PartOfSpeech=JJ]
-[Text=person CharacterOffsetBegin=534 CharacterOffsetEnd=540 PartOfSpeech=NN]
-[Text=will CharacterOffsetBegin=541 CharacterOffsetEnd=545 PartOfSpeech=MD]
-[Text=pay CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=VB]
-[Text=more CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=JJR]
-[Text=than CharacterOffsetBegin=555 CharacterOffsetEnd=559 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=560 CharacterOffsetEnd=561 PartOfSpeech=DT]
-[Text=poor CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=JJ]
-[Text=person CharacterOffsetBegin=567 CharacterOffsetEnd=573 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=573 CharacterOffsetEnd=574 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=575 CharacterOffsetEnd=578 PartOfSpeech=CC]
-[Text=the CharacterOffsetBegin=579 CharacterOffsetEnd=582 PartOfSpeech=DT]
-[Text=proportions CharacterOffsetBegin=583 CharacterOffsetEnd=594 PartOfSpeech=NNS]
-[Text=will CharacterOffsetBegin=595 CharacterOffsetEnd=599 PartOfSpeech=MD]
-[Text=essentially CharacterOffsetBegin=600 CharacterOffsetEnd=611 PartOfSpeech=RB]
-[Text=be CharacterOffsetBegin=612 CharacterOffsetEnd=614 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=615 CharacterOffsetEnd=618 PartOfSpeech=DT]
-[Text=same CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=623 CharacterOffsetEnd=624 PartOfSpeech=.]
+[Text=A CharacterOffsetBegin=524 CharacterOffsetEnd=525 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=wealthy CharacterOffsetBegin=526 CharacterOffsetEnd=533 PartOfSpeech=JJ Lemma=wealthy NamedEntityTag=O]
+[Text=person CharacterOffsetBegin=534 CharacterOffsetEnd=540 PartOfSpeech=NN Lemma=person NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=541 CharacterOffsetEnd=545 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=pay CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=VB Lemma=pay NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=JJR Lemma=more NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=555 CharacterOffsetEnd=559 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=560 CharacterOffsetEnd=561 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=poor CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=JJ Lemma=poor NamedEntityTag=O]
+[Text=person CharacterOffsetBegin=567 CharacterOffsetEnd=573 PartOfSpeech=NN Lemma=person NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=573 CharacterOffsetEnd=574 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=575 CharacterOffsetEnd=578 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=579 CharacterOffsetEnd=582 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=proportions CharacterOffsetBegin=583 CharacterOffsetEnd=594 PartOfSpeech=NNS Lemma=proportion NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=595 CharacterOffsetEnd=599 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=essentially CharacterOffsetBegin=600 CharacterOffsetEnd=611 PartOfSpeech=RB Lemma=essentially NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=612 CharacterOffsetEnd=614 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=615 CharacterOffsetEnd=618 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=same CharacterOffsetBegin=619 CharacterOffsetEnd=623 PartOfSpeech=JJ Lemma=same NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=623 CharacterOffsetEnd=624 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (DT A) (JJ wealthy) (NN person))
+      (VP (MD will)
+        (VP (VB pay)
+          (NP
+            (QP (JJR more) (IN than) (DT a))
+            (JJ poor) (NN person)))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT the) (NNS proportions))
+      (VP (MD will)
+        (ADVP (RB essentially))
+        (VP (VB be)
+          (NP (DT the) (JJ same)))))
+    (. .)))
+
+root(ROOT-0, pay-5)
+det(person-3, A-1)
+amod(person-3, wealthy-2)
+nsubj(pay-5, person-3)
+aux(pay-5, will-4)
+advmod(a-8, more-6)
+mwe(more-6, than-7)
+nummod(person-10, a-8)
+amod(person-10, poor-9)
+dobj(pay-5, person-10)
+punct(pay-5, ,-11)
+cc(pay-5, but-12)
+det(proportions-14, the-13)
+nsubj(same-19, proportions-14)
+aux(same-19, will-15)
+advmod(same-19, essentially-16)
+cop(same-19, be-17)
+det(same-19, the-18)
+conj:but(pay-5, same-19)
+punct(pay-5, .-20)
+
 Sentence #8 (16 tokens):
 The FM may not flaunt their vast wealth, so where does their money go?
-[Text=The CharacterOffsetBegin=626 CharacterOffsetEnd=629 PartOfSpeech=DT]
-[Text=FM CharacterOffsetBegin=630 CharacterOffsetEnd=632 PartOfSpeech=NNP]
-[Text=may CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=MD]
-[Text=not CharacterOffsetBegin=637 CharacterOffsetEnd=640 PartOfSpeech=RB]
-[Text=flaunt CharacterOffsetBegin=641 CharacterOffsetEnd=647 PartOfSpeech=VB]
-[Text=their CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=PRP$]
-[Text=vast CharacterOffsetBegin=654 CharacterOffsetEnd=658 PartOfSpeech=JJ]
-[Text=wealth CharacterOffsetBegin=659 CharacterOffsetEnd=665 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=665 CharacterOffsetEnd=666 PartOfSpeech=,]
-[Text=so CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=RB]
-[Text=where CharacterOffsetBegin=670 CharacterOffsetEnd=675 PartOfSpeech=WRB]
-[Text=does CharacterOffsetBegin=676 CharacterOffsetEnd=680 PartOfSpeech=VBZ]
-[Text=their CharacterOffsetBegin=681 CharacterOffsetEnd=686 PartOfSpeech=PRP$]
-[Text=money CharacterOffsetBegin=687 CharacterOffsetEnd=692 PartOfSpeech=NN]
-[Text=go CharacterOffsetBegin=693 CharacterOffsetEnd=695 PartOfSpeech=VB]
-[Text=? CharacterOffsetBegin=695 CharacterOffsetEnd=696 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=626 CharacterOffsetEnd=629 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=FM CharacterOffsetBegin=630 CharacterOffsetEnd=632 PartOfSpeech=NNP Lemma=FM NamedEntityTag=O]
+[Text=may CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=MD Lemma=may NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=637 CharacterOffsetEnd=640 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=flaunt CharacterOffsetBegin=641 CharacterOffsetEnd=647 PartOfSpeech=VB Lemma=flaunt NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=648 CharacterOffsetEnd=653 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=vast CharacterOffsetBegin=654 CharacterOffsetEnd=658 PartOfSpeech=JJ Lemma=vast NamedEntityTag=O]
+[Text=wealth CharacterOffsetBegin=659 CharacterOffsetEnd=665 PartOfSpeech=NN Lemma=wealth NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=665 CharacterOffsetEnd=666 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=where CharacterOffsetBegin=670 CharacterOffsetEnd=675 PartOfSpeech=WRB Lemma=where NamedEntityTag=O]
+[Text=does CharacterOffsetBegin=676 CharacterOffsetEnd=680 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=681 CharacterOffsetEnd=686 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=money CharacterOffsetBegin=687 CharacterOffsetEnd=692 PartOfSpeech=NN Lemma=money NamedEntityTag=O]
+[Text=go CharacterOffsetBegin=693 CharacterOffsetEnd=695 PartOfSpeech=VB Lemma=go NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=695 CharacterOffsetEnd=696 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NNP FM))
+    (VP (MD may) (RB not)
+      (VP (VB flaunt)
+        (NP (PRP$ their) (JJ vast) (NN wealth))
+        (, ,)
+        (SBAR (RB so)
+          (WHADVP (WRB where))
+          (S
+            (VP (VBZ does)
+              (S
+                (NP (PRP$ their) (NN money))
+                (VP (VB go))))))))
+    (. ?)))
+
+root(ROOT-0, flaunt-5)
+det(FM-2, The-1)
+nsubj(flaunt-5, FM-2)
+aux(flaunt-5, may-3)
+neg(flaunt-5, not-4)
+nmod:poss(wealth-8, their-6)
+amod(wealth-8, vast-7)
+dobj(flaunt-5, wealth-8)
+punct(flaunt-5, ,-9)
+advmod(does-12, so-10)
+advmod(does-12, where-11)
+advcl(flaunt-5, does-12)
+nmod:poss(money-14, their-13)
+nsubj(go-15, money-14)
+ccomp(does-12, go-15)
+punct(flaunt-5, ?-16)
+
 Sentence #9 (32 tokens):
 Maybe to the Iron Bank, which then lends it out and forces its will on foreign regimes, so that the FM can then continue their influence on the world.
-[Text=Maybe CharacterOffsetBegin=697 CharacterOffsetEnd=702 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=703 CharacterOffsetEnd=705 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=706 CharacterOffsetEnd=709 PartOfSpeech=DT]
-[Text=Iron CharacterOffsetBegin=710 CharacterOffsetEnd=714 PartOfSpeech=NNP]
-[Text=Bank CharacterOffsetBegin=715 CharacterOffsetEnd=719 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=719 CharacterOffsetEnd=720 PartOfSpeech=,]
-[Text=which CharacterOffsetBegin=721 CharacterOffsetEnd=726 PartOfSpeech=WDT]
-[Text=then CharacterOffsetBegin=727 CharacterOffsetEnd=731 PartOfSpeech=RB]
-[Text=lends CharacterOffsetBegin=732 CharacterOffsetEnd=737 PartOfSpeech=VBZ]
-[Text=it CharacterOffsetBegin=738 CharacterOffsetEnd=740 PartOfSpeech=PRP]
-[Text=out CharacterOffsetBegin=741 CharacterOffsetEnd=744 PartOfSpeech=RP]
-[Text=and CharacterOffsetBegin=745 CharacterOffsetEnd=748 PartOfSpeech=CC]
-[Text=forces CharacterOffsetBegin=749 CharacterOffsetEnd=755 PartOfSpeech=VBZ]
-[Text=its CharacterOffsetBegin=756 CharacterOffsetEnd=759 PartOfSpeech=PRP$]
-[Text=will CharacterOffsetBegin=760 CharacterOffsetEnd=764 PartOfSpeech=MD]
-[Text=on CharacterOffsetBegin=765 CharacterOffsetEnd=767 PartOfSpeech=IN]
-[Text=foreign CharacterOffsetBegin=768 CharacterOffsetEnd=775 PartOfSpeech=JJ]
-[Text=regimes CharacterOffsetBegin=776 CharacterOffsetEnd=783 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=783 CharacterOffsetEnd=784 PartOfSpeech=,]
-[Text=so CharacterOffsetBegin=785 CharacterOffsetEnd=787 PartOfSpeech=RB]
-[Text=that CharacterOffsetBegin=788 CharacterOffsetEnd=792 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=793 CharacterOffsetEnd=796 PartOfSpeech=DT]
-[Text=FM CharacterOffsetBegin=797 CharacterOffsetEnd=799 PartOfSpeech=NNP]
-[Text=can CharacterOffsetBegin=800 CharacterOffsetEnd=803 PartOfSpeech=MD]
-[Text=then CharacterOffsetBegin=804 CharacterOffsetEnd=808 PartOfSpeech=RB]
-[Text=continue CharacterOffsetBegin=809 CharacterOffsetEnd=817 PartOfSpeech=VB]
-[Text=their CharacterOffsetBegin=818 CharacterOffsetEnd=823 PartOfSpeech=PRP$]
-[Text=influence CharacterOffsetBegin=824 CharacterOffsetEnd=833 PartOfSpeech=NN]
-[Text=on CharacterOffsetBegin=834 CharacterOffsetEnd=836 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=837 CharacterOffsetEnd=840 PartOfSpeech=DT]
-[Text=world CharacterOffsetBegin=841 CharacterOffsetEnd=846 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=846 CharacterOffsetEnd=847 PartOfSpeech=.]
+[Text=Maybe CharacterOffsetBegin=697 CharacterOffsetEnd=702 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=703 CharacterOffsetEnd=705 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=706 CharacterOffsetEnd=709 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Iron CharacterOffsetBegin=710 CharacterOffsetEnd=714 PartOfSpeech=NNP Lemma=Iron NamedEntityTag=ORGANIZATION]
+[Text=Bank CharacterOffsetBegin=715 CharacterOffsetEnd=719 PartOfSpeech=NNP Lemma=Bank NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=719 CharacterOffsetEnd=720 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=721 CharacterOffsetEnd=726 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=then CharacterOffsetBegin=727 CharacterOffsetEnd=731 PartOfSpeech=RB Lemma=then NamedEntityTag=O]
+[Text=lends CharacterOffsetBegin=732 CharacterOffsetEnd=737 PartOfSpeech=VBZ Lemma=lend NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=738 CharacterOffsetEnd=740 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=741 CharacterOffsetEnd=744 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=745 CharacterOffsetEnd=748 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=forces CharacterOffsetBegin=749 CharacterOffsetEnd=755 PartOfSpeech=VBZ Lemma=force NamedEntityTag=O]
+[Text=its CharacterOffsetBegin=756 CharacterOffsetEnd=759 PartOfSpeech=PRP$ Lemma=its NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=760 CharacterOffsetEnd=764 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=765 CharacterOffsetEnd=767 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=foreign CharacterOffsetBegin=768 CharacterOffsetEnd=775 PartOfSpeech=JJ Lemma=foreign NamedEntityTag=O]
+[Text=regimes CharacterOffsetBegin=776 CharacterOffsetEnd=783 PartOfSpeech=NNS Lemma=regime NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=783 CharacterOffsetEnd=784 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=785 CharacterOffsetEnd=787 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=788 CharacterOffsetEnd=792 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=793 CharacterOffsetEnd=796 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=FM CharacterOffsetBegin=797 CharacterOffsetEnd=799 PartOfSpeech=NNP Lemma=FM NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=800 CharacterOffsetEnd=803 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=then CharacterOffsetBegin=804 CharacterOffsetEnd=808 PartOfSpeech=RB Lemma=then NamedEntityTag=O]
+[Text=continue CharacterOffsetBegin=809 CharacterOffsetEnd=817 PartOfSpeech=VB Lemma=continue NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=818 CharacterOffsetEnd=823 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=influence CharacterOffsetBegin=824 CharacterOffsetEnd=833 PartOfSpeech=NN Lemma=influence NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=834 CharacterOffsetEnd=836 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=837 CharacterOffsetEnd=840 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=world CharacterOffsetBegin=841 CharacterOffsetEnd=846 PartOfSpeech=NN Lemma=world NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=846 CharacterOffsetEnd=847 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (FRAG (RB Maybe)
+      (PP (TO to)
+        (NP
+          (NP (DT the) (NNP Iron) (NNP Bank))
+          (, ,)
+          (SBAR
+            (WHNP (WDT which))
+            (S
+              (VP
+                (VP
+                  (ADVP (RB then))
+                  (VBZ lends)
+                  (NP (PRP it))
+                  (PRT (RP out)))
+                (CC and)
+                (VP (VBZ forces)
+                  (SBAR
+                    (S
+                      (NP (PRP$ its))
+                      (VP (MD will)
+                        (PP (IN on)
+                          (NP (JJ foreign) (NNS regimes)))))))))))))
+    (, ,)
+    (FRAG
+      (ADVP (RB so))
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NNP FM))
+          (VP (MD can) (RB then)
+            (VP (VB continue)
+              (NP (PRP$ their) (NN influence))
+              (PP (IN on)
+                (NP (DT the) (NN world)))))))
+      (. .))))
+
+root(ROOT-0, Maybe-1)
+case(Bank-5, to-2)
+det(Bank-5, the-3)
+compound(Bank-5, Iron-4)
+nmod:to(Maybe-1, Bank-5)
+nsubj(lends-9, Bank-5)
+nsubj(forces-13, Bank-5)
+punct(Bank-5, ,-6)
+ref(Bank-5, which-7)
+advmod(lends-9, then-8)
+acl:relcl(Bank-5, lends-9)
+dobj(lends-9, it-10)
+compound:prt(lends-9, out-11)
+cc(lends-9, and-12)
+acl:relcl(Bank-5, forces-13)
+conj:and(lends-9, forces-13)
+nsubj(will-15, its-14)
+ccomp(forces-13, will-15)
+case(regimes-18, on-16)
+amod(regimes-18, foreign-17)
+nmod:on(will-15, regimes-18)
+punct(Maybe-1, ,-19)
+parataxis(Maybe-1, so-20)
+mark(continue-26, that-21)
+det(FM-23, the-22)
+nsubj(continue-26, FM-23)
+aux(continue-26, can-24)
+advmod(continue-26, then-25)
+dep(so-20, continue-26)
+nmod:poss(influence-28, their-27)
+dobj(continue-26, influence-28)
+case(world-31, on-29)
+det(world-31, the-30)
+nmod:on(continue-26, world-31)
+punct(so-20, .-32)
+
 Sentence #10 (23 tokens):
 All this would lead to the idea that the Many-Faced God is actually money, and the impact it has on people.
-[Text=All CharacterOffsetBegin=849 CharacterOffsetEnd=852 PartOfSpeech=PDT]
-[Text=this CharacterOffsetBegin=853 CharacterOffsetEnd=857 PartOfSpeech=DT]
-[Text=would CharacterOffsetBegin=858 CharacterOffsetEnd=863 PartOfSpeech=MD]
-[Text=lead CharacterOffsetBegin=864 CharacterOffsetEnd=868 PartOfSpeech=VB]
-[Text=to CharacterOffsetBegin=869 CharacterOffsetEnd=871 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=872 CharacterOffsetEnd=875 PartOfSpeech=DT]
-[Text=idea CharacterOffsetBegin=876 CharacterOffsetEnd=880 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=881 CharacterOffsetEnd=885 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=886 CharacterOffsetEnd=889 PartOfSpeech=DT]
-[Text=Many-Faced CharacterOffsetBegin=890 CharacterOffsetEnd=900 PartOfSpeech=JJ]
-[Text=God CharacterOffsetBegin=901 CharacterOffsetEnd=904 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=905 CharacterOffsetEnd=907 PartOfSpeech=VBZ]
-[Text=actually CharacterOffsetBegin=908 CharacterOffsetEnd=916 PartOfSpeech=RB]
-[Text=money CharacterOffsetBegin=917 CharacterOffsetEnd=922 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=922 CharacterOffsetEnd=923 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=924 CharacterOffsetEnd=927 PartOfSpeech=CC]
-[Text=the CharacterOffsetBegin=928 CharacterOffsetEnd=931 PartOfSpeech=DT]
-[Text=impact CharacterOffsetBegin=932 CharacterOffsetEnd=938 PartOfSpeech=NN]
-[Text=it CharacterOffsetBegin=939 CharacterOffsetEnd=941 PartOfSpeech=PRP]
-[Text=has CharacterOffsetBegin=942 CharacterOffsetEnd=945 PartOfSpeech=VBZ]
-[Text=on CharacterOffsetBegin=946 CharacterOffsetEnd=948 PartOfSpeech=IN]
-[Text=people CharacterOffsetBegin=949 CharacterOffsetEnd=955 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=955 CharacterOffsetEnd=956 PartOfSpeech=.]
+[Text=All CharacterOffsetBegin=849 CharacterOffsetEnd=852 PartOfSpeech=PDT Lemma=all NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=853 CharacterOffsetEnd=857 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=858 CharacterOffsetEnd=863 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=lead CharacterOffsetBegin=864 CharacterOffsetEnd=868 PartOfSpeech=VB Lemma=lead NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=869 CharacterOffsetEnd=871 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=872 CharacterOffsetEnd=875 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=idea CharacterOffsetBegin=876 CharacterOffsetEnd=880 PartOfSpeech=NN Lemma=idea NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=881 CharacterOffsetEnd=885 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=886 CharacterOffsetEnd=889 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Many-Faced CharacterOffsetBegin=890 CharacterOffsetEnd=900 PartOfSpeech=JJ Lemma=many-faced NamedEntityTag=MISC]
+[Text=God CharacterOffsetBegin=901 CharacterOffsetEnd=904 PartOfSpeech=NNP Lemma=God NamedEntityTag=MISC]
+[Text=is CharacterOffsetBegin=905 CharacterOffsetEnd=907 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=actually CharacterOffsetBegin=908 CharacterOffsetEnd=916 PartOfSpeech=RB Lemma=actually NamedEntityTag=O]
+[Text=money CharacterOffsetBegin=917 CharacterOffsetEnd=922 PartOfSpeech=NN Lemma=money NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=922 CharacterOffsetEnd=923 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=924 CharacterOffsetEnd=927 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=928 CharacterOffsetEnd=931 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=impact CharacterOffsetBegin=932 CharacterOffsetEnd=938 PartOfSpeech=NN Lemma=impact NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=939 CharacterOffsetEnd=941 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=942 CharacterOffsetEnd=945 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=946 CharacterOffsetEnd=948 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=people CharacterOffsetBegin=949 CharacterOffsetEnd=955 PartOfSpeech=NNS Lemma=people NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=955 CharacterOffsetEnd=956 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PDT All) (DT this))
+    (VP (MD would)
+      (VP (VB lead)
+        (PP (TO to)
+          (NP (DT the) (NN idea)))
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (JJ Many-Faced) (NNP God))
+            (VP (VBZ is)
+              (ADVP (RB actually))
+              (NP
+                (NP (NN money))
+                (, ,)
+                (CC and)
+                (NP
+                  (NP (DT the) (NN impact))
+                  (SBAR
+                    (S
+                      (NP (PRP it))
+                      (VP (VBZ has)
+                        (VP
+                          (PP (IN on)
+                            (NP (NNS people))))))))))))))
+    (. .)))
+
+root(ROOT-0, lead-4)
+det:predet(this-2, All-1)
+nsubj(lead-4, this-2)
+aux(lead-4, would-3)
+case(idea-7, to-5)
+det(idea-7, the-6)
+nmod:to(lead-4, idea-7)
+mark(money-14, that-8)
+det(God-11, the-9)
+amod(God-11, Many-Faced-10)
+nsubj(money-14, God-11)
+cop(money-14, is-12)
+advmod(money-14, actually-13)
+ccomp(lead-4, money-14)
+punct(money-14, ,-15)
+cc(money-14, and-16)
+det(impact-18, the-17)
+ccomp(lead-4, impact-18)
+conj:and(money-14, impact-18)
+nsubj(people-22, it-19)
+aux(people-22, has-20)
+case(people-22, on-21)
+acl:relcl(impact-18, people-22)
+punct(lead-4, .-23)
+
 Sentence #11 (31 tokens):
 This is why they don't care who hires them and what for, they just want the cash to then inject into the Iron Bank (their god).
-[Text=This CharacterOffsetBegin=957 CharacterOffsetEnd=961 PartOfSpeech=DT]
-[Text=is CharacterOffsetBegin=962 CharacterOffsetEnd=964 PartOfSpeech=VBZ]
-[Text=why CharacterOffsetBegin=965 CharacterOffsetEnd=968 PartOfSpeech=WRB]
-[Text=they CharacterOffsetBegin=969 CharacterOffsetEnd=973 PartOfSpeech=PRP]
-[Text=do CharacterOffsetBegin=974 CharacterOffsetEnd=976 PartOfSpeech=VBP]
-[Text=n't CharacterOffsetBegin=976 CharacterOffsetEnd=979 PartOfSpeech=RB]
-[Text=care CharacterOffsetBegin=980 CharacterOffsetEnd=984 PartOfSpeech=VB]
-[Text=who CharacterOffsetBegin=985 CharacterOffsetEnd=988 PartOfSpeech=WP]
-[Text=hires CharacterOffsetBegin=989 CharacterOffsetEnd=994 PartOfSpeech=VBZ]
-[Text=them CharacterOffsetBegin=995 CharacterOffsetEnd=999 PartOfSpeech=PRP]
-[Text=and CharacterOffsetBegin=1000 CharacterOffsetEnd=1003 PartOfSpeech=CC]
-[Text=what CharacterOffsetBegin=1004 CharacterOffsetEnd=1008 PartOfSpeech=WP]
-[Text=for CharacterOffsetBegin=1009 CharacterOffsetEnd=1012 PartOfSpeech=IN]
-[Text=, CharacterOffsetBegin=1012 CharacterOffsetEnd=1013 PartOfSpeech=,]
-[Text=they CharacterOffsetBegin=1014 CharacterOffsetEnd=1018 PartOfSpeech=PRP]
-[Text=just CharacterOffsetBegin=1019 CharacterOffsetEnd=1023 PartOfSpeech=RB]
-[Text=want CharacterOffsetBegin=1024 CharacterOffsetEnd=1028 PartOfSpeech=VBP]
-[Text=the CharacterOffsetBegin=1029 CharacterOffsetEnd=1032 PartOfSpeech=DT]
-[Text=cash CharacterOffsetBegin=1033 CharacterOffsetEnd=1037 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=1038 CharacterOffsetEnd=1040 PartOfSpeech=TO]
-[Text=then CharacterOffsetBegin=1041 CharacterOffsetEnd=1045 PartOfSpeech=RB]
-[Text=inject CharacterOffsetBegin=1046 CharacterOffsetEnd=1052 PartOfSpeech=VB]
-[Text=into CharacterOffsetBegin=1053 CharacterOffsetEnd=1057 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=1058 CharacterOffsetEnd=1061 PartOfSpeech=DT]
-[Text=Iron CharacterOffsetBegin=1062 CharacterOffsetEnd=1066 PartOfSpeech=NNP]
-[Text=Bank CharacterOffsetBegin=1067 CharacterOffsetEnd=1071 PartOfSpeech=NNP]
-[Text=-LRB- CharacterOffsetBegin=1072 CharacterOffsetEnd=1073 PartOfSpeech=-LRB-]
-[Text=their CharacterOffsetBegin=1073 CharacterOffsetEnd=1078 PartOfSpeech=PRP$]
-[Text=god CharacterOffsetBegin=1079 CharacterOffsetEnd=1082 PartOfSpeech=NN]
-[Text=-RRB- CharacterOffsetBegin=1082 CharacterOffsetEnd=1083 PartOfSpeech=-RRB-]
-[Text=. CharacterOffsetBegin=1083 CharacterOffsetEnd=1084 PartOfSpeech=.]
+[Text=This CharacterOffsetBegin=957 CharacterOffsetEnd=961 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=962 CharacterOffsetEnd=964 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=why CharacterOffsetBegin=965 CharacterOffsetEnd=968 PartOfSpeech=WRB Lemma=why NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=969 CharacterOffsetEnd=973 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=974 CharacterOffsetEnd=976 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=976 CharacterOffsetEnd=979 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=care CharacterOffsetBegin=980 CharacterOffsetEnd=984 PartOfSpeech=VB Lemma=care NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=985 CharacterOffsetEnd=988 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=hires CharacterOffsetBegin=989 CharacterOffsetEnd=994 PartOfSpeech=VBZ Lemma=hire NamedEntityTag=O]
+[Text=them CharacterOffsetBegin=995 CharacterOffsetEnd=999 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1000 CharacterOffsetEnd=1003 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=1004 CharacterOffsetEnd=1008 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=1009 CharacterOffsetEnd=1012 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1012 CharacterOffsetEnd=1013 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=1014 CharacterOffsetEnd=1018 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=just CharacterOffsetBegin=1019 CharacterOffsetEnd=1023 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=want CharacterOffsetBegin=1024 CharacterOffsetEnd=1028 PartOfSpeech=VBP Lemma=want NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1029 CharacterOffsetEnd=1032 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=cash CharacterOffsetBegin=1033 CharacterOffsetEnd=1037 PartOfSpeech=NN Lemma=cash NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=1038 CharacterOffsetEnd=1040 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=then CharacterOffsetBegin=1041 CharacterOffsetEnd=1045 PartOfSpeech=RB Lemma=then NamedEntityTag=O]
+[Text=inject CharacterOffsetBegin=1046 CharacterOffsetEnd=1052 PartOfSpeech=VB Lemma=inject NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=1053 CharacterOffsetEnd=1057 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=1058 CharacterOffsetEnd=1061 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Iron CharacterOffsetBegin=1062 CharacterOffsetEnd=1066 PartOfSpeech=NNP Lemma=Iron NamedEntityTag=ORGANIZATION]
+[Text=Bank CharacterOffsetBegin=1067 CharacterOffsetEnd=1071 PartOfSpeech=NNP Lemma=Bank NamedEntityTag=ORGANIZATION]
+[Text=-LRB- CharacterOffsetBegin=1072 CharacterOffsetEnd=1073 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=1073 CharacterOffsetEnd=1078 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=god CharacterOffsetBegin=1079 CharacterOffsetEnd=1082 PartOfSpeech=NN Lemma=god NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=1082 CharacterOffsetEnd=1083 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1083 CharacterOffsetEnd=1084 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (SBAR
+        (WHADVP (WRB why))
+        (S
+          (NP (PRP they))
+          (VP (VBP do) (RB n't)
+            (VP (VB care)
+              (NP
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP (VBZ hires)
+                      (NP (PRP them)))))
+                (CC and)
+                (NP
+                  (NP
+                    (NP (WP what))
+                    (SBAR (IN for) (, ,)
+                      (S
+                        (NP (PRP they))
+                        (ADVP (RB just))
+                        (VP (VBP want)
+                          (S
+                            (NP (DT the) (NN cash))
+                            (VP (TO to)
+                              (VP
+                                (ADVP (RB then))
+                                (VB inject)
+                                (PP (IN into)
+                                  (NP (DT the) (NNP Iron) (NNP Bank))))))))))
+                  (-LRB- -LRB-)
+                  (NP (PRP$ their) (NN god))
+                  (-RRB- -RRB-))))))))
+    (. .)))
+
+root(ROOT-0, is-2)
+nsubj(is-2, This-1)
+advmod(care-7, why-3)
+nsubj(care-7, they-4)
+aux(care-7, do-5)
+neg(care-7, n't-6)
+advcl(is-2, care-7)
+nsubj(hires-9, who-8)
+dobj(care-7, hires-9)
+dobj(hires-9, them-10)
+cc(hires-9, and-11)
+dobj(care-7, what-12)
+conj:and(hires-9, what-12)
+mark(want-17, for-13)
+punct(want-17, ,-14)
+nsubj(want-17, they-15)
+advmod(want-17, just-16)
+acl:relcl(what-12, want-17)
+det(cash-19, the-18)
+dobj(want-17, cash-19)
+nsubj:xsubj(inject-22, cash-19)
+mark(inject-22, to-20)
+advmod(inject-22, then-21)
+xcomp(want-17, inject-22)
+case(Bank-26, into-23)
+det(Bank-26, the-24)
+compound(Bank-26, Iron-25)
+nmod:into(inject-22, Bank-26)
+punct(what-12, -LRB--27)
+nmod:poss(god-29, their-28)
+dep(what-12, god-29)
+punct(what-12, -RRB--30)
+punct(is-2, .-31)
+
 Sentence #12 (13 tokens):
 What did Jaqen give Arya as a token to get into Braavos?
-[Text=What CharacterOffsetBegin=1086 CharacterOffsetEnd=1090 PartOfSpeech=WP]
-[Text=did CharacterOffsetBegin=1091 CharacterOffsetEnd=1094 PartOfSpeech=VBD]
-[Text=Jaqen CharacterOffsetBegin=1095 CharacterOffsetEnd=1100 PartOfSpeech=NNP]
-[Text=give CharacterOffsetBegin=1101 CharacterOffsetEnd=1105 PartOfSpeech=VB]
-[Text=Arya CharacterOffsetBegin=1106 CharacterOffsetEnd=1110 PartOfSpeech=NNP]
-[Text=as CharacterOffsetBegin=1111 CharacterOffsetEnd=1113 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=1114 CharacterOffsetEnd=1115 PartOfSpeech=DT]
-[Text=token CharacterOffsetBegin=1116 CharacterOffsetEnd=1121 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=1122 CharacterOffsetEnd=1124 PartOfSpeech=TO]
-[Text=get CharacterOffsetBegin=1125 CharacterOffsetEnd=1128 PartOfSpeech=VB]
-[Text=into CharacterOffsetBegin=1129 CharacterOffsetEnd=1133 PartOfSpeech=IN]
-[Text=Braavos CharacterOffsetBegin=1134 CharacterOffsetEnd=1141 PartOfSpeech=NNP]
-[Text=? CharacterOffsetBegin=1141 CharacterOffsetEnd=1142 PartOfSpeech=.]
+[Text=What CharacterOffsetBegin=1086 CharacterOffsetEnd=1090 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=1091 CharacterOffsetEnd=1094 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=Jaqen CharacterOffsetBegin=1095 CharacterOffsetEnd=1100 PartOfSpeech=NNP Lemma=Jaqen NamedEntityTag=PERSON]
+[Text=give CharacterOffsetBegin=1101 CharacterOffsetEnd=1105 PartOfSpeech=VB Lemma=give NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=1106 CharacterOffsetEnd=1110 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=as CharacterOffsetBegin=1111 CharacterOffsetEnd=1113 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=1114 CharacterOffsetEnd=1115 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=token CharacterOffsetBegin=1116 CharacterOffsetEnd=1121 PartOfSpeech=JJ Lemma=token NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=1122 CharacterOffsetEnd=1124 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=get CharacterOffsetBegin=1125 CharacterOffsetEnd=1128 PartOfSpeech=VB Lemma=get NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=1129 CharacterOffsetEnd=1133 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=Braavos CharacterOffsetBegin=1134 CharacterOffsetEnd=1141 PartOfSpeech=NNP Lemma=Braavos NamedEntityTag=PERSON]
+[Text=? CharacterOffsetBegin=1141 CharacterOffsetEnd=1142 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (SBARQ
+    (WHNP (WP What))
+    (SQ (VBD did)
+      (NP (NNP Jaqen))
+      (VP (VB give)
+        (NP (NNP Arya))
+        (PP (IN as)
+          (NP (DT a) (JJ token)))
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (PP (IN into)
+                (NP (NNP Braavos))))))))
+    (. ?)))
+
+root(ROOT-0, give-4)
+dep(give-4, What-1)
+aux(give-4, did-2)
+nsubj(give-4, Jaqen-3)
+dobj(give-4, Arya-5)
+case(token-8, as-6)
+det(token-8, a-7)
+nmod:as(give-4, token-8)
+mark(get-10, to-9)
+advcl:to(give-4, get-10)
+case(Braavos-12, into-11)
+nmod:into(get-10, Braavos-12)
+punct(give-4, ?-13)
+
 Sentence #13 (3 tokens):
 A coin.
-[Text=A CharacterOffsetBegin=1143 CharacterOffsetEnd=1144 PartOfSpeech=DT]
-[Text=coin CharacterOffsetBegin=1145 CharacterOffsetEnd=1149 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=1149 CharacterOffsetEnd=1150 PartOfSpeech=.]
+[Text=A CharacterOffsetBegin=1143 CharacterOffsetEnd=1144 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=coin CharacterOffsetBegin=1145 CharacterOffsetEnd=1149 PartOfSpeech=NN Lemma=coin NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1149 CharacterOffsetEnd=1150 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP (DT A) (NN coin) (. .)))
+
+root(ROOT-0, coin-2)
+det(coin-2, A-1)
+punct(coin-2, .-3)
+
+Coreference set:
+	(1,5,[1,6]) -> (10,11,[9,12]), that is: "THE FACELESS MEN 'S GOD" -> "the Many-Faced God"
+	(11,29,[28,30]) -> (10,11,[9,12]), that is: "their god" -> "the Many-Faced God"
+Coreference set:
+	(1,3,[1,5]) -> (2,4,[2,5]), that is: "THE FACELESS MEN 'S" -> "the Faceless Men"
+Coreference set:
+	(8,14,[13,15]) -> (1,8,[7,9]), that is: "their money" -> "ACTUALLY MONEY"
+Coreference set:
+	(4,6,[6,7]) -> (2,4,[2,16]), that is: "them" -> "the Faceless Men and the Iron Bank -- both major institutions of Braavos --"
+	(6,7,[7,8]) -> (2,4,[2,16]), that is: "their" -> "the Faceless Men and the Iron Bank -- both major institutions of Braavos --"
+	(6,22,[22,23]) -> (2,4,[2,16]), that is: "them" -> "the Faceless Men and the Iron Bank -- both major institutions of Braavos --"
+Coreference set:
+	(3,3,[1,4]) -> (2,8,[6,16]), that is: "The Iron Bank" -> "the Iron Bank -- both major institutions of Braavos --"
+	(9,5,[3,19]) -> (2,8,[6,16]), that is: "the Iron Bank , which then lends it out and forces its will on foreign regimes" -> "the Iron Bank -- both major institutions of Braavos --"
+	(9,5,[3,6]) -> (2,8,[6,16]), that is: "the Iron Bank" -> "the Iron Bank -- both major institutions of Braavos --"
+	(9,5,[4,6]) -> (2,8,[6,16]), that is: "Iron Bank" -> "the Iron Bank -- both major institutions of Braavos --"
+	(11,26,[24,27]) -> (2,8,[6,16]), that is: "the Iron Bank" -> "the Iron Bank -- both major institutions of Braavos --"
+Coreference set:
+	(2,14,[14,15]) -> (12,12,[12,13]), that is: "Braavos" -> "Braavos"
+Coreference set:
+	(9,31,[30,32]) -> (3,12,[11,13]), that is: "the world" -> "the world"
+Coreference set:
+	(8,2,[1,3]) -> (6,2,[1,3]), that is: "The FM" -> "The FM"
+	(9,10,[10,11]) -> (6,2,[1,3]), that is: "it" -> "The FM"
+	(9,14,[14,15]) -> (6,2,[1,3]), that is: "its" -> "The FM"
+	(9,23,[22,24]) -> (6,2,[1,3]), that is: "the FM" -> "The FM"
+Coreference set:
+	(8,6,[6,7]) -> (7,14,[13,15]), that is: "their" -> "the proportions"
+	(8,13,[13,14]) -> (7,14,[13,15]), that is: "their" -> "the proportions"
+	(9,27,[27,28]) -> (7,14,[13,15]), that is: "their" -> "the proportions"
+Coreference set:
+	(10,19,[19,20]) -> (10,7,[6,8]), that is: "it" -> "the idea"
+Coreference set:
+	(11,4,[4,5]) -> (11,1,[1,2]), that is: "they" -> "This"
+	(11,10,[10,11]) -> (11,1,[1,2]), that is: "them" -> "This"
+	(11,15,[15,16]) -> (11,1,[1,2]), that is: "they" -> "This"
+	(11,28,[28,29]) -> (11,1,[1,2]), that is: "their" -> "This"

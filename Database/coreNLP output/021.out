@@ -1,19 +1,63 @@
-Sentence #1 (17 tokens):
-Sansa and Jon will continue butting heads but she will ultimately manipulate Littlefinger out of the game
-[Text=Sansa CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=CC]
-[Text=Jon CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=MD]
-[Text=continue CharacterOffsetBegin=19 CharacterOffsetEnd=27 PartOfSpeech=VB]
-[Text=butting CharacterOffsetBegin=28 CharacterOffsetEnd=35 PartOfSpeech=VBG]
-[Text=heads CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=NNS]
-[Text=but CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=CC]
-[Text=she CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=PRP]
-[Text=will CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=MD]
-[Text=ultimately CharacterOffsetBegin=55 CharacterOffsetEnd=65 PartOfSpeech=RB]
-[Text=manipulate CharacterOffsetBegin=66 CharacterOffsetEnd=76 PartOfSpeech=VB]
-[Text=Littlefinger CharacterOffsetBegin=77 CharacterOffsetEnd=89 PartOfSpeech=NNP]
-[Text=out CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=IN]
-[Text=of CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=DT]
-[Text=game CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=NN]
+Sentence #1 (18 tokens):
+Sansa and Jon will continue butting heads but she will ultimately manipulate Littlefinger out of the game.
+[Text=Sansa CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=continue CharacterOffsetBegin=19 CharacterOffsetEnd=27 PartOfSpeech=VB Lemma=continue NamedEntityTag=O]
+[Text=butting CharacterOffsetBegin=28 CharacterOffsetEnd=35 PartOfSpeech=VBG Lemma=but NamedEntityTag=O]
+[Text=heads CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=NNS Lemma=head NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=ultimately CharacterOffsetBegin=55 CharacterOffsetEnd=65 PartOfSpeech=RB Lemma=ultimately NamedEntityTag=O]
+[Text=manipulate CharacterOffsetBegin=66 CharacterOffsetEnd=76 PartOfSpeech=VB Lemma=manipulate NamedEntityTag=O]
+[Text=Littlefinger CharacterOffsetBegin=77 CharacterOffsetEnd=89 PartOfSpeech=NNP Lemma=Littlefinger NamedEntityTag=PERSON]
+[Text=out CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=IN Lemma=out NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Sansa)
+        (CC and)
+        (NNP Jon))
+      (VP (MD will)
+        (VP (VB continue)
+          (NP (VBG butting) (NNS heads)))))
+    (CC but)
+    (S
+      (NP (PRP she))
+      (VP (MD will)
+        (ADVP (RB ultimately))
+        (VP (VB manipulate)
+          (NP (NNP Littlefinger))
+          (ADVP (IN out)
+            (PP (IN of)
+              (NP (DT the) (NN game)))))))
+    (. .)))
+
+root(ROOT-0, continue-5)
+nsubj(continue-5, Sansa-1)
+cc(Sansa-1, and-2)
+conj:and(Sansa-1, Jon-3)
+nsubj(continue-5, Jon-3)
+aux(continue-5, will-4)
+amod(heads-7, butting-6)
+dobj(continue-5, heads-7)
+cc(continue-5, but-8)
+nsubj(manipulate-12, she-9)
+aux(manipulate-12, will-10)
+advmod(manipulate-12, ultimately-11)
+conj:but(continue-5, manipulate-12)
+dobj(manipulate-12, Littlefinger-13)
+case(game-17, out-14)
+mwe(out-14, of-15)
+det(game-17, the-16)
+nmod:out_of(manipulate-12, game-17)
+punct(continue-5, .-18)
+
+Coreference set:
+	(1,9,[9,10]) -> (1,1,[1,2]), that is: "she" -> "Sansa"

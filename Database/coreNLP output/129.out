@@ -1,98 +1,300 @@
-Sentence #1 (24 tokens):
-Meera Reed is Jon's twin
+Sentence #1 (7 tokens):
+Meera Reed is Jon's twin.
+[Text=Meera CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Meera NamedEntityTag=PERSON]
+[Text=Reed CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=NNP Lemma=Reed NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=twin CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=NN Lemma=twin NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Meera) (NNP Reed))
+    (VP (VBZ is)
+      (NP
+        (NP (NNP Jon) (POS 's))
+        (NN twin)))
+    (. .)))
 
+root(ROOT-0, twin-6)
+compound(Reed-2, Meera-1)
+nsubj(twin-6, Reed-2)
+cop(twin-6, is-3)
+nmod:poss(twin-6, Jon-4)
+case(Jon-4, 's-5)
+punct(twin-6, .-7)
+
+Sentence #2 (18 tokens):
 One theory posits that Bran Stark's pal Meera Reed is actually Jon Snow's twin sister.
-[Text=Meera CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=Reed CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VBZ]
-[Text=Jon CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=POS]
-[Text=twin CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=JJ]
-[Text=One CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=CD]
-[Text=theory CharacterOffsetBegin=30 CharacterOffsetEnd=36 PartOfSpeech=NN]
-[Text=posits CharacterOffsetBegin=37 CharacterOffsetEnd=43 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=IN]
-[Text=Bran CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=POS]
-[Text=pal CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=NN]
-[Text=Meera CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=NNP]
-[Text=Reed CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=VBZ]
-[Text=actually CharacterOffsetBegin=80 CharacterOffsetEnd=88 PartOfSpeech=RB]
-[Text=Jon CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=POS]
-[Text=twin CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=JJ]
-[Text=sister CharacterOffsetBegin=105 CharacterOffsetEnd=111 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=.]
-Sentence #2 (24 tokens):
+[Text=One CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=theory CharacterOffsetBegin=31 CharacterOffsetEnd=37 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=posits CharacterOffsetBegin=38 CharacterOffsetEnd=44 PartOfSpeech=VBZ Lemma=posit NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=Stark CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=pal CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=NN Lemma=pal NamedEntityTag=O]
+[Text=Meera CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=NNP Lemma=Meera NamedEntityTag=PERSON]
+[Text=Reed CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=NNP Lemma=Reed NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=actually CharacterOffsetBegin=81 CharacterOffsetEnd=89 PartOfSpeech=RB Lemma=actually NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=twin CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=JJ Lemma=twin NamedEntityTag=O]
+[Text=sister CharacterOffsetBegin=106 CharacterOffsetEnd=112 PartOfSpeech=NN Lemma=sister NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=112 CharacterOffsetEnd=113 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (CD One) (NN theory))
+    (VP (VBZ posits)
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (NNP Bran) (NNP Stark) (POS 's))
+            (NN pal) (NNP Meera) (NNP Reed))
+          (VP (VBZ is)
+            (ADVP (RB actually))
+            (NP
+              (NP (NNP Jon) (NNP Snow) (POS 's))
+              (JJ twin) (NN sister))))))
+    (. .)))
+
+root(ROOT-0, posits-3)
+nummod(theory-2, One-1)
+nsubj(posits-3, theory-2)
+mark(sister-17, that-4)
+compound(Stark-6, Bran-5)
+nmod:poss(Reed-10, Stark-6)
+case(Stark-6, 's-7)
+compound(Reed-10, pal-8)
+compound(Reed-10, Meera-9)
+nsubj(sister-17, Reed-10)
+cop(sister-17, is-11)
+advmod(sister-17, actually-12)
+compound(Snow-14, Jon-13)
+nmod:poss(sister-17, Snow-14)
+case(Snow-14, 's-15)
+amod(sister-17, twin-16)
+ccomp(posits-3, sister-17)
+punct(posits-3, .-18)
+
+Sentence #3 (24 tokens):
 On the show, the actors bear more than a passing resemblance, and in the books, they're the same age.
-[Text=On CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=DT]
-[Text=show CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=DT]
-[Text=actors CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=NNS]
-[Text=bear CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=VBP]
-[Text=more CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=JJR]
-[Text=than CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=DT]
-[Text=passing CharacterOffsetBegin=154 CharacterOffsetEnd=161 PartOfSpeech=VBG]
-[Text=resemblance CharacterOffsetBegin=162 CharacterOffsetEnd=173 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=CC]
-[Text=in CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=DT]
-[Text=books CharacterOffsetBegin=186 CharacterOffsetEnd=191 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=,]
-[Text=they CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=PRP]
-[Text='re CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=VBP]
-[Text=the CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=DT]
-[Text=same CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=JJ]
-[Text=age CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=.]
-Sentence #3 (20 tokens):
-Howland Reed was also present at the Tower of Joy when Jon's maybe-mom Lyanna died after giving birth.
-[Text=Howland CharacterOffsetBegin=215 CharacterOffsetEnd=222 PartOfSpeech=NNP]
-[Text=Reed CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=NNP]
-[Text=was CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=VBD]
-[Text=also CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=RB]
-[Text=present CharacterOffsetBegin=237 CharacterOffsetEnd=244 PartOfSpeech=JJ]
-[Text=at CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=DT]
-[Text=Tower CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=IN]
-[Text=Joy CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=NNP]
-[Text=when CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=WRB]
-[Text=Jon CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=273 CharacterOffsetEnd=275 PartOfSpeech=POS]
-[Text=maybe-mom CharacterOffsetBegin=276 CharacterOffsetEnd=285 PartOfSpeech=NN]
-[Text=Lyanna CharacterOffsetBegin=286 CharacterOffsetEnd=292 PartOfSpeech=NNP]
-[Text=died CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=VBD]
-[Text=after CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=IN]
-[Text=giving CharacterOffsetBegin=304 CharacterOffsetEnd=310 PartOfSpeech=VBG]
-[Text=birth CharacterOffsetBegin=311 CharacterOffsetEnd=316 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=.]
+[Text=On CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=show CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=NN Lemma=show NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=actors CharacterOffsetBegin=131 CharacterOffsetEnd=137 PartOfSpeech=NNS Lemma=actor NamedEntityTag=O]
+[Text=bear CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=VBP Lemma=bear NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=JJR Lemma=more NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=148 CharacterOffsetEnd=152 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=passing CharacterOffsetBegin=155 CharacterOffsetEnd=162 PartOfSpeech=VBG Lemma=pass NamedEntityTag=O]
+[Text=resemblance CharacterOffsetBegin=163 CharacterOffsetEnd=174 PartOfSpeech=NN Lemma=resemblance NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=books CharacterOffsetBegin=187 CharacterOffsetEnd=192 PartOfSpeech=NNS Lemma=book NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text='re CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=same CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=JJ Lemma=same NamedEntityTag=O]
+[Text=age CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=NN Lemma=age NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN On)
+      (NP (DT the) (NN show)))
+    (, ,)
+    (S
+      (NP (DT the) (NNS actors))
+      (VP (VBP bear)
+        (NP
+          (QP (JJR more) (IN than) (DT a)))
+        (S
+          (VP (VBG passing)
+            (NP (NN resemblance))))))
+    (, ,)
+    (CC and)
+    (S
+      (PP (IN in)
+        (NP (DT the) (NNS books)))
+      (, ,)
+      (NP (PRP they))
+      (VP (VBP 're)
+        (NP (DT the) (JJ same) (NN age))))
+    (. .)))
+
+root(ROOT-0, bear-7)
+case(show-3, On-1)
+det(show-3, the-2)
+nmod:on(bear-7, show-3)
+punct(bear-7, ,-4)
+det(actors-6, the-5)
+nsubj(bear-7, actors-6)
+advmod(a-10, more-8)
+mwe(more-8, than-9)
+dobj(bear-7, a-10)
+xcomp(bear-7, passing-11)
+dobj(passing-11, resemblance-12)
+punct(bear-7, ,-13)
+cc(bear-7, and-14)
+case(books-17, in-15)
+det(books-17, the-16)
+nmod:in(age-23, books-17)
+punct(age-23, ,-18)
+nsubj(age-23, they-19)
+cop(age-23, 're-20)
+det(age-23, the-21)
+amod(age-23, same-22)
+conj:and(bear-7, age-23)
+punct(bear-7, .-24)
+
 Sentence #4 (20 tokens):
+Howland Reed was also present at the Tower of Joy when Jon's maybe-mom Lyanna died after giving birth.
+[Text=Howland CharacterOffsetBegin=216 CharacterOffsetEnd=223 PartOfSpeech=NNP Lemma=Howland NamedEntityTag=PERSON]
+[Text=Reed CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=NNP Lemma=Reed NamedEntityTag=PERSON]
+[Text=was CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=233 CharacterOffsetEnd=237 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=present CharacterOffsetBegin=238 CharacterOffsetEnd=245 PartOfSpeech=JJ Lemma=present NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">present</TIMEX3>]
+[Text=at CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Tower CharacterOffsetBegin=253 CharacterOffsetEnd=258 PartOfSpeech=NN Lemma=tower NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Joy CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=NNP Lemma=Joy NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=271 CharacterOffsetEnd=274 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=274 CharacterOffsetEnd=276 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=maybe-mom CharacterOffsetBegin=277 CharacterOffsetEnd=286 PartOfSpeech=NN Lemma=maybe-mom NamedEntityTag=O]
+[Text=Lyanna CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=NNP Lemma=Lyanna NamedEntityTag=PERSON]
+[Text=died CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=VBD Lemma=die NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=299 CharacterOffsetEnd=304 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=giving CharacterOffsetBegin=305 CharacterOffsetEnd=311 PartOfSpeech=VBG Lemma=give NamedEntityTag=O]
+[Text=birth CharacterOffsetBegin=312 CharacterOffsetEnd=317 PartOfSpeech=NN Lemma=birth NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=317 CharacterOffsetEnd=318 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Howland) (NNP Reed))
+    (VP (VBD was)
+      (ADVP (RB also))
+      (ADJP (JJ present)
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NN Tower))
+            (PP (IN of)
+              (NP (NNP Joy))))))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP
+            (NP (NNP Jon) (POS 's))
+            (NP
+              (NP (NN maybe-mom))
+              (NP (NNP Lyanna))))
+          (VP (VBD died)
+            (PP (IN after)
+              (S
+                (VP (VBG giving)
+                  (NP (NN birth)))))))))
+    (. .)))
+
+root(ROOT-0, present-5)
+compound(Reed-2, Howland-1)
+nsubj(present-5, Reed-2)
+cop(present-5, was-3)
+advmod(present-5, also-4)
+case(Tower-8, at-6)
+det(Tower-8, the-7)
+nmod:at(present-5, Tower-8)
+case(Joy-10, of-9)
+nmod:of(Tower-8, Joy-10)
+advmod(died-16, when-11)
+nsubj(died-16, Jon-12)
+case(Jon-12, 's-13)
+dep(Jon-12, maybe-mom-14)
+appos(maybe-mom-14, Lyanna-15)
+advcl(present-5, died-16)
+mark(giving-18, after-17)
+advcl:after(died-16, giving-18)
+dobj(giving-18, birth-19)
+punct(present-5, .-20)
+
+Sentence #5 (20 tokens):
 Reed he would have been at the right place and the right time to adopt Meera as his own.
-[Text=Reed CharacterOffsetBegin=318 CharacterOffsetEnd=322 PartOfSpeech=NNP]
-[Text=he CharacterOffsetBegin=323 CharacterOffsetEnd=325 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=326 CharacterOffsetEnd=331 PartOfSpeech=MD]
-[Text=have CharacterOffsetBegin=332 CharacterOffsetEnd=336 PartOfSpeech=VB]
-[Text=been CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=VBN]
-[Text=at CharacterOffsetBegin=342 CharacterOffsetEnd=344 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=DT]
-[Text=right CharacterOffsetBegin=349 CharacterOffsetEnd=354 PartOfSpeech=JJ]
-[Text=place CharacterOffsetBegin=355 CharacterOffsetEnd=360 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=CC]
-[Text=the CharacterOffsetBegin=365 CharacterOffsetEnd=368 PartOfSpeech=DT]
-[Text=right CharacterOffsetBegin=369 CharacterOffsetEnd=374 PartOfSpeech=JJ]
-[Text=time CharacterOffsetBegin=375 CharacterOffsetEnd=379 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=TO]
-[Text=adopt CharacterOffsetBegin=383 CharacterOffsetEnd=388 PartOfSpeech=VB]
-[Text=Meera CharacterOffsetBegin=389 CharacterOffsetEnd=394 PartOfSpeech=NNP]
-[Text=as CharacterOffsetBegin=395 CharacterOffsetEnd=397 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=398 CharacterOffsetEnd=401 PartOfSpeech=PRP$]
-[Text=own CharacterOffsetBegin=402 CharacterOffsetEnd=405 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=405 CharacterOffsetEnd=406 PartOfSpeech=.]
+[Text=Reed CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=NNP Lemma=Reed NamedEntityTag=PERSON]
+[Text=he CharacterOffsetBegin=324 CharacterOffsetEnd=326 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=327 CharacterOffsetEnd=332 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=338 CharacterOffsetEnd=342 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=346 CharacterOffsetEnd=349 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=right CharacterOffsetBegin=350 CharacterOffsetEnd=355 PartOfSpeech=JJ Lemma=right NamedEntityTag=O]
+[Text=place CharacterOffsetBegin=356 CharacterOffsetEnd=361 PartOfSpeech=NN Lemma=place NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=right CharacterOffsetBegin=370 CharacterOffsetEnd=375 PartOfSpeech=JJ Lemma=right NamedEntityTag=O]
+[Text=time CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=NN Lemma=time NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=adopt CharacterOffsetBegin=384 CharacterOffsetEnd=389 PartOfSpeech=VB Lemma=adopt NamedEntityTag=O]
+[Text=Meera CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=NNP Lemma=Meera NamedEntityTag=PERSON]
+[Text=as CharacterOffsetBegin=396 CharacterOffsetEnd=398 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=399 CharacterOffsetEnd=402 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=own CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=JJ Lemma=own NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Reed) (PRP he))
+    (VP (MD would)
+      (VP (VB have)
+        (VP (VBN been)
+          (PP (IN at)
+            (NP
+              (NP (DT the) (JJ right) (NN place))
+              (CC and)
+              (NP (DT the) (JJ right) (NN time)
+                (S
+                  (VP (TO to)
+                    (VP (VB adopt)
+                      (NP
+                        (NP (NNP Meera))
+                        (PP (IN as)
+                          (NP (PRP$ his) (JJ own)))))))))))))
+    (. .)))
+
+root(ROOT-0, place-9)
+nsubj(place-9, Reed-1)
+dep(Reed-1, he-2)
+aux(place-9, would-3)
+aux(place-9, have-4)
+cop(place-9, been-5)
+case(place-9, at-6)
+det(place-9, the-7)
+amod(place-9, right-8)
+cc(place-9, and-10)
+det(time-13, the-11)
+amod(time-13, right-12)
+conj:and(place-9, time-13)
+mark(adopt-15, to-14)
+acl:to(time-13, adopt-15)
+dobj(adopt-15, Meera-16)
+case(own-19, as-17)
+nmod:poss(own-19, his-18)
+nmod:as(Meera-16, own-19)
+punct(place-9, .-20)
+
+Coreference set:
+	(1,2,[1,3]) -> (2,10,[5,11]), that is: "Meera Reed" -> "Bran Stark 's pal Meera Reed"
+	(1,6,[4,7]) -> (2,10,[5,11]), that is: "Jon 's twin" -> "Bran Stark 's pal Meera Reed"
+	(2,17,[13,18]) -> (2,10,[5,11]), that is: "Jon Snow 's twin sister" -> "Bran Stark 's pal Meera Reed"
+Coreference set:
+	(1,4,[4,6]) -> (2,14,[13,16]), that is: "Jon 's" -> "Jon Snow 's"
+Coreference set:
+	(3,19,[19,20]) -> (3,6,[5,7]), that is: "they" -> "the actors"
+Coreference set:
+	(5,1,[1,3]) -> (4,2,[1,3]), that is: "Reed he" -> "Howland Reed"
+	(5,2,[2,3]) -> (4,2,[1,3]), that is: "he" -> "Howland Reed"
+	(5,18,[18,19]) -> (4,2,[1,3]), that is: "his" -> "Howland Reed"

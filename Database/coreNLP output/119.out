@@ -1,73 +1,219 @@
 Sentence #1 (11 tokens):
 THE FACELESS MEN WILL TEAM UP WITH THE WHITE WALKERS.
-[Text=THE CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
-[Text=FACELESS CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NNP]
-[Text=MEN CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=NNP]
-[Text=WILL CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=MD]
-[Text=TEAM CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=VB]
-[Text=UP CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=RP]
-[Text=WITH CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=IN]
-[Text=THE CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=DT]
-[Text=WHITE CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=NNP]
-[Text=WALKERS CharacterOffsetBegin=45 CharacterOffsetEnd=52 PartOfSpeech=NNPS]
-[Text=. CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=.]
+[Text=THE CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=FACELESS CharacterOffsetBegin=4 CharacterOffsetEnd=12 PartOfSpeech=NNP Lemma=FACELESS NamedEntityTag=O]
+[Text=MEN CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=NNP Lemma=MEN NamedEntityTag=O]
+[Text=WILL CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=TEAM CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=VB Lemma=team NamedEntityTag=O]
+[Text=UP CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=WITH CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=THE CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=WHITE CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=NNP Lemma=WHITE NamedEntityTag=O]
+[Text=WALKERS CharacterOffsetBegin=45 CharacterOffsetEnd=52 PartOfSpeech=NNPS Lemma=WALKERS NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT THE) (NNP FACELESS) (NNP MEN))
+    (VP (MD WILL)
+      (VP (VB TEAM)
+        (PRT (RP UP))
+        (PP (IN WITH)
+          (NP (DT THE) (NNP WHITE) (NNPS WALKERS)))))
+    (. .)))
+
+root(ROOT-0, TEAM-5)
+det(MEN-3, THE-1)
+compound(MEN-3, FACELESS-2)
+nsubj(TEAM-5, MEN-3)
+aux(TEAM-5, WILL-4)
+compound:prt(TEAM-5, UP-6)
+case(WALKERS-10, WITH-7)
+det(WALKERS-10, THE-8)
+compound(WALKERS-10, WHITE-9)
+nmod:with(TEAM-5, WALKERS-10)
+punct(TEAM-5, .-11)
+
 Sentence #2 (38 tokens):
 A somewhat tinfoil-hat-style theory (yet still rather plausible) states in depth how Jaqen's Faceless Men are actually aligned with the White Walkers and they aim to unleash death and destruction across the Seven Kingdoms.
-[Text=A CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=DT]
-[Text=somewhat CharacterOffsetBegin=56 CharacterOffsetEnd=64 PartOfSpeech=RB]
-[Text=tinfoil-hat-style CharacterOffsetBegin=65 CharacterOffsetEnd=82 PartOfSpeech=JJ]
-[Text=theory CharacterOffsetBegin=83 CharacterOffsetEnd=89 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=-LRB-]
-[Text=yet CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=RB]
-[Text=still CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=RB]
-[Text=rather CharacterOffsetBegin=101 CharacterOffsetEnd=107 PartOfSpeech=RB]
-[Text=plausible CharacterOffsetBegin=108 CharacterOffsetEnd=117 PartOfSpeech=JJ]
-[Text=-RRB- CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=-RRB-]
-[Text=states CharacterOffsetBegin=119 CharacterOffsetEnd=125 PartOfSpeech=NNS]
-[Text=in CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=IN]
-[Text=depth CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=NN]
-[Text=how CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=WRB]
-[Text=Jaqen CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=POS]
-[Text=Faceless CharacterOffsetBegin=147 CharacterOffsetEnd=155 PartOfSpeech=NNP]
-[Text=Men CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=NNP]
-[Text=are CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=VBP]
-[Text=actually CharacterOffsetBegin=164 CharacterOffsetEnd=172 PartOfSpeech=RB]
-[Text=aligned CharacterOffsetBegin=173 CharacterOffsetEnd=180 PartOfSpeech=VBN]
-[Text=with CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=DT]
-[Text=White CharacterOffsetBegin=190 CharacterOffsetEnd=195 PartOfSpeech=NNP]
-[Text=Walkers CharacterOffsetBegin=196 CharacterOffsetEnd=203 PartOfSpeech=NNPS]
-[Text=and CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=CC]
-[Text=they CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=PRP]
-[Text=aim CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=VBP]
-[Text=to CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=TO]
-[Text=unleash CharacterOffsetBegin=220 CharacterOffsetEnd=227 PartOfSpeech=VB]
-[Text=death CharacterOffsetBegin=228 CharacterOffsetEnd=233 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=CC]
-[Text=destruction CharacterOffsetBegin=238 CharacterOffsetEnd=249 PartOfSpeech=NN]
-[Text=across CharacterOffsetBegin=250 CharacterOffsetEnd=256 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=DT]
-[Text=Seven CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=CD]
-[Text=Kingdoms CharacterOffsetBegin=267 CharacterOffsetEnd=275 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=275 CharacterOffsetEnd=276 PartOfSpeech=.]
+[Text=A CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=somewhat CharacterOffsetBegin=56 CharacterOffsetEnd=64 PartOfSpeech=RB Lemma=somewhat NamedEntityTag=O]
+[Text=tinfoil-hat-style CharacterOffsetBegin=65 CharacterOffsetEnd=82 PartOfSpeech=JJ Lemma=tinfoil-hat-style NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=83 CharacterOffsetEnd=89 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=yet CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=RB Lemma=yet NamedEntityTag=O]
+[Text=still CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=RB Lemma=still NamedEntityTag=O]
+[Text=rather CharacterOffsetBegin=101 CharacterOffsetEnd=107 PartOfSpeech=RB Lemma=rather NamedEntityTag=O]
+[Text=plausible CharacterOffsetBegin=108 CharacterOffsetEnd=117 PartOfSpeech=JJ Lemma=plausible NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=states CharacterOffsetBegin=119 CharacterOffsetEnd=125 PartOfSpeech=NNS Lemma=state NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=depth CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=NN Lemma=depth NamedEntityTag=O]
+[Text=how CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=WRB Lemma=how NamedEntityTag=O]
+[Text=Jaqen CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=NNP Lemma=Jaqen NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=144 CharacterOffsetEnd=146 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Faceless CharacterOffsetBegin=147 CharacterOffsetEnd=155 PartOfSpeech=NNP Lemma=Faceless NamedEntityTag=O]
+[Text=Men CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=NNP Lemma=Men NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=actually CharacterOffsetBegin=164 CharacterOffsetEnd=172 PartOfSpeech=RB Lemma=actually NamedEntityTag=O]
+[Text=aligned CharacterOffsetBegin=173 CharacterOffsetEnd=180 PartOfSpeech=VBN Lemma=align NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=White CharacterOffsetBegin=190 CharacterOffsetEnd=195 PartOfSpeech=NNP Lemma=White NamedEntityTag=ORGANIZATION]
+[Text=Walkers CharacterOffsetBegin=196 CharacterOffsetEnd=203 PartOfSpeech=NNPS Lemma=Walkers NamedEntityTag=ORGANIZATION]
+[Text=and CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=aim CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=VBP Lemma=aim NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=unleash CharacterOffsetBegin=220 CharacterOffsetEnd=227 PartOfSpeech=VB Lemma=unleash NamedEntityTag=O]
+[Text=death CharacterOffsetBegin=228 CharacterOffsetEnd=233 PartOfSpeech=NN Lemma=death NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=destruction CharacterOffsetBegin=238 CharacterOffsetEnd=249 PartOfSpeech=NN Lemma=destruction NamedEntityTag=O]
+[Text=across CharacterOffsetBegin=250 CharacterOffsetEnd=256 PartOfSpeech=IN Lemma=across NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Seven CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=CD Lemma=seven NamedEntityTag=NUMBER NormalizedNamedEntityTag=7.0]
+[Text=Kingdoms CharacterOffsetBegin=267 CharacterOffsetEnd=275 PartOfSpeech=NNS Lemma=kingdom NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=275 CharacterOffsetEnd=276 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (DT A)
+        (ADJP (RB somewhat) (JJ tinfoil-hat-style))
+        (NN theory)
+        (PRN (-LRB- -LRB-)
+          (FRAG (RB yet)
+            (ADVP (RB still))
+            (ADJP (RB rather) (JJ plausible)))
+          (-RRB- -RRB-))
+        (NNS states))
+      (PP (IN in)
+        (NP
+          (NP (NN depth))
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP
+                (NP (NNP Jaqen) (POS 's))
+                (NNP Faceless) (NNP Men))
+              (VP (VBP are)
+                (ADVP (RB actually))
+                (VP (VBN aligned)
+                  (PP (IN with)
+                    (NP
+                      (NP (DT the) (NNP White) (NNPS Walkers))
+                      (CC and)
+                      (NP (PRP they)))))))))))
+    (VP (VBP aim)
+      (S
+        (VP (TO to)
+          (VP (VB unleash)
+            (NP (NN death)
+              (CC and)
+              (NN destruction))
+            (PP (IN across)
+              (NP (DT the) (CD Seven) (NNS Kingdoms)))))))
+    (. .)))
+
+root(ROOT-0, aim-28)
+det(states-11, A-1)
+advmod(tinfoil-hat-style-3, somewhat-2)
+amod(states-11, tinfoil-hat-style-3)
+compound(states-11, theory-4)
+punct(yet-6, -LRB--5)
+dep(states-11, yet-6)
+dep(yet-6, still-7)
+advmod(plausible-9, rather-8)
+dep(yet-6, plausible-9)
+punct(yet-6, -RRB--10)
+nsubj(aim-28, states-11)
+nsubj:xsubj(unleash-30, states-11)
+case(depth-13, in-12)
+nmod:in(states-11, depth-13)
+advmod(aligned-21, how-14)
+nmod:poss(Men-18, Jaqen-15)
+case(Jaqen-15, 's-16)
+compound(Men-18, Faceless-17)
+nsubjpass(aligned-21, Men-18)
+auxpass(aligned-21, are-19)
+advmod(aligned-21, actually-20)
+dep(depth-13, aligned-21)
+case(Walkers-25, with-22)
+det(Walkers-25, the-23)
+compound(Walkers-25, White-24)
+nmod:with(aligned-21, Walkers-25)
+cc(Walkers-25, and-26)
+nmod:with(aligned-21, they-27)
+conj:and(Walkers-25, they-27)
+mark(unleash-30, to-29)
+xcomp(aim-28, unleash-30)
+dobj(unleash-30, death-31)
+cc(death-31, and-32)
+dobj(unleash-30, destruction-33)
+conj:and(death-31, destruction-33)
+case(Kingdoms-37, across-34)
+det(Kingdoms-37, the-35)
+nummod(Kingdoms-37, Seven-36)
+nmod:across(unleash-30, Kingdoms-37)
+punct(aim-28, .-38)
+
 Sentence #3 (5 tokens):
 And everyone will die.
-[Text=And CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=CC]
-[Text=everyone CharacterOffsetBegin=281 CharacterOffsetEnd=289 PartOfSpeech=NN]
-[Text=will CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=MD]
-[Text=die CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=.]
+[Text=And CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=everyone CharacterOffsetBegin=281 CharacterOffsetEnd=289 PartOfSpeech=NN Lemma=everyone NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=die CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=VB Lemma=die NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC And)
+    (NP (NN everyone))
+    (VP (MD will)
+      (VP (VB die)))
+    (. .)))
+
+root(ROOT-0, die-4)
+cc(die-4, And-1)
+nsubj(die-4, everyone-2)
+aux(die-4, will-3)
+punct(die-4, .-5)
+
 Sentence #4 (11 tokens):
 Again, we wouldn't be surprised with this show.
-[Text=Again CharacterOffsetBegin=300 CharacterOffsetEnd=305 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=,]
-[Text=we CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=MD]
-[Text=n't CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=RB]
-[Text=be CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=VB]
-[Text=surprised CharacterOffsetBegin=322 CharacterOffsetEnd=331 PartOfSpeech=VBN]
-[Text=with CharacterOffsetBegin=332 CharacterOffsetEnd=336 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=DT]
-[Text=show CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=.]
+[Text=Again CharacterOffsetBegin=300 CharacterOffsetEnd=305 PartOfSpeech=RB Lemma=again NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=surprised CharacterOffsetBegin=322 CharacterOffsetEnd=331 PartOfSpeech=VBN Lemma=surprise NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=332 CharacterOffsetEnd=336 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=show CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=NN Lemma=show NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Again))
+    (, ,)
+    (NP (PRP we))
+    (VP (MD would) (RB n't)
+      (VP (VB be)
+        (VP (VBN surprised)
+          (PP (IN with)
+            (NP (DT this) (NN show))))))
+    (. .)))
+
+root(ROOT-0, surprised-7)
+advmod(surprised-7, Again-1)
+punct(surprised-7, ,-2)
+nsubjpass(surprised-7, we-3)
+aux(surprised-7, would-4)
+neg(surprised-7, n't-5)
+auxpass(surprised-7, be-6)
+case(show-10, with-8)
+det(show-10, this-9)
+nmod:with(surprised-7, show-10)
+punct(surprised-7, .-11)
+
+Coreference set:
+	(1,10,[8,11]) -> (2,25,[23,26]), that is: "THE WHITE WALKERS" -> "the White Walkers"
+	(2,25,[23,28]) -> (2,25,[23,26]), that is: "the White Walkers and they" -> "the White Walkers"
+	(2,25,[24,26]) -> (2,25,[23,26]), that is: "White Walkers" -> "the White Walkers"
+	(2,27,[27,28]) -> (2,25,[23,26]), that is: "they" -> "the White Walkers"

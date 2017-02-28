@@ -1,162 +1,510 @@
 Sentence #1 (8 tokens):
 JAQEN WAS HIRED TO KILL NED STARK.
-[Text=JAQEN CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=WAS CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=NNP]
-[Text=HIRED CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=VBD]
-[Text=TO CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=TO]
-[Text=KILL CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=VB]
-[Text=NED CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=NNP]
-[Text=STARK CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=.]
+[Text=JAQEN CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=JAQEN NamedEntityTag=O]
+[Text=WAS CharacterOffsetBegin=6 CharacterOffsetEnd=9 PartOfSpeech=NNP Lemma=WAS NamedEntityTag=O]
+[Text=HIRED CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=VBD Lemma=hire NamedEntityTag=O]
+[Text=TO CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=KILL CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=VB Lemma=kill NamedEntityTag=O]
+[Text=NED CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=NNP Lemma=NED NamedEntityTag=PERSON]
+[Text=STARK CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=NNP Lemma=STARK NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP JAQEN) (NNP WAS))
+    (VP (VBD HIRED)
+      (S
+        (VP (TO TO)
+          (VP (VB KILL)
+            (NP (NNP NED) (NNP STARK))))))
+    (. .)))
+
+root(ROOT-0, HIRED-3)
+compound(WAS-2, JAQEN-1)
+nsubj(HIRED-3, WAS-2)
+nsubj:xsubj(KILL-5, WAS-2)
+mark(KILL-5, TO-4)
+xcomp(HIRED-3, KILL-5)
+compound(STARK-7, NED-6)
+dobj(KILL-5, STARK-7)
+punct(HIRED-3, .-8)
+
 Sentence #2 (10 tokens):
 Another one to do with your favourite Faceless Man.
-[Text=Another CharacterOffsetBegin=35 CharacterOffsetEnd=42 PartOfSpeech=DT]
-[Text=one CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=CD]
-[Text=to CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=TO]
-[Text=do CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=VB]
-[Text=with CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=IN]
-[Text=your CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=PRP$]
-[Text=favourite CharacterOffsetBegin=63 CharacterOffsetEnd=72 PartOfSpeech=JJ]
-[Text=Faceless CharacterOffsetBegin=73 CharacterOffsetEnd=81 PartOfSpeech=JJ]
-[Text=Man CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=.]
+[Text=Another CharacterOffsetBegin=35 CharacterOffsetEnd=42 PartOfSpeech=DT Lemma=another NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=to CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=VB Lemma=do NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=your CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O]
+[Text=favourite CharacterOffsetBegin=63 CharacterOffsetEnd=72 PartOfSpeech=JJ Lemma=favourite NamedEntityTag=O]
+[Text=Faceless CharacterOffsetBegin=73 CharacterOffsetEnd=81 PartOfSpeech=JJ Lemma=faceless NamedEntityTag=MISC]
+[Text=Man CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT Another) (CD one))
+    (VP (TO to)
+      (VP (VB do)
+        (PP (IN with)
+          (NP (PRP$ your) (JJ favourite) (JJ Faceless) (NN Man)))))
+    (. .)))
+
+root(ROOT-0, do-4)
+det(one-2, Another-1)
+nsubj(do-4, one-2)
+mark(do-4, to-3)
+case(Man-9, with-5)
+nmod:poss(Man-9, your-6)
+amod(Man-9, favourite-7)
+amod(Man-9, Faceless-8)
+nmod:with(do-4, Man-9)
+punct(do-4, .-10)
+
 Sentence #3 (9 tokens):
 Wonder why he's so obsessed with Arya?
-[Text=Wonder CharacterOffsetBegin=87 CharacterOffsetEnd=93 PartOfSpeech=JJ]
-[Text=why CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=WRB]
-[Text=he CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=VBZ]
-[Text=so CharacterOffsetBegin=103 CharacterOffsetEnd=105 PartOfSpeech=RB]
-[Text=obsessed CharacterOffsetBegin=106 CharacterOffsetEnd=114 PartOfSpeech=VBN]
-[Text=with CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=IN]
-[Text=Arya CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=NNP]
-[Text=? CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=.]
+[Text=Wonder CharacterOffsetBegin=87 CharacterOffsetEnd=93 PartOfSpeech=JJ Lemma=wonder NamedEntityTag=O]
+[Text=why CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=WRB Lemma=why NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=103 CharacterOffsetEnd=105 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=obsessed CharacterOffsetBegin=106 CharacterOffsetEnd=114 PartOfSpeech=VBN Lemma=obsess NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=? CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (ADJP (JJ Wonder))
+    (SBAR
+      (WHADVP (WRB why))
+      (S
+        (NP (PRP he))
+        (VP (VBZ 's)
+          (ADVP (RB so))
+          (VP (VBN obsessed)
+            (PP (IN with)
+              (NP (NNP Arya)))))))
+    (. ?)))
+
+root(ROOT-0, Wonder-1)
+advmod(obsessed-6, why-2)
+nsubjpass(obsessed-6, he-3)
+auxpass(obsessed-6, 's-4)
+advmod(obsessed-6, so-5)
+dep(Wonder-1, obsessed-6)
+case(Arya-8, with-7)
+nmod:with(obsessed-6, Arya-8)
+punct(Wonder-1, ?-9)
+
 Sentence #4 (16 tokens):
 Maybe it's something to do with one of his recent(ish) tasks.
-[Text=Maybe CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=RB]
-[Text=it CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=VBZ]
-[Text=something CharacterOffsetBegin=137 CharacterOffsetEnd=146 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=TO]
-[Text=do CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=VB]
-[Text=with CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=IN]
-[Text=one CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=CD]
-[Text=of CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=PRP$]
-[Text=recent CharacterOffsetBegin=169 CharacterOffsetEnd=175 PartOfSpeech=JJ]
-[Text=-LRB- CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=-LRB-]
-[Text=ish CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=JJ]
-[Text=-RRB- CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=-RRB-]
-[Text=tasks CharacterOffsetBegin=181 CharacterOffsetEnd=186 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=.]
+[Text=Maybe CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=something CharacterOffsetBegin=137 CharacterOffsetEnd=146 PartOfSpeech=NN Lemma=something NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=VB Lemma=do NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=of CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=recent CharacterOffsetBegin=169 CharacterOffsetEnd=175 PartOfSpeech=JJ Lemma=recent NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=ish CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=JJ Lemma=ish NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=tasks CharacterOffsetBegin=181 CharacterOffsetEnd=186 PartOfSpeech=NNS Lemma=task NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Maybe))
+    (NP (PRP it))
+    (VP (VBZ 's)
+      (NP (NN something)
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (PP (IN with)
+                (NP
+                  (NP (CD one))
+                  (PP (IN of)
+                    (NP (PRP$ his) (JJ recent)
+                      (PRN (-LRB- -LRB-)
+                        (ADJP (JJ ish))
+                        (-RRB- -RRB-))
+                      (NNS tasks))))))))))
+    (. .)))
+
+root(ROOT-0, something-4)
+advmod(something-4, Maybe-1)
+nsubj(something-4, it-2)
+cop(something-4, 's-3)
+mark(do-6, to-5)
+acl:to(something-4, do-6)
+case(one-8, with-7)
+nmod:with(do-6, one-8)
+case(tasks-15, of-9)
+nmod:poss(tasks-15, his-10)
+amod(tasks-15, recent-11)
+punct(ish-13, -LRB--12)
+dep(tasks-15, ish-13)
+punct(ish-13, -RRB--14)
+nmod:of(one-8, tasks-15)
+punct(something-4, .-16)
+
 Sentence #5 (35 tokens):
 Perhaps the reason we saw such a badass supernatural assassin as Jaqen captured and in a cage, was because he was meant to kill Ned while he was locked in the black cells.
-[Text=Perhaps CharacterOffsetBegin=189 CharacterOffsetEnd=196 PartOfSpeech=RB]
-[Text=the CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=DT]
-[Text=reason CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=NN]
-[Text=we CharacterOffsetBegin=208 CharacterOffsetEnd=210 PartOfSpeech=PRP]
-[Text=saw CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=VBD]
-[Text=such CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=PDT]
-[Text=a CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=DT]
-[Text=badass CharacterOffsetBegin=222 CharacterOffsetEnd=228 PartOfSpeech=NN]
-[Text=supernatural CharacterOffsetBegin=229 CharacterOffsetEnd=241 PartOfSpeech=JJ]
-[Text=assassin CharacterOffsetBegin=242 CharacterOffsetEnd=250 PartOfSpeech=NN]
-[Text=as CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=IN]
-[Text=Jaqen CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=NN]
-[Text=captured CharacterOffsetBegin=260 CharacterOffsetEnd=268 PartOfSpeech=VBN]
-[Text=and CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=CC]
-[Text=in CharacterOffsetBegin=273 CharacterOffsetEnd=275 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=DT]
-[Text=cage CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=282 CharacterOffsetEnd=283 PartOfSpeech=,]
-[Text=was CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=VBD]
-[Text=because CharacterOffsetBegin=288 CharacterOffsetEnd=295 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=VBD]
-[Text=meant CharacterOffsetBegin=303 CharacterOffsetEnd=308 PartOfSpeech=VBN]
-[Text=to CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=TO]
-[Text=kill CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=VB]
-[Text=Ned CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=NNP]
-[Text=while CharacterOffsetBegin=321 CharacterOffsetEnd=326 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=VBD]
-[Text=locked CharacterOffsetBegin=334 CharacterOffsetEnd=340 PartOfSpeech=VBN]
-[Text=in CharacterOffsetBegin=341 CharacterOffsetEnd=343 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=DT]
-[Text=black CharacterOffsetBegin=348 CharacterOffsetEnd=353 PartOfSpeech=JJ]
-[Text=cells CharacterOffsetBegin=354 CharacterOffsetEnd=359 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=.]
+[Text=Perhaps CharacterOffsetBegin=189 CharacterOffsetEnd=196 PartOfSpeech=RB Lemma=perhaps NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=reason CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=NN Lemma=reason NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=208 CharacterOffsetEnd=210 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=saw CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=VBD Lemma=see NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=PDT Lemma=such NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=220 CharacterOffsetEnd=221 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=badass CharacterOffsetBegin=222 CharacterOffsetEnd=228 PartOfSpeech=NN Lemma=badass NamedEntityTag=O]
+[Text=supernatural CharacterOffsetBegin=229 CharacterOffsetEnd=241 PartOfSpeech=JJ Lemma=supernatural NamedEntityTag=O]
+[Text=assassin CharacterOffsetBegin=242 CharacterOffsetEnd=250 PartOfSpeech=NN Lemma=assassin NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=Jaqen CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=NN Lemma=jaqen NamedEntityTag=PERSON]
+[Text=captured CharacterOffsetBegin=260 CharacterOffsetEnd=268 PartOfSpeech=VBN Lemma=capture NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=273 CharacterOffsetEnd=275 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=cage CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=NN Lemma=cage NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=282 CharacterOffsetEnd=283 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=284 CharacterOffsetEnd=287 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=because CharacterOffsetBegin=288 CharacterOffsetEnd=295 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=299 CharacterOffsetEnd=302 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=meant CharacterOffsetBegin=303 CharacterOffsetEnd=308 PartOfSpeech=VBN Lemma=mean NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=kill CharacterOffsetBegin=312 CharacterOffsetEnd=316 PartOfSpeech=VB Lemma=kill NamedEntityTag=O]
+[Text=Ned CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=NNP Lemma=Ned NamedEntityTag=PERSON]
+[Text=while CharacterOffsetBegin=321 CharacterOffsetEnd=326 PartOfSpeech=IN Lemma=while NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=locked CharacterOffsetBegin=334 CharacterOffsetEnd=340 PartOfSpeech=VBN Lemma=lock NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=341 CharacterOffsetEnd=343 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=black CharacterOffsetBegin=348 CharacterOffsetEnd=353 PartOfSpeech=JJ Lemma=black NamedEntityTag=O]
+[Text=cells CharacterOffsetBegin=354 CharacterOffsetEnd=359 PartOfSpeech=NNS Lemma=cell NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=359 CharacterOffsetEnd=360 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP (RB Perhaps) (DT the) (NN reason)
+    (SBAR
+      (S
+        (NP (PRP we))
+        (VP (VBD saw)
+          (NP (PDT such) (DT a) (NN badass))
+          (SBAR
+            (S
+              (NP
+                (NP (JJ supernatural) (NN assassin))
+                (PP
+                  (PP (IN as)
+                    (NP
+                      (NP (NN Jaqen))
+                      (VP (VBN captured))))
+                  (CC and)
+                  (PP (IN in)
+                    (NP (DT a) (NN cage)))))
+              (, ,)
+              (VP (VBD was)
+                (SBAR (IN because)
+                  (S
+                    (NP (PRP he))
+                    (VP (VBD was)
+                      (VP (VBN meant)
+                        (S
+                          (VP (TO to)
+                            (VP (VB kill)
+                              (NP (NNP Ned))
+                              (SBAR (IN while)
+                                (S
+                                  (NP (PRP he))
+                                  (VP (VBD was)
+                                    (VP (VBN locked)
+                                      (PP (IN in)
+                                        (NP (DT the) (JJ black) (NNS cells))))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, reason-3)
+advmod(reason-3, Perhaps-1)
+det(reason-3, the-2)
+nsubj(saw-5, we-4)
+ccomp(reason-3, saw-5)
+det:predet(badass-8, such-6)
+det(badass-8, a-7)
+dobj(saw-5, badass-8)
+amod(assassin-10, supernatural-9)
+nsubj(was-19, assassin-10)
+conj:and(assassin-10, assassin-10')
+nsubj(was-19, assassin-10')
+case(Jaqen-12, as-11)
+nmod:as(assassin-10, Jaqen-12)
+acl(Jaqen-12, captured-13)
+cc(assassin-10, and-14)
+case(cage-17, in-15)
+det(cage-17, a-16)
+nmod:in(assassin-10', cage-17)
+punct(was-19, ,-18)
+dep(saw-5, was-19)
+mark(meant-23, because-20)
+nsubjpass(meant-23, he-21)
+nsubj:xsubj(kill-25, he-21)
+auxpass(meant-23, was-22)
+advcl:because(was-19, meant-23)
+mark(kill-25, to-24)
+xcomp(meant-23, kill-25)
+dobj(kill-25, Ned-26)
+mark(locked-30, while-27)
+nsubjpass(locked-30, he-28)
+auxpass(locked-30, was-29)
+advcl:while(kill-25, locked-30)
+case(cells-34, in-31)
+det(cells-34, the-32)
+amod(cells-34, black-33)
+nmod:in(locked-30, cells-34)
+punct(reason-3, .-35)
+
 Sentence #6 (20 tokens):
 Cersei could have hired the FM to silence Ned and to avoid the inevitable unrest an execution would cause.
-[Text=Cersei CharacterOffsetBegin=362 CharacterOffsetEnd=368 PartOfSpeech=NNP]
-[Text=could CharacterOffsetBegin=369 CharacterOffsetEnd=374 PartOfSpeech=MD]
-[Text=have CharacterOffsetBegin=375 CharacterOffsetEnd=379 PartOfSpeech=VB]
-[Text=hired CharacterOffsetBegin=380 CharacterOffsetEnd=385 PartOfSpeech=VBN]
-[Text=the CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=DT]
-[Text=FM CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=393 CharacterOffsetEnd=395 PartOfSpeech=TO]
-[Text=silence CharacterOffsetBegin=396 CharacterOffsetEnd=403 PartOfSpeech=NN]
-[Text=Ned CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=CC]
-[Text=to CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=TO]
-[Text=avoid CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=DT]
-[Text=inevitable CharacterOffsetBegin=425 CharacterOffsetEnd=435 PartOfSpeech=JJ]
-[Text=unrest CharacterOffsetBegin=436 CharacterOffsetEnd=442 PartOfSpeech=NN]
-[Text=an CharacterOffsetBegin=443 CharacterOffsetEnd=445 PartOfSpeech=DT]
-[Text=execution CharacterOffsetBegin=446 CharacterOffsetEnd=455 PartOfSpeech=NN]
-[Text=would CharacterOffsetBegin=456 CharacterOffsetEnd=461 PartOfSpeech=MD]
-[Text=cause CharacterOffsetBegin=462 CharacterOffsetEnd=467 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=467 CharacterOffsetEnd=468 PartOfSpeech=.]
+[Text=Cersei CharacterOffsetBegin=362 CharacterOffsetEnd=368 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=could CharacterOffsetBegin=369 CharacterOffsetEnd=374 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=375 CharacterOffsetEnd=379 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=hired CharacterOffsetBegin=380 CharacterOffsetEnd=385 PartOfSpeech=VBN Lemma=hire NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=FM CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=NN Lemma=fm NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=393 CharacterOffsetEnd=395 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=silence CharacterOffsetBegin=396 CharacterOffsetEnd=403 PartOfSpeech=NN Lemma=silence NamedEntityTag=O]
+[Text=Ned CharacterOffsetBegin=404 CharacterOffsetEnd=407 PartOfSpeech=NNP Lemma=Ned NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=avoid CharacterOffsetBegin=415 CharacterOffsetEnd=420 PartOfSpeech=VB Lemma=avoid NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=inevitable CharacterOffsetBegin=425 CharacterOffsetEnd=435 PartOfSpeech=JJ Lemma=inevitable NamedEntityTag=O]
+[Text=unrest CharacterOffsetBegin=436 CharacterOffsetEnd=442 PartOfSpeech=NN Lemma=unrest NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=443 CharacterOffsetEnd=445 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=execution CharacterOffsetBegin=446 CharacterOffsetEnd=455 PartOfSpeech=NN Lemma=execution NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=456 CharacterOffsetEnd=461 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=cause CharacterOffsetBegin=462 CharacterOffsetEnd=467 PartOfSpeech=VB Lemma=cause NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=467 CharacterOffsetEnd=468 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Cersei))
+    (VP (MD could)
+      (VP (VB have)
+        (VP (VBN hired)
+          (NP (DT the) (NN FM))
+          (PP (TO to)
+            (NP
+              (NP (NN silence) (NNP Ned))
+              (CC and)
+              (S
+                (VP (TO to)
+                  (VP (VB avoid)
+                    (NP
+                      (NP (DT the) (JJ inevitable) (NN unrest))
+                      (SBAR
+                        (S
+                          (NP (DT an) (NN execution))
+                          (VP (MD would)
+                            (VP (VB cause))))))))))))))
+    (. .)))
+
+root(ROOT-0, hired-4)
+nsubj(hired-4, Cersei-1)
+aux(hired-4, could-2)
+aux(hired-4, have-3)
+det(FM-6, the-5)
+dobj(hired-4, FM-6)
+case(Ned-9, to-7)
+compound(Ned-9, silence-8)
+nmod:to(hired-4, Ned-9)
+cc(Ned-9, and-10)
+mark(avoid-12, to-11)
+acl:to(Ned-9, avoid-12)
+det(unrest-15, the-13)
+amod(unrest-15, inevitable-14)
+dobj(avoid-12, unrest-15)
+det(execution-17, an-16)
+nsubj(cause-19, execution-17)
+aux(cause-19, would-18)
+acl:relcl(unrest-15, cause-19)
+punct(hired-4, .-20)
+
 Sentence #7 (17 tokens):
 However, her son Joffrey went rogue and killed Ned before Jaqen could get to him.
-[Text=However CharacterOffsetBegin=469 CharacterOffsetEnd=476 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=476 CharacterOffsetEnd=477 PartOfSpeech=,]
-[Text=her CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=PRP$]
-[Text=son CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=NN]
-[Text=Joffrey CharacterOffsetBegin=486 CharacterOffsetEnd=493 PartOfSpeech=NNP]
-[Text=went CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=VBD]
-[Text=rogue CharacterOffsetBegin=499 CharacterOffsetEnd=504 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=CC]
-[Text=killed CharacterOffsetBegin=509 CharacterOffsetEnd=515 PartOfSpeech=VBD]
-[Text=Ned CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=NNP]
-[Text=before CharacterOffsetBegin=520 CharacterOffsetEnd=526 PartOfSpeech=IN]
-[Text=Jaqen CharacterOffsetBegin=527 CharacterOffsetEnd=532 PartOfSpeech=NNP]
-[Text=could CharacterOffsetBegin=533 CharacterOffsetEnd=538 PartOfSpeech=MD]
-[Text=get CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=VB]
-[Text=to CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=TO]
-[Text=him CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=549 CharacterOffsetEnd=550 PartOfSpeech=.]
+[Text=However CharacterOffsetBegin=469 CharacterOffsetEnd=476 PartOfSpeech=RB Lemma=however NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=476 CharacterOffsetEnd=477 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=son CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=NN Lemma=son NamedEntityTag=O]
+[Text=Joffrey CharacterOffsetBegin=486 CharacterOffsetEnd=493 PartOfSpeech=NNP Lemma=Joffrey NamedEntityTag=PERSON]
+[Text=went CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=VBD Lemma=go NamedEntityTag=O]
+[Text=rogue CharacterOffsetBegin=499 CharacterOffsetEnd=504 PartOfSpeech=NN Lemma=rogue NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=killed CharacterOffsetBegin=509 CharacterOffsetEnd=515 PartOfSpeech=VBD Lemma=kill NamedEntityTag=O]
+[Text=Ned CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=NNP Lemma=Ned NamedEntityTag=PERSON]
+[Text=before CharacterOffsetBegin=520 CharacterOffsetEnd=526 PartOfSpeech=IN Lemma=before NamedEntityTag=O]
+[Text=Jaqen CharacterOffsetBegin=527 CharacterOffsetEnd=532 PartOfSpeech=NNP Lemma=Jaqen NamedEntityTag=PERSON]
+[Text=could CharacterOffsetBegin=533 CharacterOffsetEnd=538 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=get CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=VB Lemma=get NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=543 CharacterOffsetEnd=545 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=549 CharacterOffsetEnd=550 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (PRP$ her) (NN son) (NNP Joffrey))
+    (VP
+      (VP (VBD went)
+        (NP (NN rogue)))
+      (CC and)
+      (VP (VBD killed)
+        (NP (NNP Ned))
+        (SBAR (IN before)
+          (S
+            (NP (NNP Jaqen))
+            (VP (MD could)
+              (VP (VB get)
+                (PP (TO to)
+                  (NP (PRP him)))))))))
+    (. .)))
+
+root(ROOT-0, went-6)
+advmod(went-6, However-1)
+punct(went-6, ,-2)
+nmod:poss(Joffrey-5, her-3)
+compound(Joffrey-5, son-4)
+nsubj(went-6, Joffrey-5)
+nsubj(killed-9, Joffrey-5)
+dobj(went-6, rogue-7)
+cc(went-6, and-8)
+conj:and(went-6, killed-9)
+dobj(killed-9, Ned-10)
+mark(get-14, before-11)
+nsubj(get-14, Jaqen-12)
+aux(get-14, could-13)
+advcl:before(killed-9, get-14)
+case(him-16, to-15)
+nmod:to(get-14, him-16)
+punct(went-6, .-17)
+
 Sentence #8 (31 tokens):
 As the Lannisters wasted his precious time, maybe he purposely sought out Arya and has taken her under his wing in an elaborate plan to get his own back?
-[Text=As CharacterOffsetBegin=552 CharacterOffsetEnd=554 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=DT]
-[Text=Lannisters CharacterOffsetBegin=559 CharacterOffsetEnd=569 PartOfSpeech=NNP]
-[Text=wasted CharacterOffsetBegin=570 CharacterOffsetEnd=576 PartOfSpeech=VBD]
-[Text=his CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=PRP$]
-[Text=precious CharacterOffsetBegin=581 CharacterOffsetEnd=589 PartOfSpeech=JJ]
-[Text=time CharacterOffsetBegin=590 CharacterOffsetEnd=594 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=594 CharacterOffsetEnd=595 PartOfSpeech=,]
-[Text=maybe CharacterOffsetBegin=596 CharacterOffsetEnd=601 PartOfSpeech=RB]
-[Text=he CharacterOffsetBegin=602 CharacterOffsetEnd=604 PartOfSpeech=PRP]
-[Text=purposely CharacterOffsetBegin=605 CharacterOffsetEnd=614 PartOfSpeech=RB]
-[Text=sought CharacterOffsetBegin=615 CharacterOffsetEnd=621 PartOfSpeech=VBD]
-[Text=out CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=RP]
-[Text=Arya CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=631 CharacterOffsetEnd=634 PartOfSpeech=CC]
-[Text=has CharacterOffsetBegin=635 CharacterOffsetEnd=638 PartOfSpeech=VBZ]
-[Text=taken CharacterOffsetBegin=639 CharacterOffsetEnd=644 PartOfSpeech=VBN]
-[Text=her CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=PRP$]
-[Text=under CharacterOffsetBegin=649 CharacterOffsetEnd=654 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=PRP$]
-[Text=wing CharacterOffsetBegin=659 CharacterOffsetEnd=663 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=664 CharacterOffsetEnd=666 PartOfSpeech=IN]
-[Text=an CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=DT]
-[Text=elaborate CharacterOffsetBegin=670 CharacterOffsetEnd=679 PartOfSpeech=JJ]
-[Text=plan CharacterOffsetBegin=680 CharacterOffsetEnd=684 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=685 CharacterOffsetEnd=687 PartOfSpeech=TO]
-[Text=get CharacterOffsetBegin=688 CharacterOffsetEnd=691 PartOfSpeech=VB]
-[Text=his CharacterOffsetBegin=692 CharacterOffsetEnd=695 PartOfSpeech=PRP$]
-[Text=own CharacterOffsetBegin=696 CharacterOffsetEnd=699 PartOfSpeech=JJ]
-[Text=back CharacterOffsetBegin=700 CharacterOffsetEnd=704 PartOfSpeech=NN]
-[Text=? CharacterOffsetBegin=704 CharacterOffsetEnd=705 PartOfSpeech=.]
+[Text=As CharacterOffsetBegin=552 CharacterOffsetEnd=554 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Lannisters CharacterOffsetBegin=559 CharacterOffsetEnd=569 PartOfSpeech=NNP Lemma=Lannisters NamedEntityTag=O]
+[Text=wasted CharacterOffsetBegin=570 CharacterOffsetEnd=576 PartOfSpeech=VBD Lemma=waste NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=precious CharacterOffsetBegin=581 CharacterOffsetEnd=589 PartOfSpeech=JJ Lemma=precious NamedEntityTag=O]
+[Text=time CharacterOffsetBegin=590 CharacterOffsetEnd=594 PartOfSpeech=NN Lemma=time NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=594 CharacterOffsetEnd=595 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=maybe CharacterOffsetBegin=596 CharacterOffsetEnd=601 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=602 CharacterOffsetEnd=604 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=purposely CharacterOffsetBegin=605 CharacterOffsetEnd=614 PartOfSpeech=RB Lemma=purposely NamedEntityTag=O]
+[Text=sought CharacterOffsetBegin=615 CharacterOffsetEnd=621 PartOfSpeech=VBD Lemma=seek NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=631 CharacterOffsetEnd=634 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=635 CharacterOffsetEnd=638 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=taken CharacterOffsetBegin=639 CharacterOffsetEnd=644 PartOfSpeech=VBN Lemma=take NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=under CharacterOffsetBegin=649 CharacterOffsetEnd=654 PartOfSpeech=IN Lemma=under NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=655 CharacterOffsetEnd=658 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=wing CharacterOffsetBegin=659 CharacterOffsetEnd=663 PartOfSpeech=NN Lemma=wing NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=664 CharacterOffsetEnd=666 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=elaborate CharacterOffsetBegin=670 CharacterOffsetEnd=679 PartOfSpeech=JJ Lemma=elaborate NamedEntityTag=O]
+[Text=plan CharacterOffsetBegin=680 CharacterOffsetEnd=684 PartOfSpeech=NN Lemma=plan NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=685 CharacterOffsetEnd=687 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=get CharacterOffsetBegin=688 CharacterOffsetEnd=691 PartOfSpeech=VB Lemma=get NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=692 CharacterOffsetEnd=695 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=own CharacterOffsetBegin=696 CharacterOffsetEnd=699 PartOfSpeech=JJ Lemma=own NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=700 CharacterOffsetEnd=704 PartOfSpeech=NN Lemma=back NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=704 CharacterOffsetEnd=705 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR (IN As)
+      (S
+        (NP (DT the) (NNP Lannisters))
+        (VP (VBD wasted)
+          (NP (PRP$ his) (JJ precious) (NN time)))))
+    (, ,)
+    (ADVP (RB maybe))
+    (NP (PRP he))
+    (ADVP (RB purposely))
+    (VP
+      (VP (VBD sought)
+        (PRT (RP out))
+        (NP (NNP Arya)))
+      (CC and)
+      (VP (VBZ has)
+        (VP (VBN taken)
+          (NP (PRP$ her))
+          (PP (IN under)
+            (NP
+              (NP (PRP$ his) (NN wing))
+              (PP (IN in)
+                (NP (DT an) (JJ elaborate) (NN plan)))))
+          (S
+            (VP (TO to)
+              (VP (VB get)
+                (NP (PRP$ his) (JJ own) (NN back))))))))
+    (. ?)))
+
+root(ROOT-0, sought-12)
+mark(wasted-4, As-1)
+det(Lannisters-3, the-2)
+nsubj(wasted-4, Lannisters-3)
+advcl:as(sought-12, wasted-4)
+nmod:poss(time-7, his-5)
+amod(time-7, precious-6)
+dobj(wasted-4, time-7)
+punct(sought-12, ,-8)
+advmod(he-10, maybe-9)
+nsubj(sought-12, he-10)
+nsubj(taken-17, he-10)
+advmod(sought-12, purposely-11)
+compound:prt(sought-12, out-13)
+dobj(sought-12, Arya-14)
+cc(sought-12, and-15)
+aux(taken-17, has-16)
+conj:and(sought-12, taken-17)
+dobj(taken-17, her-18)
+case(wing-21, under-19)
+nmod:poss(wing-21, his-20)
+nmod:under(taken-17, wing-21)
+case(plan-25, in-22)
+det(plan-25, an-23)
+amod(plan-25, elaborate-24)
+nmod:in(wing-21, plan-25)
+mark(get-27, to-26)
+advcl:to(taken-17, get-27)
+nmod:poss(back-30, his-28)
+amod(back-30, own-29)
+dobj(get-27, back-30)
+punct(sought-12, ?-31)
+
+Coreference set:
+	(4,2,[2,3]) -> (2,2,[1,3]), that is: "it" -> "Another one"
+Coreference set:
+	(3,3,[3,4]) -> (2,9,[6,10]), that is: "he" -> "your favourite Faceless Man"
+Coreference set:
+	(8,14,[14,15]) -> (3,8,[8,9]), that is: "Arya" -> "Arya"
+Coreference set:
+	(5,26,[26,27]) -> (6,9,[8,10]), that is: "Ned" -> "silence Ned"
+	(5,28,[28,29]) -> (6,9,[8,10]), that is: "he" -> "silence Ned"
+	(6,9,[9,10]) -> (6,9,[8,10]), that is: "Ned" -> "silence Ned"
+	(7,10,[10,11]) -> (6,9,[8,10]), that is: "Ned" -> "silence Ned"
+Coreference set:
+	(5,21,[21,22]) -> (5,12,[12,14]), that is: "he" -> "Jaqen captured"
+	(7,12,[12,13]) -> (5,12,[12,14]), that is: "Jaqen" -> "Jaqen captured"
+	(7,16,[16,17]) -> (5,12,[12,14]), that is: "him" -> "Jaqen captured"
+Coreference set:
+	(7,3,[3,4]) -> (6,1,[1,2]), that is: "her" -> "Cersei"
+	(8,18,[18,19]) -> (6,1,[1,2]), that is: "her" -> "Cersei"
+Coreference set:
+	(8,5,[5,6]) -> (8,3,[2,4]), that is: "his" -> "the Lannisters"
+	(8,10,[10,11]) -> (8,3,[2,4]), that is: "he" -> "the Lannisters"
+	(8,20,[20,21]) -> (8,3,[2,4]), that is: "his" -> "the Lannisters"
+	(8,28,[28,29]) -> (8,3,[2,4]), that is: "his" -> "the Lannisters"

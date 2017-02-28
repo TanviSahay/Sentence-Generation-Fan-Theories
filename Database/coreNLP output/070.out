@@ -1,78 +1,248 @@
 Sentence #1 (6 tokens):
 Tyrion Lannister is a Targaryen.
-[Text=Tyrion CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP]
-[Text=Lannister CharacterOffsetBegin=7 CharacterOffsetEnd=16 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=DT]
-[Text=Targaryen CharacterOffsetBegin=22 CharacterOffsetEnd=31 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=.]
+[Text=Tyrion CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Tyrion NamedEntityTag=O]
+[Text=Lannister CharacterOffsetBegin=7 CharacterOffsetEnd=16 PartOfSpeech=NNP Lemma=Lannister NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=17 CharacterOffsetEnd=19 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Targaryen CharacterOffsetBegin=22 CharacterOffsetEnd=31 PartOfSpeech=NNP Lemma=Targaryen NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Tyrion) (NNP Lannister))
+    (VP (VBZ is)
+      (NP (DT a) (NNP Targaryen)))
+    (. .)))
+
+root(ROOT-0, Targaryen-5)
+compound(Lannister-2, Tyrion-1)
+nsubj(Targaryen-5, Lannister-2)
+cop(Targaryen-5, is-3)
+det(Targaryen-5, a-4)
+punct(Targaryen-5, .-6)
+
 Sentence #2 (22 tokens):
 Tyrion's mother Joanna died giving birth to him, which is one reason Tywin Lannister always treated him like dirt.
-[Text=Tyrion CharacterOffsetBegin=33 CharacterOffsetEnd=39 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=POS]
-[Text=mother CharacterOffsetBegin=42 CharacterOffsetEnd=48 PartOfSpeech=NN]
-[Text=Joanna CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=NNP]
-[Text=died CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=VBD]
-[Text=giving CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=VBG]
-[Text=birth CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=TO]
-[Text=him CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=PRP]
-[Text=, CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=,]
-[Text=which CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=WDT]
-[Text=is CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=VBZ]
-[Text=one CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=CD]
-[Text=reason CharacterOffsetBegin=95 CharacterOffsetEnd=101 PartOfSpeech=NN]
-[Text=Tywin CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=NNP]
-[Text=Lannister CharacterOffsetBegin=108 CharacterOffsetEnd=117 PartOfSpeech=NNP]
-[Text=always CharacterOffsetBegin=118 CharacterOffsetEnd=124 PartOfSpeech=RB]
-[Text=treated CharacterOffsetBegin=125 CharacterOffsetEnd=132 PartOfSpeech=VBD]
-[Text=him CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=PRP]
-[Text=like CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=IN]
-[Text=dirt CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=.]
+[Text=Tyrion CharacterOffsetBegin=33 CharacterOffsetEnd=39 PartOfSpeech=NNP Lemma=Tyrion NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=mother CharacterOffsetBegin=42 CharacterOffsetEnd=48 PartOfSpeech=NN Lemma=mother NamedEntityTag=O]
+[Text=Joanna CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=NNP Lemma=Joanna NamedEntityTag=PERSON]
+[Text=died CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=VBD Lemma=die NamedEntityTag=O]
+[Text=giving CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=VBG Lemma=give NamedEntityTag=O]
+[Text=birth CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=NN Lemma=birth NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=80 CharacterOffsetEnd=81 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=reason CharacterOffsetBegin=95 CharacterOffsetEnd=101 PartOfSpeech=NN Lemma=reason NamedEntityTag=O]
+[Text=Tywin CharacterOffsetBegin=102 CharacterOffsetEnd=107 PartOfSpeech=NNP Lemma=Tywin NamedEntityTag=O]
+[Text=Lannister CharacterOffsetBegin=108 CharacterOffsetEnd=117 PartOfSpeech=NNP Lemma=Lannister NamedEntityTag=O]
+[Text=always CharacterOffsetBegin=118 CharacterOffsetEnd=124 PartOfSpeech=RB Lemma=always NamedEntityTag=O]
+[Text=treated CharacterOffsetBegin=125 CharacterOffsetEnd=132 PartOfSpeech=VBD Lemma=treat NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=dirt CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=NN Lemma=dirt NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=146 CharacterOffsetEnd=147 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (NNP Tyrion) (POS 's))
+      (NN mother))
+    (PRN
+      (S
+        (NP (NNP Joanna))
+        (VP (VBD died)
+          (S
+            (VP (VBG giving)
+              (NP (NN birth))
+              (PP (TO to)
+                (NP (PRP him)))))))
+      (, ,))
+    (SBAR
+      (WHNP (WDT which))
+      (S
+        (VP (VBZ is)
+          (NP (CD one) (NN reason)))))
+    (NP (NNP Tywin) (NNP Lannister))
+    (ADVP (RB always))
+    (VP (VBD treated)
+      (NP (PRP him))
+      (PP (IN like)
+        (NP (NN dirt))))
+    (. .)))
+
+root(ROOT-0, treated-18)
+nmod:poss(mother-3, Tyrion-1)
+case(Tyrion-1, 's-2)
+nsubj(treated-18, mother-3)
+nsubj(died-5, Joanna-4)
+parataxis(treated-18, died-5)
+xcomp(died-5, giving-6)
+dobj(giving-6, birth-7)
+case(him-9, to-8)
+nmod:to(giving-6, him-9)
+punct(died-5, ,-10)
+nsubj(reason-14, which-11)
+cop(reason-14, is-12)
+nummod(reason-14, one-13)
+advcl(treated-18, reason-14)
+compound(Lannister-16, Tywin-15)
+nsubj(treated-18, Lannister-16)
+advmod(treated-18, always-17)
+dobj(treated-18, him-19)
+case(dirt-21, like-20)
+nmod:like(treated-18, dirt-21)
+punct(treated-18, .-22)
+
 Sentence #3 (32 tokens):
 Believers in this theory further speculate that Twyin hated Tyrion because his actual father was Aerys Targaryen, who claimed "bedding rights" over Joanna on Tywin's wedding night.
-[Text=Believers CharacterOffsetBegin=148 CharacterOffsetEnd=157 PartOfSpeech=NNS]
-[Text=in CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=NN]
-[Text=further CharacterOffsetBegin=173 CharacterOffsetEnd=180 PartOfSpeech=RB]
-[Text=speculate CharacterOffsetBegin=181 CharacterOffsetEnd=190 PartOfSpeech=VBP]
-[Text=that CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=IN]
-[Text=Twyin CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=NN]
-[Text=hated CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=VBD]
-[Text=Tyrion CharacterOffsetBegin=208 CharacterOffsetEnd=214 PartOfSpeech=NNP]
-[Text=because CharacterOffsetBegin=215 CharacterOffsetEnd=222 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=PRP$]
-[Text=actual CharacterOffsetBegin=227 CharacterOffsetEnd=233 PartOfSpeech=JJ]
-[Text=father CharacterOffsetBegin=234 CharacterOffsetEnd=240 PartOfSpeech=NN]
-[Text=was CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=VBD]
-[Text=Aerys CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=NNP]
-[Text=Targaryen CharacterOffsetBegin=251 CharacterOffsetEnd=260 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=,]
-[Text=who CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=WP]
-[Text=claimed CharacterOffsetBegin=266 CharacterOffsetEnd=273 PartOfSpeech=VBD]
-[Text=`` CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=``]
-[Text=bedding CharacterOffsetBegin=275 CharacterOffsetEnd=282 PartOfSpeech=NN]
-[Text=rights CharacterOffsetBegin=283 CharacterOffsetEnd=289 PartOfSpeech=NNS]
-[Text='' CharacterOffsetBegin=289 CharacterOffsetEnd=290 PartOfSpeech='']
-[Text=over CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=IN]
-[Text=Joanna CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=NNP]
-[Text=on CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=IN]
-[Text=Tywin CharacterOffsetBegin=306 CharacterOffsetEnd=311 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=POS]
-[Text=wedding CharacterOffsetBegin=314 CharacterOffsetEnd=321 PartOfSpeech=NN]
-[Text=night CharacterOffsetBegin=322 CharacterOffsetEnd=327 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=.]
+[Text=Believers CharacterOffsetBegin=148 CharacterOffsetEnd=157 PartOfSpeech=NNS Lemma=believer NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=166 CharacterOffsetEnd=172 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=further CharacterOffsetBegin=173 CharacterOffsetEnd=180 PartOfSpeech=RB Lemma=further NamedEntityTag=O]
+[Text=speculate CharacterOffsetBegin=181 CharacterOffsetEnd=190 PartOfSpeech=VBP Lemma=speculate NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Twyin CharacterOffsetBegin=196 CharacterOffsetEnd=201 PartOfSpeech=NN Lemma=twyin NamedEntityTag=PERSON]
+[Text=hated CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=VBD Lemma=hate NamedEntityTag=O]
+[Text=Tyrion CharacterOffsetBegin=208 CharacterOffsetEnd=214 PartOfSpeech=NNP Lemma=Tyrion NamedEntityTag=O]
+[Text=because CharacterOffsetBegin=215 CharacterOffsetEnd=222 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=223 CharacterOffsetEnd=226 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=actual CharacterOffsetBegin=227 CharacterOffsetEnd=233 PartOfSpeech=JJ Lemma=actual NamedEntityTag=O]
+[Text=father CharacterOffsetBegin=234 CharacterOffsetEnd=240 PartOfSpeech=NN Lemma=father NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=Aerys CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=NNP Lemma=Aerys NamedEntityTag=PERSON]
+[Text=Targaryen CharacterOffsetBegin=251 CharacterOffsetEnd=260 PartOfSpeech=NNP Lemma=Targaryen NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=claimed CharacterOffsetBegin=266 CharacterOffsetEnd=273 PartOfSpeech=VBD Lemma=claim NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=bedding CharacterOffsetBegin=275 CharacterOffsetEnd=282 PartOfSpeech=NN Lemma=bedding NamedEntityTag=O]
+[Text=rights CharacterOffsetBegin=283 CharacterOffsetEnd=289 PartOfSpeech=NNS Lemma=rights NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=289 CharacterOffsetEnd=290 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=over CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=IN Lemma=over NamedEntityTag=O]
+[Text=Joanna CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=NNP Lemma=Joanna NamedEntityTag=PERSON]
+[Text=on CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=Tywin CharacterOffsetBegin=306 CharacterOffsetEnd=311 PartOfSpeech=NNP Lemma=Tywin NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=wedding CharacterOffsetBegin=314 CharacterOffsetEnd=321 PartOfSpeech=NN Lemma=wedding NamedEntityTag=O]
+[Text=night CharacterOffsetBegin=322 CharacterOffsetEnd=327 PartOfSpeech=NN Lemma=night NamedEntityTag=TIME NormalizedNamedEntityTag=TNI Timex=<TIMEX3 tid="t1" type="TIME" value="TNI">night</TIMEX3>]
+[Text=. CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (NNS Believers))
+      (PP (IN in)
+        (NP (DT this) (NN theory))))
+    (ADVP (RB further))
+    (VP (VBP speculate)
+      (SBAR (IN that)
+        (S
+          (NP (NN Twyin))
+          (VP (VBD hated)
+            (NP (NNP Tyrion))
+            (SBAR (IN because)
+              (S
+                (NP (PRP$ his) (JJ actual) (NN father))
+                (VP (VBD was)
+                  (NP
+                    (NP (NNP Aerys) (NNP Targaryen))
+                    (, ,)
+                    (SBAR
+                      (WHNP (WP who))
+                      (S
+                        (VP (VBD claimed)
+                          (NP (`` ``)
+                            (NP (NN bedding) (NNS rights))
+                            ('' '')
+                            (PP (IN over)
+                              (NP (NNP Joanna))))
+                          (PP (IN on)
+                            (NP
+                              (NP (NNP Tywin) (POS 's))
+                              (NN wedding)))
+                          (NP-TMP (NN night)))))))))))))
+    (. .)))
+
+root(ROOT-0, speculate-6)
+nsubj(speculate-6, Believers-1)
+case(theory-4, in-2)
+det(theory-4, this-3)
+nmod:in(Believers-1, theory-4)
+advmod(speculate-6, further-5)
+mark(hated-9, that-7)
+nsubj(hated-9, Twyin-8)
+ccomp(speculate-6, hated-9)
+dobj(hated-9, Tyrion-10)
+mark(Targaryen-17, because-11)
+nmod:poss(father-14, his-12)
+amod(father-14, actual-13)
+nsubj(Targaryen-17, father-14)
+cop(Targaryen-17, was-15)
+compound(Targaryen-17, Aerys-16)
+advcl:because(hated-9, Targaryen-17)
+nsubj(claimed-20, Targaryen-17)
+punct(Targaryen-17, ,-18)
+ref(Targaryen-17, who-19)
+acl:relcl(Targaryen-17, claimed-20)
+punct(rights-23, ``-21)
+compound(rights-23, bedding-22)
+dobj(claimed-20, rights-23)
+punct(rights-23, ''-24)
+case(Joanna-26, over-25)
+nmod:over(rights-23, Joanna-26)
+case(wedding-30, on-27)
+nmod:poss(wedding-30, Tywin-28)
+case(Tywin-28, 's-29)
+nmod:on(claimed-20, wedding-30)
+nmod:tmod(claimed-20, night-31)
+punct(speculate-6, .-32)
+
 Sentence #4 (10 tokens):
 Also, Tyrion is pretty good with those dragons.
-[Text=Also CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=,]
-[Text=Tyrion CharacterOffsetBegin=335 CharacterOffsetEnd=341 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=342 CharacterOffsetEnd=344 PartOfSpeech=VBZ]
-[Text=pretty CharacterOffsetBegin=345 CharacterOffsetEnd=351 PartOfSpeech=RB]
-[Text=good CharacterOffsetBegin=352 CharacterOffsetEnd=356 PartOfSpeech=JJ]
-[Text=with CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=IN]
-[Text=those CharacterOffsetBegin=362 CharacterOffsetEnd=367 PartOfSpeech=DT]
-[Text=dragons CharacterOffsetBegin=368 CharacterOffsetEnd=375 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=.]
+[Text=Also CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Tyrion CharacterOffsetBegin=335 CharacterOffsetEnd=341 PartOfSpeech=NN Lemma=tyrion NamedEntityTag=LOCATION]
+[Text=is CharacterOffsetBegin=342 CharacterOffsetEnd=344 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=pretty CharacterOffsetBegin=345 CharacterOffsetEnd=351 PartOfSpeech=RB Lemma=pretty NamedEntityTag=O]
+[Text=good CharacterOffsetBegin=352 CharacterOffsetEnd=356 PartOfSpeech=JJ Lemma=good NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=those CharacterOffsetBegin=362 CharacterOffsetEnd=367 PartOfSpeech=DT Lemma=those NamedEntityTag=O]
+[Text=dragons CharacterOffsetBegin=368 CharacterOffsetEnd=375 PartOfSpeech=NNS Lemma=dragon NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Also))
+    (, ,)
+    (NP (NN Tyrion))
+    (VP (VBZ is)
+      (ADJP (RB pretty) (JJ good)
+        (PP (IN with)
+          (NP (DT those) (NNS dragons)))))
+    (. .)))
+
+root(ROOT-0, good-6)
+advmod(good-6, Also-1)
+punct(good-6, ,-2)
+nsubj(good-6, Tyrion-3)
+cop(good-6, is-4)
+advmod(good-6, pretty-5)
+case(dragons-9, with-7)
+det(dragons-9, those-8)
+nmod:with(good-6, dragons-9)
+punct(good-6, .-10)
+
+Coreference set:
+	(1,2,[1,3]) -> (3,17,[16,32]), that is: "Tyrion Lannister" -> "Aerys Targaryen , who claimed `` bedding rights '' over Joanna on Tywin 's wedding night"
+	(1,5,[4,6]) -> (3,17,[16,32]), that is: "a Targaryen" -> "Aerys Targaryen , who claimed `` bedding rights '' over Joanna on Tywin 's wedding night"
+	(2,16,[15,17]) -> (3,17,[16,32]), that is: "Tywin Lannister" -> "Aerys Targaryen , who claimed `` bedding rights '' over Joanna on Tywin 's wedding night"
+	(3,14,[12,15]) -> (3,17,[16,32]), that is: "his actual father" -> "Aerys Targaryen , who claimed `` bedding rights '' over Joanna on Tywin 's wedding night"
+	(3,17,[16,18]) -> (3,17,[16,32]), that is: "Aerys Targaryen" -> "Aerys Targaryen , who claimed `` bedding rights '' over Joanna on Tywin 's wedding night"
+Coreference set:
+	(2,9,[9,10]) -> (2,1,[1,3]), that is: "him" -> "Tyrion 's"
+	(2,19,[19,20]) -> (2,1,[1,3]), that is: "him" -> "Tyrion 's"
+	(3,10,[10,11]) -> (2,1,[1,3]), that is: "Tyrion" -> "Tyrion 's"
+	(3,12,[12,13]) -> (2,1,[1,3]), that is: "his" -> "Tyrion 's"
+Coreference set:
+	(3,26,[26,27]) -> (2,4,[4,5]), that is: "Joanna" -> "Joanna"

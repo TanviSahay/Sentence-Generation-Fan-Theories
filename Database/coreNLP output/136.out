@@ -1,111 +1,350 @@
-Sentence #1 (45 tokens):
-Jaqen H'Ghar is Syrio Forel
+Sentence #1 (6 tokens):
+Jaqen H'Ghar is Syrio Forel.
+[Text=Jaqen CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=JJ Lemma=jaqen NamedEntityTag=PERSON]
+[Text=H'Ghar CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=NN Lemma=h'ghar NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=Syrio CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=NNP Lemma=Syrio NamedEntityTag=O]
+[Text=Forel CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NNP Lemma=Forel NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (JJ Jaqen) (NN H'Ghar))
+    (VP (VBZ is)
+      (NP (NNP Syrio) (NNP Forel)))
+    (. .)))
 
+root(ROOT-0, Forel-5)
+amod(H'Ghar-2, Jaqen-1)
+nsubj(Forel-5, H'Ghar-2)
+cop(Forel-5, is-3)
+compound(Forel-5, Syrio-4)
+punct(Forel-5, .-6)
+
+Sentence #2 (40 tokens):
 In the first season, Arya's "dancing instructor," Syrio Forel, helped her escape by taking on a group of Kingsguards with a wooden training sword, but we never got confirmation of his death.
-[Text=Jaqen CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=JJ]
-[Text=H'Ghar CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=VBZ]
-[Text=Syrio CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=NNP]
-[Text=Forel CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NNP]
-[Text=In CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=DT]
-[Text=first CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=JJ]
-[Text=season CharacterOffsetBegin=42 CharacterOffsetEnd=48 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=,]
-[Text=Arya CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=POS]
-[Text=`` CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=``]
-[Text=dancing CharacterOffsetBegin=58 CharacterOffsetEnd=65 PartOfSpeech=NN]
-[Text=instructor CharacterOffsetBegin=66 CharacterOffsetEnd=76 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=,]
-[Text='' CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech='']
-[Text=Syrio CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=NNP]
-[Text=Forel CharacterOffsetBegin=85 CharacterOffsetEnd=90 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=,]
-[Text=helped CharacterOffsetBegin=92 CharacterOffsetEnd=98 PartOfSpeech=VBD]
-[Text=her CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=PRP$]
-[Text=escape CharacterOffsetBegin=103 CharacterOffsetEnd=109 PartOfSpeech=NN]
-[Text=by CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=IN]
-[Text=taking CharacterOffsetBegin=113 CharacterOffsetEnd=119 PartOfSpeech=VBG]
-[Text=on CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=RP]
-[Text=a CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=DT]
-[Text=group CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=IN]
-[Text=Kingsguards CharacterOffsetBegin=134 CharacterOffsetEnd=145 PartOfSpeech=NNPS]
-[Text=with CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=DT]
-[Text=wooden CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=JJ]
-[Text=training CharacterOffsetBegin=160 CharacterOffsetEnd=168 PartOfSpeech=NN]
-[Text=sword CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=CC]
-[Text=we CharacterOffsetBegin=180 CharacterOffsetEnd=182 PartOfSpeech=PRP]
-[Text=never CharacterOffsetBegin=183 CharacterOffsetEnd=188 PartOfSpeech=RB]
-[Text=got CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=VBD]
-[Text=confirmation CharacterOffsetBegin=193 CharacterOffsetEnd=205 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=PRP$]
-[Text=death CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=.]
-Sentence #2 (24 tokens):
+[Text=In CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=first CharacterOffsetBegin=37 CharacterOffsetEnd=42 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0]
+[Text=season CharacterOffsetBegin=43 CharacterOffsetEnd=49 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=dancing CharacterOffsetBegin=59 CharacterOffsetEnd=66 PartOfSpeech=NN Lemma=dancing NamedEntityTag=O]
+[Text=instructor CharacterOffsetBegin=67 CharacterOffsetEnd=77 PartOfSpeech=NN Lemma=instructor NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=Syrio CharacterOffsetBegin=80 CharacterOffsetEnd=85 PartOfSpeech=NNP Lemma=Syrio NamedEntityTag=PERSON]
+[Text=Forel CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=NNP Lemma=Forel NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=helped CharacterOffsetBegin=93 CharacterOffsetEnd=99 PartOfSpeech=VBD Lemma=help NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=escape CharacterOffsetBegin=104 CharacterOffsetEnd=110 PartOfSpeech=NN Lemma=escape NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=taking CharacterOffsetBegin=114 CharacterOffsetEnd=120 PartOfSpeech=VBG Lemma=take NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=RP Lemma=on NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=group CharacterOffsetBegin=126 CharacterOffsetEnd=131 PartOfSpeech=NN Lemma=group NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Kingsguards CharacterOffsetBegin=135 CharacterOffsetEnd=146 PartOfSpeech=NNPS Lemma=Kingsguards NamedEntityTag=LOCATION]
+[Text=with CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=wooden CharacterOffsetBegin=154 CharacterOffsetEnd=160 PartOfSpeech=JJ Lemma=wooden NamedEntityTag=O]
+[Text=training CharacterOffsetBegin=161 CharacterOffsetEnd=169 PartOfSpeech=NN Lemma=training NamedEntityTag=O]
+[Text=sword CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=NN Lemma=sword NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=175 CharacterOffsetEnd=176 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=never CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=RB Lemma=never NamedEntityTag=O]
+[Text=got CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=VBD Lemma=get NamedEntityTag=O]
+[Text=confirmation CharacterOffsetBegin=194 CharacterOffsetEnd=206 PartOfSpeech=NN Lemma=confirmation NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=210 CharacterOffsetEnd=213 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=death CharacterOffsetBegin=214 CharacterOffsetEnd=219 PartOfSpeech=NN Lemma=death NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (PP (IN In)
+        (NP (DT the) (JJ first) (NN season)))
+      (, ,)
+      (NP
+        (NP
+          (NP (NNP Arya) (POS 's))
+          (`` ``) (NN dancing) (NN instructor) (, ,) ('' ''))
+        (NP (NNP Syrio) (NNP Forel))
+        (, ,))
+      (VP (VBD helped)
+        (NP (PRP$ her) (NN escape))
+        (PP (IN by)
+          (S
+            (VP (VBG taking)
+              (PRT (RP on))
+              (NP
+                (NP (DT a) (NN group))
+                (PP (IN of)
+                  (NP (NNPS Kingsguards))))
+              (PP (IN with)
+                (NP (DT a) (JJ wooden) (NN training) (NN sword))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP we))
+      (ADVP (RB never))
+      (VP (VBD got)
+        (NP
+          (NP (NN confirmation))
+          (PP (IN of)
+            (NP (PRP$ his) (NN death))))))
+    (. .)))
+
+root(ROOT-0, helped-16)
+case(season-4, In-1)
+det(season-4, the-2)
+amod(season-4, first-3)
+nmod:in(helped-16, season-4)
+punct(helped-16, ,-5)
+nmod:poss(instructor-10, Arya-6)
+case(Arya-6, 's-7)
+punct(instructor-10, ``-8)
+compound(instructor-10, dancing-9)
+nsubj(helped-16, instructor-10)
+punct(instructor-10, ,-11)
+punct(instructor-10, ''-12)
+compound(Forel-14, Syrio-13)
+dep(instructor-10, Forel-14)
+punct(instructor-10, ,-15)
+nmod:poss(escape-18, her-17)
+dobj(helped-16, escape-18)
+mark(taking-20, by-19)
+advcl:by(helped-16, taking-20)
+compound:prt(taking-20, on-21)
+det(group-23, a-22)
+dobj(taking-20, group-23)
+case(Kingsguards-25, of-24)
+nmod:of(group-23, Kingsguards-25)
+case(sword-30, with-26)
+det(sword-30, a-27)
+amod(sword-30, wooden-28)
+compound(sword-30, training-29)
+nmod:with(taking-20, sword-30)
+punct(helped-16, ,-31)
+cc(helped-16, but-32)
+nsubj(got-35, we-33)
+neg(got-35, never-34)
+conj:but(helped-16, got-35)
+dobj(got-35, confirmation-36)
+case(death-39, of-37)
+nmod:poss(death-39, his-38)
+nmod:of(confirmation-36, death-39)
+punct(helped-16, .-40)
+
+Sentence #3 (24 tokens):
 So when Arya befriended another Braavosi, Jaqen H'Ghar, many assumed the Faceless Man was the First Sword of Braavos in disguise.
-[Text=So CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=RB]
-[Text=when CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=WRB]
-[Text=Arya CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=NNP]
-[Text=befriended CharacterOffsetBegin=234 CharacterOffsetEnd=244 PartOfSpeech=VBD]
-[Text=another CharacterOffsetBegin=245 CharacterOffsetEnd=252 PartOfSpeech=DT]
-[Text=Braavosi CharacterOffsetBegin=253 CharacterOffsetEnd=261 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=,]
-[Text=Jaqen CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=NNP]
-[Text=H'Ghar CharacterOffsetBegin=269 CharacterOffsetEnd=275 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=275 CharacterOffsetEnd=276 PartOfSpeech=,]
-[Text=many CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=JJ]
-[Text=assumed CharacterOffsetBegin=282 CharacterOffsetEnd=289 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=DT]
-[Text=Faceless CharacterOffsetBegin=294 CharacterOffsetEnd=302 PartOfSpeech=JJ]
-[Text=Man CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=NN]
-[Text=was CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=DT]
-[Text=First CharacterOffsetBegin=315 CharacterOffsetEnd=320 PartOfSpeech=NNP]
-[Text=Sword CharacterOffsetBegin=321 CharacterOffsetEnd=326 PartOfSpeech=NNP]
-[Text=of CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=IN]
-[Text=Braavos CharacterOffsetBegin=330 CharacterOffsetEnd=337 PartOfSpeech=NNP]
-[Text=in CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=IN]
-[Text=disguise CharacterOffsetBegin=341 CharacterOffsetEnd=349 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=.]
-Sentence #3 (34 tokens):
+[Text=So CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=befriended CharacterOffsetBegin=235 CharacterOffsetEnd=245 PartOfSpeech=VBD Lemma=befriend NamedEntityTag=O]
+[Text=another CharacterOffsetBegin=246 CharacterOffsetEnd=253 PartOfSpeech=DT Lemma=another NamedEntityTag=O]
+[Text=Braavosi CharacterOffsetBegin=254 CharacterOffsetEnd=262 PartOfSpeech=NNP Lemma=Braavosi NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=262 CharacterOffsetEnd=263 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Jaqen CharacterOffsetBegin=264 CharacterOffsetEnd=269 PartOfSpeech=NNP Lemma=Jaqen NamedEntityTag=PERSON]
+[Text=H'Ghar CharacterOffsetBegin=270 CharacterOffsetEnd=276 PartOfSpeech=NNP Lemma=H'Ghar NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=many CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=JJ Lemma=many NamedEntityTag=O]
+[Text=assumed CharacterOffsetBegin=283 CharacterOffsetEnd=290 PartOfSpeech=VBD Lemma=assume NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Faceless CharacterOffsetBegin=295 CharacterOffsetEnd=303 PartOfSpeech=JJ Lemma=faceless NamedEntityTag=MISC]
+[Text=Man CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC]
+[Text=was CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=First CharacterOffsetBegin=316 CharacterOffsetEnd=321 PartOfSpeech=NNP Lemma=First NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0]
+[Text=Sword CharacterOffsetBegin=322 CharacterOffsetEnd=327 PartOfSpeech=NNP Lemma=Sword NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=328 CharacterOffsetEnd=330 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Braavos CharacterOffsetBegin=331 CharacterOffsetEnd=338 PartOfSpeech=NNP Lemma=Braavos NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=339 CharacterOffsetEnd=341 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=disguise CharacterOffsetBegin=342 CharacterOffsetEnd=350 PartOfSpeech=VB Lemma=disguise NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (RB So)
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (NNP Arya))
+        (VP (VBD befriended)
+          (NP
+            (NP (DT another) (NNP Braavosi))
+            (, ,)
+            (NP (NNP Jaqen) (NNP H'Ghar))))))
+    (, ,)
+    (NP (JJ many))
+    (VP (VBD assumed)
+      (SBAR
+        (S
+          (NP (DT the) (JJ Faceless) (NN Man))
+          (VP (VBD was)
+            (NP
+              (NP (DT the) (NNP First) (NNP Sword))
+              (PP (IN of)
+                (NP
+                  (NP (NNP Braavos))
+                  (PP (IN in)
+                    (NP (VB disguise))))))))))
+    (. .)))
+
+root(ROOT-0, assumed-12)
+advmod(assumed-12, So-1)
+advmod(befriended-4, when-2)
+nsubj(befriended-4, Arya-3)
+advcl(assumed-12, befriended-4)
+det(Braavosi-6, another-5)
+dobj(befriended-4, Braavosi-6)
+punct(Braavosi-6, ,-7)
+compound(H'Ghar-9, Jaqen-8)
+appos(Braavosi-6, H'Ghar-9)
+punct(assumed-12, ,-10)
+nsubj(assumed-12, many-11)
+det(Man-15, the-13)
+amod(Man-15, Faceless-14)
+nsubj(Sword-19, Man-15)
+cop(Sword-19, was-16)
+det(Sword-19, the-17)
+compound(Sword-19, First-18)
+ccomp(assumed-12, Sword-19)
+case(Braavos-21, of-20)
+nmod:of(Sword-19, Braavos-21)
+case(disguise-23, in-22)
+nmod:in(Braavos-21, disguise-23)
+punct(assumed-12, .-24)
+
+Sentence #4 (34 tokens):
 But ... sadly, actress Maisie Williams, who plays Arya, seemingly crushed this theory when she said showrunners David Benioff and D.B. Weiss insisted to her that Syrio really is dead.
-[Text=But CharacterOffsetBegin=352 CharacterOffsetEnd=355 PartOfSpeech=CC]
-[Text=... CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=:]
-[Text=sadly CharacterOffsetBegin=360 CharacterOffsetEnd=365 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=,]
-[Text=actress CharacterOffsetBegin=367 CharacterOffsetEnd=374 PartOfSpeech=NN]
-[Text=Maisie CharacterOffsetBegin=375 CharacterOffsetEnd=381 PartOfSpeech=NNP]
-[Text=Williams CharacterOffsetBegin=382 CharacterOffsetEnd=390 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=390 CharacterOffsetEnd=391 PartOfSpeech=,]
-[Text=who CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=WP]
-[Text=plays CharacterOffsetBegin=396 CharacterOffsetEnd=401 PartOfSpeech=VBZ]
-[Text=Arya CharacterOffsetBegin=402 CharacterOffsetEnd=406 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=,]
-[Text=seemingly CharacterOffsetBegin=408 CharacterOffsetEnd=417 PartOfSpeech=RB]
-[Text=crushed CharacterOffsetBegin=418 CharacterOffsetEnd=425 PartOfSpeech=VBN]
-[Text=this CharacterOffsetBegin=426 CharacterOffsetEnd=430 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=431 CharacterOffsetEnd=437 PartOfSpeech=NN]
-[Text=when CharacterOffsetBegin=438 CharacterOffsetEnd=442 PartOfSpeech=WRB]
-[Text=she CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=PRP]
-[Text=said CharacterOffsetBegin=447 CharacterOffsetEnd=451 PartOfSpeech=VBD]
-[Text=showrunners CharacterOffsetBegin=452 CharacterOffsetEnd=463 PartOfSpeech=NNS]
-[Text=David CharacterOffsetBegin=464 CharacterOffsetEnd=469 PartOfSpeech=NNP]
-[Text=Benioff CharacterOffsetBegin=470 CharacterOffsetEnd=477 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=CC]
-[Text=D.B. CharacterOffsetBegin=482 CharacterOffsetEnd=486 PartOfSpeech=NNP]
-[Text=Weiss CharacterOffsetBegin=487 CharacterOffsetEnd=492 PartOfSpeech=NNP]
-[Text=insisted CharacterOffsetBegin=493 CharacterOffsetEnd=501 PartOfSpeech=VBD]
-[Text=to CharacterOffsetBegin=502 CharacterOffsetEnd=504 PartOfSpeech=TO]
-[Text=her CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=PRP$]
-[Text=that CharacterOffsetBegin=509 CharacterOffsetEnd=513 PartOfSpeech=WDT]
-[Text=Syrio CharacterOffsetBegin=514 CharacterOffsetEnd=519 PartOfSpeech=NNP]
-[Text=really CharacterOffsetBegin=520 CharacterOffsetEnd=526 PartOfSpeech=RB]
-[Text=is CharacterOffsetBegin=527 CharacterOffsetEnd=529 PartOfSpeech=VBZ]
-[Text=dead CharacterOffsetBegin=530 CharacterOffsetEnd=534 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=534 CharacterOffsetEnd=535 PartOfSpeech=.]
+[Text=But CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=357 CharacterOffsetEnd=360 PartOfSpeech=: Lemma=... NamedEntityTag=O]
+[Text=sadly CharacterOffsetBegin=361 CharacterOffsetEnd=366 PartOfSpeech=RB Lemma=sadly NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=366 CharacterOffsetEnd=367 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=actress CharacterOffsetBegin=368 CharacterOffsetEnd=375 PartOfSpeech=NN Lemma=actress NamedEntityTag=O]
+[Text=Maisie CharacterOffsetBegin=376 CharacterOffsetEnd=382 PartOfSpeech=NNP Lemma=Maisie NamedEntityTag=PERSON]
+[Text=Williams CharacterOffsetBegin=383 CharacterOffsetEnd=391 PartOfSpeech=NNP Lemma=Williams NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=391 CharacterOffsetEnd=392 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=393 CharacterOffsetEnd=396 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=plays CharacterOffsetBegin=397 CharacterOffsetEnd=402 PartOfSpeech=VBZ Lemma=play NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=403 CharacterOffsetEnd=407 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=seemingly CharacterOffsetBegin=409 CharacterOffsetEnd=418 PartOfSpeech=RB Lemma=seemingly NamedEntityTag=O]
+[Text=crushed CharacterOffsetBegin=419 CharacterOffsetEnd=426 PartOfSpeech=VBN Lemma=crush NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=427 CharacterOffsetEnd=431 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=432 CharacterOffsetEnd=438 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=439 CharacterOffsetEnd=443 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=said CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=VBD Lemma=say NamedEntityTag=O]
+[Text=showrunners CharacterOffsetBegin=453 CharacterOffsetEnd=464 PartOfSpeech=NNS Lemma=showrunner NamedEntityTag=O]
+[Text=David CharacterOffsetBegin=465 CharacterOffsetEnd=470 PartOfSpeech=NNP Lemma=David NamedEntityTag=PERSON]
+[Text=Benioff CharacterOffsetBegin=471 CharacterOffsetEnd=478 PartOfSpeech=NNP Lemma=Benioff NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=479 CharacterOffsetEnd=482 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=D.B. CharacterOffsetBegin=483 CharacterOffsetEnd=487 PartOfSpeech=NNP Lemma=D.B. NamedEntityTag=PERSON]
+[Text=Weiss CharacterOffsetBegin=488 CharacterOffsetEnd=493 PartOfSpeech=NNP Lemma=Weiss NamedEntityTag=PERSON]
+[Text=insisted CharacterOffsetBegin=494 CharacterOffsetEnd=502 PartOfSpeech=VBD Lemma=insist NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=503 CharacterOffsetEnd=505 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=506 CharacterOffsetEnd=509 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=510 CharacterOffsetEnd=514 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=Syrio CharacterOffsetBegin=515 CharacterOffsetEnd=520 PartOfSpeech=NNP Lemma=Syrio NamedEntityTag=O]
+[Text=really CharacterOffsetBegin=521 CharacterOffsetEnd=527 PartOfSpeech=RB Lemma=really NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=528 CharacterOffsetEnd=530 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=dead CharacterOffsetBegin=531 CharacterOffsetEnd=535 PartOfSpeech=JJ Lemma=dead NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=535 CharacterOffsetEnd=536 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (CC But))
+    (: ...)
+    (NP (RB sadly))
+    (VP
+      (VP
+        (PRN (, ,)
+          (S
+            (NP (NN actress) (NNP Maisie) (NNP Williams))
+            (, ,)
+            (NP (WP who))
+            (VP (VBZ plays)
+              (NP
+                (NP (NNP Arya))
+                (, ,)
+                (RRC
+                  (ADVP (RB seemingly))
+                  (VP (VBN crushed)
+                    (S
+                      (NP (DT this) (NN theory)))
+                    (SBAR
+                      (WHADVP (WRB when))
+                      (S
+                        (NP (PRP she))))))))))
+        (VBD said)
+        (NP
+          (NP (NNS showrunners))
+          (NP (NNP David) (NNP Benioff))))
+      (PRN (CC and)
+        (S
+          (NP (NNP D.B.) (NNP Weiss))
+          (VP (VBD insisted)
+            (PP (TO to)
+              (NP (PRP$ her))))))
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (NP (NNP Syrio))
+          (ADVP (RB really))
+          (VP (VBZ is)
+            (ADJP (JJ dead))))))
+    (. .)))
+
+root(ROOT-0, said-19)
+advmod(said-19, But-1)
+punct(said-19, ...-2)
+nsubj(said-19, sadly-3)
+punct(plays-10, ,-4)
+compound(Williams-7, actress-5)
+compound(Williams-7, Maisie-6)
+nsubj(plays-10, Williams-7)
+punct(plays-10, ,-8)
+nsubj(plays-10, who-9)
+parataxis(said-19, plays-10)
+dobj(plays-10, Arya-11)
+punct(Arya-11, ,-12)
+advmod(crushed-14, seemingly-13)
+acl:relcl(Arya-11, crushed-14)
+det(theory-16, this-15)
+xcomp(crushed-14, theory-16)
+advmod(she-18, when-17)
+advcl(crushed-14, she-18)
+dobj(said-19, showrunners-20)
+compound(Benioff-22, David-21)
+dep(showrunners-20, Benioff-22)
+cc(insisted-26, and-23)
+compound(Weiss-25, D.B.-24)
+nsubj(insisted-26, Weiss-25)
+parataxis(said-19, insisted-26)
+case(her-28, to-27)
+nmod:to(insisted-26, her-28)
+dobj(dead-33, that-29)
+nsubj(dead-33, Syrio-30)
+advmod(dead-33, really-31)
+cop(dead-33, is-32)
+ccomp(said-19, dead-33)
+punct(said-19, .-34)
+
+Coreference set:
+	(1,5,[4,6]) -> (2,14,[13,15]), that is: "Syrio Forel" -> "Syrio Forel"
+	(2,17,[17,18]) -> (2,14,[13,15]), that is: "her" -> "Syrio Forel"
+Coreference set:
+	(3,18,[18,19]) -> (2,3,[3,4]), that is: "First" -> "first"
+Coreference set:
+	(3,3,[3,4]) -> (2,6,[6,8]), that is: "Arya" -> "Arya 's"
+	(4,11,[11,19]) -> (2,6,[6,8]), that is: "Arya , seemingly crushed this theory when she" -> "Arya 's"
+	(4,11,[11,12]) -> (2,6,[6,8]), that is: "Arya" -> "Arya 's"
+Coreference set:
+	(2,38,[38,39]) -> (2,10,[6,15]), that is: "his" -> "Arya 's `` dancing instructor , '' Syrio Forel"
+Coreference set:
+	(4,18,[18,19]) -> (4,7,[6,8]), that is: "she" -> "Maisie Williams"
+	(4,28,[28,29]) -> (4,7,[6,8]), that is: "her" -> "Maisie Williams"
+Coreference set:
+	(4,9,[9,10]) -> (4,3,[3,4]), that is: "who" -> "sadly"

@@ -1,43 +1,135 @@
-Sentence #1 (41 tokens):
-The final episode of the season will contain the Wedding of Ice and Fire -- no crazy Red/Purple Wedding shenanigans, but we will see the Wall falling after the marriage is consummated to assure the audience that happiness is fleeting
-[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
-[Text=final CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=JJ]
-[Text=episode CharacterOffsetBegin=10 CharacterOffsetEnd=17 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=DT]
-[Text=season CharacterOffsetBegin=25 CharacterOffsetEnd=31 PartOfSpeech=NN]
-[Text=will CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=MD]
-[Text=contain CharacterOffsetBegin=37 CharacterOffsetEnd=44 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=DT]
-[Text=Wedding CharacterOffsetBegin=49 CharacterOffsetEnd=56 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=IN]
-[Text=Ice CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=CC]
-[Text=Fire CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=NN]
-[Text=-- CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=:]
-[Text=no CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=DT]
-[Text=crazy CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=JJ]
-[Text=Red/Purple CharacterOffsetBegin=85 CharacterOffsetEnd=95 PartOfSpeech=NNP]
-[Text=Wedding CharacterOffsetBegin=96 CharacterOffsetEnd=103 PartOfSpeech=NN]
-[Text=shenanigans CharacterOffsetBegin=104 CharacterOffsetEnd=115 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=CC]
-[Text=we CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=PRP]
-[Text=will CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=MD]
-[Text=see CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=DT]
-[Text=Wall CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=NNP]
-[Text=falling CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=VBG]
-[Text=after CharacterOffsetBegin=150 CharacterOffsetEnd=155 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=DT]
-[Text=marriage CharacterOffsetBegin=160 CharacterOffsetEnd=168 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=169 CharacterOffsetEnd=171 PartOfSpeech=VBZ]
-[Text=consummated CharacterOffsetBegin=172 CharacterOffsetEnd=183 PartOfSpeech=VBN]
-[Text=to CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=TO]
-[Text=assure CharacterOffsetBegin=187 CharacterOffsetEnd=193 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=DT]
-[Text=audience CharacterOffsetBegin=198 CharacterOffsetEnd=206 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=WDT]
-[Text=happiness CharacterOffsetBegin=212 CharacterOffsetEnd=221 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=VBZ]
-[Text=fleeting CharacterOffsetBegin=225 CharacterOffsetEnd=233 PartOfSpeech=JJ]
+Sentence #1 (42 tokens):
+The final episode of the season will contain the Wedding of Ice and Fire -- no crazy Red/Purple Wedding shenanigans, but we will see the Wall falling after the marriage is consummated to assure the audience that happiness is fleeting.
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=final CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=JJ Lemma=final NamedEntityTag=O]
+[Text=episode CharacterOffsetBegin=10 CharacterOffsetEnd=17 PartOfSpeech=NN Lemma=episode NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=25 CharacterOffsetEnd=31 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=contain CharacterOffsetBegin=37 CharacterOffsetEnd=44 PartOfSpeech=VB Lemma=contain NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Wedding CharacterOffsetBegin=49 CharacterOffsetEnd=56 PartOfSpeech=NN Lemma=wedding NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Ice CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=NN Lemma=ice NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Fire CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=NN Lemma=fire NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=DT Lemma=no NamedEntityTag=O]
+[Text=crazy CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=JJ Lemma=crazy NamedEntityTag=O]
+[Text=Red/Purple CharacterOffsetBegin=85 CharacterOffsetEnd=95 PartOfSpeech=NNP Lemma=Red/Purple NamedEntityTag=MISC]
+[Text=Wedding CharacterOffsetBegin=96 CharacterOffsetEnd=103 PartOfSpeech=NN Lemma=wedding NamedEntityTag=MISC]
+[Text=shenanigans CharacterOffsetBegin=104 CharacterOffsetEnd=115 PartOfSpeech=NNS Lemma=shenanigan NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=124 CharacterOffsetEnd=128 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Wall CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=NNP Lemma=Wall NamedEntityTag=O]
+[Text=falling CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=VBG Lemma=fall NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=150 CharacterOffsetEnd=155 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=marriage CharacterOffsetBegin=160 CharacterOffsetEnd=168 PartOfSpeech=NN Lemma=marriage NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=169 CharacterOffsetEnd=171 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=consummated CharacterOffsetBegin=172 CharacterOffsetEnd=183 PartOfSpeech=VBN Lemma=consummate NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=184 CharacterOffsetEnd=186 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=assure CharacterOffsetBegin=187 CharacterOffsetEnd=193 PartOfSpeech=VB Lemma=assure NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=audience CharacterOffsetBegin=198 CharacterOffsetEnd=206 PartOfSpeech=NN Lemma=audience NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=happiness CharacterOffsetBegin=212 CharacterOffsetEnd=221 PartOfSpeech=NN Lemma=happiness NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=fleeting CharacterOffsetBegin=225 CharacterOffsetEnd=233 PartOfSpeech=JJ Lemma=fleeting NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (JJ final) (NN episode))
+        (PP (IN of)
+          (NP (DT the) (NN season))))
+      (VP (MD will)
+        (VP (VB contain)
+          (NP
+            (NP
+              (NP (DT the) (NN Wedding))
+              (PP (IN of)
+                (NP (NN Ice)
+                  (CC and)
+                  (NN Fire))))
+            (: --)
+            (NP (DT no) (JJ crazy) (NNP Red/Purple) (NN Wedding) (NNS shenanigans))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP we))
+      (VP (MD will)
+        (VP (VB see)
+          (S
+            (NP (DT the) (NNP Wall))
+            (VP (VBG falling)
+              (SBAR (IN after)
+                (S
+                  (NP (DT the) (NN marriage))
+                  (VP (VBZ is)
+                    (VP (VBN consummated)
+                      (S
+                        (VP (TO to)
+                          (VP (VB assure)
+                            (NP
+                              (NP (DT the) (NN audience))
+                              (SBAR
+                                (WHNP (WDT that))
+                                (S
+                                  (NP (NN happiness))
+                                  (VP (VBZ is)
+                                    (ADJP (JJ fleeting))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, contain-8)
+det(episode-3, The-1)
+amod(episode-3, final-2)
+nsubj(contain-8, episode-3)
+case(season-6, of-4)
+det(season-6, the-5)
+nmod:of(episode-3, season-6)
+aux(contain-8, will-7)
+det(Wedding-10, the-9)
+dobj(contain-8, Wedding-10)
+case(Ice-12, of-11)
+nmod:of(Wedding-10, Ice-12)
+cc(Ice-12, and-13)
+nmod:of(Wedding-10, Fire-14)
+conj:and(Ice-12, Fire-14)
+punct(Wedding-10, ---15)
+neg(shenanigans-20, no-16)
+amod(shenanigans-20, crazy-17)
+compound(shenanigans-20, Red/Purple-18)
+compound(shenanigans-20, Wedding-19)
+dep(Wedding-10, shenanigans-20)
+punct(contain-8, ,-21)
+cc(contain-8, but-22)
+nsubj(see-25, we-23)
+aux(see-25, will-24)
+conj:but(contain-8, see-25)
+det(Wall-27, the-26)
+nsubj(falling-28, Wall-27)
+dep(see-25, falling-28)
+mark(consummated-33, after-29)
+det(marriage-31, the-30)
+nsubjpass(consummated-33, marriage-31)
+nsubj:xsubj(assure-35, marriage-31)
+auxpass(consummated-33, is-32)
+advcl:after(falling-28, consummated-33)
+mark(assure-35, to-34)
+xcomp(consummated-33, assure-35)
+det(audience-37, the-36)
+dobj(assure-35, audience-37)
+dobj(fleeting-41, audience-37)
+ref(audience-37, that-38)
+nsubj(fleeting-41, happiness-39)
+cop(fleeting-41, is-40)
+acl:relcl(audience-37, fleeting-41)
+punct(contain-8, .-42)
+

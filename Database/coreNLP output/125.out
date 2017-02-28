@@ -1,76 +1,234 @@
-Sentence #1 (24 tokens):
-Defying The God Of Death
+Sentence #1 (6 tokens):
+Defying The God Of Death.
+[Text=Defying CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=VBG Lemma=defy NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=God CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=NNP Lemma=God NamedEntityTag=O]
+[Text=Of CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Death CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=NNP Lemma=Death NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=24 CharacterOffsetEnd=25 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (VP (VBG Defying)
+      (S
+        (NP (DT The) (NNP God))
+        (PP (IN Of)
+          (NP (NNP Death)))))
+    (. .)))
 
+root(ROOT-0, Defying-1)
+det(God-3, The-2)
+xcomp(Defying-1, God-3)
+case(Death-5, Of-4)
+dep(God-3, Death-5)
+punct(Defying-1, .-6)
+
+Sentence #2 (19 tokens):
 While Syrio Forel supposedly died at the hands of Ser Meryn Trant, we never see his death.
-[Text=Defying CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=VBG]
-[Text=The CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=DT]
-[Text=God CharacterOffsetBegin=12 CharacterOffsetEnd=15 PartOfSpeech=NNP]
-[Text=Of CharacterOffsetBegin=16 CharacterOffsetEnd=18 PartOfSpeech=IN]
-[Text=Death CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=NNP]
-[Text=While CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=IN]
-[Text=Syrio CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=NNP]
-[Text=Forel CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=NNP]
-[Text=supposedly CharacterOffsetBegin=44 CharacterOffsetEnd=54 PartOfSpeech=RB]
-[Text=died CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=VBD]
-[Text=at CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=DT]
-[Text=hands CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=IN]
-[Text=Ser CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=NNP]
-[Text=Meryn CharacterOffsetBegin=80 CharacterOffsetEnd=85 PartOfSpeech=NNP]
-[Text=Trant CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=,]
-[Text=we CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=PRP]
-[Text=never CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=RB]
-[Text=see CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=VBP]
-[Text=his CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=PRP$]
-[Text=death CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=.]
-Sentence #2 (22 tokens):
-And, as we've learned with the Hound's resurfacing, that means that he could very well be alive.
-[Text=And CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=CC]
-[Text=, CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=,]
-[Text=as CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=IN]
-[Text=we CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=PRP]
-[Text='ve CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=VBP]
-[Text=learned CharacterOffsetBegin=131 CharacterOffsetEnd=138 PartOfSpeech=VBN]
-[Text=with CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=144 CharacterOffsetEnd=147 PartOfSpeech=DT]
-[Text=Hound CharacterOffsetBegin=148 CharacterOffsetEnd=153 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=POS]
-[Text=resurfacing CharacterOffsetBegin=156 CharacterOffsetEnd=167 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=,]
-[Text=that CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=WDT]
-[Text=means CharacterOffsetBegin=174 CharacterOffsetEnd=179 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=PRP]
-[Text=could CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=MD]
-[Text=very CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=RB]
-[Text=well CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=RB]
-[Text=be CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=VB]
-[Text=alive CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=212 CharacterOffsetEnd=213 PartOfSpeech=.]
+[Text=While CharacterOffsetBegin=27 CharacterOffsetEnd=32 PartOfSpeech=IN Lemma=while NamedEntityTag=O]
+[Text=Syrio CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=NNP Lemma=Syrio NamedEntityTag=PERSON]
+[Text=Forel CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=NNP Lemma=Forel NamedEntityTag=PERSON]
+[Text=supposedly CharacterOffsetBegin=45 CharacterOffsetEnd=55 PartOfSpeech=RB Lemma=supposedly NamedEntityTag=O]
+[Text=died CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=VBD Lemma=die NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=hands CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=NNS Lemma=hand NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Ser CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=NNP Lemma=Ser NamedEntityTag=PERSON]
+[Text=Meryn CharacterOffsetBegin=81 CharacterOffsetEnd=86 PartOfSpeech=NNP Lemma=Meryn NamedEntityTag=PERSON]
+[Text=Trant CharacterOffsetBegin=87 CharacterOffsetEnd=92 PartOfSpeech=NNP Lemma=Trant NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=never CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=RB Lemma=never NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=VBP Lemma=see NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=death CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=NN Lemma=death NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR (IN While)
+      (S
+        (NP (NNP Syrio) (NNP Forel))
+        (ADVP (RB supposedly))
+        (VP (VBD died)
+          (PP (IN at)
+            (NP
+              (NP (DT the) (NNS hands))
+              (PP (IN of)
+                (NP (NNP Ser) (NNP Meryn) (NNP Trant))))))))
+    (, ,)
+    (NP (PRP we))
+    (ADVP (RB never))
+    (VP (VBP see)
+      (NP (PRP$ his) (NN death)))
+    (. .)))
+
+root(ROOT-0, see-16)
+mark(died-5, While-1)
+compound(Forel-3, Syrio-2)
+nsubj(died-5, Forel-3)
+advmod(died-5, supposedly-4)
+advcl:while(see-16, died-5)
+case(hands-8, at-6)
+det(hands-8, the-7)
+nmod:at(died-5, hands-8)
+case(Trant-12, of-9)
+compound(Trant-12, Ser-10)
+compound(Trant-12, Meryn-11)
+nmod:of(hands-8, Trant-12)
+punct(see-16, ,-13)
+nsubj(see-16, we-14)
+neg(see-16, never-15)
+nmod:poss(death-18, his-17)
+dobj(see-16, death-18)
+punct(see-16, .-19)
+
 Sentence #3 (22 tokens):
+And, as we've learned with the Hound's resurfacing, that means that he could very well be alive.
+[Text=And CharacterOffsetBegin=118 CharacterOffsetEnd=121 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text='ve CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=learned CharacterOffsetBegin=132 CharacterOffsetEnd=139 PartOfSpeech=VBN Lemma=learn NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Hound CharacterOffsetBegin=149 CharacterOffsetEnd=154 PartOfSpeech=NNP Lemma=Hound NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=resurfacing CharacterOffsetBegin=157 CharacterOffsetEnd=168 PartOfSpeech=NN Lemma=resurfacing NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=168 CharacterOffsetEnd=169 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=means CharacterOffsetBegin=175 CharacterOffsetEnd=180 PartOfSpeech=VBZ Lemma=mean NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=189 CharacterOffsetEnd=194 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=very CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=RB Lemma=very NamedEntityTag=O]
+[Text=well CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=RB Lemma=well NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=alive CharacterOffsetBegin=208 CharacterOffsetEnd=213 PartOfSpeech=JJ Lemma=alive NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC And)
+    (, ,)
+    (SBAR (IN as)
+      (S
+        (NP (PRP we))
+        (VP (VBP 've)
+          (VP (VBN learned)
+            (PP (IN with)
+              (NP
+                (NP (DT the) (NNP Hound) (POS 's))
+                (NN resurfacing)))))))
+    (, ,)
+    (NP (WDT that))
+    (VP (VBZ means)
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (MD could)
+            (ADVP (RB very) (RB well))
+            (VP (VB be)
+              (ADJP (JJ alive)))))))
+    (. .)))
+
+root(ROOT-0, means-14)
+cc(means-14, And-1)
+punct(means-14, ,-2)
+mark(learned-6, as-3)
+nsubj(learned-6, we-4)
+aux(learned-6, 've-5)
+advcl:as(means-14, learned-6)
+case(resurfacing-11, with-7)
+det(Hound-9, the-8)
+nmod:poss(resurfacing-11, Hound-9)
+case(Hound-9, 's-10)
+nmod:with(learned-6, resurfacing-11)
+punct(means-14, ,-12)
+nsubj(means-14, that-13)
+mark(alive-21, that-15)
+nsubj(alive-21, he-16)
+aux(alive-21, could-17)
+advmod(well-19, very-18)
+advmod(alive-21, well-19)
+cop(alive-21, be-20)
+ccomp(means-14, alive-21)
+punct(means-14, .-22)
+
+Sentence #4 (22 tokens):
 This theory uses a close analysis of a photo to put Forel back on the scene, helping Arya once again.
-[Text=This CharacterOffsetBegin=214 CharacterOffsetEnd=218 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=219 CharacterOffsetEnd=225 PartOfSpeech=NN]
-[Text=uses CharacterOffsetBegin=226 CharacterOffsetEnd=230 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=DT]
-[Text=close CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=JJ]
-[Text=analysis CharacterOffsetBegin=239 CharacterOffsetEnd=247 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=248 CharacterOffsetEnd=250 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=DT]
-[Text=photo CharacterOffsetBegin=253 CharacterOffsetEnd=258 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=TO]
-[Text=put CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=VB]
-[Text=Forel CharacterOffsetBegin=266 CharacterOffsetEnd=271 PartOfSpeech=NNP]
-[Text=back CharacterOffsetBegin=272 CharacterOffsetEnd=276 PartOfSpeech=RB]
-[Text=on CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=280 CharacterOffsetEnd=283 PartOfSpeech=DT]
-[Text=scene CharacterOffsetBegin=284 CharacterOffsetEnd=289 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=289 CharacterOffsetEnd=290 PartOfSpeech=,]
-[Text=helping CharacterOffsetBegin=291 CharacterOffsetEnd=298 PartOfSpeech=VBG]
-[Text=Arya CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=NNP]
-[Text=once CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=RB]
-[Text=again CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=.]
+[Text=This CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=220 CharacterOffsetEnd=226 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=uses CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=VBZ Lemma=use NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=close CharacterOffsetBegin=234 CharacterOffsetEnd=239 PartOfSpeech=JJ Lemma=close NamedEntityTag=O]
+[Text=analysis CharacterOffsetBegin=240 CharacterOffsetEnd=248 PartOfSpeech=NN Lemma=analysis NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=photo CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=NN Lemma=photo NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=put CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=VB Lemma=put NamedEntityTag=O]
+[Text=Forel CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=NNP Lemma=Forel NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=scene CharacterOffsetBegin=285 CharacterOffsetEnd=290 PartOfSpeech=NN Lemma=scene NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=helping CharacterOffsetBegin=292 CharacterOffsetEnd=299 PartOfSpeech=VBG Lemma=help NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=once CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=RB Lemma=once NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PAST_REF">once</TIMEX3>]
+[Text=again CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=RB Lemma=again NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This) (NN theory))
+    (VP (VBZ uses)
+      (NP
+        (NP (DT a) (JJ close) (NN analysis))
+        (PP (IN of)
+          (NP (DT a) (NN photo)
+            (S
+              (VP (TO to)
+                (VP (VB put)
+                  (NP (NNP Forel))
+                  (ADVP (RB back))
+                  (PP (IN on)
+                    (NP (DT the) (NN scene)))
+                  (, ,)
+                  (S
+                    (VP (VBG helping)
+                      (NP (NNP Arya))
+                      (ADVP (RB once) (RB again)))))))))))
+    (. .)))
+
+root(ROOT-0, uses-3)
+det(theory-2, This-1)
+nsubj(uses-3, theory-2)
+det(analysis-6, a-4)
+amod(analysis-6, close-5)
+dobj(uses-3, analysis-6)
+case(photo-9, of-7)
+det(photo-9, a-8)
+nmod:of(analysis-6, photo-9)
+mark(put-11, to-10)
+acl:to(photo-9, put-11)
+dobj(put-11, Forel-12)
+advmod(put-11, back-13)
+case(scene-16, on-14)
+det(scene-16, the-15)
+nmod:on(put-11, scene-16)
+punct(put-11, ,-17)
+advcl(put-11, helping-18)
+dobj(helping-18, Arya-19)
+advmod(again-21, once-20)
+advmod(helping-18, again-21)
+punct(uses-3, .-22)
+
+Coreference set:
+	(2,18,[17,19]) -> (1,5,[5,6]), that is: "his death" -> "Death"
+Coreference set:
+	(2,17,[17,18]) -> (2,3,[2,4]), that is: "his" -> "Syrio Forel"
+	(3,16,[16,17]) -> (2,3,[2,4]), that is: "he" -> "Syrio Forel"
+	(4,12,[12,13]) -> (2,3,[2,4]), that is: "Forel" -> "Syrio Forel"
+Coreference set:
+	(3,4,[4,5]) -> (2,14,[14,15]), that is: "we" -> "we"
+Coreference set:
+	(3,13,[13,14]) -> (3,11,[8,12]), that is: "that" -> "the Hound 's resurfacing"

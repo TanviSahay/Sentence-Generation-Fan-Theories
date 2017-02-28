@@ -1,97 +1,295 @@
 Sentence #1 (20 tokens):
 Bran travels to the past and is Bran the Builder, who built the Wall and founded House Stark.
-[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=travels CharacterOffsetBegin=5 CharacterOffsetEnd=12 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=DT]
-[Text=past CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=CC]
-[Text=is CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=VBZ]
-[Text=Bran CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=NNP]
-[Text=the CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=DT]
-[Text=Builder CharacterOffsetBegin=41 CharacterOffsetEnd=48 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=,]
-[Text=who CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=WP]
-[Text=built CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=DT]
-[Text=Wall CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=CC]
-[Text=founded CharacterOffsetBegin=73 CharacterOffsetEnd=80 PartOfSpeech=VBN]
-[Text=House CharacterOffsetBegin=81 CharacterOffsetEnd=86 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=87 CharacterOffsetEnd=92 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=.]
+[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=travels CharacterOffsetBegin=5 CharacterOffsetEnd=12 PartOfSpeech=VBZ Lemma=travel NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PAST_REF">the past</TIMEX3>]
+[Text=past CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=NN Lemma=past NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PAST_REF">the past</TIMEX3>]
+[Text=and CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=MISC]
+[Text=the CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=DT Lemma=the NamedEntityTag=MISC]
+[Text=Builder CharacterOffsetBegin=41 CharacterOffsetEnd=48 PartOfSpeech=NNP Lemma=Builder NamedEntityTag=MISC]
+[Text=, CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=built CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=VBD Lemma=build NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Wall CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=NNP Lemma=Wall NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=founded CharacterOffsetBegin=73 CharacterOffsetEnd=80 PartOfSpeech=VBN Lemma=found NamedEntityTag=O]
+[Text=House CharacterOffsetBegin=81 CharacterOffsetEnd=86 PartOfSpeech=NNP Lemma=House NamedEntityTag=ORGANIZATION]
+[Text=Stark CharacterOffsetBegin=87 CharacterOffsetEnd=92 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=92 CharacterOffsetEnd=93 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Bran))
+    (VP
+      (VP (VBZ travels)
+        (PP (TO to)
+          (NP (DT the) (NN past))))
+      (CC and)
+      (VP (VBZ is)
+        (NP
+          (NP (NNP Bran) (DT the) (NNP Builder))
+          (, ,)
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP
+                (VP (VBD built)
+                  (NP (DT the) (NNP Wall)))
+                (CC and)
+                (VP (VBN founded)
+                  (NP (NNP House) (NNP Stark)))))))))
+    (. .)))
+
+root(ROOT-0, travels-2)
+nsubj(travels-2, Bran-1)
+case(past-5, to-3)
+det(past-5, the-4)
+nmod:to(travels-2, past-5)
+cc(travels-2, and-6)
+cop(Builder-10, is-7)
+compound(Builder-10, Bran-8)
+det(Builder-10, the-9)
+conj:and(travels-2, Builder-10)
+nsubj(built-13, Builder-10)
+nsubj(founded-17, Builder-10)
+punct(Builder-10, ,-11)
+ref(Builder-10, who-12)
+acl:relcl(Builder-10, built-13)
+det(Wall-15, the-14)
+dobj(built-13, Wall-15)
+cc(built-13, and-16)
+acl:relcl(Builder-10, founded-17)
+conj:and(built-13, founded-17)
+compound(Stark-19, House-18)
+dobj(founded-17, Stark-19)
+punct(travels-2, .-20)
+
 Sentence #2 (55 tokens):
 Bran the Builder is a legendary figure who led the effort to put up the Wall 8,000 years before the events of the show, after the Long Night in which the White Walkers invaded the first time.The particulars of how this would work are not known, but this is a good one.
-[Text=Bran CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=NNP]
-[Text=the CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=DT]
-[Text=Builder CharacterOffsetBegin=104 CharacterOffsetEnd=111 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=DT]
-[Text=legendary CharacterOffsetBegin=117 CharacterOffsetEnd=126 PartOfSpeech=JJ]
-[Text=figure CharacterOffsetBegin=127 CharacterOffsetEnd=133 PartOfSpeech=NN]
-[Text=who CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=WP]
-[Text=led CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=DT]
-[Text=effort CharacterOffsetBegin=146 CharacterOffsetEnd=152 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=TO]
-[Text=put CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=VB]
-[Text=up CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=RP]
-[Text=the CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=DT]
-[Text=Wall CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=NNP]
-[Text=8,000 CharacterOffsetBegin=172 CharacterOffsetEnd=177 PartOfSpeech=CD]
-[Text=years CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=NNS]
-[Text=before CharacterOffsetBegin=184 CharacterOffsetEnd=190 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=DT]
-[Text=events CharacterOffsetBegin=195 CharacterOffsetEnd=201 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=DT]
-[Text=show CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=,]
-[Text=after CharacterOffsetBegin=215 CharacterOffsetEnd=220 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=DT]
-[Text=Long CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=JJ]
-[Text=Night CharacterOffsetBegin=230 CharacterOffsetEnd=235 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=236 CharacterOffsetEnd=238 PartOfSpeech=IN]
-[Text=which CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=WDT]
-[Text=the CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=DT]
-[Text=White CharacterOffsetBegin=249 CharacterOffsetEnd=254 PartOfSpeech=NNP]
-[Text=Walkers CharacterOffsetBegin=255 CharacterOffsetEnd=262 PartOfSpeech=NNPS]
-[Text=invaded CharacterOffsetBegin=263 CharacterOffsetEnd=270 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=271 CharacterOffsetEnd=274 PartOfSpeech=DT]
-[Text=first CharacterOffsetBegin=275 CharacterOffsetEnd=280 PartOfSpeech=JJ]
-[Text=time.The CharacterOffsetBegin=281 CharacterOffsetEnd=289 PartOfSpeech=NN]
-[Text=particulars CharacterOffsetBegin=290 CharacterOffsetEnd=301 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=302 CharacterOffsetEnd=304 PartOfSpeech=IN]
-[Text=how CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=WRB]
-[Text=this CharacterOffsetBegin=309 CharacterOffsetEnd=313 PartOfSpeech=DT]
-[Text=would CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=MD]
-[Text=work CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=VB]
-[Text=are CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=VBP]
-[Text=not CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=RB]
-[Text=known CharacterOffsetBegin=333 CharacterOffsetEnd=338 PartOfSpeech=VBN]
-[Text=, CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=CC]
-[Text=this CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=DT]
-[Text=is CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=DT]
-[Text=good CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=JJ]
-[Text=one CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=CD]
-[Text=. CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=.]
+[Text=Bran CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Builder CharacterOffsetBegin=104 CharacterOffsetEnd=111 PartOfSpeech=NNP Lemma=Builder NamedEntityTag=MISC]
+[Text=is CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=legendary CharacterOffsetBegin=117 CharacterOffsetEnd=126 PartOfSpeech=JJ Lemma=legendary NamedEntityTag=O]
+[Text=figure CharacterOffsetBegin=127 CharacterOffsetEnd=133 PartOfSpeech=NN Lemma=figure NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=led CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=VBD Lemma=lead NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=effort CharacterOffsetBegin=146 CharacterOffsetEnd=152 PartOfSpeech=NN Lemma=effort NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=put CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=VB Lemma=put NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Wall CharacterOffsetBegin=167 CharacterOffsetEnd=171 PartOfSpeech=NNP Lemma=Wall NamedEntityTag=O]
+[Text=8,000 CharacterOffsetBegin=172 CharacterOffsetEnd=177 PartOfSpeech=CD Lemma=8,000 NamedEntityTag=DURATION NormalizedNamedEntityTag=P8000Y Timex=<TIMEX3 tid="t2" type="DURATION" value="P8000Y">8,000 years</TIMEX3>]
+[Text=years CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=P8000Y Timex=<TIMEX3 tid="t2" type="DURATION" value="P8000Y">8,000 years</TIMEX3>]
+[Text=before CharacterOffsetBegin=184 CharacterOffsetEnd=190 PartOfSpeech=IN Lemma=before NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=events CharacterOffsetBegin=195 CharacterOffsetEnd=201 PartOfSpeech=NNS Lemma=event NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=show CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=NN Lemma=show NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=215 CharacterOffsetEnd=220 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Long CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=JJ Lemma=long NamedEntityTag=O]
+[Text=Night CharacterOffsetBegin=230 CharacterOffsetEnd=235 PartOfSpeech=NN Lemma=night NamedEntityTag=TIME NormalizedNamedEntityTag=TNI Timex=<TIMEX3 tid="t3" type="TIME" value="TNI">Night</TIMEX3>]
+[Text=in CharacterOffsetBegin=236 CharacterOffsetEnd=238 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=239 CharacterOffsetEnd=244 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=White CharacterOffsetBegin=249 CharacterOffsetEnd=254 PartOfSpeech=NNP Lemma=White NamedEntityTag=O]
+[Text=Walkers CharacterOffsetBegin=255 CharacterOffsetEnd=262 PartOfSpeech=NNPS Lemma=Walkers NamedEntityTag=O]
+[Text=invaded CharacterOffsetBegin=263 CharacterOffsetEnd=270 PartOfSpeech=VBD Lemma=invade NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=271 CharacterOffsetEnd=274 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=first CharacterOffsetBegin=275 CharacterOffsetEnd=280 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0]
+[Text=time.The CharacterOffsetBegin=281 CharacterOffsetEnd=289 PartOfSpeech=NN Lemma=time.the NamedEntityTag=O]
+[Text=particulars CharacterOffsetBegin=290 CharacterOffsetEnd=301 PartOfSpeech=NNS Lemma=particulars NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=302 CharacterOffsetEnd=304 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=how CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=WRB Lemma=how NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=309 CharacterOffsetEnd=313 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=work CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=VB Lemma=work NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=known CharacterOffsetBegin=333 CharacterOffsetEnd=338 PartOfSpeech=VBN Lemma=know NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=good CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=JJ Lemma=good NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=. CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Bran) (DT the) (NNP Builder))
+      (VP (VBZ is)
+        (NP
+          (NP (DT a) (JJ legendary) (NN figure))
+          (SBAR
+            (WHNP (WP who))
+            (S
+              (VP (VBD led)
+                (NP (DT the) (NN effort))
+                (S
+                  (VP (TO to)
+                    (VP (VB put)
+                      (PRT (RP up))
+                      (NP (DT the) (NNP Wall) (CD 8,000) (NNS years))
+                      (PP (IN before)
+                        (NP
+                          (NP (DT the) (NNS events))
+                          (PP (IN of)
+                            (NP (DT the) (NN show))))))))
+                (, ,)
+                (SBAR (IN after)
+                  (S
+                    (NP
+                      (NP (DT the) (JJ Long) (NN Night))
+                      (SBAR
+                        (WHPP (IN in)
+                          (WHNP (WDT which)))
+                        (S
+                          (NP (DT the) (NNP White) (NNPS Walkers))
+                          (VP (VBD invaded)
+                            (NP
+                              (NP (DT the) (JJ first) (NN time.The) (NNS particulars))
+                              (PP (IN of)
+                                (SBAR
+                                  (WHADVP (WRB how))
+                                  (S
+                                    (NP (DT this))
+                                    (VP (MD would)
+                                      (VP (VB work)))))))))))
+                    (VP (VBP are) (RB not)
+                      (VP (VBN known)))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT this))
+      (VP (VBZ is)
+        (NP (DT a) (JJ good) (CD one))))
+    (. .)))
+
+root(ROOT-0, figure-7)
+compound(Builder-3, Bran-1)
+det(Builder-3, the-2)
+nsubj(figure-7, Builder-3)
+cop(figure-7, is-4)
+det(figure-7, a-5)
+amod(figure-7, legendary-6)
+nsubj(led-9, figure-7)
+ref(figure-7, who-8)
+acl:relcl(figure-7, led-9)
+det(effort-11, the-10)
+dobj(led-9, effort-11)
+mark(put-13, to-12)
+advcl:to(led-9, put-13)
+compound:prt(put-13, up-14)
+det(years-18, the-15)
+compound(years-18, Wall-16)
+nummod(years-18, 8,000-17)
+nmod:tmod(put-13, years-18)
+case(events-21, before-19)
+det(events-21, the-20)
+nmod:before(put-13, events-21)
+case(show-24, of-22)
+det(show-24, the-23)
+nmod:of(events-21, show-24)
+punct(led-9, ,-25)
+mark(known-47, after-26)
+det(Night-29, the-27)
+amod(Night-29, Long-28)
+nmod:in(invaded-35, Night-29)
+nsubjpass(known-47, Night-29)
+case(which-31, in-30)
+ref(Night-29, which-31)
+det(Walkers-34, the-32)
+compound(Walkers-34, White-33)
+nsubj(invaded-35, Walkers-34)
+acl:relcl(Night-29, invaded-35)
+det(particulars-39, the-36)
+amod(particulars-39, first-37)
+compound(particulars-39, time.The-38)
+dobj(invaded-35, particulars-39)
+mark(work-44, of-40)
+advmod(work-44, how-41)
+nsubj(work-44, this-42)
+aux(work-44, would-43)
+acl:of(particulars-39, work-44)
+auxpass(known-47, are-45)
+neg(known-47, not-46)
+advcl:after(led-9, known-47)
+punct(figure-7, ,-48)
+cc(figure-7, but-49)
+nsubj(one-54, this-50)
+cop(one-54, is-51)
+det(one-54, a-52)
+amod(one-54, good-53)
+conj:but(figure-7, one-54)
+nsubj(led-9, one-54)
+punct(figure-7, .-55)
+
 Sentence #3 (16 tokens):
 Especially since Bran the Builder is who the present day Bran Stark was named after.
-[Text=Especially CharacterOffsetBegin=364 CharacterOffsetEnd=374 PartOfSpeech=RB]
-[Text=since CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=IN]
-[Text=Bran CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=NNP]
-[Text=the CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=DT]
-[Text=Builder CharacterOffsetBegin=390 CharacterOffsetEnd=397 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=VBZ]
-[Text=who CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=WP]
-[Text=the CharacterOffsetBegin=405 CharacterOffsetEnd=408 PartOfSpeech=DT]
-[Text=present CharacterOffsetBegin=409 CharacterOffsetEnd=416 PartOfSpeech=JJ]
-[Text=day CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=NN]
-[Text=Bran CharacterOffsetBegin=421 CharacterOffsetEnd=425 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=NNP]
-[Text=was CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=VBD]
-[Text=named CharacterOffsetBegin=436 CharacterOffsetEnd=441 PartOfSpeech=VBN]
-[Text=after CharacterOffsetBegin=442 CharacterOffsetEnd=447 PartOfSpeech=IN]
-[Text=. CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=.]
+[Text=Especially CharacterOffsetBegin=364 CharacterOffsetEnd=374 PartOfSpeech=RB Lemma=especially NamedEntityTag=O]
+[Text=since CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=IN Lemma=since NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=MISC]
+[Text=the CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=DT Lemma=the NamedEntityTag=MISC]
+[Text=Builder CharacterOffsetBegin=390 CharacterOffsetEnd=397 PartOfSpeech=NNP Lemma=Builder NamedEntityTag=MISC]
+[Text=is CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=405 CharacterOffsetEnd=408 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">the present day</TIMEX3>]
+[Text=present CharacterOffsetBegin=409 CharacterOffsetEnd=416 PartOfSpeech=JJ Lemma=present NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">the present day</TIMEX3>]
+[Text=day CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=NN Lemma=day NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t4" type="DATE" valueFromFunction="tf0">the present day</TIMEX3>]
+[Text=Bran CharacterOffsetBegin=421 CharacterOffsetEnd=425 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=Stark CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=named CharacterOffsetBegin=436 CharacterOffsetEnd=441 PartOfSpeech=VBN Lemma=name NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=442 CharacterOffsetEnd=447 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Especially))
+    (PP (IN since)
+      (NP (NNP Bran)))
+    (NP (DT the) (NNP Builder))
+    (VP (VBZ is)
+      (SBAR
+        (WHNP (WP who))
+        (S
+          (NP (DT the) (JJ present) (NN day) (NNP Bran) (NNP Stark))
+          (VP (VBD was)
+            (VP (VBN named)
+              (PP (IN after)))))))
+    (. .)))
+
+root(ROOT-0, is-6)
+advmod(is-6, Especially-1)
+case(Bran-3, since-2)
+nmod:since(is-6, Bran-3)
+det(Builder-5, the-4)
+nsubj(is-6, Builder-5)
+nmod:after(named-14, who-7)
+det(Stark-12, the-8)
+amod(Stark-12, present-9)
+compound(Stark-12, day-10)
+compound(Stark-12, Bran-11)
+nsubjpass(named-14, Stark-12)
+auxpass(named-14, was-13)
+ccomp(is-6, named-14)
+case(who-7, after-15)
+punct(is-6, .-16)
+
+Coreference set:
+	(2,3,[1,4]) -> (1,10,[8,11]), that is: "Bran the Builder" -> "Bran the Builder"
+	(2,7,[5,48]) -> (1,10,[8,11]), that is: "a legendary figure who led the effort to put up the Wall 8,000 years before the events of the show , after the Long Night in which the White Walkers invaded the first time.The particulars of how this would work are not known" -> "Bran the Builder"
+	(3,3,[3,6]) -> (1,10,[8,11]), that is: "Bran the Builder" -> "Bran the Builder"
+Coreference set:
+	(2,42,[42,43]) -> (2,54,[52,55]), that is: "this" -> "a good one"
+	(2,50,[50,51]) -> (2,54,[52,55]), that is: "this" -> "a good one"

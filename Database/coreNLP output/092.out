@@ -1,68 +1,211 @@
-Sentence #1 (19 tokens):
-#CleganeBowl
+Sentence #1 (2 tokens):
+#CleganeBowl.
+[Text=#CleganeBowl CharacterOffsetBegin=0 CharacterOffsetEnd=12 PartOfSpeech=NN Lemma=#cleganebowl NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=12 CharacterOffsetEnd=13 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP (NN #CleganeBowl) (. .)))
 
+root(ROOT-0, #CleganeBowl-1)
+punct(#CleganeBowl-1, .-2)
+
+Sentence #2 (18 tokens):
 The younger Clegane, known as the Hound, really hates his older brother, the Mountain.
-[Text=#CleganeBowl CharacterOffsetBegin=0 CharacterOffsetEnd=12 PartOfSpeech=NN]
-[Text=The CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=DT]
-[Text=younger CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=JJR]
-[Text=Clegane CharacterOffsetBegin=26 CharacterOffsetEnd=33 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=,]
-[Text=known CharacterOffsetBegin=35 CharacterOffsetEnd=40 PartOfSpeech=VBN]
-[Text=as CharacterOffsetBegin=41 CharacterOffsetEnd=43 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=DT]
-[Text=Hound CharacterOffsetBegin=48 CharacterOffsetEnd=53 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=,]
-[Text=really CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=RB]
-[Text=hates CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=VBZ]
-[Text=his CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=PRP$]
-[Text=older CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=JJR]
-[Text=brother CharacterOffsetBegin=78 CharacterOffsetEnd=85 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=87 CharacterOffsetEnd=90 PartOfSpeech=DT]
-[Text=Mountain CharacterOffsetBegin=91 CharacterOffsetEnd=99 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=.]
-Sentence #2 (11 tokens):
+[Text=The CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=younger CharacterOffsetBegin=19 CharacterOffsetEnd=26 PartOfSpeech=JJR Lemma=younger NamedEntityTag=O]
+[Text=Clegane CharacterOffsetBegin=27 CharacterOffsetEnd=34 PartOfSpeech=NN Lemma=clegane NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=known CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=VBN Lemma=know NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Hound CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=NNP Lemma=Hound NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=really CharacterOffsetBegin=56 CharacterOffsetEnd=62 PartOfSpeech=RB Lemma=really NamedEntityTag=O]
+[Text=hates CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=VBZ Lemma=hate NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=older CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=JJR Lemma=older NamedEntityTag=O]
+[Text=brother CharacterOffsetBegin=79 CharacterOffsetEnd=86 PartOfSpeech=NN Lemma=brother NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mountain CharacterOffsetBegin=92 CharacterOffsetEnd=100 PartOfSpeech=NNP Lemma=Mountain NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJR younger) (NN Clegane))
+      (, ,)
+      (VP (VBN known)
+        (PP (IN as)
+          (NP (DT the) (NNP Hound))))
+      (, ,))
+    (ADVP (RB really))
+    (VP (VBZ hates)
+      (NP
+        (NP (PRP$ his) (JJR older) (NN brother))
+        (, ,)
+        (NP (DT the) (NNP Mountain))))
+    (. .)))
+
+root(ROOT-0, hates-11)
+det(Clegane-3, The-1)
+amod(Clegane-3, younger-2)
+nsubj(hates-11, Clegane-3)
+punct(Clegane-3, ,-4)
+acl(Clegane-3, known-5)
+case(Hound-8, as-6)
+det(Hound-8, the-7)
+nmod:as(known-5, Hound-8)
+punct(Clegane-3, ,-9)
+advmod(hates-11, really-10)
+nmod:poss(brother-14, his-12)
+amod(brother-14, older-13)
+dobj(hates-11, brother-14)
+punct(brother-14, ,-15)
+det(Mountain-17, the-16)
+appos(brother-14, Mountain-17)
+punct(hates-11, .-18)
+
+Sentence #3 (11 tokens):
 Both were thought dead, but both are again alive.
-[Text=Both CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=DT]
-[Text=were CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=VBD]
-[Text=thought CharacterOffsetBegin=111 CharacterOffsetEnd=118 PartOfSpeech=VBN]
-[Text=dead CharacterOffsetBegin=119 CharacterOffsetEnd=123 PartOfSpeech=JJ]
-[Text=, CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=CC]
-[Text=both CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=DT]
-[Text=are CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=VBP]
-[Text=again CharacterOffsetBegin=138 CharacterOffsetEnd=143 PartOfSpeech=RB]
-[Text=alive CharacterOffsetBegin=144 CharacterOffsetEnd=149 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=.]
-Sentence #3 (30 tokens):
+[Text=Both CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=DT Lemma=both NamedEntityTag=O]
+[Text=were CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=thought CharacterOffsetBegin=112 CharacterOffsetEnd=119 PartOfSpeech=VBN Lemma=think NamedEntityTag=O]
+[Text=dead CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=JJ Lemma=dead NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=both CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=DT Lemma=both NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=again CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=RB Lemma=again NamedEntityTag=O]
+[Text=alive CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=JJ Lemma=alive NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (DT Both))
+      (VP (VBD were)
+        (VP (VBN thought)
+          (S
+            (ADJP (JJ dead))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT both))
+      (VP (VBP are)
+        (ADVP (RB again))
+        (ADJP (JJ alive))))
+    (. .)))
+
+root(ROOT-0, thought-3)
+nsubjpass(thought-3, Both-1)
+auxpass(thought-3, were-2)
+xcomp(thought-3, dead-4)
+punct(thought-3, ,-5)
+cc(thought-3, but-6)
+nsubj(alive-10, both-7)
+cop(alive-10, are-8)
+advmod(alive-10, again-9)
+conj:but(thought-3, alive-10)
+punct(thought-3, .-11)
+
+Sentence #4 (30 tokens):
 And fans believe that before the story of "Game of Thrones" ends the two will meet and finally have it out in a battle to the death.
-[Text=And CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=CC]
-[Text=fans CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=NNS]
-[Text=believe CharacterOffsetBegin=160 CharacterOffsetEnd=167 PartOfSpeech=VBP]
-[Text=that CharacterOffsetBegin=168 CharacterOffsetEnd=172 PartOfSpeech=IN]
-[Text=before CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=DT]
-[Text=story CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=IN]
-[Text=`` CharacterOffsetBegin=193 CharacterOffsetEnd=194 PartOfSpeech=``]
-[Text=Game CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=NNP]
-[Text=of CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=IN]
-[Text=Thrones CharacterOffsetBegin=202 CharacterOffsetEnd=209 PartOfSpeech=NNPS]
-[Text='' CharacterOffsetBegin=209 CharacterOffsetEnd=210 PartOfSpeech='']
-[Text=ends CharacterOffsetBegin=211 CharacterOffsetEnd=215 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=DT]
-[Text=two CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=CD]
-[Text=will CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=MD]
-[Text=meet CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=VB]
-[Text=and CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=CC]
-[Text=finally CharacterOffsetBegin=238 CharacterOffsetEnd=245 PartOfSpeech=RB]
-[Text=have CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=VBP]
-[Text=it CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=PRP]
-[Text=out CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=RP]
-[Text=in CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=DT]
-[Text=battle CharacterOffsetBegin=263 CharacterOffsetEnd=269 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=DT]
-[Text=death CharacterOffsetBegin=277 CharacterOffsetEnd=282 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=282 CharacterOffsetEnd=283 PartOfSpeech=.]
+[Text=And CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=believe CharacterOffsetBegin=161 CharacterOffsetEnd=168 PartOfSpeech=VBP Lemma=believe NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=before CharacterOffsetBegin=174 CharacterOffsetEnd=180 PartOfSpeech=IN Lemma=before NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=story CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=NN Lemma=story NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=194 CharacterOffsetEnd=195 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Game CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=NNP Lemma=Game NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Thrones CharacterOffsetBegin=203 CharacterOffsetEnd=210 PartOfSpeech=NNPS Lemma=Thrones NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=210 CharacterOffsetEnd=211 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=ends CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=VBZ Lemma=end NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=two CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text=will CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=meet CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=VB Lemma=meet NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=finally CharacterOffsetBegin=239 CharacterOffsetEnd=246 PartOfSpeech=RB Lemma=finally NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=255 CharacterOffsetEnd=258 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=262 CharacterOffsetEnd=263 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=battle CharacterOffsetBegin=264 CharacterOffsetEnd=270 PartOfSpeech=NN Lemma=battle NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=271 CharacterOffsetEnd=273 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=death CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=NN Lemma=death NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC And)
+    (NP (NNS fans))
+    (VP (VBP believe)
+      (SBAR (IN that) (IN before)
+        (S
+          (NP
+            (NP (DT the) (NN story))
+            (PP (IN of) (`` ``)
+              (NP
+                (NP (NNP Game))
+                (PP (IN of)
+                  (NP (NNPS Thrones))))
+              ('' '')))
+          (VP
+            (VP (VBZ ends)
+              (SBAR
+                (S
+                  (NP (DT the) (CD two))
+                  (VP (MD will)
+                    (VP (VB meet))))))
+            (CC and)
+            (VP
+              (ADVP (RB finally))
+              (VBP have)
+              (NP (PRP it))
+              (PP (RP out)
+                (PP (IN in)
+                  (NP
+                    (NP (DT a) (NN battle))
+                    (PP (TO to)
+                      (NP (DT the) (NN death)))))))))))
+    (. .)))
+
+root(ROOT-0, believe-3)
+cc(believe-3, And-1)
+nsubj(believe-3, fans-2)
+mark(ends-14, that-4)
+mark(ends-14, before-5)
+det(story-7, the-6)
+nsubj(ends-14, story-7)
+nsubj(have-21, story-7)
+case(Game-10, of-8)
+punct(Game-10, ``-9)
+nmod:of(story-7, Game-10)
+case(Thrones-12, of-11)
+nmod:of(Game-10, Thrones-12)
+punct(Game-10, ''-13)
+advcl:before(believe-3, ends-14)
+det(two-16, the-15)
+nsubj(meet-18, two-16)
+aux(meet-18, will-17)
+ccomp(ends-14, meet-18)
+cc(ends-14, and-19)
+advmod(have-21, finally-20)
+advcl:before(believe-3, have-21)
+conj:and(ends-14, have-21)
+dobj(have-21, it-22)
+dep(battle-26, out-23)
+case(battle-26, in-24)
+det(battle-26, a-25)
+advcl:in(have-21, battle-26)
+case(death-29, to-27)
+det(death-29, the-28)
+nmod:to(battle-26, death-29)
+punct(believe-3, .-30)
+
+Coreference set:
+	(2,12,[12,13]) -> (2,3,[1,4]), that is: "his" -> "The younger Clegane"
+Coreference set:
+	(4,22,[22,23]) -> (4,7,[6,14]), that is: "it" -> "the story of `` Game of Thrones ''"

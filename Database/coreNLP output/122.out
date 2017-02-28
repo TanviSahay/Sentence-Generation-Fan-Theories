@@ -1,241 +1,746 @@
 Sentence #1 (7 tokens):
 LADY STONEHEART WILL ARRIVE VERY SOON.
-[Text=LADY CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NN]
-[Text=STONEHEART CharacterOffsetBegin=5 CharacterOffsetEnd=15 PartOfSpeech=NNP]
-[Text=WILL CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=MD]
-[Text=ARRIVE CharacterOffsetBegin=21 CharacterOffsetEnd=27 PartOfSpeech=VB]
-[Text=VERY CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=RB]
-[Text=SOON CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=.]
+[Text=LADY CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NN Lemma=lady NamedEntityTag=O]
+[Text=STONEHEART CharacterOffsetBegin=5 CharacterOffsetEnd=15 PartOfSpeech=NNP Lemma=STONEHEART NamedEntityTag=PERSON]
+[Text=WILL CharacterOffsetBegin=16 CharacterOffsetEnd=20 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=ARRIVE CharacterOffsetBegin=21 CharacterOffsetEnd=27 PartOfSpeech=VB Lemma=arrive NamedEntityTag=O]
+[Text=VERY CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=RB Lemma=very NamedEntityTag=O]
+[Text=SOON CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=RB Lemma=soon NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NN LADY) (NNP STONEHEART))
+    (VP (MD WILL)
+      (VP (VB ARRIVE)
+        (ADVP (RB VERY))
+        (ADVP (RB SOON))))
+    (. .)))
+
+root(ROOT-0, ARRIVE-4)
+compound(STONEHEART-2, LADY-1)
+nsubj(ARRIVE-4, STONEHEART-2)
+aux(ARRIVE-4, WILL-3)
+advmod(ARRIVE-4, VERY-5)
+advmod(ARRIVE-4, SOON-6)
+punct(ARRIVE-4, .-7)
+
 Sentence #2 (42 tokens):
 In the books, Catelyn Stark didn't stay dead for too long after the Red Wedding, as she was resurrected by Beric Dondarrion (that bloke with the eyepatch who kept coming back to life in earlier seasons).
-[Text=In CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=DT]
-[Text=books CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=,]
-[Text=Catelyn CharacterOffsetBegin=53 CharacterOffsetEnd=60 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=NNP]
-[Text=did CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=VBD]
-[Text=n't CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=RB]
-[Text=stay CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=VB]
-[Text=dead CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=JJ]
-[Text=for CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=IN]
-[Text=too CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=RB]
-[Text=long CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=RB]
-[Text=after CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=DT]
-[Text=Red CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=NNP]
-[Text=Wedding CharacterOffsetBegin=111 CharacterOffsetEnd=118 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=,]
-[Text=as CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=IN]
-[Text=she CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=VBD]
-[Text=resurrected CharacterOffsetBegin=131 CharacterOffsetEnd=142 PartOfSpeech=VBN]
-[Text=by CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=IN]
-[Text=Beric CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=NNP]
-[Text=Dondarrion CharacterOffsetBegin=152 CharacterOffsetEnd=162 PartOfSpeech=NNP]
-[Text=-LRB- CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=-LRB-]
-[Text=that CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=IN]
-[Text=bloke CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=NN]
-[Text=with CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=DT]
-[Text=eyepatch CharacterOffsetBegin=184 CharacterOffsetEnd=192 PartOfSpeech=NN]
-[Text=who CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=WP]
-[Text=kept CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=VBD]
-[Text=coming CharacterOffsetBegin=202 CharacterOffsetEnd=208 PartOfSpeech=VBG]
-[Text=back CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=TO]
-[Text=life CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=IN]
-[Text=earlier CharacterOffsetBegin=225 CharacterOffsetEnd=232 PartOfSpeech=JJR]
-[Text=seasons CharacterOffsetBegin=233 CharacterOffsetEnd=240 PartOfSpeech=NNS]
-[Text=-RRB- CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=-RRB-]
-[Text=. CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=.]
+[Text=In CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=books CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=NNS Lemma=book NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Catelyn CharacterOffsetBegin=53 CharacterOffsetEnd=60 PartOfSpeech=NNP Lemma=Catelyn NamedEntityTag=PERSON]
+[Text=Stark CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=PERSON]
+[Text=did CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=stay CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=VB Lemma=stay NamedEntityTag=O]
+[Text=dead CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=JJ Lemma=dead NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=too CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=RB Lemma=too NamedEntityTag=O]
+[Text=long CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=RB Lemma=long NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Red CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=NNP Lemma=Red NamedEntityTag=O]
+[Text=Wedding CharacterOffsetBegin=111 CharacterOffsetEnd=118 PartOfSpeech=NN Lemma=wedding NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=resurrected CharacterOffsetBegin=131 CharacterOffsetEnd=142 PartOfSpeech=VBN Lemma=resurrect NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=Beric CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=NNP Lemma=Beric NamedEntityTag=PERSON]
+[Text=Dondarrion CharacterOffsetBegin=152 CharacterOffsetEnd=162 PartOfSpeech=NNP Lemma=Dondarrion NamedEntityTag=PERSON]
+[Text=-LRB- CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=bloke CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=NN Lemma=bloke NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=eyepatch CharacterOffsetBegin=184 CharacterOffsetEnd=192 PartOfSpeech=NN Lemma=eyepatch NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=kept CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=VBD Lemma=keep NamedEntityTag=O]
+[Text=coming CharacterOffsetBegin=202 CharacterOffsetEnd=208 PartOfSpeech=VBG Lemma=come NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=life CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=NN Lemma=life NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=earlier CharacterOffsetBegin=225 CharacterOffsetEnd=232 PartOfSpeech=JJR Lemma=earlier NamedEntityTag=O]
+[Text=seasons CharacterOffsetBegin=233 CharacterOffsetEnd=240 PartOfSpeech=NNS Lemma=season NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (DT the) (NNS books)))
+    (, ,)
+    (NP (NNP Catelyn) (NNP Stark))
+    (VP (VBD did) (RB n't)
+      (VP (VB stay)
+        (ADJP (JJ dead)
+          (PP (IN for)
+            (ADVP (RB too) (RB long))))
+        (PP (IN after)
+          (NP (DT the) (NNP Red) (NN Wedding)))
+        (, ,)
+        (SBAR (IN as)
+          (S
+            (NP (PRP she))
+            (VP (VBD was)
+              (VP (VBN resurrected)
+                (PP (IN by)
+                  (NP
+                    (NP (NNP Beric) (NNP Dondarrion))
+                    (PRN (-LRB- -LRB-)
+                      (SBAR (IN that)
+                        (FRAG
+                          (NP
+                            (NP (NN bloke))
+                            (PP (IN with)
+                              (NP (DT the) (NN eyepatch)))
+                            (SBAR
+                              (WHNP (WP who))
+                              (S
+                                (VP (VBD kept)
+                                  (S
+                                    (VP (VBG coming)
+                                      (ADVP (RB back)
+                                        (PP (TO to)
+                                          (NP (NN life))))
+                                      (PP (IN in)
+                                        (NP (JJR earlier) (NNS seasons)))))))))))
+                      (-RRB- -RRB-))))))))))
+    (. .)))
+
+root(ROOT-0, stay-9)
+case(books-3, In-1)
+det(books-3, the-2)
+nmod:in(stay-9, books-3)
+punct(stay-9, ,-4)
+compound(Stark-6, Catelyn-5)
+nsubj(stay-9, Stark-6)
+aux(stay-9, did-7)
+neg(stay-9, n't-8)
+xcomp(stay-9, dead-10)
+case(long-13, for-11)
+advmod(long-13, too-12)
+advcl:for(dead-10, long-13)
+case(Wedding-17, after-14)
+det(Wedding-17, the-15)
+compound(Wedding-17, Red-16)
+nmod:after(stay-9, Wedding-17)
+punct(stay-9, ,-18)
+mark(resurrected-22, as-19)
+nsubjpass(resurrected-22, she-20)
+auxpass(resurrected-22, was-21)
+advcl:as(stay-9, resurrected-22)
+case(Dondarrion-25, by-23)
+compound(Dondarrion-25, Beric-24)
+nmod:agent(resurrected-22, Dondarrion-25)
+punct(bloke-28, -LRB--26)
+mark(bloke-28, that-27)
+dep(Dondarrion-25, bloke-28)
+nsubj(kept-33, bloke-28)
+case(eyepatch-31, with-29)
+det(eyepatch-31, the-30)
+nmod:with(bloke-28, eyepatch-31)
+ref(bloke-28, who-32)
+acl:relcl(bloke-28, kept-33)
+xcomp(kept-33, coming-34)
+advmod(coming-34, back-35)
+case(life-37, to-36)
+nmod:to(back-35, life-37)
+case(seasons-40, in-38)
+amod(seasons-40, earlier-39)
+nmod:in(coming-34, seasons-40)
+punct(bloke-28, -RRB--41)
+punct(stay-9, .-42)
+
 Sentence #3 (22 tokens):
 Thereafter known as Lady Stoneheart, Catelyn went on a hellbent mission to kill anyone remotely connected with the Red Wedding.
-[Text=Thereafter CharacterOffsetBegin=244 CharacterOffsetEnd=254 PartOfSpeech=RB]
-[Text=known CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=VBN]
-[Text=as CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=IN]
-[Text=Lady CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=NN]
-[Text=Stoneheart CharacterOffsetBegin=269 CharacterOffsetEnd=279 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=279 CharacterOffsetEnd=280 PartOfSpeech=,]
-[Text=Catelyn CharacterOffsetBegin=281 CharacterOffsetEnd=288 PartOfSpeech=NNP]
-[Text=went CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=VBD]
-[Text=on CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=DT]
-[Text=hellbent CharacterOffsetBegin=299 CharacterOffsetEnd=307 PartOfSpeech=JJ]
-[Text=mission CharacterOffsetBegin=308 CharacterOffsetEnd=315 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=316 CharacterOffsetEnd=318 PartOfSpeech=TO]
-[Text=kill CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=VB]
-[Text=anyone CharacterOffsetBegin=324 CharacterOffsetEnd=330 PartOfSpeech=NN]
-[Text=remotely CharacterOffsetBegin=331 CharacterOffsetEnd=339 PartOfSpeech=RB]
-[Text=connected CharacterOffsetBegin=340 CharacterOffsetEnd=349 PartOfSpeech=VBN]
-[Text=with CharacterOffsetBegin=350 CharacterOffsetEnd=354 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=DT]
-[Text=Red CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=NNP]
-[Text=Wedding CharacterOffsetBegin=363 CharacterOffsetEnd=370 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=.]
+[Text=Thereafter CharacterOffsetBegin=244 CharacterOffsetEnd=254 PartOfSpeech=RB Lemma=thereafter NamedEntityTag=O]
+[Text=known CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=VBN Lemma=know NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=Lady CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=NN Lemma=lady NamedEntityTag=PERSON]
+[Text=Stoneheart CharacterOffsetBegin=269 CharacterOffsetEnd=279 PartOfSpeech=NNP Lemma=Stoneheart NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=279 CharacterOffsetEnd=280 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Catelyn CharacterOffsetBegin=281 CharacterOffsetEnd=288 PartOfSpeech=NNP Lemma=Catelyn NamedEntityTag=PERSON]
+[Text=went CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=VBD Lemma=go NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=297 CharacterOffsetEnd=298 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=hellbent CharacterOffsetBegin=299 CharacterOffsetEnd=307 PartOfSpeech=JJ Lemma=hellbent NamedEntityTag=O]
+[Text=mission CharacterOffsetBegin=308 CharacterOffsetEnd=315 PartOfSpeech=NN Lemma=mission NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=316 CharacterOffsetEnd=318 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=kill CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=VB Lemma=kill NamedEntityTag=O]
+[Text=anyone CharacterOffsetBegin=324 CharacterOffsetEnd=330 PartOfSpeech=NN Lemma=anyone NamedEntityTag=O]
+[Text=remotely CharacterOffsetBegin=331 CharacterOffsetEnd=339 PartOfSpeech=RB Lemma=remotely NamedEntityTag=O]
+[Text=connected CharacterOffsetBegin=340 CharacterOffsetEnd=349 PartOfSpeech=VBN Lemma=connect NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=350 CharacterOffsetEnd=354 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Red CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=NNP Lemma=Red NamedEntityTag=O]
+[Text=Wedding CharacterOffsetBegin=363 CharacterOffsetEnd=370 PartOfSpeech=NN Lemma=wedding NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (ADVP (RB Thereafter))
+      (VP (VBN known)
+        (PP (IN as)
+          (NP (NN Lady) (NNP Stoneheart)))))
+    (, ,)
+    (NP (NNP Catelyn))
+    (VP (VBD went)
+      (PP (IN on)
+        (NP (DT a) (JJ hellbent) (NN mission)))
+      (S
+        (VP (TO to)
+          (VP (VB kill)
+            (NP
+              (NP (NN anyone))
+              (ADJP (RB remotely) (VBN connected)))
+            (PP (IN with)
+              (NP (DT the) (NNP Red) (NN Wedding)))))))
+    (. .)))
+
+root(ROOT-0, went-8)
+advmod(known-2, Thereafter-1)
+advcl(went-8, known-2)
+case(Stoneheart-5, as-3)
+compound(Stoneheart-5, Lady-4)
+nmod:as(known-2, Stoneheart-5)
+punct(went-8, ,-6)
+nsubj(went-8, Catelyn-7)
+nsubj:xsubj(kill-14, Catelyn-7)
+case(mission-12, on-9)
+det(mission-12, a-10)
+amod(mission-12, hellbent-11)
+nmod:on(went-8, mission-12)
+mark(kill-14, to-13)
+xcomp(went-8, kill-14)
+dobj(kill-14, anyone-15)
+advmod(connected-17, remotely-16)
+amod(anyone-15, connected-17)
+case(Wedding-21, with-18)
+det(Wedding-21, the-19)
+compound(Wedding-21, Red-20)
+nmod:with(kill-14, Wedding-21)
+punct(went-8, .-22)
+
 Sentence #4 (23 tokens):
 Fans have longed for her to make an appearance on the show, and recent events have pointed towards this finally happening.
-[Text=Fans CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=377 CharacterOffsetEnd=381 PartOfSpeech=VBP]
-[Text=longed CharacterOffsetBegin=382 CharacterOffsetEnd=388 PartOfSpeech=VBN]
-[Text=for CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=393 CharacterOffsetEnd=396 PartOfSpeech=PRP$]
-[Text=to CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=TO]
-[Text=make CharacterOffsetBegin=400 CharacterOffsetEnd=404 PartOfSpeech=VB]
-[Text=an CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=DT]
-[Text=appearance CharacterOffsetBegin=408 CharacterOffsetEnd=418 PartOfSpeech=NN]
-[Text=on CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=DT]
-[Text=show CharacterOffsetBegin=426 CharacterOffsetEnd=430 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=430 CharacterOffsetEnd=431 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=CC]
-[Text=recent CharacterOffsetBegin=436 CharacterOffsetEnd=442 PartOfSpeech=JJ]
-[Text=events CharacterOffsetBegin=443 CharacterOffsetEnd=449 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=450 CharacterOffsetEnd=454 PartOfSpeech=VBP]
-[Text=pointed CharacterOffsetBegin=455 CharacterOffsetEnd=462 PartOfSpeech=VBN]
-[Text=towards CharacterOffsetBegin=463 CharacterOffsetEnd=470 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=DT]
-[Text=finally CharacterOffsetBegin=476 CharacterOffsetEnd=483 PartOfSpeech=RB]
-[Text=happening CharacterOffsetBegin=484 CharacterOffsetEnd=493 PartOfSpeech=VBG]
-[Text=. CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=.]
+[Text=Fans CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=377 CharacterOffsetEnd=381 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=longed CharacterOffsetBegin=382 CharacterOffsetEnd=388 PartOfSpeech=VBN Lemma=long NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=389 CharacterOffsetEnd=392 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=393 CharacterOffsetEnd=396 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=make CharacterOffsetBegin=400 CharacterOffsetEnd=404 PartOfSpeech=VB Lemma=make NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=appearance CharacterOffsetBegin=408 CharacterOffsetEnd=418 PartOfSpeech=NN Lemma=appearance NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=show CharacterOffsetBegin=426 CharacterOffsetEnd=430 PartOfSpeech=NN Lemma=show NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=430 CharacterOffsetEnd=431 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=recent CharacterOffsetBegin=436 CharacterOffsetEnd=442 PartOfSpeech=JJ Lemma=recent NamedEntityTag=O]
+[Text=events CharacterOffsetBegin=443 CharacterOffsetEnd=449 PartOfSpeech=NNS Lemma=event NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=450 CharacterOffsetEnd=454 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=pointed CharacterOffsetBegin=455 CharacterOffsetEnd=462 PartOfSpeech=VBN Lemma=point NamedEntityTag=O]
+[Text=towards CharacterOffsetBegin=463 CharacterOffsetEnd=470 PartOfSpeech=IN Lemma=towards NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=finally CharacterOffsetBegin=476 CharacterOffsetEnd=483 PartOfSpeech=RB Lemma=finally NamedEntityTag=O]
+[Text=happening CharacterOffsetBegin=484 CharacterOffsetEnd=493 PartOfSpeech=VBG Lemma=happen NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNS Fans))
+      (VP (VBP have)
+        (VP (VBN longed)
+          (PP (IN for)
+            (NP (PRP$ her)))
+          (S
+            (VP (TO to)
+              (VP (VB make)
+                (NP (DT an) (NN appearance))
+                (PP (IN on)
+                  (NP (DT the) (NN show)))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (JJ recent) (NNS events))
+      (VP (VBP have)
+        (VP (VBN pointed)
+          (PP (IN towards)
+            (NP
+              (NP (DT this))
+              (VP
+                (ADVP (RB finally))
+                (VBG happening)))))))
+    (. .)))
+
+root(ROOT-0, longed-3)
+nsubj(longed-3, Fans-1)
+nsubj:xsubj(make-7, Fans-1)
+aux(longed-3, have-2)
+case(her-5, for-4)
+nmod:for(longed-3, her-5)
+mark(make-7, to-6)
+xcomp(longed-3, make-7)
+det(appearance-9, an-8)
+dobj(make-7, appearance-9)
+case(show-12, on-10)
+det(show-12, the-11)
+nmod:on(make-7, show-12)
+punct(longed-3, ,-13)
+cc(longed-3, and-14)
+amod(events-16, recent-15)
+nsubj(pointed-18, events-16)
+aux(pointed-18, have-17)
+conj:and(longed-3, pointed-18)
+case(this-20, towards-19)
+nmod:towards(pointed-18, this-20)
+advmod(happening-22, finally-21)
+acl(this-20, happening-22)
+punct(longed-3, .-23)
+
 Sentence #5 (33 tokens):
 The sudden comeback of her Frey-held brother Edmure may be the catalyst for Stoneheart's arrival (he'll probably get murdered in some horrible way, let's be honest).
-[Text=The CharacterOffsetBegin=496 CharacterOffsetEnd=499 PartOfSpeech=DT]
-[Text=sudden CharacterOffsetBegin=500 CharacterOffsetEnd=506 PartOfSpeech=JJ]
-[Text=comeback CharacterOffsetBegin=507 CharacterOffsetEnd=515 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=516 CharacterOffsetEnd=518 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=PRP$]
-[Text=Frey-held CharacterOffsetBegin=523 CharacterOffsetEnd=532 PartOfSpeech=JJ]
-[Text=brother CharacterOffsetBegin=533 CharacterOffsetEnd=540 PartOfSpeech=NN]
-[Text=Edmure CharacterOffsetBegin=541 CharacterOffsetEnd=547 PartOfSpeech=NNP]
-[Text=may CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=552 CharacterOffsetEnd=554 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=DT]
-[Text=catalyst CharacterOffsetBegin=559 CharacterOffsetEnd=567 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=568 CharacterOffsetEnd=571 PartOfSpeech=IN]
-[Text=Stoneheart CharacterOffsetBegin=572 CharacterOffsetEnd=582 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=582 CharacterOffsetEnd=584 PartOfSpeech=POS]
-[Text=arrival CharacterOffsetBegin=585 CharacterOffsetEnd=592 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=593 CharacterOffsetEnd=594 PartOfSpeech=-LRB-]
-[Text=he CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=PRP]
-[Text='ll CharacterOffsetBegin=596 CharacterOffsetEnd=599 PartOfSpeech=MD]
-[Text=probably CharacterOffsetBegin=600 CharacterOffsetEnd=608 PartOfSpeech=RB]
-[Text=get CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=VB]
-[Text=murdered CharacterOffsetBegin=613 CharacterOffsetEnd=621 PartOfSpeech=VBN]
-[Text=in CharacterOffsetBegin=622 CharacterOffsetEnd=624 PartOfSpeech=IN]
-[Text=some CharacterOffsetBegin=625 CharacterOffsetEnd=629 PartOfSpeech=DT]
-[Text=horrible CharacterOffsetBegin=630 CharacterOffsetEnd=638 PartOfSpeech=JJ]
-[Text=way CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=,]
-[Text=let CharacterOffsetBegin=644 CharacterOffsetEnd=647 PartOfSpeech=VB]
-[Text='s CharacterOffsetBegin=647 CharacterOffsetEnd=649 PartOfSpeech=POS]
-[Text=be CharacterOffsetBegin=650 CharacterOffsetEnd=652 PartOfSpeech=VB]
-[Text=honest CharacterOffsetBegin=653 CharacterOffsetEnd=659 PartOfSpeech=JJ]
-[Text=-RRB- CharacterOffsetBegin=659 CharacterOffsetEnd=660 PartOfSpeech=-RRB-]
-[Text=. CharacterOffsetBegin=660 CharacterOffsetEnd=661 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=496 CharacterOffsetEnd=499 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=sudden CharacterOffsetBegin=500 CharacterOffsetEnd=506 PartOfSpeech=JJ Lemma=sudden NamedEntityTag=O]
+[Text=comeback CharacterOffsetBegin=507 CharacterOffsetEnd=515 PartOfSpeech=NN Lemma=comeback NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=516 CharacterOffsetEnd=518 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=519 CharacterOffsetEnd=522 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=Frey-held CharacterOffsetBegin=523 CharacterOffsetEnd=532 PartOfSpeech=JJ Lemma=frey-held NamedEntityTag=MISC]
+[Text=brother CharacterOffsetBegin=533 CharacterOffsetEnd=540 PartOfSpeech=NN Lemma=brother NamedEntityTag=O]
+[Text=Edmure CharacterOffsetBegin=541 CharacterOffsetEnd=547 PartOfSpeech=NNP Lemma=Edmure NamedEntityTag=PERSON]
+[Text=may CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=MD Lemma=may NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=552 CharacterOffsetEnd=554 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=catalyst CharacterOffsetBegin=559 CharacterOffsetEnd=567 PartOfSpeech=NN Lemma=catalyst NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=568 CharacterOffsetEnd=571 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=Stoneheart CharacterOffsetBegin=572 CharacterOffsetEnd=582 PartOfSpeech=NNP Lemma=Stoneheart NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=582 CharacterOffsetEnd=584 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=arrival CharacterOffsetBegin=585 CharacterOffsetEnd=592 PartOfSpeech=NN Lemma=arrival NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=593 CharacterOffsetEnd=594 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text='ll CharacterOffsetBegin=596 CharacterOffsetEnd=599 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=probably CharacterOffsetBegin=600 CharacterOffsetEnd=608 PartOfSpeech=RB Lemma=probably NamedEntityTag=O]
+[Text=get CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=VB Lemma=get NamedEntityTag=O]
+[Text=murdered CharacterOffsetBegin=613 CharacterOffsetEnd=621 PartOfSpeech=VBN Lemma=murder NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=622 CharacterOffsetEnd=624 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=some CharacterOffsetBegin=625 CharacterOffsetEnd=629 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=horrible CharacterOffsetBegin=630 CharacterOffsetEnd=638 PartOfSpeech=JJ Lemma=horrible NamedEntityTag=O]
+[Text=way CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=NN Lemma=way NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=let CharacterOffsetBegin=644 CharacterOffsetEnd=647 PartOfSpeech=VB Lemma=let NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=647 CharacterOffsetEnd=649 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=650 CharacterOffsetEnd=652 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=honest CharacterOffsetBegin=653 CharacterOffsetEnd=659 PartOfSpeech=JJ Lemma=honest NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=659 CharacterOffsetEnd=660 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=660 CharacterOffsetEnd=661 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (DT The) (JJ sudden) (NN comeback))
+      (PP (IN of)
+        (NP (PRP$ her) (JJ Frey-held) (NN brother) (NNP Edmure))))
+    (VP (MD may)
+      (VP (VB be)
+        (NP
+          (NP (DT the) (NN catalyst))
+          (PP (IN for)
+            (NP
+              (NP
+                (NP (NNP Stoneheart) (POS 's))
+                (NN arrival))
+              (PRN (-LRB- -LRB-)
+                (S
+                  (NP (PRP he))
+                  (VP (MD 'll)
+                    (ADVP (RB probably))
+                    (VP
+                      (VP (VB get)
+                        (VP (VBN murdered)
+                          (PP (IN in)
+                            (NP (DT some) (JJ horrible) (NN way)))))
+                      (, ,)
+                      (VP (VB let)
+                        (S
+                          (NP (POS 's))
+                          (VP (VB be)
+                            (ADJP (JJ honest))))))))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+root(ROOT-0, catalyst-12)
+det(comeback-3, The-1)
+amod(comeback-3, sudden-2)
+nsubj(catalyst-12, comeback-3)
+case(Edmure-8, of-4)
+nmod:poss(Edmure-8, her-5)
+amod(Edmure-8, Frey-held-6)
+compound(Edmure-8, brother-7)
+nmod:of(comeback-3, Edmure-8)
+aux(catalyst-12, may-9)
+cop(catalyst-12, be-10)
+det(catalyst-12, the-11)
+case(arrival-16, for-13)
+nmod:poss(arrival-16, Stoneheart-14)
+case(Stoneheart-14, 's-15)
+nmod:for(catalyst-12, arrival-16)
+punct(murdered-22, -LRB--17)
+nsubjpass(murdered-22, he-18)
+aux(murdered-22, 'll-19)
+advmod(murdered-22, probably-20)
+auxpass(murdered-22, get-21)
+dep(arrival-16, murdered-22)
+case(way-26, in-23)
+det(way-26, some-24)
+amod(way-26, horrible-25)
+nmod:in(murdered-22, way-26)
+punct(murdered-22, ,-27)
+dep(murdered-22, let-28)
+nsubj(honest-31, 's-29)
+cop(honest-31, be-30)
+ccomp(let-28, honest-31)
+punct(murdered-22, -RRB--32)
+punct(catalyst-12, .-33)
+
 Sentence #6 (13 tokens):
 Meanwhile, both Jaime and Brienne are also heading straight for Riverrun.
-[Text=Meanwhile CharacterOffsetBegin=662 CharacterOffsetEnd=671 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=671 CharacterOffsetEnd=672 PartOfSpeech=,]
-[Text=both CharacterOffsetBegin=673 CharacterOffsetEnd=677 PartOfSpeech=DT]
-[Text=Jaime CharacterOffsetBegin=678 CharacterOffsetEnd=683 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=684 CharacterOffsetEnd=687 PartOfSpeech=CC]
-[Text=Brienne CharacterOffsetBegin=688 CharacterOffsetEnd=695 PartOfSpeech=NNP]
-[Text=are CharacterOffsetBegin=696 CharacterOffsetEnd=699 PartOfSpeech=VBP]
-[Text=also CharacterOffsetBegin=700 CharacterOffsetEnd=704 PartOfSpeech=RB]
-[Text=heading CharacterOffsetBegin=705 CharacterOffsetEnd=712 PartOfSpeech=VBG]
-[Text=straight CharacterOffsetBegin=713 CharacterOffsetEnd=721 PartOfSpeech=RB]
-[Text=for CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=IN]
-[Text=Riverrun CharacterOffsetBegin=726 CharacterOffsetEnd=734 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=734 CharacterOffsetEnd=735 PartOfSpeech=.]
+[Text=Meanwhile CharacterOffsetBegin=662 CharacterOffsetEnd=671 PartOfSpeech=RB Lemma=meanwhile NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=671 CharacterOffsetEnd=672 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=both CharacterOffsetBegin=673 CharacterOffsetEnd=677 PartOfSpeech=DT Lemma=both NamedEntityTag=O]
+[Text=Jaime CharacterOffsetBegin=678 CharacterOffsetEnd=683 PartOfSpeech=NNP Lemma=Jaime NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=684 CharacterOffsetEnd=687 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Brienne CharacterOffsetBegin=688 CharacterOffsetEnd=695 PartOfSpeech=NNP Lemma=Brienne NamedEntityTag=PERSON]
+[Text=are CharacterOffsetBegin=696 CharacterOffsetEnd=699 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=700 CharacterOffsetEnd=704 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=heading CharacterOffsetBegin=705 CharacterOffsetEnd=712 PartOfSpeech=VBG Lemma=head NamedEntityTag=O]
+[Text=straight CharacterOffsetBegin=713 CharacterOffsetEnd=721 PartOfSpeech=RB Lemma=straight NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=Riverrun CharacterOffsetBegin=726 CharacterOffsetEnd=734 PartOfSpeech=NNP Lemma=Riverrun NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=734 CharacterOffsetEnd=735 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Meanwhile))
+    (, ,)
+    (NP (DT both) (NNP Jaime)
+      (CC and)
+      (NNP Brienne))
+    (VP (VBP are)
+      (ADVP (RB also))
+      (VP (VBG heading)
+        (ADVP (RB straight))
+        (PP (IN for)
+          (NP (NNP Riverrun)))))
+    (. .)))
+
+root(ROOT-0, heading-9)
+advmod(heading-9, Meanwhile-1)
+punct(heading-9, ,-2)
+cc:preconj(Jaime-4, both-3)
+nsubj(heading-9, Jaime-4)
+cc(Jaime-4, and-5)
+conj:and(Jaime-4, Brienne-6)
+nsubj(heading-9, Brienne-6)
+aux(heading-9, are-7)
+advmod(heading-9, also-8)
+advmod(heading-9, straight-10)
+case(Riverrun-12, for-11)
+nmod:for(heading-9, Riverrun-12)
+punct(heading-9, .-13)
+
 Sentence #7 (30 tokens):
 We won't spoil things too much, but let's just say that the books featured a huge and eventful reunion for the pair, orchestrated by Stoneheart.
-[Text=We CharacterOffsetBegin=736 CharacterOffsetEnd=738 PartOfSpeech=PRP]
-[Text=wo CharacterOffsetBegin=739 CharacterOffsetEnd=741 PartOfSpeech=MD]
-[Text=n't CharacterOffsetBegin=741 CharacterOffsetEnd=744 PartOfSpeech=RB]
-[Text=spoil CharacterOffsetBegin=745 CharacterOffsetEnd=750 PartOfSpeech=VB]
-[Text=things CharacterOffsetBegin=751 CharacterOffsetEnd=757 PartOfSpeech=NNS]
-[Text=too CharacterOffsetBegin=758 CharacterOffsetEnd=761 PartOfSpeech=RB]
-[Text=much CharacterOffsetBegin=762 CharacterOffsetEnd=766 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=766 CharacterOffsetEnd=767 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=768 CharacterOffsetEnd=771 PartOfSpeech=CC]
-[Text=let CharacterOffsetBegin=772 CharacterOffsetEnd=775 PartOfSpeech=VBD]
-[Text='s CharacterOffsetBegin=775 CharacterOffsetEnd=777 PartOfSpeech=POS]
-[Text=just CharacterOffsetBegin=778 CharacterOffsetEnd=782 PartOfSpeech=RB]
-[Text=say CharacterOffsetBegin=783 CharacterOffsetEnd=786 PartOfSpeech=VB]
-[Text=that CharacterOffsetBegin=787 CharacterOffsetEnd=791 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=792 CharacterOffsetEnd=795 PartOfSpeech=DT]
-[Text=books CharacterOffsetBegin=796 CharacterOffsetEnd=801 PartOfSpeech=NNS]
-[Text=featured CharacterOffsetBegin=802 CharacterOffsetEnd=810 PartOfSpeech=VBD]
-[Text=a CharacterOffsetBegin=811 CharacterOffsetEnd=812 PartOfSpeech=DT]
-[Text=huge CharacterOffsetBegin=813 CharacterOffsetEnd=817 PartOfSpeech=JJ]
-[Text=and CharacterOffsetBegin=818 CharacterOffsetEnd=821 PartOfSpeech=CC]
-[Text=eventful CharacterOffsetBegin=822 CharacterOffsetEnd=830 PartOfSpeech=JJ]
-[Text=reunion CharacterOffsetBegin=831 CharacterOffsetEnd=838 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=839 CharacterOffsetEnd=842 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=843 CharacterOffsetEnd=846 PartOfSpeech=DT]
-[Text=pair CharacterOffsetBegin=847 CharacterOffsetEnd=851 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=851 CharacterOffsetEnd=852 PartOfSpeech=,]
-[Text=orchestrated CharacterOffsetBegin=853 CharacterOffsetEnd=865 PartOfSpeech=VBN]
-[Text=by CharacterOffsetBegin=866 CharacterOffsetEnd=868 PartOfSpeech=IN]
-[Text=Stoneheart CharacterOffsetBegin=869 CharacterOffsetEnd=879 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=879 CharacterOffsetEnd=880 PartOfSpeech=.]
+[Text=We CharacterOffsetBegin=736 CharacterOffsetEnd=738 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=wo CharacterOffsetBegin=739 CharacterOffsetEnd=741 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=741 CharacterOffsetEnd=744 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=spoil CharacterOffsetBegin=745 CharacterOffsetEnd=750 PartOfSpeech=VB Lemma=spoil NamedEntityTag=O]
+[Text=things CharacterOffsetBegin=751 CharacterOffsetEnd=757 PartOfSpeech=NNS Lemma=thing NamedEntityTag=O]
+[Text=too CharacterOffsetBegin=758 CharacterOffsetEnd=761 PartOfSpeech=RB Lemma=too NamedEntityTag=O]
+[Text=much CharacterOffsetBegin=762 CharacterOffsetEnd=766 PartOfSpeech=RB Lemma=much NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=766 CharacterOffsetEnd=767 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=768 CharacterOffsetEnd=771 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=let CharacterOffsetBegin=772 CharacterOffsetEnd=775 PartOfSpeech=VBD Lemma=let NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=775 CharacterOffsetEnd=777 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=just CharacterOffsetBegin=778 CharacterOffsetEnd=782 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=say CharacterOffsetBegin=783 CharacterOffsetEnd=786 PartOfSpeech=VB Lemma=say NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=787 CharacterOffsetEnd=791 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=792 CharacterOffsetEnd=795 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=books CharacterOffsetBegin=796 CharacterOffsetEnd=801 PartOfSpeech=NNS Lemma=book NamedEntityTag=O]
+[Text=featured CharacterOffsetBegin=802 CharacterOffsetEnd=810 PartOfSpeech=VBD Lemma=feature NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=811 CharacterOffsetEnd=812 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=huge CharacterOffsetBegin=813 CharacterOffsetEnd=817 PartOfSpeech=JJ Lemma=huge NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=818 CharacterOffsetEnd=821 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=eventful CharacterOffsetBegin=822 CharacterOffsetEnd=830 PartOfSpeech=JJ Lemma=eventful NamedEntityTag=O]
+[Text=reunion CharacterOffsetBegin=831 CharacterOffsetEnd=838 PartOfSpeech=NN Lemma=reunion NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=839 CharacterOffsetEnd=842 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=843 CharacterOffsetEnd=846 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=pair CharacterOffsetBegin=847 CharacterOffsetEnd=851 PartOfSpeech=NN Lemma=pair NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=851 CharacterOffsetEnd=852 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=orchestrated CharacterOffsetBegin=853 CharacterOffsetEnd=865 PartOfSpeech=VBN Lemma=orchestrate NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=866 CharacterOffsetEnd=868 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=Stoneheart CharacterOffsetBegin=869 CharacterOffsetEnd=879 PartOfSpeech=NNP Lemma=Stoneheart NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=879 CharacterOffsetEnd=880 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP
+      (VP (MD wo) (RB n't)
+        (VP (VB spoil)
+          (NP (NNS things))
+          (ADVP (RB too) (RB much))))
+      (, ,)
+      (CC but)
+      (VP (VBD let)
+        (S
+          (NP (POS 's))
+          (VP (RB just)
+            (VP (VB say)
+              (SBAR (IN that)
+                (S
+                  (NP (DT the) (NNS books))
+                  (VP (VBD featured)
+                    (NP (DT a)
+                      (ADJP (JJ huge)
+                        (CC and)
+                        (JJ eventful))
+                      (NN reunion))
+                    (PP (IN for)
+                      (NP
+                        (NP (DT the) (NN pair))
+                        (, ,)
+                        (VP (VBN orchestrated)
+                          (PP (IN by)
+                            (NP (NNP Stoneheart))))))))))))))
+    (. .)))
+
+root(ROOT-0, spoil-4)
+nsubj(spoil-4, We-1)
+nsubj(let-10, We-1)
+aux(spoil-4, wo-2)
+neg(spoil-4, n't-3)
+dobj(spoil-4, things-5)
+advmod(much-7, too-6)
+advmod(spoil-4, much-7)
+punct(spoil-4, ,-8)
+cc(spoil-4, but-9)
+conj:but(spoil-4, let-10)
+nsubj(say-13, 's-11)
+advmod(say-13, just-12)
+ccomp(let-10, say-13)
+mark(featured-17, that-14)
+det(books-16, the-15)
+nsubj(featured-17, books-16)
+ccomp(say-13, featured-17)
+det(reunion-22, a-18)
+amod(reunion-22, huge-19)
+cc(huge-19, and-20)
+conj:and(huge-19, eventful-21)
+amod(reunion-22, eventful-21)
+dobj(featured-17, reunion-22)
+case(pair-25, for-23)
+det(pair-25, the-24)
+nmod:for(featured-17, pair-25)
+punct(pair-25, ,-26)
+acl(pair-25, orchestrated-27)
+case(Stoneheart-29, by-28)
+nmod:by(orchestrated-27, Stoneheart-29)
+punct(spoil-4, .-30)
+
 Sentence #8 (30 tokens):
 Maybe Jon Snow's resurrection at the start of the season was a precursor to Catelyn coming back to life, so that it won't feel completely bonkers.
-[Text=Maybe CharacterOffsetBegin=882 CharacterOffsetEnd=887 PartOfSpeech=RB]
-[Text=Jon CharacterOffsetBegin=888 CharacterOffsetEnd=891 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=892 CharacterOffsetEnd=896 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=896 CharacterOffsetEnd=898 PartOfSpeech=POS]
-[Text=resurrection CharacterOffsetBegin=899 CharacterOffsetEnd=911 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=912 CharacterOffsetEnd=914 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=915 CharacterOffsetEnd=918 PartOfSpeech=DT]
-[Text=start CharacterOffsetBegin=919 CharacterOffsetEnd=924 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=925 CharacterOffsetEnd=927 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=928 CharacterOffsetEnd=931 PartOfSpeech=DT]
-[Text=season CharacterOffsetBegin=932 CharacterOffsetEnd=938 PartOfSpeech=NN]
-[Text=was CharacterOffsetBegin=939 CharacterOffsetEnd=942 PartOfSpeech=VBD]
-[Text=a CharacterOffsetBegin=943 CharacterOffsetEnd=944 PartOfSpeech=DT]
-[Text=precursor CharacterOffsetBegin=945 CharacterOffsetEnd=954 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=955 CharacterOffsetEnd=957 PartOfSpeech=TO]
-[Text=Catelyn CharacterOffsetBegin=958 CharacterOffsetEnd=965 PartOfSpeech=NNP]
-[Text=coming CharacterOffsetBegin=966 CharacterOffsetEnd=972 PartOfSpeech=VBG]
-[Text=back CharacterOffsetBegin=973 CharacterOffsetEnd=977 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=978 CharacterOffsetEnd=980 PartOfSpeech=TO]
-[Text=life CharacterOffsetBegin=981 CharacterOffsetEnd=985 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=985 CharacterOffsetEnd=986 PartOfSpeech=,]
-[Text=so CharacterOffsetBegin=987 CharacterOffsetEnd=989 PartOfSpeech=RB]
-[Text=that CharacterOffsetBegin=990 CharacterOffsetEnd=994 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=995 CharacterOffsetEnd=997 PartOfSpeech=PRP]
-[Text=wo CharacterOffsetBegin=998 CharacterOffsetEnd=1000 PartOfSpeech=MD]
-[Text=n't CharacterOffsetBegin=1000 CharacterOffsetEnd=1003 PartOfSpeech=RB]
-[Text=feel CharacterOffsetBegin=1004 CharacterOffsetEnd=1008 PartOfSpeech=VB]
-[Text=completely CharacterOffsetBegin=1009 CharacterOffsetEnd=1019 PartOfSpeech=RB]
-[Text=bonkers CharacterOffsetBegin=1020 CharacterOffsetEnd=1027 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=1027 CharacterOffsetEnd=1028 PartOfSpeech=.]
+[Text=Maybe CharacterOffsetBegin=882 CharacterOffsetEnd=887 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=888 CharacterOffsetEnd=891 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=892 CharacterOffsetEnd=896 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=896 CharacterOffsetEnd=898 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=resurrection CharacterOffsetBegin=899 CharacterOffsetEnd=911 PartOfSpeech=NN Lemma=resurrection NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=912 CharacterOffsetEnd=914 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=915 CharacterOffsetEnd=918 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=start CharacterOffsetBegin=919 CharacterOffsetEnd=924 PartOfSpeech=NN Lemma=start NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=925 CharacterOffsetEnd=927 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=928 CharacterOffsetEnd=931 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=932 CharacterOffsetEnd=938 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=939 CharacterOffsetEnd=942 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=943 CharacterOffsetEnd=944 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=precursor CharacterOffsetBegin=945 CharacterOffsetEnd=954 PartOfSpeech=NN Lemma=precursor NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=955 CharacterOffsetEnd=957 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Catelyn CharacterOffsetBegin=958 CharacterOffsetEnd=965 PartOfSpeech=NNP Lemma=Catelyn NamedEntityTag=PERSON]
+[Text=coming CharacterOffsetBegin=966 CharacterOffsetEnd=972 PartOfSpeech=VBG Lemma=come NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=973 CharacterOffsetEnd=977 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=978 CharacterOffsetEnd=980 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=life CharacterOffsetBegin=981 CharacterOffsetEnd=985 PartOfSpeech=NN Lemma=life NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=985 CharacterOffsetEnd=986 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=987 CharacterOffsetEnd=989 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=990 CharacterOffsetEnd=994 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=995 CharacterOffsetEnd=997 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=wo CharacterOffsetBegin=998 CharacterOffsetEnd=1000 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=1000 CharacterOffsetEnd=1003 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=feel CharacterOffsetBegin=1004 CharacterOffsetEnd=1008 PartOfSpeech=VB Lemma=feel NamedEntityTag=O]
+[Text=completely CharacterOffsetBegin=1009 CharacterOffsetEnd=1019 PartOfSpeech=RB Lemma=completely NamedEntityTag=O]
+[Text=bonkers CharacterOffsetBegin=1020 CharacterOffsetEnd=1027 PartOfSpeech=RB Lemma=bonkers NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1027 CharacterOffsetEnd=1028 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Maybe))
+    (NP
+      (NP
+        (NP (NNP Jon) (NNP Snow) (POS 's))
+        (NN resurrection))
+      (PP (IN at)
+        (NP
+          (NP (DT the) (NN start))
+          (PP (IN of)
+            (NP (DT the) (NN season))))))
+    (VP (VBD was)
+      (NP (DT a) (NN precursor))
+      (PP (TO to)
+        (NP
+          (NP (NNP Catelyn))
+          (VP (VBG coming)
+            (ADVP (RB back))
+            (PP (TO to)
+              (NP (NN life))))))
+      (, ,)
+      (SBAR (RB so) (IN that)
+        (S
+          (NP (PRP it))
+          (VP (MD wo) (RB n't)
+            (VP (VB feel)
+              (ADVP (RB completely))
+              (ADVP (RB bonkers)))))))
+    (. .)))
+
+root(ROOT-0, precursor-14)
+advmod(precursor-14, Maybe-1)
+compound(Snow-3, Jon-2)
+nmod:poss(resurrection-5, Snow-3)
+case(Snow-3, 's-4)
+nsubj(precursor-14, resurrection-5)
+case(start-8, at-6)
+det(start-8, the-7)
+nmod:at(resurrection-5, start-8)
+case(season-11, of-9)
+det(season-11, the-10)
+nmod:of(start-8, season-11)
+cop(precursor-14, was-12)
+det(precursor-14, a-13)
+case(Catelyn-16, to-15)
+nmod:to(precursor-14, Catelyn-16)
+acl(Catelyn-16, coming-17)
+advmod(coming-17, back-18)
+case(life-20, to-19)
+nmod:to(coming-17, life-20)
+punct(precursor-14, ,-21)
+mark(feel-27, so-22)
+mwe(so-22, that-23)
+nsubj(feel-27, it-24)
+aux(feel-27, wo-25)
+neg(feel-27, n't-26)
+advcl:so_that(precursor-14, feel-27)
+advmod(feel-27, completely-28)
+advmod(feel-27, bonkers-29)
+punct(precursor-14, .-30)
+
 Sentence #9 (17 tokens):
 Plus, they made sure to include Catelyn front and centre in Bran's latest vision.
-[Text=Plus CharacterOffsetBegin=1029 CharacterOffsetEnd=1033 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=1033 CharacterOffsetEnd=1034 PartOfSpeech=,]
-[Text=they CharacterOffsetBegin=1035 CharacterOffsetEnd=1039 PartOfSpeech=PRP]
-[Text=made CharacterOffsetBegin=1040 CharacterOffsetEnd=1044 PartOfSpeech=VBD]
-[Text=sure CharacterOffsetBegin=1045 CharacterOffsetEnd=1049 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=1050 CharacterOffsetEnd=1052 PartOfSpeech=TO]
-[Text=include CharacterOffsetBegin=1053 CharacterOffsetEnd=1060 PartOfSpeech=VB]
-[Text=Catelyn CharacterOffsetBegin=1061 CharacterOffsetEnd=1068 PartOfSpeech=NNP]
-[Text=front CharacterOffsetBegin=1069 CharacterOffsetEnd=1074 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=1075 CharacterOffsetEnd=1078 PartOfSpeech=CC]
-[Text=centre CharacterOffsetBegin=1079 CharacterOffsetEnd=1085 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=1086 CharacterOffsetEnd=1088 PartOfSpeech=IN]
-[Text=Bran CharacterOffsetBegin=1089 CharacterOffsetEnd=1093 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=1093 CharacterOffsetEnd=1095 PartOfSpeech=POS]
-[Text=latest CharacterOffsetBegin=1096 CharacterOffsetEnd=1102 PartOfSpeech=JJS]
-[Text=vision CharacterOffsetBegin=1103 CharacterOffsetEnd=1109 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=1109 CharacterOffsetEnd=1110 PartOfSpeech=.]
+[Text=Plus CharacterOffsetBegin=1029 CharacterOffsetEnd=1033 PartOfSpeech=NN Lemma=plus NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1033 CharacterOffsetEnd=1034 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=1035 CharacterOffsetEnd=1039 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=made CharacterOffsetBegin=1040 CharacterOffsetEnd=1044 PartOfSpeech=VBD Lemma=make NamedEntityTag=O]
+[Text=sure CharacterOffsetBegin=1045 CharacterOffsetEnd=1049 PartOfSpeech=JJ Lemma=sure NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=1050 CharacterOffsetEnd=1052 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=include CharacterOffsetBegin=1053 CharacterOffsetEnd=1060 PartOfSpeech=VB Lemma=include NamedEntityTag=O]
+[Text=Catelyn CharacterOffsetBegin=1061 CharacterOffsetEnd=1068 PartOfSpeech=NNP Lemma=Catelyn NamedEntityTag=ORGANIZATION]
+[Text=front CharacterOffsetBegin=1069 CharacterOffsetEnd=1074 PartOfSpeech=NN Lemma=front NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=1075 CharacterOffsetEnd=1078 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=centre CharacterOffsetBegin=1079 CharacterOffsetEnd=1085 PartOfSpeech=NN Lemma=centre NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=1086 CharacterOffsetEnd=1088 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=1089 CharacterOffsetEnd=1093 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=1093 CharacterOffsetEnd=1095 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=latest CharacterOffsetBegin=1096 CharacterOffsetEnd=1102 PartOfSpeech=JJS Lemma=latest NamedEntityTag=O]
+[Text=vision CharacterOffsetBegin=1103 CharacterOffsetEnd=1109 PartOfSpeech=NN Lemma=vision NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1109 CharacterOffsetEnd=1110 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP-TMP (NN Plus))
+    (, ,)
+    (NP (PRP they))
+    (VP (VBD made)
+      (ADJP (JJ sure)
+        (S
+          (VP (TO to)
+            (VP (VB include)
+              (NP
+                (NP (NNP Catelyn) (NN front)
+                  (CC and)
+                  (NN centre))
+                (PP (IN in)
+                  (NP
+                    (NP (NNP Bran) (POS 's))
+                    (JJS latest) (NN vision)))))))))
+    (. .)))
+
+root(ROOT-0, made-4)
+nmod:tmod(made-4, Plus-1)
+punct(made-4, ,-2)
+nsubj(made-4, they-3)
+xcomp(made-4, sure-5)
+mark(include-7, to-6)
+xcomp(sure-5, include-7)
+compound(front-9, Catelyn-8)
+dobj(include-7, front-9)
+cc(front-9, and-10)
+dobj(include-7, centre-11)
+conj:and(front-9, centre-11)
+case(vision-16, in-12)
+nmod:poss(vision-16, Bran-13)
+case(Bran-13, 's-14)
+amod(vision-16, latest-15)
+nmod:in(front-9, vision-16)
+punct(made-4, .-17)
+
 Sentence #10 (4 tokens):
 Foreshadowing, much?
-[Text=Foreshadowing CharacterOffsetBegin=1111 CharacterOffsetEnd=1124 PartOfSpeech=VBG]
-[Text=, CharacterOffsetBegin=1124 CharacterOffsetEnd=1125 PartOfSpeech=,]
-[Text=much CharacterOffsetBegin=1126 CharacterOffsetEnd=1130 PartOfSpeech=RB]
-[Text=? CharacterOffsetBegin=1130 CharacterOffsetEnd=1131 PartOfSpeech=.]
+[Text=Foreshadowing CharacterOffsetBegin=1111 CharacterOffsetEnd=1124 PartOfSpeech=VBG Lemma=foreshadow NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1124 CharacterOffsetEnd=1125 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=much CharacterOffsetBegin=1126 CharacterOffsetEnd=1130 PartOfSpeech=RB Lemma=much NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=1130 CharacterOffsetEnd=1131 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (NP
+    (NP
+      (NP (VBG Foreshadowing))
+      (, ,)
+      (NP (RB much)))
+    (. ?)))
+
+root(ROOT-0, Foreshadowing-1)
+punct(Foreshadowing-1, ,-2)
+appos(Foreshadowing-1, much-3)
+punct(Foreshadowing-1, ?-4)
+
+Coreference set:
+	(2,20,[20,21]) -> (1,2,[1,3]), that is: "she" -> "LADY STONEHEART"
+	(3,5,[4,6]) -> (1,2,[1,3]), that is: "Lady Stoneheart" -> "LADY STONEHEART"
+	(4,5,[5,6]) -> (1,2,[1,3]), that is: "her" -> "LADY STONEHEART"
+	(5,5,[5,6]) -> (1,2,[1,3]), that is: "her" -> "LADY STONEHEART"
+	(5,14,[14,16]) -> (1,2,[1,3]), that is: "Stoneheart 's" -> "LADY STONEHEART"
+	(7,29,[29,30]) -> (1,2,[1,3]), that is: "Stoneheart" -> "LADY STONEHEART"
+Coreference set:
+	(3,7,[7,8]) -> (2,6,[5,7]), that is: "Catelyn" -> "Catelyn Stark"
+	(9,8,[8,9]) -> (2,6,[5,7]), that is: "Catelyn" -> "Catelyn Stark"
+Coreference set:
+	(7,16,[15,17]) -> (2,3,[2,4]), that is: "the books" -> "the books"
+Coreference set:
+	(3,21,[19,22]) -> (2,17,[15,18]), that is: "the Red Wedding" -> "the Red Wedding"
+Coreference set:
+	(5,12,[11,33]) -> (5,3,[1,9]), that is: "the catalyst for Stoneheart 's arrival -LRB- he 'll probably get murdered in some horrible way , let 's be honest -RRB-" -> "The sudden comeback of her Frey-held brother Edmure"
+Coreference set:
+	(5,18,[18,19]) -> (5,8,[5,9]), that is: "he" -> "her Frey-held brother Edmure"
+Coreference set:
+	(7,11,[11,12]) -> (5,29,[29,30]), that is: "'s" -> "'s"
+	(9,3,[3,4]) -> (5,29,[29,30]), that is: "they" -> "'s"
+Coreference set:
+	(8,14,[13,15]) -> (8,5,[2,12]), that is: "a precursor" -> "Jon Snow 's resurrection at the start of the season"
+	(8,24,[24,25]) -> (8,5,[2,12]), that is: "it" -> "Jon Snow 's resurrection at the start of the season"

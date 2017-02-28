@@ -1,157 +1,498 @@
 Sentence #1 (5 tokens):
 Varys Is A Merman.
-[Text=Varys CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=Is CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=VBZ]
-[Text=A CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=DT]
-[Text=Merman CharacterOffsetBegin=11 CharacterOffsetEnd=17 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=.]
+[Text=Varys CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Varys NamedEntityTag=O]
+[Text=Is CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=A CharacterOffsetBegin=9 CharacterOffsetEnd=10 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Merman CharacterOffsetBegin=11 CharacterOffsetEnd=17 PartOfSpeech=NNP Lemma=Merman NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=17 CharacterOffsetEnd=18 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Varys))
+    (VP (VBZ Is)
+      (NP (DT A) (NNP Merman)))
+    (. .)))
+
+root(ROOT-0, Merman-4)
+nsubj(Merman-4, Varys-1)
+cop(Merman-4, Is-2)
+det(Merman-4, A-3)
+punct(Merman-4, .-5)
+
 Sentence #2 (13 tokens):
 This theory from Redditor AllegraGeller claims that Varys is actually a merman.
-[Text=This CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=24 CharacterOffsetEnd=30 PartOfSpeech=NN]
-[Text=from CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=IN]
-[Text=Redditor CharacterOffsetBegin=36 CharacterOffsetEnd=44 PartOfSpeech=NNP]
-[Text=AllegraGeller CharacterOffsetBegin=45 CharacterOffsetEnd=58 PartOfSpeech=NNP]
-[Text=claims CharacterOffsetBegin=59 CharacterOffsetEnd=65 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=IN]
-[Text=Varys CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=VBZ]
-[Text=actually CharacterOffsetBegin=80 CharacterOffsetEnd=88 PartOfSpeech=RB]
-[Text=a CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=DT]
-[Text=merman CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=.]
+[Text=This CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=24 CharacterOffsetEnd=30 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=Redditor CharacterOffsetBegin=36 CharacterOffsetEnd=44 PartOfSpeech=NNP Lemma=Redditor NamedEntityTag=PERSON]
+[Text=AllegraGeller CharacterOffsetBegin=45 CharacterOffsetEnd=58 PartOfSpeech=NNP Lemma=AllegraGeller NamedEntityTag=PERSON]
+[Text=claims CharacterOffsetBegin=59 CharacterOffsetEnd=65 PartOfSpeech=VBZ Lemma=claim NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Varys CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NNP Lemma=Varys NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=77 CharacterOffsetEnd=79 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=actually CharacterOffsetBegin=80 CharacterOffsetEnd=88 PartOfSpeech=RB Lemma=actually NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=merman CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=NN Lemma=merman NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (DT This) (NN theory))
+      (PP (IN from)
+        (NP (NNP Redditor) (NNP AllegraGeller))))
+    (VP (VBZ claims)
+      (SBAR (IN that)
+        (S
+          (NP (NNP Varys))
+          (VP (VBZ is)
+            (ADVP (RB actually))
+            (NP (DT a) (NN merman))))))
+    (. .)))
+
+root(ROOT-0, claims-6)
+det(theory-2, This-1)
+nsubj(claims-6, theory-2)
+case(AllegraGeller-5, from-3)
+compound(AllegraGeller-5, Redditor-4)
+nmod:from(theory-2, AllegraGeller-5)
+mark(merman-12, that-7)
+nsubj(merman-12, Varys-8)
+cop(merman-12, is-9)
+advmod(merman-12, actually-10)
+det(merman-12, a-11)
+ccomp(claims-6, merman-12)
+punct(claims-6, .-13)
+
 Sentence #3 (11 tokens):
 Of course, there is pseudo-evidence to back this up.
-[Text=Of CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=IN]
-[Text=course CharacterOffsetBegin=102 CharacterOffsetEnd=108 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=,]
-[Text=there CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=EX]
-[Text=is CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=VBZ]
-[Text=pseudo-evidence CharacterOffsetBegin=119 CharacterOffsetEnd=134 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=TO]
-[Text=back CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=VB]
-[Text=this CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=DT]
-[Text=up CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=RP]
-[Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=.]
+[Text=Of CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=course CharacterOffsetBegin=102 CharacterOffsetEnd=108 PartOfSpeech=NN Lemma=course NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=there CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=EX Lemma=there NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=pseudo-evidence CharacterOffsetBegin=119 CharacterOffsetEnd=134 PartOfSpeech=NN Lemma=pseudo-evidence NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=VB Lemma=back NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (NN course)))
+    (, ,)
+    (NP (EX there))
+    (VP (VBZ is)
+      (NP (NN pseudo-evidence)
+        (S
+          (VP (TO to)
+            (VP (VB back)
+              (NP (DT this))
+              (PRT (RP up)))))))
+    (. .)))
+
+root(ROOT-0, is-5)
+case(course-2, Of-1)
+nmod:of(is-5, course-2)
+punct(is-5, ,-3)
+expl(is-5, there-4)
+nsubj(is-5, pseudo-evidence-6)
+mark(back-8, to-7)
+acl:to(pseudo-evidence-6, back-8)
+dobj(back-8, this-9)
+compound:prt(back-8, up-10)
+punct(is-5, .-11)
+
 Sentence #4 (12 tokens):
 The user postulates that he has a "slimy smile."
-[Text=The CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=DT]
-[Text=user CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=NN]
-[Text=postulates CharacterOffsetBegin=161 CharacterOffsetEnd=171 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=PRP]
-[Text=has CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=DT]
-[Text=`` CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=``]
-[Text=slimy CharacterOffsetBegin=187 CharacterOffsetEnd=192 PartOfSpeech=JJ]
-[Text=smile CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=.]
-[Text='' CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech='']
+[Text=The CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=user CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=NN Lemma=user NamedEntityTag=O]
+[Text=postulates CharacterOffsetBegin=161 CharacterOffsetEnd=171 PartOfSpeech=VBZ Lemma=postulate NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=184 CharacterOffsetEnd=185 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=slimy CharacterOffsetBegin=187 CharacterOffsetEnd=192 PartOfSpeech=JJ Lemma=slimy NamedEntityTag=O]
+[Text=smile CharacterOffsetBegin=193 CharacterOffsetEnd=198 PartOfSpeech=NN Lemma=smile NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=199 CharacterOffsetEnd=200 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NN user))
+    (VP (VBZ postulates)
+      (SBAR (IN that)
+        (S
+          (NP (PRP he))
+          (VP (VBZ has)
+            (NP (DT a) (`` ``) (JJ slimy) (NN smile))))))
+    (. .) ('' '')))
+
+root(ROOT-0, postulates-3)
+det(user-2, The-1)
+nsubj(postulates-3, user-2)
+mark(has-6, that-4)
+nsubj(has-6, he-5)
+ccomp(postulates-3, has-6)
+det(smile-10, a-7)
+punct(smile-10, ``-8)
+amod(smile-10, slimy-9)
+dobj(has-6, smile-10)
+punct(postulates-3, .-11)
+punct(postulates-3, ''-12)
+
 Sentence #5 (42 tokens):
 The user goes on to say, "This could be interpreted to mean he does not show his teeth, and that could be because he has very abnormal teeth," aka merman teeth, whatever those might be.
-[Text=The CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=DT]
-[Text=user CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=NN]
-[Text=goes CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=VBZ]
-[Text=on CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=IN]
-[Text=to CharacterOffsetBegin=218 CharacterOffsetEnd=220 PartOfSpeech=TO]
-[Text=say CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=VB]
-[Text=, CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=,]
-[Text=`` CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=``]
-[Text=This CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=DT]
-[Text=could CharacterOffsetBegin=232 CharacterOffsetEnd=237 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=VB]
-[Text=interpreted CharacterOffsetBegin=241 CharacterOffsetEnd=252 PartOfSpeech=VBN]
-[Text=to CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=TO]
-[Text=mean CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=VB]
-[Text=he CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=PRP]
-[Text=does CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=VBZ]
-[Text=not CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=RB]
-[Text=show CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=VB]
-[Text=his CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=PRP$]
-[Text=teeth CharacterOffsetBegin=282 CharacterOffsetEnd=287 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=CC]
-[Text=that CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=DT]
-[Text=could CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=VB]
-[Text=because CharacterOffsetBegin=307 CharacterOffsetEnd=314 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=PRP]
-[Text=has CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=VBZ]
-[Text=very CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=RB]
-[Text=abnormal CharacterOffsetBegin=327 CharacterOffsetEnd=335 PartOfSpeech=JJ]
-[Text=teeth CharacterOffsetBegin=336 CharacterOffsetEnd=341 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=,]
-[Text='' CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech='']
-[Text=aka CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=FW]
-[Text=merman CharacterOffsetBegin=348 CharacterOffsetEnd=354 PartOfSpeech=FW]
-[Text=teeth CharacterOffsetBegin=355 CharacterOffsetEnd=360 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=360 CharacterOffsetEnd=361 PartOfSpeech=,]
-[Text=whatever CharacterOffsetBegin=362 CharacterOffsetEnd=370 PartOfSpeech=WDT]
-[Text=those CharacterOffsetBegin=371 CharacterOffsetEnd=376 PartOfSpeech=DT]
-[Text=might CharacterOffsetBegin=377 CharacterOffsetEnd=382 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=385 CharacterOffsetEnd=386 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=user CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=NN Lemma=user NamedEntityTag=O]
+[Text=goes CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=VBZ Lemma=go NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=218 CharacterOffsetEnd=220 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=say CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=VB Lemma=say NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=226 CharacterOffsetEnd=227 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=This CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=232 CharacterOffsetEnd=237 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=interpreted CharacterOffsetBegin=241 CharacterOffsetEnd=252 PartOfSpeech=VBN Lemma=interpret NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=253 CharacterOffsetEnd=255 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=mean CharacterOffsetBegin=256 CharacterOffsetEnd=260 PartOfSpeech=VB Lemma=mean NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=does CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=show CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=VB Lemma=show NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=teeth CharacterOffsetBegin=282 CharacterOffsetEnd=287 PartOfSpeech=NNS Lemma=tooth NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=because CharacterOffsetBegin=307 CharacterOffsetEnd=314 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=very CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=RB Lemma=very NamedEntityTag=O]
+[Text=abnormal CharacterOffsetBegin=327 CharacterOffsetEnd=335 PartOfSpeech=JJ Lemma=abnormal NamedEntityTag=O]
+[Text=teeth CharacterOffsetBegin=336 CharacterOffsetEnd=341 PartOfSpeech=NNS Lemma=tooth NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=aka CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=FW Lemma=aka NamedEntityTag=O]
+[Text=merman CharacterOffsetBegin=348 CharacterOffsetEnd=354 PartOfSpeech=FW Lemma=merman NamedEntityTag=O]
+[Text=teeth CharacterOffsetBegin=355 CharacterOffsetEnd=360 PartOfSpeech=NNS Lemma=tooth NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=360 CharacterOffsetEnd=361 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=whatever CharacterOffsetBegin=362 CharacterOffsetEnd=370 PartOfSpeech=WDT Lemma=whatever NamedEntityTag=O]
+[Text=those CharacterOffsetBegin=371 CharacterOffsetEnd=376 PartOfSpeech=DT Lemma=those NamedEntityTag=O]
+[Text=might CharacterOffsetBegin=377 CharacterOffsetEnd=382 PartOfSpeech=MD Lemma=might NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=385 CharacterOffsetEnd=386 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NN user))
+    (VP (VBZ goes)
+      (PP (IN on)
+        (NP
+          (S
+            (VP (TO to)
+              (VP (VB say) (, ,) (`` ``)
+                (S
+                  (S
+                    (NP (DT This))
+                    (VP (MD could)
+                      (VP (VB be)
+                        (VP (VBN interpreted)
+                          (S
+                            (VP (TO to)
+                              (VP (VB mean)
+                                (SBAR
+                                  (S
+                                    (NP (PRP he))
+                                    (VP (VBZ does) (RB not)
+                                      (VP (VB show)
+                                        (NP (PRP$ his) (NNS teeth)))))))))))))
+                  (, ,)
+                  (CC and)
+                  (S
+                    (NP (DT that))
+                    (VP (MD could)
+                      (VP (VB be)
+                        (SBAR (IN because)
+                          (S
+                            (NP (PRP he))
+                            (VP (VBZ has)
+                              (NP
+                                (ADJP (RB very) (JJ abnormal))
+                                (NNS teeth))))))))))))
+          (, ,) ('' '')
+          (NP
+            (NP (FW aka) (FW merman) (NNS teeth))
+            (, ,)
+            (SBAR
+              (WHNP (WDT whatever))
+              (S
+                (NP (DT those))
+                (VP (MD might)
+                  (VP (VB be)))))))))
+    (. .)))
+
+root(ROOT-0, goes-3)
+det(user-2, The-1)
+nsubj(goes-3, user-2)
+case(teeth-36, on-4)
+mark(say-6, to-5)
+dep(teeth-36, say-6)
+punct(say-6, ,-7)
+punct(say-6, ``-8)
+nsubjpass(interpreted-12, This-9)
+nsubj:xsubj(mean-14, This-9)
+aux(interpreted-12, could-10)
+auxpass(interpreted-12, be-11)
+xcomp(say-6, interpreted-12)
+mark(mean-14, to-13)
+xcomp(interpreted-12, mean-14)
+nsubj(show-18, he-15)
+aux(show-18, does-16)
+neg(show-18, not-17)
+ccomp(mean-14, show-18)
+nmod:poss(teeth-20, his-19)
+dobj(show-18, teeth-20)
+punct(interpreted-12, ,-21)
+cc(interpreted-12, and-22)
+nsubj(be-25, that-23)
+aux(be-25, could-24)
+xcomp(say-6, be-25)
+conj:and(interpreted-12, be-25)
+mark(has-28, because-26)
+nsubj(has-28, he-27)
+advcl:because(be-25, has-28)
+advmod(abnormal-30, very-29)
+amod(teeth-31, abnormal-30)
+dobj(has-28, teeth-31)
+punct(teeth-36, ,-32)
+punct(teeth-36, ''-33)
+compound(teeth-36, aka-34)
+compound(teeth-36, merman-35)
+nmod:on(goes-3, teeth-36)
+punct(teeth-36, ,-37)
+dobj(be-41, whatever-38)
+nsubj(be-41, those-39)
+aux(be-41, might-40)
+acl:relcl(teeth-36, be-41)
+punct(goes-3, .-42)
+
 Sentence #6 (37 tokens):
 Also, Tyrion threatens to throw him into the sea at one point and Varys is super unconcerned and says something along the lines of, "The results of that might bum you out."
-[Text=Also CharacterOffsetBegin=387 CharacterOffsetEnd=391 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=391 CharacterOffsetEnd=392 PartOfSpeech=,]
-[Text=Tyrion CharacterOffsetBegin=393 CharacterOffsetEnd=399 PartOfSpeech=NNP]
-[Text=threatens CharacterOffsetBegin=400 CharacterOffsetEnd=409 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=410 CharacterOffsetEnd=412 PartOfSpeech=TO]
-[Text=throw CharacterOffsetBegin=413 CharacterOffsetEnd=418 PartOfSpeech=VB]
-[Text=him CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=PRP]
-[Text=into CharacterOffsetBegin=423 CharacterOffsetEnd=427 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=428 CharacterOffsetEnd=431 PartOfSpeech=DT]
-[Text=sea CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=436 CharacterOffsetEnd=438 PartOfSpeech=IN]
-[Text=one CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=CD]
-[Text=point CharacterOffsetBegin=443 CharacterOffsetEnd=448 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=CC]
-[Text=Varys CharacterOffsetBegin=453 CharacterOffsetEnd=458 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=459 CharacterOffsetEnd=461 PartOfSpeech=VBZ]
-[Text=super CharacterOffsetBegin=462 CharacterOffsetEnd=467 PartOfSpeech=JJ]
-[Text=unconcerned CharacterOffsetBegin=468 CharacterOffsetEnd=479 PartOfSpeech=JJ]
-[Text=and CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=CC]
-[Text=says CharacterOffsetBegin=484 CharacterOffsetEnd=488 PartOfSpeech=VBZ]
-[Text=something CharacterOffsetBegin=489 CharacterOffsetEnd=498 PartOfSpeech=NN]
-[Text=along CharacterOffsetBegin=499 CharacterOffsetEnd=504 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=DT]
-[Text=lines CharacterOffsetBegin=509 CharacterOffsetEnd=514 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=515 CharacterOffsetEnd=517 PartOfSpeech=IN]
-[Text=, CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=,]
-[Text=`` CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=``]
-[Text=The CharacterOffsetBegin=520 CharacterOffsetEnd=523 PartOfSpeech=DT]
-[Text=results CharacterOffsetBegin=524 CharacterOffsetEnd=531 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=532 CharacterOffsetEnd=534 PartOfSpeech=IN]
-[Text=that CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=DT]
-[Text=might CharacterOffsetBegin=540 CharacterOffsetEnd=545 PartOfSpeech=MD]
-[Text=bum CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=VB]
-[Text=you CharacterOffsetBegin=550 CharacterOffsetEnd=553 PartOfSpeech=PRP]
-[Text=out CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=RP]
-[Text=. CharacterOffsetBegin=557 CharacterOffsetEnd=558 PartOfSpeech=.]
-[Text='' CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech='']
+[Text=Also CharacterOffsetBegin=387 CharacterOffsetEnd=391 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=391 CharacterOffsetEnd=392 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Tyrion CharacterOffsetBegin=393 CharacterOffsetEnd=399 PartOfSpeech=NNP Lemma=Tyrion NamedEntityTag=PERSON]
+[Text=threatens CharacterOffsetBegin=400 CharacterOffsetEnd=409 PartOfSpeech=VBZ Lemma=threaten NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=410 CharacterOffsetEnd=412 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=throw CharacterOffsetBegin=413 CharacterOffsetEnd=418 PartOfSpeech=VB Lemma=throw NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=423 CharacterOffsetEnd=427 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=428 CharacterOffsetEnd=431 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=sea CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=NN Lemma=sea NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=436 CharacterOffsetEnd=438 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=point CharacterOffsetBegin=443 CharacterOffsetEnd=448 PartOfSpeech=NN Lemma=point NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Varys CharacterOffsetBegin=453 CharacterOffsetEnd=458 PartOfSpeech=NNP Lemma=Varys NamedEntityTag=LOCATION]
+[Text=is CharacterOffsetBegin=459 CharacterOffsetEnd=461 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=super CharacterOffsetBegin=462 CharacterOffsetEnd=467 PartOfSpeech=JJ Lemma=super NamedEntityTag=O]
+[Text=unconcerned CharacterOffsetBegin=468 CharacterOffsetEnd=479 PartOfSpeech=JJ Lemma=unconcerned NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=480 CharacterOffsetEnd=483 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=says CharacterOffsetBegin=484 CharacterOffsetEnd=488 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O]
+[Text=something CharacterOffsetBegin=489 CharacterOffsetEnd=498 PartOfSpeech=NN Lemma=something NamedEntityTag=O]
+[Text=along CharacterOffsetBegin=499 CharacterOffsetEnd=504 PartOfSpeech=IN Lemma=along NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=lines CharacterOffsetBegin=509 CharacterOffsetEnd=514 PartOfSpeech=NNS Lemma=line NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=515 CharacterOffsetEnd=517 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=520 CharacterOffsetEnd=523 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=results CharacterOffsetBegin=524 CharacterOffsetEnd=531 PartOfSpeech=NNS Lemma=result NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=532 CharacterOffsetEnd=534 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=might CharacterOffsetBegin=540 CharacterOffsetEnd=545 PartOfSpeech=MD Lemma=might NamedEntityTag=O]
+[Text=bum CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=VB Lemma=bum NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=550 CharacterOffsetEnd=553 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=554 CharacterOffsetEnd=557 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=557 CharacterOffsetEnd=558 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=558 CharacterOffsetEnd=559 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Also))
+    (PRN (, ,)
+      (S
+        (S
+          (NP (NNP Tyrion))
+          (VP (VBZ threatens)
+            (S
+              (VP (TO to)
+                (VP (VB throw)
+                  (NP (PRP him))
+                  (PP (IN into)
+                    (NP
+                      (NP (DT the) (NN sea))
+                      (PP (IN at)
+                        (NP (CD one) (NN point))))))))))
+        (CC and)
+        (S
+          (NP (NNP Varys))
+          (VP (VBZ is)
+            (UCP
+              (ADJP (JJ super) (JJ unconcerned))
+              (CC and)
+              (VP (VBZ says)
+                (NP (NN something))
+                (PP (IN along)
+                  (NP
+                    (NP (DT the) (NNS lines))
+                    (PP (IN of)))))))))
+      (, ,))
+    (`` ``)
+    (NP
+      (NP (DT The) (NNS results))
+      (PP (IN of)
+        (NP (DT that))))
+    (VP (MD might)
+      (VP (VB bum)
+        (NP (PRP you))
+        (PRT (RP out))))
+    (. .) ('' '')))
+
+root(ROOT-0, bum-33)
+advmod(bum-33, Also-1)
+punct(threatens-4, ,-2)
+nsubj(threatens-4, Tyrion-3)
+nsubj:xsubj(throw-6, Tyrion-3)
+parataxis(bum-33, threatens-4)
+mark(throw-6, to-5)
+xcomp(threatens-4, throw-6)
+dobj(throw-6, him-7)
+case(sea-10, into-8)
+det(sea-10, the-9)
+nmod:into(throw-6, sea-10)
+case(point-13, at-11)
+nummod(point-13, one-12)
+nmod:at(sea-10, point-13)
+cc(threatens-4, and-14)
+nsubj(unconcerned-18, Varys-15)
+nsubj(says-20, Varys-15)
+cop(unconcerned-18, is-16)
+amod(unconcerned-18, super-17)
+conj:and(threatens-4, unconcerned-18)
+parataxis(bum-33, unconcerned-18)
+cc(unconcerned-18, and-19)
+conj:and(threatens-4, says-20)
+conj:and(unconcerned-18, says-20)
+dobj(says-20, something-21)
+case(lines-24, along-22)
+det(lines-24, the-23)
+nmod:along(says-20, lines-24)
+acl(lines-24, of-25)
+punct(threatens-4, ,-26)
+punct(bum-33, ``-27)
+det(results-29, The-28)
+nsubj(bum-33, results-29)
+case(that-31, of-30)
+nmod:of(results-29, that-31)
+aux(bum-33, might-32)
+dobj(bum-33, you-34)
+compound:prt(bum-33, out-35)
+punct(bum-33, .-36)
+punct(bum-33, ''-37)
+
 Sentence #7 (6 tokens):
 (I'm paraphrasing).
-[Text=-LRB- CharacterOffsetBegin=560 CharacterOffsetEnd=561 PartOfSpeech=-LRB-]
-[Text=I CharacterOffsetBegin=561 CharacterOffsetEnd=562 PartOfSpeech=PRP]
-[Text='m CharacterOffsetBegin=562 CharacterOffsetEnd=564 PartOfSpeech=VBP]
-[Text=paraphrasing CharacterOffsetBegin=565 CharacterOffsetEnd=577 PartOfSpeech=VBG]
-[Text=-RRB- CharacterOffsetBegin=577 CharacterOffsetEnd=578 PartOfSpeech=-RRB-]
-[Text=. CharacterOffsetBegin=578 CharacterOffsetEnd=579 PartOfSpeech=.]
+[Text=-LRB- CharacterOffsetBegin=560 CharacterOffsetEnd=561 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=561 CharacterOffsetEnd=562 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text='m CharacterOffsetBegin=562 CharacterOffsetEnd=564 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=paraphrasing CharacterOffsetBegin=565 CharacterOffsetEnd=577 PartOfSpeech=VBG Lemma=paraphrase NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=577 CharacterOffsetEnd=578 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=578 CharacterOffsetEnd=579 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (-LRB- -LRB-)
+    (NP (PRP I))
+    (VP (VBP 'm)
+      (VP (VBG paraphrasing)))
+    (-RRB- -RRB-) (. .)))
+
+root(ROOT-0, paraphrasing-4)
+punct(paraphrasing-4, -LRB--1)
+nsubj(paraphrasing-4, I-2)
+aux(paraphrasing-4, 'm-3)
+punct(paraphrasing-4, -RRB--5)
+punct(paraphrasing-4, .-6)
+
 Sentence #8 (15 tokens):
 You can read the rest of the user's evidence at the link above.
-[Text=You CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=PRP]
-[Text=can CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=MD]
-[Text=read CharacterOffsetBegin=588 CharacterOffsetEnd=592 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=593 CharacterOffsetEnd=596 PartOfSpeech=DT]
-[Text=rest CharacterOffsetBegin=597 CharacterOffsetEnd=601 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=602 CharacterOffsetEnd=604 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=605 CharacterOffsetEnd=608 PartOfSpeech=DT]
-[Text=user CharacterOffsetBegin=609 CharacterOffsetEnd=613 PartOfSpeech=NN]
-[Text='s CharacterOffsetBegin=613 CharacterOffsetEnd=615 PartOfSpeech=POS]
-[Text=evidence CharacterOffsetBegin=616 CharacterOffsetEnd=624 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=625 CharacterOffsetEnd=627 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=628 CharacterOffsetEnd=631 PartOfSpeech=DT]
-[Text=link CharacterOffsetBegin=632 CharacterOffsetEnd=636 PartOfSpeech=NN]
-[Text=above CharacterOffsetBegin=637 CharacterOffsetEnd=642 PartOfSpeech=IN]
-[Text=. CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=.]
+[Text=You CharacterOffsetBegin=580 CharacterOffsetEnd=583 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=584 CharacterOffsetEnd=587 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=read CharacterOffsetBegin=588 CharacterOffsetEnd=592 PartOfSpeech=VB Lemma=read NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=593 CharacterOffsetEnd=596 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=rest CharacterOffsetBegin=597 CharacterOffsetEnd=601 PartOfSpeech=NN Lemma=rest NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=602 CharacterOffsetEnd=604 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=605 CharacterOffsetEnd=608 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=user CharacterOffsetBegin=609 CharacterOffsetEnd=613 PartOfSpeech=NN Lemma=user NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=613 CharacterOffsetEnd=615 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=evidence CharacterOffsetBegin=616 CharacterOffsetEnd=624 PartOfSpeech=NN Lemma=evidence NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=625 CharacterOffsetEnd=627 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=628 CharacterOffsetEnd=631 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=link CharacterOffsetBegin=632 CharacterOffsetEnd=636 PartOfSpeech=NN Lemma=link NamedEntityTag=O]
+[Text=above CharacterOffsetBegin=637 CharacterOffsetEnd=642 PartOfSpeech=IN Lemma=above NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=642 CharacterOffsetEnd=643 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (MD can)
+      (VP (VB read)
+        (NP
+          (NP (DT the) (NN rest))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (NN user) (POS 's))
+              (NN evidence))))
+        (PP (IN at)
+          (ADVP
+            (NP (DT the) (NN link))
+            (IN above)))))
+    (. .)))
+
+root(ROOT-0, read-3)
+nsubj(read-3, You-1)
+aux(read-3, can-2)
+det(rest-5, the-4)
+dobj(read-3, rest-5)
+case(evidence-10, of-6)
+det(user-8, the-7)
+nmod:poss(evidence-10, user-8)
+case(user-8, 's-9)
+nmod:of(rest-5, evidence-10)
+case(link-13, at-11)
+det(link-13, the-12)
+advcl:above(read-3, link-13)
+case(link-13, above-14)
+punct(read-3, .-15)
+
+Coreference set:
+	(7,2,[2,3]) -> (6,34,[34,35]), that is: "I" -> "you"
+Coreference set:
+	(1,1,[1,2]) -> (6,15,[15,16]), that is: "Varys" -> "Varys"
+	(2,8,[8,9]) -> (6,15,[15,16]), that is: "Varys" -> "Varys"
+Coreference set:
+	(2,12,[11,13]) -> (1,4,[3,5]), that is: "a merman" -> "A Merman"
+Coreference set:
+	(5,9,[9,10]) -> (3,9,[9,10]), that is: "This" -> "this"
+Coreference set:
+	(4,5,[5,6]) -> (4,2,[1,3]), that is: "he" -> "The user"
+	(5,2,[1,3]) -> (4,2,[1,3]), that is: "The user" -> "The user"
+	(5,15,[15,16]) -> (4,2,[1,3]), that is: "he" -> "The user"
+	(5,19,[19,20]) -> (4,2,[1,3]), that is: "his" -> "The user"
+	(5,27,[27,28]) -> (4,2,[1,3]), that is: "he" -> "The user"
+	(8,8,[7,10]) -> (4,2,[1,3]), that is: "the user 's" -> "The user"
+Coreference set:
+	(5,20,[19,21]) -> (5,36,[34,37]), that is: "his teeth" -> "aka merman teeth"
+	(5,23,[23,24]) -> (5,36,[34,37]), that is: "that" -> "aka merman teeth"
+Coreference set:
+	(6,7,[7,8]) -> (6,3,[3,4]), that is: "him" -> "Tyrion"
+Coreference set:
+	(6,31,[31,32]) -> (6,24,[23,26]), that is: "that" -> "the lines of"

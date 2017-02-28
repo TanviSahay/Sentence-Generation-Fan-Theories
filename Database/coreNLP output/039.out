@@ -1,138 +1,455 @@
 Sentence #1 (31 tokens):
 Bran and Meera are found by one of the men of the Night's Watch and taken to the Lord Commander Edd, who decides to take them to Winterfell.
-[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=5 CharacterOffsetEnd=8 PartOfSpeech=CC]
-[Text=Meera CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NNP]
-[Text=are CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBP]
-[Text=found CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=VBN]
-[Text=by CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=IN]
-[Text=one CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=CD]
-[Text=of CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=DT]
-[Text=men CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=DT]
-[Text=Night CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=POS]
-[Text=Watch CharacterOffsetBegin=58 CharacterOffsetEnd=63 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=CC]
-[Text=taken CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=VBN]
-[Text=to CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=DT]
-[Text=Lord CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=NNP]
-[Text=Commander CharacterOffsetBegin=86 CharacterOffsetEnd=95 PartOfSpeech=NNP]
-[Text=Edd CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=,]
-[Text=who CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=WP]
-[Text=decides CharacterOffsetBegin=105 CharacterOffsetEnd=112 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=TO]
-[Text=take CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=VB]
-[Text=them CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=PRP]
-[Text=to CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=TO]
-[Text=Winterfell CharacterOffsetBegin=129 CharacterOffsetEnd=139 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=.]
+[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=5 CharacterOffsetEnd=8 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Meera CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=NNP Lemma=Meera NamedEntityTag=PERSON]
+[Text=are CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=found CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=VBN Lemma=find NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=of CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=men CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=NNS Lemma=man NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Night CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=NNP Lemma=Night NamedEntityTag=TIME NormalizedNamedEntityTag=TNI Timex=<TIMEX3 tid="t1" type="TIME" value="TNI">Night</TIMEX3>]
+[Text='s CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Watch CharacterOffsetBegin=58 CharacterOffsetEnd=63 PartOfSpeech=NNP Lemma=Watch NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=taken CharacterOffsetBegin=68 CharacterOffsetEnd=73 PartOfSpeech=VBN Lemma=take NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Lord CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=NNP Lemma=Lord NamedEntityTag=O]
+[Text=Commander CharacterOffsetBegin=86 CharacterOffsetEnd=95 PartOfSpeech=NNP Lemma=Commander NamedEntityTag=O]
+[Text=Edd CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=NNP Lemma=Edd NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=decides CharacterOffsetBegin=105 CharacterOffsetEnd=112 PartOfSpeech=VBZ Lemma=decide NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=take CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=VB Lemma=take NamedEntityTag=O]
+[Text=them CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=126 CharacterOffsetEnd=128 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Winterfell CharacterOffsetBegin=129 CharacterOffsetEnd=139 PartOfSpeech=NNP Lemma=Winterfell NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Bran)
+      (CC and)
+      (NNP Meera))
+    (VP (VBP are)
+      (VP
+        (VP (VBN found)
+          (PP (IN by)
+            (NP
+              (NP (CD one))
+              (PP (IN of)
+                (NP
+                  (NP (DT the) (NNS men))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT the) (NNP Night) (POS 's))
+                      (NNP Watch))))))))
+        (CC and)
+        (VP (VBN taken)
+          (PP (TO to)
+            (NP
+              (NP (DT the) (NNP Lord) (NNP Commander) (NNP Edd))
+              (, ,)
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBZ decides)
+                    (S
+                      (VP (TO to)
+                        (VP (VB take)
+                          (NP (PRP them))
+                          (PP (TO to)
+                            (NP (NNP Winterfell))))))))))))))
+    (. .)))
+
+root(ROOT-0, found-5)
+nsubjpass(found-5, Bran-1)
+nsubjpass(taken-17, Bran-1)
+cc(Bran-1, and-2)
+conj:and(Bran-1, Meera-3)
+nsubjpass(found-5, Meera-3)
+auxpass(found-5, are-4)
+case(one-7, by-6)
+det:qmod(men-10, one-7)
+mwe(one-7, of-8)
+det(men-10, the-9)
+nmod(found-5, men-10)
+case(Watch-15, of-11)
+det(Night-13, the-12)
+nmod:poss(Watch-15, Night-13)
+case(Night-13, 's-14)
+nmod:of(men-10, Watch-15)
+cc(found-5, and-16)
+conj:and(found-5, taken-17)
+case(Edd-22, to-18)
+det(Edd-22, the-19)
+compound(Edd-22, Lord-20)
+compound(Edd-22, Commander-21)
+nmod:to(taken-17, Edd-22)
+nsubj(decides-25, Edd-22)
+nsubj:xsubj(take-27, Edd-22)
+punct(Edd-22, ,-23)
+ref(Edd-22, who-24)
+acl:relcl(Edd-22, decides-25)
+mark(take-27, to-26)
+xcomp(decides-25, take-27)
+dobj(take-27, them-28)
+case(Winterfell-30, to-29)
+nmod:to(take-27, Winterfell-30)
+punct(found-5, .-31)
+
 Sentence #2 (25 tokens):
 The wall will not fall because of Bran (it will fall at the end of the season, but for another reason).
-[Text=The CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=DT]
-[Text=wall CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=NN]
-[Text=will CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=MD]
-[Text=not CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=RB]
-[Text=fall CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=VB]
-[Text=because CharacterOffsetBegin=164 CharacterOffsetEnd=171 PartOfSpeech=IN]
-[Text=of CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=IN]
-[Text=Bran CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=NNP]
-[Text=-LRB- CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=-LRB-]
-[Text=it CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=PRP]
-[Text=will CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=MD]
-[Text=fall CharacterOffsetBegin=189 CharacterOffsetEnd=193 PartOfSpeech=VB]
-[Text=at CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=DT]
-[Text=end CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=DT]
-[Text=season CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=CC]
-[Text=for CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=IN]
-[Text=another CharacterOffsetBegin=228 CharacterOffsetEnd=235 PartOfSpeech=DT]
-[Text=reason CharacterOffsetBegin=236 CharacterOffsetEnd=242 PartOfSpeech=NN]
-[Text=-RRB- CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=-RRB-]
-[Text=. CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=wall CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=NN Lemma=wall NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=fall CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=VB Lemma=fall NamedEntityTag=O]
+[Text=because CharacterOffsetBegin=164 CharacterOffsetEnd=171 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=172 CharacterOffsetEnd=174 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=fall CharacterOffsetBegin=189 CharacterOffsetEnd=193 PartOfSpeech=VB Lemma=fall NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=end CharacterOffsetBegin=201 CharacterOffsetEnd=204 PartOfSpeech=NN Lemma=end NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=another CharacterOffsetBegin=228 CharacterOffsetEnd=235 PartOfSpeech=DT Lemma=another NamedEntityTag=O]
+[Text=reason CharacterOffsetBegin=236 CharacterOffsetEnd=242 PartOfSpeech=NN Lemma=reason NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NN wall))
+    (VP (MD will) (RB not)
+      (VP (VB fall)
+        (PP (IN because)
+          (PP (IN of)
+            (NP (NNP Bran))))
+        (PRN (-LRB- -LRB-)
+          (S
+            (NP (PRP it))
+            (VP (MD will)
+              (VP (VB fall)
+                (PP
+                  (PP (IN at)
+                    (NP
+                      (NP (DT the) (NN end))
+                      (PP (IN of)
+                        (NP (DT the) (NN season)))))
+                  (, ,)
+                  (CC but)
+                  (PP (IN for)
+                    (NP (DT another) (NN reason)))))))
+          (-RRB- -RRB-))))
+    (. .)))
+
+root(ROOT-0, fall-5)
+det(wall-2, The-1)
+nsubj(fall-5, wall-2)
+aux(fall-5, will-3)
+neg(fall-5, not-4)
+case(Bran-8, because-6)
+case(Bran-8, of-7)
+nmod:of(fall-5, Bran-8)
+punct(fall-12, -LRB--9)
+nsubj(fall-12, it-10)
+nsubj(fall-12', it-10)
+aux(fall-12, will-11)
+parataxis(fall-5, fall-12)
+parataxis(fall-5, fall-12')
+conj:but(fall-12, fall-12')
+case(end-15, at-13)
+det(end-15, the-14)
+nmod:at(fall-12, end-15)
+case(season-18, of-16)
+det(season-18, the-17)
+nmod:of(end-15, season-18)
+punct(end-15, ,-19)
+cc(fall-12, but-20)
+case(reason-23, for-21)
+det(reason-23, another-22)
+nmod:for(fall-12', reason-23)
+punct(fall-12, -RRB--24)
+punct(fall-5, .-25)
+
 Sentence #3 (28 tokens):
 In Winterfell, Bran will meet with Jon and Sansa, and Jon will offer the place of King in the North to Bran, who refuse.
-[Text=In CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=IN]
-[Text=Winterfell CharacterOffsetBegin=249 CharacterOffsetEnd=259 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=,]
-[Text=Bran CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=MD]
-[Text=meet CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=VB]
-[Text=with CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=IN]
-[Text=Jon CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=CC]
-[Text=Sansa CharacterOffsetBegin=289 CharacterOffsetEnd=294 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=CC]
-[Text=Jon CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=MD]
-[Text=offer CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=DT]
-[Text=place CharacterOffsetBegin=319 CharacterOffsetEnd=324 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=IN]
-[Text=King CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=NNP]
-[Text=in CharacterOffsetBegin=333 CharacterOffsetEnd=335 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=DT]
-[Text=North CharacterOffsetBegin=340 CharacterOffsetEnd=345 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=TO]
-[Text=Bran CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=,]
-[Text=who CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=WP]
-[Text=refuse CharacterOffsetBegin=359 CharacterOffsetEnd=365 PartOfSpeech=VBP]
-[Text=. CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=.]
+[Text=In CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Winterfell CharacterOffsetBegin=249 CharacterOffsetEnd=259 PartOfSpeech=NNP Lemma=Winterfell NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=meet CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=VB Lemma=meet NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=281 CharacterOffsetEnd=284 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=289 CharacterOffsetEnd=294 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=offer CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=VB Lemma=offer NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=place CharacterOffsetBegin=319 CharacterOffsetEnd=324 PartOfSpeech=NN Lemma=place NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=NNP Lemma=King NamedEntityTag=ORGANIZATION]
+[Text=in CharacterOffsetBegin=333 CharacterOffsetEnd=335 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=North CharacterOffsetBegin=340 CharacterOffsetEnd=345 PartOfSpeech=NNP Lemma=North NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=refuse CharacterOffsetBegin=359 CharacterOffsetEnd=365 PartOfSpeech=VBP Lemma=refuse NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=365 CharacterOffsetEnd=366 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NNP Winterfell)))
+    (, ,)
+    (S
+      (NP (NNP Bran))
+      (VP (MD will)
+        (VP (VB meet)
+          (PP (IN with)
+            (NP (NNP Jon)
+              (CC and)
+              (NNP Sansa))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP Jon))
+      (VP (MD will)
+        (VP (VB offer)
+          (NP
+            (NP (DT the) (NN place))
+            (PP (IN of)
+              (NP
+                (NP (NNP King))
+                (PP (IN in)
+                  (NP (DT the) (NNP North))))))
+          (PP (TO to)
+            (NP
+              (NP (NNP Bran))
+              (, ,)
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBP refuse)))))))))
+    (. .)))
+
+root(ROOT-0, meet-6)
+case(Winterfell-2, In-1)
+nmod:in(meet-6, Winterfell-2)
+punct(meet-6, ,-3)
+nsubj(meet-6, Bran-4)
+aux(meet-6, will-5)
+case(Jon-8, with-7)
+nmod:with(meet-6, Jon-8)
+cc(Jon-8, and-9)
+nmod:with(meet-6, Sansa-10)
+conj:and(Jon-8, Sansa-10)
+punct(meet-6, ,-11)
+cc(meet-6, and-12)
+nsubj(offer-15, Jon-13)
+aux(offer-15, will-14)
+conj:and(meet-6, offer-15)
+det(place-17, the-16)
+dobj(offer-15, place-17)
+case(King-19, of-18)
+nmod:of(place-17, King-19)
+case(North-22, in-20)
+det(North-22, the-21)
+nmod:in(King-19, North-22)
+case(Bran-24, to-23)
+nmod:to(offer-15, Bran-24)
+nsubj(refuse-27, Bran-24)
+punct(Bran-24, ,-25)
+ref(Bran-24, who-26)
+acl:relcl(Bran-24, refuse-27)
+punct(meet-6, .-28)
+
 Sentence #4 (16 tokens):
 Bran will contact Howland through dreams, and ask for him to come to Winterfell.
-[Text=Bran CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=MD]
-[Text=contact CharacterOffsetBegin=377 CharacterOffsetEnd=384 PartOfSpeech=VB]
-[Text=Howland CharacterOffsetBegin=385 CharacterOffsetEnd=392 PartOfSpeech=NNP]
-[Text=through CharacterOffsetBegin=393 CharacterOffsetEnd=400 PartOfSpeech=IN]
-[Text=dreams CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=409 CharacterOffsetEnd=412 PartOfSpeech=CC]
-[Text=ask CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=VB]
-[Text=for CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=IN]
-[Text=him CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=PRP]
-[Text=to CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=TO]
-[Text=come CharacterOffsetBegin=428 CharacterOffsetEnd=432 PartOfSpeech=VB]
-[Text=to CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=TO]
-[Text=Winterfell CharacterOffsetBegin=436 CharacterOffsetEnd=446 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=.]
+[Text=Bran CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=contact CharacterOffsetBegin=377 CharacterOffsetEnd=384 PartOfSpeech=VB Lemma=contact NamedEntityTag=O]
+[Text=Howland CharacterOffsetBegin=385 CharacterOffsetEnd=392 PartOfSpeech=NNP Lemma=Howland NamedEntityTag=PERSON]
+[Text=through CharacterOffsetBegin=393 CharacterOffsetEnd=400 PartOfSpeech=IN Lemma=through NamedEntityTag=O]
+[Text=dreams CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=NNS Lemma=dream NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=409 CharacterOffsetEnd=412 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=ask CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=VB Lemma=ask NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=come CharacterOffsetBegin=428 CharacterOffsetEnd=432 PartOfSpeech=VB Lemma=come NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Winterfell CharacterOffsetBegin=436 CharacterOffsetEnd=446 PartOfSpeech=NNP Lemma=Winterfell NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Bran))
+    (VP (MD will)
+      (VP
+        (VP (VB contact)
+          (NP (NNP Howland))
+          (PP (IN through)
+            (NP (NNS dreams))))
+        (, ,)
+        (CC and)
+        (VP (VB ask)
+          (SBAR (IN for)
+            (S
+              (NP (PRP him))
+              (VP (TO to)
+                (VP (VB come)
+                  (PP (TO to)
+                    (NP (NNP Winterfell))))))))))
+    (. .)))
+
+root(ROOT-0, contact-3)
+nsubj(contact-3, Bran-1)
+nsubj(ask-9, Bran-1)
+aux(contact-3, will-2)
+dobj(contact-3, Howland-4)
+case(dreams-6, through-5)
+nmod:through(contact-3, dreams-6)
+punct(contact-3, ,-7)
+cc(contact-3, and-8)
+conj:and(contact-3, ask-9)
+mark(come-13, for-10)
+nsubj(come-13, him-11)
+mark(come-13, to-12)
+advcl:to(ask-9, come-13)
+case(Winterfell-15, to-14)
+nmod:to(come-13, Winterfell-15)
+punct(contact-3, .-16)
+
 Sentence #5 (28 tokens):
 Howland then confirms Jon's paternity (and now, my fool personal desire, he will arrange an engagement between Bran and his daughter Meera).
-[Text=Howland CharacterOffsetBegin=449 CharacterOffsetEnd=456 PartOfSpeech=NNP]
-[Text=then CharacterOffsetBegin=457 CharacterOffsetEnd=461 PartOfSpeech=RB]
-[Text=confirms CharacterOffsetBegin=462 CharacterOffsetEnd=470 PartOfSpeech=VBZ]
-[Text=Jon CharacterOffsetBegin=471 CharacterOffsetEnd=474 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=474 CharacterOffsetEnd=476 PartOfSpeech=POS]
-[Text=paternity CharacterOffsetBegin=477 CharacterOffsetEnd=486 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=487 CharacterOffsetEnd=488 PartOfSpeech=-LRB-]
-[Text=and CharacterOffsetBegin=488 CharacterOffsetEnd=491 PartOfSpeech=CC]
-[Text=now CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=,]
-[Text=my CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=PRP$]
-[Text=fool CharacterOffsetBegin=500 CharacterOffsetEnd=504 PartOfSpeech=NN]
-[Text=personal CharacterOffsetBegin=505 CharacterOffsetEnd=513 PartOfSpeech=JJ]
-[Text=desire CharacterOffsetBegin=514 CharacterOffsetEnd=520 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=,]
-[Text=he CharacterOffsetBegin=522 CharacterOffsetEnd=524 PartOfSpeech=PRP]
-[Text=will CharacterOffsetBegin=525 CharacterOffsetEnd=529 PartOfSpeech=MD]
-[Text=arrange CharacterOffsetBegin=530 CharacterOffsetEnd=537 PartOfSpeech=VB]
-[Text=an CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=DT]
-[Text=engagement CharacterOffsetBegin=541 CharacterOffsetEnd=551 PartOfSpeech=NN]
-[Text=between CharacterOffsetBegin=552 CharacterOffsetEnd=559 PartOfSpeech=IN]
-[Text=Bran CharacterOffsetBegin=560 CharacterOffsetEnd=564 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=565 CharacterOffsetEnd=568 PartOfSpeech=CC]
-[Text=his CharacterOffsetBegin=569 CharacterOffsetEnd=572 PartOfSpeech=PRP$]
-[Text=daughter CharacterOffsetBegin=573 CharacterOffsetEnd=581 PartOfSpeech=NN]
-[Text=Meera CharacterOffsetBegin=582 CharacterOffsetEnd=587 PartOfSpeech=NNP]
-[Text=-RRB- CharacterOffsetBegin=587 CharacterOffsetEnd=588 PartOfSpeech=-RRB-]
-[Text=. CharacterOffsetBegin=588 CharacterOffsetEnd=589 PartOfSpeech=.]
+[Text=Howland CharacterOffsetBegin=449 CharacterOffsetEnd=456 PartOfSpeech=NNP Lemma=Howland NamedEntityTag=PERSON]
+[Text=then CharacterOffsetBegin=457 CharacterOffsetEnd=461 PartOfSpeech=RB Lemma=then NamedEntityTag=O]
+[Text=confirms CharacterOffsetBegin=462 CharacterOffsetEnd=470 PartOfSpeech=VBZ Lemma=confirm NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=471 CharacterOffsetEnd=474 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=474 CharacterOffsetEnd=476 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=paternity CharacterOffsetBegin=477 CharacterOffsetEnd=486 PartOfSpeech=NN Lemma=paternity NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=487 CharacterOffsetEnd=488 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=488 CharacterOffsetEnd=491 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=, CharacterOffsetBegin=495 CharacterOffsetEnd=496 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=my CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=PRP$ Lemma=my NamedEntityTag=O]
+[Text=fool CharacterOffsetBegin=500 CharacterOffsetEnd=504 PartOfSpeech=NN Lemma=fool NamedEntityTag=O]
+[Text=personal CharacterOffsetBegin=505 CharacterOffsetEnd=513 PartOfSpeech=JJ Lemma=personal NamedEntityTag=O]
+[Text=desire CharacterOffsetBegin=514 CharacterOffsetEnd=520 PartOfSpeech=NN Lemma=desire NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=522 CharacterOffsetEnd=524 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=525 CharacterOffsetEnd=529 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=arrange CharacterOffsetBegin=530 CharacterOffsetEnd=537 PartOfSpeech=VB Lemma=arrange NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=engagement CharacterOffsetBegin=541 CharacterOffsetEnd=551 PartOfSpeech=NN Lemma=engagement NamedEntityTag=O]
+[Text=between CharacterOffsetBegin=552 CharacterOffsetEnd=559 PartOfSpeech=IN Lemma=between NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=560 CharacterOffsetEnd=564 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=565 CharacterOffsetEnd=568 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=569 CharacterOffsetEnd=572 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=daughter CharacterOffsetBegin=573 CharacterOffsetEnd=581 PartOfSpeech=NN Lemma=daughter NamedEntityTag=O]
+[Text=Meera CharacterOffsetBegin=582 CharacterOffsetEnd=587 PartOfSpeech=NNP Lemma=Meera NamedEntityTag=PERSON]
+[Text=-RRB- CharacterOffsetBegin=587 CharacterOffsetEnd=588 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=588 CharacterOffsetEnd=589 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Howland))
+    (ADVP (RB then))
+    (VP (VBZ confirms)
+      (NP
+        (NP
+          (NP (NNP Jon) (POS 's))
+          (NN paternity))
+        (PRN (-LRB- -LRB-)
+          (CC and)
+          (S
+            (NP (RB now))
+            (, ,)
+            (NP
+              (NP (PRP$ my) (NN fool))
+              (NP (JJ personal) (NN desire)))
+            (, ,)
+            (NP (PRP he))
+            (VP (MD will)
+              (VP (VB arrange)
+                (NP
+                  (NP (DT an) (NN engagement))
+                  (PP (IN between)
+                    (NP
+                      (NP (NNP Bran))
+                      (CC and)
+                      (NP (PRP$ his) (NN daughter) (NNP Meera))))))))
+          (-RRB- -RRB-))))
+    (. .)))
+
+root(ROOT-0, confirms-3)
+nsubj(confirms-3, Howland-1)
+advmod(confirms-3, then-2)
+nmod:poss(paternity-6, Jon-4)
+case(Jon-4, 's-5)
+dobj(confirms-3, paternity-6)
+punct(arrange-18, -LRB--7)
+cc(arrange-18, and-8)
+nsubj(arrange-18, now-9)
+punct(arrange-18, ,-10)
+nmod:poss(fool-12, my-11)
+nsubj(arrange-18, fool-12)
+amod(desire-14, personal-13)
+dep(fool-12, desire-14)
+punct(arrange-18, ,-15)
+nsubj(arrange-18, he-16)
+aux(arrange-18, will-17)
+dep(paternity-6, arrange-18)
+det(engagement-20, an-19)
+dobj(arrange-18, engagement-20)
+case(Bran-22, between-21)
+nmod:between(engagement-20, Bran-22)
+cc(Bran-22, and-23)
+nmod:poss(Meera-26, his-24)
+compound(Meera-26, daughter-25)
+nmod:between(engagement-20, Meera-26)
+conj:and(Bran-22, Meera-26)
+punct(arrange-18, -RRB--27)
+punct(confirms-3, .-28)
+
+Coreference set:
+	(1,3,[3,4]) -> (5,26,[24,27]), that is: "Meera" -> "his daughter Meera"
+Coreference set:
+	(3,2,[2,3]) -> (1,30,[30,31]), that is: "Winterfell" -> "Winterfell"
+	(4,15,[15,16]) -> (1,30,[30,31]), that is: "Winterfell" -> "Winterfell"
+Coreference set:
+	(2,8,[8,9]) -> (1,1,[1,2]), that is: "Bran" -> "Bran"
+	(3,4,[4,5]) -> (1,1,[1,2]), that is: "Bran" -> "Bran"
+	(3,24,[24,28]) -> (1,1,[1,2]), that is: "Bran , who refuse" -> "Bran"
+	(3,24,[24,25]) -> (1,1,[1,2]), that is: "Bran" -> "Bran"
+	(4,1,[1,2]) -> (1,1,[1,2]), that is: "Bran" -> "Bran"
+	(5,22,[22,23]) -> (1,1,[1,2]), that is: "Bran" -> "Bran"
+Coreference set:
+	(2,10,[10,11]) -> (2,2,[1,3]), that is: "it" -> "The wall"
+Coreference set:
+	(3,13,[13,14]) -> (3,8,[8,9]), that is: "Jon" -> "Jon"
+	(5,4,[4,6]) -> (3,8,[8,9]), that is: "Jon 's" -> "Jon"
+Coreference set:
+	(4,11,[11,12]) -> (4,4,[4,5]), that is: "him" -> "Howland"
+	(5,1,[1,2]) -> (4,4,[4,5]), that is: "Howland" -> "Howland"
+Coreference set:
+	(5,16,[16,17]) -> (5,12,[11,15]), that is: "he" -> "my fool personal desire"
+	(5,24,[24,25]) -> (5,12,[11,15]), that is: "his" -> "my fool personal desire"

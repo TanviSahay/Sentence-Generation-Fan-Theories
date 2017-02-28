@@ -1,49 +1,157 @@
 Sentence #1 (5 tokens):
 Dragonglass Is Dragon Poop.
-[Text=Dragonglass CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=NNP]
-[Text=Is CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=VBZ]
-[Text=Dragon CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=NNP]
-[Text=Poop CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=.]
+[Text=Dragonglass CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=NNP Lemma=Dragonglass NamedEntityTag=MISC]
+[Text=Is CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=VBZ Lemma=be NamedEntityTag=MISC]
+[Text=Dragon CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=NNP Lemma=Dragon NamedEntityTag=MISC]
+[Text=Poop CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=NNP Lemma=Poop NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Dragonglass))
+    (VP (VBZ Is)
+      (NP (NNP Dragon) (NNP Poop)))
+    (. .)))
+
+root(ROOT-0, Poop-4)
+nsubj(Poop-4, Dragonglass-1)
+cop(Poop-4, Is-2)
+compound(Poop-4, Dragon-3)
+punct(Poop-4, .-5)
+
 Sentence #2 (7 tokens):
 Yep, that's the theory.
-[Text=Yep CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=,]
-[Text=that CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=DT]
-[Text='s CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=44 CharacterOffsetEnd=50 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=.]
+[Text=Yep CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=NNP Lemma=Yep NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=44 CharacterOffsetEnd=50 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Yep))
+    (, ,)
+    (NP (DT that))
+    (VP (VBZ 's)
+      (NP (DT the) (NN theory)))
+    (. .)))
+
+root(ROOT-0, theory-6)
+nsubj(theory-6, Yep-1)
+punct(theory-6, ,-2)
+nsubj(theory-6, that-3)
+cop(theory-6, 's-4)
+det(theory-6, the-5)
+punct(theory-6, .-7)
+
 Sentence #3 (31 tokens):
 It gets better though, because the creator of this particular theory, Redditor The_Others_Take_Ya, wants biologists or chemists who are fans of the books to help confirm it.
-[Text=It CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=PRP]
-[Text=gets CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=VBZ]
-[Text=better CharacterOffsetBegin=60 CharacterOffsetEnd=66 PartOfSpeech=JJR]
-[Text=though CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=IN]
-[Text=, CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=,]
-[Text=because CharacterOffsetBegin=75 CharacterOffsetEnd=82 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=DT]
-[Text=creator CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=DT]
-[Text=particular CharacterOffsetBegin=103 CharacterOffsetEnd=113 PartOfSpeech=JJ]
-[Text=theory CharacterOffsetBegin=114 CharacterOffsetEnd=120 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=,]
-[Text=Redditor CharacterOffsetBegin=122 CharacterOffsetEnd=130 PartOfSpeech=NNP]
-[Text=The_Others_Take_Ya CharacterOffsetBegin=131 CharacterOffsetEnd=149 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=,]
-[Text=wants CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=VBZ]
-[Text=biologists CharacterOffsetBegin=157 CharacterOffsetEnd=167 PartOfSpeech=NNS]
-[Text=or CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=CC]
-[Text=chemists CharacterOffsetBegin=171 CharacterOffsetEnd=179 PartOfSpeech=NNS]
-[Text=who CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=WP]
-[Text=are CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=VBP]
-[Text=fans CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=DT]
-[Text=books CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=NNS]
-[Text=to CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=TO]
-[Text=help CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=VB]
-[Text=confirm CharacterOffsetBegin=214 CharacterOffsetEnd=221 PartOfSpeech=VB]
-[Text=it CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=.]
+[Text=It CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=gets CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=VBZ Lemma=get NamedEntityTag=O]
+[Text=better CharacterOffsetBegin=60 CharacterOffsetEnd=66 PartOfSpeech=JJR Lemma=better NamedEntityTag=O]
+[Text=though CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=IN Lemma=though NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=73 CharacterOffsetEnd=74 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=because CharacterOffsetBegin=75 CharacterOffsetEnd=82 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=creator CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=NN Lemma=creator NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=particular CharacterOffsetBegin=103 CharacterOffsetEnd=113 PartOfSpeech=JJ Lemma=particular NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=114 CharacterOffsetEnd=120 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Redditor CharacterOffsetBegin=122 CharacterOffsetEnd=130 PartOfSpeech=NNP Lemma=Redditor NamedEntityTag=O]
+[Text=The_Others_Take_Ya CharacterOffsetBegin=131 CharacterOffsetEnd=149 PartOfSpeech=NNP Lemma=The_Others_Take_Ya NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=wants CharacterOffsetBegin=151 CharacterOffsetEnd=156 PartOfSpeech=VBZ Lemma=want NamedEntityTag=O]
+[Text=biologists CharacterOffsetBegin=157 CharacterOffsetEnd=167 PartOfSpeech=NNS Lemma=biologist NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=chemists CharacterOffsetBegin=171 CharacterOffsetEnd=179 PartOfSpeech=NNS Lemma=chemist NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=books CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=NNS Lemma=book NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=help CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=VB Lemma=help NamedEntityTag=O]
+[Text=confirm CharacterOffsetBegin=214 CharacterOffsetEnd=221 PartOfSpeech=VB Lemma=confirm NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=222 CharacterOffsetEnd=224 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBZ gets)
+      (ADJP (JJR better) (IN though))
+      (, ,)
+      (SBAR (IN because)
+        (S
+          (NP
+            (NP (DT the) (NN creator))
+            (PP (IN of)
+              (NP
+                (NP (DT this) (JJ particular) (NN theory))
+                (, ,)
+                (NP (NNP Redditor) (NNP The_Others_Take_Ya))
+                (, ,))))
+          (VP (VBZ wants)
+            (NP
+              (NP (NNS biologists)
+                (CC or)
+                (NNS chemists))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBP are)
+                    (NP
+                      (NP (NNS fans))
+                      (PP (IN of)
+                        (NP (DT the) (NNS books)))
+                      (S
+                        (VP (TO to)
+                          (VP (VB help)
+                            (VP (VB confirm)
+                              (NP (PRP it)))))))))))))))
+    (. .)))
+
+root(ROOT-0, gets-2)
+nsubj(gets-2, It-1)
+dep(though-4, better-3)
+xcomp(gets-2, though-4)
+punct(gets-2, ,-5)
+mark(wants-17, because-6)
+det(creator-8, the-7)
+nsubj(wants-17, creator-8)
+case(theory-12, of-9)
+det(theory-12, this-10)
+amod(theory-12, particular-11)
+nmod:of(creator-8, theory-12)
+punct(theory-12, ,-13)
+compound(The_Others_Take_Ya-15, Redditor-14)
+appos(theory-12, The_Others_Take_Ya-15)
+punct(theory-12, ,-16)
+advcl:because(gets-2, wants-17)
+dobj(wants-17, biologists-18)
+nsubj(fans-23, biologists-18)
+cc(biologists-18, or-19)
+dobj(wants-17, chemists-20)
+conj:or(biologists-18, chemists-20)
+nsubj(fans-23, chemists-20)
+ref(biologists-18, who-21)
+cop(fans-23, are-22)
+acl:relcl(biologists-18, fans-23)
+case(books-26, of-24)
+det(books-26, the-25)
+nmod:of(fans-23, books-26)
+mark(help-28, to-27)
+acl:to(fans-23, help-28)
+xcomp(help-28, confirm-29)
+dobj(confirm-29, it-30)
+punct(gets-2, .-31)
+
+Coreference set:
+	(2,3,[3,4]) -> (2,1,[1,2]), that is: "that" -> "Yep"
+	(2,6,[5,7]) -> (2,1,[1,2]), that is: "the theory" -> "Yep"
+	(3,1,[1,2]) -> (2,1,[1,2]), that is: "It" -> "Yep"
+Coreference set:
+	(3,12,[10,13]) -> (3,15,[14,16]), that is: "this particular theory" -> "Redditor The_Others_Take_Ya"
+	(3,30,[30,31]) -> (3,15,[14,16]), that is: "it" -> "Redditor The_Others_Take_Ya"

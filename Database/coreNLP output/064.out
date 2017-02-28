@@ -1,329 +1,307 @@
 Sentence #1 (8 tokens):
 Jon Snow and Meera Reed are twins.
-[Text=Jon CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=CC]
-[Text=Meera CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=NNP]
-[Text=Reed CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=NNP]
-[Text=are CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=VBP]
-[Text=twins CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=.]
+[Text=Jon CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Meera CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=NNP Lemma=Meera NamedEntityTag=PERSON]
+[Text=Reed CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=NNP Lemma=Reed NamedEntityTag=PERSON]
+[Text=are CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=twins CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=NNS Lemma=twin NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Jon) (NNP Snow)
+      (CC and)
+      (NNP Meera) (NNP Reed))
+    (VP (VBP are)
+      (NP (NNS twins)))
+    (. .)))
+
+root(ROOT-0, twins-7)
+compound(Snow-2, Jon-1)
+nsubj(twins-7, Snow-2)
+cc(Snow-2, and-3)
+compound(Reed-5, Meera-4)
+conj:and(Snow-2, Reed-5)
+nsubj(twins-7, Reed-5)
+cop(twins-7, are-6)
+punct(twins-7, .-8)
+
 Sentence #2 (44 tokens):
 This is predicated on the idea that Meera's dad Howland Reed was the only person at the Tower of Joy with Ned Stark when Ned's sister Lyanna handed over her baby (Jon Snow) and begged Ned to protect him.
-[Text=This CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=DT]
-[Text=is CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=VBZ]
-[Text=predicated CharacterOffsetBegin=43 CharacterOffsetEnd=53 PartOfSpeech=VBN]
-[Text=on CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=DT]
-[Text=idea CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=IN]
-[Text=Meera CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=POS]
-[Text=dad CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=NNP]
-[Text=Howland CharacterOffsetBegin=83 CharacterOffsetEnd=90 PartOfSpeech=NNP]
-[Text=Reed CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=NNP]
-[Text=was CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=DT]
-[Text=only CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=JJ]
-[Text=person CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=DT]
-[Text=Tower CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=IN]
-[Text=Joy CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=NNP]
-[Text=with CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=IN]
-[Text=Ned CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NNP]
-[Text=when CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=WRB]
-[Text=Ned CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=POS]
-[Text=sister CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=NN]
-[Text=Lyanna CharacterOffsetBegin=169 CharacterOffsetEnd=175 PartOfSpeech=NNP]
-[Text=handed CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=VBD]
-[Text=over CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=RP]
-[Text=her CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=PRP$]
-[Text=baby CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=-LRB-]
-[Text=Jon CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=NNP]
-[Text=-RRB- CharacterOffsetBegin=206 CharacterOffsetEnd=207 PartOfSpeech=-RRB-]
-[Text=and CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=CC]
-[Text=begged CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=VBN]
-[Text=Ned CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=TO]
-[Text=protect CharacterOffsetBegin=226 CharacterOffsetEnd=233 PartOfSpeech=VB]
-[Text=him CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=.]
+[Text=This CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=predicated CharacterOffsetBegin=43 CharacterOffsetEnd=53 PartOfSpeech=VBN Lemma=predicate NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=idea CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=NN Lemma=idea NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Meera CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NNP Lemma=Meera NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=dad CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=NNP Lemma=dad NamedEntityTag=O]
+[Text=Howland CharacterOffsetBegin=83 CharacterOffsetEnd=90 PartOfSpeech=NNP Lemma=Howland NamedEntityTag=PERSON]
+[Text=Reed CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=NNP Lemma=Reed NamedEntityTag=PERSON]
+[Text=was CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=only CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=JJ Lemma=only NamedEntityTag=O]
+[Text=person CharacterOffsetBegin=109 CharacterOffsetEnd=115 PartOfSpeech=NN Lemma=person NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Tower CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=NN Lemma=tower NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Joy CharacterOffsetBegin=132 CharacterOffsetEnd=135 PartOfSpeech=NNP Lemma=Joy NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=Ned CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=NNP Lemma=Ned NamedEntityTag=PERSON]
+[Text=Stark CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=PERSON]
+[Text=when CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=Ned CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=NNP Lemma=Ned NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=sister CharacterOffsetBegin=162 CharacterOffsetEnd=168 PartOfSpeech=NN Lemma=sister NamedEntityTag=O]
+[Text=Lyanna CharacterOffsetBegin=169 CharacterOffsetEnd=175 PartOfSpeech=NNP Lemma=Lyanna NamedEntityTag=PERSON]
+[Text=handed CharacterOffsetBegin=176 CharacterOffsetEnd=182 PartOfSpeech=VBD Lemma=hand NamedEntityTag=O]
+[Text=over CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=RP Lemma=over NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=baby CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=NN Lemma=baby NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text=-RRB- CharacterOffsetBegin=206 CharacterOffsetEnd=207 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=begged CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=VBN Lemma=beg NamedEntityTag=O]
+[Text=Ned CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=NNP Lemma=Ned NamedEntityTag=PERSON]
+[Text=to CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=protect CharacterOffsetBegin=226 CharacterOffsetEnd=233 PartOfSpeech=VB Lemma=protect NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (VP
+        (VP (VBN predicated)
+          (PP (IN on)
+            (NP (DT the) (NN idea)))
+          (SBAR (IN that)
+            (S
+              (NP
+                (NP (NNP Meera) (POS 's))
+                (NNP dad) (NNP Howland) (NNP Reed))
+              (VP (VBD was)
+                (NP
+                  (NP (DT the) (JJ only) (NN person))
+                  (PP (IN at)
+                    (NP
+                      (NP (DT the) (NN Tower))
+                      (PP (IN of)
+                        (NP (NNP Joy))))))
+                (PP (IN with)
+                  (NP (NNP Ned) (NNP Stark)))
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP
+                      (NP (NNP Ned) (POS 's))
+                      (NN sister))
+                    (VP
+                      (NP
+                        (NP (NNP Lyanna))
+                        (SBAR
+                          (S
+                            (VP (VBD handed)
+                              (PRT (RP over))
+                              (NP (PRP$ her) (NN baby))))))
+                      (PRN (-LRB- -LRB-)
+                        (NP (NNP Jon) (NNP Snow))
+                        (-RRB- -RRB-)))))))))
+        (CC and)
+        (VP (VBN begged)
+          (S
+            (NP (NNP Ned))
+            (VP (TO to)
+              (VP (VB protect)
+                (NP (PRP him))))))))
+    (. .)))
+
+root(ROOT-0, predicated-3)
+nsubjpass(predicated-3, This-1)
+nsubjpass(begged-39, This-1)
+auxpass(predicated-3, is-2)
+case(idea-6, on-4)
+det(idea-6, the-5)
+nmod:on(predicated-3, idea-6)
+mark(person-16, that-7)
+nmod:poss(Reed-12, Meera-8)
+case(Meera-8, 's-9)
+compound(Reed-12, dad-10)
+compound(Reed-12, Howland-11)
+nsubj(person-16, Reed-12)
+cop(person-16, was-13)
+det(person-16, the-14)
+amod(person-16, only-15)
+ccomp(predicated-3, person-16)
+case(Tower-19, at-17)
+det(Tower-19, the-18)
+nmod:at(person-16, Tower-19)
+case(Joy-21, of-20)
+nmod:of(Tower-19, Joy-21)
+case(Stark-24, with-22)
+compound(Stark-24, Ned-23)
+nmod:with(person-16, Stark-24)
+advmod(Lyanna-29, when-25)
+nmod:poss(sister-28, Ned-26)
+case(Ned-26, 's-27)
+nsubj(Lyanna-29, sister-28)
+advcl(person-16, Lyanna-29)
+acl:relcl(Lyanna-29, handed-30)
+compound:prt(handed-30, over-31)
+nmod:poss(baby-33, her-32)
+dobj(handed-30, baby-33)
+punct(Snow-36, -LRB--34)
+compound(Snow-36, Jon-35)
+dep(Lyanna-29, Snow-36)
+punct(Snow-36, -RRB--37)
+cc(predicated-3, and-38)
+conj:and(predicated-3, begged-39)
+dobj(begged-39, Ned-40)
+nsubj:xsubj(protect-42, Ned-40)
+mark(protect-42, to-41)
+xcomp(begged-39, protect-42)
+dobj(protect-42, him-43)
+punct(predicated-3, .-44)
+
 Sentence #3 (22 tokens):
 What if Lyanna had a second baby, and Ned asked Howland to take her and raise her as his own?
-[Text=What CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=WP]
-[Text=if CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=IN]
-[Text=Lyanna CharacterOffsetBegin=247 CharacterOffsetEnd=253 PartOfSpeech=NNP]
-[Text=had CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=VBD]
-[Text=a CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=DT]
-[Text=second CharacterOffsetBegin=260 CharacterOffsetEnd=266 PartOfSpeech=JJ]
-[Text=baby CharacterOffsetBegin=267 CharacterOffsetEnd=271 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=CC]
-[Text=Ned CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=NNP]
-[Text=asked CharacterOffsetBegin=281 CharacterOffsetEnd=286 PartOfSpeech=VBD]
-[Text=Howland CharacterOffsetBegin=287 CharacterOffsetEnd=294 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=TO]
-[Text=take CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=VB]
-[Text=her CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=PRP]
-[Text=and CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=CC]
-[Text=raise CharacterOffsetBegin=311 CharacterOffsetEnd=316 PartOfSpeech=VB]
-[Text=her CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=PRP]
-[Text=as CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=PRP$]
-[Text=own CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=JJ]
-[Text=? CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=.]
-Sentence #4 (21 tokens):
-Also, Kit Harington and Ellie Kendrick kind of look alike.Varys is actually a merman
+[Text=What CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=if CharacterOffsetBegin=244 CharacterOffsetEnd=246 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=Lyanna CharacterOffsetBegin=247 CharacterOffsetEnd=253 PartOfSpeech=NNP Lemma=Lyanna NamedEntityTag=PERSON]
+[Text=had CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=VBD Lemma=have NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=258 CharacterOffsetEnd=259 PartOfSpeech=DT Lemma=a NamedEntityTag=DURATION NormalizedNamedEntityTag=PT1S Timex=<TIMEX3 tid="t1" type="DURATION" value="PT1S">a second</TIMEX3>]
+[Text=second CharacterOffsetBegin=260 CharacterOffsetEnd=266 PartOfSpeech=JJ Lemma=second NamedEntityTag=DURATION NormalizedNamedEntityTag=PT1S Timex=<TIMEX3 tid="t1" type="DURATION" value="PT1S">a second</TIMEX3>]
+[Text=baby CharacterOffsetBegin=267 CharacterOffsetEnd=271 PartOfSpeech=NN Lemma=baby NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Ned CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=NNP Lemma=Ned NamedEntityTag=PERSON]
+[Text=asked CharacterOffsetBegin=281 CharacterOffsetEnd=286 PartOfSpeech=VBD Lemma=ask NamedEntityTag=O]
+[Text=Howland CharacterOffsetBegin=287 CharacterOffsetEnd=294 PartOfSpeech=NNP Lemma=Howland NamedEntityTag=PERSON]
+[Text=to CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=take CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=VB Lemma=take NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=raise CharacterOffsetBegin=311 CharacterOffsetEnd=316 PartOfSpeech=VB Lemma=raise NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=321 CharacterOffsetEnd=323 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=own CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=JJ Lemma=own NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (SBAR (WP What) (IN if)
+    (S
+      (S
+        (NP (NNP Lyanna))
+        (VP (VBD had)
+          (NP (DT a) (JJ second) (NN baby))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (NNP Ned))
+        (VP (VBD asked)
+          (S
+            (NP (NNP Howland))
+            (VP (TO to)
+              (VP
+                (VP (VB take)
+                  (NP (PRP her)))
+                (CC and)
+                (VP (VB raise)
+                  (NP (PRP her))
+                  (PP (IN as)
+                    (NP (PRP$ his) (JJ own))))))))))
+    (. ?)))
 
-What this means: Everything.
-[Text=Also CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=,]
-[Text=Kit CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=NN]
-[Text=Harington CharacterOffsetBegin=343 CharacterOffsetEnd=352 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=CC]
-[Text=Ellie CharacterOffsetBegin=357 CharacterOffsetEnd=362 PartOfSpeech=NNP]
-[Text=Kendrick CharacterOffsetBegin=363 CharacterOffsetEnd=371 PartOfSpeech=NNP]
-[Text=kind CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=IN]
-[Text=look CharacterOffsetBegin=380 CharacterOffsetEnd=384 PartOfSpeech=NN]
-[Text=alike.Varys CharacterOffsetBegin=385 CharacterOffsetEnd=396 PartOfSpeech=NNS]
-[Text=is CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=VBZ]
-[Text=actually CharacterOffsetBegin=400 CharacterOffsetEnd=408 PartOfSpeech=RB]
-[Text=a CharacterOffsetBegin=409 CharacterOffsetEnd=410 PartOfSpeech=DT]
-[Text=merman CharacterOffsetBegin=411 CharacterOffsetEnd=417 PartOfSpeech=NN]
-[Text=What CharacterOffsetBegin=419 CharacterOffsetEnd=423 PartOfSpeech=WP]
-[Text=this CharacterOffsetBegin=424 CharacterOffsetEnd=428 PartOfSpeech=DT]
-[Text=means CharacterOffsetBegin=429 CharacterOffsetEnd=434 PartOfSpeech=VBZ]
-[Text=: CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=:]
-[Text=Everything CharacterOffsetBegin=436 CharacterOffsetEnd=446 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=.]
-Sentence #5 (4 tokens):
-This means everything.
-[Text=This CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=DT]
-[Text=means CharacterOffsetBegin=453 CharacterOffsetEnd=458 PartOfSpeech=VBZ]
-[Text=everything CharacterOffsetBegin=459 CharacterOffsetEnd=469 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=469 CharacterOffsetEnd=470 PartOfSpeech=.]
-Sentence #6 (13 tokens):
-This is the probably the most spectacular thing I’ve ever heard.
-[Text=This CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=DT]
-[Text=is CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=479 CharacterOffsetEnd=482 PartOfSpeech=DT]
-[Text=probably CharacterOffsetBegin=483 CharacterOffsetEnd=491 PartOfSpeech=RB]
-[Text=the CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=DT]
-[Text=most CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=RBS]
-[Text=spectacular CharacterOffsetBegin=501 CharacterOffsetEnd=512 PartOfSpeech=JJ]
-[Text=thing CharacterOffsetBegin=513 CharacterOffsetEnd=518 PartOfSpeech=NN]
-[Text=I CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=PRP]
-[Text='ve CharacterOffsetBegin=520 CharacterOffsetEnd=523 PartOfSpeech=VBP]
-[Text=ever CharacterOffsetBegin=524 CharacterOffsetEnd=528 PartOfSpeech=RB]
-[Text=heard CharacterOffsetBegin=529 CharacterOffsetEnd=534 PartOfSpeech=VBN]
-[Text=. CharacterOffsetBegin=534 CharacterOffsetEnd=535 PartOfSpeech=.]
-Sentence #7 (16 tokens):
-You know how Varys and Littlefinger are basically caught in their own game of thrones?
-[Text=You CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=PRP]
-[Text=know CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=VBP]
-[Text=how CharacterOffsetBegin=545 CharacterOffsetEnd=548 PartOfSpeech=WRB]
-[Text=Varys CharacterOffsetBegin=549 CharacterOffsetEnd=554 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=555 CharacterOffsetEnd=558 PartOfSpeech=CC]
-[Text=Littlefinger CharacterOffsetBegin=559 CharacterOffsetEnd=571 PartOfSpeech=NNP]
-[Text=are CharacterOffsetBegin=572 CharacterOffsetEnd=575 PartOfSpeech=VBP]
-[Text=basically CharacterOffsetBegin=576 CharacterOffsetEnd=585 PartOfSpeech=RB]
-[Text=caught CharacterOffsetBegin=586 CharacterOffsetEnd=592 PartOfSpeech=VBN]
-[Text=in CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=IN]
-[Text=their CharacterOffsetBegin=596 CharacterOffsetEnd=601 PartOfSpeech=PRP$]
-[Text=own CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=JJ]
-[Text=game CharacterOffsetBegin=606 CharacterOffsetEnd=610 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=611 CharacterOffsetEnd=613 PartOfSpeech=IN]
-[Text=thrones CharacterOffsetBegin=614 CharacterOffsetEnd=621 PartOfSpeech=NNS]
-[Text=? CharacterOffsetBegin=621 CharacterOffsetEnd=622 PartOfSpeech=.]
-Sentence #8 (14 tokens):
-We now know why Littlefinger’s doing it, because he wants power.
-[Text=We CharacterOffsetBegin=623 CharacterOffsetEnd=625 PartOfSpeech=PRP]
-[Text=now CharacterOffsetBegin=626 CharacterOffsetEnd=629 PartOfSpeech=RB]
-[Text=know CharacterOffsetBegin=630 CharacterOffsetEnd=634 PartOfSpeech=VBP]
-[Text=why CharacterOffsetBegin=635 CharacterOffsetEnd=638 PartOfSpeech=WRB]
-[Text=Littlefinger CharacterOffsetBegin=639 CharacterOffsetEnd=651 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=651 CharacterOffsetEnd=653 PartOfSpeech=POS]
-[Text=doing CharacterOffsetBegin=654 CharacterOffsetEnd=659 PartOfSpeech=VBG]
-[Text=it CharacterOffsetBegin=660 CharacterOffsetEnd=662 PartOfSpeech=PRP]
-[Text=, CharacterOffsetBegin=662 CharacterOffsetEnd=663 PartOfSpeech=,]
-[Text=because CharacterOffsetBegin=664 CharacterOffsetEnd=671 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=672 CharacterOffsetEnd=674 PartOfSpeech=PRP]
-[Text=wants CharacterOffsetBegin=675 CharacterOffsetEnd=680 PartOfSpeech=VBZ]
-[Text=power CharacterOffsetBegin=681 CharacterOffsetEnd=686 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=686 CharacterOffsetEnd=687 PartOfSpeech=.]
-Sentence #9 (6 tokens):
-But what does Varys want?
-[Text=But CharacterOffsetBegin=688 CharacterOffsetEnd=691 PartOfSpeech=CC]
-[Text=what CharacterOffsetBegin=692 CharacterOffsetEnd=696 PartOfSpeech=WP]
-[Text=does CharacterOffsetBegin=697 CharacterOffsetEnd=701 PartOfSpeech=VBZ]
-[Text=Varys CharacterOffsetBegin=702 CharacterOffsetEnd=707 PartOfSpeech=NNP]
-[Text=want CharacterOffsetBegin=708 CharacterOffsetEnd=712 PartOfSpeech=VB]
-[Text=? CharacterOffsetBegin=712 CharacterOffsetEnd=713 PartOfSpeech=.]
-Sentence #10 (23 tokens):
-Well, according to Nerdist, it’s simple: He is a merman and he wants to free his fellow merpeople.
-[Text=Well CharacterOffsetBegin=714 CharacterOffsetEnd=718 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=718 CharacterOffsetEnd=719 PartOfSpeech=,]
-[Text=according CharacterOffsetBegin=720 CharacterOffsetEnd=729 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=730 CharacterOffsetEnd=732 PartOfSpeech=TO]
-[Text=Nerdist CharacterOffsetBegin=733 CharacterOffsetEnd=740 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=740 CharacterOffsetEnd=741 PartOfSpeech=,]
-[Text=it CharacterOffsetBegin=742 CharacterOffsetEnd=744 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=744 CharacterOffsetEnd=746 PartOfSpeech=VBZ]
-[Text=simple CharacterOffsetBegin=747 CharacterOffsetEnd=753 PartOfSpeech=JJ]
-[Text=: CharacterOffsetBegin=753 CharacterOffsetEnd=754 PartOfSpeech=:]
-[Text=He CharacterOffsetBegin=755 CharacterOffsetEnd=757 PartOfSpeech=PRP]
-[Text=is CharacterOffsetBegin=758 CharacterOffsetEnd=760 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=761 CharacterOffsetEnd=762 PartOfSpeech=DT]
-[Text=merman CharacterOffsetBegin=763 CharacterOffsetEnd=769 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=770 CharacterOffsetEnd=773 PartOfSpeech=CC]
-[Text=he CharacterOffsetBegin=774 CharacterOffsetEnd=776 PartOfSpeech=PRP]
-[Text=wants CharacterOffsetBegin=777 CharacterOffsetEnd=782 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=783 CharacterOffsetEnd=785 PartOfSpeech=TO]
-[Text=free CharacterOffsetBegin=786 CharacterOffsetEnd=790 PartOfSpeech=VB]
-[Text=his CharacterOffsetBegin=791 CharacterOffsetEnd=794 PartOfSpeech=PRP$]
-[Text=fellow CharacterOffsetBegin=795 CharacterOffsetEnd=801 PartOfSpeech=JJ]
-[Text=merpeople CharacterOffsetBegin=802 CharacterOffsetEnd=811 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=811 CharacterOffsetEnd=812 PartOfSpeech=.]
-Sentence #11 (5 tokens):
-You heard that right.
-[Text=You CharacterOffsetBegin=813 CharacterOffsetEnd=816 PartOfSpeech=PRP]
-[Text=heard CharacterOffsetBegin=817 CharacterOffsetEnd=822 PartOfSpeech=VBD]
-[Text=that CharacterOffsetBegin=823 CharacterOffsetEnd=827 PartOfSpeech=IN]
-[Text=right CharacterOffsetBegin=828 CharacterOffsetEnd=833 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=833 CharacterOffsetEnd=834 PartOfSpeech=.]
-Sentence #12 (26 tokens):
-And not just any merman, but a member of the “merlings” species, which exist in A Song of Ice and Fire.
-[Text=And CharacterOffsetBegin=835 CharacterOffsetEnd=838 PartOfSpeech=CC]
-[Text=not CharacterOffsetBegin=839 CharacterOffsetEnd=842 PartOfSpeech=RB]
-[Text=just CharacterOffsetBegin=843 CharacterOffsetEnd=847 PartOfSpeech=RB]
-[Text=any CharacterOffsetBegin=848 CharacterOffsetEnd=851 PartOfSpeech=DT]
-[Text=merman CharacterOffsetBegin=852 CharacterOffsetEnd=858 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=858 CharacterOffsetEnd=859 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=860 CharacterOffsetEnd=863 PartOfSpeech=CC]
-[Text=a CharacterOffsetBegin=864 CharacterOffsetEnd=865 PartOfSpeech=DT]
-[Text=member CharacterOffsetBegin=866 CharacterOffsetEnd=872 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=873 CharacterOffsetEnd=875 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=876 CharacterOffsetEnd=879 PartOfSpeech=DT]
-[Text=`` CharacterOffsetBegin=880 CharacterOffsetEnd=881 PartOfSpeech=``]
-[Text=merlings CharacterOffsetBegin=881 CharacterOffsetEnd=889 PartOfSpeech=NNS]
-[Text='' CharacterOffsetBegin=889 CharacterOffsetEnd=890 PartOfSpeech='']
-[Text=species CharacterOffsetBegin=891 CharacterOffsetEnd=898 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=898 CharacterOffsetEnd=899 PartOfSpeech=,]
-[Text=which CharacterOffsetBegin=900 CharacterOffsetEnd=905 PartOfSpeech=WDT]
-[Text=exist CharacterOffsetBegin=906 CharacterOffsetEnd=911 PartOfSpeech=VBP]
-[Text=in CharacterOffsetBegin=912 CharacterOffsetEnd=914 PartOfSpeech=IN]
-[Text=A CharacterOffsetBegin=915 CharacterOffsetEnd=916 PartOfSpeech=DT]
-[Text=Song CharacterOffsetBegin=917 CharacterOffsetEnd=921 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=922 CharacterOffsetEnd=924 PartOfSpeech=IN]
-[Text=Ice CharacterOffsetBegin=925 CharacterOffsetEnd=928 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=929 CharacterOffsetEnd=932 PartOfSpeech=CC]
-[Text=Fire CharacterOffsetBegin=933 CharacterOffsetEnd=937 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=937 CharacterOffsetEnd=938 PartOfSpeech=.]
-Sentence #13 (8 tokens):
-The biggest hook (get it?)
-[Text=The CharacterOffsetBegin=941 CharacterOffsetEnd=944 PartOfSpeech=DT]
-[Text=biggest CharacterOffsetBegin=945 CharacterOffsetEnd=952 PartOfSpeech=JJS]
-[Text=hook CharacterOffsetBegin=953 CharacterOffsetEnd=957 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=958 CharacterOffsetEnd=959 PartOfSpeech=-LRB-]
-[Text=get CharacterOffsetBegin=959 CharacterOffsetEnd=962 PartOfSpeech=VB]
-[Text=it CharacterOffsetBegin=963 CharacterOffsetEnd=965 PartOfSpeech=PRP]
-[Text=? CharacterOffsetBegin=965 CharacterOffsetEnd=966 PartOfSpeech=.]
-[Text=-RRB- CharacterOffsetBegin=966 CharacterOffsetEnd=967 PartOfSpeech=-RRB-]
-Sentence #14 (17 tokens):
-for this theory is the speed in which Varys traveled from Dorne to Dany’s ship.
-[Text=for CharacterOffsetBegin=968 CharacterOffsetEnd=971 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=972 CharacterOffsetEnd=976 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=977 CharacterOffsetEnd=983 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=984 CharacterOffsetEnd=986 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=987 CharacterOffsetEnd=990 PartOfSpeech=DT]
-[Text=speed CharacterOffsetBegin=991 CharacterOffsetEnd=996 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=997 CharacterOffsetEnd=999 PartOfSpeech=IN]
-[Text=which CharacterOffsetBegin=1000 CharacterOffsetEnd=1005 PartOfSpeech=WDT]
-[Text=Varys CharacterOffsetBegin=1006 CharacterOffsetEnd=1011 PartOfSpeech=NNP]
-[Text=traveled CharacterOffsetBegin=1012 CharacterOffsetEnd=1020 PartOfSpeech=VBD]
-[Text=from CharacterOffsetBegin=1021 CharacterOffsetEnd=1025 PartOfSpeech=IN]
-[Text=Dorne CharacterOffsetBegin=1026 CharacterOffsetEnd=1031 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=1032 CharacterOffsetEnd=1034 PartOfSpeech=TO]
-[Text=Dany CharacterOffsetBegin=1035 CharacterOffsetEnd=1039 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=1039 CharacterOffsetEnd=1041 PartOfSpeech=POS]
-[Text=ship CharacterOffsetBegin=1042 CharacterOffsetEnd=1046 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=1046 CharacterOffsetEnd=1047 PartOfSpeech=.]
-Sentence #15 (24 tokens):
-While the showrunners have chalked it up to pacing, others have loosely speculated that it’s because Varys actually has a tail.
-[Text=While CharacterOffsetBegin=1048 CharacterOffsetEnd=1053 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=1054 CharacterOffsetEnd=1057 PartOfSpeech=DT]
-[Text=showrunners CharacterOffsetBegin=1058 CharacterOffsetEnd=1069 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=1070 CharacterOffsetEnd=1074 PartOfSpeech=VBP]
-[Text=chalked CharacterOffsetBegin=1075 CharacterOffsetEnd=1082 PartOfSpeech=VBN]
-[Text=it CharacterOffsetBegin=1083 CharacterOffsetEnd=1085 PartOfSpeech=PRP]
-[Text=up CharacterOffsetBegin=1086 CharacterOffsetEnd=1088 PartOfSpeech=RP]
-[Text=to CharacterOffsetBegin=1089 CharacterOffsetEnd=1091 PartOfSpeech=TO]
-[Text=pacing CharacterOffsetBegin=1092 CharacterOffsetEnd=1098 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=1098 CharacterOffsetEnd=1099 PartOfSpeech=,]
-[Text=others CharacterOffsetBegin=1100 CharacterOffsetEnd=1106 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=1107 CharacterOffsetEnd=1111 PartOfSpeech=VBP]
-[Text=loosely CharacterOffsetBegin=1112 CharacterOffsetEnd=1119 PartOfSpeech=RB]
-[Text=speculated CharacterOffsetBegin=1120 CharacterOffsetEnd=1130 PartOfSpeech=VBN]
-[Text=that CharacterOffsetBegin=1131 CharacterOffsetEnd=1135 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=1136 CharacterOffsetEnd=1138 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=1138 CharacterOffsetEnd=1140 PartOfSpeech=VBZ]
-[Text=because CharacterOffsetBegin=1141 CharacterOffsetEnd=1148 PartOfSpeech=IN]
-[Text=Varys CharacterOffsetBegin=1149 CharacterOffsetEnd=1154 PartOfSpeech=NNP]
-[Text=actually CharacterOffsetBegin=1155 CharacterOffsetEnd=1163 PartOfSpeech=RB]
-[Text=has CharacterOffsetBegin=1164 CharacterOffsetEnd=1167 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=1168 CharacterOffsetEnd=1169 PartOfSpeech=DT]
-[Text=tail CharacterOffsetBegin=1170 CharacterOffsetEnd=1174 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=1174 CharacterOffsetEnd=1175 PartOfSpeech=.]
-Sentence #16 (44 tokens):
-There’s even the belief that Dany’s dragons could melt the ice in The North so much that the entire Seven Kingdoms will turn into a giant ocean, leaving only merlings … and Littlefinger, because that dude will never die.
-[Text=There CharacterOffsetBegin=1176 CharacterOffsetEnd=1181 PartOfSpeech=EX]
-[Text='s CharacterOffsetBegin=1181 CharacterOffsetEnd=1183 PartOfSpeech=VBZ]
-[Text=even CharacterOffsetBegin=1184 CharacterOffsetEnd=1188 PartOfSpeech=RB]
-[Text=the CharacterOffsetBegin=1189 CharacterOffsetEnd=1192 PartOfSpeech=DT]
-[Text=belief CharacterOffsetBegin=1193 CharacterOffsetEnd=1199 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=1200 CharacterOffsetEnd=1204 PartOfSpeech=WDT]
-[Text=Dany CharacterOffsetBegin=1205 CharacterOffsetEnd=1209 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=1209 CharacterOffsetEnd=1211 PartOfSpeech=POS]
-[Text=dragons CharacterOffsetBegin=1212 CharacterOffsetEnd=1219 PartOfSpeech=NNS]
-[Text=could CharacterOffsetBegin=1220 CharacterOffsetEnd=1225 PartOfSpeech=MD]
-[Text=melt CharacterOffsetBegin=1226 CharacterOffsetEnd=1230 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=1231 CharacterOffsetEnd=1234 PartOfSpeech=DT]
-[Text=ice CharacterOffsetBegin=1235 CharacterOffsetEnd=1238 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=1239 CharacterOffsetEnd=1241 PartOfSpeech=IN]
-[Text=The CharacterOffsetBegin=1242 CharacterOffsetEnd=1245 PartOfSpeech=DT]
-[Text=North CharacterOffsetBegin=1246 CharacterOffsetEnd=1251 PartOfSpeech=NNP]
-[Text=so CharacterOffsetBegin=1252 CharacterOffsetEnd=1254 PartOfSpeech=RB]
-[Text=much CharacterOffsetBegin=1255 CharacterOffsetEnd=1259 PartOfSpeech=RB]
-[Text=that CharacterOffsetBegin=1260 CharacterOffsetEnd=1264 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=1265 CharacterOffsetEnd=1268 PartOfSpeech=DT]
-[Text=entire CharacterOffsetBegin=1269 CharacterOffsetEnd=1275 PartOfSpeech=JJ]
-[Text=Seven CharacterOffsetBegin=1276 CharacterOffsetEnd=1281 PartOfSpeech=CD]
-[Text=Kingdoms CharacterOffsetBegin=1282 CharacterOffsetEnd=1290 PartOfSpeech=NNS]
-[Text=will CharacterOffsetBegin=1291 CharacterOffsetEnd=1295 PartOfSpeech=MD]
-[Text=turn CharacterOffsetBegin=1296 CharacterOffsetEnd=1300 PartOfSpeech=VB]
-[Text=into CharacterOffsetBegin=1301 CharacterOffsetEnd=1305 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=1306 CharacterOffsetEnd=1307 PartOfSpeech=DT]
-[Text=giant CharacterOffsetBegin=1308 CharacterOffsetEnd=1313 PartOfSpeech=JJ]
-[Text=ocean CharacterOffsetBegin=1314 CharacterOffsetEnd=1319 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=1319 CharacterOffsetEnd=1320 PartOfSpeech=,]
-[Text=leaving CharacterOffsetBegin=1321 CharacterOffsetEnd=1328 PartOfSpeech=VBG]
-[Text=only CharacterOffsetBegin=1329 CharacterOffsetEnd=1333 PartOfSpeech=RB]
-[Text=merlings CharacterOffsetBegin=1334 CharacterOffsetEnd=1342 PartOfSpeech=NNS]
-[Text=... CharacterOffsetBegin=1343 CharacterOffsetEnd=1344 PartOfSpeech=:]
-[Text=and CharacterOffsetBegin=1345 CharacterOffsetEnd=1348 PartOfSpeech=CC]
-[Text=Littlefinger CharacterOffsetBegin=1349 CharacterOffsetEnd=1361 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=1361 CharacterOffsetEnd=1362 PartOfSpeech=,]
-[Text=because CharacterOffsetBegin=1363 CharacterOffsetEnd=1370 PartOfSpeech=IN]
-[Text=that CharacterOffsetBegin=1371 CharacterOffsetEnd=1375 PartOfSpeech=DT]
-[Text=dude CharacterOffsetBegin=1376 CharacterOffsetEnd=1380 PartOfSpeech=NN]
-[Text=will CharacterOffsetBegin=1381 CharacterOffsetEnd=1385 PartOfSpeech=MD]
-[Text=never CharacterOffsetBegin=1386 CharacterOffsetEnd=1391 PartOfSpeech=RB]
-[Text=die CharacterOffsetBegin=1392 CharacterOffsetEnd=1395 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=1395 CharacterOffsetEnd=1396 PartOfSpeech=.]
+root(ROOT-0, had-4)
+dep(had-4, What-1)
+mark(had-4, if-2)
+nsubj(had-4, Lyanna-3)
+det(baby-7, a-5)
+amod(baby-7, second-6)
+dobj(had-4, baby-7)
+punct(had-4, ,-8)
+cc(had-4, and-9)
+nsubj(asked-11, Ned-10)
+conj:and(had-4, asked-11)
+dobj(asked-11, Howland-12)
+nsubj:xsubj(take-14, Howland-12)
+nsubj:xsubj(raise-17, Howland-12)
+mark(take-14, to-13)
+xcomp(asked-11, take-14)
+dobj(take-14, her-15)
+cc(take-14, and-16)
+xcomp(asked-11, raise-17)
+conj:and(take-14, raise-17)
+dobj(raise-17, her-18)
+case(own-21, as-19)
+nmod:poss(own-21, his-20)
+nmod:as(raise-17, own-21)
+punct(had-4, ?-22)
+
+Sentence #4 (12 tokens):
+Also, Kit Harington and Ellie Kendrick kind of look alike.
+[Text=Also CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=337 CharacterOffsetEnd=338 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Kit CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=NN Lemma=kit NamedEntityTag=PERSON]
+[Text=Harington CharacterOffsetBegin=343 CharacterOffsetEnd=352 PartOfSpeech=NNP Lemma=Harington NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Ellie CharacterOffsetBegin=357 CharacterOffsetEnd=362 PartOfSpeech=NNP Lemma=Ellie NamedEntityTag=PERSON]
+[Text=Kendrick CharacterOffsetBegin=363 CharacterOffsetEnd=371 PartOfSpeech=NNP Lemma=Kendrick NamedEntityTag=PERSON]
+[Text=kind CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=NN Lemma=kind NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=377 CharacterOffsetEnd=379 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=look CharacterOffsetBegin=380 CharacterOffsetEnd=384 PartOfSpeech=NN Lemma=look NamedEntityTag=O]
+[Text=alike CharacterOffsetBegin=385 CharacterOffsetEnd=390 PartOfSpeech=RB Lemma=alike NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=390 CharacterOffsetEnd=391 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (X
+    (ADVP (RB Also))
+    (, ,)
+    (NP
+      (NP (NN Kit))
+      (NP
+        (NP (NNP Harington)
+          (CC and)
+          (NNP Ellie) (NNP Kendrick) (NN kind))
+        (PP (IN of)
+          (NP
+            (NP (NN look))
+            (ADVP (RB alike))))))
+    (. .)))
+
+root(ROOT-0, Kit-3)
+dep(Kit-3, Also-1)
+punct(Kit-3, ,-2)
+compound(kind-8, Harington-4)
+cc(Harington-4, and-5)
+conj:and(Harington-4, Ellie-6)
+compound(kind-8, Ellie-6)
+compound(kind-8, Kendrick-7)
+dep(Kit-3, kind-8)
+case(look-10, of-9)
+nmod:of(kind-8, look-10)
+advmod(look-10, alike-11)
+punct(Kit-3, .-12)
+
+Coreference set:
+	(2,36,[35,37]) -> (1,2,[1,3]), that is: "Jon Snow" -> "Jon Snow"
+Coreference set:
+	(1,5,[1,6]) -> (1,7,[7,8]), that is: "Jon Snow and Meera Reed" -> "twins"
+Coreference set:
+	(2,26,[26,28]) -> (2,24,[23,25]), that is: "Ned 's" -> "Ned Stark"
+	(2,40,[40,41]) -> (2,24,[23,25]), that is: "Ned" -> "Ned Stark"
+	(2,43,[43,44]) -> (2,24,[23,25]), that is: "him" -> "Ned Stark"
+	(3,10,[10,11]) -> (2,24,[23,25]), that is: "Ned" -> "Ned Stark"
+Coreference set:
+	(2,32,[32,33]) -> (2,28,[26,29]), that is: "her" -> "Ned 's sister"
+Coreference set:
+	(3,3,[3,4]) -> (2,29,[29,34]), that is: "Lyanna" -> "Lyanna handed over her baby"
+	(3,15,[15,16]) -> (2,29,[29,34]), that is: "her" -> "Lyanna handed over her baby"
+	(3,18,[18,19]) -> (2,29,[29,34]), that is: "her" -> "Lyanna handed over her baby"
+Coreference set:
+	(3,20,[20,21]) -> (3,12,[12,13]), that is: "his" -> "Howland"

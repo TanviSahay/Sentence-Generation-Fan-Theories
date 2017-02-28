@@ -1,60 +1,190 @@
 Sentence #1 (6 tokens):
 Lord Varys is a merman.
-[Text=Lord CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=Varys CharacterOffsetBegin=5 CharacterOffsetEnd=10 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=DT]
-[Text=merman CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=.]
+[Text=Lord CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Lord NamedEntityTag=O]
+[Text=Varys CharacterOffsetBegin=5 CharacterOffsetEnd=10 PartOfSpeech=NNP Lemma=Varys NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=merman CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=NN Lemma=merman NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Lord) (NNP Varys))
+    (VP (VBZ is)
+      (NP (DT a) (NN merman)))
+    (. .)))
+
+root(ROOT-0, merman-5)
+compound(Varys-2, Lord-1)
+nsubj(merman-5, Varys-2)
+cop(merman-5, is-3)
+det(merman-5, a-4)
+punct(merman-5, .-6)
+
 Sentence #2 (18 tokens):
 Though it's largely treated as a joke, this theory is just too hilarious to ignore.
-[Text=Though CharacterOffsetBegin=24 CharacterOffsetEnd=30 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=VBZ]
-[Text=largely CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=RB]
-[Text=treated CharacterOffsetBegin=44 CharacterOffsetEnd=51 PartOfSpeech=VBN]
-[Text=as CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=DT]
-[Text=joke CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=,]
-[Text=this CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=68 CharacterOffsetEnd=74 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=VBZ]
-[Text=just CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=RB]
-[Text=too CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=RB]
-[Text=hilarious CharacterOffsetBegin=87 CharacterOffsetEnd=96 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=TO]
-[Text=ignore CharacterOffsetBegin=100 CharacterOffsetEnd=106 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=.]
+[Text=Though CharacterOffsetBegin=24 CharacterOffsetEnd=30 PartOfSpeech=IN Lemma=though NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=largely CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=RB Lemma=largely NamedEntityTag=O]
+[Text=treated CharacterOffsetBegin=44 CharacterOffsetEnd=51 PartOfSpeech=VBN Lemma=treat NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=joke CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=NN Lemma=joke NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=63 CharacterOffsetEnd=67 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=68 CharacterOffsetEnd=74 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=just CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=too CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=RB Lemma=too NamedEntityTag=O]
+[Text=hilarious CharacterOffsetBegin=87 CharacterOffsetEnd=96 PartOfSpeech=JJ Lemma=hilarious NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=ignore CharacterOffsetBegin=100 CharacterOffsetEnd=106 PartOfSpeech=VB Lemma=ignore NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR (IN Though)
+      (S
+        (NP (PRP it))
+        (VP (VBZ 's)
+          (ADVP (RB largely))
+          (VP (VBN treated)
+            (PP (IN as)
+              (NP (DT a) (NN joke)))))))
+    (, ,)
+    (NP (DT this) (NN theory))
+    (VP (VBZ is)
+      (ADVP (RB just))
+      (ADJP (RB too) (JJ hilarious))
+      (S
+        (VP (TO to)
+          (VP (VB ignore)))))
+    (. .)))
+
+root(ROOT-0, hilarious-15)
+mark(treated-5, Though-1)
+nsubjpass(treated-5, it-2)
+auxpass(treated-5, 's-3)
+advmod(treated-5, largely-4)
+advcl:though(hilarious-15, treated-5)
+case(joke-8, as-6)
+det(joke-8, a-7)
+nmod:as(treated-5, joke-8)
+punct(hilarious-15, ,-9)
+det(theory-11, this-10)
+nsubj(hilarious-15, theory-11)
+nsubj:xsubj(ignore-17, theory-11)
+cop(hilarious-15, is-12)
+advmod(hilarious-15, just-13)
+advmod(hilarious-15, too-14)
+mark(ignore-17, to-16)
+xcomp(hilarious-15, ignore-17)
+punct(hilarious-15, .-18)
+
 Sentence #3 (30 tokens):
 In short, Varys is helping Daenerys because he wants her dragons to come to Westeros and melt the North, thus giving his merpeople more space to live.
-[Text=In CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=IN]
-[Text=short CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=,]
-[Text=Varys CharacterOffsetBegin=118 CharacterOffsetEnd=123 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=VBZ]
-[Text=helping CharacterOffsetBegin=127 CharacterOffsetEnd=134 PartOfSpeech=VBG]
-[Text=Daenerys CharacterOffsetBegin=135 CharacterOffsetEnd=143 PartOfSpeech=NNS]
-[Text=because CharacterOffsetBegin=144 CharacterOffsetEnd=151 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=152 CharacterOffsetEnd=154 PartOfSpeech=PRP]
-[Text=wants CharacterOffsetBegin=155 CharacterOffsetEnd=160 PartOfSpeech=VBZ]
-[Text=her CharacterOffsetBegin=161 CharacterOffsetEnd=164 PartOfSpeech=PRP$]
-[Text=dragons CharacterOffsetBegin=165 CharacterOffsetEnd=172 PartOfSpeech=NNS]
-[Text=to CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=TO]
-[Text=come CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=VB]
-[Text=to CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=TO]
-[Text=Westeros CharacterOffsetBegin=184 CharacterOffsetEnd=192 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=CC]
-[Text=melt CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=DT]
-[Text=North CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=,]
-[Text=thus CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=RB]
-[Text=giving CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=VBG]
-[Text=his CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=PRP$]
-[Text=merpeople CharacterOffsetBegin=229 CharacterOffsetEnd=238 PartOfSpeech=NN]
-[Text=more CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=RBR]
-[Text=space CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=TO]
-[Text=live CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=.]
+[Text=In CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=short CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=RB Lemma=short NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Varys CharacterOffsetBegin=118 CharacterOffsetEnd=123 PartOfSpeech=NNP Lemma=Varys NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=helping CharacterOffsetBegin=127 CharacterOffsetEnd=134 PartOfSpeech=VBG Lemma=help NamedEntityTag=O]
+[Text=Daenerys CharacterOffsetBegin=135 CharacterOffsetEnd=143 PartOfSpeech=NNS Lemma=daenery NamedEntityTag=PERSON]
+[Text=because CharacterOffsetBegin=144 CharacterOffsetEnd=151 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=152 CharacterOffsetEnd=154 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=wants CharacterOffsetBegin=155 CharacterOffsetEnd=160 PartOfSpeech=VBZ Lemma=want NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=161 CharacterOffsetEnd=164 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=dragons CharacterOffsetBegin=165 CharacterOffsetEnd=172 PartOfSpeech=NNS Lemma=dragon NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=173 CharacterOffsetEnd=175 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=come CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=VB Lemma=come NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Westeros CharacterOffsetBegin=184 CharacterOffsetEnd=192 PartOfSpeech=NNP Lemma=Westeros NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=melt CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=VB Lemma=melt NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=North CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=NNP Lemma=North NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=211 CharacterOffsetEnd=212 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=thus CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=RB Lemma=thus NamedEntityTag=O]
+[Text=giving CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=VBG Lemma=give NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=merpeople CharacterOffsetBegin=229 CharacterOffsetEnd=238 PartOfSpeech=NN Lemma=merpeople NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=RBR Lemma=more NamedEntityTag=O]
+[Text=space CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=NN Lemma=space NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=live CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=VB Lemma=live NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN In)
+      (ADJP (RB short)))
+    (, ,)
+    (NP (NNP Varys))
+    (VP (VBZ is)
+      (VP (VBG helping)
+        (NP (NNS Daenerys))
+        (SBAR (IN because)
+          (S
+            (NP (PRP he))
+            (VP (VBZ wants)
+              (NP (PRP$ her) (NNS dragons))
+              (S
+                (VP (TO to)
+                  (VP
+                    (VP (VB come)
+                      (PP (TO to)
+                        (NP (NNP Westeros))))
+                    (CC and)
+                    (VP (VB melt)
+                      (NP (DT the) (NNP North))
+                      (, ,)
+                      (S
+                        (ADVP (RB thus))
+                        (VP (VBG giving)
+                          (NP (PRP$ his) (NN merpeople))
+                          (NP
+                            (ADVP (RBR more))
+                            (NN space))
+                          (S
+                            (VP (TO to)
+                              (VP (VB live)))))))))))))))
+    (. .)))
+
+root(ROOT-0, helping-6)
+case(short-2, In-1)
+advcl:in(helping-6, short-2)
+punct(helping-6, ,-3)
+nsubj(helping-6, Varys-4)
+aux(helping-6, is-5)
+dobj(helping-6, Daenerys-7)
+mark(wants-10, because-8)
+nsubj(wants-10, he-9)
+advcl:because(helping-6, wants-10)
+nmod:poss(dragons-12, her-11)
+dobj(wants-10, dragons-12)
+mark(come-14, to-13)
+advcl:to(wants-10, come-14)
+case(Westeros-16, to-15)
+nmod:to(come-14, Westeros-16)
+cc(come-14, and-17)
+advcl:to(wants-10, melt-18)
+conj:and(come-14, melt-18)
+det(North-20, the-19)
+dobj(melt-18, North-20)
+punct(melt-18, ,-21)
+advmod(giving-23, thus-22)
+advcl(melt-18, giving-23)
+nmod:poss(merpeople-25, his-24)
+dep(giving-23, merpeople-25)
+advmod(space-27, more-26)
+dobj(giving-23, space-27)
+mark(live-29, to-28)
+advcl:to(giving-23, live-29)
+punct(helping-6, .-30)
+
+Coreference set:
+	(1,2,[1,3]) -> (3,4,[4,5]), that is: "Lord Varys" -> "Varys"
+	(1,5,[4,6]) -> (3,4,[4,5]), that is: "a merman" -> "Varys"
+	(3,9,[9,10]) -> (3,4,[4,5]), that is: "he" -> "Varys"
+Coreference set:
+	(3,11,[11,12]) -> (3,7,[7,8]), that is: "her" -> "Daenerys"
+Coreference set:
+	(3,24,[24,25]) -> (3,16,[16,17]), that is: "his" -> "Westeros"

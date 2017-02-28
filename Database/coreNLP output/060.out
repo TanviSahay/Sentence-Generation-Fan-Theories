@@ -1,229 +1,740 @@
-Sentence #1 (48 tokens):
-Littlefinger will marry Cersei and become King of Westeros
+Sentence #1 (10 tokens):
+Littlefinger will marry Cersei and become King of Westeros.
+[Text=Littlefinger CharacterOffsetBegin=0 CharacterOffsetEnd=12 PartOfSpeech=NNP Lemma=Littlefinger NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=marry CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=VB Lemma=marry NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=24 CharacterOffsetEnd=30 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=become CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=VB Lemma=become NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Westeros CharacterOffsetBegin=50 CharacterOffsetEnd=58 PartOfSpeech=NNP Lemma=Westeros NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Littlefinger))
+    (VP (MD will)
+      (VP
+        (VP (VB marry)
+          (NP (NNP Cersei)))
+        (CC and)
+        (VP (VB become)
+          (NP
+            (NP (NNP King))
+            (PP (IN of)
+              (NP (NNP Westeros)))))))
+    (. .)))
 
+root(ROOT-0, marry-3)
+nsubj(marry-3, Littlefinger-1)
+nsubj(become-6, Littlefinger-1)
+aux(marry-3, will-2)
+dobj(marry-3, Cersei-4)
+cc(marry-3, and-5)
+conj:and(marry-3, become-6)
+xcomp(become-6, King-7)
+case(Westeros-9, of-8)
+nmod:of(King-7, Westeros-9)
+punct(marry-3, .-10)
+
+Sentence #2 (39 tokens):
 What this means: Last we left Littlefinger, he’d finally laid out his long-term plan: He wants to sit on the Iron Throne as King of Westeros, with Sansa by his side as queen.
-[Text=Littlefinger CharacterOffsetBegin=0 CharacterOffsetEnd=12 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=MD]
-[Text=marry CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=VB]
-[Text=Cersei CharacterOffsetBegin=24 CharacterOffsetEnd=30 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=31 CharacterOffsetEnd=34 PartOfSpeech=CC]
-[Text=become CharacterOffsetBegin=35 CharacterOffsetEnd=41 PartOfSpeech=VB]
-[Text=King CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=NNP]
-[Text=of CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=IN]
-[Text=Westeros CharacterOffsetBegin=50 CharacterOffsetEnd=58 PartOfSpeech=NNP]
-[Text=What CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=WP]
-[Text=this CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=DT]
-[Text=means CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=VBZ]
-[Text=: CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=:]
-[Text=Last CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=JJ]
-[Text=we CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=PRP]
-[Text=left CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=VBD]
-[Text=Littlefinger CharacterOffsetBegin=90 CharacterOffsetEnd=102 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=,]
-[Text=he CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=PRP]
-[Text='d CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=MD]
-[Text=finally CharacterOffsetBegin=109 CharacterOffsetEnd=116 PartOfSpeech=RB]
-[Text=laid CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=VBN]
-[Text=out CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=RP]
-[Text=his CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=PRP$]
-[Text=long-term CharacterOffsetBegin=130 CharacterOffsetEnd=139 PartOfSpeech=JJ]
-[Text=plan CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=NN]
-[Text=: CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=:]
-[Text=He CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=PRP]
-[Text=wants CharacterOffsetBegin=149 CharacterOffsetEnd=154 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=155 CharacterOffsetEnd=157 PartOfSpeech=TO]
-[Text=sit CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=VB]
-[Text=on CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=DT]
-[Text=Iron CharacterOffsetBegin=169 CharacterOffsetEnd=173 PartOfSpeech=NNP]
-[Text=Throne CharacterOffsetBegin=174 CharacterOffsetEnd=180 PartOfSpeech=NNP]
-[Text=as CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=IN]
-[Text=King CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=NNP]
-[Text=of CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=IN]
-[Text=Westeros CharacterOffsetBegin=192 CharacterOffsetEnd=200 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=200 CharacterOffsetEnd=201 PartOfSpeech=,]
-[Text=with CharacterOffsetBegin=202 CharacterOffsetEnd=206 PartOfSpeech=IN]
-[Text=Sansa CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=NNP]
-[Text=by CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=PRP$]
-[Text=side CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=NN]
-[Text=as CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=IN]
-[Text=queen CharacterOffsetBegin=228 CharacterOffsetEnd=233 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=.]
-Sentence #2 (18 tokens):
+[Text=What CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=means CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=VBZ Lemma=mean NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=Last CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=JJ Lemma=last NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=left CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=VBD Lemma=leave NamedEntityTag=O]
+[Text=Littlefinger CharacterOffsetBegin=91 CharacterOffsetEnd=103 PartOfSpeech=NNP Lemma=Littlefinger NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text='d CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=finally CharacterOffsetBegin=110 CharacterOffsetEnd=117 PartOfSpeech=RB Lemma=finally NamedEntityTag=O]
+[Text=laid CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=VBN Lemma=lay NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=long-term CharacterOffsetBegin=131 CharacterOffsetEnd=140 PartOfSpeech=JJ Lemma=long-term NamedEntityTag=O]
+[Text=plan CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=NN Lemma=plan NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=145 CharacterOffsetEnd=146 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=He CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=wants CharacterOffsetBegin=150 CharacterOffsetEnd=155 PartOfSpeech=VBZ Lemma=want NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=sit CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=VB Lemma=sit NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Iron CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=NNP Lemma=Iron NamedEntityTag=O]
+[Text=Throne CharacterOffsetBegin=175 CharacterOffsetEnd=181 PartOfSpeech=NNP Lemma=Throne NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Westeros CharacterOffsetBegin=193 CharacterOffsetEnd=201 PartOfSpeech=NNP Lemma=Westeros NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=203 CharacterOffsetEnd=207 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=208 CharacterOffsetEnd=213 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=PERSON]
+[Text=by CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=side CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=NN Lemma=side NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=queen CharacterOffsetBegin=229 CharacterOffsetEnd=234 PartOfSpeech=NN Lemma=queen NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (SBAR
+        (WHNP (WP What))
+        (S
+          (NP (DT this))
+          (VP (VBZ means) (: :)
+            (NP
+              (NP (JJ Last))
+              (SBAR
+                (S
+                  (NP (PRP we))
+                  (VP (VBD left)
+                    (NP (NNP Littlefinger)))))))))
+      (, ,)
+      (NP (PRP he))
+      (VP (MD 'd)
+        (S
+          (ADVP (RB finally))
+          (VP (VBN laid)
+            (PRT (RP out))
+            (NP (PRP$ his) (JJ long-term) (NN plan))))))
+    (: :)
+    (S
+      (NP (PRP He))
+      (VP (VBZ wants)
+        (S
+          (VP (TO to)
+            (VP (VB sit)
+              (PP (IN on)
+                (NP (DT the) (NNP Iron) (NNP Throne)))
+              (PP (IN as)
+                (NP
+                  (NP (NNP King))
+                  (PP (IN of)
+                    (NP (NNP Westeros)))))
+              (, ,)
+              (PP (IN with)
+                (NP (NNP Sansa)))
+              (PP (IN by)
+                (NP
+                  (NP (PRP$ his) (NN side))
+                  (PP (IN as)
+                    (NP (NN queen))))))))))
+    (. .)))
+
+root(ROOT-0, 'd-11)
+dobj(means-3, What-1)
+nsubj(means-3, this-2)
+advcl('d-11, means-3)
+punct(means-3, :-4)
+dobj(means-3, Last-5)
+nsubj(left-7, we-6)
+acl:relcl(Last-5, left-7)
+dobj(left-7, Littlefinger-8)
+punct('d-11, ,-9)
+nsubj('d-11, he-10)
+advmod(laid-13, finally-12)
+dep('d-11, laid-13)
+compound:prt(laid-13, out-14)
+nmod:poss(plan-17, his-15)
+amod(plan-17, long-term-16)
+dobj(laid-13, plan-17)
+punct('d-11, :-18)
+nsubj(wants-20, He-19)
+nsubj:xsubj(sit-22, He-19)
+parataxis('d-11, wants-20)
+mark(sit-22, to-21)
+xcomp(wants-20, sit-22)
+case(Throne-26, on-23)
+det(Throne-26, the-24)
+compound(Throne-26, Iron-25)
+nmod:on(sit-22, Throne-26)
+case(King-28, as-27)
+nmod:as(sit-22, King-28)
+case(Westeros-30, of-29)
+nmod:of(King-28, Westeros-30)
+punct(sit-22, ,-31)
+case(Sansa-33, with-32)
+nmod:with(sit-22, Sansa-33)
+case(side-36, by-34)
+nmod:poss(side-36, his-35)
+nmod:by(sit-22, side-36)
+case(queen-38, as-37)
+nmod:as(side-36, queen-38)
+punct('d-11, .-39)
+
+Sentence #3 (18 tokens):
 However, Sansa’s not super keen on the idea, so what’s next for Littlefinger?
-[Text=However CharacterOffsetBegin=235 CharacterOffsetEnd=242 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=,]
-[Text=Sansa CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=249 CharacterOffsetEnd=251 PartOfSpeech=POS]
-[Text=not CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=RB]
-[Text=super CharacterOffsetBegin=256 CharacterOffsetEnd=261 PartOfSpeech=JJ]
-[Text=keen CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=JJ]
-[Text=on CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=DT]
-[Text=idea CharacterOffsetBegin=274 CharacterOffsetEnd=278 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech=,]
-[Text=so CharacterOffsetBegin=280 CharacterOffsetEnd=282 PartOfSpeech=RB]
-[Text=what CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=WP]
-[Text='s CharacterOffsetBegin=287 CharacterOffsetEnd=289 PartOfSpeech=VBZ]
-[Text=next CharacterOffsetBegin=290 CharacterOffsetEnd=294 PartOfSpeech=JJ]
-[Text=for CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=IN]
-[Text=Littlefinger CharacterOffsetBegin=299 CharacterOffsetEnd=311 PartOfSpeech=NNP]
-[Text=? CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=.]
-Sentence #3 (27 tokens):
+[Text=However CharacterOffsetBegin=236 CharacterOffsetEnd=243 PartOfSpeech=RB Lemma=however NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=250 CharacterOffsetEnd=252 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=super CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=JJ Lemma=super NamedEntityTag=O]
+[Text=keen CharacterOffsetBegin=263 CharacterOffsetEnd=267 PartOfSpeech=JJ Lemma=keen NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=271 CharacterOffsetEnd=274 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=idea CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=NN Lemma=idea NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=279 CharacterOffsetEnd=280 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=next CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=JJ Lemma=next NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=Littlefinger CharacterOffsetBegin=300 CharacterOffsetEnd=312 PartOfSpeech=NNP Lemma=Littlefinger NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP
+      (NP
+        (NP (NNP Sansa) (POS 's))
+        (ADJP (RB not) (JJ super))
+        (JJ keen))
+      (PP (IN on)
+        (NP
+          (NP (DT the) (NN idea))
+          (, ,)
+          (RRC
+            (ADVP (RB so))
+            (NP (WP what))))))
+    (VP (VBZ 's)
+      (ADJP (JJ next)
+        (PP (IN for)
+          (NP (NNP Littlefinger)))))
+    (. ?)))
+
+root(ROOT-0, next-15)
+advmod(next-15, However-1)
+punct(next-15, ,-2)
+nsubj(next-15, Sansa-3)
+case(Sansa-3, 's-4)
+neg(super-6, not-5)
+amod(Sansa-3, super-6)
+amod(Sansa-3, keen-7)
+case(idea-10, on-8)
+det(idea-10, the-9)
+nmod:on(Sansa-3, idea-10)
+punct(idea-10, ,-11)
+advmod(what-13, so-12)
+acl:relcl(idea-10, what-13)
+cop(next-15, 's-14)
+case(Littlefinger-17, for-16)
+nmod:for(next-15, Littlefinger-17)
+punct(next-15, ?-18)
+
+Sentence #4 (27 tokens):
 A growing theory on Reddit says Littlefinger’s going to leave Sansa by the side of Winterfell and go running straight to the Mad Queen herself.
-[Text=A CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=DT]
-[Text=growing CharacterOffsetBegin=315 CharacterOffsetEnd=322 PartOfSpeech=VBG]
-[Text=theory CharacterOffsetBegin=323 CharacterOffsetEnd=329 PartOfSpeech=NN]
-[Text=on CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=IN]
-[Text=Reddit CharacterOffsetBegin=333 CharacterOffsetEnd=339 PartOfSpeech=NNP]
-[Text=says CharacterOffsetBegin=340 CharacterOffsetEnd=344 PartOfSpeech=VBZ]
-[Text=Littlefinger CharacterOffsetBegin=345 CharacterOffsetEnd=357 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=357 CharacterOffsetEnd=359 PartOfSpeech=POS]
-[Text=going CharacterOffsetBegin=360 CharacterOffsetEnd=365 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=366 CharacterOffsetEnd=368 PartOfSpeech=TO]
-[Text=leave CharacterOffsetBegin=369 CharacterOffsetEnd=374 PartOfSpeech=VB]
-[Text=Sansa CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=NNP]
-[Text=by CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=384 CharacterOffsetEnd=387 PartOfSpeech=DT]
-[Text=side CharacterOffsetBegin=388 CharacterOffsetEnd=392 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=393 CharacterOffsetEnd=395 PartOfSpeech=IN]
-[Text=Winterfell CharacterOffsetBegin=396 CharacterOffsetEnd=406 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=407 CharacterOffsetEnd=410 PartOfSpeech=CC]
-[Text=go CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=VB]
-[Text=running CharacterOffsetBegin=414 CharacterOffsetEnd=421 PartOfSpeech=VBG]
-[Text=straight CharacterOffsetBegin=422 CharacterOffsetEnd=430 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=431 CharacterOffsetEnd=433 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=434 CharacterOffsetEnd=437 PartOfSpeech=DT]
-[Text=Mad CharacterOffsetBegin=438 CharacterOffsetEnd=441 PartOfSpeech=NNP]
-[Text=Queen CharacterOffsetBegin=442 CharacterOffsetEnd=447 PartOfSpeech=NNP]
-[Text=herself CharacterOffsetBegin=448 CharacterOffsetEnd=455 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=.]
-Sentence #4 (30 tokens):
+[Text=A CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=growing CharacterOffsetBegin=316 CharacterOffsetEnd=323 PartOfSpeech=VBG Lemma=grow NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=324 CharacterOffsetEnd=330 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=Reddit CharacterOffsetBegin=334 CharacterOffsetEnd=340 PartOfSpeech=NNP Lemma=Reddit NamedEntityTag=LOCATION]
+[Text=says CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O]
+[Text=Littlefinger CharacterOffsetBegin=346 CharacterOffsetEnd=358 PartOfSpeech=NNP Lemma=Littlefinger NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=358 CharacterOffsetEnd=360 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=going CharacterOffsetBegin=361 CharacterOffsetEnd=366 PartOfSpeech=VBG Lemma=go NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=367 CharacterOffsetEnd=369 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=leave CharacterOffsetBegin=370 CharacterOffsetEnd=375 PartOfSpeech=VB Lemma=leave NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=376 CharacterOffsetEnd=381 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=382 CharacterOffsetEnd=384 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=side CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=NN Lemma=side NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Winterfell CharacterOffsetBegin=397 CharacterOffsetEnd=407 PartOfSpeech=NNP Lemma=Winterfell NamedEntityTag=LOCATION]
+[Text=and CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=go CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=VB Lemma=go NamedEntityTag=O]
+[Text=running CharacterOffsetBegin=415 CharacterOffsetEnd=422 PartOfSpeech=VBG Lemma=run NamedEntityTag=O]
+[Text=straight CharacterOffsetBegin=423 CharacterOffsetEnd=431 PartOfSpeech=RB Lemma=straight NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=432 CharacterOffsetEnd=434 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=435 CharacterOffsetEnd=438 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mad CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=NNP Lemma=Mad NamedEntityTag=O]
+[Text=Queen CharacterOffsetBegin=443 CharacterOffsetEnd=448 PartOfSpeech=NNP Lemma=Queen NamedEntityTag=O]
+[Text=herself CharacterOffsetBegin=449 CharacterOffsetEnd=456 PartOfSpeech=PRP Lemma=herself NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=456 CharacterOffsetEnd=457 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (VBG growing) (NN theory))
+      (PP (IN on)
+        (NP (NNP Reddit))))
+    (VP (VBZ says)
+      (S
+        (NP (NNP Littlefinger) (POS 's))
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP
+                (VP (VB leave)
+                  (NP (NNP Sansa))
+                  (PP (IN by)
+                    (NP
+                      (NP (DT the) (NN side))
+                      (PP (IN of)
+                        (NP (NNP Winterfell))))))
+                (CC and)
+                (VP (VB go)
+                  (S
+                    (VP (VBG running)
+                      (ADVP (RB straight))
+                      (PP (TO to)
+                        (NP (DT the) (NNP Mad) (NNP Queen))))))
+                (NP (PRP herself))))))))
+    (. .)))
+
+root(ROOT-0, says-6)
+det(theory-3, A-1)
+amod(theory-3, growing-2)
+nsubj(says-6, theory-3)
+case(Reddit-5, on-4)
+nmod:on(theory-3, Reddit-5)
+nsubj(going-9, Littlefinger-7)
+nsubj:xsubj(leave-11, Littlefinger-7)
+nsubj:xsubj(go-19, Littlefinger-7)
+case(Littlefinger-7, 's-8)
+dep(says-6, going-9)
+mark(leave-11, to-10)
+xcomp(going-9, leave-11)
+dobj(leave-11, Sansa-12)
+case(side-15, by-13)
+det(side-15, the-14)
+nmod:by(leave-11, side-15)
+case(Winterfell-17, of-16)
+nmod:of(side-15, Winterfell-17)
+cc(leave-11, and-18)
+xcomp(going-9, go-19)
+conj:and(leave-11, go-19)
+xcomp(go-19, running-20)
+advmod(running-20, straight-21)
+case(Queen-25, to-22)
+det(Queen-25, the-23)
+compound(Queen-25, Mad-24)
+nmod:to(running-20, Queen-25)
+dobj(leave-11, herself-26)
+punct(says-6, .-27)
+
+Sentence #5 (30 tokens):
 Think about it: She’s going to need a big army to hold off Dany and her dragons, and Littlefinger just happens to have a big army.
-[Text=Think CharacterOffsetBegin=457 CharacterOffsetEnd=462 PartOfSpeech=VB]
-[Text=about CharacterOffsetBegin=463 CharacterOffsetEnd=468 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=469 CharacterOffsetEnd=471 PartOfSpeech=PRP]
-[Text=: CharacterOffsetBegin=471 CharacterOffsetEnd=472 PartOfSpeech=:]
-[Text=She CharacterOffsetBegin=473 CharacterOffsetEnd=476 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=476 CharacterOffsetEnd=478 PartOfSpeech=VBZ]
-[Text=going CharacterOffsetBegin=479 CharacterOffsetEnd=484 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=485 CharacterOffsetEnd=487 PartOfSpeech=TO]
-[Text=need CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=DT]
-[Text=big CharacterOffsetBegin=495 CharacterOffsetEnd=498 PartOfSpeech=JJ]
-[Text=army CharacterOffsetBegin=499 CharacterOffsetEnd=503 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=504 CharacterOffsetEnd=506 PartOfSpeech=TO]
-[Text=hold CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=VB]
-[Text=off CharacterOffsetBegin=512 CharacterOffsetEnd=515 PartOfSpeech=RP]
-[Text=Dany CharacterOffsetBegin=516 CharacterOffsetEnd=520 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=521 CharacterOffsetEnd=524 PartOfSpeech=CC]
-[Text=her CharacterOffsetBegin=525 CharacterOffsetEnd=528 PartOfSpeech=PRP$]
-[Text=dragons CharacterOffsetBegin=529 CharacterOffsetEnd=536 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=536 CharacterOffsetEnd=537 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=538 CharacterOffsetEnd=541 PartOfSpeech=CC]
-[Text=Littlefinger CharacterOffsetBegin=542 CharacterOffsetEnd=554 PartOfSpeech=NNP]
-[Text=just CharacterOffsetBegin=555 CharacterOffsetEnd=559 PartOfSpeech=RB]
-[Text=happens CharacterOffsetBegin=560 CharacterOffsetEnd=567 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=568 CharacterOffsetEnd=570 PartOfSpeech=TO]
-[Text=have CharacterOffsetBegin=571 CharacterOffsetEnd=575 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=576 CharacterOffsetEnd=577 PartOfSpeech=DT]
-[Text=big CharacterOffsetBegin=578 CharacterOffsetEnd=581 PartOfSpeech=JJ]
-[Text=army CharacterOffsetBegin=582 CharacterOffsetEnd=586 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=586 CharacterOffsetEnd=587 PartOfSpeech=.]
-Sentence #5 (27 tokens):
+[Text=Think CharacterOffsetBegin=458 CharacterOffsetEnd=463 PartOfSpeech=VB Lemma=think NamedEntityTag=O]
+[Text=about CharacterOffsetBegin=464 CharacterOffsetEnd=469 PartOfSpeech=IN Lemma=about NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=470 CharacterOffsetEnd=472 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=She CharacterOffsetBegin=474 CharacterOffsetEnd=477 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=477 CharacterOffsetEnd=479 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=going CharacterOffsetBegin=480 CharacterOffsetEnd=485 PartOfSpeech=VBG Lemma=go NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=486 CharacterOffsetEnd=488 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=need CharacterOffsetBegin=489 CharacterOffsetEnd=493 PartOfSpeech=VB Lemma=need NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=494 CharacterOffsetEnd=495 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=big CharacterOffsetBegin=496 CharacterOffsetEnd=499 PartOfSpeech=JJ Lemma=big NamedEntityTag=O]
+[Text=army CharacterOffsetBegin=500 CharacterOffsetEnd=504 PartOfSpeech=NN Lemma=army NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=505 CharacterOffsetEnd=507 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=hold CharacterOffsetBegin=508 CharacterOffsetEnd=512 PartOfSpeech=VB Lemma=hold NamedEntityTag=O]
+[Text=off CharacterOffsetBegin=513 CharacterOffsetEnd=516 PartOfSpeech=RP Lemma=off NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=522 CharacterOffsetEnd=525 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=dragons CharacterOffsetBegin=530 CharacterOffsetEnd=537 PartOfSpeech=NNS Lemma=dragon NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=537 CharacterOffsetEnd=538 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Littlefinger CharacterOffsetBegin=543 CharacterOffsetEnd=555 PartOfSpeech=NNP Lemma=Littlefinger NamedEntityTag=PERSON]
+[Text=just CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=happens CharacterOffsetBegin=561 CharacterOffsetEnd=568 PartOfSpeech=VBZ Lemma=happen NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=569 CharacterOffsetEnd=571 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=572 CharacterOffsetEnd=576 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=577 CharacterOffsetEnd=578 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=big CharacterOffsetBegin=579 CharacterOffsetEnd=582 PartOfSpeech=JJ Lemma=big NamedEntityTag=O]
+[Text=army CharacterOffsetBegin=583 CharacterOffsetEnd=587 PartOfSpeech=NN Lemma=army NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=587 CharacterOffsetEnd=588 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (VP (VB Think)
+        (PP (IN about)
+          (NP (PRP it)))))
+    (: :)
+    (S
+      (NP (PRP She))
+      (VP (VBZ 's)
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP (VB need)
+                (NP (DT a) (JJ big) (NN army))
+                (S
+                  (VP (TO to)
+                    (VP (VB hold)
+                      (PRT (RP off))
+                      (NP
+                        (NP (NNP Dany))
+                        (CC and)
+                        (NP (PRP$ her) (NNS dragons))))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP Littlefinger))
+      (ADVP (RB just))
+      (VP (VBZ happens)
+        (S
+          (VP (TO to)
+            (VP (VB have)
+              (NP (DT a) (JJ big) (NN army)))))))
+    (. .)))
+
+root(ROOT-0, Think-1)
+case(it-3, about-2)
+nmod:about(Think-1, it-3)
+punct(Think-1, :-4)
+nsubj(going-7, She-5)
+nsubj:xsubj(need-9, She-5)
+aux(going-7, 's-6)
+conj:and(Think-1, going-7)
+mark(need-9, to-8)
+xcomp(going-7, need-9)
+det(army-12, a-10)
+amod(army-12, big-11)
+dobj(need-9, army-12)
+mark(hold-14, to-13)
+advcl:to(need-9, hold-14)
+compound:prt(hold-14, off-15)
+dobj(hold-14, Dany-16)
+cc(Dany-16, and-17)
+nmod:poss(dragons-19, her-18)
+dobj(hold-14, dragons-19)
+conj:and(Dany-16, dragons-19)
+punct(Think-1, ,-20)
+cc(Think-1, and-21)
+nsubj(happens-24, Littlefinger-22)
+nsubj:xsubj(have-26, Littlefinger-22)
+advmod(happens-24, just-23)
+conj:and(Think-1, happens-24)
+mark(have-26, to-25)
+xcomp(happens-24, have-26)
+det(army-29, a-27)
+amod(army-29, big-28)
+dobj(have-26, army-29)
+punct(Think-1, .-30)
+
+Sentence #6 (27 tokens):
 A marital partnership with Littlefinger would also give Cersei control of The Vale, which is a crucial area in the fight for the Seven Kingdoms.
-[Text=A CharacterOffsetBegin=590 CharacterOffsetEnd=591 PartOfSpeech=DT]
-[Text=marital CharacterOffsetBegin=592 CharacterOffsetEnd=599 PartOfSpeech=JJ]
-[Text=partnership CharacterOffsetBegin=600 CharacterOffsetEnd=611 PartOfSpeech=NN]
-[Text=with CharacterOffsetBegin=612 CharacterOffsetEnd=616 PartOfSpeech=IN]
-[Text=Littlefinger CharacterOffsetBegin=617 CharacterOffsetEnd=629 PartOfSpeech=NN]
-[Text=would CharacterOffsetBegin=630 CharacterOffsetEnd=635 PartOfSpeech=MD]
-[Text=also CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=RB]
-[Text=give CharacterOffsetBegin=641 CharacterOffsetEnd=645 PartOfSpeech=VB]
-[Text=Cersei CharacterOffsetBegin=646 CharacterOffsetEnd=652 PartOfSpeech=NNP]
-[Text=control CharacterOffsetBegin=653 CharacterOffsetEnd=660 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=661 CharacterOffsetEnd=663 PartOfSpeech=IN]
-[Text=The CharacterOffsetBegin=664 CharacterOffsetEnd=667 PartOfSpeech=DT]
-[Text=Vale CharacterOffsetBegin=668 CharacterOffsetEnd=672 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=672 CharacterOffsetEnd=673 PartOfSpeech=,]
-[Text=which CharacterOffsetBegin=674 CharacterOffsetEnd=679 PartOfSpeech=WDT]
-[Text=is CharacterOffsetBegin=680 CharacterOffsetEnd=682 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=683 CharacterOffsetEnd=684 PartOfSpeech=DT]
-[Text=crucial CharacterOffsetBegin=685 CharacterOffsetEnd=692 PartOfSpeech=JJ]
-[Text=area CharacterOffsetBegin=693 CharacterOffsetEnd=697 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=698 CharacterOffsetEnd=700 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=701 CharacterOffsetEnd=704 PartOfSpeech=DT]
-[Text=fight CharacterOffsetBegin=705 CharacterOffsetEnd=710 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=711 CharacterOffsetEnd=714 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=715 CharacterOffsetEnd=718 PartOfSpeech=DT]
-[Text=Seven CharacterOffsetBegin=719 CharacterOffsetEnd=724 PartOfSpeech=CD]
-[Text=Kingdoms CharacterOffsetBegin=725 CharacterOffsetEnd=733 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=733 CharacterOffsetEnd=734 PartOfSpeech=.]
-Sentence #6 (12 tokens):
+[Text=A CharacterOffsetBegin=591 CharacterOffsetEnd=592 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=marital CharacterOffsetBegin=593 CharacterOffsetEnd=600 PartOfSpeech=JJ Lemma=marital NamedEntityTag=O]
+[Text=partnership CharacterOffsetBegin=601 CharacterOffsetEnd=612 PartOfSpeech=NN Lemma=partnership NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=Littlefinger CharacterOffsetBegin=618 CharacterOffsetEnd=630 PartOfSpeech=NN Lemma=littlefinger NamedEntityTag=PERSON]
+[Text=would CharacterOffsetBegin=631 CharacterOffsetEnd=636 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=637 CharacterOffsetEnd=641 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=give CharacterOffsetBegin=642 CharacterOffsetEnd=646 PartOfSpeech=VB Lemma=give NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=647 CharacterOffsetEnd=653 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=control CharacterOffsetBegin=654 CharacterOffsetEnd=661 PartOfSpeech=NN Lemma=control NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=662 CharacterOffsetEnd=664 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Vale CharacterOffsetBegin=669 CharacterOffsetEnd=673 PartOfSpeech=NNP Lemma=Vale NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=673 CharacterOffsetEnd=674 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=675 CharacterOffsetEnd=680 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=681 CharacterOffsetEnd=683 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=684 CharacterOffsetEnd=685 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=crucial CharacterOffsetBegin=686 CharacterOffsetEnd=693 PartOfSpeech=JJ Lemma=crucial NamedEntityTag=O]
+[Text=area CharacterOffsetBegin=694 CharacterOffsetEnd=698 PartOfSpeech=NN Lemma=area NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=699 CharacterOffsetEnd=701 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=fight CharacterOffsetBegin=706 CharacterOffsetEnd=711 PartOfSpeech=NN Lemma=fight NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=712 CharacterOffsetEnd=715 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=716 CharacterOffsetEnd=719 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Seven CharacterOffsetBegin=720 CharacterOffsetEnd=725 PartOfSpeech=CD Lemma=seven NamedEntityTag=NUMBER NormalizedNamedEntityTag=7.0]
+[Text=Kingdoms CharacterOffsetBegin=726 CharacterOffsetEnd=734 PartOfSpeech=NNS Lemma=kingdom NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=734 CharacterOffsetEnd=735 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (DT A) (JJ marital) (NN partnership))
+      (PP (IN with)
+        (NP (NN Littlefinger))))
+    (VP (MD would)
+      (ADVP (RB also))
+      (VP (VB give)
+        (NP (NNP Cersei))
+        (NP
+          (NP (NN control))
+          (PP (IN of)
+            (NP
+              (NP (DT The) (NNP Vale))
+              (, ,)
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (VBZ is)
+                    (NP
+                      (NP (DT a) (JJ crucial) (NN area))
+                      (PP (IN in)
+                        (NP
+                          (NP (DT the) (NN fight))
+                          (PP (IN for)
+                            (NP (DT the) (CD Seven) (NNS Kingdoms))))))))))))))
+    (. .)))
+
+root(ROOT-0, give-8)
+det(partnership-3, A-1)
+amod(partnership-3, marital-2)
+nsubj(give-8, partnership-3)
+case(Littlefinger-5, with-4)
+nmod:with(partnership-3, Littlefinger-5)
+aux(give-8, would-6)
+advmod(give-8, also-7)
+iobj(give-8, Cersei-9)
+dobj(give-8, control-10)
+case(Vale-13, of-11)
+det(Vale-13, The-12)
+nmod:of(control-10, Vale-13)
+nsubj(area-19, Vale-13)
+punct(Vale-13, ,-14)
+ref(Vale-13, which-15)
+cop(area-19, is-16)
+det(area-19, a-17)
+amod(area-19, crucial-18)
+acl:relcl(Vale-13, area-19)
+case(fight-22, in-20)
+det(fight-22, the-21)
+nmod:in(area-19, fight-22)
+case(Kingdoms-26, for-23)
+det(Kingdoms-26, the-24)
+nummod(Kingdoms-26, Seven-25)
+nmod:for(fight-22, Kingdoms-26)
+punct(give-8, .-27)
+
+Sentence #7 (12 tokens):
 It would be interesting to see Littlefinger and Cersei team up.
-[Text=It CharacterOffsetBegin=735 CharacterOffsetEnd=737 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=738 CharacterOffsetEnd=743 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=744 CharacterOffsetEnd=746 PartOfSpeech=VB]
-[Text=interesting CharacterOffsetBegin=747 CharacterOffsetEnd=758 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=759 CharacterOffsetEnd=761 PartOfSpeech=TO]
-[Text=see CharacterOffsetBegin=762 CharacterOffsetEnd=765 PartOfSpeech=VB]
-[Text=Littlefinger CharacterOffsetBegin=766 CharacterOffsetEnd=778 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=779 CharacterOffsetEnd=782 PartOfSpeech=CC]
-[Text=Cersei CharacterOffsetBegin=783 CharacterOffsetEnd=789 PartOfSpeech=NNP]
-[Text=team CharacterOffsetBegin=790 CharacterOffsetEnd=794 PartOfSpeech=NN]
-[Text=up CharacterOffsetBegin=795 CharacterOffsetEnd=797 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=797 CharacterOffsetEnd=798 PartOfSpeech=.]
-Sentence #7 (31 tokens):
+[Text=It CharacterOffsetBegin=736 CharacterOffsetEnd=738 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=739 CharacterOffsetEnd=744 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=745 CharacterOffsetEnd=747 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=interesting CharacterOffsetBegin=748 CharacterOffsetEnd=759 PartOfSpeech=JJ Lemma=interesting NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=760 CharacterOffsetEnd=762 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=763 CharacterOffsetEnd=766 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=Littlefinger CharacterOffsetBegin=767 CharacterOffsetEnd=779 PartOfSpeech=NNP Lemma=Littlefinger NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=780 CharacterOffsetEnd=783 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=784 CharacterOffsetEnd=790 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=LOCATION]
+[Text=team CharacterOffsetBegin=791 CharacterOffsetEnd=795 PartOfSpeech=NN Lemma=team NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=796 CharacterOffsetEnd=798 PartOfSpeech=RB Lemma=up NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=798 CharacterOffsetEnd=799 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (MD would)
+      (VP (VB be)
+        (ADJP (JJ interesting)
+          (S
+            (VP (TO to)
+              (VP (VB see)
+                (NP (NNP Littlefinger)
+                  (CC and)
+                  (NNP Cersei) (NN team))
+                (ADVP (RB up))))))))
+    (. .)))
+
+root(ROOT-0, interesting-4)
+nsubj(interesting-4, It-1)
+nsubj:xsubj(see-6, It-1)
+aux(interesting-4, would-2)
+cop(interesting-4, be-3)
+mark(see-6, to-5)
+xcomp(interesting-4, see-6)
+compound(team-10, Littlefinger-7)
+cc(Littlefinger-7, and-8)
+conj:and(Littlefinger-7, Cersei-9)
+compound(team-10, Cersei-9)
+dobj(see-6, team-10)
+advmod(see-6, up-11)
+punct(interesting-4, .-12)
+
+Sentence #8 (31 tokens):
 It would give Sansa and Jon Snow some serious competition for control of the North, and it would finally expose Littlefinger’s true colors as a backstabbing monster man.
-[Text=It CharacterOffsetBegin=799 CharacterOffsetEnd=801 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=802 CharacterOffsetEnd=807 PartOfSpeech=MD]
-[Text=give CharacterOffsetBegin=808 CharacterOffsetEnd=812 PartOfSpeech=VB]
-[Text=Sansa CharacterOffsetBegin=813 CharacterOffsetEnd=818 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=819 CharacterOffsetEnd=822 PartOfSpeech=CC]
-[Text=Jon CharacterOffsetBegin=823 CharacterOffsetEnd=826 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=827 CharacterOffsetEnd=831 PartOfSpeech=NNP]
-[Text=some CharacterOffsetBegin=832 CharacterOffsetEnd=836 PartOfSpeech=DT]
-[Text=serious CharacterOffsetBegin=837 CharacterOffsetEnd=844 PartOfSpeech=JJ]
-[Text=competition CharacterOffsetBegin=845 CharacterOffsetEnd=856 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=857 CharacterOffsetEnd=860 PartOfSpeech=IN]
-[Text=control CharacterOffsetBegin=861 CharacterOffsetEnd=868 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=869 CharacterOffsetEnd=871 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=872 CharacterOffsetEnd=875 PartOfSpeech=DT]
-[Text=North CharacterOffsetBegin=876 CharacterOffsetEnd=881 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=881 CharacterOffsetEnd=882 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=883 CharacterOffsetEnd=886 PartOfSpeech=CC]
-[Text=it CharacterOffsetBegin=887 CharacterOffsetEnd=889 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=890 CharacterOffsetEnd=895 PartOfSpeech=MD]
-[Text=finally CharacterOffsetBegin=896 CharacterOffsetEnd=903 PartOfSpeech=RB]
-[Text=expose CharacterOffsetBegin=904 CharacterOffsetEnd=910 PartOfSpeech=VB]
-[Text=Littlefinger CharacterOffsetBegin=911 CharacterOffsetEnd=923 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=923 CharacterOffsetEnd=925 PartOfSpeech=POS]
-[Text=true CharacterOffsetBegin=926 CharacterOffsetEnd=930 PartOfSpeech=JJ]
-[Text=colors CharacterOffsetBegin=931 CharacterOffsetEnd=937 PartOfSpeech=NNS]
-[Text=as CharacterOffsetBegin=938 CharacterOffsetEnd=940 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=941 CharacterOffsetEnd=942 PartOfSpeech=DT]
-[Text=backstabbing CharacterOffsetBegin=943 CharacterOffsetEnd=955 PartOfSpeech=VBG]
-[Text=monster CharacterOffsetBegin=956 CharacterOffsetEnd=963 PartOfSpeech=NN]
-[Text=man CharacterOffsetBegin=964 CharacterOffsetEnd=967 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=967 CharacterOffsetEnd=968 PartOfSpeech=.]
-Sentence #8 (18 tokens):
+[Text=It CharacterOffsetBegin=800 CharacterOffsetEnd=802 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=803 CharacterOffsetEnd=808 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=give CharacterOffsetBegin=809 CharacterOffsetEnd=813 PartOfSpeech=VB Lemma=give NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=814 CharacterOffsetEnd=819 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=820 CharacterOffsetEnd=823 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=824 CharacterOffsetEnd=827 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=828 CharacterOffsetEnd=832 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text=some CharacterOffsetBegin=833 CharacterOffsetEnd=837 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=serious CharacterOffsetBegin=838 CharacterOffsetEnd=845 PartOfSpeech=JJ Lemma=serious NamedEntityTag=O]
+[Text=competition CharacterOffsetBegin=846 CharacterOffsetEnd=857 PartOfSpeech=NN Lemma=competition NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=858 CharacterOffsetEnd=861 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=control CharacterOffsetBegin=862 CharacterOffsetEnd=869 PartOfSpeech=NN Lemma=control NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=870 CharacterOffsetEnd=872 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=873 CharacterOffsetEnd=876 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=North CharacterOffsetBegin=877 CharacterOffsetEnd=882 PartOfSpeech=NNP Lemma=North NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=882 CharacterOffsetEnd=883 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=884 CharacterOffsetEnd=887 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=888 CharacterOffsetEnd=890 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=891 CharacterOffsetEnd=896 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=finally CharacterOffsetBegin=897 CharacterOffsetEnd=904 PartOfSpeech=RB Lemma=finally NamedEntityTag=O]
+[Text=expose CharacterOffsetBegin=905 CharacterOffsetEnd=911 PartOfSpeech=VB Lemma=expose NamedEntityTag=O]
+[Text=Littlefinger CharacterOffsetBegin=912 CharacterOffsetEnd=924 PartOfSpeech=NNP Lemma=Littlefinger NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=924 CharacterOffsetEnd=926 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=true CharacterOffsetBegin=927 CharacterOffsetEnd=931 PartOfSpeech=JJ Lemma=true NamedEntityTag=O]
+[Text=colors CharacterOffsetBegin=932 CharacterOffsetEnd=938 PartOfSpeech=NNS Lemma=color NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=939 CharacterOffsetEnd=941 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=942 CharacterOffsetEnd=943 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=backstabbing CharacterOffsetBegin=944 CharacterOffsetEnd=956 PartOfSpeech=VBG Lemma=backstab NamedEntityTag=O]
+[Text=monster CharacterOffsetBegin=957 CharacterOffsetEnd=964 PartOfSpeech=NN Lemma=monster NamedEntityTag=O]
+[Text=man CharacterOffsetBegin=965 CharacterOffsetEnd=968 PartOfSpeech=NN Lemma=man NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=968 CharacterOffsetEnd=969 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (MD would)
+        (VP (VB give)
+          (NP (NNP Sansa)
+            (CC and)
+            (NNP Jon) (NNP Snow))
+          (NP
+            (NP (DT some) (JJ serious) (NN competition))
+            (PP (IN for)
+              (NP
+                (NP (NN control))
+                (PP (IN of)
+                  (NP (DT the) (NNP North)))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (MD would)
+        (ADVP (RB finally))
+        (VP (VB expose)
+          (NP
+            (NP (NNP Littlefinger) (POS 's))
+            (JJ true) (NNS colors))
+          (PP (IN as)
+            (NP (DT a) (VBG backstabbing) (NN monster) (NN man))))))
+    (. .)))
+
+root(ROOT-0, give-3)
+nsubj(give-3, It-1)
+aux(give-3, would-2)
+compound(Snow-7, Sansa-4)
+cc(Sansa-4, and-5)
+conj:and(Sansa-4, Jon-6)
+compound(Snow-7, Jon-6)
+iobj(give-3, Snow-7)
+det(competition-10, some-8)
+amod(competition-10, serious-9)
+dobj(give-3, competition-10)
+case(control-12, for-11)
+nmod:for(competition-10, control-12)
+case(North-15, of-13)
+det(North-15, the-14)
+nmod:of(control-12, North-15)
+punct(give-3, ,-16)
+cc(give-3, and-17)
+nsubj(expose-21, it-18)
+aux(expose-21, would-19)
+advmod(expose-21, finally-20)
+conj:and(give-3, expose-21)
+nmod:poss(colors-25, Littlefinger-22)
+case(Littlefinger-22, 's-23)
+amod(colors-25, true-24)
+dobj(expose-21, colors-25)
+case(man-30, as-26)
+det(man-30, a-27)
+amod(man-30, backstabbing-28)
+compound(man-30, monster-29)
+nmod:as(expose-21, man-30)
+punct(give-3, .-31)
+
+Sentence #9 (18 tokens):
 Unfortunately for Littlefinger, it could push Jon Snow into an alliance of another kind, like…
-[Text=Unfortunately CharacterOffsetBegin=969 CharacterOffsetEnd=982 PartOfSpeech=RB]
-[Text=for CharacterOffsetBegin=983 CharacterOffsetEnd=986 PartOfSpeech=IN]
-[Text=Littlefinger CharacterOffsetBegin=987 CharacterOffsetEnd=999 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=999 CharacterOffsetEnd=1000 PartOfSpeech=,]
-[Text=it CharacterOffsetBegin=1001 CharacterOffsetEnd=1003 PartOfSpeech=PRP]
-[Text=could CharacterOffsetBegin=1004 CharacterOffsetEnd=1009 PartOfSpeech=MD]
-[Text=push CharacterOffsetBegin=1010 CharacterOffsetEnd=1014 PartOfSpeech=VB]
-[Text=Jon CharacterOffsetBegin=1015 CharacterOffsetEnd=1018 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=1019 CharacterOffsetEnd=1023 PartOfSpeech=NNP]
-[Text=into CharacterOffsetBegin=1024 CharacterOffsetEnd=1028 PartOfSpeech=IN]
-[Text=an CharacterOffsetBegin=1029 CharacterOffsetEnd=1031 PartOfSpeech=DT]
-[Text=alliance CharacterOffsetBegin=1032 CharacterOffsetEnd=1040 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=1041 CharacterOffsetEnd=1043 PartOfSpeech=IN]
-[Text=another CharacterOffsetBegin=1044 CharacterOffsetEnd=1051 PartOfSpeech=DT]
-[Text=kind CharacterOffsetBegin=1052 CharacterOffsetEnd=1056 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=1056 CharacterOffsetEnd=1057 PartOfSpeech=,]
-[Text=like CharacterOffsetBegin=1058 CharacterOffsetEnd=1062 PartOfSpeech=IN]
-[Text=... CharacterOffsetBegin=1062 CharacterOffsetEnd=1063 PartOfSpeech=:]
+[Text=Unfortunately CharacterOffsetBegin=970 CharacterOffsetEnd=983 PartOfSpeech=RB Lemma=unfortunately NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=984 CharacterOffsetEnd=987 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=Littlefinger CharacterOffsetBegin=988 CharacterOffsetEnd=1000 PartOfSpeech=NNP Lemma=Littlefinger NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=1000 CharacterOffsetEnd=1001 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=1002 CharacterOffsetEnd=1004 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=1005 CharacterOffsetEnd=1010 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=push CharacterOffsetBegin=1011 CharacterOffsetEnd=1015 PartOfSpeech=VB Lemma=push NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=1016 CharacterOffsetEnd=1019 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=1020 CharacterOffsetEnd=1024 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text=into CharacterOffsetBegin=1025 CharacterOffsetEnd=1029 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=1030 CharacterOffsetEnd=1032 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=alliance CharacterOffsetBegin=1033 CharacterOffsetEnd=1041 PartOfSpeech=NN Lemma=alliance NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=1042 CharacterOffsetEnd=1044 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=another CharacterOffsetBegin=1045 CharacterOffsetEnd=1052 PartOfSpeech=DT Lemma=another NamedEntityTag=O]
+[Text=kind CharacterOffsetBegin=1053 CharacterOffsetEnd=1057 PartOfSpeech=NN Lemma=kind NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=1057 CharacterOffsetEnd=1058 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=1059 CharacterOffsetEnd=1063 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=1063 CharacterOffsetEnd=1064 PartOfSpeech=: Lemma=... NamedEntityTag=O]
+(ROOT
+  (S
+    (PP
+      (ADVP (RB Unfortunately))
+      (IN for)
+      (NP (NNP Littlefinger)))
+    (, ,)
+    (NP (PRP it))
+    (VP (MD could)
+      (VP (VB push)
+        (NP (NNP Jon) (NNP Snow))
+        (PP (IN into)
+          (NP
+            (NP (DT an) (NN alliance))
+            (PP (IN of)
+              (NP (DT another) (NN kind)))))
+        (, ,)
+        (PP (IN like))))
+    (: ...)))
+
+root(ROOT-0, push-7)
+advmod(Littlefinger-3, Unfortunately-1)
+case(Littlefinger-3, for-2)
+nmod:for(push-7, Littlefinger-3)
+punct(push-7, ,-4)
+nsubj(push-7, it-5)
+aux(push-7, could-6)
+compound(Snow-9, Jon-8)
+dobj(push-7, Snow-9)
+case(alliance-12, into-10)
+det(alliance-12, an-11)
+nmod:like(push-7, alliance-12)
+case(kind-15, of-13)
+det(kind-15, another-14)
+nmod:of(alliance-12, kind-15)
+punct(push-7, ,-16)
+case(alliance-12, like-17)
+punct(push-7, ...-18)
+
+Coreference set:
+	(2,8,[8,9]) -> (1,1,[1,2]), that is: "Littlefinger" -> "Littlefinger"
+	(2,10,[10,11]) -> (1,1,[1,2]), that is: "he" -> "Littlefinger"
+	(2,15,[15,16]) -> (1,1,[1,2]), that is: "his" -> "Littlefinger"
+	(2,19,[19,20]) -> (1,1,[1,2]), that is: "He" -> "Littlefinger"
+	(3,17,[17,18]) -> (1,1,[1,2]), that is: "Littlefinger" -> "Littlefinger"
+	(4,7,[7,9]) -> (1,1,[1,2]), that is: "Littlefinger 's" -> "Littlefinger"
+	(5,22,[22,23]) -> (1,1,[1,2]), that is: "Littlefinger" -> "Littlefinger"
+	(7,7,[7,8]) -> (1,1,[1,2]), that is: "Littlefinger" -> "Littlefinger"
+	(8,22,[22,24]) -> (1,1,[1,2]), that is: "Littlefinger 's" -> "Littlefinger"
+	(9,3,[3,4]) -> (1,1,[1,2]), that is: "Littlefinger" -> "Littlefinger"
+Coreference set:
+	(6,9,[9,10]) -> (1,4,[4,5]), that is: "Cersei" -> "Cersei"
+	(7,9,[9,10]) -> (1,4,[4,5]), that is: "Cersei" -> "Cersei"
+	(8,1,[1,2]) -> (1,4,[4,5]), that is: "It" -> "Cersei"
+	(8,18,[18,19]) -> (1,4,[4,5]), that is: "it" -> "Cersei"
+	(9,5,[5,6]) -> (1,4,[4,5]), that is: "it" -> "Cersei"
+Coreference set:
+	(2,30,[30,31]) -> (1,9,[9,10]), that is: "Westeros" -> "Westeros"
+Coreference set:
+	(2,28,[28,31]) -> (1,7,[7,10]), that is: "King of Westeros" -> "King of Westeros"
+	(2,35,[35,36]) -> (1,7,[7,10]), that is: "his" -> "King of Westeros"
+Coreference set:
+	(4,12,[12,13]) -> (2,33,[33,34]), that is: "Sansa" -> "Sansa"
+	(4,26,[26,27]) -> (2,33,[33,34]), that is: "herself" -> "Sansa"
+	(5,5,[5,6]) -> (2,33,[33,34]), that is: "She" -> "Sansa"
+	(5,18,[18,19]) -> (2,33,[33,34]), that is: "her" -> "Sansa"
+	(8,4,[4,5]) -> (2,33,[33,34]), that is: "Sansa" -> "Sansa"
+Coreference set:
+	(5,3,[3,4]) -> (4,3,[1,6]), that is: "it" -> "A growing theory on Reddit"
+Coreference set:
+	(5,29,[27,30]) -> (5,12,[10,13]), that is: "a big army" -> "a big army"
+Coreference set:
+	(8,7,[4,8]) -> (9,9,[8,10]), that is: "Sansa and Jon Snow" -> "Jon Snow"

@@ -1,173 +1,546 @@
-Sentence #1 (21 tokens):
-Daario is Benjen Stark
+Sentence #1 (5 tokens):
+Daario is Benjen Stark.
+[Text=Daario CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Daario NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=Benjen CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=NNP Lemma=Benjen NamedEntityTag=PERSON]
+[Text=Stark CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Daario))
+    (VP (VBZ is)
+      (NP (NNP Benjen) (NNP Stark)))
+    (. .)))
+
+root(ROOT-0, Stark-4)
+nsubj(Stark-4, Daario-1)
+cop(Stark-4, is-2)
+compound(Stark-4, Benjen-3)
+punct(Stark-4, .-5)
+
+Sentence #2 (17 tokens):
 When Daario was recast after one season, the reason given was he was too hot.
-[Text=Daario CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=VBZ]
-[Text=Benjen CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=17 CharacterOffsetEnd=22 PartOfSpeech=NNP]
-[Text=When CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=WRB]
-[Text=Daario CharacterOffsetBegin=28 CharacterOffsetEnd=34 PartOfSpeech=NNP]
-[Text=was CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=VBD]
-[Text=recast CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=VBN]
-[Text=after CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=IN]
-[Text=one CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=CD]
-[Text=season CharacterOffsetBegin=56 CharacterOffsetEnd=62 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=DT]
-[Text=reason CharacterOffsetBegin=68 CharacterOffsetEnd=74 PartOfSpeech=NN]
-[Text=given CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=VBN]
-[Text=was CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=VBD]
-[Text=he CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=VBD]
-[Text=too CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=RB]
-[Text=hot CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=99 CharacterOffsetEnd=100 PartOfSpeech=.]
-Sentence #2 (37 tokens):
+[Text=When CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=Daario CharacterOffsetBegin=29 CharacterOffsetEnd=35 PartOfSpeech=NNP Lemma=Daario NamedEntityTag=PERSON]
+[Text=was CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=recast CharacterOffsetBegin=40 CharacterOffsetEnd=46 PartOfSpeech=VBN Lemma=recast NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=season CharacterOffsetBegin=57 CharacterOffsetEnd=63 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=reason CharacterOffsetBegin=69 CharacterOffsetEnd=75 PartOfSpeech=NN Lemma=reason NamedEntityTag=O]
+[Text=given CharacterOffsetBegin=76 CharacterOffsetEnd=81 PartOfSpeech=VBN Lemma=give NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=too CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=RB Lemma=too NamedEntityTag=O]
+[Text=hot CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=JJ Lemma=hot NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (NNP Daario))
+        (VP (VBD was)
+          (VP (VBN recast)
+            (PP (IN after)
+              (NP (CD one) (NN season)))))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN reason))
+      (VP (VBN given)))
+    (VP (VBD was)
+      (SBAR
+        (S
+          (NP (PRP he))
+          (VP (VBD was)
+            (ADJP (RB too) (JJ hot))))))
+    (. .)))
+
+root(ROOT-0, was-12)
+advmod(recast-4, When-1)
+nsubjpass(recast-4, Daario-2)
+auxpass(recast-4, was-3)
+advcl(was-12, recast-4)
+case(season-7, after-5)
+nummod(season-7, one-6)
+nmod:after(recast-4, season-7)
+punct(was-12, ,-8)
+det(reason-10, the-9)
+nsubj(was-12, reason-10)
+acl(reason-10, given-11)
+nsubj(hot-16, he-13)
+cop(hot-16, was-14)
+advmod(hot-16, too-15)
+ccomp(was-12, hot-16)
+punct(was-12, .-17)
+
+Sentence #3 (37 tokens):
 Well, he looks completely different from the previous Daario, but an awful lot like a younger version of Benjen Stark, who disappeared early in Season 1 and hasn't been heard from since.
-[Text=Well CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=,]
-[Text=he CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=PRP]
-[Text=looks CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=VBZ]
-[Text=completely CharacterOffsetBegin=116 CharacterOffsetEnd=126 PartOfSpeech=RB]
-[Text=different CharacterOffsetBegin=127 CharacterOffsetEnd=136 PartOfSpeech=JJ]
-[Text=from CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=142 CharacterOffsetEnd=145 PartOfSpeech=DT]
-[Text=previous CharacterOffsetBegin=146 CharacterOffsetEnd=154 PartOfSpeech=JJ]
-[Text=Daario CharacterOffsetBegin=155 CharacterOffsetEnd=161 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=161 CharacterOffsetEnd=162 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=CC]
-[Text=an CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=DT]
-[Text=awful CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=JJ]
-[Text=lot CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=NN]
-[Text=like CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=DT]
-[Text=younger CharacterOffsetBegin=187 CharacterOffsetEnd=194 PartOfSpeech=JJR]
-[Text=version CharacterOffsetBegin=195 CharacterOffsetEnd=202 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=IN]
-[Text=Benjen CharacterOffsetBegin=206 CharacterOffsetEnd=212 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=,]
-[Text=who CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=WP]
-[Text=disappeared CharacterOffsetBegin=224 CharacterOffsetEnd=235 PartOfSpeech=VBD]
-[Text=early CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=RB]
-[Text=in CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=IN]
-[Text=Season CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=NN]
-[Text=1 CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=CD]
-[Text=and CharacterOffsetBegin=254 CharacterOffsetEnd=257 PartOfSpeech=CC]
-[Text=has CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=VBZ]
-[Text=n't CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=RB]
-[Text=been CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=VBN]
-[Text=heard CharacterOffsetBegin=270 CharacterOffsetEnd=275 PartOfSpeech=VBN]
-[Text=from CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=IN]
-[Text=since CharacterOffsetBegin=281 CharacterOffsetEnd=286 PartOfSpeech=IN]
-[Text=. CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=.]
-Sentence #3 (24 tokens):
+[Text=Well CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=RB Lemma=well NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=looks CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=VBZ Lemma=look NamedEntityTag=O]
+[Text=completely CharacterOffsetBegin=117 CharacterOffsetEnd=127 PartOfSpeech=RB Lemma=completely NamedEntityTag=O]
+[Text=different CharacterOffsetBegin=128 CharacterOffsetEnd=137 PartOfSpeech=JJ Lemma=different NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=previous CharacterOffsetBegin=147 CharacterOffsetEnd=155 PartOfSpeech=JJ Lemma=previous NamedEntityTag=O]
+[Text=Daario CharacterOffsetBegin=156 CharacterOffsetEnd=162 PartOfSpeech=NNP Lemma=Daario NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=162 CharacterOffsetEnd=163 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=awful CharacterOffsetBegin=171 CharacterOffsetEnd=176 PartOfSpeech=JJ Lemma=awful NamedEntityTag=O]
+[Text=lot CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=NN Lemma=lot NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=younger CharacterOffsetBegin=188 CharacterOffsetEnd=195 PartOfSpeech=JJR Lemma=younger NamedEntityTag=O]
+[Text=version CharacterOffsetBegin=196 CharacterOffsetEnd=203 PartOfSpeech=NN Lemma=version NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Benjen CharacterOffsetBegin=207 CharacterOffsetEnd=213 PartOfSpeech=NNP Lemma=Benjen NamedEntityTag=PERSON]
+[Text=Stark CharacterOffsetBegin=214 CharacterOffsetEnd=219 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=disappeared CharacterOffsetBegin=225 CharacterOffsetEnd=236 PartOfSpeech=VBD Lemma=disappear NamedEntityTag=O]
+[Text=early CharacterOffsetBegin=237 CharacterOffsetEnd=242 PartOfSpeech=RB Lemma=early NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=243 CharacterOffsetEnd=245 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Season CharacterOffsetBegin=246 CharacterOffsetEnd=252 PartOfSpeech=NN Lemma=season NamedEntityTag=DATE NormalizedNamedEntityTag=******01]
+[Text=1 CharacterOffsetBegin=253 CharacterOffsetEnd=254 PartOfSpeech=CD Lemma=1 NamedEntityTag=DATE NormalizedNamedEntityTag=******01]
+[Text=and CharacterOffsetBegin=255 CharacterOffsetEnd=258 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=heard CharacterOffsetBegin=271 CharacterOffsetEnd=276 PartOfSpeech=VBN Lemma=hear NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=since CharacterOffsetBegin=282 CharacterOffsetEnd=287 PartOfSpeech=IN Lemma=since NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (INTJ (RB Well))
+    (, ,)
+    (NP (PRP he))
+    (VP
+      (VP (VBZ looks)
+        (ADJP (RB completely) (JJ different))
+        (PP (IN from)
+          (NP (DT the) (JJ previous) (NNP Daario))))
+      (, ,)
+      (CC but)
+      (VP
+        (NP (DT an) (JJ awful) (NN lot))
+        (PP (IN like)
+          (NP
+            (NP (DT a) (JJR younger) (NN version))
+            (PP (IN of)
+              (NP
+                (NP (NNP Benjen) (NNP Stark))
+                (, ,)
+                (SBAR
+                  (WHNP (WP who))
+                  (S
+                    (VP
+                      (VP (VBD disappeared)
+                        (ADVP (RB early))
+                        (PP (IN in)
+                          (NP (NN Season) (CD 1))))
+                      (CC and)
+                      (VP (VBZ has) (RB n't)
+                        (VP (VBN been)
+                          (VP (VBN heard)
+                            (PP (IN from)
+                              (ADVP (IN since)))))))))))))))
+    (. .)))
+
+root(ROOT-0, looks-4)
+discourse(looks-4, Well-1)
+punct(looks-4, ,-2)
+nsubj(looks-4, he-3)
+advmod(different-6, completely-5)
+xcomp(looks-4, different-6)
+case(Daario-10, from-7)
+det(Daario-10, the-8)
+amod(Daario-10, previous-9)
+nmod:from(looks-4, Daario-10)
+punct(looks-4, ,-11)
+cc(looks-4, but-12)
+det(lot-15, an-13)
+amod(lot-15, awful-14)
+conj:but(looks-4, lot-15)
+case(version-19, like-16)
+det(version-19, a-17)
+amod(version-19, younger-18)
+nmod:like(lot-15, version-19)
+case(Stark-22, of-20)
+compound(Stark-22, Benjen-21)
+nmod:of(version-19, Stark-22)
+nsubj(disappeared-25, Stark-22)
+nsubjpass(heard-34, Stark-22)
+punct(Stark-22, ,-23)
+ref(Stark-22, who-24)
+acl:relcl(Stark-22, disappeared-25)
+advmod(disappeared-25, early-26)
+case(Season-28, in-27)
+nmod:in(disappeared-25, Season-28)
+nummod(Season-28, 1-29)
+cc(disappeared-25, and-30)
+aux(heard-34, has-31)
+neg(heard-34, n't-32)
+auxpass(heard-34, been-33)
+acl:relcl(Stark-22, heard-34)
+conj:and(disappeared-25, heard-34)
+case(since-36, from-35)
+advcl:from(heard-34, since-36)
+punct(looks-4, .-37)
+
+Sentence #4 (24 tokens):
 Maybe he's doing a task for Maester Aemon, who in the books bemoans that he's not by Daenerys' side?
-[Text=Maybe CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=RB]
-[Text=he CharacterOffsetBegin=294 CharacterOffsetEnd=296 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=VBZ]
-[Text=doing CharacterOffsetBegin=299 CharacterOffsetEnd=304 PartOfSpeech=VBG]
-[Text=a CharacterOffsetBegin=305 CharacterOffsetEnd=306 PartOfSpeech=DT]
-[Text=task CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=IN]
-[Text=Maester CharacterOffsetBegin=316 CharacterOffsetEnd=323 PartOfSpeech=NNP]
-[Text=Aemon CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=,]
-[Text=who CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=WP]
-[Text=in CharacterOffsetBegin=335 CharacterOffsetEnd=337 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=338 CharacterOffsetEnd=341 PartOfSpeech=DT]
-[Text=books CharacterOffsetBegin=342 CharacterOffsetEnd=347 PartOfSpeech=NNS]
-[Text=bemoans CharacterOffsetBegin=348 CharacterOffsetEnd=355 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=356 CharacterOffsetEnd=360 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=363 CharacterOffsetEnd=365 PartOfSpeech=VBZ]
-[Text=not CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=RB]
-[Text=by CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=IN]
-[Text=Daenerys CharacterOffsetBegin=373 CharacterOffsetEnd=381 PartOfSpeech=NNP]
-[Text=' CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=POS]
-[Text=side CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=NN]
-[Text=? CharacterOffsetBegin=387 CharacterOffsetEnd=388 PartOfSpeech=.]
-Sentence #4 (9 tokens):
+[Text=Maybe CharacterOffsetBegin=289 CharacterOffsetEnd=294 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=doing CharacterOffsetBegin=300 CharacterOffsetEnd=305 PartOfSpeech=VBG Lemma=do NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=306 CharacterOffsetEnd=307 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=task CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=NN Lemma=task NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=Maester CharacterOffsetBegin=317 CharacterOffsetEnd=324 PartOfSpeech=NNP Lemma=Maester NamedEntityTag=PERSON]
+[Text=Aemon CharacterOffsetBegin=325 CharacterOffsetEnd=330 PartOfSpeech=NNP Lemma=Aemon NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=books CharacterOffsetBegin=343 CharacterOffsetEnd=348 PartOfSpeech=NNS Lemma=book NamedEntityTag=O]
+[Text=bemoans CharacterOffsetBegin=349 CharacterOffsetEnd=356 PartOfSpeech=VBZ Lemma=bemoan NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=357 CharacterOffsetEnd=361 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=367 CharacterOffsetEnd=370 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=371 CharacterOffsetEnd=373 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=Daenerys CharacterOffsetBegin=374 CharacterOffsetEnd=382 PartOfSpeech=NNP Lemma=Daenerys NamedEntityTag=PERSON]
+[Text=' CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=POS Lemma=' NamedEntityTag=O]
+[Text=side CharacterOffsetBegin=384 CharacterOffsetEnd=388 PartOfSpeech=NN Lemma=side NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=388 CharacterOffsetEnd=389 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Maybe))
+    (NP (PRP he))
+    (VP (VBZ 's)
+      (VP (VBG doing)
+        (NP
+          (NP (DT a) (NN task))
+          (PP (IN for)
+            (NP
+              (NP (NNP Maester) (NNP Aemon))
+              (, ,)
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (PP (IN in)
+                    (NP (DT the) (NNS books)))
+                  (VP (VBZ bemoans)
+                    (SBAR (IN that)
+                      (S
+                        (NP (PRP he))
+                        (VP (VBZ 's) (RB not)
+                          (PP (IN by)
+                            (NP
+                              (NP (NNP Daenerys) (POS '))
+                              (NN side))))))))))))))
+    (. ?)))
+
+root(ROOT-0, doing-4)
+advmod(doing-4, Maybe-1)
+nsubj(doing-4, he-2)
+aux(doing-4, 's-3)
+det(task-6, a-5)
+dobj(doing-4, task-6)
+case(Aemon-9, for-7)
+compound(Aemon-9, Maester-8)
+nmod:for(task-6, Aemon-9)
+nsubj(bemoans-15, Aemon-9)
+punct(Aemon-9, ,-10)
+ref(Aemon-9, who-11)
+case(books-14, in-12)
+det(books-14, the-13)
+nmod:in(bemoans-15, books-14)
+acl:relcl(Aemon-9, bemoans-15)
+mark(side-23, that-16)
+nsubj(side-23, he-17)
+cop(side-23, 's-18)
+neg(side-23, not-19)
+case(side-23, by-20)
+nmod:poss(side-23, Daenerys-21)
+case(Daenerys-21, '-22)
+ccomp(bemoans-15, side-23)
+punct(doing-4, ?-24)
+
+Sentence #5 (9 tokens):
 This would be a weird twist, yes.
-[Text=This CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=DT]
-[Text=would CharacterOffsetBegin=394 CharacterOffsetEnd=399 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=400 CharacterOffsetEnd=402 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=403 CharacterOffsetEnd=404 PartOfSpeech=DT]
-[Text=weird CharacterOffsetBegin=405 CharacterOffsetEnd=410 PartOfSpeech=JJ]
-[Text=twist CharacterOffsetBegin=411 CharacterOffsetEnd=416 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=416 CharacterOffsetEnd=417 PartOfSpeech=,]
-[Text=yes CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=UH]
-[Text=. CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=.]
-Sentence #5 (36 tokens):
+[Text=This CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=395 CharacterOffsetEnd=400 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=401 CharacterOffsetEnd=403 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=404 CharacterOffsetEnd=405 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=weird CharacterOffsetBegin=406 CharacterOffsetEnd=411 PartOfSpeech=JJ Lemma=weird NamedEntityTag=O]
+[Text=twist CharacterOffsetBegin=412 CharacterOffsetEnd=417 PartOfSpeech=NN Lemma=twist NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=yes CharacterOffsetBegin=419 CharacterOffsetEnd=422 PartOfSpeech=UH Lemma=yes NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (MD would)
+      (VP (VB be)
+        (NP (DT a) (JJ weird) (NN twist))
+        (, ,)
+        (NP (UH yes))))
+    (. .)))
+
+root(ROOT-0, twist-6)
+nsubj(twist-6, This-1)
+aux(twist-6, would-2)
+cop(twist-6, be-3)
+det(twist-6, a-4)
+amod(twist-6, weird-5)
+punct(twist-6, ,-7)
+dep(twist-6, yes-8)
+punct(twist-6, .-9)
+
+Sentence #6 (36 tokens):
 And, no, the theory doesn't imply that there are two Daarios, but rather that they made the casting change when they found out George RR Martin's ultimate designs for him.
-[Text=And CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=CC]
-[Text=, CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=,]
-[Text=no CharacterOffsetBegin=428 CharacterOffsetEnd=430 PartOfSpeech=DT]
-[Text=, CharacterOffsetBegin=430 CharacterOffsetEnd=431 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=432 CharacterOffsetEnd=435 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=436 CharacterOffsetEnd=442 PartOfSpeech=NN]
-[Text=does CharacterOffsetBegin=443 CharacterOffsetEnd=447 PartOfSpeech=VBZ]
-[Text=n't CharacterOffsetBegin=447 CharacterOffsetEnd=450 PartOfSpeech=RB]
-[Text=imply CharacterOffsetBegin=451 CharacterOffsetEnd=456 PartOfSpeech=VB]
-[Text=that CharacterOffsetBegin=457 CharacterOffsetEnd=461 PartOfSpeech=IN]
-[Text=there CharacterOffsetBegin=462 CharacterOffsetEnd=467 PartOfSpeech=EX]
-[Text=are CharacterOffsetBegin=468 CharacterOffsetEnd=471 PartOfSpeech=VBP]
-[Text=two CharacterOffsetBegin=472 CharacterOffsetEnd=475 PartOfSpeech=CD]
-[Text=Daarios CharacterOffsetBegin=476 CharacterOffsetEnd=483 PartOfSpeech=NNPS]
-[Text=, CharacterOffsetBegin=483 CharacterOffsetEnd=484 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=485 CharacterOffsetEnd=488 PartOfSpeech=CC]
-[Text=rather CharacterOffsetBegin=489 CharacterOffsetEnd=495 PartOfSpeech=RB]
-[Text=that CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=IN]
-[Text=they CharacterOffsetBegin=501 CharacterOffsetEnd=505 PartOfSpeech=PRP]
-[Text=made CharacterOffsetBegin=506 CharacterOffsetEnd=510 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=511 CharacterOffsetEnd=514 PartOfSpeech=DT]
-[Text=casting CharacterOffsetBegin=515 CharacterOffsetEnd=522 PartOfSpeech=NN]
-[Text=change CharacterOffsetBegin=523 CharacterOffsetEnd=529 PartOfSpeech=NN]
-[Text=when CharacterOffsetBegin=530 CharacterOffsetEnd=534 PartOfSpeech=WRB]
-[Text=they CharacterOffsetBegin=535 CharacterOffsetEnd=539 PartOfSpeech=PRP]
-[Text=found CharacterOffsetBegin=540 CharacterOffsetEnd=545 PartOfSpeech=VBD]
-[Text=out CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=RP]
-[Text=George CharacterOffsetBegin=550 CharacterOffsetEnd=556 PartOfSpeech=NNP]
-[Text=RR CharacterOffsetBegin=557 CharacterOffsetEnd=559 PartOfSpeech=NNP]
-[Text=Martin CharacterOffsetBegin=560 CharacterOffsetEnd=566 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=566 CharacterOffsetEnd=568 PartOfSpeech=POS]
-[Text=ultimate CharacterOffsetBegin=569 CharacterOffsetEnd=577 PartOfSpeech=JJ]
-[Text=designs CharacterOffsetBegin=578 CharacterOffsetEnd=585 PartOfSpeech=NNS]
-[Text=for CharacterOffsetBegin=586 CharacterOffsetEnd=589 PartOfSpeech=IN]
-[Text=him CharacterOffsetBegin=590 CharacterOffsetEnd=593 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=593 CharacterOffsetEnd=594 PartOfSpeech=.]
-Sentence #6 (33 tokens):
+[Text=And CharacterOffsetBegin=424 CharacterOffsetEnd=427 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=427 CharacterOffsetEnd=428 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=DT Lemma=no NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=431 CharacterOffsetEnd=432 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=437 CharacterOffsetEnd=443 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=does CharacterOffsetBegin=444 CharacterOffsetEnd=448 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=imply CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=VB Lemma=imply NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=458 CharacterOffsetEnd=462 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=there CharacterOffsetBegin=463 CharacterOffsetEnd=468 PartOfSpeech=EX Lemma=there NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=two CharacterOffsetBegin=473 CharacterOffsetEnd=476 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text=Daarios CharacterOffsetBegin=477 CharacterOffsetEnd=484 PartOfSpeech=NNPS Lemma=Daarios NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=484 CharacterOffsetEnd=485 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=rather CharacterOffsetBegin=490 CharacterOffsetEnd=496 PartOfSpeech=RB Lemma=rather NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=497 CharacterOffsetEnd=501 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=502 CharacterOffsetEnd=506 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=made CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=VBD Lemma=make NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=512 CharacterOffsetEnd=515 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=casting CharacterOffsetBegin=516 CharacterOffsetEnd=523 PartOfSpeech=NN Lemma=casting NamedEntityTag=O]
+[Text=change CharacterOffsetBegin=524 CharacterOffsetEnd=530 PartOfSpeech=NN Lemma=change NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=531 CharacterOffsetEnd=535 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=536 CharacterOffsetEnd=540 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=found CharacterOffsetBegin=541 CharacterOffsetEnd=546 PartOfSpeech=VBD Lemma=find NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=547 CharacterOffsetEnd=550 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=George CharacterOffsetBegin=551 CharacterOffsetEnd=557 PartOfSpeech=NNP Lemma=George NamedEntityTag=PERSON]
+[Text=RR CharacterOffsetBegin=558 CharacterOffsetEnd=560 PartOfSpeech=NNP Lemma=RR NamedEntityTag=PERSON]
+[Text=Martin CharacterOffsetBegin=561 CharacterOffsetEnd=567 PartOfSpeech=NNP Lemma=Martin NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=567 CharacterOffsetEnd=569 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=ultimate CharacterOffsetBegin=570 CharacterOffsetEnd=578 PartOfSpeech=JJ Lemma=ultimate NamedEntityTag=O]
+[Text=designs CharacterOffsetBegin=579 CharacterOffsetEnd=586 PartOfSpeech=NNS Lemma=design NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=591 CharacterOffsetEnd=594 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=594 CharacterOffsetEnd=595 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC And)
+    (, ,)
+    (ADVP (DT no))
+    (, ,)
+    (NP (DT the) (NN theory))
+    (VP (VBZ does) (RB n't)
+      (VP (VB imply)
+        (SBAR
+          (SBAR (IN that)
+            (S
+              (NP (EX there))
+              (VP (VBP are)
+                (NP (CD two) (NNPS Daarios)))))
+          (, ,)
+          (CONJP (CC but)
+            (RB rather))
+          (SBAR (IN that)
+            (S
+              (NP (PRP they))
+              (VP (VBD made)
+                (NP (DT the) (NN casting) (NN change))
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP (PRP they))
+                    (VP (VBD found)
+                      (PRT (RP out))
+                      (NP
+                        (NP
+                          (NP (NNP George) (NNP RR) (NNP Martin) (POS 's))
+                          (JJ ultimate) (NNS designs))
+                        (PP (IN for)
+                          (NP (PRP him)))))))))))))
+    (. .)))
+
+root(ROOT-0, imply-9)
+cc(imply-9, And-1)
+punct(imply-9, ,-2)
+advmod(imply-9, no-3)
+punct(imply-9, ,-4)
+det(theory-6, the-5)
+nsubj(imply-9, theory-6)
+aux(imply-9, does-7)
+neg(imply-9, n't-8)
+mark(are-12, that-10)
+expl(are-12, there-11)
+ccomp(imply-9, are-12)
+nummod(Daarios-14, two-13)
+nsubj(are-12, Daarios-14)
+punct(are-12, ,-15)
+cc(rather-17, but-16)
+cc(are-12, rather-17)
+mark(made-20, that-18)
+nsubj(made-20, they-19)
+ccomp(imply-9, made-20)
+conj:rather(are-12, made-20)
+det(change-23, the-21)
+compound(change-23, casting-22)
+dobj(made-20, change-23)
+advmod(found-26, when-24)
+nsubj(found-26, they-25)
+advcl(made-20, found-26)
+compound:prt(found-26, out-27)
+compound(Martin-30, George-28)
+compound(Martin-30, RR-29)
+nmod:poss(designs-33, Martin-30)
+case(Martin-30, 's-31)
+amod(designs-33, ultimate-32)
+dobj(found-26, designs-33)
+case(him-35, for-34)
+nmod:for(designs-33, him-35)
+punct(imply-9, .-36)
+
+Sentence #7 (33 tokens):
 UPDATE: As of the May 29 episode, "Blood of My Blood," which saw the return of Benjen Stark in Westeros, this really ridiculous theory is DEBUNKED.
-[Text=UPDATE CharacterOffsetBegin=596 CharacterOffsetEnd=602 PartOfSpeech=NNP]
-[Text=: CharacterOffsetBegin=602 CharacterOffsetEnd=603 PartOfSpeech=:]
-[Text=As CharacterOffsetBegin=604 CharacterOffsetEnd=606 PartOfSpeech=IN]
-[Text=of CharacterOffsetBegin=607 CharacterOffsetEnd=609 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=610 CharacterOffsetEnd=613 PartOfSpeech=DT]
-[Text=May CharacterOffsetBegin=614 CharacterOffsetEnd=617 PartOfSpeech=NNP]
-[Text=29 CharacterOffsetBegin=618 CharacterOffsetEnd=620 PartOfSpeech=CD]
-[Text=episode CharacterOffsetBegin=621 CharacterOffsetEnd=628 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=,]
-[Text=`` CharacterOffsetBegin=630 CharacterOffsetEnd=631 PartOfSpeech=``]
-[Text=Blood CharacterOffsetBegin=631 CharacterOffsetEnd=636 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=637 CharacterOffsetEnd=639 PartOfSpeech=IN]
-[Text=My CharacterOffsetBegin=640 CharacterOffsetEnd=642 PartOfSpeech=PRP$]
-[Text=Blood CharacterOffsetBegin=643 CharacterOffsetEnd=648 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=648 CharacterOffsetEnd=649 PartOfSpeech=,]
-[Text='' CharacterOffsetBegin=649 CharacterOffsetEnd=650 PartOfSpeech='']
-[Text=which CharacterOffsetBegin=651 CharacterOffsetEnd=656 PartOfSpeech=WDT]
-[Text=saw CharacterOffsetBegin=657 CharacterOffsetEnd=660 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=DT]
-[Text=return CharacterOffsetBegin=665 CharacterOffsetEnd=671 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=672 CharacterOffsetEnd=674 PartOfSpeech=IN]
-[Text=Benjen CharacterOffsetBegin=675 CharacterOffsetEnd=681 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=682 CharacterOffsetEnd=687 PartOfSpeech=NNP]
-[Text=in CharacterOffsetBegin=688 CharacterOffsetEnd=690 PartOfSpeech=IN]
-[Text=Westeros CharacterOffsetBegin=691 CharacterOffsetEnd=699 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=699 CharacterOffsetEnd=700 PartOfSpeech=,]
-[Text=this CharacterOffsetBegin=701 CharacterOffsetEnd=705 PartOfSpeech=DT]
-[Text=really CharacterOffsetBegin=706 CharacterOffsetEnd=712 PartOfSpeech=RB]
-[Text=ridiculous CharacterOffsetBegin=713 CharacterOffsetEnd=723 PartOfSpeech=JJ]
-[Text=theory CharacterOffsetBegin=724 CharacterOffsetEnd=730 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=731 CharacterOffsetEnd=733 PartOfSpeech=VBZ]
-[Text=DEBUNKED CharacterOffsetBegin=734 CharacterOffsetEnd=742 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=742 CharacterOffsetEnd=743 PartOfSpeech=.]
+[Text=UPDATE CharacterOffsetBegin=597 CharacterOffsetEnd=603 PartOfSpeech=NNP Lemma=UPDATE NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=603 CharacterOffsetEnd=604 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=As CharacterOffsetBegin=605 CharacterOffsetEnd=607 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=608 CharacterOffsetEnd=610 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=611 CharacterOffsetEnd=614 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=May CharacterOffsetBegin=615 CharacterOffsetEnd=618 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-29 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-05-29">May 29</TIMEX3>]
+[Text=29 CharacterOffsetBegin=619 CharacterOffsetEnd=621 PartOfSpeech=CD Lemma=29 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-29 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-05-29">May 29</TIMEX3>]
+[Text=episode CharacterOffsetBegin=622 CharacterOffsetEnd=629 PartOfSpeech=NN Lemma=episode NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=629 CharacterOffsetEnd=630 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=631 CharacterOffsetEnd=632 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Blood CharacterOffsetBegin=632 CharacterOffsetEnd=637 PartOfSpeech=NN Lemma=blood NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=638 CharacterOffsetEnd=640 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=My CharacterOffsetBegin=641 CharacterOffsetEnd=643 PartOfSpeech=PRP$ Lemma=my NamedEntityTag=O]
+[Text=Blood CharacterOffsetBegin=644 CharacterOffsetEnd=649 PartOfSpeech=NN Lemma=blood NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=649 CharacterOffsetEnd=650 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=650 CharacterOffsetEnd=651 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=652 CharacterOffsetEnd=657 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=saw CharacterOffsetBegin=658 CharacterOffsetEnd=661 PartOfSpeech=VBD Lemma=see NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=662 CharacterOffsetEnd=665 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=return CharacterOffsetBegin=666 CharacterOffsetEnd=672 PartOfSpeech=NN Lemma=return NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=673 CharacterOffsetEnd=675 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Benjen CharacterOffsetBegin=676 CharacterOffsetEnd=682 PartOfSpeech=NNP Lemma=Benjen NamedEntityTag=LOCATION]
+[Text=Stark CharacterOffsetBegin=683 CharacterOffsetEnd=688 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=LOCATION]
+[Text=in CharacterOffsetBegin=689 CharacterOffsetEnd=691 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Westeros CharacterOffsetBegin=692 CharacterOffsetEnd=700 PartOfSpeech=NNP Lemma=Westeros NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=700 CharacterOffsetEnd=701 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=702 CharacterOffsetEnd=706 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=really CharacterOffsetBegin=707 CharacterOffsetEnd=713 PartOfSpeech=RB Lemma=really NamedEntityTag=O]
+[Text=ridiculous CharacterOffsetBegin=714 CharacterOffsetEnd=724 PartOfSpeech=JJ Lemma=ridiculous NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=725 CharacterOffsetEnd=731 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=732 CharacterOffsetEnd=734 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=DEBUNKED CharacterOffsetBegin=735 CharacterOffsetEnd=743 PartOfSpeech=NNP Lemma=DEBUNKED NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=743 CharacterOffsetEnd=744 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (NP (NNP UPDATE))
+    (: :)
+    (S
+      (PP (IN As)
+        (PP (IN of)
+          (NP (DT the) (NNP May) (CD 29) (NN episode))))
+      (, ,)
+      (NP
+        (NP (`` ``) (NN Blood))
+        (PP (IN of)
+          (NP
+            (NP (PRP$ My) (NN Blood))
+            (, ,) ('' '')
+            (SBAR
+              (WHNP (WDT which))
+              (S
+                (VP (VBD saw)
+                  (NP
+                    (NP (DT the) (NN return))
+                    (PP (IN of)
+                      (NP (NNP Benjen) (NNP Stark))))
+                  (PP (IN in)
+                    (NP
+                      (NP (NNP Westeros))
+                      (, ,)
+                      (NP (DT this)
+                        (ADJP (RB really) (JJ ridiculous))
+                        (NN theory))))))))))
+      (VP (VBZ is)
+        (NP (NNP DEBUNKED))))
+    (. .)))
+
+root(ROOT-0, UPDATE-1)
+punct(UPDATE-1, :-2)
+case(episode-8, As-3)
+mwe(As-3, of-4)
+det(episode-8, the-5)
+compound(episode-8, May-6)
+nummod(episode-8, 29-7)
+nmod:as_of(DEBUNKED-32, episode-8)
+punct(DEBUNKED-32, ,-9)
+punct(Blood-11, ``-10)
+nsubj(DEBUNKED-32, Blood-11)
+case(Blood-14, of-12)
+nmod:poss(Blood-14, My-13)
+nmod:of(Blood-11, Blood-14)
+nsubj(saw-18, Blood-14)
+punct(Blood-14, ,-15)
+punct(Blood-14, ''-16)
+ref(Blood-14, which-17)
+acl:relcl(Blood-14, saw-18)
+det(return-20, the-19)
+dobj(saw-18, return-20)
+case(Stark-23, of-21)
+compound(Stark-23, Benjen-22)
+nmod:of(return-20, Stark-23)
+case(Westeros-25, in-24)
+nmod:in(saw-18, Westeros-25)
+punct(Westeros-25, ,-26)
+det(theory-30, this-27)
+advmod(ridiculous-29, really-28)
+amod(theory-30, ridiculous-29)
+appos(Westeros-25, theory-30)
+cop(DEBUNKED-32, is-31)
+parataxis(UPDATE-1, DEBUNKED-32)
+punct(UPDATE-1, .-33)
+
+Coreference set:
+	(1,1,[1,2]) -> (1,4,[3,5]), that is: "Daario" -> "Benjen Stark"
+	(2,2,[2,3]) -> (1,4,[3,5]), that is: "Daario" -> "Benjen Stark"
+	(2,13,[13,14]) -> (1,4,[3,5]), that is: "he" -> "Benjen Stark"
+	(3,3,[3,4]) -> (1,4,[3,5]), that is: "he" -> "Benjen Stark"
+	(3,10,[8,11]) -> (1,4,[3,5]), that is: "the previous Daario" -> "Benjen Stark"
+	(3,22,[21,37]) -> (1,4,[3,5]), that is: "Benjen Stark , who disappeared early in Season 1 and has n't been heard from since" -> "Benjen Stark"
+	(3,22,[21,23]) -> (1,4,[3,5]), that is: "Benjen Stark" -> "Benjen Stark"
+	(4,2,[2,3]) -> (1,4,[3,5]), that is: "he" -> "Benjen Stark"
+	(4,17,[17,18]) -> (1,4,[3,5]), that is: "he" -> "Benjen Stark"
+	(6,14,[14,15]) -> (1,4,[3,5]), that is: "Daarios" -> "Benjen Stark"
+	(6,35,[35,36]) -> (1,4,[3,5]), that is: "him" -> "Benjen Stark"
+	(7,13,[13,14]) -> (1,4,[3,5]), that is: "My" -> "Benjen Stark"
+	(7,23,[22,24]) -> (1,4,[3,5]), that is: "Benjen Stark" -> "Benjen Stark"
+Coreference set:
+	(5,1,[1,2]) -> (5,6,[4,7]), that is: "This" -> "a weird twist"
+	(5,8,[8,9]) -> (5,6,[4,7]), that is: "yes" -> "a weird twist"
+Coreference set:
+	(6,25,[25,26]) -> (6,19,[19,20]), that is: "they" -> "they"
+Coreference set:
+	(7,30,[27,31]) -> (7,25,[25,26]), that is: "this really ridiculous theory" -> "Westeros"
+Coreference set:
+	(7,11,[10,31]) -> (7,32,[32,33]), that is: "`` Blood of My Blood , '' which saw the return of Benjen Stark in Westeros , this really ridiculous theory" -> "DEBUNKED"

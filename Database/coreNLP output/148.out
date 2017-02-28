@@ -1,203 +1,640 @@
 Sentence #1 (7 tokens):
 Joffrey's Head On The Mountain.
-[Text=Joffrey CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=POS]
-[Text=Head CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=NNP]
-[Text=On CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=IN]
-[Text=The CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=DT]
-[Text=Mountain CharacterOffsetBegin=22 CharacterOffsetEnd=30 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=.]
+[Text=Joffrey CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=NNP Lemma=Joffrey NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=7 CharacterOffsetEnd=9 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Head CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=NNP Lemma=Head NamedEntityTag=O]
+[Text=On CharacterOffsetBegin=15 CharacterOffsetEnd=17 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mountain CharacterOffsetBegin=22 CharacterOffsetEnd=30 PartOfSpeech=NNP Lemma=Mountain NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP
+    (NP
+      (NP (NNP Joffrey) (POS 's))
+      (NNP Head))
+    (NP (IN On)
+      (NP (DT The) (NNP Mountain)))
+    (. .)))
+
+root(ROOT-0, Head-3)
+nmod:poss(Head-3, Joffrey-1)
+case(Joffrey-1, 's-2)
+amod(Mountain-6, On-4)
+det(Mountain-6, The-5)
+dep(Head-3, Mountain-6)
+punct(Head-3, .-7)
+
 Sentence #2 (9 tokens):
 Oh, Zombie Mountain... I love you.
-[Text=Oh CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=UH]
-[Text=, CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=,]
-[Text=Zombie CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=NNP]
-[Text=Mountain CharacterOffsetBegin=43 CharacterOffsetEnd=51 PartOfSpeech=NNP]
-[Text=... CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=:]
-[Text=I CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=PRP]
-[Text=love CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=VBP]
-[Text=you CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=.]
+[Text=Oh CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=UH Lemma=oh NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Zombie CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=NNP Lemma=Zombie NamedEntityTag=O]
+[Text=Mountain CharacterOffsetBegin=43 CharacterOffsetEnd=51 PartOfSpeech=NNP Lemma=Mountain NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=: Lemma=... NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=love CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=VBP Lemma=love NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (FRAG
+      (INTJ (UH Oh))
+      (, ,)
+      (NP (NNP Zombie) (NNP Mountain)))
+    (: ...)
+    (S
+      (NP (PRP I))
+      (VP (VBP love)
+        (NP (PRP you))))
+    (. .)))
+
+root(ROOT-0, love-7)
+discourse(Mountain-4, Oh-1)
+punct(Mountain-4, ,-2)
+compound(Mountain-4, Zombie-3)
+dep(love-7, Mountain-4)
+punct(love-7, ...-5)
+nsubj(love-7, I-6)
+dobj(love-7, you-8)
+punct(love-7, .-9)
+
 Sentence #3 (9 tokens):
 This theory is equal parts crazy and awesome.
-[Text=This CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=VBZ]
-[Text=equal CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=JJ]
-[Text=parts CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=NNS]
-[Text=crazy CharacterOffsetBegin=94 CharacterOffsetEnd=99 PartOfSpeech=JJ]
-[Text=and CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=CC]
-[Text=awesome CharacterOffsetBegin=104 CharacterOffsetEnd=111 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=.]
+[Text=This CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=equal CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=JJ Lemma=equal NamedEntityTag=O]
+[Text=parts CharacterOffsetBegin=88 CharacterOffsetEnd=93 PartOfSpeech=NNS Lemma=part NamedEntityTag=O]
+[Text=crazy CharacterOffsetBegin=94 CharacterOffsetEnd=99 PartOfSpeech=JJ Lemma=crazy NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=100 CharacterOffsetEnd=103 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=awesome CharacterOffsetBegin=104 CharacterOffsetEnd=111 PartOfSpeech=JJ Lemma=awesome NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This) (NN theory))
+    (VP (VBZ is)
+      (NP
+        (NP (JJ equal) (NNS parts))
+        (ADJP (JJ crazy)
+          (CC and)
+          (JJ awesome))))
+    (. .)))
+
+root(ROOT-0, parts-5)
+det(theory-2, This-1)
+nsubj(parts-5, theory-2)
+cop(parts-5, is-3)
+amod(parts-5, equal-4)
+amod(parts-5, crazy-6)
+cc(crazy-6, and-7)
+amod(parts-5, awesome-8)
+conj:and(crazy-6, awesome-8)
+punct(parts-5, .-9)
+
 Sentence #4 (19 tokens):
 If it's true (I really don't think it is), this would be amazing.
-[Text=If CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=VBZ]
-[Text=true CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=JJ]
-[Text=-LRB- CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=-LRB-]
-[Text=I CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=PRP]
-[Text=really CharacterOffsetBegin=129 CharacterOffsetEnd=135 PartOfSpeech=RB]
-[Text=do CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=VBP]
-[Text=n't CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=RB]
-[Text=think CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=VB]
-[Text=it CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=PRP]
-[Text=is CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=VBZ]
-[Text=-RRB- CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=-RRB-]
-[Text=, CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=,]
-[Text=this CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=DT]
-[Text=would CharacterOffsetBegin=161 CharacterOffsetEnd=166 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=VB]
-[Text=amazing CharacterOffsetBegin=170 CharacterOffsetEnd=177 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=.]
+[Text=If CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=true CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=JJ Lemma=true NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=really CharacterOffsetBegin=129 CharacterOffsetEnd=135 PartOfSpeech=RB Lemma=really NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=think CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=VB Lemma=think NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=151 CharacterOffsetEnd=153 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=153 CharacterOffsetEnd=154 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=154 CharacterOffsetEnd=155 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=161 CharacterOffsetEnd=166 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=amazing CharacterOffsetBegin=170 CharacterOffsetEnd=177 PartOfSpeech=JJ Lemma=amazing NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (PRP it))
+        (VP (VBZ 's)
+          (ADJP (JJ true)))))
+    (PRN (-LRB- -LRB-)
+      (S
+        (NP (PRP I))
+        (ADVP (RB really))
+        (VP (VBP do) (RB n't)
+          (VP (VB think)
+            (SBAR
+              (S
+                (NP (PRP it))
+                (VP (VBZ is)))))))
+      (-RRB- -RRB-))
+    (, ,)
+    (NP (DT this))
+    (VP (MD would)
+      (VP (VB be)
+        (ADJP (JJ amazing))))
+    (. .)))
+
+root(ROOT-0, amazing-18)
+mark(true-4, If-1)
+nsubj(true-4, it-2)
+cop(true-4, 's-3)
+advcl:if(amazing-18, true-4)
+punct(think-10, -LRB--5)
+nsubj(think-10, I-6)
+advmod(think-10, really-7)
+aux(think-10, do-8)
+neg(think-10, n't-9)
+parataxis(amazing-18, think-10)
+nsubj(is-12, it-11)
+ccomp(think-10, is-12)
+punct(think-10, -RRB--13)
+punct(amazing-18, ,-14)
+nsubj(amazing-18, this-15)
+aux(amazing-18, would-16)
+cop(amazing-18, be-17)
+punct(amazing-18, .-19)
+
 Sentence #5 (16 tokens):
 Redditor Piscator629 thinks that crazy Qyburn sewed Joffrey's head onto The Mountain's body.
-[Text=Redditor CharacterOffsetBegin=179 CharacterOffsetEnd=187 PartOfSpeech=NNP]
-[Text=Piscator629 CharacterOffsetBegin=188 CharacterOffsetEnd=199 PartOfSpeech=NNP]
-[Text=thinks CharacterOffsetBegin=200 CharacterOffsetEnd=206 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=IN]
-[Text=crazy CharacterOffsetBegin=212 CharacterOffsetEnd=217 PartOfSpeech=JJ]
-[Text=Qyburn CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=NNP]
-[Text=sewed CharacterOffsetBegin=225 CharacterOffsetEnd=230 PartOfSpeech=VBD]
-[Text=Joffrey CharacterOffsetBegin=231 CharacterOffsetEnd=238 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=POS]
-[Text=head CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=NN]
-[Text=onto CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=IN]
-[Text=The CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=DT]
-[Text=Mountain CharacterOffsetBegin=255 CharacterOffsetEnd=263 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=POS]
-[Text=body CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=.]
+[Text=Redditor CharacterOffsetBegin=179 CharacterOffsetEnd=187 PartOfSpeech=NNP Lemma=Redditor NamedEntityTag=O]
+[Text=Piscator629 CharacterOffsetBegin=188 CharacterOffsetEnd=199 PartOfSpeech=NNP Lemma=Piscator629 NamedEntityTag=O]
+[Text=thinks CharacterOffsetBegin=200 CharacterOffsetEnd=206 PartOfSpeech=VBZ Lemma=think NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=crazy CharacterOffsetBegin=212 CharacterOffsetEnd=217 PartOfSpeech=JJ Lemma=crazy NamedEntityTag=O]
+[Text=Qyburn CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=NNP Lemma=Qyburn NamedEntityTag=O]
+[Text=sewed CharacterOffsetBegin=225 CharacterOffsetEnd=230 PartOfSpeech=VBD Lemma=sew NamedEntityTag=O]
+[Text=Joffrey CharacterOffsetBegin=231 CharacterOffsetEnd=238 PartOfSpeech=NNP Lemma=Joffrey NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=head CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=NN Lemma=head NamedEntityTag=O]
+[Text=onto CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=IN Lemma=onto NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mountain CharacterOffsetBegin=255 CharacterOffsetEnd=263 PartOfSpeech=NNP Lemma=Mountain NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=263 CharacterOffsetEnd=265 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=body CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=NN Lemma=body NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Redditor) (NNP Piscator629))
+    (VP (VBZ thinks)
+      (SBAR (IN that)
+        (S
+          (NP (JJ crazy) (NNP Qyburn))
+          (VP (VBD sewed)
+            (NP
+              (NP (NNP Joffrey) (POS 's))
+              (NN head))
+            (PP (IN onto)
+              (NP
+                (NP (DT The) (NNP Mountain) (POS 's))
+                (NN body)))))))
+    (. .)))
+
+root(ROOT-0, thinks-3)
+compound(Piscator629-2, Redditor-1)
+nsubj(thinks-3, Piscator629-2)
+mark(sewed-7, that-4)
+amod(Qyburn-6, crazy-5)
+nsubj(sewed-7, Qyburn-6)
+ccomp(thinks-3, sewed-7)
+nmod:poss(head-10, Joffrey-8)
+case(Joffrey-8, 's-9)
+dobj(sewed-7, head-10)
+case(body-15, onto-11)
+det(Mountain-13, The-12)
+nmod:poss(body-15, Mountain-13)
+case(Mountain-13, 's-14)
+nmod:onto(sewed-7, body-15)
+punct(thinks-3, .-16)
+
 Sentence #6 (6 tokens):
 The reasoning is pretty simple.
-[Text=The CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT]
-[Text=reasoning CharacterOffsetBegin=276 CharacterOffsetEnd=285 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=VBZ]
-[Text=pretty CharacterOffsetBegin=289 CharacterOffsetEnd=295 PartOfSpeech=RB]
-[Text=simple CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=reasoning CharacterOffsetBegin=276 CharacterOffsetEnd=285 PartOfSpeech=NN Lemma=reasoning NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=pretty CharacterOffsetBegin=289 CharacterOffsetEnd=295 PartOfSpeech=RB Lemma=pretty NamedEntityTag=O]
+[Text=simple CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=JJ Lemma=simple NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NN reasoning))
+    (VP (VBZ is)
+      (ADJP (RB pretty) (JJ simple)))
+    (. .)))
+
+root(ROOT-0, simple-5)
+det(reasoning-2, The-1)
+nsubj(simple-5, reasoning-2)
+cop(simple-5, is-3)
+advmod(simple-5, pretty-4)
+punct(simple-5, .-6)
+
 Sentence #7 (36 tokens):
 In the books, The Mountain's head is sent back to Dorne as a symbol of Oberyn killing him and, from what we have seen, Zombie Mountain has blue eyes like Joffrey.
-[Text=In CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=DT]
-[Text=books CharacterOffsetBegin=311 CharacterOffsetEnd=316 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=,]
-[Text=The CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=DT]
-[Text=Mountain CharacterOffsetBegin=322 CharacterOffsetEnd=330 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=POS]
-[Text=head CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=VBZ]
-[Text=sent CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=VBN]
-[Text=back CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=TO]
-[Text=Dorne CharacterOffsetBegin=354 CharacterOffsetEnd=359 PartOfSpeech=NNP]
-[Text=as CharacterOffsetBegin=360 CharacterOffsetEnd=362 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=DT]
-[Text=symbol CharacterOffsetBegin=365 CharacterOffsetEnd=371 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=372 CharacterOffsetEnd=374 PartOfSpeech=IN]
-[Text=Oberyn CharacterOffsetBegin=375 CharacterOffsetEnd=381 PartOfSpeech=NNP]
-[Text=killing CharacterOffsetBegin=382 CharacterOffsetEnd=389 PartOfSpeech=VBG]
-[Text=him CharacterOffsetBegin=390 CharacterOffsetEnd=393 PartOfSpeech=PRP]
-[Text=and CharacterOffsetBegin=394 CharacterOffsetEnd=397 PartOfSpeech=CC]
-[Text=, CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=,]
-[Text=from CharacterOffsetBegin=399 CharacterOffsetEnd=403 PartOfSpeech=IN]
-[Text=what CharacterOffsetBegin=404 CharacterOffsetEnd=408 PartOfSpeech=WP]
-[Text=we CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=PRP]
-[Text=have CharacterOffsetBegin=412 CharacterOffsetEnd=416 PartOfSpeech=VBP]
-[Text=seen CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=VBN]
-[Text=, CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=,]
-[Text=Zombie CharacterOffsetBegin=423 CharacterOffsetEnd=429 PartOfSpeech=NNP]
-[Text=Mountain CharacterOffsetBegin=430 CharacterOffsetEnd=438 PartOfSpeech=NNP]
-[Text=has CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=VBZ]
-[Text=blue CharacterOffsetBegin=443 CharacterOffsetEnd=447 PartOfSpeech=JJ]
-[Text=eyes CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=NNS]
-[Text=like CharacterOffsetBegin=453 CharacterOffsetEnd=457 PartOfSpeech=IN]
-[Text=Joffrey CharacterOffsetBegin=458 CharacterOffsetEnd=465 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=.]
+[Text=In CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=books CharacterOffsetBegin=311 CharacterOffsetEnd=316 PartOfSpeech=NNS Lemma=book NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=316 CharacterOffsetEnd=317 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=318 CharacterOffsetEnd=321 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mountain CharacterOffsetBegin=322 CharacterOffsetEnd=330 PartOfSpeech=NNP Lemma=Mountain NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=head CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=NN Lemma=head NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=sent CharacterOffsetBegin=341 CharacterOffsetEnd=345 PartOfSpeech=VBN Lemma=send NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Dorne CharacterOffsetBegin=354 CharacterOffsetEnd=359 PartOfSpeech=NNP Lemma=Dorne NamedEntityTag=PERSON]
+[Text=as CharacterOffsetBegin=360 CharacterOffsetEnd=362 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=symbol CharacterOffsetBegin=365 CharacterOffsetEnd=371 PartOfSpeech=NN Lemma=symbol NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=372 CharacterOffsetEnd=374 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Oberyn CharacterOffsetBegin=375 CharacterOffsetEnd=381 PartOfSpeech=NNP Lemma=Oberyn NamedEntityTag=LOCATION]
+[Text=killing CharacterOffsetBegin=382 CharacterOffsetEnd=389 PartOfSpeech=VBG Lemma=kill NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=390 CharacterOffsetEnd=393 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=394 CharacterOffsetEnd=397 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=399 CharacterOffsetEnd=403 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=404 CharacterOffsetEnd=408 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=412 CharacterOffsetEnd=416 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=seen CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=VBN Lemma=see NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Zombie CharacterOffsetBegin=423 CharacterOffsetEnd=429 PartOfSpeech=NNP Lemma=Zombie NamedEntityTag=O]
+[Text=Mountain CharacterOffsetBegin=430 CharacterOffsetEnd=438 PartOfSpeech=NNP Lemma=Mountain NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=439 CharacterOffsetEnd=442 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=blue CharacterOffsetBegin=443 CharacterOffsetEnd=447 PartOfSpeech=JJ Lemma=blue NamedEntityTag=O]
+[Text=eyes CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=NNS Lemma=eye NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=453 CharacterOffsetEnd=457 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=Joffrey CharacterOffsetBegin=458 CharacterOffsetEnd=465 PartOfSpeech=NNP Lemma=Joffrey NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=465 CharacterOffsetEnd=466 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (PP (IN In)
+        (NP (DT the) (NNS books)))
+      (, ,)
+      (NP
+        (NP (DT The) (NNP Mountain) (POS 's))
+        (NN head))
+      (VP (VBZ is)
+        (VP (VBN sent)
+          (ADVP (RB back))
+          (PP (TO to)
+            (NP (NNP Dorne)))
+          (PP (IN as)
+            (NP
+              (NP (DT a) (NN symbol))
+              (PP (IN of)
+                (NP (NNP Oberyn)))))
+          (S
+            (VP (VBG killing)
+              (NP (PRP him)))))))
+    (CC and)
+    (, ,)
+    (PRN
+      (SBAR
+        (WHPP (IN from)
+          (WHNP (WP what)))
+        (S
+          (NP (PRP we))
+          (VP (VBP have)
+            (VP (VBN seen))))))
+    (, ,)
+    (S
+      (NP (NNP Zombie) (NNP Mountain))
+      (VP (VBZ has)
+        (NP
+          (NP (JJ blue) (NNS eyes))
+          (PP (IN like)
+            (NP (NNP Joffrey))))))
+    (. .)))
+
+root(ROOT-0, sent-10)
+case(books-3, In-1)
+det(books-3, the-2)
+nmod:in(sent-10, books-3)
+punct(sent-10, ,-4)
+det(Mountain-6, The-5)
+nmod:poss(head-8, Mountain-6)
+case(Mountain-6, 's-7)
+nsubjpass(sent-10, head-8)
+auxpass(sent-10, is-9)
+advmod(sent-10, back-11)
+case(Dorne-13, to-12)
+nmod:to(sent-10, Dorne-13)
+case(symbol-16, as-14)
+det(symbol-16, a-15)
+nmod:as(sent-10, symbol-16)
+case(Oberyn-18, of-17)
+nmod:of(symbol-16, Oberyn-18)
+xcomp(sent-10, killing-19)
+dobj(killing-19, him-20)
+cc(sent-10, and-21)
+punct(sent-10, ,-22)
+case(what-24, from-23)
+nmod:from(seen-27, what-24)
+nsubj(seen-27, we-25)
+aux(seen-27, have-26)
+dep(sent-10, seen-27)
+punct(sent-10, ,-28)
+compound(Mountain-30, Zombie-29)
+nsubj(has-31, Mountain-30)
+ccomp(sent-10, has-31)
+amod(eyes-33, blue-32)
+dobj(has-31, eyes-33)
+case(Joffrey-35, like-34)
+nmod:like(eyes-33, Joffrey-35)
+punct(sent-10, .-36)
+
 Sentence #8 (12 tokens):
 When he was alive, The Mountain had is darker eyes.
-[Text=When CharacterOffsetBegin=467 CharacterOffsetEnd=471 PartOfSpeech=WRB]
-[Text=he CharacterOffsetBegin=472 CharacterOffsetEnd=474 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=VBD]
-[Text=alive CharacterOffsetBegin=479 CharacterOffsetEnd=484 PartOfSpeech=JJ]
-[Text=, CharacterOffsetBegin=484 CharacterOffsetEnd=485 PartOfSpeech=,]
-[Text=The CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=DT]
-[Text=Mountain CharacterOffsetBegin=490 CharacterOffsetEnd=498 PartOfSpeech=NNP]
-[Text=had CharacterOffsetBegin=499 CharacterOffsetEnd=502 PartOfSpeech=VBD]
-[Text=is CharacterOffsetBegin=503 CharacterOffsetEnd=505 PartOfSpeech=VBZ]
-[Text=darker CharacterOffsetBegin=506 CharacterOffsetEnd=512 PartOfSpeech=JJR]
-[Text=eyes CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=.]
+[Text=When CharacterOffsetBegin=467 CharacterOffsetEnd=471 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=472 CharacterOffsetEnd=474 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=alive CharacterOffsetBegin=479 CharacterOffsetEnd=484 PartOfSpeech=JJ Lemma=alive NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=484 CharacterOffsetEnd=485 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mountain CharacterOffsetBegin=490 CharacterOffsetEnd=498 PartOfSpeech=NNP Lemma=Mountain NamedEntityTag=O]
+[Text=had CharacterOffsetBegin=499 CharacterOffsetEnd=502 PartOfSpeech=VBD Lemma=have NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=503 CharacterOffsetEnd=505 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=darker CharacterOffsetBegin=506 CharacterOffsetEnd=512 PartOfSpeech=JJR Lemma=darker NamedEntityTag=O]
+[Text=eyes CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=NNS Lemma=eye NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=517 CharacterOffsetEnd=518 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (PRP he))
+        (VP (VBD was)
+          (ADJP (JJ alive)))))
+    (, ,)
+    (NP (DT The) (NNP Mountain))
+    (VP (VBD had)
+      (VP (VBZ is)
+        (NP (JJR darker) (NNS eyes))))
+    (. .)))
+
+root(ROOT-0, eyes-11)
+advmod(alive-4, When-1)
+nsubj(alive-4, he-2)
+cop(alive-4, was-3)
+advcl(eyes-11, alive-4)
+punct(eyes-11, ,-5)
+det(Mountain-7, The-6)
+nsubj(eyes-11, Mountain-7)
+aux(eyes-11, had-8)
+cop(eyes-11, is-9)
+amod(eyes-11, darker-10)
+punct(eyes-11, .-12)
+
 Sentence #9 (18 tokens):
 Also, we have yet to get a clear picture of zombie mountain without his helmet on.
-[Text=Also CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=523 CharacterOffsetEnd=524 PartOfSpeech=,]
-[Text=we CharacterOffsetBegin=525 CharacterOffsetEnd=527 PartOfSpeech=PRP]
-[Text=have CharacterOffsetBegin=528 CharacterOffsetEnd=532 PartOfSpeech=VBP]
-[Text=yet CharacterOffsetBegin=533 CharacterOffsetEnd=536 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=537 CharacterOffsetEnd=539 PartOfSpeech=TO]
-[Text=get CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=544 CharacterOffsetEnd=545 PartOfSpeech=DT]
-[Text=clear CharacterOffsetBegin=546 CharacterOffsetEnd=551 PartOfSpeech=JJ]
-[Text=picture CharacterOffsetBegin=552 CharacterOffsetEnd=559 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=560 CharacterOffsetEnd=562 PartOfSpeech=IN]
-[Text=zombie CharacterOffsetBegin=563 CharacterOffsetEnd=569 PartOfSpeech=NN]
-[Text=mountain CharacterOffsetBegin=570 CharacterOffsetEnd=578 PartOfSpeech=NN]
-[Text=without CharacterOffsetBegin=579 CharacterOffsetEnd=586 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=PRP$]
-[Text=helmet CharacterOffsetBegin=591 CharacterOffsetEnd=597 PartOfSpeech=NN]
-[Text=on CharacterOffsetBegin=598 CharacterOffsetEnd=600 PartOfSpeech=IN]
-[Text=. CharacterOffsetBegin=600 CharacterOffsetEnd=601 PartOfSpeech=.]
+[Text=Also CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=523 CharacterOffsetEnd=524 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=525 CharacterOffsetEnd=527 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=528 CharacterOffsetEnd=532 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=yet CharacterOffsetBegin=533 CharacterOffsetEnd=536 PartOfSpeech=RB Lemma=yet NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=537 CharacterOffsetEnd=539 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=get CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=VB Lemma=get NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=544 CharacterOffsetEnd=545 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=clear CharacterOffsetBegin=546 CharacterOffsetEnd=551 PartOfSpeech=JJ Lemma=clear NamedEntityTag=O]
+[Text=picture CharacterOffsetBegin=552 CharacterOffsetEnd=559 PartOfSpeech=NN Lemma=picture NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=560 CharacterOffsetEnd=562 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=zombie CharacterOffsetBegin=563 CharacterOffsetEnd=569 PartOfSpeech=NN Lemma=zombie NamedEntityTag=O]
+[Text=mountain CharacterOffsetBegin=570 CharacterOffsetEnd=578 PartOfSpeech=NN Lemma=mountain NamedEntityTag=O]
+[Text=without CharacterOffsetBegin=579 CharacterOffsetEnd=586 PartOfSpeech=IN Lemma=without NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=helmet CharacterOffsetBegin=591 CharacterOffsetEnd=597 PartOfSpeech=NN Lemma=helmet NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=598 CharacterOffsetEnd=600 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=600 CharacterOffsetEnd=601 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Also))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBP have)
+      (ADVP (RB yet))
+      (S
+        (VP (TO to)
+          (VP (VB get)
+            (NP
+              (NP (DT a) (JJ clear) (NN picture))
+              (PP (IN of)
+                (NP (NN zombie) (NN mountain))))
+            (PP (IN without)
+              (NP (PRP$ his) (NN helmet)))
+            (PP (IN on))))))
+    (. .)))
+
+root(ROOT-0, have-4)
+advmod(have-4, Also-1)
+punct(have-4, ,-2)
+nsubj(have-4, we-3)
+nsubj:xsubj(get-7, we-3)
+advmod(have-4, yet-5)
+mark(get-7, to-6)
+xcomp(have-4, get-7)
+det(picture-10, a-8)
+amod(picture-10, clear-9)
+dobj(get-7, picture-10)
+case(mountain-13, of-11)
+compound(mountain-13, zombie-12)
+nmod:of(picture-10, mountain-13)
+case(helmet-16, without-14)
+nmod:poss(helmet-16, his-15)
+nmod:on(get-7, helmet-16)
+case(helmet-16, on-17)
+punct(have-4, .-18)
+
 Sentence #10 (18 tokens):
 Even in the season finale, when he removed his helmet, it was in the dark.
-[Text=Even CharacterOffsetBegin=602 CharacterOffsetEnd=606 PartOfSpeech=RB]
-[Text=in CharacterOffsetBegin=607 CharacterOffsetEnd=609 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=610 CharacterOffsetEnd=613 PartOfSpeech=DT]
-[Text=season CharacterOffsetBegin=614 CharacterOffsetEnd=620 PartOfSpeech=NN]
-[Text=finale CharacterOffsetBegin=621 CharacterOffsetEnd=627 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=627 CharacterOffsetEnd=628 PartOfSpeech=,]
-[Text=when CharacterOffsetBegin=629 CharacterOffsetEnd=633 PartOfSpeech=WRB]
-[Text=he CharacterOffsetBegin=634 CharacterOffsetEnd=636 PartOfSpeech=PRP]
-[Text=removed CharacterOffsetBegin=637 CharacterOffsetEnd=644 PartOfSpeech=VBD]
-[Text=his CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=PRP$]
-[Text=helmet CharacterOffsetBegin=649 CharacterOffsetEnd=655 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=655 CharacterOffsetEnd=656 PartOfSpeech=,]
-[Text=it CharacterOffsetBegin=657 CharacterOffsetEnd=659 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=660 CharacterOffsetEnd=663 PartOfSpeech=VBD]
-[Text=in CharacterOffsetBegin=664 CharacterOffsetEnd=666 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=DT]
-[Text=dark CharacterOffsetBegin=671 CharacterOffsetEnd=675 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=675 CharacterOffsetEnd=676 PartOfSpeech=.]
+[Text=Even CharacterOffsetBegin=602 CharacterOffsetEnd=606 PartOfSpeech=RB Lemma=even NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=607 CharacterOffsetEnd=609 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=610 CharacterOffsetEnd=613 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=614 CharacterOffsetEnd=620 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=finale CharacterOffsetBegin=621 CharacterOffsetEnd=627 PartOfSpeech=NN Lemma=finale NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=627 CharacterOffsetEnd=628 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=629 CharacterOffsetEnd=633 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=634 CharacterOffsetEnd=636 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=removed CharacterOffsetBegin=637 CharacterOffsetEnd=644 PartOfSpeech=VBD Lemma=remove NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=helmet CharacterOffsetBegin=649 CharacterOffsetEnd=655 PartOfSpeech=NN Lemma=helmet NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=655 CharacterOffsetEnd=656 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=657 CharacterOffsetEnd=659 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=660 CharacterOffsetEnd=663 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=664 CharacterOffsetEnd=666 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=667 CharacterOffsetEnd=670 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=dark CharacterOffsetBegin=671 CharacterOffsetEnd=675 PartOfSpeech=NN Lemma=dark NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=675 CharacterOffsetEnd=676 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (RB Even) (IN in)
+      (NP (DT the) (NN season) (NN finale)))
+    (, ,)
+    (SBAR
+      (WHADVP (WRB when))
+      (S
+        (NP (PRP he))
+        (VP (VBD removed)
+          (NP (PRP$ his) (NN helmet)))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBD was)
+      (PP (IN in)
+        (NP (DT the) (NN dark))))
+    (. .)))
+
+root(ROOT-0, dark-17)
+advmod(finale-5, Even-1)
+case(finale-5, in-2)
+det(finale-5, the-3)
+compound(finale-5, season-4)
+nmod:in(dark-17, finale-5)
+punct(dark-17, ,-6)
+advmod(removed-9, when-7)
+nsubj(removed-9, he-8)
+advcl(dark-17, removed-9)
+nmod:poss(helmet-11, his-10)
+dobj(removed-9, helmet-11)
+punct(dark-17, ,-12)
+nsubj(dark-17, it-13)
+cop(dark-17, was-14)
+case(dark-17, in-15)
+det(dark-17, the-16)
+punct(dark-17, .-18)
+
 Sentence #11 (9 tokens):
 We didn't get a very clear picture.
-[Text=We CharacterOffsetBegin=677 CharacterOffsetEnd=679 PartOfSpeech=PRP]
-[Text=did CharacterOffsetBegin=680 CharacterOffsetEnd=683 PartOfSpeech=VBD]
-[Text=n't CharacterOffsetBegin=683 CharacterOffsetEnd=686 PartOfSpeech=RB]
-[Text=get CharacterOffsetBegin=687 CharacterOffsetEnd=690 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=691 CharacterOffsetEnd=692 PartOfSpeech=DT]
-[Text=very CharacterOffsetBegin=693 CharacterOffsetEnd=697 PartOfSpeech=RB]
-[Text=clear CharacterOffsetBegin=698 CharacterOffsetEnd=703 PartOfSpeech=JJ]
-[Text=picture CharacterOffsetBegin=704 CharacterOffsetEnd=711 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=711 CharacterOffsetEnd=712 PartOfSpeech=.]
+[Text=We CharacterOffsetBegin=677 CharacterOffsetEnd=679 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=680 CharacterOffsetEnd=683 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=683 CharacterOffsetEnd=686 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=get CharacterOffsetBegin=687 CharacterOffsetEnd=690 PartOfSpeech=VB Lemma=get NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=691 CharacterOffsetEnd=692 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=very CharacterOffsetBegin=693 CharacterOffsetEnd=697 PartOfSpeech=RB Lemma=very NamedEntityTag=O]
+[Text=clear CharacterOffsetBegin=698 CharacterOffsetEnd=703 PartOfSpeech=JJ Lemma=clear NamedEntityTag=O]
+[Text=picture CharacterOffsetBegin=704 CharacterOffsetEnd=711 PartOfSpeech=NN Lemma=picture NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=711 CharacterOffsetEnd=712 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (VBD did) (RB n't)
+      (VP (VB get)
+        (NP (DT a)
+          (ADJP (RB very) (JJ clear))
+          (NN picture))))
+    (. .)))
+
+root(ROOT-0, get-4)
+nsubj(get-4, We-1)
+aux(get-4, did-2)
+neg(get-4, n't-3)
+det(picture-8, a-5)
+advmod(clear-7, very-6)
+amod(picture-8, clear-7)
+dobj(get-4, picture-8)
+punct(get-4, .-9)
+
 Sentence #12 (20 tokens):
 Of course, what we did see didn't really look like Joffrey, but stranger things have happened.
-[Text=Of CharacterOffsetBegin=713 CharacterOffsetEnd=715 PartOfSpeech=IN]
-[Text=course CharacterOffsetBegin=716 CharacterOffsetEnd=722 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=722 CharacterOffsetEnd=723 PartOfSpeech=,]
-[Text=what CharacterOffsetBegin=724 CharacterOffsetEnd=728 PartOfSpeech=WP]
-[Text=we CharacterOffsetBegin=729 CharacterOffsetEnd=731 PartOfSpeech=PRP]
-[Text=did CharacterOffsetBegin=732 CharacterOffsetEnd=735 PartOfSpeech=VBD]
-[Text=see CharacterOffsetBegin=736 CharacterOffsetEnd=739 PartOfSpeech=VB]
-[Text=did CharacterOffsetBegin=740 CharacterOffsetEnd=743 PartOfSpeech=VBD]
-[Text=n't CharacterOffsetBegin=743 CharacterOffsetEnd=746 PartOfSpeech=RB]
-[Text=really CharacterOffsetBegin=747 CharacterOffsetEnd=753 PartOfSpeech=RB]
-[Text=look CharacterOffsetBegin=754 CharacterOffsetEnd=758 PartOfSpeech=VB]
-[Text=like CharacterOffsetBegin=759 CharacterOffsetEnd=763 PartOfSpeech=IN]
-[Text=Joffrey CharacterOffsetBegin=764 CharacterOffsetEnd=771 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=771 CharacterOffsetEnd=772 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=773 CharacterOffsetEnd=776 PartOfSpeech=CC]
-[Text=stranger CharacterOffsetBegin=777 CharacterOffsetEnd=785 PartOfSpeech=NN]
-[Text=things CharacterOffsetBegin=786 CharacterOffsetEnd=792 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=793 CharacterOffsetEnd=797 PartOfSpeech=VBP]
-[Text=happened CharacterOffsetBegin=798 CharacterOffsetEnd=806 PartOfSpeech=VBN]
-[Text=. CharacterOffsetBegin=806 CharacterOffsetEnd=807 PartOfSpeech=.]
+[Text=Of CharacterOffsetBegin=713 CharacterOffsetEnd=715 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=course CharacterOffsetBegin=716 CharacterOffsetEnd=722 PartOfSpeech=NN Lemma=course NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=722 CharacterOffsetEnd=723 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=724 CharacterOffsetEnd=728 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=729 CharacterOffsetEnd=731 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=732 CharacterOffsetEnd=735 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=736 CharacterOffsetEnd=739 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=740 CharacterOffsetEnd=743 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=743 CharacterOffsetEnd=746 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=really CharacterOffsetBegin=747 CharacterOffsetEnd=753 PartOfSpeech=RB Lemma=really NamedEntityTag=O]
+[Text=look CharacterOffsetBegin=754 CharacterOffsetEnd=758 PartOfSpeech=VB Lemma=look NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=759 CharacterOffsetEnd=763 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=Joffrey CharacterOffsetBegin=764 CharacterOffsetEnd=771 PartOfSpeech=NNP Lemma=Joffrey NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=771 CharacterOffsetEnd=772 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=773 CharacterOffsetEnd=776 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=stranger CharacterOffsetBegin=777 CharacterOffsetEnd=785 PartOfSpeech=NN Lemma=stranger NamedEntityTag=O]
+[Text=things CharacterOffsetBegin=786 CharacterOffsetEnd=792 PartOfSpeech=NNS Lemma=thing NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=793 CharacterOffsetEnd=797 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=happened CharacterOffsetBegin=798 CharacterOffsetEnd=806 PartOfSpeech=VBN Lemma=happen NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=806 CharacterOffsetEnd=807 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (NN course)))
+    (, ,)
+    (S
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (PRP we))
+          (VP (VBD did)
+            (VP (VB see)))))
+      (VP (VBD did) (RB n't)
+        (ADVP (RB really))
+        (VP (VB look)
+          (PP (IN like)
+            (NP (NNP Joffrey))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (NN stranger) (NNS things))
+      (VP (VBP have)
+        (VP (VBN happened))))
+    (. .)))
+
+root(ROOT-0, look-11)
+case(course-2, Of-1)
+nmod:of(look-11, course-2)
+punct(look-11, ,-3)
+dobj(see-7, what-4)
+nsubj(see-7, we-5)
+aux(see-7, did-6)
+csubj(look-11, see-7)
+aux(look-11, did-8)
+neg(look-11, n't-9)
+advmod(look-11, really-10)
+case(Joffrey-13, like-12)
+nmod:like(look-11, Joffrey-13)
+punct(look-11, ,-14)
+cc(look-11, but-15)
+compound(things-17, stranger-16)
+nsubj(happened-19, things-17)
+aux(happened-19, have-18)
+conj:but(look-11, happened-19)
+punct(look-11, .-20)
+
+Coreference set:
+	(5,8,[8,10]) -> (1,1,[1,3]), that is: "Joffrey 's" -> "Joffrey 's"
+	(7,35,[35,36]) -> (1,1,[1,3]), that is: "Joffrey" -> "Joffrey 's"
+	(12,13,[13,14]) -> (1,1,[1,3]), that is: "Joffrey" -> "Joffrey 's"
+Coreference set:
+	(5,10,[8,11]) -> (1,3,[1,8]), that is: "Joffrey 's head" -> "Joffrey 's Head On The Mountain ."
+	(7,8,[5,9]) -> (1,3,[1,8]), that is: "The Mountain 's head" -> "Joffrey 's Head On The Mountain ."
+Coreference set:
+	(2,4,[3,5]) -> (1,6,[4,7]), that is: "Zombie Mountain" -> "On The Mountain"
+	(5,13,[12,15]) -> (1,6,[4,7]), that is: "The Mountain 's" -> "On The Mountain"
+	(7,6,[5,8]) -> (1,6,[4,7]), that is: "The Mountain 's" -> "On The Mountain"
+	(7,30,[29,31]) -> (1,6,[4,7]), that is: "Zombie Mountain" -> "On The Mountain"
+	(8,7,[6,8]) -> (1,6,[4,7]), that is: "The Mountain" -> "On The Mountain"
+	(9,13,[12,14]) -> (1,6,[4,7]), that is: "zombie mountain" -> "On The Mountain"
+Coreference set:
+	(4,6,[6,7]) -> (2,6,[6,7]), that is: "I" -> "I"
+Coreference set:
+	(4,2,[2,3]) -> (3,2,[1,3]), that is: "it" -> "This theory"
+	(4,11,[11,12]) -> (3,2,[1,3]), that is: "it" -> "This theory"
+Coreference set:
+	(7,20,[20,21]) -> (7,13,[13,14]), that is: "him" -> "Dorne"
+	(8,2,[2,3]) -> (7,13,[13,14]), that is: "he" -> "Dorne"
+	(9,15,[15,16]) -> (7,13,[13,14]), that is: "his" -> "Dorne"
+	(10,8,[8,9]) -> (7,13,[13,14]), that is: "he" -> "Dorne"
+	(10,10,[10,11]) -> (7,13,[13,14]), that is: "his" -> "Dorne"
+Coreference set:
+	(9,3,[3,4]) -> (7,25,[25,26]), that is: "we" -> "we"
+	(11,1,[1,2]) -> (7,25,[25,26]), that is: "We" -> "we"
+	(12,5,[5,6]) -> (7,25,[25,26]), that is: "we" -> "we"
+Coreference set:
+	(10,11,[10,12]) -> (9,16,[15,17]), that is: "his helmet" -> "his helmet"
+Coreference set:
+	(10,13,[13,14]) -> (10,5,[3,6]), that is: "it" -> "the season finale"

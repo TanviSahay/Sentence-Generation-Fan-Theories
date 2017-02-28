@@ -1,117 +1,371 @@
 Sentence #1 (10 tokens):
 Bran Stark caused the Mad King to go mad.
-[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=5 CharacterOffsetEnd=10 PartOfSpeech=NNP]
-[Text=caused CharacterOffsetBegin=11 CharacterOffsetEnd=17 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=DT]
-[Text=Mad CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=NNP]
-[Text=King CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=TO]
-[Text=go CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=VB]
-[Text=mad CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=.]
+[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=Stark CharacterOffsetBegin=5 CharacterOffsetEnd=10 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text=caused CharacterOffsetBegin=11 CharacterOffsetEnd=17 PartOfSpeech=VBD Lemma=cause NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mad CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=NNP Lemma=Mad NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=go CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=VB Lemma=go NamedEntityTag=O]
+[Text=mad CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=JJ Lemma=mad NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Bran) (NNP Stark))
+    (VP (VBD caused)
+      (S
+        (NP (DT the) (NNP Mad) (NNP King))
+        (VP (TO to)
+          (VP (VB go)
+            (ADJP (JJ mad))))))
+    (. .)))
+
+root(ROOT-0, caused-3)
+compound(Stark-2, Bran-1)
+nsubj(caused-3, Stark-2)
+det(King-6, the-4)
+compound(King-6, Mad-5)
+dobj(caused-3, King-6)
+nsubj:xsubj(go-8, King-6)
+mark(go-8, to-7)
+xcomp(caused-3, go-8)
+xcomp(go-8, mad-9)
+punct(caused-3, .-10)
+
 Sentence #2 (27 tokens):
 This theory gained more prominence after the episode where Bran inadvertently went back in time (or something) and caused Hodor to lose his mind.
-[Text=This CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=47 CharacterOffsetEnd=53 PartOfSpeech=NN]
-[Text=gained CharacterOffsetBegin=54 CharacterOffsetEnd=60 PartOfSpeech=VBD]
-[Text=more CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=RBR]
-[Text=prominence CharacterOffsetBegin=66 CharacterOffsetEnd=76 PartOfSpeech=NN]
-[Text=after CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=DT]
-[Text=episode CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=NN]
-[Text=where CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=WRB]
-[Text=Bran CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=NNP]
-[Text=inadvertently CharacterOffsetBegin=106 CharacterOffsetEnd=119 PartOfSpeech=RB]
-[Text=went CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=VBD]
-[Text=back CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=RB]
-[Text=in CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=IN]
-[Text=time CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=-LRB-]
-[Text=or CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=CC]
-[Text=something CharacterOffsetBegin=142 CharacterOffsetEnd=151 PartOfSpeech=NN]
-[Text=-RRB- CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=-RRB-]
-[Text=and CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=CC]
-[Text=caused CharacterOffsetBegin=157 CharacterOffsetEnd=163 PartOfSpeech=VBD]
-[Text=Hodor CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=TO]
-[Text=lose CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=VB]
-[Text=his CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=PRP$]
-[Text=mind CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=.]
+[Text=This CharacterOffsetBegin=42 CharacterOffsetEnd=46 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=47 CharacterOffsetEnd=53 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=gained CharacterOffsetBegin=54 CharacterOffsetEnd=60 PartOfSpeech=VBD Lemma=gain NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=RBR Lemma=more NamedEntityTag=O]
+[Text=prominence CharacterOffsetBegin=66 CharacterOffsetEnd=76 PartOfSpeech=NN Lemma=prominence NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=77 CharacterOffsetEnd=82 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=episode CharacterOffsetBegin=87 CharacterOffsetEnd=94 PartOfSpeech=NN Lemma=episode NamedEntityTag=O]
+[Text=where CharacterOffsetBegin=95 CharacterOffsetEnd=100 PartOfSpeech=WRB Lemma=where NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=MISC]
+[Text=inadvertently CharacterOffsetBegin=106 CharacterOffsetEnd=119 PartOfSpeech=RB Lemma=inadvertently NamedEntityTag=O]
+[Text=went CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=VBD Lemma=go NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=130 CharacterOffsetEnd=132 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=time CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=NN Lemma=time NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=something CharacterOffsetBegin=142 CharacterOffsetEnd=151 PartOfSpeech=NN Lemma=something NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=caused CharacterOffsetBegin=157 CharacterOffsetEnd=163 PartOfSpeech=VBD Lemma=cause NamedEntityTag=O]
+[Text=Hodor CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=NNP Lemma=Hodor NamedEntityTag=PERSON]
+[Text=to CharacterOffsetBegin=170 CharacterOffsetEnd=172 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=lose CharacterOffsetBegin=173 CharacterOffsetEnd=177 PartOfSpeech=VB Lemma=lose NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=mind CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=NN Lemma=mind NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This) (NN theory))
+    (VP
+      (VP (VBD gained)
+        (ADVP (RBR more))
+        (NP (NN prominence))
+        (PP (IN after)
+          (NP
+            (NP (DT the) (NN episode))
+            (SBAR
+              (WHADVP (WRB where))
+              (S
+                (NP (NNP Bran))
+                (ADVP (RB inadvertently))
+                (VP (VBD went)
+                  (ADVP (RB back))
+                  (PP (IN in)
+                    (NP (NN time)))
+                  (PRN (-LRB- -LRB-)
+                    (PP (CC or)
+                      (NP (NN something)))
+                    (-RRB- -RRB-))))))))
+      (CC and)
+      (VP (VBD caused)
+        (S
+          (NP (NNP Hodor))
+          (VP (TO to)
+            (VP (VB lose)
+              (NP (PRP$ his) (NN mind)))))))
+    (. .)))
+
+root(ROOT-0, gained-3)
+det(theory-2, This-1)
+nsubj(gained-3, theory-2)
+nsubj(caused-21, theory-2)
+advmod(gained-3, more-4)
+dobj(gained-3, prominence-5)
+case(episode-8, after-6)
+det(episode-8, the-7)
+nmod:after(gained-3, episode-8)
+advmod(went-12, where-9)
+nsubj(went-12, Bran-10)
+advmod(went-12, inadvertently-11)
+acl:relcl(episode-8, went-12)
+advmod(went-12, back-13)
+case(time-15, in-14)
+nmod:in(went-12, time-15)
+punct(something-18, -LRB--16)
+case(something-18, or-17)
+dep(went-12, something-18)
+punct(something-18, -RRB--19)
+cc(gained-3, and-20)
+conj:and(gained-3, caused-21)
+dobj(caused-21, Hodor-22)
+nsubj:xsubj(lose-24, Hodor-22)
+mark(lose-24, to-23)
+xcomp(caused-21, lose-24)
+nmod:poss(mind-26, his-25)
+dobj(lose-24, mind-26)
+punct(gained-3, .-27)
+
 Sentence #3 (42 tokens):
 If Bran has the ability to manipulate the space-time continuum, maybe he also traveled back in time to tell Aerys to burn the White Walkers, only Aerys didn't get it and tried to burn King's Landing instead.
-[Text=If CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=IN]
-[Text=Bran CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=NNP]
-[Text=has CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=DT]
-[Text=ability CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=TO]
-[Text=manipulate CharacterOffsetBegin=215 CharacterOffsetEnd=225 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=DT]
-[Text=space-time CharacterOffsetBegin=230 CharacterOffsetEnd=240 PartOfSpeech=NN]
-[Text=continuum CharacterOffsetBegin=241 CharacterOffsetEnd=250 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=,]
-[Text=maybe CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=RB]
-[Text=he CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=PRP]
-[Text=also CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=RB]
-[Text=traveled CharacterOffsetBegin=266 CharacterOffsetEnd=274 PartOfSpeech=VBD]
-[Text=back CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=RB]
-[Text=in CharacterOffsetBegin=280 CharacterOffsetEnd=282 PartOfSpeech=IN]
-[Text=time CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=TO]
-[Text=tell CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=VB]
-[Text=Aerys CharacterOffsetBegin=296 CharacterOffsetEnd=301 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=302 CharacterOffsetEnd=304 PartOfSpeech=TO]
-[Text=burn CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=DT]
-[Text=White CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=NNP]
-[Text=Walkers CharacterOffsetBegin=320 CharacterOffsetEnd=327 PartOfSpeech=NNPS]
-[Text=, CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=,]
-[Text=only CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=RB]
-[Text=Aerys CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=NNPS]
-[Text=did CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=VBD]
-[Text=n't CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=RB]
-[Text=get CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=VB]
-[Text=it CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=PRP]
-[Text=and CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=CC]
-[Text=tried CharacterOffsetBegin=358 CharacterOffsetEnd=363 PartOfSpeech=VBD]
-[Text=to CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=TO]
-[Text=burn CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=VB]
-[Text=King CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=376 CharacterOffsetEnd=378 PartOfSpeech=POS]
-[Text=Landing CharacterOffsetBegin=379 CharacterOffsetEnd=386 PartOfSpeech=NN]
-[Text=instead CharacterOffsetBegin=387 CharacterOffsetEnd=394 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=394 CharacterOffsetEnd=395 PartOfSpeech=.]
+[Text=If CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=ability CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=NN Lemma=ability NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=212 CharacterOffsetEnd=214 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=manipulate CharacterOffsetBegin=215 CharacterOffsetEnd=225 PartOfSpeech=VB Lemma=manipulate NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=space-time CharacterOffsetBegin=230 CharacterOffsetEnd=240 PartOfSpeech=NN Lemma=space-time NamedEntityTag=O]
+[Text=continuum CharacterOffsetBegin=241 CharacterOffsetEnd=250 PartOfSpeech=NN Lemma=continuum NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=maybe CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=traveled CharacterOffsetBegin=266 CharacterOffsetEnd=274 PartOfSpeech=VBD Lemma=travel NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=275 CharacterOffsetEnd=279 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=280 CharacterOffsetEnd=282 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=time CharacterOffsetBegin=283 CharacterOffsetEnd=287 PartOfSpeech=NN Lemma=time NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=tell CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=VB Lemma=tell NamedEntityTag=O]
+[Text=Aerys CharacterOffsetBegin=296 CharacterOffsetEnd=301 PartOfSpeech=NNP Lemma=Aerys NamedEntityTag=PERSON]
+[Text=to CharacterOffsetBegin=302 CharacterOffsetEnd=304 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=burn CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=VB Lemma=burn NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=White CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=NNP Lemma=White NamedEntityTag=ORGANIZATION]
+[Text=Walkers CharacterOffsetBegin=320 CharacterOffsetEnd=327 PartOfSpeech=NNPS Lemma=Walkers NamedEntityTag=ORGANIZATION]
+[Text=, CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=only CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=RB Lemma=only NamedEntityTag=O]
+[Text=Aerys CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=NNPS Lemma=Aerys NamedEntityTag=PERSON]
+[Text=did CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=get CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=VB Lemma=get NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=354 CharacterOffsetEnd=357 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=tried CharacterOffsetBegin=358 CharacterOffsetEnd=363 PartOfSpeech=VBD Lemma=try NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=burn CharacterOffsetBegin=367 CharacterOffsetEnd=371 PartOfSpeech=VB Lemma=burn NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=372 CharacterOffsetEnd=376 PartOfSpeech=NNP Lemma=King NamedEntityTag=ORGANIZATION]
+[Text='s CharacterOffsetBegin=376 CharacterOffsetEnd=378 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Landing CharacterOffsetBegin=379 CharacterOffsetEnd=386 PartOfSpeech=NN Lemma=landing NamedEntityTag=O]
+[Text=instead CharacterOffsetBegin=387 CharacterOffsetEnd=394 PartOfSpeech=RB Lemma=instead NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=394 CharacterOffsetEnd=395 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (SBAR (IN If)
+        (S
+          (NP (NNP Bran))
+          (VP (VBZ has)
+            (NP (DT the) (NN ability)
+              (S
+                (VP (TO to)
+                  (VP (VB manipulate)
+                    (NP (DT the) (NN space-time) (NN continuum)))))))))
+      (, ,)
+      (ADVP (RB maybe))
+      (NP (PRP he))
+      (VP
+        (ADVP (RB also))
+        (VBD traveled)
+        (ADVP (RB back)
+          (PP (IN in)
+            (NP (NN time))))
+        (S
+          (VP (TO to)
+            (VP (VB tell)
+              (S
+                (NP (NNP Aerys))
+                (VP (TO to)
+                  (VP (VB burn)
+                    (NP (DT the) (NNP White) (NNPS Walkers))))))))))
+    (, ,)
+    (NP (RB only) (NNPS Aerys))
+    (VP
+      (VP (VBD did) (RB n't)
+        (VP (VB get)
+          (NP (PRP it))))
+      (CC and)
+      (VP (VBD tried)
+        (S
+          (VP (TO to)
+            (VP (VB burn)
+              (NP
+                (NP (NNP King) (POS 's))
+                (NN Landing))
+              (ADVP (RB instead)))))))
+    (. .)))
+
+root(ROOT-0, get-32)
+mark(has-3, If-1)
+nsubj(has-3, Bran-2)
+advcl:if(traveled-15, has-3)
+det(ability-5, the-4)
+dobj(has-3, ability-5)
+mark(manipulate-7, to-6)
+acl:to(ability-5, manipulate-7)
+det(continuum-10, the-8)
+compound(continuum-10, space-time-9)
+dobj(manipulate-7, continuum-10)
+punct(traveled-15, ,-11)
+advmod(he-13, maybe-12)
+nsubj(traveled-15, he-13)
+nsubj:xsubj(tell-20, he-13)
+advmod(traveled-15, also-14)
+ccomp(get-32, traveled-15)
+advmod(traveled-15, back-16)
+case(time-18, in-17)
+nmod:in(back-16, time-18)
+mark(tell-20, to-19)
+xcomp(traveled-15, tell-20)
+dobj(tell-20, Aerys-21)
+nsubj:xsubj(burn-23, Aerys-21)
+mark(burn-23, to-22)
+xcomp(tell-20, burn-23)
+det(Walkers-26, the-24)
+compound(Walkers-26, White-25)
+dobj(burn-23, Walkers-26)
+punct(get-32, ,-27)
+advmod(Aerys-29, only-28)
+nsubj(get-32, Aerys-29)
+nsubj(tried-35, Aerys-29)
+nsubj:xsubj(burn-37, Aerys-29)
+aux(get-32, did-30)
+neg(get-32, n't-31)
+dobj(get-32, it-33)
+cc(get-32, and-34)
+conj:and(get-32, tried-35)
+mark(burn-37, to-36)
+xcomp(tried-35, burn-37)
+nmod:poss(Landing-40, King-38)
+case(King-38, 's-39)
+dobj(burn-37, Landing-40)
+advmod(burn-37, instead-41)
+punct(get-32, .-42)
+
 Sentence #4 (30 tokens):
 A similar theory posits that time-traveling Bran also warged himself into Jaime Lannister and pushed himself out the window, in order to prevent an even more cataclysmic future.
-[Text=A CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=DT]
-[Text=similar CharacterOffsetBegin=398 CharacterOffsetEnd=405 PartOfSpeech=JJ]
-[Text=theory CharacterOffsetBegin=406 CharacterOffsetEnd=412 PartOfSpeech=NN]
-[Text=posits CharacterOffsetBegin=413 CharacterOffsetEnd=419 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=420 CharacterOffsetEnd=424 PartOfSpeech=IN]
-[Text=time-traveling CharacterOffsetBegin=425 CharacterOffsetEnd=439 PartOfSpeech=JJ]
-[Text=Bran CharacterOffsetBegin=440 CharacterOffsetEnd=444 PartOfSpeech=NNP]
-[Text=also CharacterOffsetBegin=445 CharacterOffsetEnd=449 PartOfSpeech=RB]
-[Text=warged CharacterOffsetBegin=450 CharacterOffsetEnd=456 PartOfSpeech=VBD]
-[Text=himself CharacterOffsetBegin=457 CharacterOffsetEnd=464 PartOfSpeech=PRP]
-[Text=into CharacterOffsetBegin=465 CharacterOffsetEnd=469 PartOfSpeech=IN]
-[Text=Jaime CharacterOffsetBegin=470 CharacterOffsetEnd=475 PartOfSpeech=NNP]
-[Text=Lannister CharacterOffsetBegin=476 CharacterOffsetEnd=485 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=CC]
-[Text=pushed CharacterOffsetBegin=490 CharacterOffsetEnd=496 PartOfSpeech=VBD]
-[Text=himself CharacterOffsetBegin=497 CharacterOffsetEnd=504 PartOfSpeech=PRP]
-[Text=out CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=RP]
-[Text=the CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=DT]
-[Text=window CharacterOffsetBegin=513 CharacterOffsetEnd=519 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=,]
-[Text=in CharacterOffsetBegin=521 CharacterOffsetEnd=523 PartOfSpeech=IN]
-[Text=order CharacterOffsetBegin=524 CharacterOffsetEnd=529 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=530 CharacterOffsetEnd=532 PartOfSpeech=TO]
-[Text=prevent CharacterOffsetBegin=533 CharacterOffsetEnd=540 PartOfSpeech=VB]
-[Text=an CharacterOffsetBegin=541 CharacterOffsetEnd=543 PartOfSpeech=DT]
-[Text=even CharacterOffsetBegin=544 CharacterOffsetEnd=548 PartOfSpeech=RB]
-[Text=more CharacterOffsetBegin=549 CharacterOffsetEnd=553 PartOfSpeech=RBR]
-[Text=cataclysmic CharacterOffsetBegin=554 CharacterOffsetEnd=565 PartOfSpeech=JJ]
-[Text=future CharacterOffsetBegin=566 CharacterOffsetEnd=572 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=572 CharacterOffsetEnd=573 PartOfSpeech=.]
+[Text=A CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=similar CharacterOffsetBegin=398 CharacterOffsetEnd=405 PartOfSpeech=JJ Lemma=similar NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=406 CharacterOffsetEnd=412 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=posits CharacterOffsetBegin=413 CharacterOffsetEnd=419 PartOfSpeech=VBZ Lemma=posit NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=420 CharacterOffsetEnd=424 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=time-traveling CharacterOffsetBegin=425 CharacterOffsetEnd=439 PartOfSpeech=JJ Lemma=time-traveling NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=440 CharacterOffsetEnd=444 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=445 CharacterOffsetEnd=449 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=warged CharacterOffsetBegin=450 CharacterOffsetEnd=456 PartOfSpeech=VBD Lemma=warge NamedEntityTag=O]
+[Text=himself CharacterOffsetBegin=457 CharacterOffsetEnd=464 PartOfSpeech=PRP Lemma=himself NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=465 CharacterOffsetEnd=469 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=Jaime CharacterOffsetBegin=470 CharacterOffsetEnd=475 PartOfSpeech=NNP Lemma=Jaime NamedEntityTag=PERSON]
+[Text=Lannister CharacterOffsetBegin=476 CharacterOffsetEnd=485 PartOfSpeech=NNP Lemma=Lannister NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=pushed CharacterOffsetBegin=490 CharacterOffsetEnd=496 PartOfSpeech=VBD Lemma=push NamedEntityTag=O]
+[Text=himself CharacterOffsetBegin=497 CharacterOffsetEnd=504 PartOfSpeech=PRP Lemma=himself NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=509 CharacterOffsetEnd=512 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=window CharacterOffsetBegin=513 CharacterOffsetEnd=519 PartOfSpeech=NN Lemma=window NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=521 CharacterOffsetEnd=523 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=order CharacterOffsetBegin=524 CharacterOffsetEnd=529 PartOfSpeech=NN Lemma=order NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=530 CharacterOffsetEnd=532 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=prevent CharacterOffsetBegin=533 CharacterOffsetEnd=540 PartOfSpeech=VB Lemma=prevent NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=541 CharacterOffsetEnd=543 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=even CharacterOffsetBegin=544 CharacterOffsetEnd=548 PartOfSpeech=RB Lemma=even NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=549 CharacterOffsetEnd=553 PartOfSpeech=RBR Lemma=more NamedEntityTag=O]
+[Text=cataclysmic CharacterOffsetBegin=554 CharacterOffsetEnd=565 PartOfSpeech=JJ Lemma=cataclysmic NamedEntityTag=O]
+[Text=future CharacterOffsetBegin=566 CharacterOffsetEnd=572 PartOfSpeech=NN Lemma=future NamedEntityTag=DATE NormalizedNamedEntityTag=FUTURE_REF Timex=<TIMEX3 tid="t1" type="DATE" value="FUTURE_REF">future</TIMEX3>]
+[Text=. CharacterOffsetBegin=572 CharacterOffsetEnd=573 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT A) (JJ similar) (NN theory))
+    (VP (VBZ posits)
+      (SBAR (IN that)
+        (S
+          (NP (JJ time-traveling) (NNP Bran))
+          (ADVP (RB also))
+          (VP
+            (VP (VBD warged)
+              (NP (PRP himself))
+              (PP (IN into)
+                (NP (NNP Jaime) (NNP Lannister))))
+            (CC and)
+            (VP (VBD pushed)
+              (NP (PRP himself))
+              (PRT (RP out)))
+            (NP (DT the) (NN window)))))
+      (, ,)
+      (SBAR (IN in) (NN order)
+        (S
+          (VP (TO to)
+            (VP (VB prevent)
+              (NP (DT an)
+                (ADJP (RB even) (RBR more) (JJ cataclysmic))
+                (NN future)))))))
+    (. .)))
+
+root(ROOT-0, posits-4)
+det(theory-3, A-1)
+amod(theory-3, similar-2)
+nsubj(posits-4, theory-3)
+mark(warged-9, that-5)
+amod(Bran-7, time-traveling-6)
+nsubj(warged-9, Bran-7)
+nsubj(pushed-15, Bran-7)
+advmod(warged-9, also-8)
+ccomp(posits-4, warged-9)
+dobj(warged-9, himself-10)
+case(Lannister-13, into-11)
+compound(Lannister-13, Jaime-12)
+nmod:into(warged-9, Lannister-13)
+cc(warged-9, and-14)
+ccomp(posits-4, pushed-15)
+conj:and(warged-9, pushed-15)
+dobj(pushed-15, himself-16)
+compound:prt(pushed-15, out-17)
+det(window-19, the-18)
+dobj(warged-9, window-19)
+punct(posits-4, ,-20)
+mark(prevent-24, in-21)
+mwe(in-21, order-22)
+mark(prevent-24, to-23)
+advcl:in_order(posits-4, prevent-24)
+det(future-29, an-25)
+advmod(cataclysmic-28, even-26)
+advmod(cataclysmic-28, more-27)
+amod(future-29, cataclysmic-28)
+dobj(prevent-24, future-29)
+punct(posits-4, .-30)
+
+Coreference set:
+	(1,6,[4,7]) -> (3,38,[38,40]), that is: "the Mad King" -> "King 's"
+Coreference set:
+	(3,2,[2,3]) -> (2,10,[10,11]), that is: "Bran" -> "Bran"
+	(3,33,[33,34]) -> (2,10,[10,11]), that is: "it" -> "Bran"
+	(4,7,[6,8]) -> (2,10,[10,11]), that is: "time-traveling Bran" -> "Bran"
+Coreference set:
+	(2,25,[25,26]) -> (2,22,[22,23]), that is: "his" -> "Hodor"
+	(3,13,[13,14]) -> (2,22,[22,23]), that is: "he" -> "Hodor"
+	(4,10,[10,11]) -> (2,22,[22,23]), that is: "himself" -> "Hodor"
+	(4,16,[16,17]) -> (2,22,[22,23]), that is: "himself" -> "Hodor"
+Coreference set:
+	(3,18,[18,19]) -> (2,15,[15,16]), that is: "time" -> "time"
+Coreference set:
+	(3,21,[21,22]) -> (3,29,[28,30]), that is: "Aerys" -> "only Aerys"

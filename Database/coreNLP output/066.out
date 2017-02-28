@@ -1,77 +1,247 @@
 Sentence #1 (11 tokens):
 Jon Snow and Sansa Stark are going to get married.
-[Text=Jon CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=CC]
-[Text=Sansa CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=NNP]
-[Text=are CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=VBP]
-[Text=going CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=TO]
-[Text=get CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=VB]
-[Text=married CharacterOffsetBegin=42 CharacterOffsetEnd=49 PartOfSpeech=VBN]
-[Text=. CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=.]
+[Text=Jon CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=PERSON]
+[Text=Stark CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=PERSON]
+[Text=are CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=going CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=VBG Lemma=go NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=get CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=VB Lemma=get NamedEntityTag=O]
+[Text=married CharacterOffsetBegin=42 CharacterOffsetEnd=49 PartOfSpeech=VBN Lemma=marry NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Jon) (NNP Snow)
+      (CC and)
+      (NNP Sansa) (NNP Stark))
+    (VP (VBP are)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (ADJP (VBN married)))))))
+    (. .)))
+
+root(ROOT-0, going-7)
+compound(Snow-2, Jon-1)
+nsubj(going-7, Snow-2)
+nsubj:xsubj(get-9, Snow-2)
+cc(Snow-2, and-3)
+compound(Stark-5, Sansa-4)
+conj:and(Snow-2, Stark-5)
+nsubj(going-7, Stark-5)
+nsubj:xsubj(get-9, Stark-5)
+aux(going-7, are-6)
+mark(get-9, to-8)
+xcomp(going-7, get-9)
+xcomp(get-9, married-10)
+punct(going-7, .-11)
+
 Sentence #2 (31 tokens):
 Now that they're cousins instead of half-siblings, it would be less frowned upon in the world of Westeros, and Sansa has always wanted to marry a royal.
-[Text=Now CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=RB]
-[Text=that CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=IN]
-[Text=they CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=PRP]
-[Text='re CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=VBP]
-[Text=cousins CharacterOffsetBegin=68 CharacterOffsetEnd=75 PartOfSpeech=NNS]
-[Text=instead CharacterOffsetBegin=76 CharacterOffsetEnd=83 PartOfSpeech=RB]
-[Text=of CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=IN]
-[Text=half-siblings CharacterOffsetBegin=87 CharacterOffsetEnd=100 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=,]
-[Text=it CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=VB]
-[Text=less CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=RBR]
-[Text=frowned CharacterOffsetBegin=119 CharacterOffsetEnd=126 PartOfSpeech=VBN]
-[Text=upon CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=IN]
-[Text=in CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=DT]
-[Text=world CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=IN]
-[Text=Westeros CharacterOffsetBegin=148 CharacterOffsetEnd=156 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=CC]
-[Text=Sansa CharacterOffsetBegin=162 CharacterOffsetEnd=167 PartOfSpeech=NNP]
-[Text=has CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=VBZ]
-[Text=always CharacterOffsetBegin=172 CharacterOffsetEnd=178 PartOfSpeech=RB]
-[Text=wanted CharacterOffsetBegin=179 CharacterOffsetEnd=185 PartOfSpeech=VBN]
-[Text=to CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=TO]
-[Text=marry CharacterOffsetBegin=189 CharacterOffsetEnd=194 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=DT]
-[Text=royal CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=.]
+[Text=Now CharacterOffsetBegin=51 CharacterOffsetEnd=54 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">Now</TIMEX3>]
+[Text=that CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text='re CharacterOffsetBegin=64 CharacterOffsetEnd=67 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=cousins CharacterOffsetBegin=68 CharacterOffsetEnd=75 PartOfSpeech=NNS Lemma=cousin NamedEntityTag=O]
+[Text=instead CharacterOffsetBegin=76 CharacterOffsetEnd=83 PartOfSpeech=RB Lemma=instead NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=half-siblings CharacterOffsetBegin=87 CharacterOffsetEnd=100 PartOfSpeech=NNS Lemma=half-sibling NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=100 CharacterOffsetEnd=101 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=less CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=RBR Lemma=less NamedEntityTag=O]
+[Text=frowned CharacterOffsetBegin=119 CharacterOffsetEnd=126 PartOfSpeech=VBN Lemma=frown NamedEntityTag=O]
+[Text=upon CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=IN Lemma=upon NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=135 CharacterOffsetEnd=138 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=world CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=NN Lemma=world NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Westeros CharacterOffsetBegin=148 CharacterOffsetEnd=156 PartOfSpeech=NNP Lemma=Westeros NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=162 CharacterOffsetEnd=167 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=always CharacterOffsetBegin=172 CharacterOffsetEnd=178 PartOfSpeech=RB Lemma=always NamedEntityTag=O]
+[Text=wanted CharacterOffsetBegin=179 CharacterOffsetEnd=185 PartOfSpeech=VBN Lemma=want NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=marry CharacterOffsetBegin=189 CharacterOffsetEnd=194 PartOfSpeech=VB Lemma=marry NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=royal CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=NN Lemma=royal NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (ADVP
+        (ADVP (RB Now))
+        (SBAR (IN that)
+          (S
+            (NP (PRP they))
+            (VP (VBP 're)
+              (NP
+                (NP (NNS cousins))
+                (PP (RB instead) (IN of)
+                  (NP (NNS half-siblings))))))))
+      (, ,)
+      (NP (PRP it))
+      (VP (MD would)
+        (VP (VB be)
+          (VP
+            (ADVP (RBR less))
+            (VBN frowned)
+            (PP (IN upon) (IN in)
+              (NP
+                (NP (DT the) (NN world))
+                (PP (IN of)
+                  (NP (NNP Westeros)))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP Sansa))
+      (VP (VBZ has)
+        (ADVP (RB always))
+        (VP (VBN wanted)
+          (S
+            (VP (TO to)
+              (VP (VB marry)
+                (NP (DT a) (NN royal))))))))
+    (. .)))
+
+root(ROOT-0, frowned-14)
+advmod(frowned-14, Now-1)
+mark(cousins-5, that-2)
+nsubj(cousins-5, they-3)
+cop(cousins-5, 're-4)
+advcl:that(Now-1, cousins-5)
+case(half-siblings-8, instead-6)
+mwe(instead-6, of-7)
+nmod:instead_of(cousins-5, half-siblings-8)
+punct(frowned-14, ,-9)
+nsubjpass(frowned-14, it-10)
+aux(frowned-14, would-11)
+auxpass(frowned-14, be-12)
+advmod(frowned-14, less-13)
+case(world-18, upon-15)
+case(world-18, in-16)
+det(world-18, the-17)
+nmod:in(frowned-14, world-18)
+case(Westeros-20, of-19)
+nmod:of(world-18, Westeros-20)
+punct(frowned-14, ,-21)
+cc(frowned-14, and-22)
+nsubj(wanted-26, Sansa-23)
+nsubj:xsubj(marry-28, Sansa-23)
+aux(wanted-26, has-24)
+advmod(wanted-26, always-25)
+conj:and(frowned-14, wanted-26)
+mark(marry-28, to-27)
+xcomp(wanted-26, marry-28)
+det(royal-30, a-29)
+dobj(marry-28, royal-30)
+punct(frowned-14, .-31)
+
 Sentence #3 (29 tokens):
 Sophie Turner isn't on board though: "I really don't think either of them would be particularly up for that," she told Variety.
-[Text=Sophie CharacterOffsetBegin=204 CharacterOffsetEnd=210 PartOfSpeech=NNP]
-[Text=Turner CharacterOffsetBegin=211 CharacterOffsetEnd=217 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=218 CharacterOffsetEnd=220 PartOfSpeech=VBZ]
-[Text=n't CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=RB]
-[Text=on CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=IN]
-[Text=board CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=NN]
-[Text=though CharacterOffsetBegin=233 CharacterOffsetEnd=239 PartOfSpeech=IN]
-[Text=: CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=:]
-[Text=`` CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=``]
-[Text=I CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=PRP]
-[Text=really CharacterOffsetBegin=244 CharacterOffsetEnd=250 PartOfSpeech=RB]
-[Text=do CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=VBP]
-[Text=n't CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=RB]
-[Text=think CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=VB]
-[Text=either CharacterOffsetBegin=263 CharacterOffsetEnd=269 PartOfSpeech=DT]
-[Text=of CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=IN]
-[Text=them CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=284 CharacterOffsetEnd=286 PartOfSpeech=VB]
-[Text=particularly CharacterOffsetBegin=287 CharacterOffsetEnd=299 PartOfSpeech=RB]
-[Text=up CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=RP]
-[Text=for CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=IN]
-[Text=that CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=DT]
-[Text=, CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=,]
-[Text='' CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech='']
-[Text=she CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=PRP]
-[Text=told CharacterOffsetBegin=318 CharacterOffsetEnd=322 PartOfSpeech=VBD]
-[Text=Variety CharacterOffsetBegin=323 CharacterOffsetEnd=330 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=.]
+[Text=Sophie CharacterOffsetBegin=204 CharacterOffsetEnd=210 PartOfSpeech=NNP Lemma=Sophie NamedEntityTag=PERSON]
+[Text=Turner CharacterOffsetBegin=211 CharacterOffsetEnd=217 PartOfSpeech=NNP Lemma=Turner NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=218 CharacterOffsetEnd=220 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=board CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=NN Lemma=board NamedEntityTag=O]
+[Text=though CharacterOffsetBegin=233 CharacterOffsetEnd=239 PartOfSpeech=IN Lemma=though NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=242 CharacterOffsetEnd=243 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=really CharacterOffsetBegin=244 CharacterOffsetEnd=250 PartOfSpeech=RB Lemma=really NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=think CharacterOffsetBegin=257 CharacterOffsetEnd=262 PartOfSpeech=VB Lemma=think NamedEntityTag=O]
+[Text=either CharacterOffsetBegin=263 CharacterOffsetEnd=269 PartOfSpeech=DT Lemma=either NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=them CharacterOffsetBegin=273 CharacterOffsetEnd=277 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=278 CharacterOffsetEnd=283 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=284 CharacterOffsetEnd=286 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=particularly CharacterOffsetBegin=287 CharacterOffsetEnd=299 PartOfSpeech=RB Lemma=particularly NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=312 CharacterOffsetEnd=313 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=told CharacterOffsetBegin=318 CharacterOffsetEnd=322 PartOfSpeech=VBD Lemma=tell NamedEntityTag=O]
+[Text=Variety CharacterOffsetBegin=323 CharacterOffsetEnd=330 PartOfSpeech=NNP Lemma=Variety NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Sophie) (NNP Turner))
+      (VP (VBZ is) (RB n't)
+        (PP (IN on)
+          (NP (NN board)))
+        (ADVP (IN though))))
+    (: :)
+    (S (`` ``)
+      (S
+        (NP (PRP I))
+        (ADVP (RB really))
+        (VP (VBP do) (RB n't)
+          (VP (VB think)
+            (SBAR
+              (S
+                (NP
+                  (NP (DT either))
+                  (PP (IN of)
+                    (NP (PRP them))))
+                (VP (MD would)
+                  (VP (VB be)
+                    (ADVP (RB particularly))
+                    (PP (RP up)
+                      (PP (IN for)
+                        (NP (DT that)))))))))))
+      (, ,) ('' '')
+      (NP (PRP she))
+      (VP (VBD told)
+        (NP (NNP Variety))))
+    (. .)))
+
+root(ROOT-0, board-6)
+compound(Turner-2, Sophie-1)
+nsubj(board-6, Turner-2)
+cop(board-6, is-3)
+neg(board-6, n't-4)
+case(board-6, on-5)
+advmod(board-6, though-7)
+punct(board-6, :-8)
+punct(told-27, ``-9)
+nsubj(think-14, I-10)
+advmod(think-14, really-11)
+aux(think-14, do-12)
+neg(think-14, n't-13)
+ccomp(told-27, think-14)
+nsubj(that-23, either-15)
+case(them-17, of-16)
+nmod:of(either-15, them-17)
+aux(that-23, would-18)
+cop(that-23, be-19)
+advmod(that-23, particularly-20)
+dep(that-23, up-21)
+case(that-23, for-22)
+ccomp(think-14, that-23)
+punct(told-27, ,-24)
+punct(told-27, ''-25)
+nsubj(told-27, she-26)
+parataxis(board-6, told-27)
+dobj(told-27, Variety-28)
+punct(board-6, .-29)
+
+Coreference set:
+	(1,5,[1,6]) -> (2,5,[5,9]), that is: "Jon Snow and Sansa Stark" -> "cousins instead of half-siblings"
+	(2,3,[3,4]) -> (2,5,[5,9]), that is: "they" -> "cousins instead of half-siblings"
+	(3,17,[17,18]) -> (2,5,[5,9]), that is: "them" -> "cousins instead of half-siblings"
+	(3,23,[23,24]) -> (2,5,[5,9]), that is: "that" -> "cousins instead of half-siblings"
+Coreference set:
+	(3,10,[10,11]) -> (3,2,[1,3]), that is: "I" -> "Sophie Turner"
+	(3,26,[26,27]) -> (3,2,[1,3]), that is: "she" -> "Sophie Turner"

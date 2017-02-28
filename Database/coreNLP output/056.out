@@ -1,229 +1,725 @@
-Sentence #1 (20 tokens):
-Jorah will be healed of Greyscale
+Sentence #1 (7 tokens):
+Jorah will be healed of Greyscale.
+[Text=Jorah CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Jorah NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=healed CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=VBN Lemma=heal NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Greyscale CharacterOffsetBegin=24 CharacterOffsetEnd=33 PartOfSpeech=NNP Lemma=Greyscale NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Jorah))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN healed)
+          (PP (IN of)
+            (NP (NNP Greyscale))))))
+    (. .)))
 
+root(ROOT-0, healed-4)
+nsubjpass(healed-4, Jorah-1)
+aux(healed-4, will-2)
+auxpass(healed-4, be-3)
+case(Greyscale-6, of-5)
+nmod:of(healed-4, Greyscale-6)
+punct(healed-4, .-7)
+
+Sentence #2 (14 tokens):
 What this means: What, you thought Jorah’s storyline was over?
-[Text=Jorah CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VB]
-[Text=healed CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=VBN]
-[Text=of CharacterOffsetBegin=21 CharacterOffsetEnd=23 PartOfSpeech=IN]
-[Text=Greyscale CharacterOffsetBegin=24 CharacterOffsetEnd=33 PartOfSpeech=NNP]
-[Text=What CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=WP]
-[Text=this CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=DT]
-[Text=means CharacterOffsetBegin=45 CharacterOffsetEnd=50 PartOfSpeech=VBZ]
-[Text=: CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=:]
-[Text=What CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=WP]
-[Text=, CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=,]
-[Text=you CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=PRP]
-[Text=thought CharacterOffsetBegin=62 CharacterOffsetEnd=69 PartOfSpeech=VBD]
-[Text=Jorah CharacterOffsetBegin=70 CharacterOffsetEnd=75 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=POS]
-[Text=storyline CharacterOffsetBegin=78 CharacterOffsetEnd=87 PartOfSpeech=NN]
-[Text=was CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=VBD]
-[Text=over CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=IN]
-[Text=? CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=.]
-Sentence #2 (3 tokens):
+[Text=What CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=41 CharacterOffsetEnd=45 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=means CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=VBZ Lemma=mean NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=What CharacterOffsetBegin=53 CharacterOffsetEnd=57 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=57 CharacterOffsetEnd=58 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=thought CharacterOffsetBegin=63 CharacterOffsetEnd=70 PartOfSpeech=VBD Lemma=think NamedEntityTag=O]
+[Text=Jorah CharacterOffsetBegin=71 CharacterOffsetEnd=76 PartOfSpeech=NNP Lemma=Jorah NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=storyline CharacterOffsetBegin=79 CharacterOffsetEnd=88 PartOfSpeech=NN Lemma=storyline NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=over CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=IN Lemma=over NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=97 CharacterOffsetEnd=98 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR
+      (SBAR
+        (WHNP (WP What))
+        (S
+          (NP (DT this))
+          (VP (VBZ means))))
+      (: :)
+      (PRN
+        (FRAG
+          (WHNP (WP What)))))
+    (, ,)
+    (NP (PRP you))
+    (VP (VBD thought)
+      (SBAR
+        (S
+          (NP
+            (NP (NNP Jorah) (POS 's))
+            (NN storyline))
+          (VP (VBD was)
+            (ADJP (IN over))))))
+    (. ?)))
+
+root(ROOT-0, thought-8)
+dobj(means-3, What-1)
+nsubj(means-3, this-2)
+advcl(thought-8, means-3)
+punct(means-3, :-4)
+dep(means-3, What-5)
+punct(thought-8, ,-6)
+nsubj(thought-8, you-7)
+nmod:poss(storyline-11, Jorah-9)
+case(Jorah-9, 's-10)
+nsubj(over-13, storyline-11)
+cop(over-13, was-12)
+ccomp(thought-8, over-13)
+punct(thought-8, ?-14)
+
+Sentence #3 (3 tokens):
 Think again!
-[Text=Think CharacterOffsetBegin=98 CharacterOffsetEnd=103 PartOfSpeech=VB]
-[Text=again CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=RB]
-[Text=! CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=.]
-Sentence #3 (30 tokens):
+[Text=Think CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=VB Lemma=think NamedEntityTag=O]
+[Text=again CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=RB Lemma=again NamedEntityTag=O]
+[Text=! CharacterOffsetBegin=110 CharacterOffsetEnd=111 PartOfSpeech=. Lemma=! NamedEntityTag=O]
+(ROOT
+  (S
+    (VP (VB Think)
+      (ADVP (RB again)))
+    (. !)))
+
+root(ROOT-0, Think-1)
+advmod(Think-1, again-2)
+punct(Think-1, !-3)
+
+Sentence #4 (30 tokens):
 One person recently posted online that she saw Iain Glen and Gwendoline Christie on a plane to Belfast, where Game of Thrones often films, and guess what?
-[Text=One CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=CD]
-[Text=person CharacterOffsetBegin=115 CharacterOffsetEnd=121 PartOfSpeech=NN]
-[Text=recently CharacterOffsetBegin=122 CharacterOffsetEnd=130 PartOfSpeech=RB]
-[Text=posted CharacterOffsetBegin=131 CharacterOffsetEnd=137 PartOfSpeech=VBD]
-[Text=online CharacterOffsetBegin=138 CharacterOffsetEnd=144 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=IN]
-[Text=she CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=PRP]
-[Text=saw CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=VBD]
-[Text=Iain CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=NNP]
-[Text=Glen CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=168 CharacterOffsetEnd=171 PartOfSpeech=CC]
-[Text=Gwendoline CharacterOffsetBegin=172 CharacterOffsetEnd=182 PartOfSpeech=NNP]
-[Text=Christie CharacterOffsetBegin=183 CharacterOffsetEnd=191 PartOfSpeech=NNP]
-[Text=on CharacterOffsetBegin=192 CharacterOffsetEnd=194 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=DT]
-[Text=plane CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=TO]
-[Text=Belfast CharacterOffsetBegin=206 CharacterOffsetEnd=213 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=,]
-[Text=where CharacterOffsetBegin=215 CharacterOffsetEnd=220 PartOfSpeech=WRB]
-[Text=Game CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=IN]
-[Text=Thrones CharacterOffsetBegin=229 CharacterOffsetEnd=236 PartOfSpeech=NNS]
-[Text=often CharacterOffsetBegin=237 CharacterOffsetEnd=242 PartOfSpeech=RB]
-[Text=films CharacterOffsetBegin=243 CharacterOffsetEnd=248 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=CC]
-[Text=guess CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=VB]
-[Text=what CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=WP]
-[Text=? CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=.]
-Sentence #4 (6 tokens):
+[Text=One CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=person CharacterOffsetBegin=116 CharacterOffsetEnd=122 PartOfSpeech=NN Lemma=person NamedEntityTag=O]
+[Text=recently CharacterOffsetBegin=123 CharacterOffsetEnd=131 PartOfSpeech=RB Lemma=recently NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PAST_REF">recently</TIMEX3>]
+[Text=posted CharacterOffsetBegin=132 CharacterOffsetEnd=138 PartOfSpeech=VBD Lemma=post NamedEntityTag=O]
+[Text=online CharacterOffsetBegin=139 CharacterOffsetEnd=145 PartOfSpeech=NN Lemma=online NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=saw CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=VBD Lemma=see NamedEntityTag=O]
+[Text=Iain CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=NNP Lemma=Iain NamedEntityTag=PERSON]
+[Text=Glen CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=NNP Lemma=Glen NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Gwendoline CharacterOffsetBegin=173 CharacterOffsetEnd=183 PartOfSpeech=NNP Lemma=Gwendoline NamedEntityTag=PERSON]
+[Text=Christie CharacterOffsetBegin=184 CharacterOffsetEnd=192 PartOfSpeech=NNP Lemma=Christie NamedEntityTag=PERSON]
+[Text=on CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=plane CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=NN Lemma=plane NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Belfast CharacterOffsetBegin=207 CharacterOffsetEnd=214 PartOfSpeech=NNP Lemma=Belfast NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=where CharacterOffsetBegin=216 CharacterOffsetEnd=221 PartOfSpeech=WRB Lemma=where NamedEntityTag=O]
+[Text=Game CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=227 CharacterOffsetEnd=229 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Thrones CharacterOffsetBegin=230 CharacterOffsetEnd=237 PartOfSpeech=NNS Lemma=throne NamedEntityTag=O]
+[Text=often CharacterOffsetBegin=238 CharacterOffsetEnd=243 PartOfSpeech=RB Lemma=often NamedEntityTag=O]
+[Text=films CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=NNS Lemma=film NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=guess CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=VB Lemma=guess NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=265 CharacterOffsetEnd=266 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (CD One) (NN person))
+    (ADVP (RB recently))
+    (VP
+      (VP (VBD posted)
+        (PP (NN online))
+        (SBAR (IN that)
+          (S
+            (NP (PRP she))
+            (VP (VBD saw)
+              (NP (NNP Iain) (NNP Glen)
+                (CC and)
+                (NNP Gwendoline) (NNP Christie))
+              (PP (IN on)
+                (NP (DT a) (NN plane)))
+              (PP (TO to)
+                (NP (NNP Belfast)))
+              (, ,)
+              (SBAR
+                (WHADVP (WRB where))
+                (S
+                  (NP
+                    (NP (NN Game))
+                    (PP (IN of)
+                      (NP
+                        (NP (NNS Thrones))
+                        (ADVP (RB often)
+                          (NP (NNS films))))))))))))
+      (, ,)
+      (CC and)
+      (VP (VB guess)
+        (NP (WP what))))
+    (. ?)))
+
+root(ROOT-0, posted-4)
+nummod(person-2, One-1)
+nsubj(posted-4, person-2)
+nsubj(guess-28, person-2)
+advmod(posted-4, recently-3)
+advcl(posted-4, online-5)
+mark(saw-8, that-6)
+nsubj(saw-8, she-7)
+ccomp(posted-4, saw-8)
+compound(Glen-10, Iain-9)
+dobj(saw-8, Glen-10)
+cc(Glen-10, and-11)
+compound(Christie-13, Gwendoline-12)
+dobj(saw-8, Christie-13)
+conj:and(Glen-10, Christie-13)
+case(plane-16, on-14)
+det(plane-16, a-15)
+nmod:on(saw-8, plane-16)
+case(Belfast-18, to-17)
+nmod:to(saw-8, Belfast-18)
+punct(saw-8, ,-19)
+advmod(Game-21, where-20)
+advcl(saw-8, Game-21)
+case(Thrones-23, of-22)
+nmod:of(Game-21, Thrones-23)
+advmod(Thrones-23, often-24)
+nmod:npmod(often-24, films-25)
+punct(posted-4, ,-26)
+cc(posted-4, and-27)
+conj:and(posted-4, guess-28)
+dobj(guess-28, what-29)
+punct(posted-4, ?-30)
+
+Sentence #5 (6 tokens):
 He was reading a script!
-[Text=He CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=VBD]
-[Text=reading CharacterOffsetBegin=273 CharacterOffsetEnd=280 PartOfSpeech=VBG]
-[Text=a CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=DT]
-[Text=script CharacterOffsetBegin=283 CharacterOffsetEnd=289 PartOfSpeech=NN]
-[Text=! CharacterOffsetBegin=289 CharacterOffsetEnd=290 PartOfSpeech=.]
-Sentence #5 (10 tokens):
+[Text=He CharacterOffsetBegin=267 CharacterOffsetEnd=269 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=reading CharacterOffsetBegin=274 CharacterOffsetEnd=281 PartOfSpeech=VBG Lemma=read NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=282 CharacterOffsetEnd=283 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=script CharacterOffsetBegin=284 CharacterOffsetEnd=290 PartOfSpeech=NN Lemma=script NamedEntityTag=O]
+[Text=! CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=. Lemma=! NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP (VBD was)
+      (VP (VBG reading)
+        (NP (DT a) (NN script))))
+    (. !)))
+
+root(ROOT-0, reading-3)
+nsubj(reading-3, He-1)
+aux(reading-3, was-2)
+det(script-5, a-4)
+dobj(reading-3, script-5)
+punct(reading-3, !-6)
+
+Sentence #6 (10 tokens):
 Bam, case closed, Jorah’s coming back.
-[Text=Bam CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=UH]
-[Text=, CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=,]
-[Text=case CharacterOffsetBegin=296 CharacterOffsetEnd=300 PartOfSpeech=NN]
-[Text=closed CharacterOffsetBegin=301 CharacterOffsetEnd=307 PartOfSpeech=VBD]
-[Text=, CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=,]
-[Text=Jorah CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=314 CharacterOffsetEnd=316 PartOfSpeech=POS]
-[Text=coming CharacterOffsetBegin=317 CharacterOffsetEnd=323 PartOfSpeech=VBG]
-[Text=back CharacterOffsetBegin=324 CharacterOffsetEnd=328 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=.]
-Sentence #6 (5 tokens):
+[Text=Bam CharacterOffsetBegin=292 CharacterOffsetEnd=295 PartOfSpeech=UH Lemma=bam NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=case CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=NN Lemma=case NamedEntityTag=O]
+[Text=closed CharacterOffsetBegin=302 CharacterOffsetEnd=308 PartOfSpeech=VBD Lemma=close NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Jorah CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=NNP Lemma=Jorah NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=coming CharacterOffsetBegin=318 CharacterOffsetEnd=324 PartOfSpeech=VBG Lemma=come NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (INTJ (UH Bam))
+    (, ,)
+    (NP (NN case))
+    (VP (VBD closed) (, ,)
+      (S
+        (NP (NNP Jorah) (POS 's))
+        (VP (VBG coming)
+          (ADVP (RB back)))))
+    (. .)))
+
+root(ROOT-0, closed-4)
+discourse(closed-4, Bam-1)
+punct(closed-4, ,-2)
+nsubj(closed-4, case-3)
+punct(closed-4, ,-5)
+nsubj(coming-8, Jorah-6)
+case(Jorah-6, 's-7)
+dep(closed-4, coming-8)
+advmod(coming-8, back-9)
+punct(closed-4, .-10)
+
+Sentence #7 (5 tokens):
 But for how long?
-[Text=But CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=CC]
-[Text=for CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=IN]
-[Text=how CharacterOffsetBegin=338 CharacterOffsetEnd=341 PartOfSpeech=WRB]
-[Text=long CharacterOffsetBegin=342 CharacterOffsetEnd=346 PartOfSpeech=JJ]
-[Text=? CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=.]
-Sentence #7 (23 tokens):
+[Text=But CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=how CharacterOffsetBegin=339 CharacterOffsetEnd=342 PartOfSpeech=WRB Lemma=how NamedEntityTag=O]
+[Text=long CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=JJ Lemma=long NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (FRAG (CC But)
+    (SBAR (IN for)
+      (FRAG
+        (WHADJP (WRB how) (JJ long))))
+    (. ?)))
+
+root(ROOT-0, long-4)
+cc(long-4, But-1)
+mark(long-4, for-2)
+advmod(long-4, how-3)
+punct(long-4, ?-5)
+
+Sentence #8 (23 tokens):
 Well, there’s a lot of speculation that Jorah will be healed of Greyscale, though it’s uncertain by whom.
-[Text=Well CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=,]
-[Text=there CharacterOffsetBegin=354 CharacterOffsetEnd=359 PartOfSpeech=EX]
-[Text='s CharacterOffsetBegin=359 CharacterOffsetEnd=361 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=DT]
-[Text=lot CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=IN]
-[Text=speculation CharacterOffsetBegin=371 CharacterOffsetEnd=382 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=IN]
-[Text=Jorah CharacterOffsetBegin=388 CharacterOffsetEnd=393 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=394 CharacterOffsetEnd=398 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=399 CharacterOffsetEnd=401 PartOfSpeech=VB]
-[Text=healed CharacterOffsetBegin=402 CharacterOffsetEnd=408 PartOfSpeech=VBN]
-[Text=of CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=IN]
-[Text=Greyscale CharacterOffsetBegin=412 CharacterOffsetEnd=421 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=,]
-[Text=though CharacterOffsetBegin=423 CharacterOffsetEnd=429 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=432 CharacterOffsetEnd=434 PartOfSpeech=VBZ]
-[Text=uncertain CharacterOffsetBegin=435 CharacterOffsetEnd=444 PartOfSpeech=JJ]
-[Text=by CharacterOffsetBegin=445 CharacterOffsetEnd=447 PartOfSpeech=IN]
-[Text=whom CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=WP]
-[Text=. CharacterOffsetBegin=452 CharacterOffsetEnd=453 PartOfSpeech=.]
-Sentence #8 (26 tokens):
+[Text=Well CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=RB Lemma=well NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=there CharacterOffsetBegin=355 CharacterOffsetEnd=360 PartOfSpeech=EX Lemma=there NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=360 CharacterOffsetEnd=362 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=lot CharacterOffsetBegin=365 CharacterOffsetEnd=368 PartOfSpeech=NN Lemma=lot NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=369 CharacterOffsetEnd=371 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=speculation CharacterOffsetBegin=372 CharacterOffsetEnd=383 PartOfSpeech=NN Lemma=speculation NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=384 CharacterOffsetEnd=388 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Jorah CharacterOffsetBegin=389 CharacterOffsetEnd=394 PartOfSpeech=NNP Lemma=Jorah NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=395 CharacterOffsetEnd=399 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=400 CharacterOffsetEnd=402 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=healed CharacterOffsetBegin=403 CharacterOffsetEnd=409 PartOfSpeech=VBN Lemma=heal NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=410 CharacterOffsetEnd=412 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Greyscale CharacterOffsetBegin=413 CharacterOffsetEnd=422 PartOfSpeech=NNP Lemma=Greyscale NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=though CharacterOffsetBegin=424 CharacterOffsetEnd=430 PartOfSpeech=IN Lemma=though NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=431 CharacterOffsetEnd=433 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=uncertain CharacterOffsetBegin=436 CharacterOffsetEnd=445 PartOfSpeech=JJ Lemma=uncertain NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=446 CharacterOffsetEnd=448 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=whom CharacterOffsetBegin=449 CharacterOffsetEnd=453 PartOfSpeech=WP Lemma=whom NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=453 CharacterOffsetEnd=454 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (INTJ (RB Well))
+    (, ,)
+    (NP (EX there))
+    (VP (VBZ 's)
+      (NP
+        (NP (DT a) (NN lot))
+        (PP (IN of)
+          (NP (NN speculation))))
+      (SBAR (IN that)
+        (S
+          (NP (NNP Jorah))
+          (VP (MD will)
+            (VP (VB be)
+              (VP (VBN healed)
+                (PP (IN of)
+                  (NP (NNP Greyscale)))
+                (, ,)
+                (SBAR (IN though)
+                  (S
+                    (NP (PRP it))
+                    (VP (VBZ 's)
+                      (ADJP (JJ uncertain)
+                        (PP (IN by)
+                          (NP (WP whom)))))))))))))
+    (. .)))
+
+root(ROOT-0, 's-4)
+discourse('s-4, Well-1)
+punct('s-4, ,-2)
+expl('s-4, there-3)
+det:qmod(speculation-8, a-5)
+mwe(a-5, lot-6)
+mwe(a-5, of-7)
+nsubj('s-4, speculation-8)
+mark(healed-13, that-9)
+nsubjpass(healed-13, Jorah-10)
+aux(healed-13, will-11)
+auxpass(healed-13, be-12)
+ccomp('s-4, healed-13)
+case(Greyscale-15, of-14)
+nmod:of(healed-13, Greyscale-15)
+punct(healed-13, ,-16)
+mark(uncertain-20, though-17)
+nsubj(uncertain-20, it-18)
+cop(uncertain-20, 's-19)
+advcl:though(healed-13, uncertain-20)
+case(whom-22, by-21)
+nmod:by(uncertain-20, whom-22)
+punct('s-4, .-23)
+
+Sentence #9 (26 tokens):
 The biggest theory lies with Quaithe, the slightly magical woman in season 2 who helped Jorah find Dany’s dragons after they were stolen.
-[Text=The CharacterOffsetBegin=456 CharacterOffsetEnd=459 PartOfSpeech=DT]
-[Text=biggest CharacterOffsetBegin=460 CharacterOffsetEnd=467 PartOfSpeech=JJS]
-[Text=theory CharacterOffsetBegin=468 CharacterOffsetEnd=474 PartOfSpeech=NN]
-[Text=lies CharacterOffsetBegin=475 CharacterOffsetEnd=479 PartOfSpeech=VBZ]
-[Text=with CharacterOffsetBegin=480 CharacterOffsetEnd=484 PartOfSpeech=IN]
-[Text=Quaithe CharacterOffsetBegin=485 CharacterOffsetEnd=492 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=494 CharacterOffsetEnd=497 PartOfSpeech=DT]
-[Text=slightly CharacterOffsetBegin=498 CharacterOffsetEnd=506 PartOfSpeech=RB]
-[Text=magical CharacterOffsetBegin=507 CharacterOffsetEnd=514 PartOfSpeech=JJ]
-[Text=woman CharacterOffsetBegin=515 CharacterOffsetEnd=520 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=521 CharacterOffsetEnd=523 PartOfSpeech=IN]
-[Text=season CharacterOffsetBegin=524 CharacterOffsetEnd=530 PartOfSpeech=NN]
-[Text=2 CharacterOffsetBegin=531 CharacterOffsetEnd=532 PartOfSpeech=CD]
-[Text=who CharacterOffsetBegin=533 CharacterOffsetEnd=536 PartOfSpeech=WP]
-[Text=helped CharacterOffsetBegin=537 CharacterOffsetEnd=543 PartOfSpeech=VBD]
-[Text=Jorah CharacterOffsetBegin=544 CharacterOffsetEnd=549 PartOfSpeech=NNP]
-[Text=find CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=VB]
-[Text=Dany CharacterOffsetBegin=555 CharacterOffsetEnd=559 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=559 CharacterOffsetEnd=561 PartOfSpeech=POS]
-[Text=dragons CharacterOffsetBegin=562 CharacterOffsetEnd=569 PartOfSpeech=NNS]
-[Text=after CharacterOffsetBegin=570 CharacterOffsetEnd=575 PartOfSpeech=IN]
-[Text=they CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=PRP]
-[Text=were CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=VBD]
-[Text=stolen CharacterOffsetBegin=586 CharacterOffsetEnd=592 PartOfSpeech=VBN]
-[Text=. CharacterOffsetBegin=592 CharacterOffsetEnd=593 PartOfSpeech=.]
-Sentence #9 (8 tokens):
+[Text=The CharacterOffsetBegin=457 CharacterOffsetEnd=460 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=biggest CharacterOffsetBegin=461 CharacterOffsetEnd=468 PartOfSpeech=JJS Lemma=biggest NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=469 CharacterOffsetEnd=475 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=lies CharacterOffsetBegin=476 CharacterOffsetEnd=480 PartOfSpeech=VBZ Lemma=lie NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=481 CharacterOffsetEnd=485 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=Quaithe CharacterOffsetBegin=486 CharacterOffsetEnd=493 PartOfSpeech=NNP Lemma=Quaithe NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=495 CharacterOffsetEnd=498 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=slightly CharacterOffsetBegin=499 CharacterOffsetEnd=507 PartOfSpeech=RB Lemma=slightly NamedEntityTag=O]
+[Text=magical CharacterOffsetBegin=508 CharacterOffsetEnd=515 PartOfSpeech=JJ Lemma=magical NamedEntityTag=O]
+[Text=woman CharacterOffsetBegin=516 CharacterOffsetEnd=521 PartOfSpeech=NN Lemma=woman NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=522 CharacterOffsetEnd=524 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=525 CharacterOffsetEnd=531 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=2 CharacterOffsetBegin=532 CharacterOffsetEnd=533 PartOfSpeech=CD Lemma=2 NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text=who CharacterOffsetBegin=534 CharacterOffsetEnd=537 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=helped CharacterOffsetBegin=538 CharacterOffsetEnd=544 PartOfSpeech=VBD Lemma=help NamedEntityTag=O]
+[Text=Jorah CharacterOffsetBegin=545 CharacterOffsetEnd=550 PartOfSpeech=NNP Lemma=Jorah NamedEntityTag=PERSON]
+[Text=find CharacterOffsetBegin=551 CharacterOffsetEnd=555 PartOfSpeech=VB Lemma=find NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=556 CharacterOffsetEnd=560 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=560 CharacterOffsetEnd=562 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=dragons CharacterOffsetBegin=563 CharacterOffsetEnd=570 PartOfSpeech=NNS Lemma=dragon NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=571 CharacterOffsetEnd=576 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=577 CharacterOffsetEnd=581 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=were CharacterOffsetBegin=582 CharacterOffsetEnd=586 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=stolen CharacterOffsetBegin=587 CharacterOffsetEnd=593 PartOfSpeech=VBN Lemma=steal NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=593 CharacterOffsetEnd=594 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (JJS biggest) (NN theory))
+    (VP (VBZ lies)
+      (PP (IN with)
+        (NP
+          (NP (NNP Quaithe))
+          (, ,)
+          (NP
+            (NP (DT the)
+              (ADJP (RB slightly) (JJ magical))
+              (NN woman))
+            (PP (IN in)
+              (NP (NN season) (CD 2)))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD helped)
+                  (S
+                    (NP (NNP Jorah))
+                    (VP (VB find)
+                      (NP
+                        (NP (NNP Dany) (POS 's))
+                        (NNS dragons))))
+                  (SBAR (IN after)
+                    (S
+                      (NP (PRP they))
+                      (VP (VBD were)
+                        (VP (VBN stolen))))))))))))
+    (. .)))
+
+root(ROOT-0, lies-4)
+det(theory-3, The-1)
+amod(theory-3, biggest-2)
+nsubj(lies-4, theory-3)
+case(Quaithe-6, with-5)
+nmod:with(lies-4, Quaithe-6)
+punct(Quaithe-6, ,-7)
+det(woman-11, the-8)
+advmod(magical-10, slightly-9)
+amod(woman-11, magical-10)
+appos(Quaithe-6, woman-11)
+nsubj(helped-16, woman-11)
+case(season-13, in-12)
+nmod:in(woman-11, season-13)
+nummod(season-13, 2-14)
+ref(woman-11, who-15)
+acl:relcl(woman-11, helped-16)
+nsubj(find-18, Jorah-17)
+ccomp(helped-16, find-18)
+nmod:poss(dragons-21, Dany-19)
+case(Dany-19, 's-20)
+dobj(find-18, dragons-21)
+mark(stolen-25, after-22)
+nsubjpass(stolen-25, they-23)
+auxpass(stolen-25, were-24)
+advcl:after(helped-16, stolen-25)
+punct(lies-4, .-26)
+
+Sentence #10 (8 tokens):
 Remember that coin mask on her face?
-[Text=Remember CharacterOffsetBegin=594 CharacterOffsetEnd=602 PartOfSpeech=VB]
-[Text=that CharacterOffsetBegin=603 CharacterOffsetEnd=607 PartOfSpeech=DT]
-[Text=coin CharacterOffsetBegin=608 CharacterOffsetEnd=612 PartOfSpeech=NN]
-[Text=mask CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=NN]
-[Text=on CharacterOffsetBegin=618 CharacterOffsetEnd=620 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=621 CharacterOffsetEnd=624 PartOfSpeech=PRP$]
-[Text=face CharacterOffsetBegin=625 CharacterOffsetEnd=629 PartOfSpeech=NN]
-[Text=? CharacterOffsetBegin=629 CharacterOffsetEnd=630 PartOfSpeech=.]
-Sentence #10 (10 tokens):
+[Text=Remember CharacterOffsetBegin=595 CharacterOffsetEnd=603 PartOfSpeech=VB Lemma=remember NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=604 CharacterOffsetEnd=608 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=coin CharacterOffsetBegin=609 CharacterOffsetEnd=613 PartOfSpeech=NN Lemma=coin NamedEntityTag=O]
+[Text=mask CharacterOffsetBegin=614 CharacterOffsetEnd=618 PartOfSpeech=NN Lemma=mask NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=619 CharacterOffsetEnd=621 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=face CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=NN Lemma=face NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=630 CharacterOffsetEnd=631 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (SQ
+    (VP (VB Remember)
+      (NP (DT that) (NN coin) (NN mask))
+      (PP (IN on)
+        (NP (PRP$ her) (NN face))))
+    (. ?)))
+
+root(ROOT-0, Remember-1)
+det(mask-4, that-2)
+compound(mask-4, coin-3)
+dobj(Remember-1, mask-4)
+case(face-7, on-5)
+nmod:poss(face-7, her-6)
+nmod:on(Remember-1, face-7)
+punct(Remember-1, ?-8)
+
+Sentence #11 (10 tokens):
 Some people on Reddit think it concealed Greyscale scars.
-[Text=Some CharacterOffsetBegin=631 CharacterOffsetEnd=635 PartOfSpeech=DT]
-[Text=people CharacterOffsetBegin=636 CharacterOffsetEnd=642 PartOfSpeech=NNS]
-[Text=on CharacterOffsetBegin=643 CharacterOffsetEnd=645 PartOfSpeech=IN]
-[Text=Reddit CharacterOffsetBegin=646 CharacterOffsetEnd=652 PartOfSpeech=NNP]
-[Text=think CharacterOffsetBegin=653 CharacterOffsetEnd=658 PartOfSpeech=VBP]
-[Text=it CharacterOffsetBegin=659 CharacterOffsetEnd=661 PartOfSpeech=PRP]
-[Text=concealed CharacterOffsetBegin=662 CharacterOffsetEnd=671 PartOfSpeech=VBD]
-[Text=Greyscale CharacterOffsetBegin=672 CharacterOffsetEnd=681 PartOfSpeech=NNP]
-[Text=scars CharacterOffsetBegin=682 CharacterOffsetEnd=687 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=.]
-Sentence #11 (27 tokens):
+[Text=Some CharacterOffsetBegin=632 CharacterOffsetEnd=636 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=people CharacterOffsetBegin=637 CharacterOffsetEnd=643 PartOfSpeech=NNS Lemma=people NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=644 CharacterOffsetEnd=646 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=Reddit CharacterOffsetBegin=647 CharacterOffsetEnd=653 PartOfSpeech=NNP Lemma=Reddit NamedEntityTag=LOCATION]
+[Text=think CharacterOffsetBegin=654 CharacterOffsetEnd=659 PartOfSpeech=VBP Lemma=think NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=660 CharacterOffsetEnd=662 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=concealed CharacterOffsetBegin=663 CharacterOffsetEnd=672 PartOfSpeech=VBD Lemma=conceal NamedEntityTag=O]
+[Text=Greyscale CharacterOffsetBegin=673 CharacterOffsetEnd=682 PartOfSpeech=NNP Lemma=Greyscale NamedEntityTag=O]
+[Text=scars CharacterOffsetBegin=683 CharacterOffsetEnd=688 PartOfSpeech=NNS Lemma=scar NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (DT Some) (NNS people))
+      (PP (IN on)
+        (NP (NNP Reddit))))
+    (VP (VBP think)
+      (SBAR
+        (S
+          (NP (PRP it))
+          (VP (VBD concealed)
+            (NP (NNP Greyscale) (NNS scars))))))
+    (. .)))
+
+root(ROOT-0, think-5)
+det(people-2, Some-1)
+nsubj(think-5, people-2)
+case(Reddit-4, on-3)
+nmod:on(people-2, Reddit-4)
+nsubj(concealed-7, it-6)
+ccomp(think-5, concealed-7)
+compound(scars-9, Greyscale-8)
+dobj(concealed-7, scars-9)
+punct(think-5, .-10)
+
+Sentence #12 (27 tokens):
 Quaithe also predicted that Jorah would travel past Old Valyria, and that “all who travel too close to the Doom must have protection.”
-[Text=Quaithe CharacterOffsetBegin=689 CharacterOffsetEnd=696 PartOfSpeech=NNP]
-[Text=also CharacterOffsetBegin=697 CharacterOffsetEnd=701 PartOfSpeech=RB]
-[Text=predicted CharacterOffsetBegin=702 CharacterOffsetEnd=711 PartOfSpeech=VBD]
-[Text=that CharacterOffsetBegin=712 CharacterOffsetEnd=716 PartOfSpeech=IN]
-[Text=Jorah CharacterOffsetBegin=717 CharacterOffsetEnd=722 PartOfSpeech=NNP]
-[Text=would CharacterOffsetBegin=723 CharacterOffsetEnd=728 PartOfSpeech=MD]
-[Text=travel CharacterOffsetBegin=729 CharacterOffsetEnd=735 PartOfSpeech=VB]
-[Text=past CharacterOffsetBegin=736 CharacterOffsetEnd=740 PartOfSpeech=JJ]
-[Text=Old CharacterOffsetBegin=741 CharacterOffsetEnd=744 PartOfSpeech=JJ]
-[Text=Valyria CharacterOffsetBegin=745 CharacterOffsetEnd=752 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=752 CharacterOffsetEnd=753 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=754 CharacterOffsetEnd=757 PartOfSpeech=CC]
-[Text=that CharacterOffsetBegin=758 CharacterOffsetEnd=762 PartOfSpeech=IN]
-[Text=`` CharacterOffsetBegin=763 CharacterOffsetEnd=764 PartOfSpeech=``]
-[Text=all CharacterOffsetBegin=764 CharacterOffsetEnd=767 PartOfSpeech=DT]
-[Text=who CharacterOffsetBegin=768 CharacterOffsetEnd=771 PartOfSpeech=WP]
-[Text=travel CharacterOffsetBegin=772 CharacterOffsetEnd=778 PartOfSpeech=VBP]
-[Text=too CharacterOffsetBegin=779 CharacterOffsetEnd=782 PartOfSpeech=RB]
-[Text=close CharacterOffsetBegin=783 CharacterOffsetEnd=788 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=789 CharacterOffsetEnd=791 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=792 CharacterOffsetEnd=795 PartOfSpeech=DT]
-[Text=Doom CharacterOffsetBegin=796 CharacterOffsetEnd=800 PartOfSpeech=NN]
-[Text=must CharacterOffsetBegin=801 CharacterOffsetEnd=805 PartOfSpeech=MD]
-[Text=have CharacterOffsetBegin=806 CharacterOffsetEnd=810 PartOfSpeech=VB]
-[Text=protection CharacterOffsetBegin=811 CharacterOffsetEnd=821 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=821 CharacterOffsetEnd=822 PartOfSpeech=.]
-[Text='' CharacterOffsetBegin=822 CharacterOffsetEnd=823 PartOfSpeech='']
-Sentence #12 (5 tokens):
-What kind of protection?
-[Text=What CharacterOffsetBegin=824 CharacterOffsetEnd=828 PartOfSpeech=WDT]
-[Text=kind CharacterOffsetBegin=829 CharacterOffsetEnd=833 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=834 CharacterOffsetEnd=836 PartOfSpeech=IN]
-[Text=protection CharacterOffsetBegin=837 CharacterOffsetEnd=847 PartOfSpeech=NN]
-[Text=? CharacterOffsetBegin=847 CharacterOffsetEnd=848 PartOfSpeech=.]
+[Text=Quaithe CharacterOffsetBegin=690 CharacterOffsetEnd=697 PartOfSpeech=NNP Lemma=Quaithe NamedEntityTag=PERSON]
+[Text=also CharacterOffsetBegin=698 CharacterOffsetEnd=702 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=predicted CharacterOffsetBegin=703 CharacterOffsetEnd=712 PartOfSpeech=VBD Lemma=predict NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=713 CharacterOffsetEnd=717 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Jorah CharacterOffsetBegin=718 CharacterOffsetEnd=723 PartOfSpeech=NNP Lemma=Jorah NamedEntityTag=PERSON]
+[Text=would CharacterOffsetBegin=724 CharacterOffsetEnd=729 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=travel CharacterOffsetBegin=730 CharacterOffsetEnd=736 PartOfSpeech=VB Lemma=travel NamedEntityTag=O]
+[Text=past CharacterOffsetBegin=737 CharacterOffsetEnd=741 PartOfSpeech=JJ Lemma=past NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PAST_REF">past</TIMEX3>]
+[Text=Old CharacterOffsetBegin=742 CharacterOffsetEnd=745 PartOfSpeech=JJ Lemma=old NamedEntityTag=LOCATION]
+[Text=Valyria CharacterOffsetBegin=746 CharacterOffsetEnd=753 PartOfSpeech=NNP Lemma=Valyria NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=753 CharacterOffsetEnd=754 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=755 CharacterOffsetEnd=758 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=759 CharacterOffsetEnd=763 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=764 CharacterOffsetEnd=765 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=765 CharacterOffsetEnd=768 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=769 CharacterOffsetEnd=772 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=travel CharacterOffsetBegin=773 CharacterOffsetEnd=779 PartOfSpeech=VBP Lemma=travel NamedEntityTag=O]
+[Text=too CharacterOffsetBegin=780 CharacterOffsetEnd=783 PartOfSpeech=RB Lemma=too NamedEntityTag=O]
+[Text=close CharacterOffsetBegin=784 CharacterOffsetEnd=789 PartOfSpeech=JJ Lemma=close NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=790 CharacterOffsetEnd=792 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=793 CharacterOffsetEnd=796 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Doom CharacterOffsetBegin=797 CharacterOffsetEnd=801 PartOfSpeech=NN Lemma=doom NamedEntityTag=O]
+[Text=must CharacterOffsetBegin=802 CharacterOffsetEnd=806 PartOfSpeech=MD Lemma=must NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=807 CharacterOffsetEnd=811 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=protection CharacterOffsetBegin=812 CharacterOffsetEnd=822 PartOfSpeech=NN Lemma=protection NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=822 CharacterOffsetEnd=823 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=823 CharacterOffsetEnd=824 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Quaithe))
+    (ADVP (RB also))
+    (VP (VBD predicted)
+      (SBAR
+        (SBAR (IN that)
+          (S
+            (NP (NNP Jorah))
+            (VP (MD would)
+              (VP (VB travel)
+                (PP (JJ past)
+                  (NP (JJ Old) (NNP Valyria)))))))
+        (, ,)
+        (CC and)
+        (SBAR (IN that) (`` ``)
+          (S
+            (NP
+              (NP (DT all))
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (VBP travel)
+                    (ADJP (RB too) (JJ close)
+                      (PP (TO to)
+                        (NP (DT the) (NN Doom))))))))
+            (VP (MD must)
+              (VP (VB have)
+                (NP (NN protection))))))))
+    (. .) ('' '')))
+
+root(ROOT-0, predicted-3)
+nsubj(predicted-3, Quaithe-1)
+advmod(predicted-3, also-2)
+mark(travel-7, that-4)
+nsubj(travel-7, Jorah-5)
+aux(travel-7, would-6)
+ccomp(predicted-3, travel-7)
+case(Valyria-10, past-8)
+amod(Valyria-10, Old-9)
+nmod:past(travel-7, Valyria-10)
+punct(travel-7, ,-11)
+cc(travel-7, and-12)
+mark(have-24, that-13)
+punct(have-24, ``-14)
+nsubj(travel-17, all-15)
+nsubj(have-24, all-15)
+ref(all-15, who-16)
+acl:relcl(all-15, travel-17)
+advmod(Doom-22, too-18)
+case(Doom-22, close-19)
+mwe(close-19, to-20)
+det(Doom-22, the-21)
+nmod:close_to(travel-17, Doom-22)
+aux(have-24, must-23)
+ccomp(predicted-3, have-24)
+conj:and(travel-7, have-24)
+dobj(have-24, protection-25)
+punct(predicted-3, .-26)
+punct(predicted-3, ''-27)
+
 Sentence #13 (5 tokens):
+What kind of protection?
+[Text=What CharacterOffsetBegin=825 CharacterOffsetEnd=829 PartOfSpeech=WDT Lemma=what NamedEntityTag=O]
+[Text=kind CharacterOffsetBegin=830 CharacterOffsetEnd=834 PartOfSpeech=NN Lemma=kind NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=835 CharacterOffsetEnd=837 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=protection CharacterOffsetBegin=838 CharacterOffsetEnd=848 PartOfSpeech=NN Lemma=protection NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=848 CharacterOffsetEnd=849 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (WHNP (WDT What) (NN kind))
+    (PP (IN of)
+      (NP (NN protection)))
+    (. ?)))
+
+root(ROOT-0, kind-2)
+det(kind-2, What-1)
+case(protection-4, of-3)
+nmod:of(kind-2, protection-4)
+punct(kind-2, ?-5)
+
+Sentence #14 (5 tokens):
 A spell, maybe?
-[Text=A CharacterOffsetBegin=849 CharacterOffsetEnd=850 PartOfSpeech=DT]
-[Text=spell CharacterOffsetBegin=851 CharacterOffsetEnd=856 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=856 CharacterOffsetEnd=857 PartOfSpeech=,]
-[Text=maybe CharacterOffsetBegin=858 CharacterOffsetEnd=863 PartOfSpeech=RB]
-[Text=? CharacterOffsetBegin=863 CharacterOffsetEnd=864 PartOfSpeech=.]
-Sentence #14 (21 tokens):
+[Text=A CharacterOffsetBegin=850 CharacterOffsetEnd=851 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=spell CharacterOffsetBegin=852 CharacterOffsetEnd=857 PartOfSpeech=NN Lemma=spell NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=857 CharacterOffsetEnd=858 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=maybe CharacterOffsetBegin=859 CharacterOffsetEnd=864 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=864 CharacterOffsetEnd=865 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (NP
+    (NP
+      (NP (DT A) (NN spell))
+      (, ,)
+      (ADVP (RB maybe)))
+    (. ?)))
+
+root(ROOT-0, spell-2)
+det(spell-2, A-1)
+punct(spell-2, ,-3)
+advmod(spell-2, maybe-4)
+punct(spell-2, ?-5)
+
+Sentence #15 (21 tokens):
 Too soon to speculate, but there could be a lot of interesting developments if true, such as….
-[Text=Too CharacterOffsetBegin=865 CharacterOffsetEnd=868 PartOfSpeech=RB]
-[Text=soon CharacterOffsetBegin=869 CharacterOffsetEnd=873 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=874 CharacterOffsetEnd=876 PartOfSpeech=TO]
-[Text=speculate CharacterOffsetBegin=877 CharacterOffsetEnd=886 PartOfSpeech=VB]
-[Text=, CharacterOffsetBegin=886 CharacterOffsetEnd=887 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=888 CharacterOffsetEnd=891 PartOfSpeech=CC]
-[Text=there CharacterOffsetBegin=892 CharacterOffsetEnd=897 PartOfSpeech=EX]
-[Text=could CharacterOffsetBegin=898 CharacterOffsetEnd=903 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=904 CharacterOffsetEnd=906 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=907 CharacterOffsetEnd=908 PartOfSpeech=DT]
-[Text=lot CharacterOffsetBegin=909 CharacterOffsetEnd=912 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=913 CharacterOffsetEnd=915 PartOfSpeech=IN]
-[Text=interesting CharacterOffsetBegin=916 CharacterOffsetEnd=927 PartOfSpeech=JJ]
-[Text=developments CharacterOffsetBegin=928 CharacterOffsetEnd=940 PartOfSpeech=NNS]
-[Text=if CharacterOffsetBegin=941 CharacterOffsetEnd=943 PartOfSpeech=IN]
-[Text=true CharacterOffsetBegin=944 CharacterOffsetEnd=948 PartOfSpeech=JJ]
-[Text=, CharacterOffsetBegin=948 CharacterOffsetEnd=949 PartOfSpeech=,]
-[Text=such CharacterOffsetBegin=950 CharacterOffsetEnd=954 PartOfSpeech=JJ]
-[Text=as CharacterOffsetBegin=955 CharacterOffsetEnd=957 PartOfSpeech=IN]
-[Text=... CharacterOffsetBegin=957 CharacterOffsetEnd=958 PartOfSpeech=:]
-[Text=. CharacterOffsetBegin=958 CharacterOffsetEnd=959 PartOfSpeech=.]
+[Text=Too CharacterOffsetBegin=866 CharacterOffsetEnd=869 PartOfSpeech=RB Lemma=too NamedEntityTag=O]
+[Text=soon CharacterOffsetBegin=870 CharacterOffsetEnd=874 PartOfSpeech=RB Lemma=soon NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=875 CharacterOffsetEnd=877 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=speculate CharacterOffsetBegin=878 CharacterOffsetEnd=887 PartOfSpeech=VB Lemma=speculate NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=887 CharacterOffsetEnd=888 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=889 CharacterOffsetEnd=892 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=there CharacterOffsetBegin=893 CharacterOffsetEnd=898 PartOfSpeech=EX Lemma=there NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=899 CharacterOffsetEnd=904 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=905 CharacterOffsetEnd=907 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=908 CharacterOffsetEnd=909 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=lot CharacterOffsetBegin=910 CharacterOffsetEnd=913 PartOfSpeech=NN Lemma=lot NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=914 CharacterOffsetEnd=916 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=interesting CharacterOffsetBegin=917 CharacterOffsetEnd=928 PartOfSpeech=JJ Lemma=interesting NamedEntityTag=O]
+[Text=developments CharacterOffsetBegin=929 CharacterOffsetEnd=941 PartOfSpeech=NNS Lemma=development NamedEntityTag=O]
+[Text=if CharacterOffsetBegin=942 CharacterOffsetEnd=944 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=true CharacterOffsetBegin=945 CharacterOffsetEnd=949 PartOfSpeech=JJ Lemma=true NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=949 CharacterOffsetEnd=950 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=951 CharacterOffsetEnd=955 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=956 CharacterOffsetEnd=958 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=958 CharacterOffsetEnd=959 PartOfSpeech=: Lemma=... NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=959 CharacterOffsetEnd=960 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (FRAG
+      (S
+        (ADVP (RB Too) (RB soon))
+        (VP (TO to)
+          (VP (VB speculate)))))
+    (, ,)
+    (S (CC but)
+      (NP (EX there))
+      (VP (MD could)
+        (VP (VB be)
+          (NP
+            (NP (DT a) (NN lot))
+            (PP (IN of)
+              (NP
+                (NP (JJ interesting) (NNS developments))
+                (ADJP (IN if) (JJ true))))))))
+    (, ,)
+    (FRAG
+      (ADJP (JJ such)
+        (PP (IN as)))
+      (: ...))
+    (. .)))
+
+root(ROOT-0, developments-14)
+advmod(soon-2, Too-1)
+advmod(speculate-4, soon-2)
+mark(speculate-4, to-3)
+dep(lot-11, speculate-4)
+punct(lot-11, ,-5)
+cc(lot-11, but-6)
+expl(lot-11, there-7)
+aux(lot-11, could-8)
+cop(lot-11, be-9)
+det:qmod(developments-14, a-10)
+mwe(a-10, lot-11)
+mwe(a-10, of-12)
+amod(developments-14, interesting-13)
+dep(true-16, if-15)
+amod(developments-14, true-16)
+punct(lot-11, ,-17)
+parataxis(lot-11, such-18)
+nmod(such-18, as-19)
+punct(such-18, ...-20)
+punct(lot-11, .-21)
+
+Coreference set:
+	(2,9,[9,11]) -> (1,1,[1,2]), that is: "Jorah 's" -> "Jorah"
+	(4,7,[7,8]) -> (1,1,[1,2]), that is: "she" -> "Jorah"
+	(6,6,[6,8]) -> (1,1,[1,2]), that is: "Jorah 's" -> "Jorah"
+	(8,10,[10,11]) -> (1,1,[1,2]), that is: "Jorah" -> "Jorah"
+	(8,22,[22,23]) -> (1,1,[1,2]), that is: "whom" -> "Jorah"
+	(9,17,[17,18]) -> (1,1,[1,2]), that is: "Jorah" -> "Jorah"
+	(12,5,[5,6]) -> (1,1,[1,2]), that is: "Jorah" -> "Jorah"
+Coreference set:
+	(8,15,[15,16]) -> (1,6,[6,7]), that is: "Greyscale" -> "Greyscale"
+	(8,18,[18,19]) -> (1,6,[6,7]), that is: "it" -> "Greyscale"
+Coreference set:
+	(5,1,[1,2]) -> (4,2,[1,3]), that is: "He" -> "One person"
+Coreference set:
+	(9,6,[6,7]) -> (12,1,[1,2]), that is: "Quaithe" -> "Quaithe"
+	(9,11,[8,26]) -> (12,1,[1,2]), that is: "the slightly magical woman in season 2 who helped Jorah find Dany 's dragons after they were stolen" -> "Quaithe"
+	(10,6,[6,7]) -> (12,1,[1,2]), that is: "her" -> "Quaithe"
+Coreference set:
+	(9,23,[23,24]) -> (9,21,[19,22]), that is: "they" -> "Dany 's dragons"
+Coreference set:
+	(11,6,[6,7]) -> (11,4,[4,5]), that is: "it" -> "Reddit"

@@ -1,191 +1,597 @@
 Sentence #1 (10 tokens):
 Gilly's son will take down the White Walkers.
-[Text=Gilly CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=POS]
-[Text=son CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=NN]
-[Text=will CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=MD]
-[Text=take CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=VB]
-[Text=down CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=RP]
-[Text=the CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=DT]
-[Text=White CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=NNP]
-[Text=Walkers CharacterOffsetBegin=37 CharacterOffsetEnd=44 PartOfSpeech=NNPS]
-[Text=. CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=.]
+[Text=Gilly CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Gilly NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=5 CharacterOffsetEnd=7 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=son CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=NN Lemma=son NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=12 CharacterOffsetEnd=16 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=take CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=VB Lemma=take NamedEntityTag=O]
+[Text=down CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=RP Lemma=down NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=White CharacterOffsetBegin=31 CharacterOffsetEnd=36 PartOfSpeech=NNP Lemma=White NamedEntityTag=ORGANIZATION]
+[Text=Walkers CharacterOffsetBegin=37 CharacterOffsetEnd=44 PartOfSpeech=NNPS Lemma=Walkers NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (NNP Gilly) (POS 's))
+      (NN son))
+    (VP (MD will)
+      (VP (VB take)
+        (PRT (RP down))
+        (NP (DT the) (NNP White) (NNPS Walkers))))
+    (. .)))
+
+root(ROOT-0, take-5)
+nmod:poss(son-3, Gilly-1)
+case(Gilly-1, 's-2)
+nsubj(take-5, son-3)
+aux(take-5, will-4)
+compound:prt(take-5, down-6)
+det(Walkers-9, the-7)
+compound(Walkers-9, White-8)
+dobj(take-5, Walkers-9)
+punct(take-5, .-10)
+
 Sentence #2 (5 tokens):
 Well, sort of.
-[Text=Well CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=,]
-[Text=sort CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=IN]
-[Text=. CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=.]
+[Text=Well CharacterOffsetBegin=46 CharacterOffsetEnd=50 PartOfSpeech=RB Lemma=well NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=sort CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=NN Lemma=sort NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=59 CharacterOffsetEnd=60 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (INTJ (RB Well))
+    (, ,)
+    (NP
+      (NP (NN sort))
+      (PP (IN of)))
+    (. .)))
+
+root(ROOT-0, sort-3)
+discourse(sort-3, Well-1)
+punct(sort-3, ,-2)
+acl(sort-3, of-4)
+punct(sort-3, .-5)
+
 Sentence #3 (23 tokens):
 Young Samwell could potentially end up being key to defeating the overall baddies of the series, according to a Reddit theory.
-[Text=Young CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=NNP]
-[Text=Samwell CharacterOffsetBegin=67 CharacterOffsetEnd=74 PartOfSpeech=NNP]
-[Text=could CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=MD]
-[Text=potentially CharacterOffsetBegin=81 CharacterOffsetEnd=92 PartOfSpeech=RB]
-[Text=end CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=VB]
-[Text=up CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=RP]
-[Text=being CharacterOffsetBegin=100 CharacterOffsetEnd=105 PartOfSpeech=VBG]
-[Text=key CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=TO]
-[Text=defeating CharacterOffsetBegin=113 CharacterOffsetEnd=122 PartOfSpeech=VBG]
-[Text=the CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=DT]
-[Text=overall CharacterOffsetBegin=127 CharacterOffsetEnd=134 PartOfSpeech=JJ]
-[Text=baddies CharacterOffsetBegin=135 CharacterOffsetEnd=142 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=DT]
-[Text=series CharacterOffsetBegin=150 CharacterOffsetEnd=156 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=,]
-[Text=according CharacterOffsetBegin=158 CharacterOffsetEnd=167 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=TO]
-[Text=a CharacterOffsetBegin=171 CharacterOffsetEnd=172 PartOfSpeech=DT]
-[Text=Reddit CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=NNP]
-[Text=theory CharacterOffsetBegin=180 CharacterOffsetEnd=186 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=.]
+[Text=Young CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=NNP Lemma=Young NamedEntityTag=O]
+[Text=Samwell CharacterOffsetBegin=67 CharacterOffsetEnd=74 PartOfSpeech=NNP Lemma=Samwell NamedEntityTag=PERSON]
+[Text=could CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=potentially CharacterOffsetBegin=81 CharacterOffsetEnd=92 PartOfSpeech=RB Lemma=potentially NamedEntityTag=O]
+[Text=end CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=VB Lemma=end NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=being CharacterOffsetBegin=100 CharacterOffsetEnd=105 PartOfSpeech=VBG Lemma=be NamedEntityTag=O]
+[Text=key CharacterOffsetBegin=106 CharacterOffsetEnd=109 PartOfSpeech=JJ Lemma=key NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=defeating CharacterOffsetBegin=113 CharacterOffsetEnd=122 PartOfSpeech=VBG Lemma=defeat NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=overall CharacterOffsetBegin=127 CharacterOffsetEnd=134 PartOfSpeech=JJ Lemma=overall NamedEntityTag=O]
+[Text=baddies CharacterOffsetBegin=135 CharacterOffsetEnd=142 PartOfSpeech=NNS Lemma=baddy NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=series CharacterOffsetBegin=150 CharacterOffsetEnd=156 PartOfSpeech=NN Lemma=series NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=according CharacterOffsetBegin=158 CharacterOffsetEnd=167 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=168 CharacterOffsetEnd=170 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=171 CharacterOffsetEnd=172 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Reddit CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=NNP Lemma=Reddit NamedEntityTag=LOCATION]
+[Text=theory CharacterOffsetBegin=180 CharacterOffsetEnd=186 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Young) (NNP Samwell))
+    (VP (MD could)
+      (ADVP (RB potentially))
+      (VP (VB end)
+        (PRT (RP up))
+        (S
+          (VP (VBG being)
+            (ADJP (JJ key)
+              (PP (TO to)
+                (S
+                  (VP (VBG defeating)
+                    (NP
+                      (NP (DT the) (JJ overall) (NNS baddies))
+                      (PP (IN of)
+                        (NP (DT the) (NN series))))))))))
+        (, ,)
+        (PP (VBG according)
+          (PP (TO to)
+            (NP (DT a) (NNP Reddit) (NN theory))))))
+    (. .)))
+
+root(ROOT-0, end-5)
+compound(Samwell-2, Young-1)
+nsubj(end-5, Samwell-2)
+aux(end-5, could-3)
+advmod(end-5, potentially-4)
+compound:prt(end-5, up-6)
+cop(key-8, being-7)
+xcomp(end-5, key-8)
+mark(defeating-10, to-9)
+advcl:to(key-8, defeating-10)
+det(baddies-13, the-11)
+amod(baddies-13, overall-12)
+dobj(defeating-10, baddies-13)
+case(series-16, of-14)
+det(series-16, the-15)
+nmod:of(baddies-13, series-16)
+punct(end-5, ,-17)
+case(theory-22, according-18)
+mwe(according-18, to-19)
+det(theory-22, a-20)
+compound(theory-22, Reddit-21)
+nmod:according_to(end-5, theory-22)
+punct(end-5, .-23)
+
 Sentence #4 (25 tokens):
 Gilly's son is most likely the very last true son of the evil Craster who wasn't turned over to the White Walkers.
-[Text=Gilly CharacterOffsetBegin=189 CharacterOffsetEnd=194 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=POS]
-[Text=son CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=VBZ]
-[Text=most CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=RBS]
-[Text=likely CharacterOffsetBegin=209 CharacterOffsetEnd=215 PartOfSpeech=JJ]
-[Text=the CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=DT]
-[Text=very CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=RB]
-[Text=last CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=JJ]
-[Text=true CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=JJ]
-[Text=son CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=DT]
-[Text=evil CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=JJ]
-[Text=Craster CharacterOffsetBegin=251 CharacterOffsetEnd=258 PartOfSpeech=NNP]
-[Text=who CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=WP]
-[Text=was CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=VBD]
-[Text=n't CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=RB]
-[Text=turned CharacterOffsetBegin=270 CharacterOffsetEnd=276 PartOfSpeech=VBN]
-[Text=over CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=RP]
-[Text=to CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=DT]
-[Text=White CharacterOffsetBegin=289 CharacterOffsetEnd=294 PartOfSpeech=NNP]
-[Text=Walkers CharacterOffsetBegin=295 CharacterOffsetEnd=302 PartOfSpeech=NNPS]
-[Text=. CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=.]
+[Text=Gilly CharacterOffsetBegin=189 CharacterOffsetEnd=194 PartOfSpeech=NNP Lemma=Gilly NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=son CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=NN Lemma=son NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=most CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=RBS Lemma=most NamedEntityTag=O]
+[Text=likely CharacterOffsetBegin=209 CharacterOffsetEnd=215 PartOfSpeech=JJ Lemma=likely NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=very CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=RB Lemma=very NamedEntityTag=O]
+[Text=last CharacterOffsetBegin=225 CharacterOffsetEnd=229 PartOfSpeech=JJ Lemma=last NamedEntityTag=O]
+[Text=true CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=JJ Lemma=true NamedEntityTag=O]
+[Text=son CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=NN Lemma=son NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=239 CharacterOffsetEnd=241 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=evil CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=JJ Lemma=evil NamedEntityTag=O]
+[Text=Craster CharacterOffsetBegin=251 CharacterOffsetEnd=258 PartOfSpeech=NNP Lemma=Craster NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=turned CharacterOffsetBegin=270 CharacterOffsetEnd=276 PartOfSpeech=VBN Lemma=turn NamedEntityTag=O]
+[Text=over CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=RP Lemma=over NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=White CharacterOffsetBegin=289 CharacterOffsetEnd=294 PartOfSpeech=NNP Lemma=White NamedEntityTag=ORGANIZATION]
+[Text=Walkers CharacterOffsetBegin=295 CharacterOffsetEnd=302 PartOfSpeech=NNPS Lemma=Walkers NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (NNP Gilly) (POS 's))
+      (NN son))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (ADVP (RBS most) (JJ likely))
+          (DT the)
+          (ADJP (RB very) (JJ last))
+          (JJ true) (NN son))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (JJ evil) (NNP Craster))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD was) (RB n't)
+                  (VP (VBN turned)
+                    (PRT (RP over))
+                    (PP (TO to)
+                      (NP (DT the) (NNP White) (NNPS Walkers)))))))))))
+    (. .)))
+
+root(ROOT-0, son-11)
+nmod:poss(son-3, Gilly-1)
+case(Gilly-1, 's-2)
+nsubj(son-11, son-3)
+cop(son-11, is-4)
+advmod(likely-6, most-5)
+advmod(son-11, likely-6)
+det(son-11, the-7)
+advmod(last-9, very-8)
+amod(son-11, last-9)
+amod(son-11, true-10)
+case(Craster-15, of-12)
+det(Craster-15, the-13)
+amod(Craster-15, evil-14)
+nmod:of(son-11, Craster-15)
+nsubjpass(turned-19, Craster-15)
+ref(Craster-15, who-16)
+auxpass(turned-19, was-17)
+neg(turned-19, n't-18)
+acl:relcl(Craster-15, turned-19)
+compound:prt(turned-19, over-20)
+case(Walkers-24, to-21)
+det(Walkers-24, the-22)
+compound(Walkers-24, White-23)
+nmod:to(turned-19, Walkers-24)
+punct(son-11, .-25)
+
 Sentence #5 (26 tokens):
 That makes him technically the brother of various White Walkers, and knowing Craster's dirty history he probably shares bloodlines with gods know who.
-[Text=That CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=DT]
-[Text=makes CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=VBZ]
-[Text=him CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=PRP]
-[Text=technically CharacterOffsetBegin=319 CharacterOffsetEnd=330 PartOfSpeech=RB]
-[Text=the CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=DT]
-[Text=brother CharacterOffsetBegin=335 CharacterOffsetEnd=342 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=IN]
-[Text=various CharacterOffsetBegin=346 CharacterOffsetEnd=353 PartOfSpeech=JJ]
-[Text=White CharacterOffsetBegin=354 CharacterOffsetEnd=359 PartOfSpeech=NNP]
-[Text=Walkers CharacterOffsetBegin=360 CharacterOffsetEnd=367 PartOfSpeech=NNPS]
-[Text=, CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=369 CharacterOffsetEnd=372 PartOfSpeech=CC]
-[Text=knowing CharacterOffsetBegin=373 CharacterOffsetEnd=380 PartOfSpeech=VBG]
-[Text=Craster CharacterOffsetBegin=381 CharacterOffsetEnd=388 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=POS]
-[Text=dirty CharacterOffsetBegin=391 CharacterOffsetEnd=396 PartOfSpeech=JJ]
-[Text=history CharacterOffsetBegin=397 CharacterOffsetEnd=404 PartOfSpeech=NN]
-[Text=he CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=PRP]
-[Text=probably CharacterOffsetBegin=408 CharacterOffsetEnd=416 PartOfSpeech=RB]
-[Text=shares CharacterOffsetBegin=417 CharacterOffsetEnd=423 PartOfSpeech=VBZ]
-[Text=bloodlines CharacterOffsetBegin=424 CharacterOffsetEnd=434 PartOfSpeech=NNS]
-[Text=with CharacterOffsetBegin=435 CharacterOffsetEnd=439 PartOfSpeech=IN]
-[Text=gods CharacterOffsetBegin=440 CharacterOffsetEnd=444 PartOfSpeech=NNS]
-[Text=know CharacterOffsetBegin=445 CharacterOffsetEnd=449 PartOfSpeech=VBP]
-[Text=who CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=WP]
-[Text=. CharacterOffsetBegin=453 CharacterOffsetEnd=454 PartOfSpeech=.]
+[Text=That CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=makes CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=VBZ Lemma=make NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=technically CharacterOffsetBegin=319 CharacterOffsetEnd=330 PartOfSpeech=RB Lemma=technically NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=brother CharacterOffsetBegin=335 CharacterOffsetEnd=342 PartOfSpeech=NN Lemma=brother NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=various CharacterOffsetBegin=346 CharacterOffsetEnd=353 PartOfSpeech=JJ Lemma=various NamedEntityTag=O]
+[Text=White CharacterOffsetBegin=354 CharacterOffsetEnd=359 PartOfSpeech=NNP Lemma=White NamedEntityTag=O]
+[Text=Walkers CharacterOffsetBegin=360 CharacterOffsetEnd=367 PartOfSpeech=NNPS Lemma=Walkers NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=369 CharacterOffsetEnd=372 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=knowing CharacterOffsetBegin=373 CharacterOffsetEnd=380 PartOfSpeech=VBG Lemma=know NamedEntityTag=O]
+[Text=Craster CharacterOffsetBegin=381 CharacterOffsetEnd=388 PartOfSpeech=NNP Lemma=Craster NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=dirty CharacterOffsetBegin=391 CharacterOffsetEnd=396 PartOfSpeech=JJ Lemma=dirty NamedEntityTag=O]
+[Text=history CharacterOffsetBegin=397 CharacterOffsetEnd=404 PartOfSpeech=NN Lemma=history NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=probably CharacterOffsetBegin=408 CharacterOffsetEnd=416 PartOfSpeech=RB Lemma=probably NamedEntityTag=O]
+[Text=shares CharacterOffsetBegin=417 CharacterOffsetEnd=423 PartOfSpeech=VBZ Lemma=share NamedEntityTag=O]
+[Text=bloodlines CharacterOffsetBegin=424 CharacterOffsetEnd=434 PartOfSpeech=NNS Lemma=bloodline NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=435 CharacterOffsetEnd=439 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=gods CharacterOffsetBegin=440 CharacterOffsetEnd=444 PartOfSpeech=NNS Lemma=god NamedEntityTag=O]
+[Text=know CharacterOffsetBegin=445 CharacterOffsetEnd=449 PartOfSpeech=VBP Lemma=know NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=453 CharacterOffsetEnd=454 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (DT That))
+      (VP (VBZ makes)
+        (NP (PRP him))
+        (ADVP (RB technically))
+        (NP-TMP
+          (NP (DT the) (NN brother))
+          (PP (IN of)
+            (NP (JJ various) (NNP White) (NNPS Walkers))))))
+    (, ,)
+    (CC and)
+    (S
+      (S
+        (VP (VBG knowing)
+          (NP
+            (NP
+              (NP (NNP Craster) (POS 's))
+              (JJ dirty) (NN history))
+            (SBAR
+              (S
+                (NP (PRP he))
+                (ADVP (RB probably))
+                (VP (VBZ shares)
+                  (NP (NNS bloodlines))
+                  (PP (IN with)
+                    (NP (NNS gods)))))))))
+      (VP (VBP know)
+        (WHNP (WP who))))
+    (. .)))
+
+root(ROOT-0, makes-2)
+nsubj(makes-2, That-1)
+dobj(makes-2, him-3)
+advmod(makes-2, technically-4)
+det(brother-6, the-5)
+nmod:tmod(makes-2, brother-6)
+case(Walkers-10, of-7)
+amod(Walkers-10, various-8)
+compound(Walkers-10, White-9)
+nmod:of(brother-6, Walkers-10)
+punct(makes-2, ,-11)
+cc(makes-2, and-12)
+csubj(know-24, knowing-13)
+nmod:poss(history-17, Craster-14)
+case(Craster-14, 's-15)
+amod(history-17, dirty-16)
+dobj(knowing-13, history-17)
+nsubj(shares-20, he-18)
+advmod(shares-20, probably-19)
+acl:relcl(history-17, shares-20)
+dobj(shares-20, bloodlines-21)
+case(gods-23, with-22)
+nmod:with(shares-20, gods-23)
+conj:and(makes-2, know-24)
+dobj(know-24, who-25)
+punct(makes-2, .-26)
+
 Sentence #6 (45 tokens):
 The user suggests that big Sam's arrival at the Maesters' Citadel will mean that he will discover a prophecy that could make little Sam a prophet for both humans and for the White Walkers, and could help bring peace to all.
-[Text=The CharacterOffsetBegin=456 CharacterOffsetEnd=459 PartOfSpeech=DT]
-[Text=user CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=NN]
-[Text=suggests CharacterOffsetBegin=465 CharacterOffsetEnd=473 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=474 CharacterOffsetEnd=478 PartOfSpeech=IN]
-[Text=big CharacterOffsetBegin=479 CharacterOffsetEnd=482 PartOfSpeech=JJ]
-[Text=Sam CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=486 CharacterOffsetEnd=488 PartOfSpeech=POS]
-[Text=arrival CharacterOffsetBegin=489 CharacterOffsetEnd=496 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=DT]
-[Text=Maesters CharacterOffsetBegin=504 CharacterOffsetEnd=512 PartOfSpeech=NNP]
-[Text=' CharacterOffsetBegin=512 CharacterOffsetEnd=513 PartOfSpeech=POS]
-[Text=Citadel CharacterOffsetBegin=514 CharacterOffsetEnd=521 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=522 CharacterOffsetEnd=526 PartOfSpeech=MD]
-[Text=mean CharacterOffsetBegin=527 CharacterOffsetEnd=531 PartOfSpeech=VB]
-[Text=that CharacterOffsetBegin=532 CharacterOffsetEnd=536 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=537 CharacterOffsetEnd=539 PartOfSpeech=PRP]
-[Text=will CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=MD]
-[Text=discover CharacterOffsetBegin=545 CharacterOffsetEnd=553 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=554 CharacterOffsetEnd=555 PartOfSpeech=DT]
-[Text=prophecy CharacterOffsetBegin=556 CharacterOffsetEnd=564 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=WDT]
-[Text=could CharacterOffsetBegin=570 CharacterOffsetEnd=575 PartOfSpeech=MD]
-[Text=make CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=VB]
-[Text=little CharacterOffsetBegin=581 CharacterOffsetEnd=587 PartOfSpeech=JJ]
-[Text=Sam CharacterOffsetBegin=588 CharacterOffsetEnd=591 PartOfSpeech=NNP]
-[Text=a CharacterOffsetBegin=592 CharacterOffsetEnd=593 PartOfSpeech=DT]
-[Text=prophet CharacterOffsetBegin=594 CharacterOffsetEnd=601 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=IN]
-[Text=both CharacterOffsetBegin=606 CharacterOffsetEnd=610 PartOfSpeech=DT]
-[Text=humans CharacterOffsetBegin=611 CharacterOffsetEnd=617 PartOfSpeech=NNS]
-[Text=and CharacterOffsetBegin=618 CharacterOffsetEnd=621 PartOfSpeech=CC]
-[Text=for CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=626 CharacterOffsetEnd=629 PartOfSpeech=DT]
-[Text=White CharacterOffsetBegin=630 CharacterOffsetEnd=635 PartOfSpeech=NNP]
-[Text=Walkers CharacterOffsetBegin=636 CharacterOffsetEnd=643 PartOfSpeech=NNPS]
-[Text=, CharacterOffsetBegin=643 CharacterOffsetEnd=644 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=CC]
-[Text=could CharacterOffsetBegin=649 CharacterOffsetEnd=654 PartOfSpeech=MD]
-[Text=help CharacterOffsetBegin=655 CharacterOffsetEnd=659 PartOfSpeech=VB]
-[Text=bring CharacterOffsetBegin=660 CharacterOffsetEnd=665 PartOfSpeech=VB]
-[Text=peace CharacterOffsetBegin=666 CharacterOffsetEnd=671 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=672 CharacterOffsetEnd=674 PartOfSpeech=TO]
-[Text=all CharacterOffsetBegin=675 CharacterOffsetEnd=678 PartOfSpeech=DT]
-[Text=. CharacterOffsetBegin=678 CharacterOffsetEnd=679 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=456 CharacterOffsetEnd=459 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=user CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=NN Lemma=user NamedEntityTag=O]
+[Text=suggests CharacterOffsetBegin=465 CharacterOffsetEnd=473 PartOfSpeech=VBZ Lemma=suggest NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=474 CharacterOffsetEnd=478 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=big CharacterOffsetBegin=479 CharacterOffsetEnd=482 PartOfSpeech=JJ Lemma=big NamedEntityTag=O]
+[Text=Sam CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=486 CharacterOffsetEnd=488 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=arrival CharacterOffsetBegin=489 CharacterOffsetEnd=496 PartOfSpeech=NN Lemma=arrival NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=497 CharacterOffsetEnd=499 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Maesters CharacterOffsetBegin=504 CharacterOffsetEnd=512 PartOfSpeech=NNP Lemma=Maesters NamedEntityTag=O]
+[Text=' CharacterOffsetBegin=512 CharacterOffsetEnd=513 PartOfSpeech=POS Lemma=' NamedEntityTag=O]
+[Text=Citadel CharacterOffsetBegin=514 CharacterOffsetEnd=521 PartOfSpeech=NNP Lemma=Citadel NamedEntityTag=ORGANIZATION]
+[Text=will CharacterOffsetBegin=522 CharacterOffsetEnd=526 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=mean CharacterOffsetBegin=527 CharacterOffsetEnd=531 PartOfSpeech=VB Lemma=mean NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=532 CharacterOffsetEnd=536 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=537 CharacterOffsetEnd=539 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=discover CharacterOffsetBegin=545 CharacterOffsetEnd=553 PartOfSpeech=VB Lemma=discover NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=554 CharacterOffsetEnd=555 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=prophecy CharacterOffsetBegin=556 CharacterOffsetEnd=564 PartOfSpeech=NN Lemma=prophecy NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=570 CharacterOffsetEnd=575 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=make CharacterOffsetBegin=576 CharacterOffsetEnd=580 PartOfSpeech=VB Lemma=make NamedEntityTag=O]
+[Text=little CharacterOffsetBegin=581 CharacterOffsetEnd=587 PartOfSpeech=JJ Lemma=little NamedEntityTag=O]
+[Text=Sam CharacterOffsetBegin=588 CharacterOffsetEnd=591 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text=a CharacterOffsetBegin=592 CharacterOffsetEnd=593 PartOfSpeech=DT Lemma=a NamedEntityTag=PERSON]
+[Text=prophet CharacterOffsetBegin=594 CharacterOffsetEnd=601 PartOfSpeech=NN Lemma=prophet NamedEntityTag=PERSON]
+[Text=for CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=both CharacterOffsetBegin=606 CharacterOffsetEnd=610 PartOfSpeech=DT Lemma=both NamedEntityTag=O]
+[Text=humans CharacterOffsetBegin=611 CharacterOffsetEnd=617 PartOfSpeech=NNS Lemma=human NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=618 CharacterOffsetEnd=621 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=626 CharacterOffsetEnd=629 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=White CharacterOffsetBegin=630 CharacterOffsetEnd=635 PartOfSpeech=NNP Lemma=White NamedEntityTag=O]
+[Text=Walkers CharacterOffsetBegin=636 CharacterOffsetEnd=643 PartOfSpeech=NNPS Lemma=Walkers NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=643 CharacterOffsetEnd=644 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=649 CharacterOffsetEnd=654 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=help CharacterOffsetBegin=655 CharacterOffsetEnd=659 PartOfSpeech=VB Lemma=help NamedEntityTag=O]
+[Text=bring CharacterOffsetBegin=660 CharacterOffsetEnd=665 PartOfSpeech=VB Lemma=bring NamedEntityTag=O]
+[Text=peace CharacterOffsetBegin=666 CharacterOffsetEnd=671 PartOfSpeech=NN Lemma=peace NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=672 CharacterOffsetEnd=674 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=675 CharacterOffsetEnd=678 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=678 CharacterOffsetEnd=679 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NN user))
+    (VP
+      (VP (VBZ suggests)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP
+                (NP (JJ big) (NNP Sam) (POS 's))
+                (NN arrival))
+              (PP (IN at)
+                (NP
+                  (NP (DT the) (NNP Maesters) (POS '))
+                  (NNP Citadel))))
+            (VP (MD will)
+              (VP (VB mean)
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP he))
+                    (VP (MD will)
+                      (VP (VB discover)
+                        (NP
+                          (NP (DT a) (NN prophecy))
+                          (SBAR
+                            (WHNP (WDT that))
+                            (S
+                              (VP (MD could)
+                                (VP (VB make)
+                                  (NP (JJ little) (NNP Sam))
+                                  (UCP
+                                    (NP
+                                      (NP (DT a) (NN prophet))
+                                      (PP (IN for)
+                                        (NP (DT both) (NNS humans))))
+                                    (CC and)
+                                    (PP (IN for)
+                                      (NP (DT the) (NNP White) (NNPS Walkers))))))))))))))))))
+      (, ,)
+      (CC and)
+      (VP (MD could)
+        (VP (VB help)
+          (VP (VB bring)
+            (NP (NN peace))
+            (PP (TO to)
+              (NP (DT all)))))))
+    (. .)))
+
+root(ROOT-0, suggests-3)
+det(user-2, The-1)
+nsubj(suggests-3, user-2)
+nsubj(help-40, user-2)
+mark(mean-15, that-4)
+amod(Sam-6, big-5)
+nmod:poss(arrival-8, Sam-6)
+case(Sam-6, 's-7)
+nsubj(mean-15, arrival-8)
+case(Citadel-13, at-9)
+det(Maesters-11, the-10)
+nmod:poss(Citadel-13, Maesters-11)
+case(Maesters-11, '-12)
+nmod:at(arrival-8, Citadel-13)
+aux(mean-15, will-14)
+ccomp(suggests-3, mean-15)
+mark(discover-19, that-16)
+nsubj(discover-19, he-17)
+aux(discover-19, will-18)
+ccomp(mean-15, discover-19)
+det(prophecy-21, a-20)
+dobj(discover-19, prophecy-21)
+nsubj(make-24, prophecy-21)
+ref(prophecy-21, that-22)
+aux(make-24, could-23)
+acl:relcl(prophecy-21, make-24)
+amod(Sam-26, little-25)
+iobj(make-24, Sam-26)
+det(prophet-28, a-27)
+dobj(make-24, prophet-28)
+case(humans-31, for-29)
+det(humans-31, both-30)
+nmod:for(prophet-28, humans-31)
+cc(prophet-28, and-32)
+case(Walkers-36, for-33)
+det(Walkers-36, the-34)
+compound(Walkers-36, White-35)
+dobj(make-24, Walkers-36)
+conj:and(prophet-28, Walkers-36)
+punct(suggests-3, ,-37)
+cc(suggests-3, and-38)
+aux(help-40, could-39)
+conj:and(suggests-3, help-40)
+xcomp(help-40, bring-41)
+dobj(bring-41, peace-42)
+case(all-44, to-43)
+nmod:to(bring-41, all-44)
+punct(suggests-3, .-45)
+
 Sentence #7 (14 tokens):
 Though, that would make a rather dull finale, wouldn't it?
-[Text=Though CharacterOffsetBegin=681 CharacterOffsetEnd=687 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=,]
-[Text=that CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=WDT]
-[Text=would CharacterOffsetBegin=694 CharacterOffsetEnd=699 PartOfSpeech=MD]
-[Text=make CharacterOffsetBegin=700 CharacterOffsetEnd=704 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=705 CharacterOffsetEnd=706 PartOfSpeech=DT]
-[Text=rather CharacterOffsetBegin=707 CharacterOffsetEnd=713 PartOfSpeech=RB]
-[Text=dull CharacterOffsetBegin=714 CharacterOffsetEnd=718 PartOfSpeech=JJ]
-[Text=finale CharacterOffsetBegin=719 CharacterOffsetEnd=725 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=725 CharacterOffsetEnd=726 PartOfSpeech=,]
-[Text=would CharacterOffsetBegin=727 CharacterOffsetEnd=732 PartOfSpeech=MD]
-[Text=n't CharacterOffsetBegin=732 CharacterOffsetEnd=735 PartOfSpeech=RB]
-[Text=it CharacterOffsetBegin=736 CharacterOffsetEnd=738 PartOfSpeech=PRP]
-[Text=? CharacterOffsetBegin=738 CharacterOffsetEnd=739 PartOfSpeech=.]
+[Text=Though CharacterOffsetBegin=681 CharacterOffsetEnd=687 PartOfSpeech=NNP Lemma=Though NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=689 CharacterOffsetEnd=693 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=694 CharacterOffsetEnd=699 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=make CharacterOffsetBegin=700 CharacterOffsetEnd=704 PartOfSpeech=VB Lemma=make NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=705 CharacterOffsetEnd=706 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=rather CharacterOffsetBegin=707 CharacterOffsetEnd=713 PartOfSpeech=RB Lemma=rather NamedEntityTag=O]
+[Text=dull CharacterOffsetBegin=714 CharacterOffsetEnd=718 PartOfSpeech=JJ Lemma=dull NamedEntityTag=O]
+[Text=finale CharacterOffsetBegin=719 CharacterOffsetEnd=725 PartOfSpeech=NN Lemma=finale NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=725 CharacterOffsetEnd=726 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=727 CharacterOffsetEnd=732 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=732 CharacterOffsetEnd=735 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=736 CharacterOffsetEnd=738 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=738 CharacterOffsetEnd=739 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (NNP Though))
+      (, ,)
+      (SBAR
+        (WHNP (WDT that))
+        (S
+          (VP (MD would)
+            (VP (VB make)
+              (NP (DT a)
+                (ADJP (RB rather) (JJ dull))
+                (NN finale))))))
+      (, ,))
+    (VP (MD would)
+      (VP (RB n't)
+        (NP (PRP it))))
+    (. ?)))
+
+root(ROOT-0, it-13)
+nsubj(make-5, Though-1)
+nsubj(it-13, Though-1)
+punct(Though-1, ,-2)
+ref(Though-1, that-3)
+aux(make-5, would-4)
+acl:relcl(Though-1, make-5)
+det(finale-9, a-6)
+advmod(dull-8, rather-7)
+amod(finale-9, dull-8)
+dobj(make-5, finale-9)
+punct(Though-1, ,-10)
+aux(it-13, would-11)
+neg(it-13, n't-12)
+punct(it-13, ?-14)
+
 Sentence #8 (27 tokens):
 More likely that the White Walkers still want the child that was promised to them, and Sam's Valyrian steel sword may come in handy.
-[Text=More CharacterOffsetBegin=740 CharacterOffsetEnd=744 PartOfSpeech=RBR]
-[Text=likely CharacterOffsetBegin=745 CharacterOffsetEnd=751 PartOfSpeech=JJ]
-[Text=that CharacterOffsetBegin=752 CharacterOffsetEnd=756 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=757 CharacterOffsetEnd=760 PartOfSpeech=DT]
-[Text=White CharacterOffsetBegin=761 CharacterOffsetEnd=766 PartOfSpeech=NNP]
-[Text=Walkers CharacterOffsetBegin=767 CharacterOffsetEnd=774 PartOfSpeech=NNPS]
-[Text=still CharacterOffsetBegin=775 CharacterOffsetEnd=780 PartOfSpeech=RB]
-[Text=want CharacterOffsetBegin=781 CharacterOffsetEnd=785 PartOfSpeech=VBP]
-[Text=the CharacterOffsetBegin=786 CharacterOffsetEnd=789 PartOfSpeech=DT]
-[Text=child CharacterOffsetBegin=790 CharacterOffsetEnd=795 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=796 CharacterOffsetEnd=800 PartOfSpeech=WDT]
-[Text=was CharacterOffsetBegin=801 CharacterOffsetEnd=804 PartOfSpeech=VBD]
-[Text=promised CharacterOffsetBegin=805 CharacterOffsetEnd=813 PartOfSpeech=VBN]
-[Text=to CharacterOffsetBegin=814 CharacterOffsetEnd=816 PartOfSpeech=TO]
-[Text=them CharacterOffsetBegin=817 CharacterOffsetEnd=821 PartOfSpeech=PRP]
-[Text=, CharacterOffsetBegin=821 CharacterOffsetEnd=822 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=823 CharacterOffsetEnd=826 PartOfSpeech=CC]
-[Text=Sam CharacterOffsetBegin=827 CharacterOffsetEnd=830 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=830 CharacterOffsetEnd=832 PartOfSpeech=POS]
-[Text=Valyrian CharacterOffsetBegin=833 CharacterOffsetEnd=841 PartOfSpeech=JJ]
-[Text=steel CharacterOffsetBegin=842 CharacterOffsetEnd=847 PartOfSpeech=NN]
-[Text=sword CharacterOffsetBegin=848 CharacterOffsetEnd=853 PartOfSpeech=NN]
-[Text=may CharacterOffsetBegin=854 CharacterOffsetEnd=857 PartOfSpeech=MD]
-[Text=come CharacterOffsetBegin=858 CharacterOffsetEnd=862 PartOfSpeech=VB]
-[Text=in CharacterOffsetBegin=863 CharacterOffsetEnd=865 PartOfSpeech=IN]
-[Text=handy CharacterOffsetBegin=866 CharacterOffsetEnd=871 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=871 CharacterOffsetEnd=872 PartOfSpeech=.]
+[Text=More CharacterOffsetBegin=740 CharacterOffsetEnd=744 PartOfSpeech=RBR Lemma=more NamedEntityTag=O]
+[Text=likely CharacterOffsetBegin=745 CharacterOffsetEnd=751 PartOfSpeech=JJ Lemma=likely NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=752 CharacterOffsetEnd=756 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=757 CharacterOffsetEnd=760 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=White CharacterOffsetBegin=761 CharacterOffsetEnd=766 PartOfSpeech=NNP Lemma=White NamedEntityTag=O]
+[Text=Walkers CharacterOffsetBegin=767 CharacterOffsetEnd=774 PartOfSpeech=NNPS Lemma=Walkers NamedEntityTag=O]
+[Text=still CharacterOffsetBegin=775 CharacterOffsetEnd=780 PartOfSpeech=RB Lemma=still NamedEntityTag=O]
+[Text=want CharacterOffsetBegin=781 CharacterOffsetEnd=785 PartOfSpeech=VBP Lemma=want NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=786 CharacterOffsetEnd=789 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=child CharacterOffsetBegin=790 CharacterOffsetEnd=795 PartOfSpeech=NN Lemma=child NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=796 CharacterOffsetEnd=800 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=801 CharacterOffsetEnd=804 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=promised CharacterOffsetBegin=805 CharacterOffsetEnd=813 PartOfSpeech=VBN Lemma=promise NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=814 CharacterOffsetEnd=816 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=them CharacterOffsetBegin=817 CharacterOffsetEnd=821 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=821 CharacterOffsetEnd=822 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=823 CharacterOffsetEnd=826 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Sam CharacterOffsetBegin=827 CharacterOffsetEnd=830 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=830 CharacterOffsetEnd=832 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Valyrian CharacterOffsetBegin=833 CharacterOffsetEnd=841 PartOfSpeech=JJ Lemma=valyrian NamedEntityTag=O]
+[Text=steel CharacterOffsetBegin=842 CharacterOffsetEnd=847 PartOfSpeech=NN Lemma=steel NamedEntityTag=O]
+[Text=sword CharacterOffsetBegin=848 CharacterOffsetEnd=853 PartOfSpeech=NN Lemma=sword NamedEntityTag=O]
+[Text=may CharacterOffsetBegin=854 CharacterOffsetEnd=857 PartOfSpeech=MD Lemma=may NamedEntityTag=O]
+[Text=come CharacterOffsetBegin=858 CharacterOffsetEnd=862 PartOfSpeech=VB Lemma=come NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=863 CharacterOffsetEnd=865 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=handy CharacterOffsetBegin=866 CharacterOffsetEnd=871 PartOfSpeech=JJ Lemma=handy NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=871 CharacterOffsetEnd=872 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (ADJP (RBR More) (JJ likely)
+        (SBAR (IN that)
+          (S
+            (NP (DT the) (NNP White) (NNPS Walkers))
+            (ADVP (RB still))
+            (VP (VBP want)
+              (NP
+                (NP (DT the) (NN child))
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (VBD was)
+                      (VP (VBN promised)
+                        (PP (TO to)
+                          (NP (PRP them)))))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP (NNP Sam) (POS 's))
+        (JJ Valyrian) (NN steel) (NN sword))
+      (VP (MD may)
+        (VP (VB come)
+          (PP (IN in)
+            (ADJP (JJ handy))))))
+    (. .)))
+
+root(ROOT-0, likely-2)
+advmod(likely-2, More-1)
+mark(want-8, that-3)
+det(Walkers-6, the-4)
+compound(Walkers-6, White-5)
+nsubj(want-8, Walkers-6)
+advmod(want-8, still-7)
+ccomp(likely-2, want-8)
+det(child-10, the-9)
+dobj(want-8, child-10)
+nsubjpass(promised-13, child-10)
+ref(child-10, that-11)
+auxpass(promised-13, was-12)
+acl:relcl(child-10, promised-13)
+case(them-15, to-14)
+nmod:to(promised-13, them-15)
+punct(likely-2, ,-16)
+cc(likely-2, and-17)
+nmod:poss(sword-22, Sam-18)
+case(Sam-18, 's-19)
+amod(sword-22, Valyrian-20)
+compound(sword-22, steel-21)
+nsubj(come-24, sword-22)
+aux(come-24, may-23)
+conj:and(likely-2, come-24)
+case(handy-26, in-25)
+advcl:in(come-24, handy-26)
+punct(likely-2, .-27)
+
+Coreference set:
+	(4,1,[1,3]) -> (1,1,[1,3]), that is: "Gilly 's" -> "Gilly 's"
+Coreference set:
+	(4,3,[1,4]) -> (1,3,[1,4]), that is: "Gilly 's son" -> "Gilly 's son"
+	(5,3,[3,4]) -> (1,3,[1,4]), that is: "him" -> "Gilly 's son"
+	(5,18,[18,19]) -> (1,3,[1,4]), that is: "he" -> "Gilly 's son"
+Coreference set:
+	(4,24,[22,25]) -> (1,9,[7,10]), that is: "the White Walkers" -> "the White Walkers"
+	(5,10,[8,11]) -> (1,9,[7,10]), that is: "various White Walkers" -> "the White Walkers"
+	(6,36,[34,37]) -> (1,9,[7,10]), that is: "the White Walkers" -> "the White Walkers"
+	(8,6,[4,7]) -> (1,9,[7,10]), that is: "the White Walkers" -> "the White Walkers"
+	(8,15,[15,16]) -> (1,9,[7,10]), that is: "them" -> "the White Walkers"
+Coreference set:
+	(4,15,[13,25]) -> (5,14,[14,16]), that is: "the evil Craster who was n't turned over to the White Walkers" -> "Craster 's"
+	(5,1,[1,2]) -> (5,14,[14,16]), that is: "That" -> "Craster 's"
+Coreference set:
+	(6,17,[17,18]) -> (6,6,[5,8]), that is: "he" -> "big Sam 's"
+	(8,18,[18,20]) -> (6,6,[5,8]), that is: "Sam 's" -> "big Sam 's"
+Coreference set:
+	(7,13,[13,14]) -> (7,1,[1,2]), that is: "it" -> "Though"

@@ -1,93 +1,313 @@
-Sentence #1 (31 tokens):
-Euron greyjoy
+Sentence #1 (3 tokens):
+Euron greyjoy.
+[Text=Euron CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NN Lemma=euron NamedEntityTag=MISC]
+[Text=greyjoy CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=NN Lemma=greyjoy NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP
+    (NP (NN Euron))
+    (NP (NN greyjoy))
+    (. .)))
+
+root(ROOT-0, Euron-1)
+dep(Euron-1, greyjoy-2)
+punct(Euron-1, .-3)
+
+Sentence #2 (29 tokens):
 Outside of his own claim to his niece and nephew about giving the Mother of Dragons his one eyed snake, Euron has no chance of this happening.
-[Text=Euron CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NN]
-[Text=greyjoy CharacterOffsetBegin=6 CharacterOffsetEnd=13 PartOfSpeech=NN]
-[Text=Outside CharacterOffsetBegin=14 CharacterOffsetEnd=21 PartOfSpeech=IN]
-[Text=of CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=PRP$]
-[Text=own CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=JJ]
-[Text=claim CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=39 CharacterOffsetEnd=41 PartOfSpeech=TO]
-[Text=his CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=PRP$]
-[Text=niece CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=CC]
-[Text=nephew CharacterOffsetBegin=56 CharacterOffsetEnd=62 PartOfSpeech=NN]
-[Text=about CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=IN]
-[Text=giving CharacterOffsetBegin=69 CharacterOffsetEnd=75 PartOfSpeech=VBG]
-[Text=the CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=DT]
-[Text=Mother CharacterOffsetBegin=80 CharacterOffsetEnd=86 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=IN]
-[Text=Dragons CharacterOffsetBegin=90 CharacterOffsetEnd=97 PartOfSpeech=NNPS]
-[Text=his CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=PRP$]
-[Text=one CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=CD]
-[Text=eyed CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=JJ]
-[Text=snake CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=116 CharacterOffsetEnd=117 PartOfSpeech=,]
-[Text=Euron CharacterOffsetBegin=118 CharacterOffsetEnd=123 PartOfSpeech=NNP]
-[Text=has CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=VBZ]
-[Text=no CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=DT]
-[Text=chance CharacterOffsetBegin=131 CharacterOffsetEnd=137 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=DT]
-[Text=happening CharacterOffsetBegin=146 CharacterOffsetEnd=155 PartOfSpeech=VBG]
-[Text=. CharacterOffsetBegin=155 CharacterOffsetEnd=156 PartOfSpeech=.]
-Sentence #2 (33 tokens):
+[Text=Outside CharacterOffsetBegin=15 CharacterOffsetEnd=22 PartOfSpeech=IN Lemma=outside NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=own CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=JJ Lemma=own NamedEntityTag=O]
+[Text=claim CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=NN Lemma=claim NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=40 CharacterOffsetEnd=42 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=niece CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=NN Lemma=niece NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=nephew CharacterOffsetBegin=57 CharacterOffsetEnd=63 PartOfSpeech=NN Lemma=nephew NamedEntityTag=O]
+[Text=about CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=IN Lemma=about NamedEntityTag=O]
+[Text=giving CharacterOffsetBegin=70 CharacterOffsetEnd=76 PartOfSpeech=VBG Lemma=give NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mother CharacterOffsetBegin=81 CharacterOffsetEnd=87 PartOfSpeech=NN Lemma=mother NamedEntityTag=MISC]
+[Text=of CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=IN Lemma=of NamedEntityTag=MISC]
+[Text=Dragons CharacterOffsetBegin=91 CharacterOffsetEnd=98 PartOfSpeech=NNPS Lemma=Dragons NamedEntityTag=MISC]
+[Text=his CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=eyed CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=JJ Lemma=eyed NamedEntityTag=O]
+[Text=snake CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=NN Lemma=snake NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Euron CharacterOffsetBegin=119 CharacterOffsetEnd=124 PartOfSpeech=NNP Lemma=Euron NamedEntityTag=PERSON]
+[Text=has CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=129 CharacterOffsetEnd=131 PartOfSpeech=DT Lemma=no NamedEntityTag=O]
+[Text=chance CharacterOffsetBegin=132 CharacterOffsetEnd=138 PartOfSpeech=NN Lemma=chance NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=happening CharacterOffsetBegin=147 CharacterOffsetEnd=156 PartOfSpeech=VBG Lemma=happen NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN Outside) (IN of)
+      (NP
+        (NP (PRP$ his) (JJ own) (NN claim))
+        (PP (TO to)
+          (NP
+            (NP (PRP$ his) (NN niece)
+              (CC and)
+              (NN nephew))
+            (PP (IN about)
+              (S
+                (VP (VBG giving)
+                  (NP
+                    (NP (DT the) (NN Mother))
+                    (PP (IN of)
+                      (NP (NNPS Dragons))))
+                  (NP (PRP$ his) (CD one) (JJ eyed) (NN snake)))))))))
+    (, ,)
+    (NP (NNP Euron))
+    (VP (VBZ has)
+      (NP
+        (NP (DT no) (NN chance))
+        (PP (IN of)
+          (NP (DT this) (VBG happening)))))
+    (. .)))
+
+root(ROOT-0, has-23)
+case(claim-5, Outside-1)
+mwe(Outside-1, of-2)
+nmod:poss(claim-5, his-3)
+amod(claim-5, own-4)
+nmod:outside_of(has-23, claim-5)
+case(niece-8, to-6)
+nmod:poss(niece-8, his-7)
+nmod:to(claim-5, niece-8)
+cc(niece-8, and-9)
+nmod:to(claim-5, nephew-10)
+conj:and(niece-8, nephew-10)
+mark(giving-12, about-11)
+acl:about(niece-8, giving-12)
+det(Mother-14, the-13)
+iobj(giving-12, Mother-14)
+case(Dragons-16, of-15)
+nmod:of(Mother-14, Dragons-16)
+nmod:poss(snake-20, his-17)
+nummod(snake-20, one-18)
+amod(snake-20, eyed-19)
+dobj(giving-12, snake-20)
+punct(has-23, ,-21)
+nsubj(has-23, Euron-22)
+neg(chance-25, no-24)
+dobj(has-23, chance-25)
+case(this-27, of-26)
+nmod:of(chance-25, this-27)
+amod(this-27, happening-28)
+punct(has-23, .-29)
+
+Sentence #3 (33 tokens):
 This is probably the least likely match I could see happening on this list for the simple reason that Theon and his sister have already met Dany and turned her against Euron.
-[Text=This CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=DT]
-[Text=is CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=VBZ]
-[Text=probably CharacterOffsetBegin=165 CharacterOffsetEnd=173 PartOfSpeech=RB]
-[Text=the CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=DT]
-[Text=least CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=RBS]
-[Text=likely CharacterOffsetBegin=184 CharacterOffsetEnd=190 PartOfSpeech=JJ]
-[Text=match CharacterOffsetBegin=191 CharacterOffsetEnd=196 PartOfSpeech=NN]
-[Text=I CharacterOffsetBegin=197 CharacterOffsetEnd=198 PartOfSpeech=PRP]
-[Text=could CharacterOffsetBegin=199 CharacterOffsetEnd=204 PartOfSpeech=MD]
-[Text=see CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=VB]
-[Text=happening CharacterOffsetBegin=209 CharacterOffsetEnd=218 PartOfSpeech=VBG]
-[Text=on CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=DT]
-[Text=list CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=232 CharacterOffsetEnd=235 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=DT]
-[Text=simple CharacterOffsetBegin=240 CharacterOffsetEnd=246 PartOfSpeech=JJ]
-[Text=reason CharacterOffsetBegin=247 CharacterOffsetEnd=253 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=WDT]
-[Text=Theon CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=CC]
-[Text=his CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=PRP$]
-[Text=sister CharacterOffsetBegin=273 CharacterOffsetEnd=279 PartOfSpeech=NN]
-[Text=have CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=VBP]
-[Text=already CharacterOffsetBegin=285 CharacterOffsetEnd=292 PartOfSpeech=RB]
-[Text=met CharacterOffsetBegin=293 CharacterOffsetEnd=296 PartOfSpeech=VBN]
-[Text=Dany CharacterOffsetBegin=297 CharacterOffsetEnd=301 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=CC]
-[Text=turned CharacterOffsetBegin=306 CharacterOffsetEnd=312 PartOfSpeech=VBD]
-[Text=her CharacterOffsetBegin=313 CharacterOffsetEnd=316 PartOfSpeech=PRP$]
-[Text=against CharacterOffsetBegin=317 CharacterOffsetEnd=324 PartOfSpeech=IN]
-[Text=Euron CharacterOffsetBegin=325 CharacterOffsetEnd=330 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=.]
-Sentence #3 (22 tokens):
+[Text=This CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=probably CharacterOffsetBegin=166 CharacterOffsetEnd=174 PartOfSpeech=RB Lemma=probably NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=least CharacterOffsetBegin=179 CharacterOffsetEnd=184 PartOfSpeech=RBS Lemma=least NamedEntityTag=O]
+[Text=likely CharacterOffsetBegin=185 CharacterOffsetEnd=191 PartOfSpeech=JJ Lemma=likely NamedEntityTag=O]
+[Text=match CharacterOffsetBegin=192 CharacterOffsetEnd=197 PartOfSpeech=NN Lemma=match NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=happening CharacterOffsetBegin=210 CharacterOffsetEnd=219 PartOfSpeech=VBG Lemma=happen NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=list CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=NN Lemma=list NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=simple CharacterOffsetBegin=241 CharacterOffsetEnd=247 PartOfSpeech=JJ Lemma=simple NamedEntityTag=O]
+[Text=reason CharacterOffsetBegin=248 CharacterOffsetEnd=254 PartOfSpeech=NN Lemma=reason NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=255 CharacterOffsetEnd=259 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=Theon CharacterOffsetBegin=260 CharacterOffsetEnd=265 PartOfSpeech=NNP Lemma=Theon NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=270 CharacterOffsetEnd=273 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=sister CharacterOffsetBegin=274 CharacterOffsetEnd=280 PartOfSpeech=NN Lemma=sister NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=already CharacterOffsetBegin=286 CharacterOffsetEnd=293 PartOfSpeech=RB Lemma=already NamedEntityTag=O]
+[Text=met CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=VBN Lemma=meet NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=turned CharacterOffsetBegin=307 CharacterOffsetEnd=313 PartOfSpeech=VBD Lemma=turn NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=against CharacterOffsetBegin=318 CharacterOffsetEnd=325 PartOfSpeech=IN Lemma=against NamedEntityTag=O]
+[Text=Euron CharacterOffsetBegin=326 CharacterOffsetEnd=331 PartOfSpeech=NNP Lemma=Euron NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (ADVP (RB probably))
+      (NP
+        (NP (DT the)
+          (ADJP (RBS least) (JJ likely))
+          (NN match))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP
+              (VP (MD could)
+                (VP (VB see)
+                  (S
+                    (VP (VBG happening)
+                      (PP (IN on)
+                        (NP
+                          (NP (DT this) (NN list))
+                          (PP (IN for)
+                            (NP
+                              (NP (DT the) (JJ simple) (NN reason))
+                              (SBAR
+                                (WHNP (WDT that))
+                                (S
+                                  (NP
+                                    (NP (NNP Theon))
+                                    (CC and)
+                                    (NP (PRP$ his) (NN sister)))
+                                  (VP (VBP have)
+                                    (ADVP (RB already))
+                                    (VP (VBN met)
+                                      (NP (NNP Dany))))))))))))))
+              (CC and)
+              (VP (VBD turned)
+                (NP (PRP$ her))
+                (PP (IN against)
+                  (NP (NNP Euron)))))))))
+    (. .)))
+
+root(ROOT-0, match-7)
+nsubj(match-7, This-1)
+cop(match-7, is-2)
+advmod(match-7, probably-3)
+det(match-7, the-4)
+advmod(likely-6, least-5)
+amod(match-7, likely-6)
+nsubj(see-10, I-8)
+nsubj(turned-29, I-8)
+aux(see-10, could-9)
+acl:relcl(match-7, see-10)
+xcomp(see-10, happening-11)
+case(list-14, on-12)
+det(list-14, this-13)
+nmod:on(happening-11, list-14)
+case(reason-18, for-15)
+det(reason-18, the-16)
+amod(reason-18, simple-17)
+nmod:for(list-14, reason-18)
+dobj(met-26, reason-18)
+ref(reason-18, that-19)
+nsubj(met-26, Theon-20)
+cc(Theon-20, and-21)
+nmod:poss(sister-23, his-22)
+conj:and(Theon-20, sister-23)
+nsubj(met-26, sister-23)
+aux(met-26, have-24)
+advmod(met-26, already-25)
+acl:relcl(reason-18, met-26)
+dobj(met-26, Dany-27)
+cc(see-10, and-28)
+acl:relcl(match-7, turned-29)
+conj:and(see-10, turned-29)
+dobj(turned-29, her-30)
+case(Euron-32, against-31)
+nmod:against(turned-29, Euron-32)
+punct(match-7, .-33)
+
+Sentence #4 (22 tokens):
 I could see him offering Cersei his allegiance for marriage but, aside from that this is pretty open and closed.
-[Text=I CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=PRP]
-[Text=could CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=MD]
-[Text=see CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=VB]
-[Text=him CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=PRP]
-[Text=offering CharacterOffsetBegin=348 CharacterOffsetEnd=356 PartOfSpeech=VBG]
-[Text=Cersei CharacterOffsetBegin=357 CharacterOffsetEnd=363 PartOfSpeech=NNP]
-[Text=his CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=PRP$]
-[Text=allegiance CharacterOffsetBegin=368 CharacterOffsetEnd=378 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=IN]
-[Text=marriage CharacterOffsetBegin=383 CharacterOffsetEnd=391 PartOfSpeech=NN]
-[Text=but CharacterOffsetBegin=392 CharacterOffsetEnd=395 PartOfSpeech=CC]
-[Text=, CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=,]
-[Text=aside CharacterOffsetBegin=397 CharacterOffsetEnd=402 PartOfSpeech=RB]
-[Text=from CharacterOffsetBegin=403 CharacterOffsetEnd=407 PartOfSpeech=IN]
-[Text=that CharacterOffsetBegin=408 CharacterOffsetEnd=412 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=413 CharacterOffsetEnd=417 PartOfSpeech=DT]
-[Text=is CharacterOffsetBegin=418 CharacterOffsetEnd=420 PartOfSpeech=VBZ]
-[Text=pretty CharacterOffsetBegin=421 CharacterOffsetEnd=427 PartOfSpeech=RB]
-[Text=open CharacterOffsetBegin=428 CharacterOffsetEnd=432 PartOfSpeech=JJ]
-[Text=and CharacterOffsetBegin=433 CharacterOffsetEnd=436 PartOfSpeech=CC]
-[Text=closed CharacterOffsetBegin=437 CharacterOffsetEnd=443 PartOfSpeech=VBD]
-[Text=. CharacterOffsetBegin=443 CharacterOffsetEnd=444 PartOfSpeech=.]
+[Text=I CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=335 CharacterOffsetEnd=340 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=341 CharacterOffsetEnd=344 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=offering CharacterOffsetBegin=349 CharacterOffsetEnd=357 PartOfSpeech=VBG Lemma=offer NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=358 CharacterOffsetEnd=364 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=his CharacterOffsetBegin=365 CharacterOffsetEnd=368 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=allegiance CharacterOffsetBegin=369 CharacterOffsetEnd=379 PartOfSpeech=NN Lemma=allegiance NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=marriage CharacterOffsetBegin=384 CharacterOffsetEnd=392 PartOfSpeech=NN Lemma=marriage NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=393 CharacterOffsetEnd=396 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=aside CharacterOffsetBegin=398 CharacterOffsetEnd=403 PartOfSpeech=RB Lemma=aside NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=404 CharacterOffsetEnd=408 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=409 CharacterOffsetEnd=413 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=414 CharacterOffsetEnd=418 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=419 CharacterOffsetEnd=421 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=pretty CharacterOffsetBegin=422 CharacterOffsetEnd=428 PartOfSpeech=RB Lemma=pretty NamedEntityTag=O]
+[Text=open CharacterOffsetBegin=429 CharacterOffsetEnd=433 PartOfSpeech=JJ Lemma=open NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=434 CharacterOffsetEnd=437 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=closed CharacterOffsetBegin=438 CharacterOffsetEnd=444 PartOfSpeech=VBD Lemma=close NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=444 CharacterOffsetEnd=445 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (MD could)
+      (VP (VB see)
+        (NP (PRP him))
+        (S
+          (VP (VBG offering)
+            (NP (NNP Cersei))
+            (NP
+              (NP (PRP$ his) (NN allegiance))
+              (PP (IN for)
+                (NP
+                  (NP (NN marriage))
+                  (ADVP (CC but)))))))
+        (, ,)
+        (ADVP (RB aside)
+          (PP (IN from)
+            (SBAR (IN that)
+              (S
+                (NP (DT this))
+                (VP
+                  (VP (VBZ is)
+                    (ADJP (RB pretty) (JJ open)))
+                  (CC and)
+                  (VP (VBD closed)))))))))
+    (. .)))
+
+root(ROOT-0, see-3)
+nsubj(see-3, I-1)
+aux(see-3, could-2)
+dobj(see-3, him-4)
+xcomp(see-3, offering-5)
+iobj(offering-5, Cersei-6)
+nmod:poss(allegiance-8, his-7)
+dobj(offering-5, allegiance-8)
+case(marriage-10, for-9)
+nmod:for(allegiance-8, marriage-10)
+advmod(marriage-10, but-11)
+punct(see-3, ,-12)
+advmod(see-3, aside-13)
+mark(open-19, from-14)
+mark(open-19, that-15)
+nsubj(open-19, this-16)
+nsubj(closed-21, this-16)
+cop(open-19, is-17)
+advmod(open-19, pretty-18)
+advcl:that(aside-13, open-19)
+cc(open-19, and-20)
+advcl:that(aside-13, closed-21)
+conj:and(open-19, closed-21)
+punct(see-3, .-22)
+
+Coreference set:
+	(1,1,[1,4]) -> (2,22,[22,23]), that is: "Euron greyjoy ." -> "Euron"
+	(2,3,[3,4]) -> (2,22,[22,23]), that is: "his" -> "Euron"
+	(2,7,[7,8]) -> (2,22,[22,23]), that is: "his" -> "Euron"
+	(2,17,[17,18]) -> (2,22,[22,23]), that is: "his" -> "Euron"
+	(3,32,[32,33]) -> (2,22,[22,23]), that is: "Euron" -> "Euron"
+Coreference set:
+	(3,22,[22,23]) -> (3,20,[20,21]), that is: "his" -> "Theon"
+	(4,4,[4,5]) -> (3,20,[20,21]), that is: "him" -> "Theon"
+Coreference set:
+	(3,1,[1,2]) -> (3,7,[4,33]), that is: "This" -> "the least likely match I could see happening on this list for the simple reason that Theon and his sister have already met Dany and turned her against Euron"
+	(4,16,[16,17]) -> (3,7,[4,33]), that is: "this" -> "the least likely match I could see happening on this list for the simple reason that Theon and his sister have already met Dany and turned her against Euron"
+Coreference set:
+	(4,1,[1,2]) -> (3,8,[8,9]), that is: "I" -> "I"
+Coreference set:
+	(3,30,[30,31]) -> (3,23,[22,24]), that is: "her" -> "his sister"
+Coreference set:
+	(4,7,[7,8]) -> (4,6,[6,7]), that is: "his" -> "Cersei"

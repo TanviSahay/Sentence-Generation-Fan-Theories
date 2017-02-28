@@ -1,76 +1,238 @@
 Sentence #1 (6 tokens):
 Melisandre Is Maggy The Frog.
-[Text=Melisandre CharacterOffsetBegin=0 CharacterOffsetEnd=10 PartOfSpeech=NNP]
-[Text=Is CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VBZ]
-[Text=Maggy CharacterOffsetBegin=14 CharacterOffsetEnd=19 PartOfSpeech=NNP]
-[Text=The CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=DT]
-[Text=Frog CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=.]
+[Text=Melisandre CharacterOffsetBegin=0 CharacterOffsetEnd=10 PartOfSpeech=NNP Lemma=Melisandre NamedEntityTag=O]
+[Text=Is CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=Maggy CharacterOffsetBegin=14 CharacterOffsetEnd=19 PartOfSpeech=NNP Lemma=Maggy NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Frog CharacterOffsetBegin=24 CharacterOffsetEnd=28 PartOfSpeech=NN Lemma=frog NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Melisandre))
+    (VP (VBZ Is)
+      (NP (NNP Maggy) (DT The) (NN Frog)))
+    (. .)))
+
+root(ROOT-0, Frog-5)
+nsubj(Frog-5, Melisandre-1)
+cop(Frog-5, Is-2)
+compound(Frog-5, Maggy-3)
+det(Frog-5, The-4)
+punct(Frog-5, .-6)
+
 Sentence #2 (27 tokens):
 This one gained a lot of steam last season when we saw Melisandre remove her necklace to reveal that she is actually a very old woman.
-[Text=This CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=DT]
-[Text=one CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=CD]
-[Text=gained CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=VBD]
-[Text=a CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=DT]
-[Text=lot CharacterOffsetBegin=48 CharacterOffsetEnd=51 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=IN]
-[Text=steam CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=NN]
-[Text=last CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=JJ]
-[Text=season CharacterOffsetBegin=66 CharacterOffsetEnd=72 PartOfSpeech=NN]
-[Text=when CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=WRB]
-[Text=we CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=PRP]
-[Text=saw CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=VBD]
-[Text=Melisandre CharacterOffsetBegin=85 CharacterOffsetEnd=95 PartOfSpeech=NNP]
-[Text=remove CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=VB]
-[Text=her CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=PRP$]
-[Text=necklace CharacterOffsetBegin=107 CharacterOffsetEnd=115 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=TO]
-[Text=reveal CharacterOffsetBegin=119 CharacterOffsetEnd=125 PartOfSpeech=VB]
-[Text=that CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=IN]
-[Text=she CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=PRP]
-[Text=is CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=VBZ]
-[Text=actually CharacterOffsetBegin=138 CharacterOffsetEnd=146 PartOfSpeech=RB]
-[Text=a CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=DT]
-[Text=very CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=RB]
-[Text=old CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=JJ]
-[Text=woman CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=.]
+[Text=This CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=gained CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=VBD Lemma=gain NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=lot CharacterOffsetBegin=48 CharacterOffsetEnd=51 PartOfSpeech=NN Lemma=lot NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=steam CharacterOffsetBegin=55 CharacterOffsetEnd=60 PartOfSpeech=NN Lemma=steam NamedEntityTag=O]
+[Text=last CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=JJ Lemma=last NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=66 CharacterOffsetEnd=72 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=saw CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=VBD Lemma=see NamedEntityTag=O]
+[Text=Melisandre CharacterOffsetBegin=85 CharacterOffsetEnd=95 PartOfSpeech=NNP Lemma=Melisandre NamedEntityTag=PERSON]
+[Text=remove CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=VB Lemma=remove NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=necklace CharacterOffsetBegin=107 CharacterOffsetEnd=115 PartOfSpeech=NN Lemma=necklace NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=116 CharacterOffsetEnd=118 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=reveal CharacterOffsetBegin=119 CharacterOffsetEnd=125 PartOfSpeech=VB Lemma=reveal NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=actually CharacterOffsetBegin=138 CharacterOffsetEnd=146 PartOfSpeech=RB Lemma=actually NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=very CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=RB Lemma=very NamedEntityTag=O]
+[Text=old CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=JJ Lemma=old NamedEntityTag=O]
+[Text=woman CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=NN Lemma=woman NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This) (CD one))
+    (VP (VBD gained)
+      (NP
+        (NP (DT a) (NN lot))
+        (PP (IN of)
+          (NP (NN steam))))
+      (NP-TMP (JJ last) (NN season))
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (PRP we))
+          (VP (VBD saw)
+            (S
+              (NP (NNP Melisandre))
+              (VP (VB remove)
+                (NP (PRP$ her) (NN necklace)
+                  (S
+                    (VP (TO to)
+                      (VP (VB reveal)
+                        (SBAR (IN that)
+                          (S
+                            (NP (PRP she))
+                            (VP (VBZ is)
+                              (ADVP (RB actually))
+                              (NP (DT a)
+                                (ADJP (RB very) (JJ old))
+                                (NN woman)))))))))))))))
+    (. .)))
+
+root(ROOT-0, gained-3)
+det(one-2, This-1)
+nsubj(gained-3, one-2)
+det:qmod(steam-7, a-4)
+mwe(a-4, lot-5)
+mwe(a-4, of-6)
+dobj(gained-3, steam-7)
+amod(season-9, last-8)
+nmod:tmod(gained-3, season-9)
+advmod(saw-12, when-10)
+nsubj(saw-12, we-11)
+advcl(gained-3, saw-12)
+nsubj(remove-14, Melisandre-13)
+ccomp(saw-12, remove-14)
+nmod:poss(necklace-16, her-15)
+dobj(remove-14, necklace-16)
+mark(reveal-18, to-17)
+acl:to(necklace-16, reveal-18)
+mark(woman-26, that-19)
+nsubj(woman-26, she-20)
+cop(woman-26, is-21)
+advmod(woman-26, actually-22)
+det(woman-26, a-23)
+advmod(old-25, very-24)
+amod(woman-26, old-25)
+ccomp(reveal-18, woman-26)
+punct(gained-3, .-27)
+
 Sentence #3 (31 tokens):
 Basically the evidence that is usually brought for us has to do with the fact that they are both from Essos and have the same first letter in their name.
-[Text=Basically CharacterOffsetBegin=165 CharacterOffsetEnd=174 PartOfSpeech=RB]
-[Text=the CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=DT]
-[Text=evidence CharacterOffsetBegin=179 CharacterOffsetEnd=187 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=IN]
-[Text=is CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=VBZ]
-[Text=usually CharacterOffsetBegin=196 CharacterOffsetEnd=203 PartOfSpeech=RB]
-[Text=brought CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=VBN]
-[Text=for CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=IN]
-[Text=us CharacterOffsetBegin=216 CharacterOffsetEnd=218 PartOfSpeech=PRP]
-[Text=has CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=TO]
-[Text=do CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=VB]
-[Text=with CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=DT]
-[Text=fact CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=IN]
-[Text=they CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=PRP]
-[Text=are CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=VBP]
-[Text=both CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=DT]
-[Text=from CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=IN]
-[Text=Essos CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=NNS]
-[Text=and CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=CC]
-[Text=have CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=VBP]
-[Text=the CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=DT]
-[Text=same CharacterOffsetBegin=286 CharacterOffsetEnd=290 PartOfSpeech=JJ]
-[Text=first CharacterOffsetBegin=291 CharacterOffsetEnd=296 PartOfSpeech=JJ]
-[Text=letter CharacterOffsetBegin=297 CharacterOffsetEnd=303 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=IN]
-[Text=their CharacterOffsetBegin=307 CharacterOffsetEnd=312 PartOfSpeech=PRP$]
-[Text=name CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=317 CharacterOffsetEnd=318 PartOfSpeech=.]
+[Text=Basically CharacterOffsetBegin=165 CharacterOffsetEnd=174 PartOfSpeech=RB Lemma=basically NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=evidence CharacterOffsetBegin=179 CharacterOffsetEnd=187 PartOfSpeech=NN Lemma=evidence NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=usually CharacterOffsetBegin=196 CharacterOffsetEnd=203 PartOfSpeech=RB Lemma=usually NamedEntityTag=O]
+[Text=brought CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=VBN Lemma=bring NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=us CharacterOffsetBegin=216 CharacterOffsetEnd=218 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=VB Lemma=do NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=234 CharacterOffsetEnd=237 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=fact CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=NN Lemma=fact NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=both CharacterOffsetBegin=257 CharacterOffsetEnd=261 PartOfSpeech=DT Lemma=both NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=Essos CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=NNS Lemma=esso NamedEntityTag=ORGANIZATION]
+[Text=and CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=same CharacterOffsetBegin=286 CharacterOffsetEnd=290 PartOfSpeech=JJ Lemma=same NamedEntityTag=O]
+[Text=first CharacterOffsetBegin=291 CharacterOffsetEnd=296 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0]
+[Text=letter CharacterOffsetBegin=297 CharacterOffsetEnd=303 PartOfSpeech=NN Lemma=letter NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=307 CharacterOffsetEnd=312 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=name CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=NN Lemma=name NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=317 CharacterOffsetEnd=318 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Basically))
+    (NP
+      (NP (DT the) (NN evidence))
+      (SBAR
+        (WHNP (IN that))
+        (S
+          (VP (VBZ is)
+            (ADVP (RB usually))
+            (VP (VBN brought)
+              (PP (IN for)
+                (NP (PRP us))))))))
+    (VP
+      (VP (VBZ has)
+        (S
+          (VP (TO to)
+            (VP (VB do)
+              (PP (IN with)
+                (NP (DT the) (NN fact)))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP they))
+                  (VP (VBP are) (DT both)
+                    (PP (IN from)
+                      (NP (NNS Essos))))))))))
+      (CC and)
+      (VP (VBP have)
+        (NP
+          (NP (DT the) (JJ same) (JJ first) (NN letter))
+          (PP (IN in)
+            (NP (PRP$ their) (NN name))))))
+    (. .)))
+
+root(ROOT-0, has-10)
+advmod(has-10, Basically-1)
+det(evidence-3, the-2)
+nsubjpass(brought-7, evidence-3)
+nsubj(has-10, evidence-3)
+nsubj:xsubj(do-12, evidence-3)
+nsubj(have-23, evidence-3)
+ref(evidence-3, that-4)
+auxpass(brought-7, is-5)
+advmod(brought-7, usually-6)
+acl:relcl(evidence-3, brought-7)
+case(us-9, for-8)
+nmod:for(brought-7, us-9)
+mark(do-12, to-11)
+xcomp(has-10, do-12)
+case(fact-15, with-13)
+det(fact-15, the-14)
+nmod:with(do-12, fact-15)
+mark(Essos-21, that-16)
+nsubj(Essos-21, they-17)
+cop(Essos-21, are-18)
+dep(Essos-21, both-19)
+case(Essos-21, from-20)
+ccomp(do-12, Essos-21)
+cc(has-10, and-22)
+conj:and(has-10, have-23)
+det(letter-27, the-24)
+amod(letter-27, same-25)
+amod(letter-27, first-26)
+dobj(have-23, letter-27)
+case(name-30, in-28)
+nmod:poss(name-30, their-29)
+nmod:in(letter-27, name-30)
+punct(has-10, .-31)
+
 Sentence #4 (4 tokens):
 Flimsy at best.
-[Text=Flimsy CharacterOffsetBegin=319 CharacterOffsetEnd=325 PartOfSpeech=NNP]
-[Text=at CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=IN]
-[Text=best CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=JJS]
-[Text=. CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=.]
+[Text=Flimsy CharacterOffsetBegin=319 CharacterOffsetEnd=325 PartOfSpeech=NNP Lemma=Flimsy NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=best CharacterOffsetBegin=329 CharacterOffsetEnd=333 PartOfSpeech=JJS Lemma=best NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=333 CharacterOffsetEnd=334 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (NP (NNP Flimsy))
+    (ADVP (IN at) (JJS best))
+    (. .)))
+
+root(ROOT-0, Flimsy-1)
+case(best-3, at-2)
+dep(Flimsy-1, best-3)
+punct(Flimsy-1, .-4)
+
+Coreference set:
+	(1,1,[1,2]) -> (2,13,[13,14]), that is: "Melisandre" -> "Melisandre"
+	(2,15,[15,16]) -> (2,13,[13,14]), that is: "her" -> "Melisandre"
+	(2,20,[20,21]) -> (2,13,[13,14]), that is: "she" -> "Melisandre"
+	(2,26,[23,27]) -> (2,13,[13,14]), that is: "a very old woman" -> "Melisandre"
+Coreference set:
+	(3,9,[9,10]) -> (2,11,[11,12]), that is: "us" -> "we"
+Coreference set:
+	(3,29,[29,30]) -> (3,17,[17,18]), that is: "their" -> "they"

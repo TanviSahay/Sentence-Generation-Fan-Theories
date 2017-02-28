@@ -1,68 +1,212 @@
 Sentence #1 (11 tokens):
 Jon Snow and Daenerys Targaryen are going to get married.
-[Text=Jon CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=CC]
-[Text=Daenerys CharacterOffsetBegin=13 CharacterOffsetEnd=21 PartOfSpeech=NNP]
-[Text=Targaryen CharacterOffsetBegin=22 CharacterOffsetEnd=31 PartOfSpeech=NNP]
-[Text=are CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=VBP]
-[Text=going CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=TO]
-[Text=get CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=VB]
-[Text=married CharacterOffsetBegin=49 CharacterOffsetEnd=56 PartOfSpeech=VBN]
-[Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=.]
+[Text=Jon CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=9 CharacterOffsetEnd=12 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Daenerys CharacterOffsetBegin=13 CharacterOffsetEnd=21 PartOfSpeech=NNP Lemma=Daenerys NamedEntityTag=PERSON]
+[Text=Targaryen CharacterOffsetBegin=22 CharacterOffsetEnd=31 PartOfSpeech=NNP Lemma=Targaryen NamedEntityTag=PERSON]
+[Text=are CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=going CharacterOffsetBegin=36 CharacterOffsetEnd=41 PartOfSpeech=VBG Lemma=go NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=get CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=VB Lemma=get NamedEntityTag=O]
+[Text=married CharacterOffsetBegin=49 CharacterOffsetEnd=56 PartOfSpeech=VBN Lemma=marry NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Jon) (NNP Snow)
+      (CC and)
+      (NNP Daenerys) (NNP Targaryen))
+    (VP (VBP are)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB get)
+              (ADJP (VBN married)))))))
+    (. .)))
+
+root(ROOT-0, going-7)
+compound(Snow-2, Jon-1)
+nsubj(going-7, Snow-2)
+nsubj:xsubj(get-9, Snow-2)
+cc(Snow-2, and-3)
+compound(Targaryen-5, Daenerys-4)
+conj:and(Snow-2, Targaryen-5)
+nsubj(going-7, Targaryen-5)
+nsubj:xsubj(get-9, Targaryen-5)
+aux(going-7, are-6)
+mark(get-9, to-8)
+xcomp(going-7, get-9)
+xcomp(get-9, married-10)
+punct(going-7, .-11)
+
 Sentence #2 (27 tokens):
 She could benefit from a well-connected husband with a band of loyal supporters behind him, and he could benefit from her army and her dragons.
-[Text=She CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=PRP]
-[Text=could CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=MD]
-[Text=benefit CharacterOffsetBegin=68 CharacterOffsetEnd=75 PartOfSpeech=VB]
-[Text=from CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=DT]
-[Text=well-connected CharacterOffsetBegin=83 CharacterOffsetEnd=97 PartOfSpeech=JJ]
-[Text=husband CharacterOffsetBegin=98 CharacterOffsetEnd=105 PartOfSpeech=NN]
-[Text=with CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=DT]
-[Text=band CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=IN]
-[Text=loyal CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=JJ]
-[Text=supporters CharacterOffsetBegin=127 CharacterOffsetEnd=137 PartOfSpeech=NNS]
-[Text=behind CharacterOffsetBegin=138 CharacterOffsetEnd=144 PartOfSpeech=IN]
-[Text=him CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=PRP]
-[Text=, CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=CC]
-[Text=he CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=PRP]
-[Text=could CharacterOffsetBegin=157 CharacterOffsetEnd=162 PartOfSpeech=MD]
-[Text=benefit CharacterOffsetBegin=163 CharacterOffsetEnd=170 PartOfSpeech=VB]
-[Text=from CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=PRP$]
-[Text=army CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=CC]
-[Text=her CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=PRP$]
-[Text=dragons CharacterOffsetBegin=193 CharacterOffsetEnd=200 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=200 CharacterOffsetEnd=201 PartOfSpeech=.]
+[Text=She CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=benefit CharacterOffsetBegin=68 CharacterOffsetEnd=75 PartOfSpeech=VB Lemma=benefit NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=well-connected CharacterOffsetBegin=83 CharacterOffsetEnd=97 PartOfSpeech=JJ Lemma=well-connected NamedEntityTag=O]
+[Text=husband CharacterOffsetBegin=98 CharacterOffsetEnd=105 PartOfSpeech=NN Lemma=husband NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=band CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=NN Lemma=band NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=loyal CharacterOffsetBegin=121 CharacterOffsetEnd=126 PartOfSpeech=JJ Lemma=loyal NamedEntityTag=O]
+[Text=supporters CharacterOffsetBegin=127 CharacterOffsetEnd=137 PartOfSpeech=NNS Lemma=supporter NamedEntityTag=O]
+[Text=behind CharacterOffsetBegin=138 CharacterOffsetEnd=144 PartOfSpeech=IN Lemma=behind NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=157 CharacterOffsetEnd=162 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=benefit CharacterOffsetBegin=163 CharacterOffsetEnd=170 PartOfSpeech=VB Lemma=benefit NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=176 CharacterOffsetEnd=179 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=army CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=NN Lemma=army NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=dragons CharacterOffsetBegin=193 CharacterOffsetEnd=200 PartOfSpeech=NNS Lemma=dragon NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=200 CharacterOffsetEnd=201 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (PRP She))
+      (VP (MD could)
+        (VP (VB benefit)
+          (PP (IN from)
+            (NP
+              (NP (DT a) (JJ well-connected) (NN husband))
+              (PP (IN with)
+                (NP
+                  (NP (DT a) (NN band))
+                  (PP (IN of)
+                    (NP (JJ loyal) (NNS supporters)))))))
+          (PP (IN behind)
+            (NP (PRP him))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (MD could)
+        (VP (VB benefit)
+          (PP (IN from)
+            (NP
+              (NP (PRP$ her) (NN army))
+              (CC and)
+              (NP (PRP$ her) (NNS dragons)))))))
+    (. .)))
+
+root(ROOT-0, benefit-3)
+nsubj(benefit-3, She-1)
+aux(benefit-3, could-2)
+case(husband-7, from-4)
+det(husband-7, a-5)
+amod(husband-7, well-connected-6)
+nmod:from(benefit-3, husband-7)
+case(band-10, with-8)
+det(band-10, a-9)
+nmod:with(husband-7, band-10)
+case(supporters-13, of-11)
+amod(supporters-13, loyal-12)
+nmod:of(band-10, supporters-13)
+case(him-15, behind-14)
+nmod:behind(benefit-3, him-15)
+punct(benefit-3, ,-16)
+cc(benefit-3, and-17)
+nsubj(benefit-20, he-18)
+aux(benefit-20, could-19)
+conj:and(benefit-3, benefit-20)
+case(army-23, from-21)
+nmod:poss(army-23, her-22)
+nmod:from(benefit-20, army-23)
+cc(army-23, and-24)
+nmod:poss(dragons-26, her-25)
+nmod:from(benefit-20, dragons-26)
+conj:and(army-23, dragons-26)
+punct(benefit-3, .-27)
+
 Sentence #3 (24 tokens):
 The nephew/aunt thing isn't an issue either, since Targaryens have always been down to marry each other when the need arises.
-[Text=The CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=DT]
-[Text=nephew/aunt CharacterOffsetBegin=206 CharacterOffsetEnd=217 PartOfSpeech=JJ]
-[Text=thing CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=VBZ]
-[Text=n't CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=RB]
-[Text=an CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=DT]
-[Text=issue CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=NN]
-[Text=either CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=,]
-[Text=since CharacterOffsetBegin=247 CharacterOffsetEnd=252 PartOfSpeech=IN]
-[Text=Targaryens CharacterOffsetBegin=253 CharacterOffsetEnd=263 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=VBP]
-[Text=always CharacterOffsetBegin=269 CharacterOffsetEnd=275 PartOfSpeech=RB]
-[Text=been CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=VBN]
-[Text=down CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=TO]
-[Text=marry CharacterOffsetBegin=289 CharacterOffsetEnd=294 PartOfSpeech=VB]
-[Text=each CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=DT]
-[Text=other CharacterOffsetBegin=300 CharacterOffsetEnd=305 PartOfSpeech=JJ]
-[Text=when CharacterOffsetBegin=306 CharacterOffsetEnd=310 PartOfSpeech=WRB]
-[Text=the CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=DT]
-[Text=need CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=NN]
-[Text=arises CharacterOffsetBegin=320 CharacterOffsetEnd=326 PartOfSpeech=VBZ]
-[Text=. CharacterOffsetBegin=326 CharacterOffsetEnd=327 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=nephew/aunt CharacterOffsetBegin=206 CharacterOffsetEnd=217 PartOfSpeech=JJ Lemma=nephew/aunt NamedEntityTag=O]
+[Text=thing CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=NN Lemma=thing NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=230 CharacterOffsetEnd=232 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=issue CharacterOffsetBegin=233 CharacterOffsetEnd=238 PartOfSpeech=NN Lemma=issue NamedEntityTag=O]
+[Text=either CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=RB Lemma=either NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=since CharacterOffsetBegin=247 CharacterOffsetEnd=252 PartOfSpeech=IN Lemma=since NamedEntityTag=O]
+[Text=Targaryens CharacterOffsetBegin=253 CharacterOffsetEnd=263 PartOfSpeech=NNS Lemma=targaryen NamedEntityTag=PERSON]
+[Text=have CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=always CharacterOffsetBegin=269 CharacterOffsetEnd=275 PartOfSpeech=RB Lemma=always NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=down CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=RB Lemma=down NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=286 CharacterOffsetEnd=288 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=marry CharacterOffsetBegin=289 CharacterOffsetEnd=294 PartOfSpeech=VB Lemma=marry NamedEntityTag=O]
+[Text=each CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=DT Lemma=each NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=300 CharacterOffsetEnd=305 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=306 CharacterOffsetEnd=310 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=need CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=NN Lemma=need NamedEntityTag=O]
+[Text=arises CharacterOffsetBegin=320 CharacterOffsetEnd=326 PartOfSpeech=VBZ Lemma=arise NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=326 CharacterOffsetEnd=327 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (JJ nephew/aunt) (NN thing))
+    (VP (VBZ is) (RB n't)
+      (NP (DT an) (NN issue))
+      (ADVP (RB either))
+      (, ,)
+      (SBAR (IN since)
+        (S
+          (NP (NNS Targaryens))
+          (VP (VBP have)
+            (ADVP (RB always))
+            (VP (VBN been)
+              (ADVP (RB down)
+                (S
+                  (VP (TO to)
+                    (VP (VB marry)
+                      (NP (DT each) (JJ other))
+                      (SBAR
+                        (WHADVP (WRB when))
+                        (S
+                          (NP (DT the) (NN need))
+                          (VP (VBZ arises)))))))))))))
+    (. .)))
+
+root(ROOT-0, issue-7)
+det(thing-3, The-1)
+amod(thing-3, nephew/aunt-2)
+nsubj(issue-7, thing-3)
+cop(issue-7, is-4)
+neg(issue-7, n't-5)
+det(issue-7, an-6)
+advmod(issue-7, either-8)
+punct(issue-7, ,-9)
+mark(been-14, since-10)
+nsubj(been-14, Targaryens-11)
+aux(been-14, have-12)
+advmod(been-14, always-13)
+advcl:since(issue-7, been-14)
+advmod(been-14, down-15)
+mark(marry-17, to-16)
+dep(down-15, marry-17)
+det(other-19, each-18)
+dobj(marry-17, other-19)
+advmod(arises-23, when-20)
+det(need-22, the-21)
+nsubj(arises-23, need-22)
+advcl(marry-17, arises-23)
+punct(issue-7, .-24)
+
+Coreference set:
+	(2,22,[22,23]) -> (2,1,[1,2]), that is: "her" -> "She"
+	(2,25,[25,26]) -> (2,1,[1,2]), that is: "her" -> "She"
+Coreference set:
+	(2,15,[15,16]) -> (2,7,[5,14]), that is: "him" -> "a well-connected husband with a band of loyal supporters"
+	(2,18,[18,19]) -> (2,7,[5,14]), that is: "he" -> "a well-connected husband with a band of loyal supporters"
+Coreference set:
+	(3,7,[6,8]) -> (3,3,[1,4]), that is: "an issue" -> "The nephew/aunt thing"

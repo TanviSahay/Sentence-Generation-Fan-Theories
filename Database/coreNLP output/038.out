@@ -1,69 +1,212 @@
 Sentence #1 (26 tokens):
 When the Northern army arrives at King's Landing, coinciding with the Targaryen advance, Cersei will order the city blown up with wildfire.
-[Text=When CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=WRB]
-[Text=the CharacterOffsetBegin=5 CharacterOffsetEnd=8 PartOfSpeech=DT]
-[Text=Northern CharacterOffsetBegin=9 CharacterOffsetEnd=17 PartOfSpeech=NN]
-[Text=army CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=NN]
-[Text=arrives CharacterOffsetBegin=23 CharacterOffsetEnd=30 PartOfSpeech=VBZ]
-[Text=at CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=IN]
-[Text=King CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=POS]
-[Text=Landing CharacterOffsetBegin=41 CharacterOffsetEnd=48 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=,]
-[Text=coinciding CharacterOffsetBegin=50 CharacterOffsetEnd=60 PartOfSpeech=VBG]
-[Text=with CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT]
-[Text=Targaryen CharacterOffsetBegin=70 CharacterOffsetEnd=79 PartOfSpeech=NNP]
-[Text=advance CharacterOffsetBegin=80 CharacterOffsetEnd=87 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=,]
-[Text=Cersei CharacterOffsetBegin=89 CharacterOffsetEnd=95 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=MD]
-[Text=order CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=DT]
-[Text=city CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=NN]
-[Text=blown CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=VBN]
-[Text=up CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=RP]
-[Text=with CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=IN]
-[Text=wildfire CharacterOffsetBegin=130 CharacterOffsetEnd=138 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=.]
+[Text=When CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=5 CharacterOffsetEnd=8 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Northern CharacterOffsetBegin=9 CharacterOffsetEnd=17 PartOfSpeech=NN Lemma=northern NamedEntityTag=O]
+[Text=army CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=NN Lemma=army NamedEntityTag=O]
+[Text=arrives CharacterOffsetBegin=23 CharacterOffsetEnd=30 PartOfSpeech=VBZ Lemma=arrive NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=NNP Lemma=King NamedEntityTag=ORGANIZATION]
+[Text='s CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Landing CharacterOffsetBegin=41 CharacterOffsetEnd=48 PartOfSpeech=NN Lemma=landing NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=coinciding CharacterOffsetBegin=50 CharacterOffsetEnd=60 PartOfSpeech=VBG Lemma=coincide NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Targaryen CharacterOffsetBegin=70 CharacterOffsetEnd=79 PartOfSpeech=NNP Lemma=Targaryen NamedEntityTag=MISC]
+[Text=advance CharacterOffsetBegin=80 CharacterOffsetEnd=87 PartOfSpeech=NN Lemma=advance NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=89 CharacterOffsetEnd=95 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=order CharacterOffsetBegin=101 CharacterOffsetEnd=106 PartOfSpeech=VB Lemma=order NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=city CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=NN Lemma=city NamedEntityTag=O]
+[Text=blown CharacterOffsetBegin=116 CharacterOffsetEnd=121 PartOfSpeech=VBN Lemma=blow NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=122 CharacterOffsetEnd=124 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=125 CharacterOffsetEnd=129 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=wildfire CharacterOffsetBegin=130 CharacterOffsetEnd=138 PartOfSpeech=NN Lemma=wildfire NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP (DT the) (NN Northern) (NN army))
+        (VP (VBZ arrives)
+          (PP (IN at)
+            (NP
+              (NP (NNP King) (POS 's))
+              (NN Landing)))
+          (, ,)
+          (S
+            (VP (VBG coinciding)
+              (PP (IN with)
+                (NP (DT the) (NNP Targaryen) (NN advance))))))))
+    (, ,)
+    (NP (NNP Cersei))
+    (VP (MD will)
+      (VP (VB order)
+        (NP
+          (NP (DT the) (NN city))
+          (VP (VBN blown)
+            (PRT (RP up))
+            (PP (IN with)
+              (NP (NN wildfire)))))))
+    (. .)))
+
+root(ROOT-0, order-19)
+advmod(arrives-5, When-1)
+det(army-4, the-2)
+compound(army-4, Northern-3)
+nsubj(arrives-5, army-4)
+advcl(order-19, arrives-5)
+case(Landing-9, at-6)
+nmod:poss(Landing-9, King-7)
+case(King-7, 's-8)
+nmod:at(arrives-5, Landing-9)
+punct(arrives-5, ,-10)
+xcomp(arrives-5, coinciding-11)
+case(advance-15, with-12)
+det(advance-15, the-13)
+compound(advance-15, Targaryen-14)
+nmod:with(coinciding-11, advance-15)
+punct(order-19, ,-16)
+nsubj(order-19, Cersei-17)
+aux(order-19, will-18)
+det(city-21, the-20)
+dobj(order-19, city-21)
+acl(city-21, blown-22)
+compound:prt(blown-22, up-23)
+case(wildfire-25, with-24)
+nmod:with(blown-22, wildfire-25)
+punct(order-19, .-26)
+
 Sentence #2 (31 tokens):
 Jaime slays her as the prophecy states, and Jon Stark will walk in to find him sitting on the Iron Throne, as his uncle did 20 years ago.
-[Text=Jaime CharacterOffsetBegin=140 CharacterOffsetEnd=145 PartOfSpeech=NNP]
-[Text=slays CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=VBZ]
-[Text=her CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=PRP]
-[Text=as CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=DT]
-[Text=prophecy CharacterOffsetBegin=163 CharacterOffsetEnd=171 PartOfSpeech=NN]
-[Text=states CharacterOffsetBegin=172 CharacterOffsetEnd=178 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=CC]
-[Text=Jon CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=MD]
-[Text=walk CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=VB]
-[Text=in CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=IN]
-[Text=to CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=TO]
-[Text=find CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=VB]
-[Text=him CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=PRP]
-[Text=sitting CharacterOffsetBegin=219 CharacterOffsetEnd=226 PartOfSpeech=VBG]
-[Text=on CharacterOffsetBegin=227 CharacterOffsetEnd=229 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=DT]
-[Text=Iron CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=NNP]
-[Text=Throne CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=,]
-[Text=as CharacterOffsetBegin=247 CharacterOffsetEnd=249 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=PRP$]
-[Text=uncle CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=NN]
-[Text=did CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=VBD]
-[Text=20 CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=CD]
-[Text=years CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=NNS]
-[Text=ago CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=.]
+[Text=Jaime CharacterOffsetBegin=140 CharacterOffsetEnd=145 PartOfSpeech=NNP Lemma=Jaime NamedEntityTag=PERSON]
+[Text=slays CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=VBZ Lemma=slay NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=156 CharacterOffsetEnd=158 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=prophecy CharacterOffsetBegin=163 CharacterOffsetEnd=171 PartOfSpeech=NN Lemma=prophecy NamedEntityTag=O]
+[Text=states CharacterOffsetBegin=172 CharacterOffsetEnd=178 PartOfSpeech=NNS Lemma=state NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=180 CharacterOffsetEnd=183 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=184 CharacterOffsetEnd=187 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Stark CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=walk CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=VB Lemma=walk NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=207 CharacterOffsetEnd=209 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=find CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=VB Lemma=find NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=215 CharacterOffsetEnd=218 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=sitting CharacterOffsetBegin=219 CharacterOffsetEnd=226 PartOfSpeech=VBG Lemma=sit NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=227 CharacterOffsetEnd=229 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Iron CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=NNP Lemma=Iron NamedEntityTag=MISC]
+[Text=Throne CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=NNP Lemma=Throne NamedEntityTag=MISC]
+[Text=, CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=247 CharacterOffsetEnd=249 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=uncle CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=NN Lemma=uncle NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=20 CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=CD Lemma=20 NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-20Y Timex=<TIMEX3 alt_value="OFFSET P-20Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">20 years ago</TIMEX3>]
+[Text=years CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=NNS Lemma=year NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-20Y Timex=<TIMEX3 alt_value="OFFSET P-20Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">20 years ago</TIMEX3>]
+[Text=ago CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=RB Lemma=ago NamedEntityTag=DATE NormalizedNamedEntityTag=OFFSET P-20Y Timex=<TIMEX3 alt_value="OFFSET P-20Y" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">20 years ago</TIMEX3>]
+[Text=. CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Jaime))
+      (VP (VBZ slays)
+        (NP (PRP her))
+        (PP (IN as)
+          (NP (DT the) (NN prophecy) (NNS states)))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP Jon) (NNP Stark))
+      (VP (MD will)
+        (VP (VB walk)
+          (PP (IN in)
+            (NP
+              (S
+                (VP (TO to)
+                  (VP (VB find)
+                    (S
+                      (NP (PRP him))
+                      (VP (VBG sitting)
+                        (PP (IN on)
+                          (NP (DT the) (NNP Iron) (NNP Throne))))))))
+              (, ,)
+              (SBAR (IN as)
+                (S
+                  (NP (PRP$ his) (NN uncle))
+                  (VP (VBD did)
+                    (ADVP
+                      (NP (CD 20) (NNS years))
+                      (RB ago))))))))))
+    (. .)))
+
+root(ROOT-0, slays-2)
+nsubj(slays-2, Jaime-1)
+dobj(slays-2, her-3)
+case(states-7, as-4)
+det(states-7, the-5)
+compound(states-7, prophecy-6)
+nmod:as(slays-2, states-7)
+punct(slays-2, ,-8)
+cc(slays-2, and-9)
+compound(Stark-11, Jon-10)
+nsubj(walk-13, Stark-11)
+aux(walk-13, will-12)
+conj:and(slays-2, walk-13)
+case(find-16, in-14)
+mark(find-16, to-15)
+nmod:in(walk-13, find-16)
+nsubj(sitting-18, him-17)
+dep(find-16, sitting-18)
+case(Throne-22, on-19)
+det(Throne-22, the-20)
+compound(Throne-22, Iron-21)
+nmod:on(sitting-18, Throne-22)
+punct(find-16, ,-23)
+mark(did-27, as-24)
+nmod:poss(uncle-26, his-25)
+nsubj(did-27, uncle-26)
+dep(find-16, did-27)
+nummod(years-29, 20-28)
+nmod:npmod(ago-30, years-29)
+advmod(did-27, ago-30)
+punct(slays-2, .-31)
+
 Sentence #3 (6 tokens):
 The cycle will complete itself.
-[Text=The CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=DT]
-[Text=cycle CharacterOffsetBegin=282 CharacterOffsetEnd=287 PartOfSpeech=NN]
-[Text=will CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=MD]
-[Text=complete CharacterOffsetBegin=293 CharacterOffsetEnd=301 PartOfSpeech=VB]
-[Text=itself CharacterOffsetBegin=302 CharacterOffsetEnd=308 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=278 CharacterOffsetEnd=281 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=cycle CharacterOffsetBegin=282 CharacterOffsetEnd=287 PartOfSpeech=NN Lemma=cycle NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=complete CharacterOffsetBegin=293 CharacterOffsetEnd=301 PartOfSpeech=VB Lemma=complete NamedEntityTag=O]
+[Text=itself CharacterOffsetBegin=302 CharacterOffsetEnd=308 PartOfSpeech=PRP Lemma=itself NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NN cycle))
+    (VP (MD will)
+      (VP (VB complete)
+        (NP (PRP itself))))
+    (. .)))
+
+root(ROOT-0, complete-4)
+det(cycle-2, The-1)
+nsubj(complete-4, cycle-2)
+aux(complete-4, will-3)
+dobj(complete-4, itself-5)
+punct(complete-4, .-6)
+
+Coreference set:
+	(2,3,[3,4]) -> (2,1,[1,2]), that is: "her" -> "Jaime"
+Coreference set:
+	(2,17,[17,18]) -> (2,11,[10,12]), that is: "him" -> "Jon Stark"
+	(2,25,[25,26]) -> (2,11,[10,12]), that is: "his" -> "Jon Stark"
+Coreference set:
+	(3,5,[5,6]) -> (3,2,[1,3]), that is: "itself" -> "The cycle"

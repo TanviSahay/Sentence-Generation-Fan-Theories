@@ -1,80 +1,246 @@
 Sentence #1 (12 tokens):
 Bran will travel back in time and become the Three-Eyed Raven.
-[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD]
-[Text=travel CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=VB]
-[Text=back CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=RB]
-[Text=in CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=IN]
-[Text=time CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=CC]
-[Text=become CharacterOffsetBegin=34 CharacterOffsetEnd=40 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=DT]
-[Text=Three-Eyed CharacterOffsetBegin=45 CharacterOffsetEnd=55 PartOfSpeech=NNP]
-[Text=Raven CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=.]
+[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=travel CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=VB Lemma=travel NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=time CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=NN Lemma=time NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=30 CharacterOffsetEnd=33 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=become CharacterOffsetBegin=34 CharacterOffsetEnd=40 PartOfSpeech=VB Lemma=become NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Three-Eyed CharacterOffsetBegin=45 CharacterOffsetEnd=55 PartOfSpeech=NNP Lemma=Three-Eyed NamedEntityTag=MISC]
+[Text=Raven CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=NN Lemma=raven NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Bran))
+    (VP (MD will)
+      (VP
+        (VP (VB travel)
+          (ADVP (RB back))
+          (PP (IN in)
+            (NP (NN time))))
+        (CC and)
+        (VP (VB become)
+          (NP (DT the) (NNP Three-Eyed) (NN Raven)))))
+    (. .)))
+
+root(ROOT-0, travel-3)
+nsubj(travel-3, Bran-1)
+nsubj(become-8, Bran-1)
+aux(travel-3, will-2)
+advmod(travel-3, back-4)
+case(time-6, in-5)
+nmod:in(travel-3, time-6)
+cc(travel-3, and-7)
+conj:and(travel-3, become-8)
+det(Raven-11, the-9)
+compound(Raven-11, Three-Eyed-10)
+xcomp(become-8, Raven-11)
+punct(travel-3, .-12)
+
 Sentence #2 (29 tokens):
 "The time has come...for you to become me," the Three-Eyed Raven says to Bran during the season 6 episode "The Door."
-[Text=`` CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=``]
-[Text=The CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=DT]
-[Text=time CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=NN]
-[Text=has CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=VBZ]
-[Text=come CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=VBN]
-[Text=... CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=:]
-[Text=for CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=IN]
-[Text=you CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=PRP]
-[Text=to CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=TO]
-[Text=become CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=VB]
-[Text=me CharacterOffsetBegin=103 CharacterOffsetEnd=105 PartOfSpeech=PRP]
-[Text=, CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=,]
-[Text='' CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech='']
-[Text=the CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=DT]
-[Text=Three-Eyed CharacterOffsetBegin=112 CharacterOffsetEnd=122 PartOfSpeech=NNP]
-[Text=Raven CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=NN]
-[Text=says CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=TO]
-[Text=Bran CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=NNP]
-[Text=during CharacterOffsetBegin=142 CharacterOffsetEnd=148 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=DT]
-[Text=season CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=NN]
-[Text=6 CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=CD]
-[Text=episode CharacterOffsetBegin=162 CharacterOffsetEnd=169 PartOfSpeech=NN]
-[Text=`` CharacterOffsetBegin=170 CharacterOffsetEnd=171 PartOfSpeech=``]
-[Text=The CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=DT]
-[Text=Door CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=.]
-[Text='' CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech='']
+[Text=`` CharacterOffsetBegin=64 CharacterOffsetEnd=65 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=time CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=NN Lemma=time NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=74 CharacterOffsetEnd=77 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=come CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=VBN Lemma=come NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=: Lemma=... NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=become CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=VB Lemma=become NamedEntityTag=O]
+[Text=me CharacterOffsetBegin=103 CharacterOffsetEnd=105 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Three-Eyed CharacterOffsetBegin=112 CharacterOffsetEnd=122 PartOfSpeech=NNP Lemma=Three-Eyed NamedEntityTag=O]
+[Text=Raven CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=NN Lemma=raven NamedEntityTag=O]
+[Text=says CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=during CharacterOffsetBegin=142 CharacterOffsetEnd=148 PartOfSpeech=IN Lemma=during NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=6 CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=CD Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0]
+[Text=episode CharacterOffsetBegin=162 CharacterOffsetEnd=169 PartOfSpeech=NN Lemma=episode NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=170 CharacterOffsetEnd=171 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Door CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=NNP Lemma=Door NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=179 CharacterOffsetEnd=180 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+(ROOT
+  (S (`` ``)
+    (S
+      (NP (DT The) (NN time))
+      (VP (VBZ has)
+        (VP (VBN come))))
+    (: ...)
+    (S
+      (SBAR (IN for)
+        (S
+          (NP (PRP you))
+          (VP (TO to)
+            (VP (VB become)
+              (NP (PRP me))))))
+      (, ,) ('' '')
+      (NP (DT the) (NNP Three-Eyed) (NN Raven))
+      (VP (VBZ says)
+        (PP (TO to)
+          (NP (NNP Bran)))
+        (PP (IN during)
+          (NP
+            (NP (DT the) (NN season) (CD 6) (NN episode))
+            (`` ``) (DT The) (NNP Door)))))
+    (. .) ('' '')))
+
+root(ROOT-0, come-5)
+punct(come-5, ``-1)
+det(time-3, The-2)
+nsubj(come-5, time-3)
+aux(come-5, has-4)
+punct(come-5, ...-6)
+mark(become-10, for-7)
+nsubj(become-10, you-8)
+mark(become-10, to-9)
+advcl:to(says-17, become-10)
+xcomp(become-10, me-11)
+punct(says-17, ,-12)
+punct(says-17, ''-13)
+det(Raven-16, the-14)
+compound(Raven-16, Three-Eyed-15)
+nsubj(says-17, Raven-16)
+parataxis(come-5, says-17)
+case(Bran-19, to-18)
+nmod:to(says-17, Bran-19)
+case(Door-27, during-20)
+det(episode-24, the-21)
+compound(episode-24, season-22)
+nummod(episode-24, 6-23)
+compound(Door-27, episode-24)
+punct(Door-27, ``-25)
+det(Door-27, The-26)
+nmod:during(says-17, Door-27)
+punct(come-5, .-28)
+punct(come-5, ''-29)
+
 Sentence #3 (15 tokens):
 We might assume he's speaking figuratively, about Bran taking over a role.
-[Text=We CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=PRP]
-[Text=might CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=MD]
-[Text=assume CharacterOffsetBegin=191 CharacterOffsetEnd=197 PartOfSpeech=VB]
-[Text=he CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=VBZ]
-[Text=speaking CharacterOffsetBegin=203 CharacterOffsetEnd=211 PartOfSpeech=VBG]
-[Text=figuratively CharacterOffsetBegin=212 CharacterOffsetEnd=224 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=,]
-[Text=about CharacterOffsetBegin=226 CharacterOffsetEnd=231 PartOfSpeech=IN]
-[Text=Bran CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=NNP]
-[Text=taking CharacterOffsetBegin=237 CharacterOffsetEnd=243 PartOfSpeech=VBG]
-[Text=over CharacterOffsetBegin=244 CharacterOffsetEnd=248 PartOfSpeech=RP]
-[Text=a CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=DT]
-[Text=role CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=.]
+[Text=We CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=might CharacterOffsetBegin=185 CharacterOffsetEnd=190 PartOfSpeech=MD Lemma=might NamedEntityTag=O]
+[Text=assume CharacterOffsetBegin=191 CharacterOffsetEnd=197 PartOfSpeech=VB Lemma=assume NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=200 CharacterOffsetEnd=202 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=speaking CharacterOffsetBegin=203 CharacterOffsetEnd=211 PartOfSpeech=VBG Lemma=speak NamedEntityTag=O]
+[Text=figuratively CharacterOffsetBegin=212 CharacterOffsetEnd=224 PartOfSpeech=RB Lemma=figuratively NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=about CharacterOffsetBegin=226 CharacterOffsetEnd=231 PartOfSpeech=IN Lemma=about NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=MISC]
+[Text=taking CharacterOffsetBegin=237 CharacterOffsetEnd=243 PartOfSpeech=VBG Lemma=take NamedEntityTag=O]
+[Text=over CharacterOffsetBegin=244 CharacterOffsetEnd=248 PartOfSpeech=RP Lemma=over NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=role CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=NN Lemma=role NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP We))
+    (VP (MD might)
+      (VP (VB assume)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBZ 's)
+              (VP (VBG speaking)
+                (ADVP (RB figuratively))
+                (, ,)
+                (PP (IN about)
+                  (NP
+                    (NP (NNP Bran))
+                    (VP (VBG taking)
+                      (PRT (RP over))
+                      (NP (DT a) (NN role)))))))))))
+    (. .)))
+
+root(ROOT-0, assume-3)
+nsubj(assume-3, We-1)
+aux(assume-3, might-2)
+nsubj(speaking-6, he-4)
+aux(speaking-6, 's-5)
+ccomp(assume-3, speaking-6)
+advmod(speaking-6, figuratively-7)
+punct(speaking-6, ,-8)
+case(Bran-10, about-9)
+nmod:about(speaking-6, Bran-10)
+acl(Bran-10, taking-11)
+compound:prt(taking-11, over-12)
+det(role-14, a-13)
+dobj(taking-11, role-14)
+punct(assume-3, .-15)
+
 Sentence #4 (9 tokens):
 Or maybe it's more literal than that?
-[Text=Or CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=CC]
-[Text=maybe CharacterOffsetBegin=260 CharacterOffsetEnd=265 PartOfSpeech=RB]
-[Text=it CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=VBZ]
-[Text=more CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=JJR]
-[Text=literal CharacterOffsetBegin=276 CharacterOffsetEnd=283 PartOfSpeech=JJ]
-[Text=than CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=IN]
-[Text=that CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=DT]
-[Text=? CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=.]
+[Text=Or CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=maybe CharacterOffsetBegin=260 CharacterOffsetEnd=265 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=268 CharacterOffsetEnd=270 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=JJR Lemma=more NamedEntityTag=O]
+[Text=literal CharacterOffsetBegin=276 CharacterOffsetEnd=283 PartOfSpeech=JJ Lemma=literal NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=284 CharacterOffsetEnd=288 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S (CC Or)
+    (ADVP (RB maybe))
+    (NP (PRP it))
+    (VP (VBZ 's)
+      (NP
+        (NP (JJR more) (JJ literal))
+        (PP (IN than)
+          (NP (DT that)))))
+    (. ?)))
+
+root(ROOT-0, more-5)
+cc(more-5, Or-1)
+advmod(more-5, maybe-2)
+nsubj(more-5, it-3)
+cop(more-5, 's-4)
+amod(more-5, literal-6)
+case(that-8, than-7)
+nmod:than(more-5, that-8)
+punct(more-5, ?-9)
+
 Sentence #5 (5 tokens):
 Some fans think so.
-[Text=Some CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=DT]
-[Text=fans CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=NNS]
-[Text=think CharacterOffsetBegin=305 CharacterOffsetEnd=310 PartOfSpeech=VBP]
-[Text=so CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=.]
+[Text=Some CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=think CharacterOffsetBegin=305 CharacterOffsetEnd=310 PartOfSpeech=VBP Lemma=think NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=313 CharacterOffsetEnd=314 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT Some) (NNS fans))
+    (VP (VBP think)
+      (ADVP (RB so)))
+    (. .)))
+
+root(ROOT-0, think-3)
+det(fans-2, Some-1)
+nsubj(think-3, fans-2)
+advmod(think-3, so-4)
+punct(think-3, .-5)
+
+Coreference set:
+	(2,19,[19,20]) -> (1,1,[1,2]), that is: "Bran" -> "Bran"
+Coreference set:
+	(1,6,[6,7]) -> (2,3,[2,4]), that is: "time" -> "The time"
+Coreference set:
+	(2,11,[11,12]) -> (1,11,[9,12]), that is: "me" -> "the Three-Eyed Raven"
+	(2,16,[14,17]) -> (1,11,[9,12]), that is: "the Three-Eyed Raven" -> "the Three-Eyed Raven"
+	(3,4,[4,5]) -> (1,11,[9,12]), that is: "he" -> "the Three-Eyed Raven"
+Coreference set:
+	(3,1,[1,2]) -> (2,8,[8,9]), that is: "We" -> "you"
+Coreference set:
+	(4,3,[3,4]) -> (3,10,[10,15]), that is: "it" -> "Bran taking over a role"
+	(4,8,[8,9]) -> (3,10,[10,15]), that is: "that" -> "Bran taking over a role"

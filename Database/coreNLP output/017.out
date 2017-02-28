@@ -1,21 +1,65 @@
-Sentence #1 (19 tokens):
-Sam will find some key information at the citadel that will help in the fight against the White Walkers
-[Text=Sam CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=MD]
-[Text=find CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=VB]
-[Text=some CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=DT]
-[Text=key CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=JJ]
-[Text=information CharacterOffsetBegin=23 CharacterOffsetEnd=34 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=DT]
-[Text=citadel CharacterOffsetBegin=42 CharacterOffsetEnd=49 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=WDT]
-[Text=will CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=MD]
-[Text=help CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=VB]
-[Text=in CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=DT]
-[Text=fight CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=NN]
-[Text=against CharacterOffsetBegin=78 CharacterOffsetEnd=85 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=DT]
-[Text=White CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=NNP]
-[Text=Walkers CharacterOffsetBegin=96 CharacterOffsetEnd=103 PartOfSpeech=NNPS]
+Sentence #1 (20 tokens):
+Sam will find some key information at the citadel that will help in the fight against the White Walkers.
+[Text=Sam CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=find CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=VB Lemma=find NamedEntityTag=O]
+[Text=some CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=key CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=JJ Lemma=key NamedEntityTag=O]
+[Text=information CharacterOffsetBegin=23 CharacterOffsetEnd=34 PartOfSpeech=NN Lemma=information NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=citadel CharacterOffsetBegin=42 CharacterOffsetEnd=49 PartOfSpeech=NN Lemma=citadel NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=help CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=VB Lemma=help NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=fight CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=NN Lemma=fight NamedEntityTag=O]
+[Text=against CharacterOffsetBegin=78 CharacterOffsetEnd=85 PartOfSpeech=IN Lemma=against NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=White CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=NNP Lemma=White NamedEntityTag=ORGANIZATION]
+[Text=Walkers CharacterOffsetBegin=96 CharacterOffsetEnd=103 PartOfSpeech=NNPS Lemma=Walkers NamedEntityTag=ORGANIZATION]
+[Text=. CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Sam))
+    (VP (MD will)
+      (VP (VB find)
+        (NP (DT some) (JJ key) (NN information))
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NN citadel))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (MD will)
+                  (VP (VB help)
+                    (PP (IN in)
+                      (NP
+                        (NP (DT the) (NN fight))
+                        (PP (IN against)
+                          (NP (DT the) (NNP White) (NNPS Walkers)))))))))))))
+    (. .)))
+
+root(ROOT-0, find-3)
+nsubj(find-3, Sam-1)
+aux(find-3, will-2)
+det(information-6, some-4)
+amod(information-6, key-5)
+dobj(find-3, information-6)
+case(citadel-9, at-7)
+det(citadel-9, the-8)
+nmod:at(find-3, citadel-9)
+nsubj(help-12, citadel-9)
+ref(citadel-9, that-10)
+aux(help-12, will-11)
+acl:relcl(citadel-9, help-12)
+case(fight-15, in-13)
+det(fight-15, the-14)
+nmod:in(help-12, fight-15)
+case(Walkers-19, against-16)
+det(Walkers-19, the-17)
+compound(Walkers-19, White-18)
+nmod:against(fight-15, Walkers-19)
+punct(find-3, .-20)
+

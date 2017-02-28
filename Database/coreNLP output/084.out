@@ -1,79 +1,245 @@
-Sentence #1 (49 tokens):
-Missandei is a Faceless Man
+Sentence #1 (6 tokens):
+Missandei is a Faceless Man.
+[Text=Missandei CharacterOffsetBegin=0 CharacterOffsetEnd=9 PartOfSpeech=NNP Lemma=Missandei NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Faceless CharacterOffsetBegin=15 CharacterOffsetEnd=23 PartOfSpeech=JJ Lemma=faceless NamedEntityTag=MISC]
+[Text=Man CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC]
+[Text=. CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Missandei))
+    (VP (VBZ is)
+      (NP (DT a) (JJ Faceless) (NN Man)))
+    (. .)))
+
+root(ROOT-0, Man-5)
+nsubj(Man-5, Missandei-1)
+cop(Man-5, is-2)
+det(Man-5, a-3)
+amod(Man-5, Faceless-4)
+punct(Man-5, .-6)
+
+Sentence #2 (44 tokens):
 The Faceless Men are surely going to have a big part to play in the endgame of "Game of Thrones" considering Arya's whole arc these past two seasons, but they haven't been directly involved at all so far.
-[Text=Missandei CharacterOffsetBegin=0 CharacterOffsetEnd=9 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=DT]
-[Text=Faceless CharacterOffsetBegin=15 CharacterOffsetEnd=23 PartOfSpeech=JJ]
-[Text=Man CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=NN]
-[Text=The CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=DT]
-[Text=Faceless CharacterOffsetBegin=32 CharacterOffsetEnd=40 PartOfSpeech=JJ]
-[Text=Men CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=NN]
-[Text=are CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=VBP]
-[Text=surely CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=RB]
-[Text=going CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=62 CharacterOffsetEnd=64 PartOfSpeech=TO]
-[Text=have CharacterOffsetBegin=65 CharacterOffsetEnd=69 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=70 CharacterOffsetEnd=71 PartOfSpeech=DT]
-[Text=big CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=JJ]
-[Text=part CharacterOffsetBegin=76 CharacterOffsetEnd=80 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=TO]
-[Text=play CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=VB]
-[Text=in CharacterOffsetBegin=89 CharacterOffsetEnd=91 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=DT]
-[Text=endgame CharacterOffsetBegin=96 CharacterOffsetEnd=103 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=IN]
-[Text=`` CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=``]
-[Text=Game CharacterOffsetBegin=108 CharacterOffsetEnd=112 PartOfSpeech=NNP]
-[Text=of CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN]
-[Text=Thrones CharacterOffsetBegin=116 CharacterOffsetEnd=123 PartOfSpeech=NNPS]
-[Text='' CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech='']
-[Text=considering CharacterOffsetBegin=125 CharacterOffsetEnd=136 PartOfSpeech=VBG]
-[Text=Arya CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=POS]
-[Text=whole CharacterOffsetBegin=144 CharacterOffsetEnd=149 PartOfSpeech=JJ]
-[Text=arc CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=NN]
-[Text=these CharacterOffsetBegin=154 CharacterOffsetEnd=159 PartOfSpeech=DT]
-[Text=past CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=IN]
-[Text=two CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=CD]
-[Text=seasons CharacterOffsetBegin=169 CharacterOffsetEnd=176 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=CC]
-[Text=they CharacterOffsetBegin=182 CharacterOffsetEnd=186 PartOfSpeech=PRP]
-[Text=have CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=VBP]
-[Text=n't CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=RB]
-[Text=been CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=VBN]
-[Text=directly CharacterOffsetBegin=200 CharacterOffsetEnd=208 PartOfSpeech=RB]
-[Text=involved CharacterOffsetBegin=209 CharacterOffsetEnd=217 PartOfSpeech=VBN]
-[Text=at CharacterOffsetBegin=218 CharacterOffsetEnd=220 PartOfSpeech=IN]
-[Text=all CharacterOffsetBegin=221 CharacterOffsetEnd=224 PartOfSpeech=DT]
-[Text=so CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=RB]
-[Text=far CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=.]
-Sentence #2 (5 tokens):
+[Text=The CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Faceless CharacterOffsetBegin=33 CharacterOffsetEnd=41 PartOfSpeech=JJ Lemma=faceless NamedEntityTag=MISC]
+[Text=Men CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=NN Lemma=men NamedEntityTag=MISC]
+[Text=are CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=surely CharacterOffsetBegin=50 CharacterOffsetEnd=56 PartOfSpeech=RB Lemma=surely NamedEntityTag=O]
+[Text=going CharacterOffsetBegin=57 CharacterOffsetEnd=62 PartOfSpeech=VBG Lemma=go NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=63 CharacterOffsetEnd=65 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=71 CharacterOffsetEnd=72 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=big CharacterOffsetBegin=73 CharacterOffsetEnd=76 PartOfSpeech=JJ Lemma=big NamedEntityTag=O]
+[Text=part CharacterOffsetBegin=77 CharacterOffsetEnd=81 PartOfSpeech=NN Lemma=part NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=play CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=VB Lemma=play NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=90 CharacterOffsetEnd=92 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=endgame CharacterOffsetBegin=97 CharacterOffsetEnd=104 PartOfSpeech=NN Lemma=endgame NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Game CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=NNP Lemma=Game NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Thrones CharacterOffsetBegin=117 CharacterOffsetEnd=124 PartOfSpeech=NNPS Lemma=Thrones NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=124 CharacterOffsetEnd=125 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=considering CharacterOffsetBegin=126 CharacterOffsetEnd=137 PartOfSpeech=VBG Lemma=consider NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=whole CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=JJ Lemma=whole NamedEntityTag=O]
+[Text=arc CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=NN Lemma=arc NamedEntityTag=O]
+[Text=these CharacterOffsetBegin=155 CharacterOffsetEnd=160 PartOfSpeech=DT Lemma=these NamedEntityTag=O]
+[Text=past CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=IN Lemma=past NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PAST_REF">past</TIMEX3>]
+[Text=two CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text=seasons CharacterOffsetBegin=170 CharacterOffsetEnd=177 PartOfSpeech=NNS Lemma=season NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=directly CharacterOffsetBegin=201 CharacterOffsetEnd=209 PartOfSpeech=RB Lemma=directly NamedEntityTag=O]
+[Text=involved CharacterOffsetBegin=210 CharacterOffsetEnd=218 PartOfSpeech=VBN Lemma=involve NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=226 CharacterOffsetEnd=228 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=far CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=RB Lemma=far NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (JJ Faceless) (NN Men))
+      (VP (VBP are)
+        (ADVP (RB surely))
+        (VP (VBG going)
+          (S
+            (VP (TO to)
+              (VP (VB have)
+                (NP (DT a) (JJ big) (NN part)
+                  (S
+                    (VP (TO to)
+                      (VP (VB play)
+                        (PP (IN in)
+                          (S
+                            (NP
+                              (NP (DT the) (NN endgame))
+                              (PP (IN of) (`` ``)
+                                (NP
+                                  (NP (NNP Game))
+                                  (PP (IN of)
+                                    (NP (NNPS Thrones))))
+                                ('' '')))
+                            (VP (VBG considering)
+                              (S
+                                (NP
+                                  (NP (NNP Arya) (POS 's))
+                                  (JJ whole) (NN arc))
+                                (NP
+                                  (NP (DT these))
+                                  (PP (IN past)
+                                    (NP (CD two) (NNS seasons))))))))))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP they))
+      (VP (VBP have) (RB n't)
+        (VP (VBN been)
+          (ADJP (RB directly) (VBN involved)
+            (PP (IN at)
+              (ADVP (DT all) (RB so) (RB far)))))))
+    (. .)))
+
+root(ROOT-0, going-6)
+det(Men-3, The-1)
+amod(Men-3, Faceless-2)
+nsubj(going-6, Men-3)
+nsubj:xsubj(have-8, Men-3)
+aux(going-6, are-4)
+advmod(going-6, surely-5)
+mark(have-8, to-7)
+xcomp(going-6, have-8)
+det(part-11, a-9)
+amod(part-11, big-10)
+dobj(have-8, part-11)
+mark(play-13, to-12)
+acl:to(part-11, play-13)
+mark(considering-23, in-14)
+det(endgame-16, the-15)
+nsubj(considering-23, endgame-16)
+case(Game-19, of-17)
+punct(Game-19, ``-18)
+nmod:of(endgame-16, Game-19)
+case(Thrones-21, of-20)
+nmod:of(Game-19, Thrones-21)
+punct(Game-19, ''-22)
+advcl:in(play-13, considering-23)
+nmod:poss(arc-27, Arya-24)
+case(Arya-24, 's-25)
+amod(arc-27, whole-26)
+nsubj(these-28, arc-27)
+xcomp(considering-23, these-28)
+case(seasons-31, past-29)
+nummod(seasons-31, two-30)
+nmod:past(these-28, seasons-31)
+punct(going-6, ,-32)
+cc(going-6, but-33)
+nsubjpass(involved-39, they-34)
+aux(involved-39, have-35)
+neg(involved-39, n't-36)
+auxpass(involved-39, been-37)
+advmod(involved-39, directly-38)
+conj:but(going-6, involved-39)
+case(far-43, at-40)
+dep(far-43, all-41)
+advmod(far-43, so-42)
+advcl:at(involved-39, far-43)
+punct(going-6, .-44)
+
+Sentence #3 (5 tokens):
 Or maybe they have?
-[Text=Or CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=CC]
-[Text=maybe CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=RB]
-[Text=they CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=PRP]
-[Text=have CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=VBP]
-[Text=? CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=.]
-Sentence #3 (18 tokens):
+[Text=Or CharacterOffsetBegin=234 CharacterOffsetEnd=236 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=maybe CharacterOffsetBegin=237 CharacterOffsetEnd=242 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=243 CharacterOffsetEnd=247 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S (CC Or)
+    (ADVP (RB maybe))
+    (NP (PRP they))
+    (VP (VBP have))
+    (. ?)))
+
+root(ROOT-0, have-4)
+cc(have-4, Or-1)
+advmod(have-4, maybe-2)
+nsubj(have-4, they-3)
+punct(have-4, ?-5)
+
+Sentence #4 (18 tokens):
 Missandei has ridiculous language skills and a nearly-always-consistent tone of voice -- these are Faceless Men traits.
-[Text=Missandei CharacterOffsetBegin=253 CharacterOffsetEnd=262 PartOfSpeech=NNP]
-[Text=has CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=VBZ]
-[Text=ridiculous CharacterOffsetBegin=267 CharacterOffsetEnd=277 PartOfSpeech=JJ]
-[Text=language CharacterOffsetBegin=278 CharacterOffsetEnd=286 PartOfSpeech=NN]
-[Text=skills CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=NNS]
-[Text=and CharacterOffsetBegin=294 CharacterOffsetEnd=297 PartOfSpeech=CC]
-[Text=a CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=DT]
-[Text=nearly-always-consistent CharacterOffsetBegin=300 CharacterOffsetEnd=324 PartOfSpeech=JJ]
-[Text=tone CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=IN]
-[Text=voice CharacterOffsetBegin=333 CharacterOffsetEnd=338 PartOfSpeech=NN]
-[Text=-- CharacterOffsetBegin=339 CharacterOffsetEnd=341 PartOfSpeech=:]
-[Text=these CharacterOffsetBegin=342 CharacterOffsetEnd=347 PartOfSpeech=DT]
-[Text=are CharacterOffsetBegin=348 CharacterOffsetEnd=351 PartOfSpeech=VBP]
-[Text=Faceless CharacterOffsetBegin=352 CharacterOffsetEnd=360 PartOfSpeech=JJ]
-[Text=Men CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=NN]
-[Text=traits CharacterOffsetBegin=365 CharacterOffsetEnd=371 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=.]
+[Text=Missandei CharacterOffsetBegin=254 CharacterOffsetEnd=263 PartOfSpeech=NNP Lemma=Missandei NamedEntityTag=PERSON]
+[Text=has CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=ridiculous CharacterOffsetBegin=268 CharacterOffsetEnd=278 PartOfSpeech=JJ Lemma=ridiculous NamedEntityTag=O]
+[Text=language CharacterOffsetBegin=279 CharacterOffsetEnd=287 PartOfSpeech=NN Lemma=language NamedEntityTag=O]
+[Text=skills CharacterOffsetBegin=288 CharacterOffsetEnd=294 PartOfSpeech=NNS Lemma=skill NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=295 CharacterOffsetEnd=298 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=299 CharacterOffsetEnd=300 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=nearly-always-consistent CharacterOffsetBegin=301 CharacterOffsetEnd=325 PartOfSpeech=JJ Lemma=nearly-always-consistent NamedEntityTag=O]
+[Text=tone CharacterOffsetBegin=326 CharacterOffsetEnd=330 PartOfSpeech=NN Lemma=tone NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=voice CharacterOffsetBegin=334 CharacterOffsetEnd=339 PartOfSpeech=NN Lemma=voice NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=these CharacterOffsetBegin=343 CharacterOffsetEnd=348 PartOfSpeech=DT Lemma=these NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=349 CharacterOffsetEnd=352 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=Faceless CharacterOffsetBegin=353 CharacterOffsetEnd=361 PartOfSpeech=JJ Lemma=faceless NamedEntityTag=O]
+[Text=Men CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=NN Lemma=men NamedEntityTag=O]
+[Text=traits CharacterOffsetBegin=366 CharacterOffsetEnd=372 PartOfSpeech=NNS Lemma=trait NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Missandei))
+      (VP (VBZ has)
+        (NP
+          (NP (JJ ridiculous) (NN language) (NNS skills))
+          (CC and)
+          (NP
+            (NP (DT a) (JJ nearly-always-consistent) (NN tone))
+            (PP (IN of)
+              (NP (NN voice)))))))
+    (: --)
+    (S
+      (NP (DT these))
+      (VP (VBP are)
+        (NP (JJ Faceless) (NN Men) (NNS traits))))
+    (. .)))
+
+root(ROOT-0, has-2)
+nsubj(has-2, Missandei-1)
+amod(skills-5, ridiculous-3)
+compound(skills-5, language-4)
+dobj(has-2, skills-5)
+cc(skills-5, and-6)
+det(tone-9, a-7)
+amod(tone-9, nearly-always-consistent-8)
+dobj(has-2, tone-9)
+conj:and(skills-5, tone-9)
+case(voice-11, of-10)
+nmod:of(tone-9, voice-11)
+punct(has-2, ---12)
+nsubj(traits-17, these-13)
+cop(traits-17, are-14)
+amod(traits-17, Faceless-15)
+compound(traits-17, Men-16)
+parataxis(has-2, traits-17)
+punct(has-2, .-18)
+
+Coreference set:
+	(1,1,[1,2]) -> (4,1,[1,2]), that is: "Missandei" -> "Missandei"
+	(1,5,[3,6]) -> (4,1,[1,2]), that is: "a Faceless Man" -> "Missandei"
+Coreference set:
+	(2,34,[34,35]) -> (2,28,[28,32]), that is: "they" -> "these past two seasons"
+	(3,3,[3,4]) -> (2,28,[28,32]), that is: "they" -> "these past two seasons"
+Coreference set:
+	(4,13,[13,14]) -> (4,17,[15,18]), that is: "these" -> "Faceless Men traits"

@@ -1,8 +1,23 @@
 Sentence #1 (6 tokens):
 Arya reunites with her wolf.
-[Text=Arya CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=reunites CharacterOffsetBegin=5 CharacterOffsetEnd=13 PartOfSpeech=VBZ]
-[Text=with CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=PRP$]
-[Text=wolf CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=.]
+[Text=Arya CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=reunites CharacterOffsetBegin=5 CharacterOffsetEnd=13 PartOfSpeech=VBZ Lemma=reunite NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=wolf CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=NN Lemma=wolf NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Arya))
+    (VP (VBZ reunites)
+      (PP (IN with)
+        (NP (PRP$ her) (NN wolf))))
+    (. .)))
+
+root(ROOT-0, reunites-2)
+nsubj(reunites-2, Arya-1)
+case(wolf-5, with-3)
+nmod:poss(wolf-5, her-4)
+nmod:with(reunites-2, wolf-5)
+punct(reunites-2, .-6)
+

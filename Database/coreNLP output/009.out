@@ -1,65 +1,197 @@
 Sentence #1 (7 tokens):
 Sam will make a crucial discovery.
-[Text=Sam CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=MD]
-[Text=make CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=DT]
-[Text=crucial CharacterOffsetBegin=16 CharacterOffsetEnd=23 PartOfSpeech=JJ]
-[Text=discovery CharacterOffsetBegin=24 CharacterOffsetEnd=33 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=.]
+[Text=Sam CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=make CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=VB Lemma=make NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=crucial CharacterOffsetBegin=16 CharacterOffsetEnd=23 PartOfSpeech=JJ Lemma=crucial NamedEntityTag=O]
+[Text=discovery CharacterOffsetBegin=24 CharacterOffsetEnd=33 PartOfSpeech=NN Lemma=discovery NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Sam))
+    (VP (MD will)
+      (VP (VB make)
+        (NP (DT a) (JJ crucial) (NN discovery))))
+    (. .)))
+
+root(ROOT-0, make-3)
+nsubj(make-3, Sam-1)
+aux(make-3, will-2)
+det(discovery-6, a-4)
+amod(discovery-6, crucial-5)
+dobj(make-3, discovery-6)
+punct(make-3, .-7)
+
 Sentence #2 (4 tokens):
 This seems inevitable.
-[Text=This CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=DT]
-[Text=seems CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=VBZ]
-[Text=inevitable CharacterOffsetBegin=46 CharacterOffsetEnd=56 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=.]
+[Text=This CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=seems CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=VBZ Lemma=seem NamedEntityTag=O]
+[Text=inevitable CharacterOffsetBegin=46 CharacterOffsetEnd=56 PartOfSpeech=JJ Lemma=inevitable NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ seems)
+      (ADJP (JJ inevitable)))
+    (. .)))
+
+root(ROOT-0, seems-2)
+nsubj(seems-2, This-1)
+xcomp(seems-2, inevitable-3)
+punct(seems-2, .-4)
+
 Sentence #3 (38 tokens):
 Sam must have gone all that way for some reason, and — as his key proven skill is research — a big discovery in the Citadel's library seems like the most likely development for him.
-[Text=Sam CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=NNP]
-[Text=must CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=MD]
-[Text=have CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=VB]
-[Text=gone CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=VBN]
-[Text=all CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=DT]
-[Text=that CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=DT]
-[Text=way CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=IN]
-[Text=some CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=DT]
-[Text=reason CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=CC]
-[Text=-- CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=:]
-[Text=as CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=PRP$]
-[Text=key CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=JJ]
-[Text=proven CharacterOffsetBegin=124 CharacterOffsetEnd=130 PartOfSpeech=JJ]
-[Text=skill CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=VBZ]
-[Text=research CharacterOffsetBegin=140 CharacterOffsetEnd=148 PartOfSpeech=NN]
-[Text=-- CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=:]
-[Text=a CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=DT]
-[Text=big CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=JJ]
-[Text=discovery CharacterOffsetBegin=157 CharacterOffsetEnd=166 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=DT]
-[Text=Citadel CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=POS]
-[Text=library CharacterOffsetBegin=184 CharacterOffsetEnd=191 PartOfSpeech=NN]
-[Text=seems CharacterOffsetBegin=192 CharacterOffsetEnd=197 PartOfSpeech=VBZ]
-[Text=like CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=DT]
-[Text=most CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=RBS]
-[Text=likely CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=JJ]
-[Text=development CharacterOffsetBegin=219 CharacterOffsetEnd=230 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=231 CharacterOffsetEnd=234 PartOfSpeech=IN]
-[Text=him CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=.]
+[Text=Sam CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text=must CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=MD Lemma=must NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=gone CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=VBN Lemma=go NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=way CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=NN Lemma=way NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=some CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=reason CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=NN Lemma=reason NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=key CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=JJ Lemma=key NamedEntityTag=O]
+[Text=proven CharacterOffsetBegin=124 CharacterOffsetEnd=130 PartOfSpeech=JJ Lemma=proven NamedEntityTag=O]
+[Text=skill CharacterOffsetBegin=131 CharacterOffsetEnd=136 PartOfSpeech=NN Lemma=skill NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=research CharacterOffsetBegin=140 CharacterOffsetEnd=148 PartOfSpeech=NN Lemma=research NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=149 CharacterOffsetEnd=150 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=big CharacterOffsetBegin=153 CharacterOffsetEnd=156 PartOfSpeech=JJ Lemma=big NamedEntityTag=O]
+[Text=discovery CharacterOffsetBegin=157 CharacterOffsetEnd=166 PartOfSpeech=NN Lemma=discovery NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Citadel CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=NNP Lemma=Citadel NamedEntityTag=ORGANIZATION]
+[Text='s CharacterOffsetBegin=181 CharacterOffsetEnd=183 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=library CharacterOffsetBegin=184 CharacterOffsetEnd=191 PartOfSpeech=NN Lemma=library NamedEntityTag=O]
+[Text=seems CharacterOffsetBegin=192 CharacterOffsetEnd=197 PartOfSpeech=VBZ Lemma=seem NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=most CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=RBS Lemma=most NamedEntityTag=O]
+[Text=likely CharacterOffsetBegin=212 CharacterOffsetEnd=218 PartOfSpeech=JJ Lemma=likely NamedEntityTag=O]
+[Text=development CharacterOffsetBegin=219 CharacterOffsetEnd=230 PartOfSpeech=NN Lemma=development NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=231 CharacterOffsetEnd=234 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Sam))
+      (VP (MD must)
+        (VP (VB have)
+          (VP (VBN gone)
+            (NP
+              (NP (DT all))
+              (NP (DT that) (NN way)))
+            (PP (IN for)
+              (NP (DT some) (NN reason)))))))
+    (, ,)
+    (CC and)
+    (PRN (: --)
+      (PP (IN as)
+        (NP (PRP$ his) (JJ key))))
+    (S
+      (NP (JJ proven) (NN skill))
+      (VP (VBZ is)
+        (NP
+          (NP (NN research))
+          (: --)
+          (S
+            (NP
+              (NP (DT a) (JJ big) (NN discovery))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NNP Citadel) (POS 's))
+                  (NN library))))
+            (VP (VBZ seems)
+              (PP (IN like)
+                (NP
+                  (NP (DT the)
+                    (ADJP (RBS most) (JJ likely))
+                    (NN development))
+                  (PP (IN for)
+                    (NP (PRP him))))))))))
+    (. .)))
+
+root(ROOT-0, gone-4)
+nsubj(gone-4, Sam-1)
+aux(gone-4, must-2)
+aux(gone-4, have-3)
+dobj(gone-4, all-5)
+det(way-7, that-6)
+dep(all-5, way-7)
+case(reason-10, for-8)
+det(reason-10, some-9)
+nmod:for(gone-4, reason-10)
+punct(gone-4, ,-11)
+cc(gone-4, and-12)
+punct(key-16, ---13)
+case(key-16, as-14)
+nmod:poss(key-16, his-15)
+dep(gone-4, key-16)
+amod(skill-18, proven-17)
+nsubj(research-20, skill-18)
+cop(research-20, is-19)
+ccomp(gone-4, research-20)
+punct(research-20, ---21)
+det(discovery-24, a-22)
+amod(discovery-24, big-23)
+nsubj(seems-30, discovery-24)
+case(library-29, in-25)
+det(Citadel-27, the-26)
+nmod:poss(library-29, Citadel-27)
+case(Citadel-27, 's-28)
+nmod:in(discovery-24, library-29)
+appos(research-20, seems-30)
+case(development-35, like-31)
+det(development-35, the-32)
+advmod(likely-34, most-33)
+amod(development-35, likely-34)
+nmod:like(seems-30, development-35)
+case(him-37, for-36)
+nmod:for(development-35, him-37)
+punct(gone-4, .-38)
+
 Sentence #4 (8 tokens):
 Gendry will reappear to save the day.
-[Text=Gendry CharacterOffsetBegin=240 CharacterOffsetEnd=246 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=MD]
-[Text=reappear CharacterOffsetBegin=252 CharacterOffsetEnd=260 PartOfSpeech=VB]
-[Text=to CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=TO]
-[Text=save CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=DT]
-[Text=day CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=.]
+[Text=Gendry CharacterOffsetBegin=240 CharacterOffsetEnd=246 PartOfSpeech=NNP Lemma=Gendry NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=reappear CharacterOffsetBegin=252 CharacterOffsetEnd=260 PartOfSpeech=VB Lemma=reappear NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=save CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=VB Lemma=save NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the day</TIMEX3>]
+[Text=day CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=NN Lemma=day NamedEntityTag=DATE NormalizedNamedEntityTag=THIS P1D Timex=<TIMEX3 alt_value="THIS P1D" anchorTimeID="t0" temporalFunction="true" tid="t1" type="DATE" valueFromFunction="tf0">the day</TIMEX3>]
+[Text=. CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Gendry))
+    (VP (MD will)
+      (VP (VB reappear)
+        (S
+          (VP (TO to)
+            (VP (VB save)
+              (NP (DT the) (NN day)))))))
+    (. .)))
+
+root(ROOT-0, reappear-3)
+nsubj(reappear-3, Gendry-1)
+nsubj:xsubj(save-5, Gendry-1)
+aux(reappear-3, will-2)
+mark(save-5, to-4)
+xcomp(reappear-3, save-5)
+det(day-7, the-6)
+nmod:tmod(save-5, day-7)
+punct(reappear-3, .-8)
+
+Coreference set:
+	(3,1,[1,2]) -> (1,1,[1,2]), that is: "Sam" -> "Sam"
+	(3,15,[15,16]) -> (1,1,[1,2]), that is: "his" -> "Sam"
+	(3,37,[37,38]) -> (1,1,[1,2]), that is: "him" -> "Sam"

@@ -1,152 +1,463 @@
 Sentence #1 (6 tokens):
 Robert Baratheon Cursed The Starks.
-[Text=Robert CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP]
-[Text=Baratheon CharacterOffsetBegin=7 CharacterOffsetEnd=16 PartOfSpeech=NNP]
-[Text=Cursed CharacterOffsetBegin=17 CharacterOffsetEnd=23 PartOfSpeech=NNP]
-[Text=The CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=NNP]
-[Text=Starks CharacterOffsetBegin=28 CharacterOffsetEnd=34 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=.]
+[Text=Robert CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON]
+[Text=Baratheon CharacterOffsetBegin=7 CharacterOffsetEnd=16 PartOfSpeech=NNP Lemma=Baratheon NamedEntityTag=PERSON]
+[Text=Cursed CharacterOffsetBegin=17 CharacterOffsetEnd=23 PartOfSpeech=NNP Lemma=Cursed NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=NNP Lemma=The NamedEntityTag=O]
+[Text=Starks CharacterOffsetBegin=28 CharacterOffsetEnd=34 PartOfSpeech=NNP Lemma=Starks NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP (NNP Robert) (NNP Baratheon) (NNP Cursed) (NNP The) (NNP Starks) (. .)))
+
+root(ROOT-0, Starks-5)
+compound(Starks-5, Robert-1)
+compound(Starks-5, Baratheon-2)
+compound(Starks-5, Cursed-3)
+compound(Starks-5, The-4)
+punct(Starks-5, .-6)
+
 Sentence #2 (16 tokens):
 This one is another entry into the category of super crazy but kind of possible.
-[Text=This CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=DT]
-[Text=one CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=CD]
-[Text=is CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=VBZ]
-[Text=another CharacterOffsetBegin=48 CharacterOffsetEnd=55 PartOfSpeech=DT]
-[Text=entry CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=NN]
-[Text=into CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=DT]
-[Text=category CharacterOffsetBegin=71 CharacterOffsetEnd=79 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=IN]
-[Text=super CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=JJ]
-[Text=crazy CharacterOffsetBegin=89 CharacterOffsetEnd=94 PartOfSpeech=JJ]
-[Text=but CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=CC]
-[Text=kind CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=IN]
-[Text=possible CharacterOffsetBegin=107 CharacterOffsetEnd=115 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=.]
+[Text=This CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=is CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=another CharacterOffsetBegin=48 CharacterOffsetEnd=55 PartOfSpeech=DT Lemma=another NamedEntityTag=O]
+[Text=entry CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=NN Lemma=entry NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=category CharacterOffsetBegin=71 CharacterOffsetEnd=79 PartOfSpeech=NN Lemma=category NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=super CharacterOffsetBegin=83 CharacterOffsetEnd=88 PartOfSpeech=JJ Lemma=super NamedEntityTag=O]
+[Text=crazy CharacterOffsetBegin=89 CharacterOffsetEnd=94 PartOfSpeech=JJ Lemma=crazy NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=kind CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=NN Lemma=kind NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=possible CharacterOffsetBegin=107 CharacterOffsetEnd=115 PartOfSpeech=JJ Lemma=possible NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=115 CharacterOffsetEnd=116 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This) (CD one))
+    (VP (VBZ is)
+      (NP
+        (NP (DT another) (NN entry))
+        (PP (IN into)
+          (NP
+            (NP (DT the) (NN category))
+            (PP (IN of)
+              (NP
+                (NP (JJ super))
+                (ADJP
+                  (ADJP (JJ crazy))
+                  (CC but)
+                  (ADJP
+                    (ADVP (NN kind) (IN of))
+                    (JJ possible)))))))))
+    (. .)))
+
+root(ROOT-0, entry-5)
+det(one-2, This-1)
+nsubj(entry-5, one-2)
+cop(entry-5, is-3)
+det(entry-5, another-4)
+case(category-8, into-6)
+det(category-8, the-7)
+nmod:into(entry-5, category-8)
+case(super-10, of-9)
+nmod:of(category-8, super-10)
+amod(super-10, crazy-11)
+cc(crazy-11, but-12)
+advmod(possible-15, kind-13)
+mwe(kind-13, of-14)
+amod(super-10, possible-15)
+conj:but(crazy-11, possible-15)
+punct(entry-5, .-16)
+
 Sentence #3 (25 tokens):
 According to Reddit user NANAs_mic, in the pilot episode, King Robert Baratheon shows up at Winterfell and the Stark clan greets him.
-[Text=According CharacterOffsetBegin=117 CharacterOffsetEnd=126 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=TO]
-[Text=Reddit CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=NNP]
-[Text=user CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=NN]
-[Text=NANAs_mic CharacterOffsetBegin=142 CharacterOffsetEnd=151 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=,]
-[Text=in CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=DT]
-[Text=pilot CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=NN]
-[Text=episode CharacterOffsetBegin=166 CharacterOffsetEnd=173 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=,]
-[Text=King CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=NNP]
-[Text=Robert CharacterOffsetBegin=180 CharacterOffsetEnd=186 PartOfSpeech=NNP]
-[Text=Baratheon CharacterOffsetBegin=187 CharacterOffsetEnd=196 PartOfSpeech=NNP]
-[Text=shows CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=VBZ]
-[Text=up CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=RP]
-[Text=at CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=IN]
-[Text=Winterfell CharacterOffsetBegin=209 CharacterOffsetEnd=219 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=CC]
-[Text=the CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=DT]
-[Text=Stark CharacterOffsetBegin=228 CharacterOffsetEnd=233 PartOfSpeech=NNP]
-[Text=clan CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=NN]
-[Text=greets CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=VBZ]
-[Text=him CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=.]
+[Text=According CharacterOffsetBegin=117 CharacterOffsetEnd=126 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Reddit CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=NNP Lemma=Reddit NamedEntityTag=LOCATION]
+[Text=user CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=NN Lemma=user NamedEntityTag=O]
+[Text=NANAs_mic CharacterOffsetBegin=142 CharacterOffsetEnd=151 PartOfSpeech=NNP Lemma=NANAs_mic NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=pilot CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=NN Lemma=pilot NamedEntityTag=O]
+[Text=episode CharacterOffsetBegin=166 CharacterOffsetEnd=173 PartOfSpeech=NN Lemma=episode NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text=Robert CharacterOffsetBegin=180 CharacterOffsetEnd=186 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON]
+[Text=Baratheon CharacterOffsetBegin=187 CharacterOffsetEnd=196 PartOfSpeech=NNP Lemma=Baratheon NamedEntityTag=PERSON]
+[Text=shows CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=VBZ Lemma=show NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=Winterfell CharacterOffsetBegin=209 CharacterOffsetEnd=219 PartOfSpeech=NNP Lemma=Winterfell NamedEntityTag=LOCATION]
+[Text=and CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Stark CharacterOffsetBegin=228 CharacterOffsetEnd=233 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text=clan CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=NN Lemma=clan NamedEntityTag=O]
+[Text=greets CharacterOffsetBegin=239 CharacterOffsetEnd=245 PartOfSpeech=VBZ Lemma=greet NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=246 CharacterOffsetEnd=249 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=249 CharacterOffsetEnd=250 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (VBG According)
+      (PP (TO to)
+        (NP (NNP Reddit) (NN user) (NNP NANAs_mic))))
+    (, ,)
+    (S
+      (PP (IN in)
+        (NP (DT the) (NN pilot) (NN episode)))
+      (, ,)
+      (NP (NNP King) (NNP Robert) (NNP Baratheon))
+      (VP (VBZ shows)
+        (PRT (RP up))
+        (PP (IN at)
+          (NP (NNP Winterfell)))))
+    (CC and)
+    (S
+      (NP (DT the) (NNP Stark) (NN clan))
+      (VP (VBZ greets)
+        (NP (PRP him))))
+    (. .)))
+
+root(ROOT-0, shows-15)
+case(NANAs_mic-5, According-1)
+mwe(According-1, to-2)
+compound(NANAs_mic-5, Reddit-3)
+compound(NANAs_mic-5, user-4)
+nmod:according_to(shows-15, NANAs_mic-5)
+punct(shows-15, ,-6)
+case(episode-10, in-7)
+det(episode-10, the-8)
+compound(episode-10, pilot-9)
+nmod:in(shows-15, episode-10)
+punct(shows-15, ,-11)
+compound(Baratheon-14, King-12)
+compound(Baratheon-14, Robert-13)
+nsubj(shows-15, Baratheon-14)
+compound:prt(shows-15, up-16)
+case(Winterfell-18, at-17)
+nmod:at(shows-15, Winterfell-18)
+cc(shows-15, and-19)
+det(clan-22, the-20)
+compound(clan-22, Stark-21)
+nsubj(greets-23, clan-22)
+conj:and(shows-15, greets-23)
+dobj(greets-23, him-24)
+punct(shows-15, .-25)
+
 Sentence #4 (10 tokens):
 The thing is that whoever Robert touched eventually died.
-[Text=The CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=DT]
-[Text=thing CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=IN]
-[Text=whoever CharacterOffsetBegin=269 CharacterOffsetEnd=276 PartOfSpeech=WP]
-[Text=Robert CharacterOffsetBegin=277 CharacterOffsetEnd=283 PartOfSpeech=NNP]
-[Text=touched CharacterOffsetBegin=284 CharacterOffsetEnd=291 PartOfSpeech=VBD]
-[Text=eventually CharacterOffsetBegin=292 CharacterOffsetEnd=302 PartOfSpeech=RB]
-[Text=died CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=VBD]
-[Text=. CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=thing CharacterOffsetBegin=255 CharacterOffsetEnd=260 PartOfSpeech=NN Lemma=thing NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=whoever CharacterOffsetBegin=269 CharacterOffsetEnd=276 PartOfSpeech=WP Lemma=whoever NamedEntityTag=O]
+[Text=Robert CharacterOffsetBegin=277 CharacterOffsetEnd=283 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON]
+[Text=touched CharacterOffsetBegin=284 CharacterOffsetEnd=291 PartOfSpeech=VBD Lemma=touch NamedEntityTag=O]
+[Text=eventually CharacterOffsetBegin=292 CharacterOffsetEnd=302 PartOfSpeech=RB Lemma=eventually NamedEntityTag=O]
+[Text=died CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=VBD Lemma=die NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NN thing))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (SBAR
+            (WHNP (WP whoever))
+            (S
+              (NP (NNP Robert))
+              (VP (VBD touched)
+                (ADVP (RB eventually)))))
+          (VP (VBD died)))))
+    (. .)))
+
+root(ROOT-0, is-3)
+det(thing-2, The-1)
+nsubj(is-3, thing-2)
+mark(died-9, that-4)
+dobj(touched-7, whoever-5)
+nsubj(touched-7, Robert-6)
+csubj(died-9, touched-7)
+advmod(touched-7, eventually-8)
+ccomp(is-3, died-9)
+punct(is-3, .-10)
+
 Sentence #5 (19 tokens):
 That part is fact, but the theory says that Robert had a legitimate cursed touch of death.
-[Text=That CharacterOffsetBegin=309 CharacterOffsetEnd=313 PartOfSpeech=DT]
-[Text=part CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=VBZ]
-[Text=fact CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=326 CharacterOffsetEnd=327 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=CC]
-[Text=the CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=336 CharacterOffsetEnd=342 PartOfSpeech=NN]
-[Text=says CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=IN]
-[Text=Robert CharacterOffsetBegin=353 CharacterOffsetEnd=359 PartOfSpeech=NNP]
-[Text=had CharacterOffsetBegin=360 CharacterOffsetEnd=363 PartOfSpeech=VBD]
-[Text=a CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=DT]
-[Text=legitimate CharacterOffsetBegin=366 CharacterOffsetEnd=376 PartOfSpeech=JJ]
-[Text=cursed CharacterOffsetBegin=377 CharacterOffsetEnd=383 PartOfSpeech=JJ]
-[Text=touch CharacterOffsetBegin=384 CharacterOffsetEnd=389 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=IN]
-[Text=death CharacterOffsetBegin=393 CharacterOffsetEnd=398 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=398 CharacterOffsetEnd=399 PartOfSpeech=.]
+[Text=That CharacterOffsetBegin=309 CharacterOffsetEnd=313 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=part CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=NN Lemma=part NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=319 CharacterOffsetEnd=321 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=fact CharacterOffsetBegin=322 CharacterOffsetEnd=326 PartOfSpeech=NN Lemma=fact NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=326 CharacterOffsetEnd=327 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=336 CharacterOffsetEnd=342 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=says CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Robert CharacterOffsetBegin=353 CharacterOffsetEnd=359 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON]
+[Text=had CharacterOffsetBegin=360 CharacterOffsetEnd=363 PartOfSpeech=VBD Lemma=have NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=364 CharacterOffsetEnd=365 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=legitimate CharacterOffsetBegin=366 CharacterOffsetEnd=376 PartOfSpeech=JJ Lemma=legitimate NamedEntityTag=O]
+[Text=cursed CharacterOffsetBegin=377 CharacterOffsetEnd=383 PartOfSpeech=JJ Lemma=cursed NamedEntityTag=O]
+[Text=touch CharacterOffsetBegin=384 CharacterOffsetEnd=389 PartOfSpeech=NN Lemma=touch NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=death CharacterOffsetBegin=393 CharacterOffsetEnd=398 PartOfSpeech=NN Lemma=death NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=398 CharacterOffsetEnd=399 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (DT That) (NN part))
+      (VP (VBZ is)
+        (NP (NN fact))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (DT the) (NN theory))
+      (VP (VBZ says)
+        (SBAR (IN that)
+          (S
+            (NP (NNP Robert))
+            (VP (VBD had)
+              (NP
+                (NP (DT a) (JJ legitimate) (JJ cursed) (NN touch))
+                (PP (IN of)
+                  (NP (NN death)))))))))
+    (. .)))
+
+root(ROOT-0, fact-4)
+det(part-2, That-1)
+nsubj(fact-4, part-2)
+cop(fact-4, is-3)
+punct(fact-4, ,-5)
+cc(fact-4, but-6)
+det(theory-8, the-7)
+nsubj(says-9, theory-8)
+conj:but(fact-4, says-9)
+mark(had-12, that-10)
+nsubj(had-12, Robert-11)
+ccomp(says-9, had-12)
+det(touch-16, a-13)
+amod(touch-16, legitimate-14)
+amod(touch-16, cursed-15)
+dobj(had-12, touch-16)
+case(death-18, of-17)
+nmod:of(touch-16, death-18)
+punct(fact-4, .-19)
+
 Sentence #6 (23 tokens):
 Of course, he didn't touch Sansa or Bran and Jon wasn't allowed to stand with them (#bastardproblems).
-[Text=Of CharacterOffsetBegin=400 CharacterOffsetEnd=402 PartOfSpeech=IN]
-[Text=course CharacterOffsetBegin=403 CharacterOffsetEnd=409 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=409 CharacterOffsetEnd=410 PartOfSpeech=,]
-[Text=he CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=PRP]
-[Text=did CharacterOffsetBegin=414 CharacterOffsetEnd=417 PartOfSpeech=VBD]
-[Text=n't CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=RB]
-[Text=touch CharacterOffsetBegin=421 CharacterOffsetEnd=426 PartOfSpeech=VB]
-[Text=Sansa CharacterOffsetBegin=427 CharacterOffsetEnd=432 PartOfSpeech=NNP]
-[Text=or CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=CC]
-[Text=Bran CharacterOffsetBegin=436 CharacterOffsetEnd=440 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=CC]
-[Text=Jon CharacterOffsetBegin=445 CharacterOffsetEnd=448 PartOfSpeech=NNP]
-[Text=was CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=VBD]
-[Text=n't CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=RB]
-[Text=allowed CharacterOffsetBegin=456 CharacterOffsetEnd=463 PartOfSpeech=VBN]
-[Text=to CharacterOffsetBegin=464 CharacterOffsetEnd=466 PartOfSpeech=TO]
-[Text=stand CharacterOffsetBegin=467 CharacterOffsetEnd=472 PartOfSpeech=VB]
-[Text=with CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=IN]
-[Text=them CharacterOffsetBegin=478 CharacterOffsetEnd=482 PartOfSpeech=PRP]
-[Text=-LRB- CharacterOffsetBegin=483 CharacterOffsetEnd=484 PartOfSpeech=-LRB-]
-[Text=#bastardproblems CharacterOffsetBegin=484 CharacterOffsetEnd=500 PartOfSpeech=NNS]
-[Text=-RRB- CharacterOffsetBegin=500 CharacterOffsetEnd=501 PartOfSpeech=-RRB-]
-[Text=. CharacterOffsetBegin=501 CharacterOffsetEnd=502 PartOfSpeech=.]
+[Text=Of CharacterOffsetBegin=400 CharacterOffsetEnd=402 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=course CharacterOffsetBegin=403 CharacterOffsetEnd=409 PartOfSpeech=NN Lemma=course NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=409 CharacterOffsetEnd=410 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=414 CharacterOffsetEnd=417 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=touch CharacterOffsetBegin=421 CharacterOffsetEnd=426 PartOfSpeech=VB Lemma=touch NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=427 CharacterOffsetEnd=432 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=436 CharacterOffsetEnd=440 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=445 CharacterOffsetEnd=448 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=was CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=allowed CharacterOffsetBegin=456 CharacterOffsetEnd=463 PartOfSpeech=VBN Lemma=allow NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=464 CharacterOffsetEnd=466 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=stand CharacterOffsetBegin=467 CharacterOffsetEnd=472 PartOfSpeech=VB Lemma=stand NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=them CharacterOffsetBegin=478 CharacterOffsetEnd=482 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=483 CharacterOffsetEnd=484 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=#bastardproblems CharacterOffsetBegin=484 CharacterOffsetEnd=500 PartOfSpeech=NNS Lemma=#bastardproblems NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=500 CharacterOffsetEnd=501 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=501 CharacterOffsetEnd=502 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN Of)
+      (NP (NN course)))
+    (, ,)
+    (S
+      (NP (PRP he))
+      (VP (VBD did) (RB n't)
+        (VP (VB touch)
+          (NP (NNP Sansa)
+            (CC or)
+            (NNP Bran)))))
+    (CC and)
+    (S
+      (NP (NNP Jon))
+      (VP (VBD was) (RB n't)
+        (VP (VBN allowed)
+          (S
+            (VP (TO to)
+              (VP (VB stand)
+                (PP (IN with)
+                  (NP
+                    (NP (PRP them))
+                    (PRN (-LRB- -LRB-)
+                      (NP (NNS #bastardproblems))
+                      (-RRB- -RRB-))))))))))
+    (. .)))
+
+root(ROOT-0, touch-7)
+case(course-2, Of-1)
+nmod:of(touch-7, course-2)
+punct(touch-7, ,-3)
+nsubj(touch-7, he-4)
+aux(touch-7, did-5)
+neg(touch-7, n't-6)
+dobj(touch-7, Sansa-8)
+cc(Sansa-8, or-9)
+dobj(touch-7, Bran-10)
+conj:or(Sansa-8, Bran-10)
+cc(touch-7, and-11)
+nsubjpass(allowed-15, Jon-12)
+nsubj:xsubj(stand-17, Jon-12)
+auxpass(allowed-15, was-13)
+neg(allowed-15, n't-14)
+conj:and(touch-7, allowed-15)
+mark(stand-17, to-16)
+xcomp(allowed-15, stand-17)
+case(them-19, with-18)
+nmod:with(stand-17, them-19)
+punct(#bastardproblems-21, -LRB--20)
+appos(them-19, #bastardproblems-21)
+punct(#bastardproblems-21, -RRB--22)
+punct(touch-7, .-23)
+
 Sentence #7 (7 tokens):
 Those three are still kickin'.
-[Text=Those CharacterOffsetBegin=503 CharacterOffsetEnd=508 PartOfSpeech=DT]
-[Text=three CharacterOffsetBegin=509 CharacterOffsetEnd=514 PartOfSpeech=CD]
-[Text=are CharacterOffsetBegin=515 CharacterOffsetEnd=518 PartOfSpeech=VBP]
-[Text=still CharacterOffsetBegin=519 CharacterOffsetEnd=524 PartOfSpeech=RB]
-[Text=kickin CharacterOffsetBegin=525 CharacterOffsetEnd=531 PartOfSpeech=VBG]
-[Text=' CharacterOffsetBegin=531 CharacterOffsetEnd=532 PartOfSpeech='']
-[Text=. CharacterOffsetBegin=532 CharacterOffsetEnd=533 PartOfSpeech=.]
+[Text=Those CharacterOffsetBegin=503 CharacterOffsetEnd=508 PartOfSpeech=DT Lemma=those NamedEntityTag=O]
+[Text=three CharacterOffsetBegin=509 CharacterOffsetEnd=514 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0]
+[Text=are CharacterOffsetBegin=515 CharacterOffsetEnd=518 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=still CharacterOffsetBegin=519 CharacterOffsetEnd=524 PartOfSpeech=RB Lemma=still NamedEntityTag=O]
+[Text=kickin CharacterOffsetBegin=525 CharacterOffsetEnd=531 PartOfSpeech=VBG Lemma=kickin NamedEntityTag=O]
+[Text=' CharacterOffsetBegin=531 CharacterOffsetEnd=532 PartOfSpeech='' Lemma=' NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=532 CharacterOffsetEnd=533 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT Those) (CD three))
+    (VP (VBP are)
+      (ADVP (RB still))
+      (VP (VBG kickin)))
+    ('' ') (. .)))
+
+root(ROOT-0, kickin-5)
+det(three-2, Those-1)
+nsubj(kickin-5, three-2)
+aux(kickin-5, are-3)
+advmod(kickin-5, still-4)
+punct(kickin-5, '-6)
+punct(kickin-5, .-7)
+
 Sentence #8 (30 tokens):
 Well I don't necessarily think that Robert had a cursed touch of death, it is kind of weird that everyone he laid a finger on is gone.
-[Text=Well CharacterOffsetBegin=534 CharacterOffsetEnd=538 PartOfSpeech=UH]
-[Text=I CharacterOffsetBegin=539 CharacterOffsetEnd=540 PartOfSpeech=PRP]
-[Text=do CharacterOffsetBegin=541 CharacterOffsetEnd=543 PartOfSpeech=VBP]
-[Text=n't CharacterOffsetBegin=543 CharacterOffsetEnd=546 PartOfSpeech=RB]
-[Text=necessarily CharacterOffsetBegin=547 CharacterOffsetEnd=558 PartOfSpeech=RB]
-[Text=think CharacterOffsetBegin=559 CharacterOffsetEnd=564 PartOfSpeech=VB]
-[Text=that CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=IN]
-[Text=Robert CharacterOffsetBegin=570 CharacterOffsetEnd=576 PartOfSpeech=NNP]
-[Text=had CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=VBD]
-[Text=a CharacterOffsetBegin=581 CharacterOffsetEnd=582 PartOfSpeech=DT]
-[Text=cursed CharacterOffsetBegin=583 CharacterOffsetEnd=589 PartOfSpeech=JJ]
-[Text=touch CharacterOffsetBegin=590 CharacterOffsetEnd=595 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=IN]
-[Text=death CharacterOffsetBegin=599 CharacterOffsetEnd=604 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=604 CharacterOffsetEnd=605 PartOfSpeech=,]
-[Text=it CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=PRP]
-[Text=is CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=VBZ]
-[Text=kind CharacterOffsetBegin=612 CharacterOffsetEnd=616 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=617 CharacterOffsetEnd=619 PartOfSpeech=IN]
-[Text=weird CharacterOffsetBegin=620 CharacterOffsetEnd=625 PartOfSpeech=JJ]
-[Text=that CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=IN]
-[Text=everyone CharacterOffsetBegin=631 CharacterOffsetEnd=639 PartOfSpeech=NN]
-[Text=he CharacterOffsetBegin=640 CharacterOffsetEnd=642 PartOfSpeech=PRP]
-[Text=laid CharacterOffsetBegin=643 CharacterOffsetEnd=647 PartOfSpeech=VBD]
-[Text=a CharacterOffsetBegin=648 CharacterOffsetEnd=649 PartOfSpeech=DT]
-[Text=finger CharacterOffsetBegin=650 CharacterOffsetEnd=656 PartOfSpeech=NN]
-[Text=on CharacterOffsetBegin=657 CharacterOffsetEnd=659 PartOfSpeech=IN]
-[Text=is CharacterOffsetBegin=660 CharacterOffsetEnd=662 PartOfSpeech=VBZ]
-[Text=gone CharacterOffsetBegin=663 CharacterOffsetEnd=667 PartOfSpeech=VBN]
-[Text=. CharacterOffsetBegin=667 CharacterOffsetEnd=668 PartOfSpeech=.]
+[Text=Well CharacterOffsetBegin=534 CharacterOffsetEnd=538 PartOfSpeech=UH Lemma=well NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=539 CharacterOffsetEnd=540 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=541 CharacterOffsetEnd=543 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=543 CharacterOffsetEnd=546 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=necessarily CharacterOffsetBegin=547 CharacterOffsetEnd=558 PartOfSpeech=RB Lemma=necessarily NamedEntityTag=O]
+[Text=think CharacterOffsetBegin=559 CharacterOffsetEnd=564 PartOfSpeech=VB Lemma=think NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Robert CharacterOffsetBegin=570 CharacterOffsetEnd=576 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON]
+[Text=had CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=VBD Lemma=have NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=581 CharacterOffsetEnd=582 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=cursed CharacterOffsetBegin=583 CharacterOffsetEnd=589 PartOfSpeech=JJ Lemma=cursed NamedEntityTag=O]
+[Text=touch CharacterOffsetBegin=590 CharacterOffsetEnd=595 PartOfSpeech=NN Lemma=touch NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=death CharacterOffsetBegin=599 CharacterOffsetEnd=604 PartOfSpeech=NN Lemma=death NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=604 CharacterOffsetEnd=605 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=kind CharacterOffsetBegin=612 CharacterOffsetEnd=616 PartOfSpeech=NN Lemma=kind NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=617 CharacterOffsetEnd=619 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=weird CharacterOffsetBegin=620 CharacterOffsetEnd=625 PartOfSpeech=JJ Lemma=weird NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=626 CharacterOffsetEnd=630 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=everyone CharacterOffsetBegin=631 CharacterOffsetEnd=639 PartOfSpeech=NN Lemma=everyone NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=640 CharacterOffsetEnd=642 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=laid CharacterOffsetBegin=643 CharacterOffsetEnd=647 PartOfSpeech=VBD Lemma=lay NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=648 CharacterOffsetEnd=649 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=finger CharacterOffsetBegin=650 CharacterOffsetEnd=656 PartOfSpeech=NN Lemma=finger NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=657 CharacterOffsetEnd=659 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=660 CharacterOffsetEnd=662 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=gone CharacterOffsetBegin=663 CharacterOffsetEnd=667 PartOfSpeech=VBN Lemma=go NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=667 CharacterOffsetEnd=668 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (INTJ (UH Well))
+      (NP (PRP I))
+      (VP (VBP do) (RB n't)
+        (ADVP (RB necessarily))
+        (VP (VB think)
+          (SBAR (IN that)
+            (S
+              (NP (NNP Robert))
+              (VP (VBD had)
+                (NP
+                  (NP (DT a) (JJ cursed) (NN touch))
+                  (PP (IN of)
+                    (NP (NN death))))))))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ is)
+      (ADJP
+        (ADVP (NN kind) (IN of))
+        (JJ weird))
+      (SBAR (IN that)
+        (S
+          (NP
+            (NP (NN everyone))
+            (SBAR
+              (S
+                (NP (PRP he))
+                (VP (VBD laid)
+                  (NP (DT a) (NN finger))
+                  (PP (IN on))))))
+          (VP (VBZ is)
+            (VP (VBN gone))))))
+    (. .)))
+
+root(ROOT-0, weird-20)
+discourse(think-6, Well-1)
+nsubj(think-6, I-2)
+aux(think-6, do-3)
+neg(think-6, n't-4)
+advmod(think-6, necessarily-5)
+ccomp(weird-20, think-6)
+mark(had-9, that-7)
+nsubj(had-9, Robert-8)
+ccomp(think-6, had-9)
+det(touch-12, a-10)
+amod(touch-12, cursed-11)
+dobj(had-9, touch-12)
+case(death-14, of-13)
+nmod:of(touch-12, death-14)
+punct(weird-20, ,-15)
+nsubj(weird-20, it-16)
+cop(weird-20, is-17)
+advmod(weird-20, kind-18)
+mwe(kind-18, of-19)
+mark(gone-29, that-21)
+nsubjpass(gone-29, everyone-22)
+nsubj(laid-24, he-23)
+acl:relcl(everyone-22, laid-24)
+det(finger-26, a-25)
+dobj(laid-24, finger-26)
+nmod(laid-24, on-27)
+auxpass(gone-29, is-28)
+ccomp(weird-20, gone-29)
+punct(weird-20, .-30)
+
+Coreference set:
+	(1,2,[1,3]) -> (3,14,[12,15]), that is: "Robert Baratheon" -> "King Robert Baratheon"
+	(4,6,[6,7]) -> (3,14,[12,15]), that is: "Robert" -> "King Robert Baratheon"
+	(5,11,[11,12]) -> (3,14,[12,15]), that is: "Robert" -> "King Robert Baratheon"
+	(6,4,[4,5]) -> (3,14,[12,15]), that is: "he" -> "King Robert Baratheon"
+	(8,8,[8,9]) -> (3,14,[12,15]), that is: "Robert" -> "King Robert Baratheon"
+	(8,23,[23,24]) -> (3,14,[12,15]), that is: "he" -> "King Robert Baratheon"
+Coreference set:
+	(3,24,[24,25]) -> (3,5,[3,6]), that is: "him" -> "Reddit user NANAs_mic"
+Coreference set:
+	(6,19,[19,23]) -> (6,8,[8,11]), that is: "them -LRB- #bastardproblems -RRB-" -> "Sansa or Bran"

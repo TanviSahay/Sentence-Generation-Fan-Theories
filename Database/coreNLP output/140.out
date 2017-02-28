@@ -1,79 +1,243 @@
 Sentence #1 (2 tokens):
 Cleganebowl!
-[Text=Cleganebowl CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=NN]
-[Text=! CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=.]
+[Text=Cleganebowl CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=NN Lemma=cleganebowl NamedEntityTag=O]
+[Text=! CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=. Lemma=! NamedEntityTag=O]
+(ROOT
+  (NP (NN Cleganebowl) (. !)))
+
+root(ROOT-0, Cleganebowl-1)
+punct(Cleganebowl-1, !-2)
+
 Sentence #2 (44 tokens):
 If the Hound did survive his battle with Brienne, that would give weight to the popular fan theory that suggests Sandor Clegane (The Hound) and his brother Gregor Clegane (The Mountain) will face each other at some point.
-[Text=If CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=DT]
-[Text=Hound CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NNP]
-[Text=did CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=VBD]
-[Text=survive CharacterOffsetBegin=31 CharacterOffsetEnd=38 PartOfSpeech=VB]
-[Text=his CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=PRP$]
-[Text=battle CharacterOffsetBegin=43 CharacterOffsetEnd=49 PartOfSpeech=NN]
-[Text=with CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=IN]
-[Text=Brienne CharacterOffsetBegin=55 CharacterOffsetEnd=62 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=,]
-[Text=that CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=WDT]
-[Text=would CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=MD]
-[Text=give CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=VB]
-[Text=weight CharacterOffsetBegin=80 CharacterOffsetEnd=86 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=DT]
-[Text=popular CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=JJ]
-[Text=fan CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=NN]
-[Text=theory CharacterOffsetBegin=106 CharacterOffsetEnd=112 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=WDT]
-[Text=suggests CharacterOffsetBegin=118 CharacterOffsetEnd=126 PartOfSpeech=VBZ]
-[Text=Sandor CharacterOffsetBegin=127 CharacterOffsetEnd=133 PartOfSpeech=NNP]
-[Text=Clegane CharacterOffsetBegin=134 CharacterOffsetEnd=141 PartOfSpeech=NNP]
-[Text=-LRB- CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=-LRB-]
-[Text=The CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=DT]
-[Text=Hound CharacterOffsetBegin=147 CharacterOffsetEnd=152 PartOfSpeech=NNP]
-[Text=-RRB- CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=-RRB-]
-[Text=and CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=CC]
-[Text=his CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=PRP$]
-[Text=brother CharacterOffsetBegin=162 CharacterOffsetEnd=169 PartOfSpeech=NN]
-[Text=Gregor CharacterOffsetBegin=170 CharacterOffsetEnd=176 PartOfSpeech=NNP]
-[Text=Clegane CharacterOffsetBegin=177 CharacterOffsetEnd=184 PartOfSpeech=NNP]
-[Text=-LRB- CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=-LRB-]
-[Text=The CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=NNP]
-[Text=Mountain CharacterOffsetBegin=190 CharacterOffsetEnd=198 PartOfSpeech=NNP]
-[Text=-RRB- CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=-RRB-]
-[Text=will CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=MD]
-[Text=face CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=VB]
-[Text=each CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=DT]
-[Text=other CharacterOffsetBegin=215 CharacterOffsetEnd=220 PartOfSpeech=JJ]
-[Text=at CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=IN]
-[Text=some CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=DT]
-[Text=point CharacterOffsetBegin=229 CharacterOffsetEnd=234 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=.]
+[Text=If CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Hound CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NNP Lemma=Hound NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=survive CharacterOffsetBegin=31 CharacterOffsetEnd=38 PartOfSpeech=VB Lemma=survive NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=battle CharacterOffsetBegin=43 CharacterOffsetEnd=49 PartOfSpeech=NN Lemma=battle NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=Brienne CharacterOffsetBegin=55 CharacterOffsetEnd=62 PartOfSpeech=NNP Lemma=Brienne NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=69 CharacterOffsetEnd=74 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=give CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=VB Lemma=give NamedEntityTag=O]
+[Text=weight CharacterOffsetBegin=80 CharacterOffsetEnd=86 PartOfSpeech=NN Lemma=weight NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=popular CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=JJ Lemma=popular NamedEntityTag=O]
+[Text=fan CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=NN Lemma=fan NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=106 CharacterOffsetEnd=112 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=suggests CharacterOffsetBegin=118 CharacterOffsetEnd=126 PartOfSpeech=VBZ Lemma=suggest NamedEntityTag=O]
+[Text=Sandor CharacterOffsetBegin=127 CharacterOffsetEnd=133 PartOfSpeech=NNP Lemma=Sandor NamedEntityTag=PERSON]
+[Text=Clegane CharacterOffsetBegin=134 CharacterOffsetEnd=141 PartOfSpeech=NNP Lemma=Clegane NamedEntityTag=PERSON]
+[Text=-LRB- CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=143 CharacterOffsetEnd=146 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Hound CharacterOffsetBegin=147 CharacterOffsetEnd=152 PartOfSpeech=NNP Lemma=Hound NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=152 CharacterOffsetEnd=153 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=brother CharacterOffsetBegin=162 CharacterOffsetEnd=169 PartOfSpeech=NN Lemma=brother NamedEntityTag=O]
+[Text=Gregor CharacterOffsetBegin=170 CharacterOffsetEnd=176 PartOfSpeech=NNP Lemma=Gregor NamedEntityTag=PERSON]
+[Text=Clegane CharacterOffsetBegin=177 CharacterOffsetEnd=184 PartOfSpeech=NNP Lemma=Clegane NamedEntityTag=PERSON]
+[Text=-LRB- CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=NNP Lemma=The NamedEntityTag=O]
+[Text=Mountain CharacterOffsetBegin=190 CharacterOffsetEnd=198 PartOfSpeech=NNP Lemma=Mountain NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=face CharacterOffsetBegin=205 CharacterOffsetEnd=209 PartOfSpeech=VB Lemma=face NamedEntityTag=O]
+[Text=each CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=DT Lemma=each NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=215 CharacterOffsetEnd=220 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=some CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=point CharacterOffsetBegin=229 CharacterOffsetEnd=234 PartOfSpeech=NN Lemma=point NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (DT the) (NNP Hound))
+        (VP (VBD did)
+          (VP (VB survive)
+            (NP (PRP$ his) (NN battle))
+            (PP (IN with)
+              (NP
+                (NP (NNP Brienne))
+                (, ,)
+                (SBAR
+                  (WHNP (WDT that))
+                  (S
+                    (VP (MD would)
+                      (VP (VB give)
+                        (NP (NN weight))
+                        (PP (TO to)
+                          (NP
+                            (NP (DT the) (JJ popular) (NN fan) (NN theory))
+                            (SBAR
+                              (WHNP (WDT that))
+                              (S
+                                (VP (VBZ suggests)
+                                  (NP
+                                    (NP (NNP Sandor) (NNP Clegane))
+                                    (PRN (-LRB- -LRB-)
+                                      (NP (DT The) (NNP Hound))
+                                      (-RRB- -RRB-))
+                                    (CC and)
+                                    (NP (PRP$ his) (NN brother))))))))))))))))))
+    (NP
+      (NP (NNP Gregor) (NNP Clegane))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP The) (NNP Mountain))
+        (-RRB- -RRB-)))
+    (VP (MD will)
+      (VP (VB face)
+        (NP (DT each) (JJ other))
+        (PP (IN at)
+          (NP (DT some) (NN point)))))
+    (. .)))
+
+root(ROOT-0, face-38)
+mark(survive-5, If-1)
+det(Hound-3, the-2)
+nsubj(survive-5, Hound-3)
+aux(survive-5, did-4)
+advcl:if(face-38, survive-5)
+nmod:poss(battle-7, his-6)
+dobj(survive-5, battle-7)
+case(Brienne-9, with-8)
+nmod:with(survive-5, Brienne-9)
+nsubj(give-13, Brienne-9)
+punct(Brienne-9, ,-10)
+ref(Brienne-9, that-11)
+aux(give-13, would-12)
+acl:relcl(Brienne-9, give-13)
+dobj(give-13, weight-14)
+case(theory-19, to-15)
+det(theory-19, the-16)
+amod(theory-19, popular-17)
+compound(theory-19, fan-18)
+nmod:to(give-13, theory-19)
+nsubj(suggests-21, theory-19)
+ref(theory-19, that-20)
+acl:relcl(theory-19, suggests-21)
+compound(Clegane-23, Sandor-22)
+dobj(suggests-21, Clegane-23)
+punct(Hound-26, -LRB--24)
+det(Hound-26, The-25)
+appos(Clegane-23, Hound-26)
+punct(Hound-26, -RRB--27)
+cc(Clegane-23, and-28)
+nmod:poss(brother-30, his-29)
+dobj(suggests-21, brother-30)
+conj:and(Clegane-23, brother-30)
+compound(Clegane-32, Gregor-31)
+nsubj(face-38, Clegane-32)
+punct(Mountain-35, -LRB--33)
+compound(Mountain-35, The-34)
+appos(Clegane-32, Mountain-35)
+punct(Mountain-35, -RRB--36)
+aux(face-38, will-37)
+det(other-40, each-39)
+dobj(face-38, other-40)
+case(point-43, at-41)
+det(point-43, some-42)
+nmod:at(face-38, point-43)
+punct(face-38, .-44)
+
 Sentence #3 (27 tokens):
 The fact that the Mountain has risen again only fuels this theory more ... though the exact circumstances of such a fight remain anyone's guess.
-[Text=The CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=DT]
-[Text=fact CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=DT]
-[Text=Mountain CharacterOffsetBegin=255 CharacterOffsetEnd=263 PartOfSpeech=NNP]
-[Text=has CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=VBZ]
-[Text=risen CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=VBN]
-[Text=again CharacterOffsetBegin=274 CharacterOffsetEnd=279 PartOfSpeech=RB]
-[Text=only CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=RB]
-[Text=fuels CharacterOffsetBegin=285 CharacterOffsetEnd=290 PartOfSpeech=NNS]
-[Text=this CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=NN]
-[Text=more CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=RBR]
-[Text=... CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=:]
-[Text=though CharacterOffsetBegin=312 CharacterOffsetEnd=318 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=DT]
-[Text=exact CharacterOffsetBegin=323 CharacterOffsetEnd=328 PartOfSpeech=JJ]
-[Text=circumstances CharacterOffsetBegin=329 CharacterOffsetEnd=342 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=IN]
-[Text=such CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=PDT]
-[Text=a CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=DT]
-[Text=fight CharacterOffsetBegin=353 CharacterOffsetEnd=358 PartOfSpeech=NN]
-[Text=remain CharacterOffsetBegin=359 CharacterOffsetEnd=365 PartOfSpeech=VBP]
-[Text=anyone CharacterOffsetBegin=366 CharacterOffsetEnd=372 PartOfSpeech=NN]
-[Text='s CharacterOffsetBegin=372 CharacterOffsetEnd=374 PartOfSpeech=POS]
-[Text=guess CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=380 CharacterOffsetEnd=381 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=fact CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=NN Lemma=fact NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=246 CharacterOffsetEnd=250 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=251 CharacterOffsetEnd=254 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mountain CharacterOffsetBegin=255 CharacterOffsetEnd=263 PartOfSpeech=NNP Lemma=Mountain NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=risen CharacterOffsetBegin=268 CharacterOffsetEnd=273 PartOfSpeech=VBN Lemma=rise NamedEntityTag=O]
+[Text=again CharacterOffsetBegin=274 CharacterOffsetEnd=279 PartOfSpeech=RB Lemma=again NamedEntityTag=O]
+[Text=only CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=RB Lemma=only NamedEntityTag=O]
+[Text=fuels CharacterOffsetBegin=285 CharacterOffsetEnd=290 PartOfSpeech=NNS Lemma=fuel NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=RBR Lemma=more NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=308 CharacterOffsetEnd=311 PartOfSpeech=: Lemma=... NamedEntityTag=O]
+[Text=though CharacterOffsetBegin=312 CharacterOffsetEnd=318 PartOfSpeech=IN Lemma=though NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=exact CharacterOffsetBegin=323 CharacterOffsetEnd=328 PartOfSpeech=JJ Lemma=exact NamedEntityTag=O]
+[Text=circumstances CharacterOffsetBegin=329 CharacterOffsetEnd=342 PartOfSpeech=NNS Lemma=circumstance NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=343 CharacterOffsetEnd=345 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=PDT Lemma=such NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=351 CharacterOffsetEnd=352 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=fight CharacterOffsetBegin=353 CharacterOffsetEnd=358 PartOfSpeech=NN Lemma=fight NamedEntityTag=O]
+[Text=remain CharacterOffsetBegin=359 CharacterOffsetEnd=365 PartOfSpeech=VBP Lemma=remain NamedEntityTag=O]
+[Text=anyone CharacterOffsetBegin=366 CharacterOffsetEnd=372 PartOfSpeech=NN Lemma=anyone NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=372 CharacterOffsetEnd=374 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=guess CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=NN Lemma=guess NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=380 CharacterOffsetEnd=381 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP (DT The) (NN fact)
+    (SBAR
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NNP Mountain))
+          (VP (VBZ has)
+            (VP (VBN risen)
+              (PP
+                (ADVP (RB again))
+                (RB only)
+                (NP
+                  (NP (NNS fuels))
+                  (ADVP
+                    (NP (DT this) (NN theory))
+                    (RBR more))))))))
+      (: ...)
+      (SBAR (IN though)
+        (S
+          (NP
+            (NP (DT the) (JJ exact) (NNS circumstances))
+            (PP (IN of)
+              (NP (PDT such) (DT a) (NN fight))))
+          (VP (VBP remain)
+            (NP
+              (NP (NN anyone) (POS 's))
+              (NN guess))))))
+    (. .)))
+
+root(ROOT-0, fact-2)
+det(fact-2, The-1)
+mark(risen-7, that-3)
+det(Mountain-5, the-4)
+nsubj(risen-7, Mountain-5)
+aux(risen-7, has-6)
+ccomp(fact-2, risen-7)
+advmod(fuels-10, again-8)
+advmod(fuels-10, only-9)
+nmod(risen-7, fuels-10)
+det(theory-12, this-11)
+nmod:npmod(more-13, theory-12)
+advmod(fuels-10, more-13)
+punct(risen-7, ...-14)
+mark(remain-23, though-15)
+det(circumstances-18, the-16)
+amod(circumstances-18, exact-17)
+nsubj(remain-23, circumstances-18)
+case(fight-22, of-19)
+det:predet(fight-22, such-20)
+det(fight-22, a-21)
+nmod:of(circumstances-18, fight-22)
+dep(risen-7, remain-23)
+nmod:poss(guess-26, anyone-24)
+case(anyone-24, 's-25)
+xcomp(remain-23, guess-26)
+punct(fact-2, .-27)
+
+Coreference set:
+	(2,6,[6,7]) -> (1,1,[1,3]), that is: "his" -> "Cleganebowl !"
+	(2,29,[29,30]) -> (1,1,[1,3]), that is: "his" -> "Cleganebowl !"
+Coreference set:
+	(2,26,[25,27]) -> (2,3,[2,4]), that is: "The Hound" -> "the Hound"
+Coreference set:
+	(3,12,[11,13]) -> (2,19,[16,31]), that is: "this theory" -> "the popular fan theory that suggests Sandor Clegane -LRB- The Hound -RRB- and his brother"
+Coreference set:
+	(3,5,[4,6]) -> (2,35,[34,36]), that is: "the Mountain" -> "The Mountain"

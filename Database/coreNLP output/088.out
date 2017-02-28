@@ -1,86 +1,272 @@
-Sentence #1 (48 tokens):
-Lady Stoneheart coming
+Sentence #1 (4 tokens):
+Lady Stoneheart coming.
+[Text=Lady CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NN Lemma=lady NamedEntityTag=O]
+[Text=Stoneheart CharacterOffsetBegin=5 CharacterOffsetEnd=15 PartOfSpeech=NNP Lemma=Stoneheart NamedEntityTag=O]
+[Text=coming CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=VBG Lemma=come NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP
+    (NP (NN Lady) (NNP Stoneheart))
+    (VP (VBG coming))
+    (. .)))
+
+root(ROOT-0, Stoneheart-2)
+compound(Stoneheart-2, Lady-1)
+acl(Stoneheart-2, coming-3)
+punct(Stoneheart-2, .-4)
+
+Sentence #2 (45 tokens):
 It's thought that the resurrected Catelyn Stark was not included in previous seasons so that the return of Jon Snow would have weight -- if resurrections are going on all over the place then it sorta takes away from the novelty of it.
-[Text=Lady CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NN]
-[Text=Stoneheart CharacterOffsetBegin=5 CharacterOffsetEnd=15 PartOfSpeech=NNP]
-[Text=coming CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=VBG]
-[Text=It CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=VBZ]
-[Text=thought CharacterOffsetBegin=28 CharacterOffsetEnd=35 PartOfSpeech=VBN]
-[Text=that CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=DT]
-[Text=resurrected CharacterOffsetBegin=45 CharacterOffsetEnd=56 PartOfSpeech=VBN]
-[Text=Catelyn CharacterOffsetBegin=57 CharacterOffsetEnd=64 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=65 CharacterOffsetEnd=70 PartOfSpeech=NNP]
-[Text=was CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=VBD]
-[Text=not CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=RB]
-[Text=included CharacterOffsetBegin=79 CharacterOffsetEnd=87 PartOfSpeech=VBN]
-[Text=in CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=IN]
-[Text=previous CharacterOffsetBegin=91 CharacterOffsetEnd=99 PartOfSpeech=JJ]
-[Text=seasons CharacterOffsetBegin=100 CharacterOffsetEnd=107 PartOfSpeech=NNS]
-[Text=so CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=IN]
-[Text=that CharacterOffsetBegin=111 CharacterOffsetEnd=115 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=DT]
-[Text=return CharacterOffsetBegin=120 CharacterOffsetEnd=126 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=IN]
-[Text=Jon CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=NNP]
-[Text=would CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=MD]
-[Text=have CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=VB]
-[Text=weight CharacterOffsetBegin=150 CharacterOffsetEnd=156 PartOfSpeech=NN]
-[Text=-- CharacterOffsetBegin=157 CharacterOffsetEnd=159 PartOfSpeech=:]
-[Text=if CharacterOffsetBegin=160 CharacterOffsetEnd=162 PartOfSpeech=IN]
-[Text=resurrections CharacterOffsetBegin=163 CharacterOffsetEnd=176 PartOfSpeech=NNS]
-[Text=are CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=VBP]
-[Text=going CharacterOffsetBegin=181 CharacterOffsetEnd=186 PartOfSpeech=VBG]
-[Text=on CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=IN]
-[Text=all CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=DT]
-[Text=over CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=199 CharacterOffsetEnd=202 PartOfSpeech=DT]
-[Text=place CharacterOffsetBegin=203 CharacterOffsetEnd=208 PartOfSpeech=NN]
-[Text=then CharacterOffsetBegin=209 CharacterOffsetEnd=213 PartOfSpeech=RB]
-[Text=it CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=PRP]
-[Text=sorta CharacterOffsetBegin=217 CharacterOffsetEnd=222 PartOfSpeech=NN]
-[Text=takes CharacterOffsetBegin=223 CharacterOffsetEnd=228 PartOfSpeech=VBZ]
-[Text=away CharacterOffsetBegin=229 CharacterOffsetEnd=233 PartOfSpeech=RP]
-[Text=from CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=DT]
-[Text=novelty CharacterOffsetBegin=243 CharacterOffsetEnd=250 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=251 CharacterOffsetEnd=253 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=254 CharacterOffsetEnd=256 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=.]
-Sentence #2 (33 tokens):
+[Text=It CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=thought CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=VBN Lemma=think NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=resurrected CharacterOffsetBegin=46 CharacterOffsetEnd=57 PartOfSpeech=VBN Lemma=resurrect NamedEntityTag=O]
+[Text=Catelyn CharacterOffsetBegin=58 CharacterOffsetEnd=65 PartOfSpeech=NNP Lemma=Catelyn NamedEntityTag=O]
+[Text=Stark CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=included CharacterOffsetBegin=80 CharacterOffsetEnd=88 PartOfSpeech=VBN Lemma=include NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=89 CharacterOffsetEnd=91 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=previous CharacterOffsetBegin=92 CharacterOffsetEnd=100 PartOfSpeech=JJ Lemma=previous NamedEntityTag=O]
+[Text=seasons CharacterOffsetBegin=101 CharacterOffsetEnd=108 PartOfSpeech=NNS Lemma=season NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=IN Lemma=so NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=112 CharacterOffsetEnd=116 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=117 CharacterOffsetEnd=120 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=return CharacterOffsetBegin=121 CharacterOffsetEnd=127 PartOfSpeech=NN Lemma=return NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text=would CharacterOffsetBegin=140 CharacterOffsetEnd=145 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=weight CharacterOffsetBegin=151 CharacterOffsetEnd=157 PartOfSpeech=NN Lemma=weight NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=158 CharacterOffsetEnd=160 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=if CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=resurrections CharacterOffsetBegin=164 CharacterOffsetEnd=177 PartOfSpeech=NNS Lemma=resurrection NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=going CharacterOffsetBegin=182 CharacterOffsetEnd=187 PartOfSpeech=VBG Lemma=go NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=over CharacterOffsetBegin=195 CharacterOffsetEnd=199 PartOfSpeech=IN Lemma=over NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=place CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=NN Lemma=place NamedEntityTag=O]
+[Text=then CharacterOffsetBegin=210 CharacterOffsetEnd=214 PartOfSpeech=RB Lemma=then NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=sorta CharacterOffsetBegin=218 CharacterOffsetEnd=223 PartOfSpeech=NN Lemma=sorta NamedEntityTag=O]
+[Text=takes CharacterOffsetBegin=224 CharacterOffsetEnd=229 PartOfSpeech=VBZ Lemma=take NamedEntityTag=O]
+[Text=away CharacterOffsetBegin=230 CharacterOffsetEnd=234 PartOfSpeech=RP Lemma=away NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=235 CharacterOffsetEnd=239 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=240 CharacterOffsetEnd=243 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=novelty CharacterOffsetBegin=244 CharacterOffsetEnd=251 PartOfSpeech=NN Lemma=novelty NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=255 CharacterOffsetEnd=257 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (VBZ 's)
+        (VP (VBN thought)
+          (SBAR (IN that)
+            (S
+              (NP (DT the) (VBN resurrected) (NNP Catelyn) (NNP Stark))
+              (VP (VBD was) (RB not)
+                (VP (VBN included)
+                  (PP (IN in)
+                    (NP (JJ previous) (NNS seasons)))
+                  (SBAR (IN so) (IN that)
+                    (S
+                      (NP
+                        (NP (DT the) (NN return))
+                        (PP (IN of)
+                          (NP (NNP Jon) (NNP Snow))))
+                      (VP (MD would)
+                        (VP (VB have)
+                          (NP (NN weight)))))))))))))
+    (: --)
+    (S
+      (SBAR (IN if)
+        (S
+          (NP (NNS resurrections))
+          (VP (VBP are)
+            (VP (VBG going)
+              (PP (IN on)
+                (NP
+                  (NP (DT all))
+                  (PP (IN over)
+                    (NP (DT the) (NN place)))))
+              (PP (RB then)
+                (NP (PRP it)))))))
+      (NP (NN sorta))
+      (VP (VBZ takes)
+        (PRT (RP away))
+        (PP (IN from)
+          (NP
+            (NP (DT the) (NN novelty))
+            (PP (IN of)
+              (NP (PRP it)))))))
+    (. .)))
+
+root(ROOT-0, thought-3)
+nsubjpass(thought-3, It-1)
+auxpass(thought-3, 's-2)
+mark(included-11, that-4)
+det(Stark-8, the-5)
+amod(Stark-8, resurrected-6)
+compound(Stark-8, Catelyn-7)
+nsubjpass(included-11, Stark-8)
+auxpass(included-11, was-9)
+neg(included-11, not-10)
+ccomp(thought-3, included-11)
+case(seasons-14, in-12)
+amod(seasons-14, previous-13)
+nmod:in(included-11, seasons-14)
+mark(have-23, so-15)
+mwe(so-15, that-16)
+det(return-18, the-17)
+nsubj(have-23, return-18)
+case(Snow-21, of-19)
+compound(Snow-21, Jon-20)
+nmod:of(return-18, Snow-21)
+aux(have-23, would-22)
+advcl:so_that(included-11, have-23)
+dobj(have-23, weight-24)
+punct(thought-3, ---25)
+mark(going-29, if-26)
+nsubj(going-29, resurrections-27)
+aux(going-29, are-28)
+advcl:if(takes-38, going-29)
+case(all-31, on-30)
+nmod:on(going-29, all-31)
+case(place-34, over-32)
+det(place-34, the-33)
+nmod:over(all-31, place-34)
+advmod(it-36, then-35)
+nmod(going-29, it-36)
+nsubj(takes-38, sorta-37)
+parataxis(thought-3, takes-38)
+compound:prt(takes-38, away-39)
+case(novelty-42, from-40)
+det(novelty-42, the-41)
+nmod:from(takes-38, novelty-42)
+case(it-44, of-43)
+nmod:of(novelty-42, it-44)
+punct(thought-3, .-45)
+
+Sentence #3 (33 tokens):
 But now that Jon is back, we might finally see what the Brotherhood Without Banners has been up to the last few years, and whether Lady Stoneheart is leading them.
-[Text=But CharacterOffsetBegin=258 CharacterOffsetEnd=261 PartOfSpeech=CC]
-[Text=now CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=RB]
-[Text=that CharacterOffsetBegin=266 CharacterOffsetEnd=270 PartOfSpeech=IN]
-[Text=Jon CharacterOffsetBegin=271 CharacterOffsetEnd=274 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=275 CharacterOffsetEnd=277 PartOfSpeech=VBZ]
-[Text=back CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=282 CharacterOffsetEnd=283 PartOfSpeech=,]
-[Text=we CharacterOffsetBegin=284 CharacterOffsetEnd=286 PartOfSpeech=PRP]
-[Text=might CharacterOffsetBegin=287 CharacterOffsetEnd=292 PartOfSpeech=MD]
-[Text=finally CharacterOffsetBegin=293 CharacterOffsetEnd=300 PartOfSpeech=RB]
-[Text=see CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=VB]
-[Text=what CharacterOffsetBegin=305 CharacterOffsetEnd=309 PartOfSpeech=WP]
-[Text=the CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=DT]
-[Text=Brotherhood CharacterOffsetBegin=314 CharacterOffsetEnd=325 PartOfSpeech=NNP]
-[Text=Without CharacterOffsetBegin=326 CharacterOffsetEnd=333 PartOfSpeech=IN]
-[Text=Banners CharacterOffsetBegin=334 CharacterOffsetEnd=341 PartOfSpeech=NNP]
-[Text=has CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=VBZ]
-[Text=been CharacterOffsetBegin=346 CharacterOffsetEnd=350 PartOfSpeech=VBN]
-[Text=up CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=RP]
-[Text=to CharacterOffsetBegin=354 CharacterOffsetEnd=356 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=357 CharacterOffsetEnd=360 PartOfSpeech=DT]
-[Text=last CharacterOffsetBegin=361 CharacterOffsetEnd=365 PartOfSpeech=JJ]
-[Text=few CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=JJ]
-[Text=years CharacterOffsetBegin=370 CharacterOffsetEnd=375 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=CC]
-[Text=whether CharacterOffsetBegin=381 CharacterOffsetEnd=388 PartOfSpeech=IN]
-[Text=Lady CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=NNP]
-[Text=Stoneheart CharacterOffsetBegin=394 CharacterOffsetEnd=404 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=VBZ]
-[Text=leading CharacterOffsetBegin=408 CharacterOffsetEnd=415 PartOfSpeech=VBG]
-[Text=them CharacterOffsetBegin=416 CharacterOffsetEnd=420 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=420 CharacterOffsetEnd=421 PartOfSpeech=.]
+[Text=But CharacterOffsetBegin=259 CharacterOffsetEnd=262 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=that CharacterOffsetBegin=267 CharacterOffsetEnd=271 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=276 CharacterOffsetEnd=278 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=279 CharacterOffsetEnd=283 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=285 CharacterOffsetEnd=287 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=might CharacterOffsetBegin=288 CharacterOffsetEnd=293 PartOfSpeech=MD Lemma=might NamedEntityTag=O]
+[Text=finally CharacterOffsetBegin=294 CharacterOffsetEnd=301 PartOfSpeech=RB Lemma=finally NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=306 CharacterOffsetEnd=310 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Brotherhood CharacterOffsetBegin=315 CharacterOffsetEnd=326 PartOfSpeech=NNP Lemma=Brotherhood NamedEntityTag=ORGANIZATION]
+[Text=Without CharacterOffsetBegin=327 CharacterOffsetEnd=334 PartOfSpeech=IN Lemma=without NamedEntityTag=ORGANIZATION]
+[Text=Banners CharacterOffsetBegin=335 CharacterOffsetEnd=342 PartOfSpeech=NNP Lemma=Banners NamedEntityTag=ORGANIZATION]
+[Text=has CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=347 CharacterOffsetEnd=351 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=352 CharacterOffsetEnd=354 PartOfSpeech=RP Lemma=up NamedEntityTag=DURATION NormalizedNamedEntityTag=PXY Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t2" type="DURATION" value="PXY">up to the last few years</TIMEX3>]
+[Text=to CharacterOffsetBegin=355 CharacterOffsetEnd=357 PartOfSpeech=TO Lemma=to NamedEntityTag=DURATION NormalizedNamedEntityTag=PXY Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t2" type="DURATION" value="PXY">up to the last few years</TIMEX3>]
+[Text=the CharacterOffsetBegin=358 CharacterOffsetEnd=361 PartOfSpeech=DT Lemma=the NamedEntityTag=DURATION NormalizedNamedEntityTag=PXY Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t2" type="DURATION" value="PXY">up to the last few years</TIMEX3>]
+[Text=last CharacterOffsetBegin=362 CharacterOffsetEnd=366 PartOfSpeech=JJ Lemma=last NamedEntityTag=DURATION NormalizedNamedEntityTag=PXY Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t2" type="DURATION" value="PXY">up to the last few years</TIMEX3>]
+[Text=few CharacterOffsetBegin=367 CharacterOffsetEnd=370 PartOfSpeech=JJ Lemma=few NamedEntityTag=DURATION NormalizedNamedEntityTag=PXY Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t2" type="DURATION" value="PXY">up to the last few years</TIMEX3>]
+[Text=years CharacterOffsetBegin=371 CharacterOffsetEnd=376 PartOfSpeech=NNS Lemma=year NamedEntityTag=DURATION NormalizedNamedEntityTag=PXY Timex=<TIMEX3 mod="EQUAL_OR_LESS" tid="t2" type="DURATION" value="PXY">up to the last few years</TIMEX3>]
+[Text=, CharacterOffsetBegin=376 CharacterOffsetEnd=377 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=378 CharacterOffsetEnd=381 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=whether CharacterOffsetBegin=382 CharacterOffsetEnd=389 PartOfSpeech=IN Lemma=whether NamedEntityTag=O]
+[Text=Lady CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=NNP Lemma=Lady NamedEntityTag=PERSON]
+[Text=Stoneheart CharacterOffsetBegin=395 CharacterOffsetEnd=405 PartOfSpeech=NNP Lemma=Stoneheart NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=406 CharacterOffsetEnd=408 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=leading CharacterOffsetBegin=409 CharacterOffsetEnd=416 PartOfSpeech=VBG Lemma=lead NamedEntityTag=O]
+[Text=them CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC But)
+    (ADVP (RB now)
+      (SBAR (IN that)
+        (S
+          (NP (NNP Jon))
+          (VP (VBZ is)
+            (ADVP (RB back))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (MD might)
+      (ADVP (RB finally))
+      (VP (VB see)
+        (SBAR
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (DT the) (NNP Brotherhood))
+              (PP (IN Without)
+                (NP (NNP Banners)))
+              (VP (VBZ has)
+                (VP (VBN been)
+                  (ADVP (RP up))
+                  (PP (TO to)
+                    (NP (DT the) (JJ last) (JJ few) (NNS years)))))))
+          (, ,)
+          (CC and)
+          (SBAR (IN whether)
+            (S
+              (NP (NNP Lady) (NNP Stoneheart))
+              (VP (VBZ is)
+                (VP (VBG leading)
+                  (NP (PRP them)))))))))
+    (. .)))
+
+root(ROOT-0, see-11)
+cc(see-11, But-1)
+advmod(is-5, now-2)
+mark(is-5, that-3)
+nsubj(is-5, Jon-4)
+advcl:that(see-11, is-5)
+advmod(is-5, back-6)
+punct(see-11, ,-7)
+nsubj(see-11, we-8)
+aux(see-11, might-9)
+advmod(see-11, finally-10)
+dobj(years-24, what-12)
+det(Brotherhood-14, the-13)
+nsubj(years-24, Brotherhood-14)
+case(Banners-16, Without-15)
+nmod:without(years-24, Banners-16)
+aux(years-24, has-17)
+cop(years-24, been-18)
+advmod(years-24, up-19)
+case(years-24, to-20)
+det(years-24, the-21)
+amod(years-24, last-22)
+amod(years-24, few-23)
+ccomp(see-11, years-24)
+punct(years-24, ,-25)
+cc(years-24, and-26)
+mark(leading-31, whether-27)
+compound(Stoneheart-29, Lady-28)
+nsubj(leading-31, Stoneheart-29)
+aux(leading-31, is-30)
+ccomp(see-11, leading-31)
+conj:and(years-24, leading-31)
+dobj(leading-31, them-32)
+punct(see-11, .-33)
+
+Coreference set:
+	(1,2,[1,5]) -> (3,29,[28,30]), that is: "Lady Stoneheart coming ." -> "Lady Stoneheart"
+Coreference set:
+	(3,4,[4,5]) -> (2,21,[20,22]), that is: "Jon" -> "Jon Snow"
+Coreference set:
+	(3,32,[32,33]) -> (2,27,[27,28]), that is: "them" -> "resurrections"
+Coreference set:
+	(2,36,[36,37]) -> (2,34,[33,35]), that is: "it" -> "the place"
+	(2,44,[44,45]) -> (2,34,[33,35]), that is: "it" -> "the place"
+Coreference set:
+	(3,14,[14,17]) -> (3,14,[13,15]), that is: "Brotherhood Without Banners" -> "the Brotherhood"

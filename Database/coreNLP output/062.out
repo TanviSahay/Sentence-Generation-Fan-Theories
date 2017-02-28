@@ -1,195 +1,607 @@
-Sentence #1 (38 tokens):
-Sam Tarly holds the key to everything
+Sentence #1 (8 tokens):
+Sam Tarly holds the key to everything.
+[Text=Sam CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text=Tarly CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP Lemma=Tarly NamedEntityTag=PERSON]
+[Text=holds CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=VBZ Lemma=hold NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=key CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=JJ Lemma=key NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=everything CharacterOffsetBegin=27 CharacterOffsetEnd=37 PartOfSpeech=NN Lemma=everything NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=37 CharacterOffsetEnd=38 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Sam) (NNP Tarly))
+    (VP (VBZ holds)
+      (NP (DT the) (JJ key))
+      (PP (TO to)
+        (NP (NN everything))))
+    (. .)))
 
+root(ROOT-0, holds-3)
+compound(Tarly-2, Sam-1)
+nsubj(holds-3, Tarly-2)
+det(key-5, the-4)
+dobj(holds-3, key-5)
+case(everything-7, to-6)
+nmod:to(holds-3, everything-7)
+punct(holds-3, .-8)
+
+Sentence #2 (31 tokens):
 What this means: The last episode of season 6 had a lot of action, murder and … Beauty and the Beast-style traipsing through a magical library of wonder.
-[Text=Sam CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
-[Text=Tarly CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP]
-[Text=holds CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=DT]
-[Text=key CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=TO]
-[Text=everything CharacterOffsetBegin=27 CharacterOffsetEnd=37 PartOfSpeech=NN]
-[Text=What CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=WP]
-[Text=this CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=DT]
-[Text=means CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=VBZ]
-[Text=: CharacterOffsetBegin=54 CharacterOffsetEnd=55 PartOfSpeech=:]
-[Text=The CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=DT]
-[Text=last CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=JJ]
-[Text=episode CharacterOffsetBegin=65 CharacterOffsetEnd=72 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=73 CharacterOffsetEnd=75 PartOfSpeech=IN]
-[Text=season CharacterOffsetBegin=76 CharacterOffsetEnd=82 PartOfSpeech=NN]
-[Text=6 CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=CD]
-[Text=had CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=VBD]
-[Text=a CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=DT]
-[Text=lot CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=IN]
-[Text=action CharacterOffsetBegin=98 CharacterOffsetEnd=104 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=,]
-[Text=murder CharacterOffsetBegin=106 CharacterOffsetEnd=112 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=CC]
-[Text=... CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=:]
-[Text=Beauty CharacterOffsetBegin=119 CharacterOffsetEnd=125 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=CC]
-[Text=the CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=DT]
-[Text=Beast-style CharacterOffsetBegin=134 CharacterOffsetEnd=145 PartOfSpeech=JJ]
-[Text=traipsing CharacterOffsetBegin=146 CharacterOffsetEnd=155 PartOfSpeech=VBG]
-[Text=through CharacterOffsetBegin=156 CharacterOffsetEnd=163 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=164 CharacterOffsetEnd=165 PartOfSpeech=DT]
-[Text=magical CharacterOffsetBegin=166 CharacterOffsetEnd=173 PartOfSpeech=JJ]
-[Text=library CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=IN]
-[Text=wonder CharacterOffsetBegin=185 CharacterOffsetEnd=191 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=191 CharacterOffsetEnd=192 PartOfSpeech=.]
-Sentence #2 (30 tokens):
+[Text=What CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=45 CharacterOffsetEnd=49 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=means CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=VBZ Lemma=mean NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=last CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=JJ Lemma=last NamedEntityTag=O]
+[Text=episode CharacterOffsetBegin=66 CharacterOffsetEnd=73 PartOfSpeech=NN Lemma=episode NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=74 CharacterOffsetEnd=76 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=77 CharacterOffsetEnd=83 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=6 CharacterOffsetBegin=84 CharacterOffsetEnd=85 PartOfSpeech=CD Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0]
+[Text=had CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=VBD Lemma=have NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=lot CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=NN Lemma=lot NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=action CharacterOffsetBegin=99 CharacterOffsetEnd=105 PartOfSpeech=NN Lemma=action NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=105 CharacterOffsetEnd=106 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=murder CharacterOffsetBegin=107 CharacterOffsetEnd=113 PartOfSpeech=NN Lemma=murder NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=: Lemma=... NamedEntityTag=O]
+[Text=Beauty CharacterOffsetBegin=120 CharacterOffsetEnd=126 PartOfSpeech=NNP Lemma=Beauty NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Beast-style CharacterOffsetBegin=135 CharacterOffsetEnd=146 PartOfSpeech=JJ Lemma=beast-style NamedEntityTag=MISC]
+[Text=traipsing CharacterOffsetBegin=147 CharacterOffsetEnd=156 PartOfSpeech=VBG Lemma=traipse NamedEntityTag=O]
+[Text=through CharacterOffsetBegin=157 CharacterOffsetEnd=164 PartOfSpeech=IN Lemma=through NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=magical CharacterOffsetBegin=167 CharacterOffsetEnd=174 PartOfSpeech=JJ Lemma=magical NamedEntityTag=O]
+[Text=library CharacterOffsetBegin=175 CharacterOffsetEnd=182 PartOfSpeech=NN Lemma=library NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=wonder CharacterOffsetBegin=186 CharacterOffsetEnd=192 PartOfSpeech=NN Lemma=wonder NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR
+      (WHNP (WP What))
+      (S
+        (NP (DT this))
+        (VP
+          (VP (VBZ means))
+          (: :)
+          (NP
+            (NP (DT The) (JJ last) (NN episode))
+            (PP (IN of)
+              (NP (NN season) (CD 6)))))))
+    (VP (VBD had)
+      (NP
+        (NP (DT a) (NN lot))
+        (PP (IN of)
+          (NP
+            (NP (NN action))
+            (, ,)
+            (NP (NN murder))
+            (CC and)
+            (NP (: ...)
+              (NP (NNP Beauty))
+              (PP (CC and)
+                (NP
+                  (NP (DT the) (JJ Beast-style))
+                  (VP (VBG traipsing)
+                    (PP (IN through)
+                      (NP
+                        (NP (DT a) (JJ magical) (NN library))
+                        (PP (IN of)
+                          (NP (NN wonder)))))))))))))
+    (. .)))
+
+root(ROOT-0, had-11)
+dobj(means-3, What-1)
+nsubj(means-3, this-2)
+csubj(had-11, means-3)
+punct(means-3, :-4)
+det(episode-7, The-5)
+amod(episode-7, last-6)
+dobj(means-3, episode-7)
+case(season-9, of-8)
+nmod:of(episode-7, season-9)
+nummod(season-9, 6-10)
+det:qmod(action-15, a-12)
+mwe(a-12, lot-13)
+mwe(a-12, of-14)
+dobj(had-11, action-15)
+punct(action-15, ,-16)
+dobj(had-11, murder-17)
+conj:and(action-15, murder-17)
+cc(action-15, and-18)
+punct(Beauty-20, ...-19)
+dobj(had-11, Beauty-20)
+conj:and(action-15, Beauty-20)
+case(Beast-style-23, and-21)
+det(Beast-style-23, the-22)
+nmod:and(Beauty-20, Beast-style-23)
+acl(Beast-style-23, traipsing-24)
+case(library-28, through-25)
+det(library-28, a-26)
+amod(library-28, magical-27)
+nmod:through(traipsing-24, library-28)
+case(wonder-30, of-29)
+nmod:of(library-28, wonder-30)
+punct(had-11, .-31)
+
+Sentence #3 (30 tokens):
 Sam Tarly’s arrival at the Citadel definitely felt out-of-place in the rest of the episode, but I think it’s just a set-up for something much bigger.
-[Text=Sam CharacterOffsetBegin=193 CharacterOffsetEnd=196 PartOfSpeech=NNP]
-[Text=Tarly CharacterOffsetBegin=197 CharacterOffsetEnd=202 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=POS]
-[Text=arrival CharacterOffsetBegin=205 CharacterOffsetEnd=212 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=DT]
-[Text=Citadel CharacterOffsetBegin=220 CharacterOffsetEnd=227 PartOfSpeech=NNP]
-[Text=definitely CharacterOffsetBegin=228 CharacterOffsetEnd=238 PartOfSpeech=RB]
-[Text=felt CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=VBD]
-[Text=out-of-place CharacterOffsetBegin=244 CharacterOffsetEnd=256 PartOfSpeech=JJ]
-[Text=in CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=DT]
-[Text=rest CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT]
-[Text=episode CharacterOffsetBegin=276 CharacterOffsetEnd=283 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=CC]
-[Text=I CharacterOffsetBegin=289 CharacterOffsetEnd=290 PartOfSpeech=PRP]
-[Text=think CharacterOffsetBegin=291 CharacterOffsetEnd=296 PartOfSpeech=VBP]
-[Text=it CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=299 CharacterOffsetEnd=301 PartOfSpeech=VBZ]
-[Text=just CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=RB]
-[Text=a CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech=DT]
-[Text=set-up CharacterOffsetBegin=309 CharacterOffsetEnd=315 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=316 CharacterOffsetEnd=319 PartOfSpeech=IN]
-[Text=something CharacterOffsetBegin=320 CharacterOffsetEnd=329 PartOfSpeech=NN]
-[Text=much CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=RB]
-[Text=bigger CharacterOffsetBegin=335 CharacterOffsetEnd=341 PartOfSpeech=JJR]
-[Text=. CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=.]
-Sentence #3 (25 tokens):
+[Text=Sam CharacterOffsetBegin=194 CharacterOffsetEnd=197 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text=Tarly CharacterOffsetBegin=198 CharacterOffsetEnd=203 PartOfSpeech=NNP Lemma=Tarly NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=arrival CharacterOffsetBegin=206 CharacterOffsetEnd=213 PartOfSpeech=NN Lemma=arrival NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Citadel CharacterOffsetBegin=221 CharacterOffsetEnd=228 PartOfSpeech=NNP Lemma=Citadel NamedEntityTag=O]
+[Text=definitely CharacterOffsetBegin=229 CharacterOffsetEnd=239 PartOfSpeech=RB Lemma=definitely NamedEntityTag=O]
+[Text=felt CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=VBD Lemma=feel NamedEntityTag=O]
+[Text=out-of-place CharacterOffsetBegin=245 CharacterOffsetEnd=257 PartOfSpeech=JJ Lemma=out-of-place NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=rest CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=NN Lemma=rest NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=episode CharacterOffsetBegin=277 CharacterOffsetEnd=284 PartOfSpeech=NN Lemma=episode NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=284 CharacterOffsetEnd=285 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=think CharacterOffsetBegin=292 CharacterOffsetEnd=297 PartOfSpeech=VBP Lemma=think NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=just CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=set-up CharacterOffsetBegin=310 CharacterOffsetEnd=316 PartOfSpeech=NN Lemma=set-up NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=something CharacterOffsetBegin=321 CharacterOffsetEnd=330 PartOfSpeech=NN Lemma=something NamedEntityTag=O]
+[Text=much CharacterOffsetBegin=331 CharacterOffsetEnd=335 PartOfSpeech=RB Lemma=much NamedEntityTag=O]
+[Text=bigger CharacterOffsetBegin=336 CharacterOffsetEnd=342 PartOfSpeech=JJR Lemma=bigger NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=342 CharacterOffsetEnd=343 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (NP (NNP Sam) (NNP Tarly) (POS 's))
+          (NN arrival))
+        (PP (IN at)
+          (NP (DT the) (NNP Citadel))))
+      (ADVP (RB definitely))
+      (VP (VBD felt)
+        (ADJP (JJ out-of-place))
+        (PP (IN in)
+          (NP
+            (NP (DT the) (NN rest))
+            (PP (IN of)
+              (NP (DT the) (NN episode)))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP I))
+      (VP (VBP think)
+        (SBAR
+          (S
+            (NP (PRP it))
+            (VP (VBZ 's)
+              (ADVP (RB just)
+                (NP (DT a) (NN set-up))
+                (PP (IN for)
+                  (NP (NN something))))
+              (ADJP (RB much) (JJR bigger)))))))
+    (. .)))
+
+root(ROOT-0, felt-9)
+compound(Tarly-2, Sam-1)
+nmod:poss(arrival-4, Tarly-2)
+case(Tarly-2, 's-3)
+nsubj(felt-9, arrival-4)
+case(Citadel-7, at-5)
+det(Citadel-7, the-6)
+nmod:at(arrival-4, Citadel-7)
+advmod(felt-9, definitely-8)
+xcomp(felt-9, out-of-place-10)
+case(rest-13, in-11)
+det(rest-13, the-12)
+nmod:in(felt-9, rest-13)
+case(episode-16, of-14)
+det(episode-16, the-15)
+nmod:of(rest-13, episode-16)
+punct(felt-9, ,-17)
+cc(felt-9, but-18)
+nsubj(think-20, I-19)
+conj:but(felt-9, think-20)
+nsubj(bigger-29, it-21)
+cop(bigger-29, 's-22)
+advmod(bigger-29, just-23)
+det(set-up-25, a-24)
+nmod:npmod(just-23, set-up-25)
+case(something-27, for-26)
+nmod:for(just-23, something-27)
+advmod(bigger-29, much-28)
+ccomp(think-20, bigger-29)
+punct(felt-9, .-30)
+
+Sentence #4 (25 tokens):
 The training maester now has access to the entire literary history of the world, and he just happens to be a major bookworm.
-[Text=The CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=DT]
-[Text=training CharacterOffsetBegin=347 CharacterOffsetEnd=355 PartOfSpeech=NN]
-[Text=maester CharacterOffsetBegin=356 CharacterOffsetEnd=363 PartOfSpeech=NN]
-[Text=now CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=RB]
-[Text=has CharacterOffsetBegin=368 CharacterOffsetEnd=371 PartOfSpeech=VBZ]
-[Text=access CharacterOffsetBegin=372 CharacterOffsetEnd=378 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=379 CharacterOffsetEnd=381 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=DT]
-[Text=entire CharacterOffsetBegin=386 CharacterOffsetEnd=392 PartOfSpeech=JJ]
-[Text=literary CharacterOffsetBegin=393 CharacterOffsetEnd=401 PartOfSpeech=JJ]
-[Text=history CharacterOffsetBegin=402 CharacterOffsetEnd=409 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=410 CharacterOffsetEnd=412 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=413 CharacterOffsetEnd=416 PartOfSpeech=DT]
-[Text=world CharacterOffsetBegin=417 CharacterOffsetEnd=422 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=424 CharacterOffsetEnd=427 PartOfSpeech=CC]
-[Text=he CharacterOffsetBegin=428 CharacterOffsetEnd=430 PartOfSpeech=PRP]
-[Text=just CharacterOffsetBegin=431 CharacterOffsetEnd=435 PartOfSpeech=RB]
-[Text=happens CharacterOffsetBegin=436 CharacterOffsetEnd=443 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=444 CharacterOffsetEnd=446 PartOfSpeech=TO]
-[Text=be CharacterOffsetBegin=447 CharacterOffsetEnd=449 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=450 CharacterOffsetEnd=451 PartOfSpeech=DT]
-[Text=major CharacterOffsetBegin=452 CharacterOffsetEnd=457 PartOfSpeech=JJ]
-[Text=bookworm CharacterOffsetBegin=458 CharacterOffsetEnd=466 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=466 CharacterOffsetEnd=467 PartOfSpeech=.]
-Sentence #4 (29 tokens):
+[Text=The CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=training CharacterOffsetBegin=348 CharacterOffsetEnd=356 PartOfSpeech=NN Lemma=training NamedEntityTag=O]
+[Text=maester CharacterOffsetBegin=357 CharacterOffsetEnd=364 PartOfSpeech=NN Lemma=maester NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=365 CharacterOffsetEnd=368 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=has CharacterOffsetBegin=369 CharacterOffsetEnd=372 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=access CharacterOffsetBegin=373 CharacterOffsetEnd=379 PartOfSpeech=NN Lemma=access NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=entire CharacterOffsetBegin=387 CharacterOffsetEnd=393 PartOfSpeech=JJ Lemma=entire NamedEntityTag=O]
+[Text=literary CharacterOffsetBegin=394 CharacterOffsetEnd=402 PartOfSpeech=JJ Lemma=literary NamedEntityTag=O]
+[Text=history CharacterOffsetBegin=403 CharacterOffsetEnd=410 PartOfSpeech=NN Lemma=history NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=414 CharacterOffsetEnd=417 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=world CharacterOffsetBegin=418 CharacterOffsetEnd=423 PartOfSpeech=NN Lemma=world NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=425 CharacterOffsetEnd=428 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=429 CharacterOffsetEnd=431 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=just CharacterOffsetBegin=432 CharacterOffsetEnd=436 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=happens CharacterOffsetBegin=437 CharacterOffsetEnd=444 PartOfSpeech=VBZ Lemma=happen NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=445 CharacterOffsetEnd=447 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=448 CharacterOffsetEnd=450 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=451 CharacterOffsetEnd=452 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=major CharacterOffsetBegin=453 CharacterOffsetEnd=458 PartOfSpeech=JJ Lemma=major NamedEntityTag=O]
+[Text=bookworm CharacterOffsetBegin=459 CharacterOffsetEnd=467 PartOfSpeech=NN Lemma=bookworm NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=467 CharacterOffsetEnd=468 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (DT The) (NN training) (NN maester))
+      (ADVP (RB now))
+      (VP (VBZ has)
+        (NP (NN access))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (JJ entire) (JJ literary) (NN history))
+            (PP (IN of)
+              (NP (DT the) (NN world)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP he))
+      (ADVP (RB just))
+      (VP (VBZ happens)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (NP (DT a) (JJ major) (NN bookworm)))))))
+    (. .)))
+
+root(ROOT-0, has-5)
+det(maester-3, The-1)
+compound(maester-3, training-2)
+nsubj(has-5, maester-3)
+advmod(has-5, now-4)
+dobj(has-5, access-6)
+case(history-11, to-7)
+det(history-11, the-8)
+amod(history-11, entire-9)
+amod(history-11, literary-10)
+nmod:to(has-5, history-11)
+case(world-14, of-12)
+det(world-14, the-13)
+nmod:of(history-11, world-14)
+punct(has-5, ,-15)
+cc(has-5, and-16)
+nsubj(happens-19, he-17)
+nsubj:xsubj(bookworm-24, he-17)
+advmod(happens-19, just-18)
+conj:and(has-5, happens-19)
+mark(bookworm-24, to-20)
+cop(bookworm-24, be-21)
+det(bookworm-24, a-22)
+amod(bookworm-24, major-23)
+xcomp(happens-19, bookworm-24)
+punct(has-5, .-25)
+
+Sentence #5 (29 tokens):
 All bets are on that he’ll find something that will help put an end to the White Walkers, such as the key to making Valyrian steel.
-[Text=All CharacterOffsetBegin=468 CharacterOffsetEnd=471 PartOfSpeech=DT]
-[Text=bets CharacterOffsetBegin=472 CharacterOffsetEnd=476 PartOfSpeech=NNS]
-[Text=are CharacterOffsetBegin=477 CharacterOffsetEnd=480 PartOfSpeech=VBP]
-[Text=on CharacterOffsetBegin=481 CharacterOffsetEnd=483 PartOfSpeech=IN]
-[Text=that CharacterOffsetBegin=484 CharacterOffsetEnd=488 PartOfSpeech=DT]
-[Text=he CharacterOffsetBegin=489 CharacterOffsetEnd=491 PartOfSpeech=PRP]
-[Text='ll CharacterOffsetBegin=491 CharacterOffsetEnd=494 PartOfSpeech=MD]
-[Text=find CharacterOffsetBegin=495 CharacterOffsetEnd=499 PartOfSpeech=VB]
-[Text=something CharacterOffsetBegin=500 CharacterOffsetEnd=509 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=510 CharacterOffsetEnd=514 PartOfSpeech=WDT]
-[Text=will CharacterOffsetBegin=515 CharacterOffsetEnd=519 PartOfSpeech=MD]
-[Text=help CharacterOffsetBegin=520 CharacterOffsetEnd=524 PartOfSpeech=VB]
-[Text=put CharacterOffsetBegin=525 CharacterOffsetEnd=528 PartOfSpeech=VB]
-[Text=an CharacterOffsetBegin=529 CharacterOffsetEnd=531 PartOfSpeech=DT]
-[Text=end CharacterOffsetBegin=532 CharacterOffsetEnd=535 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=536 CharacterOffsetEnd=538 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=DT]
-[Text=White CharacterOffsetBegin=543 CharacterOffsetEnd=548 PartOfSpeech=NNP]
-[Text=Walkers CharacterOffsetBegin=549 CharacterOffsetEnd=556 PartOfSpeech=NNPS]
-[Text=, CharacterOffsetBegin=556 CharacterOffsetEnd=557 PartOfSpeech=,]
-[Text=such CharacterOffsetBegin=558 CharacterOffsetEnd=562 PartOfSpeech=JJ]
-[Text=as CharacterOffsetBegin=563 CharacterOffsetEnd=565 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=566 CharacterOffsetEnd=569 PartOfSpeech=DT]
-[Text=key CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=574 CharacterOffsetEnd=576 PartOfSpeech=TO]
-[Text=making CharacterOffsetBegin=577 CharacterOffsetEnd=583 PartOfSpeech=VBG]
-[Text=Valyrian CharacterOffsetBegin=584 CharacterOffsetEnd=592 PartOfSpeech=JJ]
-[Text=steel CharacterOffsetBegin=593 CharacterOffsetEnd=598 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=598 CharacterOffsetEnd=599 PartOfSpeech=.]
-Sentence #5 (13 tokens):
+[Text=All CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=bets CharacterOffsetBegin=473 CharacterOffsetEnd=477 PartOfSpeech=NNS Lemma=bet NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=478 CharacterOffsetEnd=481 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=485 CharacterOffsetEnd=489 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=490 CharacterOffsetEnd=492 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text='ll CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=find CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=VB Lemma=find NamedEntityTag=O]
+[Text=something CharacterOffsetBegin=501 CharacterOffsetEnd=510 PartOfSpeech=NN Lemma=something NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=516 CharacterOffsetEnd=520 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=help CharacterOffsetBegin=521 CharacterOffsetEnd=525 PartOfSpeech=VB Lemma=help NamedEntityTag=O]
+[Text=put CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=VB Lemma=put NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=530 CharacterOffsetEnd=532 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=end CharacterOffsetBegin=533 CharacterOffsetEnd=536 PartOfSpeech=NN Lemma=end NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=537 CharacterOffsetEnd=539 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=White CharacterOffsetBegin=544 CharacterOffsetEnd=549 PartOfSpeech=NNP Lemma=White NamedEntityTag=O]
+[Text=Walkers CharacterOffsetBegin=550 CharacterOffsetEnd=557 PartOfSpeech=NNPS Lemma=Walkers NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=557 CharacterOffsetEnd=558 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=559 CharacterOffsetEnd=563 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=564 CharacterOffsetEnd=566 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=567 CharacterOffsetEnd=570 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=key CharacterOffsetBegin=571 CharacterOffsetEnd=574 PartOfSpeech=NN Lemma=key NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=575 CharacterOffsetEnd=577 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=making CharacterOffsetBegin=578 CharacterOffsetEnd=584 PartOfSpeech=VBG Lemma=make NamedEntityTag=O]
+[Text=Valyrian CharacterOffsetBegin=585 CharacterOffsetEnd=593 PartOfSpeech=JJ Lemma=valyrian NamedEntityTag=MISC]
+[Text=steel CharacterOffsetBegin=594 CharacterOffsetEnd=599 PartOfSpeech=NN Lemma=steel NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=599 CharacterOffsetEnd=600 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT All) (NNS bets))
+    (VP (VBP are)
+      (PP (IN on)
+        (NP
+          (NP (DT that))
+          (SBAR
+            (S
+              (NP (PRP he))
+              (VP (MD 'll)
+                (VP (VB find)
+                  (NP
+                    (NP (NN something))
+                    (SBAR
+                      (WHNP (WDT that))
+                      (S
+                        (VP (MD will)
+                          (VP (VB help)
+                            (VP (VB put)
+                              (NP (DT an) (NN end))
+                              (PP (TO to)
+                                (NP (DT the) (NNP White) (NNPS Walkers)))))))))))))
+          (, ,)
+          (PP (JJ such) (IN as)
+            (NP
+              (NP (DT the) (NN key))
+              (PP (TO to)
+                (S
+                  (VP (VBG making)
+                    (NP (JJ Valyrian) (NN steel))))))))))
+    (. .)))
+
+root(ROOT-0, that-5)
+det(bets-2, All-1)
+nsubj(that-5, bets-2)
+cop(that-5, are-3)
+case(that-5, on-4)
+nsubj(help-12, that-5)
+nsubj(find-8, he-6)
+aux(find-8, 'll-7)
+acl:relcl(that-5, find-8)
+dobj(find-8, something-9)
+nsubj(help-12, something-9)
+ref(that-5, that-10)
+ref(something-9, that-10)
+aux(help-12, will-11)
+acl:relcl(something-9, help-12)
+xcomp(help-12, put-13)
+det(end-15, an-14)
+dobj(put-13, end-15)
+case(Walkers-19, to-16)
+det(Walkers-19, the-17)
+compound(Walkers-19, White-18)
+nmod:to(put-13, Walkers-19)
+punct(that-5, ,-20)
+case(key-24, such-21)
+mwe(such-21, as-22)
+det(key-24, the-23)
+nmod:such_as(that-5, key-24)
+mark(making-26, to-25)
+acl:to(key-24, making-26)
+amod(steel-28, Valyrian-27)
+dobj(making-26, steel-28)
+punct(that-5, .-29)
+
+Sentence #6 (13 tokens):
 However, it’s not going to be all fun and games.
-[Text=However CharacterOffsetBegin=600 CharacterOffsetEnd=607 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=607 CharacterOffsetEnd=608 PartOfSpeech=,]
-[Text=it CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=611 CharacterOffsetEnd=613 PartOfSpeech=VBZ]
-[Text=not CharacterOffsetBegin=614 CharacterOffsetEnd=617 PartOfSpeech=RB]
-[Text=going CharacterOffsetBegin=618 CharacterOffsetEnd=623 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=624 CharacterOffsetEnd=626 PartOfSpeech=TO]
-[Text=be CharacterOffsetBegin=627 CharacterOffsetEnd=629 PartOfSpeech=VB]
-[Text=all CharacterOffsetBegin=630 CharacterOffsetEnd=633 PartOfSpeech=DT]
-[Text=fun CharacterOffsetBegin=634 CharacterOffsetEnd=637 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=638 CharacterOffsetEnd=641 PartOfSpeech=CC]
-[Text=games CharacterOffsetBegin=642 CharacterOffsetEnd=647 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=647 CharacterOffsetEnd=648 PartOfSpeech=.]
-Sentence #6 (41 tokens):
+[Text=However CharacterOffsetBegin=601 CharacterOffsetEnd=608 PartOfSpeech=RB Lemma=however NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=608 CharacterOffsetEnd=609 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=610 CharacterOffsetEnd=612 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=612 CharacterOffsetEnd=614 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=615 CharacterOffsetEnd=618 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=going CharacterOffsetBegin=619 CharacterOffsetEnd=624 PartOfSpeech=VBG Lemma=go NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=625 CharacterOffsetEnd=627 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=628 CharacterOffsetEnd=630 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=631 CharacterOffsetEnd=634 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=fun CharacterOffsetBegin=635 CharacterOffsetEnd=638 PartOfSpeech=NN Lemma=fun NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=639 CharacterOffsetEnd=642 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=games CharacterOffsetBegin=643 CharacterOffsetEnd=648 PartOfSpeech=NNS Lemma=game NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=648 CharacterOffsetEnd=649 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ 's) (RB not)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP (VB be)
+              (NP
+                (NP (DT all) (NN fun))
+                (CC and)
+                (NP (NNS games))))))))
+    (. .)))
+
+root(ROOT-0, going-6)
+advmod(going-6, However-1)
+punct(going-6, ,-2)
+nsubj(going-6, it-3)
+nsubj:xsubj(fun-10, it-3)
+aux(going-6, 's-4)
+neg(going-6, not-5)
+mark(fun-10, to-7)
+cop(fun-10, be-8)
+det(fun-10, all-9)
+xcomp(going-6, fun-10)
+cc(fun-10, and-11)
+xcomp(going-6, games-12)
+conj:and(fun-10, games-12)
+punct(going-6, .-13)
+
+Sentence #7 (41 tokens):
 Old Town, where the Citadel is located, is a key target for Euron Greyjoy’s invading army of pirates, so we could see Sam Tarly pulling out Heartsbane once again to protect Gilly and little baby Sam.
-[Text=Old CharacterOffsetBegin=649 CharacterOffsetEnd=652 PartOfSpeech=NNP]
-[Text=Town CharacterOffsetBegin=653 CharacterOffsetEnd=657 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=657 CharacterOffsetEnd=658 PartOfSpeech=,]
-[Text=where CharacterOffsetBegin=659 CharacterOffsetEnd=664 PartOfSpeech=WRB]
-[Text=the CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=DT]
-[Text=Citadel CharacterOffsetBegin=669 CharacterOffsetEnd=676 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=677 CharacterOffsetEnd=679 PartOfSpeech=VBZ]
-[Text=located CharacterOffsetBegin=680 CharacterOffsetEnd=687 PartOfSpeech=JJ]
-[Text=, CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=,]
-[Text=is CharacterOffsetBegin=689 CharacterOffsetEnd=691 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=692 CharacterOffsetEnd=693 PartOfSpeech=DT]
-[Text=key CharacterOffsetBegin=694 CharacterOffsetEnd=697 PartOfSpeech=JJ]
-[Text=target CharacterOffsetBegin=698 CharacterOffsetEnd=704 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=705 CharacterOffsetEnd=708 PartOfSpeech=IN]
-[Text=Euron CharacterOffsetBegin=709 CharacterOffsetEnd=714 PartOfSpeech=NNP]
-[Text=Greyjoy CharacterOffsetBegin=715 CharacterOffsetEnd=722 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=722 CharacterOffsetEnd=724 PartOfSpeech=POS]
-[Text=invading CharacterOffsetBegin=725 CharacterOffsetEnd=733 PartOfSpeech=VBG]
-[Text=army CharacterOffsetBegin=734 CharacterOffsetEnd=738 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=739 CharacterOffsetEnd=741 PartOfSpeech=IN]
-[Text=pirates CharacterOffsetBegin=742 CharacterOffsetEnd=749 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=749 CharacterOffsetEnd=750 PartOfSpeech=,]
-[Text=so CharacterOffsetBegin=751 CharacterOffsetEnd=753 PartOfSpeech=IN]
-[Text=we CharacterOffsetBegin=754 CharacterOffsetEnd=756 PartOfSpeech=PRP]
-[Text=could CharacterOffsetBegin=757 CharacterOffsetEnd=762 PartOfSpeech=MD]
-[Text=see CharacterOffsetBegin=763 CharacterOffsetEnd=766 PartOfSpeech=VB]
-[Text=Sam CharacterOffsetBegin=767 CharacterOffsetEnd=770 PartOfSpeech=NNP]
-[Text=Tarly CharacterOffsetBegin=771 CharacterOffsetEnd=776 PartOfSpeech=NNP]
-[Text=pulling CharacterOffsetBegin=777 CharacterOffsetEnd=784 PartOfSpeech=VBG]
-[Text=out CharacterOffsetBegin=785 CharacterOffsetEnd=788 PartOfSpeech=RP]
-[Text=Heartsbane CharacterOffsetBegin=789 CharacterOffsetEnd=799 PartOfSpeech=NN]
-[Text=once CharacterOffsetBegin=800 CharacterOffsetEnd=804 PartOfSpeech=RB]
-[Text=again CharacterOffsetBegin=805 CharacterOffsetEnd=810 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=811 CharacterOffsetEnd=813 PartOfSpeech=TO]
-[Text=protect CharacterOffsetBegin=814 CharacterOffsetEnd=821 PartOfSpeech=VB]
-[Text=Gilly CharacterOffsetBegin=822 CharacterOffsetEnd=827 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=828 CharacterOffsetEnd=831 PartOfSpeech=CC]
-[Text=little CharacterOffsetBegin=832 CharacterOffsetEnd=838 PartOfSpeech=JJ]
-[Text=baby CharacterOffsetBegin=839 CharacterOffsetEnd=843 PartOfSpeech=NN]
-[Text=Sam CharacterOffsetBegin=844 CharacterOffsetEnd=847 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=847 CharacterOffsetEnd=848 PartOfSpeech=.]
-Sentence #7 (3 tokens):
+[Text=Old CharacterOffsetBegin=650 CharacterOffsetEnd=653 PartOfSpeech=NNP Lemma=Old NamedEntityTag=LOCATION]
+[Text=Town CharacterOffsetBegin=654 CharacterOffsetEnd=658 PartOfSpeech=NNP Lemma=Town NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=658 CharacterOffsetEnd=659 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=where CharacterOffsetBegin=660 CharacterOffsetEnd=665 PartOfSpeech=WRB Lemma=where NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=666 CharacterOffsetEnd=669 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Citadel CharacterOffsetBegin=670 CharacterOffsetEnd=677 PartOfSpeech=NNP Lemma=Citadel NamedEntityTag=LOCATION]
+[Text=is CharacterOffsetBegin=678 CharacterOffsetEnd=680 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=located CharacterOffsetBegin=681 CharacterOffsetEnd=688 PartOfSpeech=JJ Lemma=located NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=690 CharacterOffsetEnd=692 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=693 CharacterOffsetEnd=694 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=key CharacterOffsetBegin=695 CharacterOffsetEnd=698 PartOfSpeech=JJ Lemma=key NamedEntityTag=O]
+[Text=target CharacterOffsetBegin=699 CharacterOffsetEnd=705 PartOfSpeech=NN Lemma=target NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=706 CharacterOffsetEnd=709 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=Euron CharacterOffsetBegin=710 CharacterOffsetEnd=715 PartOfSpeech=NNP Lemma=Euron NamedEntityTag=PERSON]
+[Text=Greyjoy CharacterOffsetBegin=716 CharacterOffsetEnd=723 PartOfSpeech=NNP Lemma=Greyjoy NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=723 CharacterOffsetEnd=725 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=invading CharacterOffsetBegin=726 CharacterOffsetEnd=734 PartOfSpeech=VBG Lemma=invade NamedEntityTag=O]
+[Text=army CharacterOffsetBegin=735 CharacterOffsetEnd=739 PartOfSpeech=NN Lemma=army NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=740 CharacterOffsetEnd=742 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=pirates CharacterOffsetBegin=743 CharacterOffsetEnd=750 PartOfSpeech=NNS Lemma=pirate NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=750 CharacterOffsetEnd=751 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=752 CharacterOffsetEnd=754 PartOfSpeech=IN Lemma=so NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=755 CharacterOffsetEnd=757 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=758 CharacterOffsetEnd=763 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=764 CharacterOffsetEnd=767 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=Sam CharacterOffsetBegin=768 CharacterOffsetEnd=771 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text=Tarly CharacterOffsetBegin=772 CharacterOffsetEnd=777 PartOfSpeech=NNP Lemma=Tarly NamedEntityTag=PERSON]
+[Text=pulling CharacterOffsetBegin=778 CharacterOffsetEnd=785 PartOfSpeech=VBG Lemma=pull NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=786 CharacterOffsetEnd=789 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=Heartsbane CharacterOffsetBegin=790 CharacterOffsetEnd=800 PartOfSpeech=NN Lemma=heartsbane NamedEntityTag=PERSON]
+[Text=once CharacterOffsetBegin=801 CharacterOffsetEnd=805 PartOfSpeech=RB Lemma=once NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PAST_REF">once</TIMEX3>]
+[Text=again CharacterOffsetBegin=806 CharacterOffsetEnd=811 PartOfSpeech=RB Lemma=again NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=812 CharacterOffsetEnd=814 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=protect CharacterOffsetBegin=815 CharacterOffsetEnd=822 PartOfSpeech=VB Lemma=protect NamedEntityTag=O]
+[Text=Gilly CharacterOffsetBegin=823 CharacterOffsetEnd=828 PartOfSpeech=NNP Lemma=Gilly NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=829 CharacterOffsetEnd=832 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=little CharacterOffsetBegin=833 CharacterOffsetEnd=839 PartOfSpeech=JJ Lemma=little NamedEntityTag=O]
+[Text=baby CharacterOffsetBegin=840 CharacterOffsetEnd=844 PartOfSpeech=NN Lemma=baby NamedEntityTag=O]
+[Text=Sam CharacterOffsetBegin=845 CharacterOffsetEnd=848 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=848 CharacterOffsetEnd=849 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Old) (NNP Town))
+        (, ,)
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP (DT the) (NNP Citadel))
+            (VP (VBZ is)
+              (ADJP (JJ located)))))
+        (, ,))
+      (VP (VBZ is)
+        (NP
+          (NP (DT a) (JJ key) (NN target))
+          (PP (IN for)
+            (NP
+              (NP
+                (NP (NNP Euron) (NNP Greyjoy) (POS 's))
+                (VBG invading) (NN army))
+              (PP (IN of)
+                (NP (NNS pirates))))))))
+    (, ,) (IN so)
+    (S
+      (NP (PRP we))
+      (VP (MD could)
+        (VP (VB see)
+          (S
+            (NP (NNP Sam) (NNP Tarly))
+            (VP (VBG pulling)
+              (PRT (RP out))
+              (NP (NN Heartsbane))
+              (ADVP (RB once) (RB again))
+              (S
+                (VP (TO to)
+                  (VP (VB protect)
+                    (NP
+                      (NP (NNP Gilly))
+                      (CC and)
+                      (NP (JJ little) (NN baby) (NNP Sam)))))))))))
+    (. .)))
+
+root(ROOT-0, target-13)
+compound(Town-2, Old-1)
+nsubj(target-13, Town-2)
+punct(Town-2, ,-3)
+advmod(located-8, where-4)
+det(Citadel-6, the-5)
+nsubj(located-8, Citadel-6)
+cop(located-8, is-7)
+acl:relcl(Town-2, located-8)
+punct(Town-2, ,-9)
+cop(target-13, is-10)
+det(target-13, a-11)
+amod(target-13, key-12)
+case(army-19, for-14)
+compound(Greyjoy-16, Euron-15)
+nmod:poss(army-19, Greyjoy-16)
+case(Greyjoy-16, 's-17)
+amod(army-19, invading-18)
+nmod:for(target-13, army-19)
+case(pirates-21, of-20)
+nmod:of(army-19, pirates-21)
+punct(target-13, ,-22)
+dep(target-13, so-23)
+nsubj(see-26, we-24)
+aux(see-26, could-25)
+parataxis(target-13, see-26)
+compound(Tarly-28, Sam-27)
+nsubj(pulling-29, Tarly-28)
+dep(see-26, pulling-29)
+compound:prt(pulling-29, out-30)
+dobj(pulling-29, Heartsbane-31)
+advmod(again-33, once-32)
+advmod(pulling-29, again-33)
+mark(protect-35, to-34)
+advcl:to(pulling-29, protect-35)
+dobj(protect-35, Gilly-36)
+cc(Gilly-36, and-37)
+amod(Sam-40, little-38)
+compound(Sam-40, baby-39)
+dobj(protect-35, Sam-40)
+conj:and(Gilly-36, Sam-40)
+punct(target-13, .-41)
+
+Sentence #8 (3 tokens):
 And finally...
-[Text=And CharacterOffsetBegin=849 CharacterOffsetEnd=852 PartOfSpeech=CC]
-[Text=finally CharacterOffsetBegin=853 CharacterOffsetEnd=860 PartOfSpeech=RB]
-[Text=... CharacterOffsetBegin=860 CharacterOffsetEnd=863 PartOfSpeech=:]
+[Text=And CharacterOffsetBegin=850 CharacterOffsetEnd=853 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=finally CharacterOffsetBegin=854 CharacterOffsetEnd=861 PartOfSpeech=RB Lemma=finally NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=861 CharacterOffsetEnd=864 PartOfSpeech=: Lemma=... NamedEntityTag=O]
+(ROOT
+  (FRAG (CC And)
+    (ADVP (RB finally))
+    (: ...)))
+
+root(ROOT-0, finally-2)
+cc(finally-2, And-1)
+punct(finally-2, ...-3)
+
+Coreference set:
+	(3,2,[1,4]) -> (1,2,[1,3]), that is: "Sam Tarly 's" -> "Sam Tarly"
+	(7,28,[27,29]) -> (1,2,[1,3]), that is: "Sam Tarly" -> "Sam Tarly"
+Coreference set:
+	(3,16,[15,17]) -> (2,7,[5,11]), that is: "the episode" -> "The last episode of season 6"
+Coreference set:
+	(3,21,[21,22]) -> (3,4,[1,8]), that is: "it" -> "Sam Tarly 's arrival at the Citadel"
+Coreference set:
+	(3,7,[6,8]) -> (7,6,[5,7]), that is: "the Citadel" -> "the Citadel"
+Coreference set:
+	(4,17,[17,18]) -> (4,3,[1,4]), that is: "he" -> "The training maester"
+	(5,6,[6,7]) -> (4,3,[1,4]), that is: "he" -> "The training maester"
+Coreference set:
+	(6,3,[3,4]) -> (5,5,[5,29]), that is: "it" -> "that he 'll find something that will help put an end to the White Walkers , such as the key to making Valyrian steel"
+Coreference set:
+	(7,13,[11,22]) -> (7,2,[1,3]), that is: "a key target for Euron Greyjoy 's invading army of pirates" -> "Old Town"

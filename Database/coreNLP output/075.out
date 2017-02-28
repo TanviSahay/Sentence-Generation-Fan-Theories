@@ -1,40 +1,122 @@
 Sentence #1 (16 tokens):
 Missandei is a Faceless Man, working to bring the Targaryens down from the inside.
-[Text=Missandei CharacterOffsetBegin=0 CharacterOffsetEnd=9 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=DT]
-[Text=Faceless CharacterOffsetBegin=15 CharacterOffsetEnd=23 PartOfSpeech=JJ]
-[Text=Man CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=,]
-[Text=working CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=TO]
-[Text=bring CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=DT]
-[Text=Targaryens CharacterOffsetBegin=50 CharacterOffsetEnd=60 PartOfSpeech=NNPS]
-[Text=down CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=RP]
-[Text=from CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=DT]
-[Text=inside CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=.]
+[Text=Missandei CharacterOffsetBegin=0 CharacterOffsetEnd=9 PartOfSpeech=NNP Lemma=Missandei NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Faceless CharacterOffsetBegin=15 CharacterOffsetEnd=23 PartOfSpeech=JJ Lemma=faceless NamedEntityTag=MISC]
+[Text=Man CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC]
+[Text=, CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=working CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=VBG Lemma=work NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=bring CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=VB Lemma=bring NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Targaryens CharacterOffsetBegin=50 CharacterOffsetEnd=60 PartOfSpeech=NNPS Lemma=Targaryens NamedEntityTag=MISC]
+[Text=down CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=RP Lemma=down NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=inside CharacterOffsetBegin=75 CharacterOffsetEnd=81 PartOfSpeech=NN Lemma=inside NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=81 CharacterOffsetEnd=82 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Missandei))
+    (VP (VBZ is)
+      (NP
+        (NP (DT a) (JJ Faceless) (NN Man))
+        (, ,)
+        (VP (VBG working)
+          (S
+            (VP (TO to)
+              (VP (VB bring)
+                (NP (DT the) (NNPS Targaryens))
+                (PRT (RP down))
+                (PP (IN from)
+                  (NP (DT the) (NN inside)))))))))
+    (. .)))
+
+root(ROOT-0, Man-5)
+nsubj(Man-5, Missandei-1)
+cop(Man-5, is-2)
+det(Man-5, a-3)
+amod(Man-5, Faceless-4)
+punct(Man-5, ,-6)
+acl(Man-5, working-7)
+mark(bring-9, to-8)
+xcomp(working-7, bring-9)
+det(Targaryens-11, the-10)
+dobj(bring-9, Targaryens-11)
+compound:prt(bring-9, down-12)
+case(inside-15, from-13)
+det(inside-15, the-14)
+nmod:from(bring-9, inside-15)
+punct(Man-5, .-16)
+
 Sentence #2 (13 tokens):
 She's so wise for her age, don't you think?
-[Text=She CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=VBZ]
-[Text=so CharacterOffsetBegin=89 CharacterOffsetEnd=91 PartOfSpeech=RB]
-[Text=wise CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=JJ]
-[Text=for CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=PRP$]
-[Text=age CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=,]
-[Text=do CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=VBP]
-[Text=n't CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=RB]
-[Text=you CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=PRP]
-[Text=think CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=VB]
-[Text=? CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=.]
+[Text=She CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=89 CharacterOffsetEnd=91 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=wise CharacterOffsetBegin=92 CharacterOffsetEnd=96 PartOfSpeech=JJ Lemma=wise NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=age CharacterOffsetBegin=105 CharacterOffsetEnd=108 PartOfSpeech=NN Lemma=age NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=108 CharacterOffsetEnd=109 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=110 CharacterOffsetEnd=112 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=think CharacterOffsetBegin=120 CharacterOffsetEnd=125 PartOfSpeech=VB Lemma=think NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=125 CharacterOffsetEnd=126 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (SQ
+    (S
+      (NP (PRP She))
+      (VP (VBZ 's)
+        (ADJP (RB so) (JJ wise)
+          (PP (IN for)
+            (NP (PRP$ her) (NN age))))))
+    (, ,)
+    (SQ (VBP do) (RB n't)
+      (NP (PRP you))
+      (VP (VB think)))
+    (. ?)))
+
+root(ROOT-0, think-12)
+nsubj(wise-4, She-1)
+cop(wise-4, 's-2)
+advmod(wise-4, so-3)
+dep(think-12, wise-4)
+case(age-7, for-5)
+nmod:poss(age-7, her-6)
+nmod:for(wise-4, age-7)
+punct(think-12, ,-8)
+aux(think-12, do-9)
+neg(think-12, n't-10)
+nsubj(think-12, you-11)
+punct(think-12, ?-13)
+
 Sentence #3 (5 tokens):
 And she sees everything.
-[Text=And CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=CC]
-[Text=she CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=PRP]
-[Text=sees CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=VBZ]
-[Text=everything CharacterOffsetBegin=140 CharacterOffsetEnd=150 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=.]
+[Text=And CharacterOffsetBegin=127 CharacterOffsetEnd=130 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=sees CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=VBZ Lemma=see NamedEntityTag=O]
+[Text=everything CharacterOffsetBegin=140 CharacterOffsetEnd=150 PartOfSpeech=NN Lemma=everything NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC And)
+    (NP (PRP she))
+    (VP (VBZ sees)
+      (NP (NN everything)))
+    (. .)))
+
+root(ROOT-0, sees-3)
+cc(sees-3, And-1)
+nsubj(sees-3, she-2)
+dobj(sees-3, everything-4)
+punct(sees-3, .-5)
+
+Coreference set:
+	(1,1,[1,2]) -> (1,5,[3,6]), that is: "Missandei" -> "a Faceless Man"
+	(1,5,[3,16]) -> (1,5,[3,6]), that is: "a Faceless Man , working to bring the Targaryens down from the inside" -> "a Faceless Man"
+Coreference set:
+	(2,1,[1,2]) -> (1,11,[10,12]), that is: "She" -> "the Targaryens"
+	(2,6,[6,7]) -> (1,11,[10,12]), that is: "her" -> "the Targaryens"
+	(3,2,[2,3]) -> (1,11,[10,12]), that is: "she" -> "the Targaryens"

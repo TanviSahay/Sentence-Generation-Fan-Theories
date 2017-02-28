@@ -1,43 +1,137 @@
-Sentence #1 (41 tokens):
-Sam will find a secret record of the wedding of Lyanna and Rhaegar in the citadel and when Jon and Sansa bury Rickon in the crypts theyll discover a secret tomb prepared for Jon with his real name and birth parents
-[Text=Sam CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=MD]
-[Text=find CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=DT]
-[Text=secret CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=JJ]
-[Text=record CharacterOffsetBegin=23 CharacterOffsetEnd=29 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=DT]
-[Text=wedding CharacterOffsetBegin=37 CharacterOffsetEnd=44 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=IN]
-[Text=Lyanna CharacterOffsetBegin=48 CharacterOffsetEnd=54 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=CC]
-[Text=Rhaegar CharacterOffsetBegin=59 CharacterOffsetEnd=66 PartOfSpeech=NNP]
-[Text=in CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=DT]
-[Text=citadel CharacterOffsetBegin=74 CharacterOffsetEnd=81 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=CC]
-[Text=when CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=WRB]
-[Text=Jon CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=CC]
-[Text=Sansa CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=NNP]
-[Text=bury CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=VBP]
-[Text=Rickon CharacterOffsetBegin=110 CharacterOffsetEnd=116 PartOfSpeech=NNP]
-[Text=in CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=DT]
-[Text=crypts CharacterOffsetBegin=124 CharacterOffsetEnd=130 PartOfSpeech=NNS]
-[Text=theyll CharacterOffsetBegin=131 CharacterOffsetEnd=137 PartOfSpeech=RB]
-[Text=discover CharacterOffsetBegin=138 CharacterOffsetEnd=146 PartOfSpeech=VBP]
-[Text=a CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=DT]
-[Text=secret CharacterOffsetBegin=149 CharacterOffsetEnd=155 PartOfSpeech=JJ]
-[Text=tomb CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=NN]
-[Text=prepared CharacterOffsetBegin=161 CharacterOffsetEnd=169 PartOfSpeech=VBN]
-[Text=for CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=IN]
-[Text=Jon CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=NNP]
-[Text=with CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=PRP$]
-[Text=real CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=JJ]
-[Text=name CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=CC]
-[Text=birth CharacterOffsetBegin=201 CharacterOffsetEnd=206 PartOfSpeech=NN]
-[Text=parents CharacterOffsetBegin=207 CharacterOffsetEnd=214 PartOfSpeech=NNS]
+Sentence #1 (42 tokens):
+Sam will find a secret record of the wedding of Lyanna and Rhaegar in the citadel and when Jon and Sansa bury Rickon in the crypts theyll discover a secret tomb prepared for Jon with his real name and birth parents.
+[Text=Sam CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=find CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=VB Lemma=find NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=14 CharacterOffsetEnd=15 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=secret CharacterOffsetBegin=16 CharacterOffsetEnd=22 PartOfSpeech=JJ Lemma=secret NamedEntityTag=O]
+[Text=record CharacterOffsetBegin=23 CharacterOffsetEnd=29 PartOfSpeech=NN Lemma=record NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=30 CharacterOffsetEnd=32 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=33 CharacterOffsetEnd=36 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=wedding CharacterOffsetBegin=37 CharacterOffsetEnd=44 PartOfSpeech=NN Lemma=wedding NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Lyanna CharacterOffsetBegin=48 CharacterOffsetEnd=54 PartOfSpeech=NNP Lemma=Lyanna NamedEntityTag=LOCATION]
+[Text=and CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Rhaegar CharacterOffsetBegin=59 CharacterOffsetEnd=66 PartOfSpeech=NNP Lemma=Rhaegar NamedEntityTag=PERSON]
+[Text=in CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=citadel CharacterOffsetBegin=74 CharacterOffsetEnd=81 PartOfSpeech=NN Lemma=citadel NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=99 CharacterOffsetEnd=104 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=O]
+[Text=bury CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=VBP Lemma=bury NamedEntityTag=O]
+[Text=Rickon CharacterOffsetBegin=110 CharacterOffsetEnd=116 PartOfSpeech=NNP Lemma=Rickon NamedEntityTag=PERSON]
+[Text=in CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=crypts CharacterOffsetBegin=124 CharacterOffsetEnd=130 PartOfSpeech=NNS Lemma=crypt NamedEntityTag=O]
+[Text=theyll CharacterOffsetBegin=131 CharacterOffsetEnd=137 PartOfSpeech=RB Lemma=theyll NamedEntityTag=O]
+[Text=discover CharacterOffsetBegin=138 CharacterOffsetEnd=146 PartOfSpeech=VBP Lemma=discover NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=secret CharacterOffsetBegin=149 CharacterOffsetEnd=155 PartOfSpeech=JJ Lemma=secret NamedEntityTag=O]
+[Text=tomb CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=NN Lemma=tomb NamedEntityTag=O]
+[Text=prepared CharacterOffsetBegin=161 CharacterOffsetEnd=169 PartOfSpeech=VBN Lemma=prepare NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=170 CharacterOffsetEnd=173 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=with CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=real CharacterOffsetBegin=187 CharacterOffsetEnd=191 PartOfSpeech=JJ Lemma=real NamedEntityTag=O]
+[Text=name CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=NN Lemma=name NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=birth CharacterOffsetBegin=201 CharacterOffsetEnd=206 PartOfSpeech=NN Lemma=birth NamedEntityTag=O]
+[Text=parents CharacterOffsetBegin=207 CharacterOffsetEnd=214 PartOfSpeech=NNS Lemma=parent NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=214 CharacterOffsetEnd=215 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Sam))
+      (VP (MD will)
+        (VP (VB find)
+          (NP
+            (NP (DT a) (JJ secret) (NN record))
+            (PP (IN of)
+              (NP
+                (NP (DT the) (NN wedding))
+                (PP (IN of)
+                  (NP (NNP Lyanna)
+                    (CC and)
+                    (NNP Rhaegar))))))
+          (PP (IN in)
+            (NP (DT the) (NN citadel))))))
+    (CC and)
+    (S
+      (SBAR
+        (WHADVP (WRB when))
+        (S
+          (NP (NNP Jon)
+            (CC and)
+            (NNP Sansa))
+          (VP (VBP bury)
+            (NP
+              (NP (NNP Rickon))
+              (PP (IN in)
+                (NP (DT the) (NNS crypts)))))))
+      (ADVP (RB theyll))
+      (VP (VBP discover)
+        (NP
+          (NP (DT a) (JJ secret) (NN tomb))
+          (VP (VBN prepared)
+            (PP (IN for)
+              (NP (NNP Jon)))
+            (PP (IN with)
+              (NP (PRP$ his) (JJ real) (NN name)
+                (CC and)
+                (NN birth) (NNS parents)))))))
+    (. .)))
+
+root(ROOT-0, find-3)
+nsubj(find-3, Sam-1)
+nsubj(discover-28, Sam-1)
+aux(find-3, will-2)
+det(record-6, a-4)
+amod(record-6, secret-5)
+dobj(find-3, record-6)
+case(wedding-9, of-7)
+det(wedding-9, the-8)
+nmod:of(record-6, wedding-9)
+case(Lyanna-11, of-10)
+nmod:of(wedding-9, Lyanna-11)
+cc(Lyanna-11, and-12)
+nmod:of(wedding-9, Rhaegar-13)
+conj:and(Lyanna-11, Rhaegar-13)
+case(citadel-16, in-14)
+det(citadel-16, the-15)
+nmod:in(find-3, citadel-16)
+cc(find-3, and-17)
+advmod(bury-22, when-18)
+nsubj(bury-22, Jon-19)
+cc(Jon-19, and-20)
+conj:and(Jon-19, Sansa-21)
+nsubj(bury-22, Sansa-21)
+advcl(discover-28, bury-22)
+dobj(bury-22, Rickon-23)
+case(crypts-26, in-24)
+det(crypts-26, the-25)
+nmod:in(Rickon-23, crypts-26)
+advmod(discover-28, theyll-27)
+conj:and(find-3, discover-28)
+det(tomb-31, a-29)
+amod(tomb-31, secret-30)
+dobj(discover-28, tomb-31)
+acl(tomb-31, prepared-32)
+case(Jon-34, for-33)
+nmod:for(prepared-32, Jon-34)
+case(name-38, with-35)
+nmod:poss(name-38, his-36)
+amod(name-38, real-37)
+nmod:with(prepared-32, name-38)
+cc(name-38, and-39)
+compound(parents-41, birth-40)
+nmod:with(prepared-32, parents-41)
+conj:and(name-38, parents-41)
+punct(find-3, .-42)
+
+Coreference set:
+	(1,34,[34,35]) -> (1,19,[19,20]), that is: "Jon" -> "Jon"
+	(1,36,[36,37]) -> (1,19,[19,20]), that is: "his" -> "Jon"

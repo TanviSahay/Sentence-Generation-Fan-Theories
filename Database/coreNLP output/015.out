@@ -1,7 +1,21 @@
 Sentence #1 (5 tokens):
 Arya will kill Melisandre.
-[Text=Arya CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD]
-[Text=kill CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=VB]
-[Text=Melisandre CharacterOffsetBegin=15 CharacterOffsetEnd=25 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=.]
+[Text=Arya CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=kill CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=VB Lemma=kill NamedEntityTag=O]
+[Text=Melisandre CharacterOffsetBegin=15 CharacterOffsetEnd=25 PartOfSpeech=NNP Lemma=Melisandre NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Arya))
+    (VP (MD will)
+      (VP (VB kill)
+        (NP (NNP Melisandre))))
+    (. .)))
+
+root(ROOT-0, kill-3)
+nsubj(kill-3, Arya-1)
+aux(kill-3, will-2)
+dobj(kill-3, Melisandre-4)
+punct(kill-3, .-5)
+

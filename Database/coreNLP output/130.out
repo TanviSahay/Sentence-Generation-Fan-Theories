@@ -1,102 +1,316 @@
-Sentence #1 (22 tokens):
-Ramsay Bolton is Jon's twin
+Sentence #1 (7 tokens):
+Ramsay Bolton is Jon's twin.
+[Text=Ramsay CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text=Bolton CharacterOffsetBegin=7 CharacterOffsetEnd=13 PartOfSpeech=NNP Lemma=Bolton NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=twin CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=NN Lemma=twin NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Ramsay) (NNP Bolton))
+    (VP (VBZ is)
+      (NP
+        (NP (NNP Jon) (POS 's))
+        (NN twin)))
+    (. .)))
 
+root(ROOT-0, twin-6)
+compound(Bolton-2, Ramsay-1)
+nsubj(twin-6, Bolton-2)
+cop(twin-6, is-3)
+nmod:poss(twin-6, Jon-4)
+case(Jon-4, 's-5)
+punct(twin-6, .-7)
+
+Sentence #2 (16 tokens):
 Ramsay and Jon are approximately the same age and both have black, curly hair.
-[Text=Ramsay CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP]
-[Text=Bolton CharacterOffsetBegin=7 CharacterOffsetEnd=13 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=14 CharacterOffsetEnd=16 PartOfSpeech=VBZ]
-[Text=Jon CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=POS]
-[Text=twin CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=JJ]
-[Text=Ramsay CharacterOffsetBegin=29 CharacterOffsetEnd=35 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=CC]
-[Text=Jon CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=NNP]
-[Text=are CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=VBP]
-[Text=approximately CharacterOffsetBegin=48 CharacterOffsetEnd=61 PartOfSpeech=RB]
-[Text=the CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=DT]
-[Text=same CharacterOffsetBegin=66 CharacterOffsetEnd=70 PartOfSpeech=JJ]
-[Text=age CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=CC]
-[Text=both CharacterOffsetBegin=79 CharacterOffsetEnd=83 PartOfSpeech=DT]
-[Text=have CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=VBP]
-[Text=black CharacterOffsetBegin=89 CharacterOffsetEnd=94 PartOfSpeech=JJ]
-[Text=, CharacterOffsetBegin=94 CharacterOffsetEnd=95 PartOfSpeech=,]
-[Text=curly CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=JJ]
-[Text=hair CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=.]
-Sentence #2 (21 tokens):
+[Text=Ramsay CharacterOffsetBegin=30 CharacterOffsetEnd=36 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=are CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=approximately CharacterOffsetBegin=49 CharacterOffsetEnd=62 PartOfSpeech=RB Lemma=approximately NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=same CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=JJ Lemma=same NamedEntityTag=O]
+[Text=age CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=NN Lemma=age NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=both CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=DT Lemma=both NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=85 CharacterOffsetEnd=89 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=black CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=JJ Lemma=black NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=curly CharacterOffsetBegin=97 CharacterOffsetEnd=102 PartOfSpeech=JJ Lemma=curly NamedEntityTag=O]
+[Text=hair CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=NN Lemma=hair NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Ramsay)
+        (CC and)
+        (NNP Jon))
+      (VP (VBP are)
+        (NP (RB approximately) (DT the) (JJ same) (NN age))))
+    (CC and)
+    (S
+      (NP (DT both))
+      (VP (VBP have)
+        (NP
+          (ADJP (JJ black) (, ,) (JJ curly))
+          (NN hair))))
+    (. .)))
+
+root(ROOT-0, age-8)
+nsubj(age-8, Ramsay-1)
+cc(Ramsay-1, and-2)
+conj:and(Ramsay-1, Jon-3)
+nsubj(age-8, Jon-3)
+cop(age-8, are-4)
+advmod(age-8, approximately-5)
+det(age-8, the-6)
+amod(age-8, same-7)
+cc(age-8, and-9)
+nsubj(have-11, both-10)
+conj:and(age-8, have-11)
+amod(curly-14, black-12)
+punct(curly-14, ,-13)
+amod(hair-15, curly-14)
+dobj(have-11, hair-15)
+punct(age-8, .-16)
+
+Sentence #3 (21 tokens):
 As bastards in the North, they even share a last name (at least until Roose legitimized Ramsay).
-[Text=As CharacterOffsetBegin=108 CharacterOffsetEnd=110 PartOfSpeech=IN]
-[Text=bastards CharacterOffsetBegin=111 CharacterOffsetEnd=119 PartOfSpeech=NNS]
-[Text=in CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=123 CharacterOffsetEnd=126 PartOfSpeech=DT]
-[Text=North CharacterOffsetBegin=127 CharacterOffsetEnd=132 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=,]
-[Text=they CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=PRP]
-[Text=even CharacterOffsetBegin=139 CharacterOffsetEnd=143 PartOfSpeech=RB]
-[Text=share CharacterOffsetBegin=144 CharacterOffsetEnd=149 PartOfSpeech=VBP]
-[Text=a CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=DT]
-[Text=last CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=JJ]
-[Text=name CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=162 CharacterOffsetEnd=163 PartOfSpeech=-LRB-]
-[Text=at CharacterOffsetBegin=163 CharacterOffsetEnd=165 PartOfSpeech=IN]
-[Text=least CharacterOffsetBegin=166 CharacterOffsetEnd=171 PartOfSpeech=JJS]
-[Text=until CharacterOffsetBegin=172 CharacterOffsetEnd=177 PartOfSpeech=IN]
-[Text=Roose CharacterOffsetBegin=178 CharacterOffsetEnd=183 PartOfSpeech=NNP]
-[Text=legitimized CharacterOffsetBegin=184 CharacterOffsetEnd=195 PartOfSpeech=VBD]
-[Text=Ramsay CharacterOffsetBegin=196 CharacterOffsetEnd=202 PartOfSpeech=NNP]
-[Text=-RRB- CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=-RRB-]
-[Text=. CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=.]
-Sentence #3 (16 tokens):
+[Text=As CharacterOffsetBegin=109 CharacterOffsetEnd=111 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=bastards CharacterOffsetBegin=112 CharacterOffsetEnd=120 PartOfSpeech=NNS Lemma=bastard NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=121 CharacterOffsetEnd=123 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=124 CharacterOffsetEnd=127 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=North CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=NNP Lemma=North NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=even CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=RB Lemma=even NamedEntityTag=O]
+[Text=share CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=VBP Lemma=share NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=last CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=JJ Lemma=last NamedEntityTag=O]
+[Text=name CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=NN Lemma=name NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=163 CharacterOffsetEnd=164 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=least CharacterOffsetBegin=167 CharacterOffsetEnd=172 PartOfSpeech=JJS Lemma=least NamedEntityTag=O]
+[Text=until CharacterOffsetBegin=173 CharacterOffsetEnd=178 PartOfSpeech=IN Lemma=until NamedEntityTag=O]
+[Text=Roose CharacterOffsetBegin=179 CharacterOffsetEnd=184 PartOfSpeech=NNP Lemma=Roose NamedEntityTag=PERSON]
+[Text=legitimized CharacterOffsetBegin=185 CharacterOffsetEnd=196 PartOfSpeech=VBD Lemma=legitimize NamedEntityTag=O]
+[Text=Ramsay CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text=-RRB- CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN As)
+      (NP
+        (NP (NNS bastards))
+        (PP (IN in)
+          (NP (DT the) (NNP North)))))
+    (, ,)
+    (NP (PRP they))
+    (ADVP (RB even))
+    (VP (VBP share)
+      (NP
+        (NP (DT a) (JJ last) (NN name))
+        (PRN (-LRB- -LRB-)
+          (SBAR
+            (ADVP (IN at) (JJS least))
+            (IN until)
+            (S
+              (NP (NNP Roose))
+              (VP (VBD legitimized)
+                (NP (NNP Ramsay)))))
+          (-RRB- -RRB-))))
+    (. .)))
+
+root(ROOT-0, share-9)
+case(bastards-2, As-1)
+nmod:as(share-9, bastards-2)
+case(North-5, in-3)
+det(North-5, the-4)
+nmod:in(bastards-2, North-5)
+punct(share-9, ,-6)
+nsubj(share-9, they-7)
+advmod(share-9, even-8)
+det(name-12, a-10)
+amod(name-12, last-11)
+dobj(share-9, name-12)
+punct(legitimized-18, -LRB--13)
+case(least-15, at-14)
+advmod(legitimized-18, least-15)
+mark(legitimized-18, until-16)
+nsubj(legitimized-18, Roose-17)
+dep(name-12, legitimized-18)
+dobj(legitimized-18, Ramsay-19)
+punct(legitimized-18, -RRB--20)
+punct(share-9, .-21)
+
+Sentence #4 (16 tokens):
 But while Jon would have inherited the Stark nobility, Ramsay got the Targaryen insanity.
-[Text=But CharacterOffsetBegin=206 CharacterOffsetEnd=209 PartOfSpeech=CC]
-[Text=while CharacterOffsetBegin=210 CharacterOffsetEnd=215 PartOfSpeech=IN]
-[Text=Jon CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=NNP]
-[Text=would CharacterOffsetBegin=220 CharacterOffsetEnd=225 PartOfSpeech=MD]
-[Text=have CharacterOffsetBegin=226 CharacterOffsetEnd=230 PartOfSpeech=VB]
-[Text=inherited CharacterOffsetBegin=231 CharacterOffsetEnd=240 PartOfSpeech=VBN]
-[Text=the CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=DT]
-[Text=Stark CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=NNP]
-[Text=nobility CharacterOffsetBegin=251 CharacterOffsetEnd=259 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=,]
-[Text=Ramsay CharacterOffsetBegin=261 CharacterOffsetEnd=267 PartOfSpeech=NNP]
-[Text=got CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT]
-[Text=Targaryen CharacterOffsetBegin=276 CharacterOffsetEnd=285 PartOfSpeech=JJ]
-[Text=insanity CharacterOffsetBegin=286 CharacterOffsetEnd=294 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=.]
-Sentence #4 (33 tokens):
+[Text=But CharacterOffsetBegin=207 CharacterOffsetEnd=210 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=while CharacterOffsetBegin=211 CharacterOffsetEnd=216 PartOfSpeech=IN Lemma=while NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=would CharacterOffsetBegin=221 CharacterOffsetEnd=226 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=227 CharacterOffsetEnd=231 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=inherited CharacterOffsetBegin=232 CharacterOffsetEnd=241 PartOfSpeech=VBN Lemma=inherit NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Stark CharacterOffsetBegin=246 CharacterOffsetEnd=251 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text=nobility CharacterOffsetBegin=252 CharacterOffsetEnd=260 PartOfSpeech=NN Lemma=nobility NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=260 CharacterOffsetEnd=261 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Ramsay CharacterOffsetBegin=262 CharacterOffsetEnd=268 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text=got CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=VBD Lemma=get NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Targaryen CharacterOffsetBegin=277 CharacterOffsetEnd=286 PartOfSpeech=JJ Lemma=targaryen NamedEntityTag=MISC]
+[Text=insanity CharacterOffsetBegin=287 CharacterOffsetEnd=295 PartOfSpeech=NN Lemma=insanity NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC But)
+    (SBAR (IN while)
+      (S
+        (NP (NNP Jon))
+        (VP (MD would)
+          (VP (VB have)
+            (VP (VBN inherited)
+              (NP (DT the) (NNP Stark) (NN nobility)))))))
+    (, ,)
+    (NP (NNP Ramsay))
+    (VP (VBD got)
+      (NP (DT the) (JJ Targaryen) (NN insanity)))
+    (. .)))
+
+root(ROOT-0, got-12)
+cc(got-12, But-1)
+mark(inherited-6, while-2)
+nsubj(inherited-6, Jon-3)
+aux(inherited-6, would-4)
+aux(inherited-6, have-5)
+advcl:while(got-12, inherited-6)
+det(nobility-9, the-7)
+compound(nobility-9, Stark-8)
+dobj(inherited-6, nobility-9)
+punct(got-12, ,-10)
+nsubj(got-12, Ramsay-11)
+det(insanity-15, the-13)
+amod(insanity-15, Targaryen-14)
+dobj(got-12, insanity-15)
+punct(got-12, .-16)
+
+Sentence #5 (33 tokens):
 However, it's unlikely that Ned would have given one of his nephews away to a miller's wife in Bolton lands, so we doubt this theory holds much weight.
-[Text=However CharacterOffsetBegin=296 CharacterOffsetEnd=303 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=,]
-[Text=it CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=VBZ]
-[Text=unlikely CharacterOffsetBegin=310 CharacterOffsetEnd=318 PartOfSpeech=JJ]
-[Text=that CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=IN]
-[Text=Ned CharacterOffsetBegin=324 CharacterOffsetEnd=327 PartOfSpeech=NNP]
-[Text=would CharacterOffsetBegin=328 CharacterOffsetEnd=333 PartOfSpeech=MD]
-[Text=have CharacterOffsetBegin=334 CharacterOffsetEnd=338 PartOfSpeech=VB]
-[Text=given CharacterOffsetBegin=339 CharacterOffsetEnd=344 PartOfSpeech=VBN]
-[Text=one CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=CD]
-[Text=of CharacterOffsetBegin=349 CharacterOffsetEnd=351 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=352 CharacterOffsetEnd=355 PartOfSpeech=PRP$]
-[Text=nephews CharacterOffsetBegin=356 CharacterOffsetEnd=363 PartOfSpeech=NNS]
-[Text=away CharacterOffsetBegin=364 CharacterOffsetEnd=368 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=369 CharacterOffsetEnd=371 PartOfSpeech=TO]
-[Text=a CharacterOffsetBegin=372 CharacterOffsetEnd=373 PartOfSpeech=DT]
-[Text=miller CharacterOffsetBegin=374 CharacterOffsetEnd=380 PartOfSpeech=NN]
-[Text='s CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=POS]
-[Text=wife CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=IN]
-[Text=Bolton CharacterOffsetBegin=391 CharacterOffsetEnd=397 PartOfSpeech=NNP]
-[Text=lands CharacterOffsetBegin=398 CharacterOffsetEnd=403 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=403 CharacterOffsetEnd=404 PartOfSpeech=,]
-[Text=so CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=IN]
-[Text=we CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=PRP]
-[Text=doubt CharacterOffsetBegin=411 CharacterOffsetEnd=416 PartOfSpeech=VBP]
-[Text=this CharacterOffsetBegin=417 CharacterOffsetEnd=421 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=422 CharacterOffsetEnd=428 PartOfSpeech=NN]
-[Text=holds CharacterOffsetBegin=429 CharacterOffsetEnd=434 PartOfSpeech=VBZ]
-[Text=much CharacterOffsetBegin=435 CharacterOffsetEnd=439 PartOfSpeech=JJ]
-[Text=weight CharacterOffsetBegin=440 CharacterOffsetEnd=446 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=.]
+[Text=However CharacterOffsetBegin=297 CharacterOffsetEnd=304 PartOfSpeech=RB Lemma=however NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=304 CharacterOffsetEnd=305 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=306 CharacterOffsetEnd=308 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=unlikely CharacterOffsetBegin=311 CharacterOffsetEnd=319 PartOfSpeech=JJ Lemma=unlikely NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Ned CharacterOffsetBegin=325 CharacterOffsetEnd=328 PartOfSpeech=NNP Lemma=Ned NamedEntityTag=PERSON]
+[Text=would CharacterOffsetBegin=329 CharacterOffsetEnd=334 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=given CharacterOffsetBegin=340 CharacterOffsetEnd=345 PartOfSpeech=VBN Lemma=give NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=346 CharacterOffsetEnd=349 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=of CharacterOffsetBegin=350 CharacterOffsetEnd=352 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=353 CharacterOffsetEnd=356 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=nephews CharacterOffsetBegin=357 CharacterOffsetEnd=364 PartOfSpeech=NNS Lemma=nephew NamedEntityTag=O]
+[Text=away CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=RB Lemma=away NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=miller CharacterOffsetBegin=375 CharacterOffsetEnd=381 PartOfSpeech=NN Lemma=miller NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=wife CharacterOffsetBegin=384 CharacterOffsetEnd=388 PartOfSpeech=NN Lemma=wife NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=389 CharacterOffsetEnd=391 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Bolton CharacterOffsetBegin=392 CharacterOffsetEnd=398 PartOfSpeech=NNP Lemma=Bolton NamedEntityTag=PERSON]
+[Text=lands CharacterOffsetBegin=399 CharacterOffsetEnd=404 PartOfSpeech=NNS Lemma=land NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=404 CharacterOffsetEnd=405 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=406 CharacterOffsetEnd=408 PartOfSpeech=IN Lemma=so NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=doubt CharacterOffsetBegin=412 CharacterOffsetEnd=417 PartOfSpeech=VBP Lemma=doubt NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=418 CharacterOffsetEnd=422 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=423 CharacterOffsetEnd=429 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=holds CharacterOffsetBegin=430 CharacterOffsetEnd=435 PartOfSpeech=VBZ Lemma=hold NamedEntityTag=O]
+[Text=much CharacterOffsetBegin=436 CharacterOffsetEnd=440 PartOfSpeech=JJ Lemma=much NamedEntityTag=O]
+[Text=weight CharacterOffsetBegin=441 CharacterOffsetEnd=447 PartOfSpeech=NN Lemma=weight NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ 's)
+      (ADJP (JJ unlikely))
+      (SBAR (IN that)
+        (S
+          (NP (NNP Ned))
+          (VP (MD would)
+            (VP (VB have)
+              (VP (VBN given)
+                (NP
+                  (NP (CD one))
+                  (PP (IN of)
+                    (NP (PRP$ his) (NNS nephews))))
+                (ADVP (RB away)
+                  (PP (TO to)
+                    (NP
+                      (NP (DT a) (NN miller) (POS 's))
+                      (NN wife))))
+                (PP (IN in)
+                  (NP (NNP Bolton) (NNS lands)))
+                (, ,)
+                (SBAR (IN so)
+                  (S
+                    (NP (PRP we))
+                    (VP (VBP doubt)
+                      (SBAR
+                        (S
+                          (NP (DT this) (NN theory))
+                          (VP (VBZ holds)
+                            (NP (JJ much) (NN weight))))))))))))))
+    (. .)))
+
+root(ROOT-0, unlikely-5)
+advmod(unlikely-5, However-1)
+punct(unlikely-5, ,-2)
+nsubj(unlikely-5, it-3)
+cop(unlikely-5, 's-4)
+mark(given-10, that-6)
+nsubj(given-10, Ned-7)
+aux(given-10, would-8)
+aux(given-10, have-9)
+ccomp(unlikely-5, given-10)
+dobj(given-10, one-11)
+case(nephews-14, of-12)
+nmod:poss(nephews-14, his-13)
+nmod:of(one-11, nephews-14)
+advmod(given-10, away-15)
+case(wife-20, to-16)
+det(miller-18, a-17)
+nmod:poss(wife-20, miller-18)
+case(miller-18, 's-19)
+nmod:to(away-15, wife-20)
+case(lands-23, in-21)
+compound(lands-23, Bolton-22)
+nmod:in(given-10, lands-23)
+punct(given-10, ,-24)
+mark(doubt-27, so-25)
+nsubj(doubt-27, we-26)
+advcl:so(given-10, doubt-27)
+det(theory-29, this-28)
+nsubj(holds-30, theory-29)
+ccomp(doubt-27, holds-30)
+amod(weight-32, much-31)
+dobj(holds-30, weight-32)
+punct(unlikely-5, .-33)
+
+Coreference set:
+	(1,6,[4,7]) -> (1,2,[1,3]), that is: "Jon 's twin" -> "Ramsay Bolton"
+	(2,1,[1,2]) -> (1,2,[1,3]), that is: "Ramsay" -> "Ramsay Bolton"
+	(3,19,[19,20]) -> (1,2,[1,3]), that is: "Ramsay" -> "Ramsay Bolton"
+	(4,11,[11,12]) -> (1,2,[1,3]), that is: "Ramsay" -> "Ramsay Bolton"
+	(5,22,[22,23]) -> (1,2,[1,3]), that is: "Bolton" -> "Ramsay Bolton"
+Coreference set:
+	(2,3,[3,4]) -> (1,4,[4,6]), that is: "Jon" -> "Jon 's"
+	(4,3,[3,4]) -> (1,4,[4,6]), that is: "Jon" -> "Jon 's"
+Coreference set:
+	(3,7,[7,8]) -> (2,1,[1,4]), that is: "they" -> "Ramsay and Jon"
+Coreference set:
+	(5,3,[3,4]) -> (4,15,[13,16]), that is: "it" -> "the Targaryen insanity"

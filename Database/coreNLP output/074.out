@@ -1,40 +1,124 @@
 Sentence #1 (6 tokens):
 Roose Bolton is a vampire.
-[Text=Roose CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=Bolton CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=DT]
-[Text=vampire CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=.]
+[Text=Roose CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Roose NamedEntityTag=PERSON]
+[Text=Bolton CharacterOffsetBegin=6 CharacterOffsetEnd=12 PartOfSpeech=NNP Lemma=Bolton NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=13 CharacterOffsetEnd=15 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=16 CharacterOffsetEnd=17 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=vampire CharacterOffsetBegin=18 CharacterOffsetEnd=25 PartOfSpeech=NN Lemma=vampire NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Roose) (NNP Bolton))
+    (VP (VBZ is)
+      (NP (DT a) (NN vampire)))
+    (. .)))
+
+root(ROOT-0, vampire-5)
+compound(Bolton-2, Roose-1)
+nsubj(vampire-5, Bolton-2)
+cop(vampire-5, is-3)
+det(vampire-5, a-4)
+punct(vampire-5, .-6)
+
 Sentence #2 (20 tokens):
 He's pale, he likes to skin people, and he's got a weird thing for leeches.
-[Text=He CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=VBZ]
-[Text=pale CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=JJ]
-[Text=, CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=,]
-[Text=he CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=PRP]
-[Text=likes CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=TO]
-[Text=skin CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=NN]
-[Text=people CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=CC]
-[Text=he CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=VBZ]
-[Text=got CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=VBD]
-[Text=a CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=DT]
-[Text=weird CharacterOffsetBegin=78 CharacterOffsetEnd=83 PartOfSpeech=JJ]
-[Text=thing CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=IN]
-[Text=leeches CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=.]
+[Text=He CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=29 CharacterOffsetEnd=31 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=pale CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=JJ Lemma=pale NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=38 CharacterOffsetEnd=40 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=likes CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=VBZ Lemma=like NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=skin CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=NN Lemma=skin NamedEntityTag=O]
+[Text=people CharacterOffsetBegin=55 CharacterOffsetEnd=61 PartOfSpeech=NNS Lemma=people NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=61 CharacterOffsetEnd=62 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=63 CharacterOffsetEnd=66 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=got CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=VBD Lemma=get NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=weird CharacterOffsetBegin=78 CharacterOffsetEnd=83 PartOfSpeech=JJ Lemma=weird NamedEntityTag=O]
+[Text=thing CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=NN Lemma=thing NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=leeches CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=NNS Lemma=leech NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=101 CharacterOffsetEnd=102 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBZ 's)
+        (ADJP (JJ pale))))
+    (PRN (, ,)
+      (S
+        (NP (PRP he))
+        (VP (VBZ likes)
+          (PP (TO to)
+            (NP (NN skin) (NNS people)))))
+      (, ,))
+    (CC and)
+    (S
+      (NP (PRP he))
+      (VP (VBZ 's)
+        (VP (VBD got)
+          (NP (DT a) (JJ weird) (NN thing))
+          (PP (IN for)
+            (NP (NNS leeches))))))
+    (. .)))
+
+root(ROOT-0, pale-3)
+nsubj(pale-3, He-1)
+cop(pale-3, 's-2)
+punct(likes-6, ,-4)
+nsubj(likes-6, he-5)
+dep(pale-3, likes-6)
+case(people-9, to-7)
+compound(people-9, skin-8)
+nmod:to(likes-6, people-9)
+punct(likes-6, ,-10)
+cc(pale-3, and-11)
+nsubjpass(got-14, he-12)
+auxpass(got-14, 's-13)
+conj:and(pale-3, got-14)
+det(thing-17, a-15)
+amod(thing-17, weird-16)
+dobj(got-14, thing-17)
+case(leeches-19, for-18)
+nmod:for(got-14, leeches-19)
+punct(pale-3, .-20)
+
 Sentence #3 (8 tokens):
 But does he sparkle in the sunlight?
-[Text=But CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=CC]
-[Text=does CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=VBZ]
-[Text=he CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=PRP]
-[Text=sparkle CharacterOffsetBegin=115 CharacterOffsetEnd=122 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=DT]
-[Text=sunlight CharacterOffsetBegin=130 CharacterOffsetEnd=138 PartOfSpeech=NN]
-[Text=? CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=.]
+[Text=But CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=does CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=sparkle CharacterOffsetBegin=115 CharacterOffsetEnd=122 PartOfSpeech=NN Lemma=sparkle NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=123 CharacterOffsetEnd=125 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=sunlight CharacterOffsetBegin=130 CharacterOffsetEnd=138 PartOfSpeech=NN Lemma=sunlight NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (X (CC But)
+    (VP (VBZ does)
+      (S
+        (NP (PRP he))
+        (NP
+          (NP (NN sparkle))
+          (PP (IN in)
+            (NP (DT the) (NN sunlight))))))
+    (. ?)))
+
+root(ROOT-0, does-2)
+cc(does-2, But-1)
+nsubj(sparkle-4, he-3)
+xcomp(does-2, sparkle-4)
+case(sunlight-7, in-5)
+det(sunlight-7, the-6)
+nmod:in(sparkle-4, sunlight-7)
+punct(does-2, ?-8)
+
+Coreference set:
+	(1,5,[4,6]) -> (1,2,[1,3]), that is: "a vampire" -> "Roose Bolton"
+	(2,1,[1,2]) -> (1,2,[1,3]), that is: "He" -> "Roose Bolton"
+	(2,5,[5,6]) -> (1,2,[1,3]), that is: "he" -> "Roose Bolton"
+	(2,12,[12,13]) -> (1,2,[1,3]), that is: "he" -> "Roose Bolton"
+	(3,3,[3,4]) -> (1,2,[1,3]), that is: "he" -> "Roose Bolton"

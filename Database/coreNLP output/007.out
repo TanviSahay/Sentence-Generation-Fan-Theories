@@ -1,60 +1,189 @@
 Sentence #1 (13 tokens):
 Jamie will conflict with Cersei all season over her burning the Sept.
-[Text=Jamie CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=MD]
-[Text=conflict CharacterOffsetBegin=11 CharacterOffsetEnd=19 PartOfSpeech=VB]
-[Text=with CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=IN]
-[Text=Cersei CharacterOffsetBegin=25 CharacterOffsetEnd=31 PartOfSpeech=NNP]
-[Text=all CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=DT]
-[Text=season CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=NN]
-[Text=over CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=48 CharacterOffsetEnd=51 PartOfSpeech=PRP$]
-[Text=burning CharacterOffsetBegin=52 CharacterOffsetEnd=59 PartOfSpeech=NN]
-[Text=the CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=DT]
-[Text=Sept. CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=.]
+[Text=Jamie CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Jamie NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=conflict CharacterOffsetBegin=11 CharacterOffsetEnd=19 PartOfSpeech=VB Lemma=conflict NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=25 CharacterOffsetEnd=31 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=all CharacterOffsetBegin=32 CharacterOffsetEnd=35 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=over CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=IN Lemma=over NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=48 CharacterOffsetEnd=51 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=burning CharacterOffsetBegin=52 CharacterOffsetEnd=59 PartOfSpeech=NN Lemma=burning NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Sept. CharacterOffsetBegin=64 CharacterOffsetEnd=68 PartOfSpeech=NNP Lemma=Sept. NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-09 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-09">Sept</TIMEX3>]
+[Text=. CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Jamie))
+    (VP (MD will)
+      (VP (VB conflict)
+        (PP (IN with)
+          (NP
+            (NP (NNP Cersei))
+            (NP-TMP (DT all) (NN season))
+            (PP (IN over)
+              (NP (PRP$ her) (NN burning)))))
+        (NP-TMP (DT the) (NNP Sept.))))
+    (. .)))
+
+root(ROOT-0, conflict-3)
+nsubj(conflict-3, Jamie-1)
+aux(conflict-3, will-2)
+case(Cersei-5, with-4)
+nmod:with(conflict-3, Cersei-5)
+det(season-7, all-6)
+nmod:tmod(Cersei-5, season-7)
+case(burning-10, over-8)
+nmod:poss(burning-10, her-9)
+nmod:over(Cersei-5, burning-10)
+det(Sept.-12, the-11)
+nmod:tmod(conflict-3, Sept.-12)
+punct(conflict-3, .-13)
+
 Sentence #2 (24 tokens):
 She will slowly descend further into madness culminating in trying to burn down King's Landing before Daenerys can take it from her.
-[Text=She CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=PRP]
-[Text=will CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=MD]
-[Text=slowly CharacterOffsetBegin=79 CharacterOffsetEnd=85 PartOfSpeech=RB]
-[Text=descend CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=VB]
-[Text=further CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=RBR]
-[Text=into CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=IN]
-[Text=madness CharacterOffsetBegin=107 CharacterOffsetEnd=114 PartOfSpeech=NN]
-[Text=culminating CharacterOffsetBegin=115 CharacterOffsetEnd=126 PartOfSpeech=VBG]
-[Text=in CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=IN]
-[Text=trying CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=TO]
-[Text=burn CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=VB]
-[Text=down CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=RP]
-[Text=King CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=POS]
-[Text=Landing CharacterOffsetBegin=157 CharacterOffsetEnd=164 PartOfSpeech=NN]
-[Text=before CharacterOffsetBegin=165 CharacterOffsetEnd=171 PartOfSpeech=IN]
-[Text=Daenerys CharacterOffsetBegin=172 CharacterOffsetEnd=180 PartOfSpeech=NNP]
-[Text=can CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=MD]
-[Text=take CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=VB]
-[Text=it CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=PRP]
-[Text=from CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=.]
+[Text=She CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=slowly CharacterOffsetBegin=79 CharacterOffsetEnd=85 PartOfSpeech=RB Lemma=slowly NamedEntityTag=O]
+[Text=descend CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=VB Lemma=descend NamedEntityTag=O]
+[Text=further CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=RBR Lemma=further NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=madness CharacterOffsetBegin=107 CharacterOffsetEnd=114 PartOfSpeech=NN Lemma=madness NamedEntityTag=O]
+[Text=culminating CharacterOffsetBegin=115 CharacterOffsetEnd=126 PartOfSpeech=VBG Lemma=culminate NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=127 CharacterOffsetEnd=129 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=trying CharacterOffsetBegin=130 CharacterOffsetEnd=136 PartOfSpeech=VBG Lemma=try NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=burn CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=VB Lemma=burn NamedEntityTag=O]
+[Text=down CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=RP Lemma=down NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=NNP Lemma=King NamedEntityTag=ORGANIZATION]
+[Text='s CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Landing CharacterOffsetBegin=157 CharacterOffsetEnd=164 PartOfSpeech=NN Lemma=landing NamedEntityTag=O]
+[Text=before CharacterOffsetBegin=165 CharacterOffsetEnd=171 PartOfSpeech=IN Lemma=before NamedEntityTag=O]
+[Text=Daenerys CharacterOffsetBegin=172 CharacterOffsetEnd=180 PartOfSpeech=NNP Lemma=Daenerys NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=take CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=VB Lemma=take NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=198 CharacterOffsetEnd=201 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=201 CharacterOffsetEnd=202 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (MD will)
+      (ADVP (RB slowly))
+      (VP (VB descend)
+        (ADVP (RBR further))
+        (PP (IN into)
+          (NP
+            (NP (NN madness))
+            (VP (VBG culminating)
+              (PP (IN in)
+                (S
+                  (VP (VBG trying)
+                    (S
+                      (VP (TO to)
+                        (VP (VB burn)
+                          (PRT (RP down))
+                          (NP
+                            (NP (NNP King) (POS 's))
+                            (NN Landing)
+                            (SBAR (IN before)
+                              (S
+                                (NP (NNP Daenerys))
+                                (VP (MD can)
+                                  (VP (VB take)
+                                    (NP (PRP it))
+                                    (PP (IN from)
+                                      (NP (PRP her)))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, descend-4)
+nsubj(descend-4, She-1)
+aux(descend-4, will-2)
+advmod(descend-4, slowly-3)
+advmod(descend-4, further-5)
+case(madness-7, into-6)
+nmod:into(descend-4, madness-7)
+acl(madness-7, culminating-8)
+mark(trying-10, in-9)
+advcl:in(culminating-8, trying-10)
+mark(burn-12, to-11)
+xcomp(trying-10, burn-12)
+compound:prt(burn-12, down-13)
+nmod:poss(Landing-16, King-14)
+case(King-14, 's-15)
+dobj(burn-12, Landing-16)
+mark(take-20, before-17)
+nsubj(take-20, Daenerys-18)
+aux(take-20, can-19)
+acl:before(Landing-16, take-20)
+dobj(take-20, it-21)
+case(her-23, from-22)
+nmod:from(take-20, her-23)
+punct(descend-4, .-24)
+
 Sentence #3 (17 tokens):
 But Jamie will fulfill the Valonqar prophecy and kill her like he did the Mad King.
-[Text=But CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=CC]
-[Text=Jamie CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=MD]
-[Text=fulfill CharacterOffsetBegin=218 CharacterOffsetEnd=225 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=DT]
-[Text=Valonqar CharacterOffsetBegin=230 CharacterOffsetEnd=238 PartOfSpeech=NNP]
-[Text=prophecy CharacterOffsetBegin=239 CharacterOffsetEnd=247 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=CC]
-[Text=kill CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=VB]
-[Text=her CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=PRP$]
-[Text=like CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=PRP]
-[Text=did CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=DT]
-[Text=Mad CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=NNP]
-[Text=King CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=.]
+[Text=But CharacterOffsetBegin=203 CharacterOffsetEnd=206 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=Jamie CharacterOffsetBegin=207 CharacterOffsetEnd=212 PartOfSpeech=NNP Lemma=Jamie NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=fulfill CharacterOffsetBegin=218 CharacterOffsetEnd=225 PartOfSpeech=VB Lemma=fulfill NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Valonqar CharacterOffsetBegin=230 CharacterOffsetEnd=238 PartOfSpeech=NNP Lemma=Valonqar NamedEntityTag=O]
+[Text=prophecy CharacterOffsetBegin=239 CharacterOffsetEnd=247 PartOfSpeech=NN Lemma=prophecy NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=kill CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=VB Lemma=kill NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=269 CharacterOffsetEnd=272 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mad CharacterOffsetBegin=277 CharacterOffsetEnd=280 PartOfSpeech=NNP Lemma=Mad NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC But)
+    (NP (NNP Jamie))
+    (VP (MD will)
+      (VP
+        (VP (VB fulfill)
+          (NP (DT the) (NNP Valonqar) (NN prophecy)))
+        (CC and)
+        (VP (VB kill)
+          (NP (PRP$ her))
+          (SBAR (IN like)
+            (S
+              (NP (PRP he))
+              (VP (VBD did)
+                (NP (DT the) (NNP Mad) (NNP King))))))))
+    (. .)))
+
+root(ROOT-0, fulfill-4)
+cc(fulfill-4, But-1)
+nsubj(fulfill-4, Jamie-2)
+nsubj(kill-9, Jamie-2)
+aux(fulfill-4, will-3)
+det(prophecy-7, the-5)
+compound(prophecy-7, Valonqar-6)
+dobj(fulfill-4, prophecy-7)
+cc(fulfill-4, and-8)
+conj:but(fulfill-4, kill-9)
+dobj(kill-9, her-10)
+mark(did-13, like-11)
+nsubj(did-13, he-12)
+advcl:like(kill-9, did-13)
+det(King-16, the-14)
+compound(King-16, Mad-15)
+dobj(did-13, King-16)
+punct(fulfill-4, .-17)
+
+Coreference set:
+	(3,2,[2,3]) -> (1,1,[1,2]), that is: "Jamie" -> "Jamie"
+	(3,12,[12,13]) -> (1,1,[1,2]), that is: "he" -> "Jamie"
+Coreference set:
+	(2,1,[1,2]) -> (1,5,[5,11]), that is: "She" -> "Cersei all season over her burning"
+	(2,23,[23,24]) -> (1,5,[5,11]), that is: "her" -> "Cersei all season over her burning"
+	(3,10,[10,11]) -> (1,5,[5,11]), that is: "her" -> "Cersei all season over her burning"
+Coreference set:
+	(2,21,[21,22]) -> (2,18,[18,19]), that is: "it" -> "Daenerys"

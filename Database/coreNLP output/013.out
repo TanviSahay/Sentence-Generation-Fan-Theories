@@ -1,17 +1,56 @@
-Sentence #1 (15 tokens):
-Bran will reunite with his Starks siblings at Winterfell and inform Jon of his parentage
-[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD]
-[Text=reunite CharacterOffsetBegin=10 CharacterOffsetEnd=17 PartOfSpeech=VB]
-[Text=with CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=PRP$]
-[Text=Starks CharacterOffsetBegin=27 CharacterOffsetEnd=33 PartOfSpeech=NNP]
-[Text=siblings CharacterOffsetBegin=34 CharacterOffsetEnd=42 PartOfSpeech=NNS]
-[Text=at CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=IN]
-[Text=Winterfell CharacterOffsetBegin=46 CharacterOffsetEnd=56 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=CC]
-[Text=inform CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=VB]
-[Text=Jon CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=NNP]
-[Text=of CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=PRP$]
-[Text=parentage CharacterOffsetBegin=79 CharacterOffsetEnd=88 PartOfSpeech=NN]
+Sentence #1 (16 tokens):
+Bran will reunite with his Starks siblings at Winterfell and inform Jon of his parentage.
+[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=reunite CharacterOffsetBegin=10 CharacterOffsetEnd=17 PartOfSpeech=VB Lemma=reunite NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=Starks CharacterOffsetBegin=27 CharacterOffsetEnd=33 PartOfSpeech=NNP Lemma=Starks NamedEntityTag=PERSON]
+[Text=siblings CharacterOffsetBegin=34 CharacterOffsetEnd=42 PartOfSpeech=NNS Lemma=sibling NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=Winterfell CharacterOffsetBegin=46 CharacterOffsetEnd=56 PartOfSpeech=NNP Lemma=Winterfell NamedEntityTag=LOCATION]
+[Text=and CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=inform CharacterOffsetBegin=61 CharacterOffsetEnd=67 PartOfSpeech=VB Lemma=inform NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=of CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=parentage CharacterOffsetBegin=79 CharacterOffsetEnd=88 PartOfSpeech=NN Lemma=parentage NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=88 CharacterOffsetEnd=89 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Bran))
+    (VP (MD will)
+      (VP
+        (VP (VB reunite)
+          (PP (IN with)
+            (NP (PRP$ his) (NNP Starks) (NNS siblings)))
+          (PP (IN at)
+            (NP (NNP Winterfell))))
+        (CC and)
+        (VP (VB inform)
+          (NP
+            (NP (NNP Jon))
+            (PP (IN of)
+              (NP (PRP$ his) (NN parentage)))))))
+    (. .)))
+
+root(ROOT-0, reunite-3)
+nsubj(reunite-3, Bran-1)
+nsubj(inform-11, Bran-1)
+aux(reunite-3, will-2)
+case(siblings-7, with-4)
+nmod:poss(siblings-7, his-5)
+compound(siblings-7, Starks-6)
+nmod:with(reunite-3, siblings-7)
+case(Winterfell-9, at-8)
+nmod:at(reunite-3, Winterfell-9)
+cc(reunite-3, and-10)
+conj:and(reunite-3, inform-11)
+dobj(inform-11, Jon-12)
+case(parentage-15, of-13)
+nmod:poss(parentage-15, his-14)
+nmod:of(Jon-12, parentage-15)
+punct(reunite-3, .-16)
+
+Coreference set:
+	(1,14,[14,15]) -> (1,5,[5,6]), that is: "his" -> "his"

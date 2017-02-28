@@ -1,85 +1,261 @@
-Sentence #1 (22 tokens):
-Daenerys Targaryen is Azor Ahai
+Sentence #1 (6 tokens):
+Daenerys Targaryen is Azor Ahai.
+[Text=Daenerys CharacterOffsetBegin=0 CharacterOffsetEnd=8 PartOfSpeech=NNP Lemma=Daenerys NamedEntityTag=PERSON]
+[Text=Targaryen CharacterOffsetBegin=9 CharacterOffsetEnd=18 PartOfSpeech=NNP Lemma=Targaryen NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=Azor CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=NNP Lemma=Azor NamedEntityTag=PERSON]
+[Text=Ahai CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=NNP Lemma=Ahai NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=31 CharacterOffsetEnd=32 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Daenerys) (NNP Targaryen))
+    (VP (VBZ is)
+      (NP (NNP Azor) (NNP Ahai)))
+    (. .)))
 
+root(ROOT-0, Ahai-5)
+compound(Targaryen-2, Daenerys-1)
+nsubj(Ahai-5, Targaryen-2)
+cop(Ahai-5, is-3)
+compound(Ahai-5, Azor-4)
+punct(Ahai-5, .-6)
+
+Sentence #2 (17 tokens):
 A poor translation of the prophecy lead everyone to believe that Azor Ahai would be male.
-[Text=Daenerys CharacterOffsetBegin=0 CharacterOffsetEnd=8 PartOfSpeech=NNP]
-[Text=Targaryen CharacterOffsetBegin=9 CharacterOffsetEnd=18 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=VBZ]
-[Text=Azor CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=NNP]
-[Text=Ahai CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=NNP]
-[Text=A CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=NNP]
-[Text=poor CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=JJ]
-[Text=translation CharacterOffsetBegin=40 CharacterOffsetEnd=51 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=55 CharacterOffsetEnd=58 PartOfSpeech=DT]
-[Text=prophecy CharacterOffsetBegin=59 CharacterOffsetEnd=67 PartOfSpeech=NN]
-[Text=lead CharacterOffsetBegin=68 CharacterOffsetEnd=72 PartOfSpeech=NN]
-[Text=everyone CharacterOffsetBegin=73 CharacterOffsetEnd=81 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=82 CharacterOffsetEnd=84 PartOfSpeech=TO]
-[Text=believe CharacterOffsetBegin=85 CharacterOffsetEnd=92 PartOfSpeech=VB]
-[Text=that CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=IN]
-[Text=Azor CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=NNP]
-[Text=Ahai CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=NNP]
-[Text=would CharacterOffsetBegin=108 CharacterOffsetEnd=113 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=VB]
-[Text=male CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=121 CharacterOffsetEnd=122 PartOfSpeech=.]
-Sentence #2 (22 tokens):
+[Text=A CharacterOffsetBegin=34 CharacterOffsetEnd=35 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=poor CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=JJ Lemma=poor NamedEntityTag=O]
+[Text=translation CharacterOffsetBegin=41 CharacterOffsetEnd=52 PartOfSpeech=NN Lemma=translation NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=prophecy CharacterOffsetBegin=60 CharacterOffsetEnd=68 PartOfSpeech=NN Lemma=prophecy NamedEntityTag=O]
+[Text=lead CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=NN Lemma=lead NamedEntityTag=O]
+[Text=everyone CharacterOffsetBegin=74 CharacterOffsetEnd=82 PartOfSpeech=NN Lemma=everyone NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=83 CharacterOffsetEnd=85 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=believe CharacterOffsetBegin=86 CharacterOffsetEnd=93 PartOfSpeech=VB Lemma=believe NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Azor CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=NNP Lemma=Azor NamedEntityTag=PERSON]
+[Text=Ahai CharacterOffsetBegin=104 CharacterOffsetEnd=108 PartOfSpeech=NNP Lemma=Ahai NamedEntityTag=PERSON]
+[Text=would CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=male CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=JJ Lemma=male NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP
+    (NP (DT A) (JJ poor) (NN translation))
+    (PP (IN of)
+      (NP (DT the) (NN prophecy) (NN lead) (NN everyone)))
+    (S
+      (VP (TO to)
+        (VP (VB believe)
+          (SBAR (IN that)
+            (S
+              (NP (NNP Azor) (NNP Ahai))
+              (VP (MD would)
+                (VP (VB be)
+                  (ADJP (JJ male)))))))))
+    (. .)))
+
+root(ROOT-0, translation-3)
+det(translation-3, A-1)
+amod(translation-3, poor-2)
+case(everyone-8, of-4)
+det(everyone-8, the-5)
+compound(everyone-8, prophecy-6)
+compound(everyone-8, lead-7)
+nmod:of(translation-3, everyone-8)
+mark(believe-10, to-9)
+acl:to(translation-3, believe-10)
+mark(male-16, that-11)
+compound(Ahai-13, Azor-12)
+nsubj(male-16, Ahai-13)
+aux(male-16, would-14)
+cop(male-16, be-15)
+ccomp(believe-10, male-16)
+punct(translation-3, .-17)
+
+Sentence #3 (22 tokens):
 However, since dragons are neither male nor female, it's highly possible that Daenerys could be the prophesied leader.
-[Text=However CharacterOffsetBegin=123 CharacterOffsetEnd=130 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=,]
-[Text=since CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=IN]
-[Text=dragons CharacterOffsetBegin=138 CharacterOffsetEnd=145 PartOfSpeech=NNS]
-[Text=are CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=VBP]
-[Text=neither CharacterOffsetBegin=150 CharacterOffsetEnd=157 PartOfSpeech=DT]
-[Text=male CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=JJ]
-[Text=nor CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=CC]
-[Text=female CharacterOffsetBegin=167 CharacterOffsetEnd=173 PartOfSpeech=JJ]
-[Text=, CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=,]
-[Text=it CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=177 CharacterOffsetEnd=179 PartOfSpeech=VBZ]
-[Text=highly CharacterOffsetBegin=180 CharacterOffsetEnd=186 PartOfSpeech=RB]
-[Text=possible CharacterOffsetBegin=187 CharacterOffsetEnd=195 PartOfSpeech=JJ]
-[Text=that CharacterOffsetBegin=196 CharacterOffsetEnd=200 PartOfSpeech=IN]
-[Text=Daenerys CharacterOffsetBegin=201 CharacterOffsetEnd=209 PartOfSpeech=NNP]
-[Text=could CharacterOffsetBegin=210 CharacterOffsetEnd=215 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=216 CharacterOffsetEnd=218 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=DT]
-[Text=prophesied CharacterOffsetBegin=223 CharacterOffsetEnd=233 PartOfSpeech=JJ]
-[Text=leader CharacterOffsetBegin=234 CharacterOffsetEnd=240 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=240 CharacterOffsetEnd=241 PartOfSpeech=.]
-Sentence #3 (33 tokens):
+[Text=However CharacterOffsetBegin=124 CharacterOffsetEnd=131 PartOfSpeech=RB Lemma=however NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=since CharacterOffsetBegin=133 CharacterOffsetEnd=138 PartOfSpeech=IN Lemma=since NamedEntityTag=O]
+[Text=dragons CharacterOffsetBegin=139 CharacterOffsetEnd=146 PartOfSpeech=NNS Lemma=dragon NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=neither CharacterOffsetBegin=151 CharacterOffsetEnd=158 PartOfSpeech=DT Lemma=neither NamedEntityTag=O]
+[Text=male CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=JJ Lemma=male NamedEntityTag=O]
+[Text=nor CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=CC Lemma=nor NamedEntityTag=O]
+[Text=female CharacterOffsetBegin=168 CharacterOffsetEnd=174 PartOfSpeech=JJ Lemma=female NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=highly CharacterOffsetBegin=181 CharacterOffsetEnd=187 PartOfSpeech=RB Lemma=highly NamedEntityTag=O]
+[Text=possible CharacterOffsetBegin=188 CharacterOffsetEnd=196 PartOfSpeech=JJ Lemma=possible NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=197 CharacterOffsetEnd=201 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Daenerys CharacterOffsetBegin=202 CharacterOffsetEnd=210 PartOfSpeech=NNP Lemma=Daenerys NamedEntityTag=PERSON]
+[Text=could CharacterOffsetBegin=211 CharacterOffsetEnd=216 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=220 CharacterOffsetEnd=223 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=prophesied CharacterOffsetBegin=224 CharacterOffsetEnd=234 PartOfSpeech=JJ Lemma=prophesied NamedEntityTag=O]
+[Text=leader CharacterOffsetBegin=235 CharacterOffsetEnd=241 PartOfSpeech=NN Lemma=leader NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=241 CharacterOffsetEnd=242 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (SBAR (IN since)
+      (S
+        (NP (NNS dragons))
+        (VP (VBP are)
+          (ADJP (DT neither) (JJ male)
+            (CC nor)
+            (JJ female)))))
+    (, ,)
+    (NP (PRP it))
+    (VP (VBZ 's)
+      (ADJP (RB highly) (JJ possible))
+      (SBAR (IN that)
+        (S
+          (NP (NNP Daenerys))
+          (VP (MD could)
+            (VP (VB be)
+              (NP (DT the) (JJ prophesied) (NN leader)))))))
+    (. .)))
+
+root(ROOT-0, possible-14)
+advmod(possible-14, However-1)
+punct(possible-14, ,-2)
+mark(male-7, since-3)
+nsubj(male-7, dragons-4)
+nsubj(female-9, dragons-4)
+cop(male-7, are-5)
+cc:preconj(male-7, neither-6)
+advcl:since(possible-14, male-7)
+cc(male-7, nor-8)
+conj:nor(male-7, female-9)
+advcl:since(possible-14, female-9)
+punct(possible-14, ,-10)
+nsubj(possible-14, it-11)
+cop(possible-14, 's-12)
+advmod(possible-14, highly-13)
+mark(leader-21, that-15)
+nsubj(leader-21, Daenerys-16)
+aux(leader-21, could-17)
+cop(leader-21, be-18)
+det(leader-21, the-19)
+amod(leader-21, prophesied-20)
+ccomp(possible-14, leader-21)
+punct(possible-14, .-22)
+
+Sentence #4 (33 tokens):
 After all ... she was born on the island Dragonstone "amidst salt" and later reborn as the Mother of Dragons on Khal Drago's funeral pyre "amidst smoke."
-[Text=After CharacterOffsetBegin=242 CharacterOffsetEnd=247 PartOfSpeech=IN]
-[Text=all CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=DT]
-[Text=... CharacterOffsetBegin=252 CharacterOffsetEnd=255 PartOfSpeech=:]
-[Text=she CharacterOffsetBegin=256 CharacterOffsetEnd=259 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=VBD]
-[Text=born CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=VBN]
-[Text=on CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT]
-[Text=island CharacterOffsetBegin=276 CharacterOffsetEnd=282 PartOfSpeech=NN]
-[Text=Dragonstone CharacterOffsetBegin=283 CharacterOffsetEnd=294 PartOfSpeech=NN]
-[Text=`` CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=``]
-[Text=amidst CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=IN]
-[Text=salt CharacterOffsetBegin=303 CharacterOffsetEnd=307 PartOfSpeech=NN]
-[Text='' CharacterOffsetBegin=307 CharacterOffsetEnd=308 PartOfSpeech='']
-[Text=and CharacterOffsetBegin=309 CharacterOffsetEnd=312 PartOfSpeech=CC]
-[Text=later CharacterOffsetBegin=313 CharacterOffsetEnd=318 PartOfSpeech=RBR]
-[Text=reborn CharacterOffsetBegin=319 CharacterOffsetEnd=325 PartOfSpeech=JJ]
-[Text=as CharacterOffsetBegin=326 CharacterOffsetEnd=328 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=329 CharacterOffsetEnd=332 PartOfSpeech=DT]
-[Text=Mother CharacterOffsetBegin=333 CharacterOffsetEnd=339 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=IN]
-[Text=Dragons CharacterOffsetBegin=343 CharacterOffsetEnd=350 PartOfSpeech=NNPS]
-[Text=on CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=IN]
-[Text=Khal CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=NNP]
-[Text=Drago CharacterOffsetBegin=359 CharacterOffsetEnd=364 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=POS]
-[Text=funeral CharacterOffsetBegin=367 CharacterOffsetEnd=374 PartOfSpeech=JJ]
-[Text=pyre CharacterOffsetBegin=375 CharacterOffsetEnd=379 PartOfSpeech=NN]
-[Text=`` CharacterOffsetBegin=380 CharacterOffsetEnd=381 PartOfSpeech=``]
-[Text=amidst CharacterOffsetBegin=381 CharacterOffsetEnd=387 PartOfSpeech=IN]
-[Text=smoke CharacterOffsetBegin=388 CharacterOffsetEnd=393 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=393 CharacterOffsetEnd=394 PartOfSpeech=.]
-[Text='' CharacterOffsetBegin=394 CharacterOffsetEnd=395 PartOfSpeech='']
+[Text=After CharacterOffsetBegin=243 CharacterOffsetEnd=248 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=253 CharacterOffsetEnd=256 PartOfSpeech=: Lemma=... NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=born CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=VBN Lemma=bear NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=island CharacterOffsetBegin=277 CharacterOffsetEnd=283 PartOfSpeech=NN Lemma=island NamedEntityTag=O]
+[Text=Dragonstone CharacterOffsetBegin=284 CharacterOffsetEnd=295 PartOfSpeech=NN Lemma=dragonstone NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=amidst CharacterOffsetBegin=297 CharacterOffsetEnd=303 PartOfSpeech=IN Lemma=amidst NamedEntityTag=O]
+[Text=salt CharacterOffsetBegin=304 CharacterOffsetEnd=308 PartOfSpeech=NN Lemma=salt NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=310 CharacterOffsetEnd=313 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=later CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=RBR Lemma=later NamedEntityTag=O]
+[Text=reborn CharacterOffsetBegin=320 CharacterOffsetEnd=326 PartOfSpeech=JJ Lemma=reborn NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=327 CharacterOffsetEnd=329 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mother CharacterOffsetBegin=334 CharacterOffsetEnd=340 PartOfSpeech=NN Lemma=mother NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=341 CharacterOffsetEnd=343 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Dragons CharacterOffsetBegin=344 CharacterOffsetEnd=351 PartOfSpeech=NNPS Lemma=Dragons NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=352 CharacterOffsetEnd=354 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=Khal CharacterOffsetBegin=355 CharacterOffsetEnd=359 PartOfSpeech=NNP Lemma=Khal NamedEntityTag=PERSON]
+[Text=Drago CharacterOffsetBegin=360 CharacterOffsetEnd=365 PartOfSpeech=NNP Lemma=Drago NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=funeral CharacterOffsetBegin=368 CharacterOffsetEnd=375 PartOfSpeech=JJ Lemma=funeral NamedEntityTag=O]
+[Text=pyre CharacterOffsetBegin=376 CharacterOffsetEnd=380 PartOfSpeech=NN Lemma=pyre NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=amidst CharacterOffsetBegin=382 CharacterOffsetEnd=388 PartOfSpeech=IN Lemma=amidst NamedEntityTag=O]
+[Text=smoke CharacterOffsetBegin=389 CharacterOffsetEnd=394 PartOfSpeech=NN Lemma=smoke NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=394 CharacterOffsetEnd=395 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN After)
+      (NP (DT all)))
+    (: ...)
+    (NP (PRP she))
+    (VP (VBD was)
+      (VP
+        (VP (VBN born)
+          (PP (IN on)
+            (NP (DT the) (NN island) (NN Dragonstone)))
+          (`` ``)
+          (PP (IN amidst)
+            (NP (NN salt)))
+          ('' ''))
+        (CC and)
+        (VP
+          (ADVP (RBR later))
+          (ADJP (JJ reborn)
+            (PP (IN as)
+              (NP
+                (NP (DT the) (NN Mother))
+                (PP (IN of)
+                  (NP (NNPS Dragons)))
+                (PP (IN on)
+                  (NP
+                    (NP (NNP Khal) (NNP Drago) (POS 's))
+                    (JJ funeral) (NN pyre)))
+                (`` ``))))
+          (PP (IN amidst)
+            (NP (NN smoke))))))
+    (. .) ('' '')))
+
+root(ROOT-0, born-6)
+case(all-2, After-1)
+nmod:after(born-6, all-2)
+punct(born-6, ...-3)
+nsubjpass(born-6, she-4)
+nsubj(reborn-17, she-4)
+auxpass(born-6, was-5)
+case(Dragonstone-10, on-7)
+det(Dragonstone-10, the-8)
+compound(Dragonstone-10, island-9)
+nmod:on(born-6, Dragonstone-10)
+punct(born-6, ``-11)
+case(salt-13, amidst-12)
+nmod:amidst(born-6, salt-13)
+punct(born-6, ''-14)
+cc(born-6, and-15)
+advmod(reborn-17, later-16)
+conj:and(born-6, reborn-17)
+case(Mother-20, as-18)
+det(Mother-20, the-19)
+nmod:as(reborn-17, Mother-20)
+case(Dragons-22, of-21)
+nmod:of(Mother-20, Dragons-22)
+case(pyre-28, on-23)
+compound(Drago-25, Khal-24)
+nmod:poss(pyre-28, Drago-25)
+case(Drago-25, 's-26)
+amod(pyre-28, funeral-27)
+nmod:on(Mother-20, pyre-28)
+punct(Mother-20, ``-29)
+case(smoke-31, amidst-30)
+nmod:amidst(reborn-17, smoke-31)
+punct(born-6, .-32)
+punct(born-6, ''-33)
+
+Coreference set:
+	(1,5,[4,6]) -> (1,2,[1,3]), that is: "Azor Ahai" -> "Daenerys Targaryen"
+	(2,13,[12,14]) -> (1,2,[1,3]), that is: "Azor Ahai" -> "Daenerys Targaryen"
+Coreference set:
+	(3,11,[11,12]) -> (2,3,[1,18]), that is: "it" -> "A poor translation of the prophecy lead everyone to believe that Azor Ahai would be male ."
+Coreference set:
+	(4,4,[4,5]) -> (2,8,[5,9]), that is: "she" -> "the prophecy lead everyone"
+Coreference set:
+	(3,21,[19,22]) -> (3,16,[16,17]), that is: "the prophesied leader" -> "Daenerys"
+Coreference set:
+	(3,4,[4,5]) -> (4,22,[22,23]), that is: "dragons" -> "Dragons"

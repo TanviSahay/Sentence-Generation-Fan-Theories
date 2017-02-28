@@ -1,77 +1,246 @@
-Sentence #1 (29 tokens):
-Jamie lannister
+Sentence #1 (3 tokens):
+Jamie lannister.
+[Text=Jamie CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Jamie NamedEntityTag=PERSON]
+[Text=lannister CharacterOffsetBegin=6 CharacterOffsetEnd=15 PartOfSpeech=NN Lemma=lannister NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP
+    (NP (NNP Jamie))
+    (NP (NN lannister))
+    (. .)))
+
+root(ROOT-0, Jamie-1)
+dep(Jamie-1, lannister-2)
+punct(Jamie-1, .-3)
+
+Sentence #2 (27 tokens):
 The richest house in Westeros would be an enticing opportunity for Dany and it is also common knowledge that Jaimie is well loved by the ladies.
-[Text=Jamie CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=lannister CharacterOffsetBegin=6 CharacterOffsetEnd=15 PartOfSpeech=NNP]
-[Text=The CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=NNP]
-[Text=richest CharacterOffsetBegin=20 CharacterOffsetEnd=27 PartOfSpeech=JJS]
-[Text=house CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=IN]
-[Text=Westeros CharacterOffsetBegin=37 CharacterOffsetEnd=45 PartOfSpeech=NNP]
-[Text=would CharacterOffsetBegin=46 CharacterOffsetEnd=51 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=52 CharacterOffsetEnd=54 PartOfSpeech=VB]
-[Text=an CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=DT]
-[Text=enticing CharacterOffsetBegin=58 CharacterOffsetEnd=66 PartOfSpeech=VBG]
-[Text=opportunity CharacterOffsetBegin=67 CharacterOffsetEnd=78 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=IN]
-[Text=Dany CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=CC]
-[Text=it CharacterOffsetBegin=92 CharacterOffsetEnd=94 PartOfSpeech=PRP]
-[Text=is CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=VBZ]
-[Text=also CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=RB]
-[Text=common CharacterOffsetBegin=103 CharacterOffsetEnd=109 PartOfSpeech=JJ]
-[Text=knowledge CharacterOffsetBegin=110 CharacterOffsetEnd=119 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=WDT]
-[Text=Jaimie CharacterOffsetBegin=125 CharacterOffsetEnd=131 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=132 CharacterOffsetEnd=134 PartOfSpeech=VBZ]
-[Text=well CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=RB]
-[Text=loved CharacterOffsetBegin=140 CharacterOffsetEnd=145 PartOfSpeech=VBN]
-[Text=by CharacterOffsetBegin=146 CharacterOffsetEnd=148 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=149 CharacterOffsetEnd=152 PartOfSpeech=DT]
-[Text=ladies CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=159 CharacterOffsetEnd=160 PartOfSpeech=.]
-Sentence #2 (25 tokens):
+[Text=The CharacterOffsetBegin=17 CharacterOffsetEnd=20 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=richest CharacterOffsetBegin=21 CharacterOffsetEnd=28 PartOfSpeech=JJS Lemma=richest NamedEntityTag=O]
+[Text=house CharacterOffsetBegin=29 CharacterOffsetEnd=34 PartOfSpeech=NN Lemma=house NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Westeros CharacterOffsetBegin=38 CharacterOffsetEnd=46 PartOfSpeech=NNP Lemma=Westeros NamedEntityTag=LOCATION]
+[Text=would CharacterOffsetBegin=47 CharacterOffsetEnd=52 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=enticing CharacterOffsetBegin=59 CharacterOffsetEnd=67 PartOfSpeech=VBG Lemma=entice NamedEntityTag=O]
+[Text=opportunity CharacterOffsetBegin=68 CharacterOffsetEnd=79 PartOfSpeech=NN Lemma=opportunity NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=common CharacterOffsetBegin=104 CharacterOffsetEnd=110 PartOfSpeech=JJ Lemma=common NamedEntityTag=O]
+[Text=knowledge CharacterOffsetBegin=111 CharacterOffsetEnd=120 PartOfSpeech=NN Lemma=knowledge NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=Jaimie CharacterOffsetBegin=126 CharacterOffsetEnd=132 PartOfSpeech=NNP Lemma=Jaimie NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=well CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=RB Lemma=well NamedEntityTag=O]
+[Text=loved CharacterOffsetBegin=141 CharacterOffsetEnd=146 PartOfSpeech=VBN Lemma=love NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=ladies CharacterOffsetBegin=154 CharacterOffsetEnd=160 PartOfSpeech=NNS Lemma=lady NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (DT The) (JJS richest) (NN house))
+        (PP (IN in)
+          (NP (NNP Westeros))))
+      (VP (MD would)
+        (VP (VB be)
+          (NP
+            (NP (DT an) (VBG enticing) (NN opportunity))
+            (PP (IN for)
+              (NP (NNP Dany)))))))
+    (CC and)
+    (S
+      (NP (PRP it))
+      (VP (VBZ is)
+        (ADVP (RB also))
+        (NP
+          (NP (JJ common) (NN knowledge))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (NP (NNP Jaimie))
+              (VP (VBZ is)
+                (ADVP (RB well))
+                (VP (VBN loved)
+                  (PP (IN by)
+                    (NP (DT the) (NNS ladies))))))))))
+    (. .)))
+
+root(ROOT-0, opportunity-10)
+det(house-3, The-1)
+amod(house-3, richest-2)
+nsubj(opportunity-10, house-3)
+case(Westeros-5, in-4)
+nmod:in(house-3, Westeros-5)
+aux(opportunity-10, would-6)
+cop(opportunity-10, be-7)
+det(opportunity-10, an-8)
+amod(opportunity-10, enticing-9)
+case(Dany-12, for-11)
+nmod:for(opportunity-10, Dany-12)
+cc(opportunity-10, and-13)
+nsubj(knowledge-18, it-14)
+cop(knowledge-18, is-15)
+advmod(knowledge-18, also-16)
+amod(knowledge-18, common-17)
+conj:and(opportunity-10, knowledge-18)
+dobj(loved-23, knowledge-18)
+ref(knowledge-18, that-19)
+nsubjpass(loved-23, Jaimie-20)
+auxpass(loved-23, is-21)
+advmod(loved-23, well-22)
+acl:relcl(knowledge-18, loved-23)
+case(ladies-26, by-24)
+det(ladies-26, the-25)
+nmod:agent(loved-23, ladies-26)
+punct(opportunity-10, .-27)
+
+Sentence #3 (25 tokens):
 If Dany could just look past that he's been banging his sister (and fathering bastards) his whole life maybe this could.
-[Text=If CharacterOffsetBegin=161 CharacterOffsetEnd=163 PartOfSpeech=IN]
-[Text=Dany CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=NNP]
-[Text=could CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=MD]
-[Text=just CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=RB]
-[Text=look CharacterOffsetBegin=180 CharacterOffsetEnd=184 PartOfSpeech=VB]
-[Text=past CharacterOffsetBegin=185 CharacterOffsetEnd=189 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=190 CharacterOffsetEnd=194 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=195 CharacterOffsetEnd=197 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=197 CharacterOffsetEnd=199 PartOfSpeech=VBZ]
-[Text=been CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=VBN]
-[Text=banging CharacterOffsetBegin=205 CharacterOffsetEnd=212 PartOfSpeech=VBG]
-[Text=his CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=PRP$]
-[Text=sister CharacterOffsetBegin=217 CharacterOffsetEnd=223 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=-LRB-]
-[Text=and CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=CC]
-[Text=fathering CharacterOffsetBegin=229 CharacterOffsetEnd=238 PartOfSpeech=VBG]
-[Text=bastards CharacterOffsetBegin=239 CharacterOffsetEnd=247 PartOfSpeech=NNS]
-[Text=-RRB- CharacterOffsetBegin=247 CharacterOffsetEnd=248 PartOfSpeech=-RRB-]
-[Text=his CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=PRP$]
-[Text=whole CharacterOffsetBegin=253 CharacterOffsetEnd=258 PartOfSpeech=JJ]
-[Text=life CharacterOffsetBegin=259 CharacterOffsetEnd=263 PartOfSpeech=NN]
-[Text=maybe CharacterOffsetBegin=264 CharacterOffsetEnd=269 PartOfSpeech=RB]
-[Text=this CharacterOffsetBegin=270 CharacterOffsetEnd=274 PartOfSpeech=DT]
-[Text=could CharacterOffsetBegin=275 CharacterOffsetEnd=280 PartOfSpeech=MD]
-[Text=. CharacterOffsetBegin=280 CharacterOffsetEnd=281 PartOfSpeech=.]
-Sentence #3 (1 tokens):
+[Text=If CharacterOffsetBegin=162 CharacterOffsetEnd=164 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=could CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=just CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=look CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=VB Lemma=look NamedEntityTag=O]
+[Text=past CharacterOffsetBegin=186 CharacterOffsetEnd=190 PartOfSpeech=NN Lemma=past NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PAST_REF">past</TIMEX3>]
+[Text=that CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=banging CharacterOffsetBegin=206 CharacterOffsetEnd=213 PartOfSpeech=VBG Lemma=bang NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=sister CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=NN Lemma=sister NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=fathering CharacterOffsetBegin=230 CharacterOffsetEnd=239 PartOfSpeech=VBG Lemma=father NamedEntityTag=O]
+[Text=bastards CharacterOffsetBegin=240 CharacterOffsetEnd=248 PartOfSpeech=NNS Lemma=bastard NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=250 CharacterOffsetEnd=253 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=whole CharacterOffsetBegin=254 CharacterOffsetEnd=259 PartOfSpeech=JJ Lemma=whole NamedEntityTag=O]
+[Text=life CharacterOffsetBegin=260 CharacterOffsetEnd=264 PartOfSpeech=NN Lemma=life NamedEntityTag=O]
+[Text=maybe CharacterOffsetBegin=265 CharacterOffsetEnd=270 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=271 CharacterOffsetEnd=275 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=276 CharacterOffsetEnd=281 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (NNP Dany))
+        (VP (MD could)
+          (ADVP (RB just))
+          (VP
+            (VP (VB look)
+              (NP (NN past))
+              (SBAR (IN that)
+                (S
+                  (NP (PRP he))
+                  (VP (VBZ 's)
+                    (VP (VBN been)
+                      (VP (VBG banging)
+                        (NP (PRP$ his) (NN sister))))))))
+            (PRN (-LRB- -LRB-)
+              (CC and)
+              (VP (VBG fathering)
+                (NP (NNS bastards)))
+              (-RRB- -RRB-))
+            (NP (PRP$ his) (JJ whole) (NN life) (RB maybe))))))
+    (NP (DT this))
+    (VP (MD could))
+    (. .)))
+
+root(ROOT-0, could-24)
+mark(look-5, If-1)
+nsubj(look-5, Dany-2)
+aux(look-5, could-3)
+advmod(look-5, just-4)
+advcl:if(could-24, look-5)
+dobj(look-5, past-6)
+mark(banging-11, that-7)
+nsubjpass(banging-11, he-8)
+auxpass(banging-11, 's-9)
+aux(banging-11, been-10)
+ccomp(look-5, banging-11)
+nmod:poss(sister-13, his-12)
+dobj(banging-11, sister-13)
+punct(fathering-16, -LRB--14)
+cc(fathering-16, and-15)
+dep(look-5, fathering-16)
+dobj(fathering-16, bastards-17)
+punct(fathering-16, -RRB--18)
+nmod:poss(life-21, his-19)
+amod(life-21, whole-20)
+dobj(look-5, life-21)
+advmod(life-21, maybe-22)
+nsubj(could-24, this-23)
+punct(could-24, .-25)
+
+Sentence #4 (1 tokens):
 .
-[Text=. CharacterOffsetBegin=281 CharacterOffsetEnd=282 PartOfSpeech=.]
-Sentence #4 (13 tokens):
+[Text=. CharacterOffsetBegin=282 CharacterOffsetEnd=283 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP (. .)))
+
+root(ROOT-0, .-1)
+
+Sentence #5 (13 tokens):
 oh yeah, he stabbed her father (the Mad King).
-[Text=oh CharacterOffsetBegin=283 CharacterOffsetEnd=285 PartOfSpeech=UH]
-[Text=yeah CharacterOffsetBegin=286 CharacterOffsetEnd=290 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=290 CharacterOffsetEnd=291 PartOfSpeech=,]
-[Text=he CharacterOffsetBegin=292 CharacterOffsetEnd=294 PartOfSpeech=PRP]
-[Text=stabbed CharacterOffsetBegin=295 CharacterOffsetEnd=302 PartOfSpeech=VBD]
-[Text=her CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=PRP$]
-[Text=father CharacterOffsetBegin=307 CharacterOffsetEnd=313 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=-LRB-]
-[Text=the CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=DT]
-[Text=Mad CharacterOffsetBegin=319 CharacterOffsetEnd=322 PartOfSpeech=NNP]
-[Text=King CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=NNP]
-[Text=-RRB- CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=-RRB-]
-[Text=. CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=.]
+[Text=oh CharacterOffsetBegin=284 CharacterOffsetEnd=286 PartOfSpeech=UH Lemma=oh NamedEntityTag=O]
+[Text=yeah CharacterOffsetBegin=287 CharacterOffsetEnd=291 PartOfSpeech=RB Lemma=yeah NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=291 CharacterOffsetEnd=292 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=stabbed CharacterOffsetBegin=296 CharacterOffsetEnd=303 PartOfSpeech=VBD Lemma=stab NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=father CharacterOffsetBegin=308 CharacterOffsetEnd=314 PartOfSpeech=NN Lemma=father NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=316 CharacterOffsetEnd=319 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mad CharacterOffsetBegin=320 CharacterOffsetEnd=323 PartOfSpeech=NNP Lemma=Mad NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=324 CharacterOffsetEnd=328 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=329 CharacterOffsetEnd=330 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (INTJ (UH oh))
+    (INTJ (RB yeah))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD stabbed)
+      (NP
+        (NP (PRP$ her) (NN father))
+        (PRN (-LRB- -LRB-)
+          (NP (DT the) (NNP Mad) (NNP King))
+          (-RRB- -RRB-))))
+    (. .)))
+
+root(ROOT-0, stabbed-5)
+discourse(stabbed-5, oh-1)
+discourse(stabbed-5, yeah-2)
+punct(stabbed-5, ,-3)
+nsubj(stabbed-5, he-4)
+nmod:poss(father-7, her-6)
+dobj(stabbed-5, father-7)
+punct(King-11, -LRB--8)
+det(King-11, the-9)
+compound(King-11, Mad-10)
+appos(father-7, King-11)
+punct(King-11, -RRB--12)
+punct(stabbed-5, .-13)
+
+Coreference set:
+	(3,2,[2,3]) -> (2,12,[12,13]), that is: "Dany" -> "Dany"
+	(3,8,[8,9]) -> (2,12,[12,13]), that is: "he" -> "Dany"
+	(3,12,[12,13]) -> (2,12,[12,13]), that is: "his" -> "Dany"
+	(3,19,[19,20]) -> (2,12,[12,13]), that is: "his" -> "Dany"
+Coreference set:
+	(2,10,[8,13]) -> (2,3,[1,6]), that is: "an enticing opportunity for Dany" -> "The richest house in Westeros"
+Coreference set:
+	(5,6,[6,7]) -> (3,13,[12,14]), that is: "her" -> "his sister"
+Coreference set:
+	(5,4,[4,5]) -> (4,1,[1,2]), that is: "he" -> "."

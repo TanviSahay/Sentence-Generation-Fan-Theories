@@ -1,23 +1,75 @@
-Sentence #1 (21 tokens):
-King's Landing will devolve into civil war and will have destroyed itself from the inside before Dany even gets there
-[Text=King CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=POS]
-[Text=Landing CharacterOffsetBegin=7 CharacterOffsetEnd=14 PartOfSpeech=NN]
-[Text=will CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=MD]
-[Text=devolve CharacterOffsetBegin=20 CharacterOffsetEnd=27 PartOfSpeech=VB]
-[Text=into CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=IN]
-[Text=civil CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=JJ]
-[Text=war CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=CC]
-[Text=will CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=MD]
-[Text=have CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=VB]
-[Text=destroyed CharacterOffsetBegin=57 CharacterOffsetEnd=66 PartOfSpeech=VBN]
-[Text=itself CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=PRP]
-[Text=from CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=DT]
-[Text=inside CharacterOffsetBegin=83 CharacterOffsetEnd=89 PartOfSpeech=NN]
-[Text=before CharacterOffsetBegin=90 CharacterOffsetEnd=96 PartOfSpeech=IN]
-[Text=Dany CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=NNP]
-[Text=even CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=RB]
-[Text=gets CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=VBZ]
-[Text=there CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=EX]
+Sentence #1 (22 tokens):
+King's Landing will devolve into civil war and will have destroyed itself from the inside before Dany even gets there.
+[Text=King CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=King NamedEntityTag=ORGANIZATION]
+[Text='s CharacterOffsetBegin=4 CharacterOffsetEnd=6 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Landing CharacterOffsetBegin=7 CharacterOffsetEnd=14 PartOfSpeech=NN Lemma=landing NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=devolve CharacterOffsetBegin=20 CharacterOffsetEnd=27 PartOfSpeech=VB Lemma=devolve NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=civil CharacterOffsetBegin=33 CharacterOffsetEnd=38 PartOfSpeech=JJ Lemma=civil NamedEntityTag=O]
+[Text=war CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=NN Lemma=war NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=47 CharacterOffsetEnd=51 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=destroyed CharacterOffsetBegin=57 CharacterOffsetEnd=66 PartOfSpeech=VBN Lemma=destroy NamedEntityTag=O]
+[Text=itself CharacterOffsetBegin=67 CharacterOffsetEnd=73 PartOfSpeech=PRP Lemma=itself NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=inside CharacterOffsetBegin=83 CharacterOffsetEnd=89 PartOfSpeech=NN Lemma=inside NamedEntityTag=O]
+[Text=before CharacterOffsetBegin=90 CharacterOffsetEnd=96 PartOfSpeech=IN Lemma=before NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=even CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=RB Lemma=even NamedEntityTag=O]
+[Text=gets CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=VBZ Lemma=get NamedEntityTag=O]
+[Text=there CharacterOffsetBegin=112 CharacterOffsetEnd=117 PartOfSpeech=RB Lemma=there NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (NNP King) (POS 's))
+      (NN Landing))
+    (VP
+      (VP (MD will)
+        (VP (VB devolve)
+          (PP (IN into)
+            (NP (JJ civil) (NN war)))))
+      (CC and)
+      (VP (MD will)
+        (VP (VB have)
+          (VP (VBN destroyed)
+            (NP (PRP itself))
+            (PP (IN from)
+              (NP (DT the) (NN inside)))
+            (SBAR (IN before)
+              (S
+                (NP (NNP Dany))
+                (ADVP (RB even))
+                (VP (VBZ gets)
+                  (ADVP (RB there)))))))))
+    (. .)))
+
+root(ROOT-0, devolve-5)
+nmod:poss(Landing-3, King-1)
+case(King-1, 's-2)
+nsubj(devolve-5, Landing-3)
+nsubj(destroyed-12, Landing-3)
+aux(devolve-5, will-4)
+case(war-8, into-6)
+amod(war-8, civil-7)
+nmod:into(devolve-5, war-8)
+cc(devolve-5, and-9)
+aux(destroyed-12, will-10)
+aux(destroyed-12, have-11)
+conj:and(devolve-5, destroyed-12)
+dobj(destroyed-12, itself-13)
+case(inside-16, from-14)
+det(inside-16, the-15)
+nmod:from(destroyed-12, inside-16)
+mark(gets-20, before-17)
+nsubj(gets-20, Dany-18)
+advmod(gets-20, even-19)
+advcl:before(destroyed-12, gets-20)
+advmod(gets-20, there-21)
+punct(devolve-5, .-22)
+
+Coreference set:
+	(1,13,[13,14]) -> (1,3,[1,4]), that is: "itself" -> "King 's Landing"

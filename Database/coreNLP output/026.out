@@ -1,163 +1,540 @@
 Sentence #1 (17 tokens):
 Sam leaves for the Ruins of Valyria to search for information about the creation Valyrian steel.
-[Text=Sam CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
-[Text=leaves CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=VBZ]
-[Text=for CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=DT]
-[Text=Ruins CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=IN]
-[Text=Valyria CharacterOffsetBegin=28 CharacterOffsetEnd=35 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=TO]
-[Text=search CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=VB]
-[Text=for CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=IN]
-[Text=information CharacterOffsetBegin=50 CharacterOffsetEnd=61 PartOfSpeech=NN]
-[Text=about CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=DT]
-[Text=creation CharacterOffsetBegin=72 CharacterOffsetEnd=80 PartOfSpeech=NN]
-[Text=Valyrian CharacterOffsetBegin=81 CharacterOffsetEnd=89 PartOfSpeech=JJ]
-[Text=steel CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=.]
+[Text=Sam CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text=leaves CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=VBZ Lemma=leave NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Ruins CharacterOffsetBegin=19 CharacterOffsetEnd=24 PartOfSpeech=NNS Lemma=ruin NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=25 CharacterOffsetEnd=27 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Valyria CharacterOffsetBegin=28 CharacterOffsetEnd=35 PartOfSpeech=NNP Lemma=Valyria NamedEntityTag=LOCATION]
+[Text=to CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=search CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=VB Lemma=search NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=information CharacterOffsetBegin=50 CharacterOffsetEnd=61 PartOfSpeech=NN Lemma=information NamedEntityTag=O]
+[Text=about CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=IN Lemma=about NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=creation CharacterOffsetBegin=72 CharacterOffsetEnd=80 PartOfSpeech=NN Lemma=creation NamedEntityTag=O]
+[Text=Valyrian CharacterOffsetBegin=81 CharacterOffsetEnd=89 PartOfSpeech=JJ Lemma=valyrian NamedEntityTag=MISC]
+[Text=steel CharacterOffsetBegin=90 CharacterOffsetEnd=95 PartOfSpeech=NN Lemma=steel NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=95 CharacterOffsetEnd=96 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Sam))
+    (VP (VBZ leaves)
+      (PP (IN for)
+        (NP
+          (NP (DT the) (NNS Ruins))
+          (PP (IN of)
+            (NP (NNP Valyria)))))
+      (S
+        (VP (TO to)
+          (VP (VB search)
+            (PP (IN for)
+              (NP
+                (NP (NN information))
+                (PP (IN about)
+                  (NP (DT the) (NN creation) (JJ Valyrian) (NN steel)))))))))
+    (. .)))
+
+root(ROOT-0, leaves-2)
+nsubj(leaves-2, Sam-1)
+nsubj:xsubj(search-9, Sam-1)
+case(Ruins-5, for-3)
+det(Ruins-5, the-4)
+nmod:for(leaves-2, Ruins-5)
+case(Valyria-7, of-6)
+nmod:of(Ruins-5, Valyria-7)
+mark(search-9, to-8)
+xcomp(leaves-2, search-9)
+case(information-11, for-10)
+nmod:for(search-9, information-11)
+case(steel-16, about-12)
+det(steel-16, the-13)
+compound(steel-16, creation-14)
+amod(steel-16, Valyrian-15)
+nmod:about(information-11, steel-16)
+punct(leaves-2, .-17)
+
 Sentence #2 (28 tokens):
 He read about the Doom of Valyria and in the process finds the cure for Greyscale, a maester seems to have known something already via Shireen.
-[Text=He CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=PRP]
-[Text=read CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=VBD]
-[Text=about CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=DT]
-[Text=Doom CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=IN]
-[Text=Valyria CharacterOffsetBegin=123 CharacterOffsetEnd=130 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=CC]
-[Text=in CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=DT]
-[Text=process CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=NN]
-[Text=finds CharacterOffsetBegin=150 CharacterOffsetEnd=155 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=DT]
-[Text=cure CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=IN]
-[Text=Greyscale CharacterOffsetBegin=169 CharacterOffsetEnd=178 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=,]
-[Text=a CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=DT]
-[Text=maester CharacterOffsetBegin=182 CharacterOffsetEnd=189 PartOfSpeech=NN]
-[Text=seems CharacterOffsetBegin=190 CharacterOffsetEnd=195 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=TO]
-[Text=have CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=VB]
-[Text=known CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=VBN]
-[Text=something CharacterOffsetBegin=210 CharacterOffsetEnd=219 PartOfSpeech=NN]
-[Text=already CharacterOffsetBegin=220 CharacterOffsetEnd=227 PartOfSpeech=RB]
-[Text=via CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=IN]
-[Text=Shireen CharacterOffsetBegin=232 CharacterOffsetEnd=239 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=.]
+[Text=He CharacterOffsetBegin=97 CharacterOffsetEnd=99 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=read CharacterOffsetBegin=100 CharacterOffsetEnd=104 PartOfSpeech=VBD Lemma=read NamedEntityTag=O]
+[Text=about CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=IN Lemma=about NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Doom CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=NN Lemma=doom NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=120 CharacterOffsetEnd=122 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Valyria CharacterOffsetBegin=123 CharacterOffsetEnd=130 PartOfSpeech=NNP Lemma=Valyria NamedEntityTag=LOCATION]
+[Text=and CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=process CharacterOffsetBegin=142 CharacterOffsetEnd=149 PartOfSpeech=NN Lemma=process NamedEntityTag=O]
+[Text=finds CharacterOffsetBegin=150 CharacterOffsetEnd=155 PartOfSpeech=VBZ Lemma=find NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=cure CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=NN Lemma=cure NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=Greyscale CharacterOffsetBegin=169 CharacterOffsetEnd=178 PartOfSpeech=NNP Lemma=Greyscale NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=178 CharacterOffsetEnd=179 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=180 CharacterOffsetEnd=181 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=maester CharacterOffsetBegin=182 CharacterOffsetEnd=189 PartOfSpeech=NN Lemma=maester NamedEntityTag=O]
+[Text=seems CharacterOffsetBegin=190 CharacterOffsetEnd=195 PartOfSpeech=VBZ Lemma=seem NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=known CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=VBN Lemma=know NamedEntityTag=O]
+[Text=something CharacterOffsetBegin=210 CharacterOffsetEnd=219 PartOfSpeech=NN Lemma=something NamedEntityTag=O]
+[Text=already CharacterOffsetBegin=220 CharacterOffsetEnd=227 PartOfSpeech=RB Lemma=already NamedEntityTag=O]
+[Text=via CharacterOffsetBegin=228 CharacterOffsetEnd=231 PartOfSpeech=IN Lemma=via NamedEntityTag=O]
+[Text=Shireen CharacterOffsetBegin=232 CharacterOffsetEnd=239 PartOfSpeech=NNP Lemma=Shireen NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBD read)
+        (PP (IN about)
+          (NP
+            (NP (DT the) (NN Doom))
+            (PP (IN of)
+              (NP (NNP Valyria)))))))
+    (CC and)
+    (S
+      (SBAR (IN in)
+        (S
+          (NP (DT the) (NN process))
+          (VP (VBZ finds)
+            (NP
+              (NP (DT the) (NN cure))
+              (PP (IN for)
+                (NP (NNP Greyscale)))))))
+      (, ,)
+      (NP (DT a) (NN maester))
+      (VP (VBZ seems)
+        (S
+          (VP (TO to)
+            (VP (VB have)
+              (VP (VBN known)
+                (NP (NN something))
+                (ADVP (RB already))
+                (PP (IN via)
+                  (NP (NNP Shireen)))))))))
+    (. .)))
+
+root(ROOT-0, read-2)
+nsubj(read-2, He-1)
+case(Doom-5, about-3)
+det(Doom-5, the-4)
+nmod:about(read-2, Doom-5)
+case(Valyria-7, of-6)
+nmod:of(Doom-5, Valyria-7)
+cc(read-2, and-8)
+mark(finds-12, in-9)
+det(process-11, the-10)
+nsubj(finds-12, process-11)
+advcl:in(seems-20, finds-12)
+det(cure-14, the-13)
+dobj(finds-12, cure-14)
+case(Greyscale-16, for-15)
+nmod:for(cure-14, Greyscale-16)
+punct(seems-20, ,-17)
+det(maester-19, a-18)
+nsubj(seems-20, maester-19)
+nsubj:xsubj(known-23, maester-19)
+conj:and(read-2, seems-20)
+mark(known-23, to-21)
+aux(known-23, have-22)
+xcomp(seems-20, known-23)
+dobj(known-23, something-24)
+advmod(known-23, already-25)
+case(Shireen-27, via-26)
+nmod:via(known-23, Shireen-27)
+punct(read-2, .-28)
+
 Sentence #3 (16 tokens):
 He meets Jorah, not quite fully consumed yet, and helps to cure him.
-[Text=He CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=PRP]
-[Text=meets CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=VBZ]
-[Text=Jorah CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=,]
-[Text=not CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=RB]
-[Text=quite CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=RB]
-[Text=fully CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=RB]
-[Text=consumed CharacterOffsetBegin=273 CharacterOffsetEnd=281 PartOfSpeech=VBN]
-[Text=yet CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=CC]
-[Text=helps CharacterOffsetBegin=291 CharacterOffsetEnd=296 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=TO]
-[Text=cure CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=VB]
-[Text=him CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=.]
+[Text=He CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=meets CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=VBZ Lemma=meet NamedEntityTag=O]
+[Text=Jorah CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=NNP Lemma=Jorah NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=257 CharacterOffsetEnd=260 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=quite CharacterOffsetBegin=261 CharacterOffsetEnd=266 PartOfSpeech=RB Lemma=quite NamedEntityTag=O]
+[Text=fully CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=RB Lemma=fully NamedEntityTag=O]
+[Text=consumed CharacterOffsetBegin=273 CharacterOffsetEnd=281 PartOfSpeech=VBN Lemma=consume NamedEntityTag=O]
+[Text=yet CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=RB Lemma=yet NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=287 CharacterOffsetEnd=290 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=helps CharacterOffsetBegin=291 CharacterOffsetEnd=296 PartOfSpeech=VBZ Lemma=help NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=cure CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=VB Lemma=cure NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=308 CharacterOffsetEnd=309 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP He))
+    (VP
+      (VP (VBZ meets)
+        (NP
+          (NP (NNP Jorah))
+          (, ,)
+          (VP
+            (ADVP (RB not) (RB quite) (RB fully))
+            (VBN consumed)
+            (ADVP (RB yet)))
+          (, ,)))
+      (CC and)
+      (VP (VBZ helps)
+        (S
+          (VP (TO to)
+            (VP (VB cure)
+              (NP (PRP him)))))))
+    (. .)))
+
+root(ROOT-0, meets-2)
+nsubj(meets-2, He-1)
+nsubj(helps-12, He-1)
+nsubj:xsubj(cure-14, He-1)
+dobj(meets-2, Jorah-3)
+punct(Jorah-3, ,-4)
+dep(fully-7, not-5)
+advmod(fully-7, quite-6)
+advmod(consumed-8, fully-7)
+acl(Jorah-3, consumed-8)
+advmod(consumed-8, yet-9)
+punct(Jorah-3, ,-10)
+cc(meets-2, and-11)
+conj:and(meets-2, helps-12)
+mark(cure-14, to-13)
+xcomp(helps-12, cure-14)
+dobj(cure-14, him-15)
+punct(meets-2, .-16)
+
 Sentence #4 (17 tokens):
 Jorah, now immune to Greyscale, enters Valyria and finds the secret to Valyrian steel.
-[Text=Jorah CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=,]
-[Text=now CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=RB]
-[Text=immune CharacterOffsetBegin=321 CharacterOffsetEnd=327 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=328 CharacterOffsetEnd=330 PartOfSpeech=TO]
-[Text=Greyscale CharacterOffsetBegin=331 CharacterOffsetEnd=340 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=340 CharacterOffsetEnd=341 PartOfSpeech=,]
-[Text=enters CharacterOffsetBegin=342 CharacterOffsetEnd=348 PartOfSpeech=VBZ]
-[Text=Valyria CharacterOffsetBegin=349 CharacterOffsetEnd=356 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=357 CharacterOffsetEnd=360 PartOfSpeech=CC]
-[Text=finds CharacterOffsetBegin=361 CharacterOffsetEnd=366 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=367 CharacterOffsetEnd=370 PartOfSpeech=DT]
-[Text=secret CharacterOffsetBegin=371 CharacterOffsetEnd=377 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=TO]
-[Text=Valyrian CharacterOffsetBegin=381 CharacterOffsetEnd=389 PartOfSpeech=JJ]
-[Text=steel CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=.]
+[Text=Jorah CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=NNP Lemma=Jorah NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=immune CharacterOffsetBegin=321 CharacterOffsetEnd=327 PartOfSpeech=JJ Lemma=immune NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=328 CharacterOffsetEnd=330 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Greyscale CharacterOffsetBegin=331 CharacterOffsetEnd=340 PartOfSpeech=NNP Lemma=Greyscale NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=340 CharacterOffsetEnd=341 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=enters CharacterOffsetBegin=342 CharacterOffsetEnd=348 PartOfSpeech=VBZ Lemma=enter NamedEntityTag=O]
+[Text=Valyria CharacterOffsetBegin=349 CharacterOffsetEnd=356 PartOfSpeech=NNP Lemma=Valyria NamedEntityTag=LOCATION]
+[Text=and CharacterOffsetBegin=357 CharacterOffsetEnd=360 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=finds CharacterOffsetBegin=361 CharacterOffsetEnd=366 PartOfSpeech=VBZ Lemma=find NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=367 CharacterOffsetEnd=370 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=secret CharacterOffsetBegin=371 CharacterOffsetEnd=377 PartOfSpeech=JJ Lemma=secret NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Valyrian CharacterOffsetBegin=381 CharacterOffsetEnd=389 PartOfSpeech=JJ Lemma=valyrian NamedEntityTag=LOCATION]
+[Text=steel CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=NN Lemma=steel NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=395 CharacterOffsetEnd=396 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Jorah))
+    (, ,)
+    (S
+      (ADVP (RB now))
+      (ADJP (JJ immune)
+        (PP (TO to)
+          (NP (NNP Greyscale)))))
+    (, ,)
+    (VP
+      (VP (VBZ enters)
+        (NP (NNP Valyria)))
+      (CC and)
+      (VP (VBZ finds)
+        (NP (DT the) (JJ secret))
+        (PP (TO to)
+          (NP (JJ Valyrian) (NN steel)))))
+    (. .)))
+
+root(ROOT-0, enters-8)
+nsubj(enters-8, Jorah-1)
+nsubj(finds-11, Jorah-1)
+punct(enters-8, ,-2)
+advmod(immune-4, now-3)
+ccomp(enters-8, immune-4)
+case(Greyscale-6, to-5)
+nmod:to(immune-4, Greyscale-6)
+punct(enters-8, ,-7)
+dobj(enters-8, Valyria-9)
+cc(enters-8, and-10)
+conj:and(enters-8, finds-11)
+det(secret-13, the-12)
+dobj(finds-11, secret-13)
+case(steel-16, to-14)
+amod(steel-16, Valyrian-15)
+nmod:to(finds-11, steel-16)
+punct(enters-8, .-17)
+
 Sentence #5 (41 tokens):
 Unfortunately, he also brings tomes with history of the ruin, which Sam discovers is tied to Rh'llor, and Jorah realizes that Dany is bound to commit the same destruction, but he tells no one.
-[Text=Unfortunately CharacterOffsetBegin=398 CharacterOffsetEnd=411 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=,]
-[Text=he CharacterOffsetBegin=413 CharacterOffsetEnd=415 PartOfSpeech=PRP]
-[Text=also CharacterOffsetBegin=416 CharacterOffsetEnd=420 PartOfSpeech=RB]
-[Text=brings CharacterOffsetBegin=421 CharacterOffsetEnd=427 PartOfSpeech=VBZ]
-[Text=tomes CharacterOffsetBegin=428 CharacterOffsetEnd=433 PartOfSpeech=NNS]
-[Text=with CharacterOffsetBegin=434 CharacterOffsetEnd=438 PartOfSpeech=IN]
-[Text=history CharacterOffsetBegin=439 CharacterOffsetEnd=446 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=447 CharacterOffsetEnd=449 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=DT]
-[Text=ruin CharacterOffsetBegin=454 CharacterOffsetEnd=458 PartOfSpeech=VBP]
-[Text=, CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=,]
-[Text=which CharacterOffsetBegin=460 CharacterOffsetEnd=465 PartOfSpeech=WDT]
-[Text=Sam CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=NNP]
-[Text=discovers CharacterOffsetBegin=470 CharacterOffsetEnd=479 PartOfSpeech=VBZ]
-[Text=is CharacterOffsetBegin=480 CharacterOffsetEnd=482 PartOfSpeech=VBZ]
-[Text=tied CharacterOffsetBegin=483 CharacterOffsetEnd=487 PartOfSpeech=VBN]
-[Text=to CharacterOffsetBegin=488 CharacterOffsetEnd=490 PartOfSpeech=TO]
-[Text=Rh CharacterOffsetBegin=491 CharacterOffsetEnd=493 PartOfSpeech=VB]
-[Text=` CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=``]
-[Text=llor CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=FW]
-[Text=, CharacterOffsetBegin=498 CharacterOffsetEnd=499 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=CC]
-[Text=Jorah CharacterOffsetBegin=504 CharacterOffsetEnd=509 PartOfSpeech=NNP]
-[Text=realizes CharacterOffsetBegin=510 CharacterOffsetEnd=518 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=IN]
-[Text=Dany CharacterOffsetBegin=524 CharacterOffsetEnd=528 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=529 CharacterOffsetEnd=531 PartOfSpeech=VBZ]
-[Text=bound CharacterOffsetBegin=532 CharacterOffsetEnd=537 PartOfSpeech=VBN]
-[Text=to CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=TO]
-[Text=commit CharacterOffsetBegin=541 CharacterOffsetEnd=547 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=DT]
-[Text=same CharacterOffsetBegin=552 CharacterOffsetEnd=556 PartOfSpeech=JJ]
-[Text=destruction CharacterOffsetBegin=557 CharacterOffsetEnd=568 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=568 CharacterOffsetEnd=569 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=CC]
-[Text=he CharacterOffsetBegin=574 CharacterOffsetEnd=576 PartOfSpeech=PRP]
-[Text=tells CharacterOffsetBegin=577 CharacterOffsetEnd=582 PartOfSpeech=VBZ]
-[Text=no CharacterOffsetBegin=583 CharacterOffsetEnd=585 PartOfSpeech=DT]
-[Text=one CharacterOffsetBegin=586 CharacterOffsetEnd=589 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=589 CharacterOffsetEnd=590 PartOfSpeech=.]
+[Text=Unfortunately CharacterOffsetBegin=398 CharacterOffsetEnd=411 PartOfSpeech=RB Lemma=unfortunately NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=413 CharacterOffsetEnd=415 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=416 CharacterOffsetEnd=420 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=brings CharacterOffsetBegin=421 CharacterOffsetEnd=427 PartOfSpeech=VBZ Lemma=bring NamedEntityTag=O]
+[Text=tomes CharacterOffsetBegin=428 CharacterOffsetEnd=433 PartOfSpeech=NNS Lemma=tome NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=434 CharacterOffsetEnd=438 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=history CharacterOffsetBegin=439 CharacterOffsetEnd=446 PartOfSpeech=NN Lemma=history NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=447 CharacterOffsetEnd=449 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=ruin CharacterOffsetBegin=454 CharacterOffsetEnd=458 PartOfSpeech=VBP Lemma=ruin NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=460 CharacterOffsetEnd=465 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=Sam CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text=discovers CharacterOffsetBegin=470 CharacterOffsetEnd=479 PartOfSpeech=VBZ Lemma=discover NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=480 CharacterOffsetEnd=482 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=tied CharacterOffsetBegin=483 CharacterOffsetEnd=487 PartOfSpeech=VBN Lemma=tie NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=488 CharacterOffsetEnd=490 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Rh CharacterOffsetBegin=491 CharacterOffsetEnd=493 PartOfSpeech=VB Lemma=rh NamedEntityTag=O]
+[Text=` CharacterOffsetBegin=493 CharacterOffsetEnd=494 PartOfSpeech=`` Lemma=` NamedEntityTag=O]
+[Text=llor CharacterOffsetBegin=494 CharacterOffsetEnd=498 PartOfSpeech=FW Lemma=llor NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=498 CharacterOffsetEnd=499 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Jorah CharacterOffsetBegin=504 CharacterOffsetEnd=509 PartOfSpeech=NNP Lemma=Jorah NamedEntityTag=PERSON]
+[Text=realizes CharacterOffsetBegin=510 CharacterOffsetEnd=518 PartOfSpeech=VBZ Lemma=realize NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=524 CharacterOffsetEnd=528 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=529 CharacterOffsetEnd=531 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=bound CharacterOffsetBegin=532 CharacterOffsetEnd=537 PartOfSpeech=VBN Lemma=bind NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=538 CharacterOffsetEnd=540 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=commit CharacterOffsetBegin=541 CharacterOffsetEnd=547 PartOfSpeech=VB Lemma=commit NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=same CharacterOffsetBegin=552 CharacterOffsetEnd=556 PartOfSpeech=JJ Lemma=same NamedEntityTag=O]
+[Text=destruction CharacterOffsetBegin=557 CharacterOffsetEnd=568 PartOfSpeech=NN Lemma=destruction NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=568 CharacterOffsetEnd=569 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=574 CharacterOffsetEnd=576 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=tells CharacterOffsetBegin=577 CharacterOffsetEnd=582 PartOfSpeech=VBZ Lemma=tell NamedEntityTag=O]
+[Text=no CharacterOffsetBegin=583 CharacterOffsetEnd=585 PartOfSpeech=DT Lemma=no NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=586 CharacterOffsetEnd=589 PartOfSpeech=NN Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=. CharacterOffsetBegin=589 CharacterOffsetEnd=590 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (S
+        (ADVP (RB Unfortunately))
+        (, ,)
+        (NP (PRP he))
+        (ADVP (RB also))
+        (VP (VBZ brings)
+          (SBAR
+            (S
+              (NP
+                (NP (NNS tomes))
+                (PP (IN with)
+                  (NP
+                    (NP (NN history))
+                    (PP (IN of)
+                      (NP
+                        (NP (DT the))
+                        (SBAR
+                          (S
+                            (VP (VBP ruin))))
+                        (, ,)
+                        (SBAR
+                          (WHNP (WDT which))
+                          (S
+                            (NP (NNP Sam))
+                            (VP (VBZ discovers)))))))))
+              (VP (VBZ is)
+                (VP (VBN tied)
+                  (S
+                    (VP (TO to)
+                      (VP (VB Rh) (`` `)
+                        (NP (FW llor)))))))))))
+      (, ,)
+      (CC and)
+      (S
+        (NP (NNP Jorah))
+        (VP (VBZ realizes)
+          (SBAR (IN that)
+            (S
+              (NP (NNP Dany))
+              (VP (VBZ is)
+                (ADJP (VBN bound)
+                  (S
+                    (VP (TO to)
+                      (VP (VB commit)
+                        (NP (DT the) (JJ same) (NN destruction))))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP he))
+      (VP (VBZ tells)
+        (NP (DT no) (NN one))))
+    (. .)))
+
+root(ROOT-0, brings-5)
+advmod(brings-5, Unfortunately-1)
+punct(brings-5, ,-2)
+nsubj(brings-5, he-3)
+advmod(brings-5, also-4)
+nsubjpass(tied-17, tomes-6)
+nsubj:xsubj(Rh-19, tomes-6)
+case(history-8, with-7)
+nmod:with(tomes-6, history-8)
+case(the-10, of-9)
+nmod:of(history-8, the-10)
+dobj(discovers-15, the-10)
+acl:relcl(the-10, ruin-11)
+punct(the-10, ,-12)
+ref(the-10, which-13)
+nsubj(discovers-15, Sam-14)
+acl:relcl(the-10, discovers-15)
+auxpass(tied-17, is-16)
+ccomp(brings-5, tied-17)
+mark(Rh-19, to-18)
+xcomp(tied-17, Rh-19)
+punct(Rh-19, `-20)
+dobj(Rh-19, llor-21)
+punct(brings-5, ,-22)
+cc(brings-5, and-23)
+nsubj(realizes-25, Jorah-24)
+conj:and(brings-5, realizes-25)
+mark(bound-29, that-26)
+nsubjpass(bound-29, Dany-27)
+nsubj:xsubj(commit-31, Dany-27)
+auxpass(bound-29, is-28)
+ccomp(realizes-25, bound-29)
+mark(commit-31, to-30)
+xcomp(bound-29, commit-31)
+det(destruction-34, the-32)
+amod(destruction-34, same-33)
+dobj(commit-31, destruction-34)
+punct(brings-5, ,-35)
+cc(brings-5, but-36)
+nsubj(tells-38, he-37)
+conj:and(brings-5, tells-38)
+neg(one-40, no-39)
+dobj(tells-38, one-40)
+punct(brings-5, .-41)
+
 Sentence #6 (32 tokens):
 Dany aids in the destruction of the White Walkers, but Jorah finally learns to put honor above love and has to act against Dany to save Westeros from her madness.
-[Text=Dany CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=NNP]
-[Text=aids CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=NNS]
-[Text=in CharacterOffsetBegin=601 CharacterOffsetEnd=603 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=DT]
-[Text=destruction CharacterOffsetBegin=608 CharacterOffsetEnd=619 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=DT]
-[Text=White CharacterOffsetBegin=627 CharacterOffsetEnd=632 PartOfSpeech=NNP]
-[Text=Walkers CharacterOffsetBegin=633 CharacterOffsetEnd=640 PartOfSpeech=NNPS]
-[Text=, CharacterOffsetBegin=640 CharacterOffsetEnd=641 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=642 CharacterOffsetEnd=645 PartOfSpeech=CC]
-[Text=Jorah CharacterOffsetBegin=646 CharacterOffsetEnd=651 PartOfSpeech=NNP]
-[Text=finally CharacterOffsetBegin=652 CharacterOffsetEnd=659 PartOfSpeech=RB]
-[Text=learns CharacterOffsetBegin=660 CharacterOffsetEnd=666 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=TO]
-[Text=put CharacterOffsetBegin=670 CharacterOffsetEnd=673 PartOfSpeech=VB]
-[Text=honor CharacterOffsetBegin=674 CharacterOffsetEnd=679 PartOfSpeech=NN]
-[Text=above CharacterOffsetBegin=680 CharacterOffsetEnd=685 PartOfSpeech=IN]
-[Text=love CharacterOffsetBegin=686 CharacterOffsetEnd=690 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=691 CharacterOffsetEnd=694 PartOfSpeech=CC]
-[Text=has CharacterOffsetBegin=695 CharacterOffsetEnd=698 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=699 CharacterOffsetEnd=701 PartOfSpeech=TO]
-[Text=act CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=VB]
-[Text=against CharacterOffsetBegin=706 CharacterOffsetEnd=713 PartOfSpeech=IN]
-[Text=Dany CharacterOffsetBegin=714 CharacterOffsetEnd=718 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=719 CharacterOffsetEnd=721 PartOfSpeech=TO]
-[Text=save CharacterOffsetBegin=722 CharacterOffsetEnd=726 PartOfSpeech=VB]
-[Text=Westeros CharacterOffsetBegin=727 CharacterOffsetEnd=735 PartOfSpeech=NNP]
-[Text=from CharacterOffsetBegin=736 CharacterOffsetEnd=740 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=741 CharacterOffsetEnd=744 PartOfSpeech=PRP$]
-[Text=madness CharacterOffsetBegin=745 CharacterOffsetEnd=752 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=752 CharacterOffsetEnd=753 PartOfSpeech=.]
+[Text=Dany CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=aids CharacterOffsetBegin=596 CharacterOffsetEnd=600 PartOfSpeech=NNS Lemma=aid NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=601 CharacterOffsetEnd=603 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=604 CharacterOffsetEnd=607 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=destruction CharacterOffsetBegin=608 CharacterOffsetEnd=619 PartOfSpeech=NN Lemma=destruction NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=620 CharacterOffsetEnd=622 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=623 CharacterOffsetEnd=626 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=White CharacterOffsetBegin=627 CharacterOffsetEnd=632 PartOfSpeech=NNP Lemma=White NamedEntityTag=O]
+[Text=Walkers CharacterOffsetBegin=633 CharacterOffsetEnd=640 PartOfSpeech=NNPS Lemma=Walkers NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=640 CharacterOffsetEnd=641 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=642 CharacterOffsetEnd=645 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=Jorah CharacterOffsetBegin=646 CharacterOffsetEnd=651 PartOfSpeech=NNP Lemma=Jorah NamedEntityTag=PERSON]
+[Text=finally CharacterOffsetBegin=652 CharacterOffsetEnd=659 PartOfSpeech=RB Lemma=finally NamedEntityTag=O]
+[Text=learns CharacterOffsetBegin=660 CharacterOffsetEnd=666 PartOfSpeech=VBZ Lemma=learn NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=667 CharacterOffsetEnd=669 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=put CharacterOffsetBegin=670 CharacterOffsetEnd=673 PartOfSpeech=VB Lemma=put NamedEntityTag=O]
+[Text=honor CharacterOffsetBegin=674 CharacterOffsetEnd=679 PartOfSpeech=NN Lemma=honor NamedEntityTag=O]
+[Text=above CharacterOffsetBegin=680 CharacterOffsetEnd=685 PartOfSpeech=IN Lemma=above NamedEntityTag=O]
+[Text=love CharacterOffsetBegin=686 CharacterOffsetEnd=690 PartOfSpeech=NN Lemma=love NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=691 CharacterOffsetEnd=694 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=695 CharacterOffsetEnd=698 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=699 CharacterOffsetEnd=701 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=act CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=VB Lemma=act NamedEntityTag=O]
+[Text=against CharacterOffsetBegin=706 CharacterOffsetEnd=713 PartOfSpeech=IN Lemma=against NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=714 CharacterOffsetEnd=718 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=to CharacterOffsetBegin=719 CharacterOffsetEnd=721 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=save CharacterOffsetBegin=722 CharacterOffsetEnd=726 PartOfSpeech=VB Lemma=save NamedEntityTag=O]
+[Text=Westeros CharacterOffsetBegin=727 CharacterOffsetEnd=735 PartOfSpeech=NNP Lemma=Westeros NamedEntityTag=PERSON]
+[Text=from CharacterOffsetBegin=736 CharacterOffsetEnd=740 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=741 CharacterOffsetEnd=744 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=madness CharacterOffsetBegin=745 CharacterOffsetEnd=752 PartOfSpeech=NN Lemma=madness NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=752 CharacterOffsetEnd=753 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (NNP Dany) (NNS aids))
+      (PP (IN in)
+        (NP
+          (NP (DT the) (NN destruction))
+          (PP (IN of)
+            (NP (DT the) (NNP White) (NNPS Walkers)))
+          (, ,)
+          (PP (CC but)
+            (NP (NNP Jorah))))))
+    (ADVP (RB finally))
+    (VP
+      (VP (VBZ learns)
+        (S
+          (VP (TO to)
+            (VP (VB put)
+              (NP (NN honor))
+              (PP (IN above)
+                (NP (NN love)))))))
+      (CC and)
+      (VP (VBZ has)
+        (S
+          (VP (TO to)
+            (VP (VB act)
+              (PP (IN against)
+                (NP (NNP Dany)))
+              (S
+                (VP (TO to)
+                  (VP (VB save)
+                    (NP (NNP Westeros))
+                    (PP (IN from)
+                      (NP (PRP$ her) (NN madness)))))))))))
+    (. .)))
+
+root(ROOT-0, learns-14)
+compound(aids-2, Dany-1)
+nsubj(learns-14, aids-2)
+nsubj:xsubj(put-16, aids-2)
+nsubj(has-21, aids-2)
+nsubj:xsubj(act-23, aids-2)
+case(destruction-5, in-3)
+det(destruction-5, the-4)
+nmod:in(aids-2, destruction-5)
+case(Walkers-9, of-6)
+det(Walkers-9, the-7)
+compound(Walkers-9, White-8)
+nmod:of(destruction-5, Walkers-9)
+punct(destruction-5, ,-10)
+case(Jorah-12, but-11)
+nmod:but(destruction-5, Jorah-12)
+advmod(learns-14, finally-13)
+mark(put-16, to-15)
+xcomp(learns-14, put-16)
+dobj(put-16, honor-17)
+case(love-19, above-18)
+nmod:above(put-16, love-19)
+cc(learns-14, and-20)
+conj:and(learns-14, has-21)
+mark(act-23, to-22)
+xcomp(has-21, act-23)
+case(Dany-25, against-24)
+nmod:against(act-23, Dany-25)
+mark(save-27, to-26)
+xcomp(act-23, save-27)
+dobj(save-27, Westeros-28)
+case(madness-31, from-29)
+nmod:poss(madness-31, her-30)
+nmod:from(save-27, madness-31)
+punct(learns-14, .-32)
+
+Coreference set:
+	(2,1,[1,2]) -> (1,1,[1,2]), that is: "He" -> "Sam"
+	(3,1,[1,2]) -> (1,1,[1,2]), that is: "He" -> "Sam"
+	(3,15,[15,16]) -> (1,1,[1,2]), that is: "him" -> "Sam"
+	(5,14,[14,15]) -> (1,1,[1,2]), that is: "Sam" -> "Sam"
+Coreference set:
+	(1,15,[15,16]) -> (1,7,[7,8]), that is: "Valyrian" -> "Valyria"
+	(2,7,[7,8]) -> (1,7,[7,8]), that is: "Valyria" -> "Valyria"
+	(4,9,[9,10]) -> (1,7,[7,8]), that is: "Valyria" -> "Valyria"
+	(4,15,[15,16]) -> (1,7,[7,8]), that is: "Valyrian" -> "Valyria"
+Coreference set:
+	(2,16,[16,17]) -> (4,6,[6,7]), that is: "Greyscale" -> "Greyscale"
+Coreference set:
+	(3,3,[3,10]) -> (3,3,[3,4]), that is: "Jorah , not quite fully consumed yet" -> "Jorah"
+	(4,1,[1,2]) -> (3,3,[3,4]), that is: "Jorah" -> "Jorah"
+	(5,3,[3,4]) -> (3,3,[3,4]), that is: "he" -> "Jorah"
+	(5,24,[24,25]) -> (3,3,[3,4]), that is: "Jorah" -> "Jorah"
+	(5,37,[37,38]) -> (3,3,[3,4]), that is: "he" -> "Jorah"
+	(6,12,[12,13]) -> (3,3,[3,4]), that is: "Jorah" -> "Jorah"
+Coreference set:
+	(6,1,[1,2]) -> (5,27,[27,28]), that is: "Dany" -> "Dany"
+	(6,25,[25,26]) -> (5,27,[27,28]), that is: "Dany" -> "Dany"
+Coreference set:
+	(6,30,[30,31]) -> (6,28,[28,29]), that is: "her" -> "Westeros"

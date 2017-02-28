@@ -1,17 +1,55 @@
-Sentence #1 (15 tokens):
-Dany will suffer some major loses at sea, due to Euron or a storm
-[Text=Dany CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD]
-[Text=suffer CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=VB]
-[Text=some CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=DT]
-[Text=major CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=JJ]
-[Text=loses CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=VBZ]
-[Text=at CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=IN]
-[Text=sea CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=,]
-[Text=due CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=TO]
-[Text=Euron CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=NNP]
-[Text=or CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=CC]
-[Text=a CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=DT]
-[Text=storm CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=NN]
+Sentence #1 (16 tokens):
+Dany will suffer some major loses at sea, due to Euron or a storm.
+[Text=Dany CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=suffer CharacterOffsetBegin=10 CharacterOffsetEnd=16 PartOfSpeech=VB Lemma=suffer NamedEntityTag=O]
+[Text=some CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=major CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=JJ Lemma=major NamedEntityTag=O]
+[Text=loses CharacterOffsetBegin=28 CharacterOffsetEnd=33 PartOfSpeech=VBZ Lemma=lose NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=sea CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=NN Lemma=sea NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=due CharacterOffsetBegin=42 CharacterOffsetEnd=45 PartOfSpeech=JJ Lemma=due NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Euron CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=NNP Lemma=Euron NamedEntityTag=MISC]
+[Text=or CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=58 CharacterOffsetEnd=59 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=storm CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=NN Lemma=storm NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Dany))
+    (VP (MD will)
+      (VP (VB suffer)
+        (SBAR
+          (S
+            (NP (DT some) (JJ major))
+            (VP (VBZ loses)
+              (PP (IN at)
+                (NP (NN sea)))
+              (, ,)
+              (PP (JJ due) (TO to)
+                (NP
+                  (NP (NNP Euron))
+                  (CC or)
+                  (NP (DT a) (NN storm)))))))))
+    (. .)))
+
+root(ROOT-0, suffer-3)
+nsubj(suffer-3, Dany-1)
+aux(suffer-3, will-2)
+det(major-5, some-4)
+nsubj(loses-6, major-5)
+ccomp(suffer-3, loses-6)
+case(sea-8, at-7)
+nmod:at(loses-6, sea-8)
+punct(loses-6, ,-9)
+case(Euron-12, due-10)
+mwe(due-10, to-11)
+nmod:due_to(loses-6, Euron-12)
+cc(Euron-12, or-13)
+det(storm-15, a-14)
+nmod:due_to(loses-6, storm-15)
+conj:or(Euron-12, storm-15)
+punct(suffer-3, .-16)
+

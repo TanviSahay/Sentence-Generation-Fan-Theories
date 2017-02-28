@@ -1,27 +1,92 @@
-Sentence #1 (25 tokens):
-Tyrion will bring Jon and Dany together and they'll form an alliance through marriage before they even learn the truth of Jon’s birth
-[Text=Tyrion CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=7 CharacterOffsetEnd=11 PartOfSpeech=MD]
-[Text=bring CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=VB]
-[Text=Jon CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=CC]
-[Text=Dany CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=NNP]
-[Text=together CharacterOffsetBegin=31 CharacterOffsetEnd=39 PartOfSpeech=RB]
-[Text=and CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=CC]
-[Text=they CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=PRP]
-[Text='ll CharacterOffsetBegin=48 CharacterOffsetEnd=51 PartOfSpeech=MD]
-[Text=form CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=VB]
-[Text=an CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=DT]
-[Text=alliance CharacterOffsetBegin=60 CharacterOffsetEnd=68 PartOfSpeech=NN]
-[Text=through CharacterOffsetBegin=69 CharacterOffsetEnd=76 PartOfSpeech=IN]
-[Text=marriage CharacterOffsetBegin=77 CharacterOffsetEnd=85 PartOfSpeech=NN]
-[Text=before CharacterOffsetBegin=86 CharacterOffsetEnd=92 PartOfSpeech=IN]
-[Text=they CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=PRP]
-[Text=even CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=RB]
-[Text=learn CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=VBP]
-[Text=the CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=DT]
-[Text=truth CharacterOffsetBegin=113 CharacterOffsetEnd=118 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=IN]
-[Text=Jon CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=POS]
-[Text=birth CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=NN]
+Sentence #1 (26 tokens):
+Tyrion will bring Jon and Dany together and they'll form an alliance through marriage before they even learn the truth of Jon’s birth.
+[Text=Tyrion CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Tyrion NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=7 CharacterOffsetEnd=11 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=bring CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=VB Lemma=bring NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=18 CharacterOffsetEnd=21 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=together CharacterOffsetBegin=31 CharacterOffsetEnd=39 PartOfSpeech=RB Lemma=together NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text='ll CharacterOffsetBegin=48 CharacterOffsetEnd=51 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=form CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=VB Lemma=form NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=alliance CharacterOffsetBegin=60 CharacterOffsetEnd=68 PartOfSpeech=NN Lemma=alliance NamedEntityTag=O]
+[Text=through CharacterOffsetBegin=69 CharacterOffsetEnd=76 PartOfSpeech=IN Lemma=through NamedEntityTag=O]
+[Text=marriage CharacterOffsetBegin=77 CharacterOffsetEnd=85 PartOfSpeech=NN Lemma=marriage NamedEntityTag=O]
+[Text=before CharacterOffsetBegin=86 CharacterOffsetEnd=92 PartOfSpeech=IN Lemma=before NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=even CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=RB Lemma=even NamedEntityTag=O]
+[Text=learn CharacterOffsetBegin=103 CharacterOffsetEnd=108 PartOfSpeech=VBP Lemma=learn NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=109 CharacterOffsetEnd=112 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=truth CharacterOffsetBegin=113 CharacterOffsetEnd=118 PartOfSpeech=NN Lemma=truth NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=125 CharacterOffsetEnd=127 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=birth CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=NN Lemma=birth NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=133 CharacterOffsetEnd=134 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Tyrion))
+      (VP (MD will)
+        (VP (VB bring)
+          (NP (NNP Jon)
+            (CC and)
+            (NNP Dany))
+          (ADVP (RB together)))))
+    (CC and)
+    (S
+      (NP (PRP they))
+      (VP (MD 'll)
+        (VP (VB form)
+          (NP (DT an) (NN alliance))
+          (PP (IN through)
+            (NP (NN marriage)))
+          (SBAR (IN before)
+            (S
+              (NP (PRP they))
+              (ADVP (RB even))
+              (VP (VBP learn)
+                (NP
+                  (NP (DT the) (NN truth))
+                  (PP (IN of)
+                    (NP
+                      (NP (NNP Jon) (POS 's))
+                      (NN birth))))))))))
+    (. .)))
+
+root(ROOT-0, bring-3)
+nsubj(bring-3, Tyrion-1)
+aux(bring-3, will-2)
+dobj(bring-3, Jon-4)
+cc(Jon-4, and-5)
+dobj(bring-3, Dany-6)
+conj:and(Jon-4, Dany-6)
+advmod(bring-3, together-7)
+cc(bring-3, and-8)
+nsubj(form-11, they-9)
+aux(form-11, 'll-10)
+conj:and(bring-3, form-11)
+det(alliance-13, an-12)
+dobj(form-11, alliance-13)
+case(marriage-15, through-14)
+nmod:through(form-11, marriage-15)
+mark(learn-19, before-16)
+nsubj(learn-19, they-17)
+advmod(learn-19, even-18)
+advcl:before(form-11, learn-19)
+det(truth-21, the-20)
+dobj(learn-19, truth-21)
+case(birth-25, of-22)
+nmod:poss(birth-25, Jon-23)
+case(Jon-23, 's-24)
+nmod:of(truth-21, birth-25)
+punct(bring-3, .-26)
+
+Coreference set:
+	(1,23,[23,25]) -> (1,4,[4,5]), that is: "Jon 's" -> "Jon"
+Coreference set:
+	(1,9,[9,10]) -> (1,4,[4,7]), that is: "they" -> "Jon and Dany"
+	(1,17,[17,18]) -> (1,4,[4,7]), that is: "they" -> "Jon and Dany"

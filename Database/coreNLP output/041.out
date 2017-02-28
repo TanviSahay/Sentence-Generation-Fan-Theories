@@ -1,111 +1,344 @@
 Sentence #1 (6 tokens):
 The Starks will fully reunite.
-[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
-[Text=Starks CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=MD]
-[Text=fully CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=RB]
-[Text=reunite CharacterOffsetBegin=22 CharacterOffsetEnd=29 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Starks CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NNP Lemma=Starks NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=fully CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=RB Lemma=fully NamedEntityTag=O]
+[Text=reunite CharacterOffsetBegin=22 CharacterOffsetEnd=29 PartOfSpeech=VB Lemma=reunite NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NNP Starks))
+    (VP (MD will)
+      (ADVP (RB fully))
+      (VP (VB reunite)))
+    (. .)))
+
+root(ROOT-0, reunite-5)
+det(Starks-2, The-1)
+nsubj(reunite-5, Starks-2)
+aux(reunite-5, will-3)
+advmod(reunite-5, fully-4)
+punct(reunite-5, .-6)
+
 Sentence #2 (24 tokens):
 It won't happen straight away, but at some point next season we believe all the remaining Starks will be together again.
-[Text=It CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=PRP]
-[Text=wo CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=MD]
-[Text=n't CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=RB]
-[Text=happen CharacterOffsetBegin=40 CharacterOffsetEnd=46 PartOfSpeech=VB]
-[Text=straight CharacterOffsetBegin=47 CharacterOffsetEnd=55 PartOfSpeech=RB]
-[Text=away CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=CC]
-[Text=at CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=IN]
-[Text=some CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=DT]
-[Text=point CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=NN]
-[Text=next CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=JJ]
-[Text=season CharacterOffsetBegin=85 CharacterOffsetEnd=91 PartOfSpeech=NN]
-[Text=we CharacterOffsetBegin=92 CharacterOffsetEnd=94 PartOfSpeech=PRP]
-[Text=believe CharacterOffsetBegin=95 CharacterOffsetEnd=102 PartOfSpeech=VBP]
-[Text=all CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=PDT]
-[Text=the CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=DT]
-[Text=remaining CharacterOffsetBegin=111 CharacterOffsetEnd=120 PartOfSpeech=VBG]
-[Text=Starks CharacterOffsetBegin=121 CharacterOffsetEnd=127 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=VB]
-[Text=together CharacterOffsetBegin=136 CharacterOffsetEnd=144 PartOfSpeech=RB]
-[Text=again CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=.]
+[Text=It CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=wo CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=36 CharacterOffsetEnd=39 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=happen CharacterOffsetBegin=40 CharacterOffsetEnd=46 PartOfSpeech=VB Lemma=happen NamedEntityTag=O]
+[Text=straight CharacterOffsetBegin=47 CharacterOffsetEnd=55 PartOfSpeech=RB Lemma=straight NamedEntityTag=O]
+[Text=away CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=RB Lemma=away NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=60 CharacterOffsetEnd=61 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=some CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=point CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=NN Lemma=point NamedEntityTag=O]
+[Text=next CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=JJ Lemma=next NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=85 CharacterOffsetEnd=91 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=92 CharacterOffsetEnd=94 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=believe CharacterOffsetBegin=95 CharacterOffsetEnd=102 PartOfSpeech=VBP Lemma=believe NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=PDT Lemma=all NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=remaining CharacterOffsetBegin=111 CharacterOffsetEnd=120 PartOfSpeech=VBG Lemma=remain NamedEntityTag=O]
+[Text=Starks CharacterOffsetBegin=121 CharacterOffsetEnd=127 PartOfSpeech=NNP Lemma=Starks NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=128 CharacterOffsetEnd=132 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=together CharacterOffsetBegin=136 CharacterOffsetEnd=144 PartOfSpeech=RB Lemma=together NamedEntityTag=O]
+[Text=again CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=RB Lemma=again NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (PRP It))
+      (VP (MD wo) (RB n't)
+        (VP (VB happen)
+          (ADVP (RB straight))
+          (ADVP (RB away)))))
+    (, ,)
+    (CC but)
+    (S
+      (PP (IN at)
+        (NP (DT some) (NN point)))
+      (NP-TMP (JJ next) (NN season))
+      (NP (PRP we))
+      (VP (VBP believe)
+        (S
+          (NP (PDT all) (DT the))
+          (VP (VBG remaining)
+            (SBAR
+              (S
+                (NP (NNP Starks))
+                (VP (MD will)
+                  (VP (VB be)
+                    (ADVP (RB together))
+                    (ADVP (RB again))))))))))
+    (. .)))
+
+root(ROOT-0, happen-4)
+nsubj(happen-4, It-1)
+aux(happen-4, wo-2)
+neg(happen-4, n't-3)
+advmod(happen-4, straight-5)
+advmod(happen-4, away-6)
+punct(happen-4, ,-7)
+cc(happen-4, but-8)
+case(point-11, at-9)
+det(point-11, some-10)
+nmod:at(believe-15, point-11)
+amod(season-13, next-12)
+nmod:tmod(believe-15, season-13)
+nsubj(believe-15, we-14)
+conj:but(happen-4, believe-15)
+det:predet(the-17, all-16)
+nsubj(remaining-18, the-17)
+dep(believe-15, remaining-18)
+nsubj(be-21, Starks-19)
+aux(be-21, will-20)
+ccomp(remaining-18, be-21)
+advmod(be-21, together-22)
+advmod(be-21, again-23)
+punct(happen-4, .-24)
+
 Sentence #3 (35 tokens):
 Jon and Sansa have already been reunited, Bran is now back at the Wall, and Arya has already returned to Westeros — all the pieces are coming together, in other words.
-[Text=Jon CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=CC]
-[Text=Sansa CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=NNP]
-[Text=have CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=VBP]
-[Text=already CharacterOffsetBegin=171 CharacterOffsetEnd=178 PartOfSpeech=RB]
-[Text=been CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=VBN]
-[Text=reunited CharacterOffsetBegin=184 CharacterOffsetEnd=192 PartOfSpeech=VBN]
-[Text=, CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=,]
-[Text=Bran CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=VBZ]
-[Text=now CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=RB]
-[Text=back CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=RB]
-[Text=at CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=DT]
-[Text=Wall CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=CC]
-[Text=Arya CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=NNP]
-[Text=has CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=VBZ]
-[Text=already CharacterOffsetBegin=237 CharacterOffsetEnd=244 PartOfSpeech=RB]
-[Text=returned CharacterOffsetBegin=245 CharacterOffsetEnd=253 PartOfSpeech=VBN]
-[Text=to CharacterOffsetBegin=254 CharacterOffsetEnd=256 PartOfSpeech=TO]
-[Text=Westeros CharacterOffsetBegin=257 CharacterOffsetEnd=265 PartOfSpeech=NNP]
-[Text=-- CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=:]
-[Text=all CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=PDT]
-[Text=the CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT]
-[Text=pieces CharacterOffsetBegin=276 CharacterOffsetEnd=282 PartOfSpeech=NNS]
-[Text=are CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=VBP]
-[Text=coming CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=VBG]
-[Text=together CharacterOffsetBegin=294 CharacterOffsetEnd=302 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=,]
-[Text=in CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=IN]
-[Text=other CharacterOffsetBegin=307 CharacterOffsetEnd=312 PartOfSpeech=JJ]
-[Text=words CharacterOffsetBegin=313 CharacterOffsetEnd=318 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=318 CharacterOffsetEnd=319 PartOfSpeech=.]
+[Text=Jon CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=160 CharacterOffsetEnd=165 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=PERSON]
+[Text=have CharacterOffsetBegin=166 CharacterOffsetEnd=170 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=already CharacterOffsetBegin=171 CharacterOffsetEnd=178 PartOfSpeech=RB Lemma=already NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=reunited CharacterOffsetBegin=184 CharacterOffsetEnd=192 PartOfSpeech=VBN Lemma=reunite NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=199 CharacterOffsetEnd=201 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=202 CharacterOffsetEnd=205 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=back CharacterOffsetBegin=206 CharacterOffsetEnd=210 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Wall CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=NNP Lemma=Wall NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=222 CharacterOffsetEnd=223 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=224 CharacterOffsetEnd=227 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=228 CharacterOffsetEnd=232 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=has CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=already CharacterOffsetBegin=237 CharacterOffsetEnd=244 PartOfSpeech=RB Lemma=already NamedEntityTag=O]
+[Text=returned CharacterOffsetBegin=245 CharacterOffsetEnd=253 PartOfSpeech=VBN Lemma=return NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=254 CharacterOffsetEnd=256 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Westeros CharacterOffsetBegin=257 CharacterOffsetEnd=265 PartOfSpeech=NNP Lemma=Westeros NamedEntityTag=LOCATION]
+[Text=-- CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=268 CharacterOffsetEnd=271 PartOfSpeech=PDT Lemma=all NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=pieces CharacterOffsetBegin=276 CharacterOffsetEnd=282 PartOfSpeech=NNS Lemma=piece NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=coming CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=VBG Lemma=come NamedEntityTag=O]
+[Text=together CharacterOffsetBegin=294 CharacterOffsetEnd=302 PartOfSpeech=RB Lemma=together NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=other CharacterOffsetBegin=307 CharacterOffsetEnd=312 PartOfSpeech=JJ Lemma=other NamedEntityTag=O]
+[Text=words CharacterOffsetBegin=313 CharacterOffsetEnd=318 PartOfSpeech=NNS Lemma=word NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=318 CharacterOffsetEnd=319 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Jon)
+        (CC and)
+        (NNP Sansa))
+      (VP (VBP have)
+        (ADVP (RB already))
+        (VP (VBN been)
+          (VP (VBN reunited)))))
+    (PRN (, ,)
+      (S
+        (NP (NNP Bran))
+        (VP (VBZ is)
+          (ADVP (RB now) (RB back))
+          (PP (IN at)
+            (NP (DT the) (NNP Wall)))))
+      (, ,))
+    (CC and)
+    (S
+      (S
+        (NP (NNP Arya))
+        (VP (VBZ has)
+          (ADVP (RB already))
+          (VP (VBN returned)
+            (PP (TO to)
+              (NP (NNP Westeros))))))
+      (: --)
+      (S
+        (NP (PDT all) (DT the) (NNS pieces))
+        (VP (VBP are)
+          (VP (VBG coming)
+            (ADVP (RB together))
+            (, ,)
+            (PP (IN in)
+              (NP (JJ other) (NNS words)))))))
+    (. .)))
+
+root(ROOT-0, reunited-7)
+nsubjpass(reunited-7, Jon-1)
+cc(Jon-1, and-2)
+conj:and(Jon-1, Sansa-3)
+nsubjpass(reunited-7, Sansa-3)
+aux(reunited-7, have-4)
+advmod(reunited-7, already-5)
+auxpass(reunited-7, been-6)
+punct(Wall-15, ,-8)
+nsubj(Wall-15, Bran-9)
+cop(Wall-15, is-10)
+advmod(back-12, now-11)
+advmod(Wall-15, back-12)
+case(Wall-15, at-13)
+det(Wall-15, the-14)
+dep(reunited-7, Wall-15)
+punct(Wall-15, ,-16)
+cc(reunited-7, and-17)
+nsubj(returned-21, Arya-18)
+aux(returned-21, has-19)
+advmod(returned-21, already-20)
+conj:and(reunited-7, returned-21)
+case(Westeros-23, to-22)
+nmod:to(returned-21, Westeros-23)
+punct(returned-21, ---24)
+det:predet(pieces-27, all-25)
+det(pieces-27, the-26)
+nsubj(coming-29, pieces-27)
+aux(coming-29, are-28)
+parataxis(returned-21, coming-29)
+advmod(coming-29, together-30)
+punct(coming-29, ,-31)
+case(words-34, in-32)
+amod(words-34, other-33)
+nmod:in(coming-29, words-34)
+punct(reunited-7, .-35)
+
 Sentence #4 (38 tokens):
 We know that Game of Thrones loves symmetry, so it makes sense that a story which started with the scattering of a family will be bookended by the remaining pieces of that family drawing back together.
-[Text=We CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=PRP]
-[Text=know CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=VBP]
-[Text=that CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=IN]
-[Text=Game CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=IN]
-[Text=Thrones CharacterOffsetBegin=341 CharacterOffsetEnd=348 PartOfSpeech=NNPS]
-[Text=loves CharacterOffsetBegin=349 CharacterOffsetEnd=354 PartOfSpeech=VBZ]
-[Text=symmetry CharacterOffsetBegin=355 CharacterOffsetEnd=363 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=,]
-[Text=so CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=PRP]
-[Text=makes CharacterOffsetBegin=371 CharacterOffsetEnd=376 PartOfSpeech=VBZ]
-[Text=sense CharacterOffsetBegin=377 CharacterOffsetEnd=382 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=388 CharacterOffsetEnd=389 PartOfSpeech=DT]
-[Text=story CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=NN]
-[Text=which CharacterOffsetBegin=396 CharacterOffsetEnd=401 PartOfSpeech=WDT]
-[Text=started CharacterOffsetBegin=402 CharacterOffsetEnd=409 PartOfSpeech=VBD]
-[Text=with CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=DT]
-[Text=scattering CharacterOffsetBegin=419 CharacterOffsetEnd=429 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=DT]
-[Text=family CharacterOffsetBegin=435 CharacterOffsetEnd=441 PartOfSpeech=NN]
-[Text=will CharacterOffsetBegin=442 CharacterOffsetEnd=446 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=447 CharacterOffsetEnd=449 PartOfSpeech=VB]
-[Text=bookended CharacterOffsetBegin=450 CharacterOffsetEnd=459 PartOfSpeech=VBN]
-[Text=by CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=463 CharacterOffsetEnd=466 PartOfSpeech=DT]
-[Text=remaining CharacterOffsetBegin=467 CharacterOffsetEnd=476 PartOfSpeech=VBG]
-[Text=pieces CharacterOffsetBegin=477 CharacterOffsetEnd=483 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=484 CharacterOffsetEnd=486 PartOfSpeech=IN]
-[Text=that CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=DT]
-[Text=family CharacterOffsetBegin=492 CharacterOffsetEnd=498 PartOfSpeech=NN]
-[Text=drawing CharacterOffsetBegin=499 CharacterOffsetEnd=506 PartOfSpeech=VBG]
-[Text=back CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=RB]
-[Text=together CharacterOffsetBegin=512 CharacterOffsetEnd=520 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=.]
+[Text=We CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=know CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=VBP Lemma=know NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=328 CharacterOffsetEnd=332 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Game CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=338 CharacterOffsetEnd=340 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Thrones CharacterOffsetBegin=341 CharacterOffsetEnd=348 PartOfSpeech=NNPS Lemma=Thrones NamedEntityTag=O]
+[Text=loves CharacterOffsetBegin=349 CharacterOffsetEnd=354 PartOfSpeech=VBZ Lemma=love NamedEntityTag=O]
+[Text=symmetry CharacterOffsetBegin=355 CharacterOffsetEnd=363 PartOfSpeech=NN Lemma=symmetry NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=IN Lemma=so NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=makes CharacterOffsetBegin=371 CharacterOffsetEnd=376 PartOfSpeech=VBZ Lemma=make NamedEntityTag=O]
+[Text=sense CharacterOffsetBegin=377 CharacterOffsetEnd=382 PartOfSpeech=NN Lemma=sense NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=388 CharacterOffsetEnd=389 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=story CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=NN Lemma=story NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=396 CharacterOffsetEnd=401 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=started CharacterOffsetBegin=402 CharacterOffsetEnd=409 PartOfSpeech=VBD Lemma=start NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=scattering CharacterOffsetBegin=419 CharacterOffsetEnd=429 PartOfSpeech=NN Lemma=scattering NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=family CharacterOffsetBegin=435 CharacterOffsetEnd=441 PartOfSpeech=NN Lemma=family NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=442 CharacterOffsetEnd=446 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=447 CharacterOffsetEnd=449 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=bookended CharacterOffsetBegin=450 CharacterOffsetEnd=459 PartOfSpeech=VBN Lemma=bookend NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=460 CharacterOffsetEnd=462 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=463 CharacterOffsetEnd=466 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=remaining CharacterOffsetBegin=467 CharacterOffsetEnd=476 PartOfSpeech=VBG Lemma=remain NamedEntityTag=O]
+[Text=pieces CharacterOffsetBegin=477 CharacterOffsetEnd=483 PartOfSpeech=NNS Lemma=piece NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=484 CharacterOffsetEnd=486 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=family CharacterOffsetBegin=492 CharacterOffsetEnd=498 PartOfSpeech=NN Lemma=family NamedEntityTag=O]
+[Text=drawing CharacterOffsetBegin=499 CharacterOffsetEnd=506 PartOfSpeech=VBG Lemma=draw NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=507 CharacterOffsetEnd=511 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=together CharacterOffsetBegin=512 CharacterOffsetEnd=520 PartOfSpeech=RB Lemma=together NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (PRP We))
+      (VP (VBP know)
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (NN Game))
+              (PP (IN of)
+                (NP (NNPS Thrones))))
+            (VP (VBZ loves)
+              (NP (NN symmetry)))))))
+    (, ,) (IN so)
+    (S
+      (NP (PRP it))
+      (VP (VBZ makes)
+        (NP (NN sense))
+        (SBAR (IN that)
+          (S
+            (NP
+              (NP (DT a) (NN story))
+              (SBAR
+                (WHNP (WDT which))
+                (S
+                  (VP (VBD started)
+                    (PP (IN with)
+                      (NP
+                        (NP (DT the) (NN scattering))
+                        (PP (IN of)
+                          (NP (DT a) (NN family)))))))))
+            (VP (MD will)
+              (VP (VB be)
+                (VP (VBN bookended)
+                  (PP (IN by)
+                    (NP
+                      (NP (DT the) (VBG remaining) (NNS pieces))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT that) (NN family))
+                          (VP (VBG drawing)
+                            (ADVP (RB back) (RB together))))))))))))))
+    (. .)))
+
+root(ROOT-0, know-2)
+nsubj(know-2, We-1)
+mark(loves-7, that-3)
+nsubj(loves-7, Game-4)
+case(Thrones-6, of-5)
+nmod:of(Game-4, Thrones-6)
+ccomp(know-2, loves-7)
+dobj(loves-7, symmetry-8)
+punct(know-2, ,-9)
+dep(know-2, so-10)
+nsubj(makes-12, it-11)
+parataxis(know-2, makes-12)
+dobj(makes-12, sense-13)
+mark(bookended-27, that-14)
+det(story-16, a-15)
+nsubj(started-18, story-16)
+nsubjpass(bookended-27, story-16)
+ref(story-16, which-17)
+acl:relcl(story-16, started-18)
+case(scattering-21, with-19)
+det(scattering-21, the-20)
+nmod:with(started-18, scattering-21)
+case(family-24, of-22)
+det(family-24, a-23)
+nmod:of(scattering-21, family-24)
+aux(bookended-27, will-25)
+auxpass(bookended-27, be-26)
+ccomp(makes-12, bookended-27)
+case(pieces-31, by-28)
+det(pieces-31, the-29)
+amod(pieces-31, remaining-30)
+nmod:agent(bookended-27, pieces-31)
+case(family-34, of-32)
+det(family-34, that-33)
+nmod:of(pieces-31, family-34)
+acl(family-34, drawing-35)
+advmod(together-37, back-36)
+advmod(drawing-35, together-37)
+punct(know-2, .-38)
+
+Coreference set:
+	(2,19,[19,20]) -> (1,2,[1,3]), that is: "Starks" -> "The Starks"
+Coreference set:
+	(4,1,[1,2]) -> (2,14,[14,15]), that is: "We" -> "we"
+Coreference set:
+	(4,11,[11,12]) -> (4,4,[4,7]), that is: "it" -> "Game of Thrones"

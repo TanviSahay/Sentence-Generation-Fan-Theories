@@ -1,82 +1,257 @@
-Sentence #1 (45 tokens):
-Meera Reed is Jon Snow's twin sister
+Sentence #1 (9 tokens):
+Meera Reed is Jon Snow's twin sister.
+[Text=Meera CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Meera NamedEntityTag=PERSON]
+[Text=Reed CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=NNP Lemma=Reed NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=twin CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=JJ Lemma=twin NamedEntityTag=O]
+[Text=sister CharacterOffsetBegin=30 CharacterOffsetEnd=36 PartOfSpeech=NN Lemma=sister NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=36 CharacterOffsetEnd=37 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Meera) (NNP Reed))
+    (VP (VBZ is)
+      (NP
+        (NP (NNP Jon) (NNP Snow) (POS 's))
+        (JJ twin) (NN sister)))
+    (. .)))
+
+root(ROOT-0, sister-8)
+compound(Reed-2, Meera-1)
+nsubj(sister-8, Reed-2)
+cop(sister-8, is-3)
+compound(Snow-5, Jon-4)
+nmod:poss(sister-8, Snow-5)
+case(Snow-5, 's-6)
+amod(sister-8, twin-7)
+punct(sister-8, .-9)
+
+Sentence #2 (37 tokens):
 Ned Stark's trip to the Tower of Joy could be even more eventful than the previous theory would imply, if this is true: Lyanna gave birth to not one, but two children.
-[Text=Meera CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=Reed CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VBZ]
-[Text=Jon CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=22 CharacterOffsetEnd=24 PartOfSpeech=POS]
-[Text=twin CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=JJ]
-[Text=sister CharacterOffsetBegin=30 CharacterOffsetEnd=36 PartOfSpeech=NN]
-[Text=Ned CharacterOffsetBegin=37 CharacterOffsetEnd=40 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=POS]
-[Text=trip CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=54 CharacterOffsetEnd=56 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=DT]
-[Text=Tower CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=67 CharacterOffsetEnd=69 PartOfSpeech=IN]
-[Text=Joy CharacterOffsetBegin=70 CharacterOffsetEnd=73 PartOfSpeech=NNP]
-[Text=could CharacterOffsetBegin=74 CharacterOffsetEnd=79 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=VB]
-[Text=even CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=RB]
-[Text=more CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=RBR]
-[Text=eventful CharacterOffsetBegin=93 CharacterOffsetEnd=101 PartOfSpeech=JJ]
-[Text=than CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=107 CharacterOffsetEnd=110 PartOfSpeech=DT]
-[Text=previous CharacterOffsetBegin=111 CharacterOffsetEnd=119 PartOfSpeech=JJ]
-[Text=theory CharacterOffsetBegin=120 CharacterOffsetEnd=126 PartOfSpeech=NN]
-[Text=would CharacterOffsetBegin=127 CharacterOffsetEnd=132 PartOfSpeech=MD]
-[Text=imply CharacterOffsetBegin=133 CharacterOffsetEnd=138 PartOfSpeech=VB]
-[Text=, CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=,]
-[Text=if CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=143 CharacterOffsetEnd=147 PartOfSpeech=DT]
-[Text=is CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=VBZ]
-[Text=true CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=JJ]
-[Text=: CharacterOffsetBegin=155 CharacterOffsetEnd=156 PartOfSpeech=:]
-[Text=Lyanna CharacterOffsetBegin=157 CharacterOffsetEnd=163 PartOfSpeech=NNP]
-[Text=gave CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=VBD]
-[Text=birth CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=TO]
-[Text=not CharacterOffsetBegin=178 CharacterOffsetEnd=181 PartOfSpeech=RB]
-[Text=one CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=CD]
-[Text=, CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=CC]
-[Text=two CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=CD]
-[Text=children CharacterOffsetBegin=195 CharacterOffsetEnd=203 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=.]
-Sentence #2 (16 tokens):
+[Text=Ned CharacterOffsetBegin=38 CharacterOffsetEnd=41 PartOfSpeech=NNP Lemma=Ned NamedEntityTag=PERSON]
+[Text=Stark CharacterOffsetBegin=42 CharacterOffsetEnd=47 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=trip CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=NN Lemma=trip NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=55 CharacterOffsetEnd=57 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Tower CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=NN Lemma=tower NamedEntityTag=MISC]
+[Text=of CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=IN Lemma=of NamedEntityTag=MISC]
+[Text=Joy CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=NNP Lemma=Joy NamedEntityTag=MISC]
+[Text=could CharacterOffsetBegin=75 CharacterOffsetEnd=80 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=even CharacterOffsetBegin=84 CharacterOffsetEnd=88 PartOfSpeech=RB Lemma=even NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=RBR Lemma=more NamedEntityTag=O]
+[Text=eventful CharacterOffsetBegin=94 CharacterOffsetEnd=102 PartOfSpeech=JJ Lemma=eventful NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=108 CharacterOffsetEnd=111 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=previous CharacterOffsetBegin=112 CharacterOffsetEnd=120 PartOfSpeech=JJ Lemma=previous NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=121 CharacterOffsetEnd=127 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=128 CharacterOffsetEnd=133 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=imply CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=VB Lemma=imply NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=if CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=149 CharacterOffsetEnd=151 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=true CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=JJ Lemma=true NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=156 CharacterOffsetEnd=157 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=Lyanna CharacterOffsetBegin=158 CharacterOffsetEnd=164 PartOfSpeech=NNP Lemma=Lyanna NamedEntityTag=PERSON]
+[Text=gave CharacterOffsetBegin=165 CharacterOffsetEnd=169 PartOfSpeech=VBD Lemma=give NamedEntityTag=O]
+[Text=birth CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=NN Lemma=birth NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=179 CharacterOffsetEnd=182 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=183 CharacterOffsetEnd=186 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=, CharacterOffsetBegin=186 CharacterOffsetEnd=187 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=two CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text=children CharacterOffsetBegin=196 CharacterOffsetEnd=204 PartOfSpeech=NNS Lemma=child NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP
+        (NP
+          (NP (NNP Ned) (NNP Stark) (POS 's))
+          (NN trip))
+        (PP (TO to)
+          (NP
+            (NP (DT the) (NN Tower))
+            (PP (IN of)
+              (NP (NNP Joy))))))
+      (VP (MD could)
+        (VP (VB be)
+          (ADJP (RB even) (RBR more) (JJ eventful))
+          (SBAR (IN than)
+            (S
+              (NP (DT the) (JJ previous) (NN theory))
+              (VP (MD would)
+                (VP (VB imply)))))
+          (, ,)
+          (SBAR (IN if)
+            (S
+              (NP (DT this))
+              (VP (VBZ is)
+                (ADJP (JJ true))))))))
+    (: :)
+    (S
+      (NP (NNP Lyanna))
+      (VP (VBD gave)
+        (NP (NN birth))
+        (PP (TO to)
+          (NP
+            (NP (RB not) (CD one))
+            (, ,)
+            (CC but)
+            (NP (CD two) (NNS children))))))
+    (. .)))
+
+root(ROOT-0, eventful-14)
+compound(Stark-2, Ned-1)
+nmod:poss(trip-4, Stark-2)
+case(Stark-2, 's-3)
+nsubj(eventful-14, trip-4)
+case(Tower-7, to-5)
+det(Tower-7, the-6)
+nmod:to(trip-4, Tower-7)
+case(Joy-9, of-8)
+nmod:of(Tower-7, Joy-9)
+aux(eventful-14, could-10)
+cop(eventful-14, be-11)
+advmod(eventful-14, even-12)
+advmod(eventful-14, more-13)
+mark(imply-20, than-15)
+det(theory-18, the-16)
+amod(theory-18, previous-17)
+nsubj(imply-20, theory-18)
+aux(imply-20, would-19)
+advcl:than(eventful-14, imply-20)
+punct(eventful-14, ,-21)
+mark(true-25, if-22)
+nsubj(true-25, this-23)
+cop(true-25, is-24)
+advcl:if(eventful-14, true-25)
+punct(eventful-14, :-26)
+nsubj(gave-28, Lyanna-27)
+parataxis(eventful-14, gave-28)
+dobj(gave-28, birth-29)
+case(one-32, to-30)
+neg(one-32, not-31)
+nmod:to(gave-28, one-32)
+punct(one-32, ,-33)
+cc(one-32, but-34)
+nummod(children-36, two-35)
+nmod:to(gave-28, children-36)
+conj:but(one-32, children-36)
+punct(eventful-14, .-37)
+
+Sentence #3 (16 tokens):
 Meera's alleged father Howland was also at the Tower of Joy, after all.
-[Text=Meera CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=POS]
-[Text=alleged CharacterOffsetBegin=213 CharacterOffsetEnd=220 PartOfSpeech=JJ]
-[Text=father CharacterOffsetBegin=221 CharacterOffsetEnd=227 PartOfSpeech=NN]
-[Text=Howland CharacterOffsetBegin=228 CharacterOffsetEnd=235 PartOfSpeech=NNP]
-[Text=was CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=VBD]
-[Text=also CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=RB]
-[Text=at CharacterOffsetBegin=245 CharacterOffsetEnd=247 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=DT]
-[Text=Tower CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=258 CharacterOffsetEnd=260 PartOfSpeech=IN]
-[Text=Joy CharacterOffsetBegin=261 CharacterOffsetEnd=264 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=,]
-[Text=after CharacterOffsetBegin=266 CharacterOffsetEnd=271 PartOfSpeech=IN]
-[Text=all CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=DT]
-[Text=. CharacterOffsetBegin=275 CharacterOffsetEnd=276 PartOfSpeech=.]
-Sentence #3 (14 tokens):
+[Text=Meera CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=NNP Lemma=Meera NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=alleged CharacterOffsetBegin=214 CharacterOffsetEnd=221 PartOfSpeech=JJ Lemma=alleged NamedEntityTag=O]
+[Text=father CharacterOffsetBegin=222 CharacterOffsetEnd=228 PartOfSpeech=NN Lemma=father NamedEntityTag=O]
+[Text=Howland CharacterOffsetBegin=229 CharacterOffsetEnd=236 PartOfSpeech=NNP Lemma=Howland NamedEntityTag=PERSON]
+[Text=was CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=246 CharacterOffsetEnd=248 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Tower CharacterOffsetBegin=253 CharacterOffsetEnd=258 PartOfSpeech=NN Lemma=tower NamedEntityTag=MISC]
+[Text=of CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=IN Lemma=of NamedEntityTag=MISC]
+[Text=Joy CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=NNP Lemma=Joy NamedEntityTag=MISC]
+[Text=, CharacterOffsetBegin=265 CharacterOffsetEnd=266 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=267 CharacterOffsetEnd=272 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=276 CharacterOffsetEnd=277 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (NNP Meera) (POS 's))
+        (JJ alleged) (NN father)))
+    (NP (NNP Howland))
+    (VP (VBD was)
+      (ADVP (RB also))
+      (PP (IN at)
+        (NP
+          (NP (DT the) (NN Tower))
+          (PP (IN of)
+            (NP (NNP Joy)))))
+      (, ,)
+      (ADVP (IN after) (DT all)))
+    (. .)))
+
+root(ROOT-0, Tower-10)
+nmod:poss(father-4, Meera-1)
+case(Meera-1, 's-2)
+amod(father-4, alleged-3)
+dep(Tower-10, father-4)
+nsubj(Tower-10, Howland-5)
+cop(Tower-10, was-6)
+advmod(Tower-10, also-7)
+case(Tower-10, at-8)
+det(Tower-10, the-9)
+case(Joy-12, of-11)
+nmod:of(Tower-10, Joy-12)
+punct(Tower-10, ,-13)
+case(all-15, after-14)
+advmod(Tower-10, all-15)
+punct(Tower-10, .-16)
+
+Sentence #4 (14 tokens):
 So basically the idea here is they're Luke Skywalker and Princess Leia.
-[Text=So CharacterOffsetBegin=277 CharacterOffsetEnd=279 PartOfSpeech=RB]
-[Text=basically CharacterOffsetBegin=280 CharacterOffsetEnd=289 PartOfSpeech=RB]
-[Text=the CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=DT]
-[Text=idea CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=NN]
-[Text=here CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=RB]
-[Text=is CharacterOffsetBegin=304 CharacterOffsetEnd=306 PartOfSpeech=VBZ]
-[Text=they CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=PRP]
-[Text='re CharacterOffsetBegin=311 CharacterOffsetEnd=314 PartOfSpeech=VBP]
-[Text=Luke CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=NNP]
-[Text=Skywalker CharacterOffsetBegin=320 CharacterOffsetEnd=329 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=330 CharacterOffsetEnd=333 PartOfSpeech=CC]
-[Text=Princess CharacterOffsetBegin=334 CharacterOffsetEnd=342 PartOfSpeech=NNP]
-[Text=Leia CharacterOffsetBegin=343 CharacterOffsetEnd=347 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=347 CharacterOffsetEnd=348 PartOfSpeech=.]
+[Text=So CharacterOffsetBegin=278 CharacterOffsetEnd=280 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=basically CharacterOffsetBegin=281 CharacterOffsetEnd=290 PartOfSpeech=RB Lemma=basically NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=idea CharacterOffsetBegin=295 CharacterOffsetEnd=299 PartOfSpeech=NN Lemma=idea NamedEntityTag=O]
+[Text=here CharacterOffsetBegin=300 CharacterOffsetEnd=304 PartOfSpeech=RB Lemma=here NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=305 CharacterOffsetEnd=307 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=308 CharacterOffsetEnd=312 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text='re CharacterOffsetBegin=312 CharacterOffsetEnd=315 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=Luke CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=NNP Lemma=Luke NamedEntityTag=PERSON]
+[Text=Skywalker CharacterOffsetBegin=321 CharacterOffsetEnd=330 PartOfSpeech=NNP Lemma=Skywalker NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=331 CharacterOffsetEnd=334 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Princess CharacterOffsetBegin=335 CharacterOffsetEnd=343 PartOfSpeech=NNP Lemma=Princess NamedEntityTag=O]
+[Text=Leia CharacterOffsetBegin=344 CharacterOffsetEnd=348 PartOfSpeech=NNP Lemma=Leia NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=348 CharacterOffsetEnd=349 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (RB So)
+    (ADVP (RB basically))
+    (NP (DT the) (NN idea))
+    (ADVP (RB here))
+    (VP (VBZ is)
+      (SBAR
+        (S
+          (NP (PRP they))
+          (VP (VBP 're)
+            (NP
+              (NP (NNP Luke) (NNP Skywalker))
+              (CC and)
+              (NP (NNP Princess) (NNP Leia)))))))
+    (. .)))
+
+root(ROOT-0, is-6)
+advmod(is-6, So-1)
+advmod(is-6, basically-2)
+det(idea-4, the-3)
+nsubj(is-6, idea-4)
+advmod(is-6, here-5)
+nsubj(Skywalker-10, they-7)
+cop(Skywalker-10, 're-8)
+compound(Skywalker-10, Luke-9)
+ccomp(is-6, Skywalker-10)
+cc(Skywalker-10, and-11)
+compound(Leia-13, Princess-12)
+ccomp(is-6, Leia-13)
+conj:and(Skywalker-10, Leia-13)
+punct(is-6, .-14)
+
+Coreference set:
+	(1,8,[4,9]) -> (1,2,[1,3]), that is: "Jon Snow 's twin sister" -> "Meera Reed"
+	(3,1,[1,3]) -> (1,2,[1,3]), that is: "Meera 's" -> "Meera Reed"
+Coreference set:
+	(3,10,[9,13]) -> (2,7,[6,10]), that is: "the Tower of Joy" -> "the Tower of Joy"
+	(3,10,[10,13]) -> (2,7,[6,10]), that is: "Tower of Joy" -> "the Tower of Joy"
+Coreference set:
+	(4,7,[7,8]) -> (2,23,[23,24]), that is: "they" -> "this"
+	(4,10,[9,14]) -> (2,23,[23,24]), that is: "Luke Skywalker and Princess Leia" -> "this"

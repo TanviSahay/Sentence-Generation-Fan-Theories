@@ -1,37 +1,128 @@
-Sentence #1 (35 tokens):
-LF will put seeds of doubt into Sansa's head, she will make it appear as though she is on his side but turn against him when his guard is down, killing him
-[Text=LF CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NN]
-[Text=will CharacterOffsetBegin=3 CharacterOffsetEnd=7 PartOfSpeech=MD]
-[Text=put CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=VB]
-[Text=seeds CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=IN]
-[Text=doubt CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NN]
-[Text=into CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=IN]
-[Text=Sansa CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=POS]
-[Text=head CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=,]
-[Text=she CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=PRP]
-[Text=will CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=MD]
-[Text=make CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=VB]
-[Text=it CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=PRP]
-[Text=appear CharacterOffsetBegin=63 CharacterOffsetEnd=69 PartOfSpeech=VB]
-[Text=as CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=IN]
-[Text=though CharacterOffsetBegin=73 CharacterOffsetEnd=79 PartOfSpeech=IN]
-[Text=she CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=PRP]
-[Text=is CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=VBZ]
-[Text=on CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=PRP$]
-[Text=side CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NN]
-[Text=but CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=CC]
-[Text=turn CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=NN]
-[Text=against CharacterOffsetBegin=108 CharacterOffsetEnd=115 PartOfSpeech=IN]
-[Text=him CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=PRP]
-[Text=when CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=WRB]
-[Text=his CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=PRP$]
-[Text=guard CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=VBZ]
-[Text=down CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=,]
-[Text=killing CharacterOffsetBegin=144 CharacterOffsetEnd=151 PartOfSpeech=VBG]
-[Text=him CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=PRP]
+Sentence #1 (36 tokens):
+LF will put seeds of doubt into Sansa's head, she will make it appear as though she is on his side but turn against him when his guard is down, killing him.
+[Text=LF CharacterOffsetBegin=0 CharacterOffsetEnd=2 PartOfSpeech=NN Lemma=lf NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=3 CharacterOffsetEnd=7 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=put CharacterOffsetBegin=8 CharacterOffsetEnd=11 PartOfSpeech=VB Lemma=put NamedEntityTag=O]
+[Text=seeds CharacterOffsetBegin=12 CharacterOffsetEnd=17 PartOfSpeech=NNS Lemma=seed NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=18 CharacterOffsetEnd=20 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=doubt CharacterOffsetBegin=21 CharacterOffsetEnd=26 PartOfSpeech=NN Lemma=doubt NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=32 CharacterOffsetEnd=37 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=37 CharacterOffsetEnd=39 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=head CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=NN Lemma=head NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=50 CharacterOffsetEnd=54 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=make CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=VB Lemma=make NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=appear CharacterOffsetBegin=63 CharacterOffsetEnd=69 PartOfSpeech=VB Lemma=appear NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=70 CharacterOffsetEnd=72 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=though CharacterOffsetBegin=73 CharacterOffsetEnd=79 PartOfSpeech=IN Lemma=though NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=84 CharacterOffsetEnd=86 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=90 CharacterOffsetEnd=93 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=side CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NN Lemma=side NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=99 CharacterOffsetEnd=102 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=turn CharacterOffsetBegin=103 CharacterOffsetEnd=107 PartOfSpeech=NN Lemma=turn NamedEntityTag=O]
+[Text=against CharacterOffsetBegin=108 CharacterOffsetEnd=115 PartOfSpeech=IN Lemma=against NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=guard CharacterOffsetBegin=129 CharacterOffsetEnd=134 PartOfSpeech=NN Lemma=guard NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=down CharacterOffsetBegin=138 CharacterOffsetEnd=142 PartOfSpeech=RB Lemma=down NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=killing CharacterOffsetBegin=144 CharacterOffsetEnd=151 PartOfSpeech=VBG Lemma=kill NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=155 CharacterOffsetEnd=156 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NN LF))
+      (VP (MD will)
+        (VP (VB put)
+          (NP
+            (NP (NNS seeds))
+            (PP (IN of)
+              (NP (NN doubt))))
+          (PP (IN into)
+            (NP
+              (NP (NNP Sansa) (POS 's))
+              (NN head))))))
+    (, ,)
+    (NP (PRP she))
+    (VP (MD will)
+      (VP (VB make)
+        (S
+          (NP (PRP it))
+          (VP (VB appear)
+            (SBAR (IN as) (IN though)
+              (S
+                (NP (PRP she))
+                (VP (VBZ is)
+                  (PP (IN on)
+                    (NP
+                      (NP (PRP$ his) (NN side))
+                      (PP (CC but)
+                        (NP
+                          (NP (NN turn))
+                          (PP (IN against)
+                            (NP (PRP him)))))))
+                  (SBAR
+                    (WHADVP (WRB when))
+                    (S
+                      (NP (PRP$ his) (NN guard))
+                      (VP (VBZ is)
+                        (ADVP (RB down))
+                        (, ,)
+                        (S
+                          (VP (VBG killing)
+                            (NP (PRP him))))))))))))))
+    (. .)))
+
+root(ROOT-0, make-14)
+nsubj(put-3, LF-1)
+aux(put-3, will-2)
+ccomp(make-14, put-3)
+dobj(put-3, seeds-4)
+case(doubt-6, of-5)
+nmod:of(seeds-4, doubt-6)
+case(head-10, into-7)
+nmod:poss(head-10, Sansa-8)
+case(Sansa-8, 's-9)
+nmod:into(put-3, head-10)
+punct(make-14, ,-11)
+nsubj(make-14, she-12)
+aux(make-14, will-13)
+nsubj(appear-16, it-15)
+ccomp(make-14, appear-16)
+mark(side-23, as-17)
+mark(side-23, though-18)
+nsubj(side-23, she-19)
+cop(side-23, is-20)
+case(side-23, on-21)
+nmod:poss(side-23, his-22)
+advcl:on(appear-16, side-23)
+case(turn-25, but-24)
+nmod:but(side-23, turn-25)
+case(him-27, against-26)
+nmod:against(turn-25, him-27)
+advmod(is-31, when-28)
+nmod:poss(guard-30, his-29)
+nsubj(is-31, guard-30)
+advcl(side-23, is-31)
+advmod(is-31, down-32)
+punct(is-31, ,-33)
+xcomp(is-31, killing-34)
+dobj(killing-34, him-35)
+punct(make-14, .-36)
+
+Coreference set:
+	(1,12,[12,13]) -> (1,8,[8,10]), that is: "she" -> "Sansa 's"
+	(1,19,[19,20]) -> (1,8,[8,10]), that is: "she" -> "Sansa 's"
+Coreference set:
+	(1,27,[27,28]) -> (1,22,[22,23]), that is: "him" -> "his"
+	(1,29,[29,30]) -> (1,22,[22,23]), that is: "his" -> "his"
+Coreference set:
+	(1,35,[35,36]) -> (1,30,[29,31]), that is: "him" -> "his guard"

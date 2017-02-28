@@ -1,45 +1,153 @@
 Sentence #1 (43 tokens):
 Dany will eye the North but Jon will surrender and swear fealty to her because he knows he wont stand a chance against an army that size and it will mimic what ancient starks did when Aegon the Conqueror eyed the North.
-[Text=Dany CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD]
-[Text=eye CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=NN]
-[Text=the CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=DT]
-[Text=North CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=NNP]
-[Text=but CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=CC]
-[Text=Jon CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=MD]
-[Text=surrender CharacterOffsetBegin=37 CharacterOffsetEnd=46 PartOfSpeech=VB]
-[Text=and CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=CC]
-[Text=swear CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=VB]
-[Text=fealty CharacterOffsetBegin=57 CharacterOffsetEnd=63 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=64 CharacterOffsetEnd=66 PartOfSpeech=TO]
-[Text=her CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=PRP$]
-[Text=because CharacterOffsetBegin=71 CharacterOffsetEnd=78 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=PRP]
-[Text=knows CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=VBZ]
-[Text=he CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=PRP]
-[Text=wont CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=VB]
-[Text=stand CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=DT]
-[Text=chance CharacterOffsetBegin=104 CharacterOffsetEnd=110 PartOfSpeech=NN]
-[Text=against CharacterOffsetBegin=111 CharacterOffsetEnd=118 PartOfSpeech=IN]
-[Text=an CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=DT]
-[Text=army CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=WDT]
-[Text=size CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=CC]
-[Text=it CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=PRP]
-[Text=will CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=MD]
-[Text=mimic CharacterOffsetBegin=149 CharacterOffsetEnd=154 PartOfSpeech=VB]
-[Text=what CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=WP]
-[Text=ancient CharacterOffsetBegin=160 CharacterOffsetEnd=167 PartOfSpeech=JJ]
-[Text=starks CharacterOffsetBegin=168 CharacterOffsetEnd=174 PartOfSpeech=NNS]
-[Text=did CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=VBD]
-[Text=when CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=WRB]
-[Text=Aegon CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=NNP]
-[Text=the CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=DT]
-[Text=Conqueror CharacterOffsetBegin=194 CharacterOffsetEnd=203 PartOfSpeech=NNP]
-[Text=eyed CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=DT]
-[Text=North CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=.]
+[Text=Dany CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=eye CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=NN Lemma=eye NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=North CharacterOffsetBegin=18 CharacterOffsetEnd=23 PartOfSpeech=NNP Lemma=North NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=24 CharacterOffsetEnd=27 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=28 CharacterOffsetEnd=31 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=32 CharacterOffsetEnd=36 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=surrender CharacterOffsetBegin=37 CharacterOffsetEnd=46 PartOfSpeech=VB Lemma=surrender NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=47 CharacterOffsetEnd=50 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=swear CharacterOffsetBegin=51 CharacterOffsetEnd=56 PartOfSpeech=VB Lemma=swear NamedEntityTag=O]
+[Text=fealty CharacterOffsetBegin=57 CharacterOffsetEnd=63 PartOfSpeech=NN Lemma=fealty NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=64 CharacterOffsetEnd=66 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=because CharacterOffsetBegin=71 CharacterOffsetEnd=78 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=knows CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=VBZ Lemma=know NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=wont CharacterOffsetBegin=91 CharacterOffsetEnd=95 PartOfSpeech=VB Lemma=wont NamedEntityTag=O]
+[Text=stand CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=VB Lemma=stand NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=102 CharacterOffsetEnd=103 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=chance CharacterOffsetBegin=104 CharacterOffsetEnd=110 PartOfSpeech=NN Lemma=chance NamedEntityTag=O]
+[Text=against CharacterOffsetBegin=111 CharacterOffsetEnd=118 PartOfSpeech=IN Lemma=against NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=army CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=NN Lemma=army NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=size CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=NN Lemma=size NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=137 CharacterOffsetEnd=140 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=141 CharacterOffsetEnd=143 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=144 CharacterOffsetEnd=148 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=mimic CharacterOffsetBegin=149 CharacterOffsetEnd=154 PartOfSpeech=VB Lemma=mimic NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=155 CharacterOffsetEnd=159 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=ancient CharacterOffsetBegin=160 CharacterOffsetEnd=167 PartOfSpeech=JJ Lemma=ancient NamedEntityTag=O]
+[Text=starks CharacterOffsetBegin=168 CharacterOffsetEnd=174 PartOfSpeech=NNS Lemma=stark NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=Aegon CharacterOffsetBegin=184 CharacterOffsetEnd=189 PartOfSpeech=NNP Lemma=Aegon NamedEntityTag=ORGANIZATION]
+[Text=the CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Conqueror CharacterOffsetBegin=194 CharacterOffsetEnd=203 PartOfSpeech=NNP Lemma=Conqueror NamedEntityTag=MISC]
+[Text=eyed CharacterOffsetBegin=204 CharacterOffsetEnd=208 PartOfSpeech=VBD Lemma=eye NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=North CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=NNP Lemma=North NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=218 CharacterOffsetEnd=219 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Dany))
+    (VP (MD will)
+      (X
+        (NP (NN eye))
+        (SBAR
+          (X (DT the))
+          (S
+            (NP (NNP North)
+              (CC but)
+              (NNP Jon))
+            (VP (MD will)
+              (VP (VB surrender)
+                (CC and)
+                (VB swear)
+                (NP (NN fealty))
+                (PP (TO to)
+                  (NP (PRP$ her)))
+                (SBAR (IN because)
+                  (S
+                    (NP (PRP he))
+                    (VP (VBZ knows)
+                      (S
+                        (NP (PRP he))
+                        (VP (VB wont)))))))))))
+      (VP (VB stand)
+        (NP (DT a) (NN chance))
+        (PP (IN against)
+          (NP
+            (NP (DT an) (NN army))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (NP
+                  (NP (NN size))
+                  (CC and)
+                  (NP (PRP it)))
+                (VP (MD will)
+                  (VP (VB mimic)
+                    (SBAR
+                      (WHNP (WP what))
+                      (S
+                        (NP (JJ ancient) (NNS starks))
+                        (VP (VBD did)
+                          (SBAR
+                            (WHADVP (WRB when))
+                            (S
+                              (NP (NNP Aegon) (DT the) (NNP Conqueror))
+                              (VP (VBD eyed)
+                                (NP (DT the) (NNP North))))))))))))))))
+    (. .)))
+
+root(ROOT-0, stand-20)
+nsubj(stand-20, Dany-1)
+aux(stand-20, will-2)
+dep(stand-20, eye-3)
+dep(surrender-9, the-4)
+nsubj(surrender-9, North-5)
+nsubj(swear-11, North-5)
+cc(North-5, but-6)
+conj:but(North-5, Jon-7)
+nsubj(surrender-9, Jon-7)
+aux(surrender-9, will-8)
+dep(eye-3, surrender-9)
+cc(surrender-9, and-10)
+dep(eye-3, swear-11)
+conj:and(surrender-9, swear-11)
+dobj(surrender-9, fealty-12)
+case(her-14, to-13)
+nmod:to(surrender-9, her-14)
+mark(knows-17, because-15)
+nsubj(knows-17, he-16)
+advcl:because(surrender-9, knows-17)
+nsubj(wont-19, he-18)
+ccomp(knows-17, wont-19)
+det(chance-22, a-21)
+dobj(stand-20, chance-22)
+case(army-25, against-23)
+det(army-25, an-24)
+nmod:against(stand-20, army-25)
+dobj(mimic-31, army-25)
+ref(army-25, that-26)
+nsubj(mimic-31, size-27)
+cc(size-27, and-28)
+conj:and(size-27, it-29)
+nsubj(mimic-31, it-29)
+aux(mimic-31, will-30)
+acl:relcl(army-25, mimic-31)
+dobj(did-35, what-32)
+amod(starks-34, ancient-33)
+nsubj(did-35, starks-34)
+ccomp(mimic-31, did-35)
+advmod(eyed-40, when-36)
+compound(Conqueror-39, Aegon-37)
+det(Conqueror-39, the-38)
+nsubj(eyed-40, Conqueror-39)
+advcl(did-35, eyed-40)
+det(North-42, the-41)
+dobj(eyed-40, North-42)
+punct(stand-20, .-43)
+
+Coreference set:
+	(1,16,[16,17]) -> (1,7,[7,8]), that is: "he" -> "Jon"
+	(1,18,[18,19]) -> (1,7,[7,8]), that is: "he" -> "Jon"
+Coreference set:
+	(1,5,[5,6]) -> (1,42,[41,43]), that is: "North" -> "the North"
+	(1,29,[29,30]) -> (1,42,[41,43]), that is: "it" -> "the North"

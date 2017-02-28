@@ -1,201 +1,642 @@
-Sentence #1 (26 tokens):
-Arya becomes Lady Stoneheart
+Sentence #1 (5 tokens):
+Arya becomes Lady Stoneheart.
+[Text=Arya CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=becomes CharacterOffsetBegin=5 CharacterOffsetEnd=12 PartOfSpeech=VBZ Lemma=become NamedEntityTag=O]
+[Text=Lady CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=NNP Lemma=Lady NamedEntityTag=PERSON]
+[Text=Stoneheart CharacterOffsetBegin=18 CharacterOffsetEnd=28 PartOfSpeech=NNP Lemma=Stoneheart NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=28 CharacterOffsetEnd=29 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Arya))
+    (VP (VBZ becomes)
+      (NP (NNP Lady) (NNP Stoneheart)))
+    (. .)))
 
+root(ROOT-0, becomes-2)
+nsubj(becomes-2, Arya-1)
+compound(Stoneheart-4, Lady-3)
+xcomp(becomes-2, Stoneheart-4)
+punct(becomes-2, .-5)
+
+Sentence #2 (22 tokens):
 What this means: No, Arya isn’t going to die and be resurrected as the vengeful spirit of justice.
-[Text=Arya CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=becomes CharacterOffsetBegin=5 CharacterOffsetEnd=12 PartOfSpeech=VBZ]
-[Text=Lady CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=NNP]
-[Text=Stoneheart CharacterOffsetBegin=18 CharacterOffsetEnd=28 PartOfSpeech=NNP]
-[Text=What CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=WP]
-[Text=this CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=DT]
-[Text=means CharacterOffsetBegin=40 CharacterOffsetEnd=45 PartOfSpeech=VBZ]
-[Text=: CharacterOffsetBegin=45 CharacterOffsetEnd=46 PartOfSpeech=:]
-[Text=No CharacterOffsetBegin=47 CharacterOffsetEnd=49 PartOfSpeech=UH]
-[Text=, CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=,]
-[Text=Arya CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=VBZ]
-[Text=n't CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=RB]
-[Text=going CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=68 CharacterOffsetEnd=70 PartOfSpeech=TO]
-[Text=die CharacterOffsetBegin=71 CharacterOffsetEnd=74 PartOfSpeech=VB]
-[Text=and CharacterOffsetBegin=75 CharacterOffsetEnd=78 PartOfSpeech=CC]
-[Text=be CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=VB]
-[Text=resurrected CharacterOffsetBegin=82 CharacterOffsetEnd=93 PartOfSpeech=VBN]
-[Text=as CharacterOffsetBegin=94 CharacterOffsetEnd=96 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=DT]
-[Text=vengeful CharacterOffsetBegin=101 CharacterOffsetEnd=109 PartOfSpeech=JJ]
-[Text=spirit CharacterOffsetBegin=110 CharacterOffsetEnd=116 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=117 CharacterOffsetEnd=119 PartOfSpeech=IN]
-[Text=justice CharacterOffsetBegin=120 CharacterOffsetEnd=127 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=127 CharacterOffsetEnd=128 PartOfSpeech=.]
-Sentence #2 (15 tokens):
+[Text=What CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=means CharacterOffsetBegin=41 CharacterOffsetEnd=46 PartOfSpeech=VBZ Lemma=mean NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=46 CharacterOffsetEnd=47 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=No CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=UH Lemma=no NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=50 CharacterOffsetEnd=51 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=52 CharacterOffsetEnd=56 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=57 CharacterOffsetEnd=59 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=59 CharacterOffsetEnd=62 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=going CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=VBG Lemma=go NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=die CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=VB Lemma=die NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=76 CharacterOffsetEnd=79 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=resurrected CharacterOffsetBegin=83 CharacterOffsetEnd=94 PartOfSpeech=VBN Lemma=resurrect NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=vengeful CharacterOffsetBegin=102 CharacterOffsetEnd=110 PartOfSpeech=JJ Lemma=vengeful NamedEntityTag=O]
+[Text=spirit CharacterOffsetBegin=111 CharacterOffsetEnd=117 PartOfSpeech=NN Lemma=spirit NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=justice CharacterOffsetBegin=121 CharacterOffsetEnd=128 PartOfSpeech=NN Lemma=justice NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR
+      (SBAR
+        (WHNP (WP What))
+        (S
+          (NP (DT this))
+          (VP (VBZ means))))
+      (: :)
+      (PRN
+        (FRAG
+          (INTJ (UH No)))))
+    (, ,)
+    (NP (NNP Arya))
+    (VP (VBZ is) (RB n't)
+      (VP (VBG going)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB die))
+              (CC and)
+              (VP (VB be)
+                (VP (VBN resurrected)
+                  (PP (IN as)
+                    (NP
+                      (NP (DT the) (JJ vengeful) (NN spirit))
+                      (PP (IN of)
+                        (NP (NN justice))))))))))))
+    (. .)))
+
+root(ROOT-0, going-10)
+dobj(means-3, What-1)
+nsubj(means-3, this-2)
+advcl(going-10, means-3)
+punct(means-3, :-4)
+dep(means-3, No-5)
+punct(going-10, ,-6)
+nsubj(going-10, Arya-7)
+nsubj:xsubj(die-12, Arya-7)
+nsubjpass:xsubj(resurrected-15, Arya-7)
+aux(going-10, is-8)
+neg(going-10, n't-9)
+mark(die-12, to-11)
+xcomp(going-10, die-12)
+cc(die-12, and-13)
+auxpass(resurrected-15, be-14)
+xcomp(going-10, resurrected-15)
+conj:and(die-12, resurrected-15)
+case(spirit-19, as-16)
+det(spirit-19, the-17)
+amod(spirit-19, vengeful-18)
+nmod:as(resurrected-15, spirit-19)
+case(justice-21, of-20)
+nmod:of(spirit-19, justice-21)
+punct(going-10, .-22)
+
+Sentence #3 (15 tokens):
 But it does mean that Arya will fill the void Lady Stoneheart left behind.
-[Text=But CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=CC]
-[Text=it CharacterOffsetBegin=133 CharacterOffsetEnd=135 PartOfSpeech=PRP]
-[Text=does CharacterOffsetBegin=136 CharacterOffsetEnd=140 PartOfSpeech=VBZ]
-[Text=mean CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=VB]
-[Text=that CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=IN]
-[Text=Arya CharacterOffsetBegin=151 CharacterOffsetEnd=155 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=156 CharacterOffsetEnd=160 PartOfSpeech=MD]
-[Text=fill CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=166 CharacterOffsetEnd=169 PartOfSpeech=DT]
-[Text=void CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=NN]
-[Text=Lady CharacterOffsetBegin=175 CharacterOffsetEnd=179 PartOfSpeech=NN]
-[Text=Stoneheart CharacterOffsetBegin=180 CharacterOffsetEnd=190 PartOfSpeech=NNP]
-[Text=left CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=VBD]
-[Text=behind CharacterOffsetBegin=196 CharacterOffsetEnd=202 PartOfSpeech=RP]
-[Text=. CharacterOffsetBegin=202 CharacterOffsetEnd=203 PartOfSpeech=.]
-Sentence #3 (42 tokens):
+[Text=But CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=does CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=mean CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=VB Lemma=mean NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=152 CharacterOffsetEnd=156 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=157 CharacterOffsetEnd=161 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=fill CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=VB Lemma=fill NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=167 CharacterOffsetEnd=170 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=void CharacterOffsetBegin=171 CharacterOffsetEnd=175 PartOfSpeech=NN Lemma=void NamedEntityTag=O]
+[Text=Lady CharacterOffsetBegin=176 CharacterOffsetEnd=180 PartOfSpeech=NN Lemma=lady NamedEntityTag=O]
+[Text=Stoneheart CharacterOffsetBegin=181 CharacterOffsetEnd=191 PartOfSpeech=NNP Lemma=Stoneheart NamedEntityTag=PERSON]
+[Text=left CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=VBD Lemma=leave NamedEntityTag=O]
+[Text=behind CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=RP Lemma=behind NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC But)
+    (NP (PRP it))
+    (VP (VBZ does)
+      (VP (VB mean)
+        (SBAR (IN that)
+          (S
+            (NP (NNP Arya))
+            (VP (MD will)
+              (VP (VB fill)
+                (NP
+                  (NP (DT the) (NN void) (NN Lady))
+                  (SBAR
+                    (S
+                      (NP (NNP Stoneheart))
+                      (VP (VBD left)
+                        (PRT (RP behind))))))))))))
+    (. .)))
+
+root(ROOT-0, mean-4)
+cc(mean-4, But-1)
+nsubj(mean-4, it-2)
+aux(mean-4, does-3)
+mark(fill-8, that-5)
+nsubj(fill-8, Arya-6)
+aux(fill-8, will-7)
+ccomp(mean-4, fill-8)
+det(Lady-11, the-9)
+compound(Lady-11, void-10)
+dobj(fill-8, Lady-11)
+nsubj(left-13, Stoneheart-12)
+acl:relcl(Lady-11, left-13)
+compound:prt(left-13, behind-14)
+punct(mean-4, .-15)
+
+Sentence #4 (42 tokens):
 For the past couple of seasons, I’ve been waiting with bated breath for Lady Stark to emerge as the corpsified Lady Stoneheart, but alas, the season 6 finale all but confirmed that’s not going to happen.
-[Text=For CharacterOffsetBegin=204 CharacterOffsetEnd=207 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=208 CharacterOffsetEnd=211 PartOfSpeech=DT]
-[Text=past CharacterOffsetBegin=212 CharacterOffsetEnd=216 PartOfSpeech=JJ]
-[Text=couple CharacterOffsetBegin=217 CharacterOffsetEnd=223 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=224 CharacterOffsetEnd=226 PartOfSpeech=IN]
-[Text=seasons CharacterOffsetBegin=227 CharacterOffsetEnd=234 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=,]
-[Text=I CharacterOffsetBegin=236 CharacterOffsetEnd=237 PartOfSpeech=PRP]
-[Text='ve CharacterOffsetBegin=237 CharacterOffsetEnd=240 PartOfSpeech=VBP]
-[Text=been CharacterOffsetBegin=241 CharacterOffsetEnd=245 PartOfSpeech=VBN]
-[Text=waiting CharacterOffsetBegin=246 CharacterOffsetEnd=253 PartOfSpeech=VBG]
-[Text=with CharacterOffsetBegin=254 CharacterOffsetEnd=258 PartOfSpeech=IN]
-[Text=bated CharacterOffsetBegin=259 CharacterOffsetEnd=264 PartOfSpeech=JJ]
-[Text=breath CharacterOffsetBegin=265 CharacterOffsetEnd=271 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=272 CharacterOffsetEnd=275 PartOfSpeech=IN]
-[Text=Lady CharacterOffsetBegin=276 CharacterOffsetEnd=280 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=281 CharacterOffsetEnd=286 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=287 CharacterOffsetEnd=289 PartOfSpeech=TO]
-[Text=emerge CharacterOffsetBegin=290 CharacterOffsetEnd=296 PartOfSpeech=VB]
-[Text=as CharacterOffsetBegin=297 CharacterOffsetEnd=299 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=300 CharacterOffsetEnd=303 PartOfSpeech=DT]
-[Text=corpsified CharacterOffsetBegin=304 CharacterOffsetEnd=314 PartOfSpeech=JJ]
-[Text=Lady CharacterOffsetBegin=315 CharacterOffsetEnd=319 PartOfSpeech=NN]
-[Text=Stoneheart CharacterOffsetBegin=320 CharacterOffsetEnd=330 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=330 CharacterOffsetEnd=331 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=332 CharacterOffsetEnd=335 PartOfSpeech=CC]
-[Text=alas CharacterOffsetBegin=336 CharacterOffsetEnd=340 PartOfSpeech=UH]
-[Text=, CharacterOffsetBegin=340 CharacterOffsetEnd=341 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=342 CharacterOffsetEnd=345 PartOfSpeech=DT]
-[Text=season CharacterOffsetBegin=346 CharacterOffsetEnd=352 PartOfSpeech=NN]
-[Text=6 CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=CD]
-[Text=finale CharacterOffsetBegin=355 CharacterOffsetEnd=361 PartOfSpeech=NN]
-[Text=all CharacterOffsetBegin=362 CharacterOffsetEnd=365 PartOfSpeech=DT]
-[Text=but CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=CC]
-[Text=confirmed CharacterOffsetBegin=370 CharacterOffsetEnd=379 PartOfSpeech=VBD]
-[Text=that CharacterOffsetBegin=380 CharacterOffsetEnd=384 PartOfSpeech=DT]
-[Text='s CharacterOffsetBegin=384 CharacterOffsetEnd=386 PartOfSpeech=VBZ]
-[Text=not CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=RB]
-[Text=going CharacterOffsetBegin=391 CharacterOffsetEnd=396 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=397 CharacterOffsetEnd=399 PartOfSpeech=TO]
-[Text=happen CharacterOffsetBegin=400 CharacterOffsetEnd=406 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=406 CharacterOffsetEnd=407 PartOfSpeech=.]
-Sentence #4 (21 tokens):
+[Text=For CharacterOffsetBegin=205 CharacterOffsetEnd=208 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PAST_REF">the past</TIMEX3>]
+[Text=past CharacterOffsetBegin=213 CharacterOffsetEnd=217 PartOfSpeech=JJ Lemma=past NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PAST_REF">the past</TIMEX3>]
+[Text=couple CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=NN Lemma=couple NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=225 CharacterOffsetEnd=227 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=seasons CharacterOffsetBegin=228 CharacterOffsetEnd=235 PartOfSpeech=NNS Lemma=season NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=237 CharacterOffsetEnd=238 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text='ve CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=waiting CharacterOffsetBegin=247 CharacterOffsetEnd=254 PartOfSpeech=VBG Lemma=wait NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=255 CharacterOffsetEnd=259 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=bated CharacterOffsetBegin=260 CharacterOffsetEnd=265 PartOfSpeech=JJ Lemma=bated NamedEntityTag=O]
+[Text=breath CharacterOffsetBegin=266 CharacterOffsetEnd=272 PartOfSpeech=NN Lemma=breath NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=273 CharacterOffsetEnd=276 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=Lady CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=NNP Lemma=Lady NamedEntityTag=O]
+[Text=Stark CharacterOffsetBegin=282 CharacterOffsetEnd=287 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=emerge CharacterOffsetBegin=291 CharacterOffsetEnd=297 PartOfSpeech=VB Lemma=emerge NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=corpsified CharacterOffsetBegin=305 CharacterOffsetEnd=315 PartOfSpeech=JJ Lemma=corpsified NamedEntityTag=O]
+[Text=Lady CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=NN Lemma=lady NamedEntityTag=PERSON]
+[Text=Stoneheart CharacterOffsetBegin=321 CharacterOffsetEnd=331 PartOfSpeech=NNP Lemma=Stoneheart NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=333 CharacterOffsetEnd=336 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=alas CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=UH Lemma=alas NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=341 CharacterOffsetEnd=342 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=343 CharacterOffsetEnd=346 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=347 CharacterOffsetEnd=353 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=6 CharacterOffsetBegin=354 CharacterOffsetEnd=355 PartOfSpeech=CD Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0]
+[Text=finale CharacterOffsetBegin=356 CharacterOffsetEnd=362 PartOfSpeech=NN Lemma=finale NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=363 CharacterOffsetEnd=366 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=367 CharacterOffsetEnd=370 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=confirmed CharacterOffsetBegin=371 CharacterOffsetEnd=380 PartOfSpeech=VBD Lemma=confirm NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=385 CharacterOffsetEnd=387 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=388 CharacterOffsetEnd=391 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=going CharacterOffsetBegin=392 CharacterOffsetEnd=397 PartOfSpeech=VBG Lemma=go NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=398 CharacterOffsetEnd=400 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=happen CharacterOffsetBegin=401 CharacterOffsetEnd=407 PartOfSpeech=VB Lemma=happen NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=407 CharacterOffsetEnd=408 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (PP (IN For)
+        (NP
+          (NP (DT the) (JJ past) (NN couple))
+          (PP (IN of)
+            (NP (NNS seasons)))))
+      (, ,)
+      (NP (PRP I))
+      (VP (VBP 've)
+        (VP (VBN been)
+          (VP (VBG waiting)
+            (PP (IN with)
+              (NP
+                (NP (JJ bated) (NN breath))
+                (PP (IN for)
+                  (NP (NNP Lady) (NNP Stark)))))
+            (S
+              (VP (TO to)
+                (VP (VB emerge)
+                  (PP (IN as)
+                    (NP (DT the) (JJ corpsified) (NN Lady) (NNP Stoneheart))))))))))
+    (, ,)
+    (CC but)
+    (S
+      (INTJ (UH alas))
+      (, ,)
+      (NP (DT the) (NN season) (CD 6) (NN finale))
+      (ADVP (DT all)
+        (CC but))
+      (VP (VBD confirmed)
+        (SBAR
+          (S
+            (NP (DT that))
+            (VP (VBZ 's) (RB not)
+              (VP (VBG going)
+                (S
+                  (VP (TO to)
+                    (VP (VB happen))))))))))
+    (. .)))
+
+root(ROOT-0, waiting-11)
+case(couple-4, For-1)
+det(couple-4, the-2)
+amod(couple-4, past-3)
+nmod:for(waiting-11, couple-4)
+case(seasons-6, of-5)
+nmod:of(couple-4, seasons-6)
+punct(waiting-11, ,-7)
+nsubj(waiting-11, I-8)
+nsubj:xsubj(emerge-19, I-8)
+aux(waiting-11, 've-9)
+aux(waiting-11, been-10)
+case(breath-14, with-12)
+amod(breath-14, bated-13)
+nmod:with(waiting-11, breath-14)
+case(Stark-17, for-15)
+compound(Stark-17, Lady-16)
+nmod:for(breath-14, Stark-17)
+mark(emerge-19, to-18)
+xcomp(waiting-11, emerge-19)
+case(Stoneheart-24, as-20)
+det(Stoneheart-24, the-21)
+amod(Stoneheart-24, corpsified-22)
+compound(Stoneheart-24, Lady-23)
+nmod:as(emerge-19, Stoneheart-24)
+punct(waiting-11, ,-25)
+cc(waiting-11, but-26)
+discourse(confirmed-35, alas-27)
+punct(confirmed-35, ,-28)
+det(finale-32, the-29)
+compound(finale-32, season-30)
+nummod(finale-32, 6-31)
+nsubj(confirmed-35, finale-32)
+advmod(confirmed-35, all-33)
+cc(all-33, but-34)
+conj:but(waiting-11, confirmed-35)
+nsubj(going-39, that-36)
+nsubj:xsubj(happen-41, that-36)
+aux(going-39, 's-37)
+neg(going-39, not-38)
+ccomp(confirmed-35, going-39)
+mark(happen-41, to-40)
+xcomp(going-39, happen-41)
+punct(waiting-11, .-42)
+
+Sentence #5 (21 tokens):
 However, Arya is back in Westeros and ready to continue her campaign of vengeance against all who wronged her.
-[Text=However CharacterOffsetBegin=410 CharacterOffsetEnd=417 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=,]
-[Text=Arya CharacterOffsetBegin=419 CharacterOffsetEnd=423 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=424 CharacterOffsetEnd=426 PartOfSpeech=VBZ]
-[Text=back CharacterOffsetBegin=427 CharacterOffsetEnd=431 PartOfSpeech=RB]
-[Text=in CharacterOffsetBegin=432 CharacterOffsetEnd=434 PartOfSpeech=IN]
-[Text=Westeros CharacterOffsetBegin=435 CharacterOffsetEnd=443 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=CC]
-[Text=ready CharacterOffsetBegin=448 CharacterOffsetEnd=453 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=454 CharacterOffsetEnd=456 PartOfSpeech=TO]
-[Text=continue CharacterOffsetBegin=457 CharacterOffsetEnd=465 PartOfSpeech=VB]
-[Text=her CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=PRP$]
-[Text=campaign CharacterOffsetBegin=470 CharacterOffsetEnd=478 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=479 CharacterOffsetEnd=481 PartOfSpeech=IN]
-[Text=vengeance CharacterOffsetBegin=482 CharacterOffsetEnd=491 PartOfSpeech=NN]
-[Text=against CharacterOffsetBegin=492 CharacterOffsetEnd=499 PartOfSpeech=IN]
-[Text=all CharacterOffsetBegin=500 CharacterOffsetEnd=503 PartOfSpeech=DT]
-[Text=who CharacterOffsetBegin=504 CharacterOffsetEnd=507 PartOfSpeech=WP]
-[Text=wronged CharacterOffsetBegin=508 CharacterOffsetEnd=515 PartOfSpeech=VBD]
-[Text=her CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=519 CharacterOffsetEnd=520 PartOfSpeech=.]
-Sentence #5 (17 tokens):
+[Text=However CharacterOffsetBegin=411 CharacterOffsetEnd=418 PartOfSpeech=RB Lemma=however NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=418 CharacterOffsetEnd=419 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=420 CharacterOffsetEnd=424 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=428 CharacterOffsetEnd=432 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=433 CharacterOffsetEnd=435 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Westeros CharacterOffsetBegin=436 CharacterOffsetEnd=444 PartOfSpeech=NNP Lemma=Westeros NamedEntityTag=LOCATION]
+[Text=and CharacterOffsetBegin=445 CharacterOffsetEnd=448 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=ready CharacterOffsetBegin=449 CharacterOffsetEnd=454 PartOfSpeech=JJ Lemma=ready NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=455 CharacterOffsetEnd=457 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=continue CharacterOffsetBegin=458 CharacterOffsetEnd=466 PartOfSpeech=VB Lemma=continue NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=467 CharacterOffsetEnd=470 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=campaign CharacterOffsetBegin=471 CharacterOffsetEnd=479 PartOfSpeech=NN Lemma=campaign NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=480 CharacterOffsetEnd=482 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=vengeance CharacterOffsetBegin=483 CharacterOffsetEnd=492 PartOfSpeech=NN Lemma=vengeance NamedEntityTag=O]
+[Text=against CharacterOffsetBegin=493 CharacterOffsetEnd=500 PartOfSpeech=IN Lemma=against NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=501 CharacterOffsetEnd=504 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=505 CharacterOffsetEnd=508 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=wronged CharacterOffsetBegin=509 CharacterOffsetEnd=516 PartOfSpeech=VBD Lemma=wrong NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=517 CharacterOffsetEnd=520 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=520 CharacterOffsetEnd=521 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP (NNP Arya))
+    (VP (VBZ is)
+      (UCP
+        (ADJP (RB back)
+          (PP (IN in)
+            (NP (NNP Westeros))))
+        (CC and)
+        (ADJP (JJ ready)
+          (S
+            (VP (TO to)
+              (VP (VB continue)
+                (NP
+                  (NP (PRP$ her) (NN campaign))
+                  (PP (IN of)
+                    (NP (NN vengeance))))))))
+        (PP (IN against)
+          (NP
+            (NP (DT all))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD wronged)
+                  (NP (PRP her)))))))))
+    (. .)))
+
+root(ROOT-0, back-5)
+advmod(back-5, However-1)
+punct(back-5, ,-2)
+nsubj(back-5, Arya-3)
+nsubj(ready-9, Arya-3)
+nsubj:xsubj(continue-11, Arya-3)
+cop(back-5, is-4)
+case(Westeros-7, in-6)
+nmod:in(back-5, Westeros-7)
+cc(back-5, and-8)
+conj:and(back-5, ready-9)
+mark(continue-11, to-10)
+xcomp(ready-9, continue-11)
+nmod:poss(campaign-13, her-12)
+dobj(continue-11, campaign-13)
+case(vengeance-15, of-14)
+nmod:of(campaign-13, vengeance-15)
+case(all-17, against-16)
+nmod:against(back-5, all-17)
+nsubj(wronged-19, all-17)
+ref(all-17, who-18)
+acl:relcl(all-17, wronged-19)
+dobj(wronged-19, her-20)
+punct(back-5, .-21)
+
+Sentence #6 (17 tokens):
 She could totally meet up with the Brothers Without Banners and take over as their leader.
-[Text=She CharacterOffsetBegin=521 CharacterOffsetEnd=524 PartOfSpeech=PRP]
-[Text=could CharacterOffsetBegin=525 CharacterOffsetEnd=530 PartOfSpeech=MD]
-[Text=totally CharacterOffsetBegin=531 CharacterOffsetEnd=538 PartOfSpeech=RB]
-[Text=meet CharacterOffsetBegin=539 CharacterOffsetEnd=543 PartOfSpeech=VB]
-[Text=up CharacterOffsetBegin=544 CharacterOffsetEnd=546 PartOfSpeech=RP]
-[Text=with CharacterOffsetBegin=547 CharacterOffsetEnd=551 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=552 CharacterOffsetEnd=555 PartOfSpeech=DT]
-[Text=Brothers CharacterOffsetBegin=556 CharacterOffsetEnd=564 PartOfSpeech=NN]
-[Text=Without CharacterOffsetBegin=565 CharacterOffsetEnd=572 PartOfSpeech=IN]
-[Text=Banners CharacterOffsetBegin=573 CharacterOffsetEnd=580 PartOfSpeech=NNS]
-[Text=and CharacterOffsetBegin=581 CharacterOffsetEnd=584 PartOfSpeech=CC]
-[Text=take CharacterOffsetBegin=585 CharacterOffsetEnd=589 PartOfSpeech=VB]
-[Text=over CharacterOffsetBegin=590 CharacterOffsetEnd=594 PartOfSpeech=RP]
-[Text=as CharacterOffsetBegin=595 CharacterOffsetEnd=597 PartOfSpeech=IN]
-[Text=their CharacterOffsetBegin=598 CharacterOffsetEnd=603 PartOfSpeech=PRP$]
-[Text=leader CharacterOffsetBegin=604 CharacterOffsetEnd=610 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=610 CharacterOffsetEnd=611 PartOfSpeech=.]
-Sentence #6 (27 tokens):
+[Text=She CharacterOffsetBegin=522 CharacterOffsetEnd=525 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=526 CharacterOffsetEnd=531 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=totally CharacterOffsetBegin=532 CharacterOffsetEnd=539 PartOfSpeech=RB Lemma=totally NamedEntityTag=O]
+[Text=meet CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=VB Lemma=meet NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=548 CharacterOffsetEnd=552 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=553 CharacterOffsetEnd=556 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Brothers CharacterOffsetBegin=557 CharacterOffsetEnd=565 PartOfSpeech=NN Lemma=brothers NamedEntityTag=ORGANIZATION]
+[Text=Without CharacterOffsetBegin=566 CharacterOffsetEnd=573 PartOfSpeech=IN Lemma=without NamedEntityTag=ORGANIZATION]
+[Text=Banners CharacterOffsetBegin=574 CharacterOffsetEnd=581 PartOfSpeech=NNS Lemma=banner NamedEntityTag=ORGANIZATION]
+[Text=and CharacterOffsetBegin=582 CharacterOffsetEnd=585 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=take CharacterOffsetBegin=586 CharacterOffsetEnd=590 PartOfSpeech=VB Lemma=take NamedEntityTag=O]
+[Text=over CharacterOffsetBegin=591 CharacterOffsetEnd=595 PartOfSpeech=RP Lemma=over NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=596 CharacterOffsetEnd=598 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=599 CharacterOffsetEnd=604 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=leader CharacterOffsetBegin=605 CharacterOffsetEnd=611 PartOfSpeech=NN Lemma=leader NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=611 CharacterOffsetEnd=612 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (MD could)
+      (ADVP (RB totally))
+      (VP
+        (VP (VB meet)
+          (PRT (RP up))
+          (PP (IN with)
+            (WHNP
+              (WHNP (DT the) (NN Brothers))
+              (PP (IN Without)
+                (NP (NNS Banners))))))
+        (CC and)
+        (VP (VB take)
+          (PRT (RP over))
+          (PP (IN as)
+            (NP (PRP$ their) (NN leader))))))
+    (. .)))
+
+root(ROOT-0, meet-4)
+nsubj(meet-4, She-1)
+nsubj(take-12, She-1)
+aux(meet-4, could-2)
+advmod(meet-4, totally-3)
+compound:prt(meet-4, up-5)
+case(Brothers-8, with-6)
+det(Brothers-8, the-7)
+nmod:with(meet-4, Brothers-8)
+case(Banners-10, Without-9)
+nmod:without(Brothers-8, Banners-10)
+cc(meet-4, and-11)
+conj:and(meet-4, take-12)
+compound:prt(take-12, over-13)
+case(leader-16, as-14)
+nmod:poss(leader-16, their-15)
+nmod:as(take-12, leader-16)
+punct(meet-4, .-17)
+
+Sentence #7 (27 tokens):
 Especially with the support of the Brothers’ recent acquisition, The Hound, who time and time again has shown his complete respect for Arya.
-[Text=Especially CharacterOffsetBegin=612 CharacterOffsetEnd=622 PartOfSpeech=RB]
-[Text=with CharacterOffsetBegin=623 CharacterOffsetEnd=627 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=628 CharacterOffsetEnd=631 PartOfSpeech=DT]
-[Text=support CharacterOffsetBegin=632 CharacterOffsetEnd=639 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=640 CharacterOffsetEnd=642 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=643 CharacterOffsetEnd=646 PartOfSpeech=DT]
-[Text=Brothers CharacterOffsetBegin=647 CharacterOffsetEnd=655 PartOfSpeech=NNPS]
-[Text=' CharacterOffsetBegin=655 CharacterOffsetEnd=656 PartOfSpeech=POS]
-[Text=recent CharacterOffsetBegin=657 CharacterOffsetEnd=663 PartOfSpeech=JJ]
-[Text=acquisition CharacterOffsetBegin=664 CharacterOffsetEnd=675 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=675 CharacterOffsetEnd=676 PartOfSpeech=,]
-[Text=The CharacterOffsetBegin=677 CharacterOffsetEnd=680 PartOfSpeech=DT]
-[Text=Hound CharacterOffsetBegin=681 CharacterOffsetEnd=686 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=686 CharacterOffsetEnd=687 PartOfSpeech=,]
-[Text=who CharacterOffsetBegin=688 CharacterOffsetEnd=691 PartOfSpeech=WP]
-[Text=time CharacterOffsetBegin=692 CharacterOffsetEnd=696 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=697 CharacterOffsetEnd=700 PartOfSpeech=CC]
-[Text=time CharacterOffsetBegin=701 CharacterOffsetEnd=705 PartOfSpeech=NN]
-[Text=again CharacterOffsetBegin=706 CharacterOffsetEnd=711 PartOfSpeech=RB]
-[Text=has CharacterOffsetBegin=712 CharacterOffsetEnd=715 PartOfSpeech=VBZ]
-[Text=shown CharacterOffsetBegin=716 CharacterOffsetEnd=721 PartOfSpeech=VBN]
-[Text=his CharacterOffsetBegin=722 CharacterOffsetEnd=725 PartOfSpeech=PRP$]
-[Text=complete CharacterOffsetBegin=726 CharacterOffsetEnd=734 PartOfSpeech=JJ]
-[Text=respect CharacterOffsetBegin=735 CharacterOffsetEnd=742 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=743 CharacterOffsetEnd=746 PartOfSpeech=IN]
-[Text=Arya CharacterOffsetBegin=747 CharacterOffsetEnd=751 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=751 CharacterOffsetEnd=752 PartOfSpeech=.]
-Sentence #7 (37 tokens):
+[Text=Especially CharacterOffsetBegin=613 CharacterOffsetEnd=623 PartOfSpeech=RB Lemma=especially NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=624 CharacterOffsetEnd=628 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=629 CharacterOffsetEnd=632 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=support CharacterOffsetBegin=633 CharacterOffsetEnd=640 PartOfSpeech=NN Lemma=support NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=641 CharacterOffsetEnd=643 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=644 CharacterOffsetEnd=647 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Brothers CharacterOffsetBegin=648 CharacterOffsetEnd=656 PartOfSpeech=NNPS Lemma=Brothers NamedEntityTag=ORGANIZATION]
+[Text=' CharacterOffsetBegin=656 CharacterOffsetEnd=657 PartOfSpeech=POS Lemma=' NamedEntityTag=O]
+[Text=recent CharacterOffsetBegin=658 CharacterOffsetEnd=664 PartOfSpeech=JJ Lemma=recent NamedEntityTag=O]
+[Text=acquisition CharacterOffsetBegin=665 CharacterOffsetEnd=676 PartOfSpeech=NN Lemma=acquisition NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=676 CharacterOffsetEnd=677 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=678 CharacterOffsetEnd=681 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Hound CharacterOffsetBegin=682 CharacterOffsetEnd=687 PartOfSpeech=NNP Lemma=Hound NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=689 CharacterOffsetEnd=692 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=time CharacterOffsetBegin=693 CharacterOffsetEnd=697 PartOfSpeech=NN Lemma=time NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=698 CharacterOffsetEnd=701 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=time CharacterOffsetBegin=702 CharacterOffsetEnd=706 PartOfSpeech=NN Lemma=time NamedEntityTag=O]
+[Text=again CharacterOffsetBegin=707 CharacterOffsetEnd=712 PartOfSpeech=RB Lemma=again NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=713 CharacterOffsetEnd=716 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=shown CharacterOffsetBegin=717 CharacterOffsetEnd=722 PartOfSpeech=VBN Lemma=show NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=723 CharacterOffsetEnd=726 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=complete CharacterOffsetBegin=727 CharacterOffsetEnd=735 PartOfSpeech=JJ Lemma=complete NamedEntityTag=O]
+[Text=respect CharacterOffsetBegin=736 CharacterOffsetEnd=743 PartOfSpeech=NN Lemma=respect NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=744 CharacterOffsetEnd=747 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=748 CharacterOffsetEnd=752 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=752 CharacterOffsetEnd=753 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (ADJP (RB Especially)
+      (PP (IN with)
+        (NP
+          (NP (DT the) (NN support))
+          (PP (IN of)
+            (NP
+              (NP
+                (NP (DT the) (NNPS Brothers) (POS '))
+                (JJ recent) (NN acquisition))
+              (, ,)
+              (NP (DT The) (NNP Hound))
+              (, ,))))))
+    (SBAR
+      (WHNP (WP who))
+      (S
+        (NP (NN time)
+          (CC and)
+          (NN time))
+        (ADVP (RB again))
+        (VP (VBZ has)
+          (VP (VBN shown)
+            (NP (PRP$ his) (JJ complete) (NN respect))
+            (PP (IN for)
+              (NP (NNP Arya)))))))
+    (. .)))
+
+root(ROOT-0, Especially-1)
+case(support-4, with-2)
+det(support-4, the-3)
+nmod:with(Especially-1, support-4)
+case(acquisition-10, of-5)
+det(Brothers-7, the-6)
+nmod:poss(acquisition-10, Brothers-7)
+case(Brothers-7, '-8)
+amod(acquisition-10, recent-9)
+nmod:of(support-4, acquisition-10)
+punct(acquisition-10, ,-11)
+det(Hound-13, The-12)
+appos(acquisition-10, Hound-13)
+punct(acquisition-10, ,-14)
+dobj(shown-21, who-15)
+nsubj(shown-21, time-16)
+cc(time-16, and-17)
+conj:and(time-16, time-18)
+nsubj(shown-21, time-18)
+advmod(shown-21, again-19)
+aux(shown-21, has-20)
+dep(Especially-1, shown-21)
+nmod:poss(respect-24, his-22)
+amod(respect-24, complete-23)
+dobj(shown-21, respect-24)
+case(Arya-26, for-25)
+nmod:for(shown-21, Arya-26)
+punct(Especially-1, .-27)
+
+Sentence #8 (37 tokens):
 Interestingly, should this storyline emerge, we could see a fascinating role reversal between the two characters, with Arya being blinded by hate and violence, and The Hound trying to keep her balanced.
-[Text=Interestingly CharacterOffsetBegin=753 CharacterOffsetEnd=766 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=766 CharacterOffsetEnd=767 PartOfSpeech=,]
-[Text=should CharacterOffsetBegin=768 CharacterOffsetEnd=774 PartOfSpeech=MD]
-[Text=this CharacterOffsetBegin=775 CharacterOffsetEnd=779 PartOfSpeech=DT]
-[Text=storyline CharacterOffsetBegin=780 CharacterOffsetEnd=789 PartOfSpeech=NN]
-[Text=emerge CharacterOffsetBegin=790 CharacterOffsetEnd=796 PartOfSpeech=VBP]
-[Text=, CharacterOffsetBegin=796 CharacterOffsetEnd=797 PartOfSpeech=,]
-[Text=we CharacterOffsetBegin=798 CharacterOffsetEnd=800 PartOfSpeech=PRP]
-[Text=could CharacterOffsetBegin=801 CharacterOffsetEnd=806 PartOfSpeech=MD]
-[Text=see CharacterOffsetBegin=807 CharacterOffsetEnd=810 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=811 CharacterOffsetEnd=812 PartOfSpeech=DT]
-[Text=fascinating CharacterOffsetBegin=813 CharacterOffsetEnd=824 PartOfSpeech=JJ]
-[Text=role CharacterOffsetBegin=825 CharacterOffsetEnd=829 PartOfSpeech=NN]
-[Text=reversal CharacterOffsetBegin=830 CharacterOffsetEnd=838 PartOfSpeech=NN]
-[Text=between CharacterOffsetBegin=839 CharacterOffsetEnd=846 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=847 CharacterOffsetEnd=850 PartOfSpeech=DT]
-[Text=two CharacterOffsetBegin=851 CharacterOffsetEnd=854 PartOfSpeech=CD]
-[Text=characters CharacterOffsetBegin=855 CharacterOffsetEnd=865 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=865 CharacterOffsetEnd=866 PartOfSpeech=,]
-[Text=with CharacterOffsetBegin=867 CharacterOffsetEnd=871 PartOfSpeech=IN]
-[Text=Arya CharacterOffsetBegin=872 CharacterOffsetEnd=876 PartOfSpeech=NNP]
-[Text=being CharacterOffsetBegin=877 CharacterOffsetEnd=882 PartOfSpeech=VBG]
-[Text=blinded CharacterOffsetBegin=883 CharacterOffsetEnd=890 PartOfSpeech=VBN]
-[Text=by CharacterOffsetBegin=891 CharacterOffsetEnd=893 PartOfSpeech=IN]
-[Text=hate CharacterOffsetBegin=894 CharacterOffsetEnd=898 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=899 CharacterOffsetEnd=902 PartOfSpeech=CC]
-[Text=violence CharacterOffsetBegin=903 CharacterOffsetEnd=911 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=911 CharacterOffsetEnd=912 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=913 CharacterOffsetEnd=916 PartOfSpeech=CC]
-[Text=The CharacterOffsetBegin=917 CharacterOffsetEnd=920 PartOfSpeech=DT]
-[Text=Hound CharacterOffsetBegin=921 CharacterOffsetEnd=926 PartOfSpeech=NNP]
-[Text=trying CharacterOffsetBegin=927 CharacterOffsetEnd=933 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=934 CharacterOffsetEnd=936 PartOfSpeech=TO]
-[Text=keep CharacterOffsetBegin=937 CharacterOffsetEnd=941 PartOfSpeech=VB]
-[Text=her CharacterOffsetBegin=942 CharacterOffsetEnd=945 PartOfSpeech=PRP$]
-[Text=balanced CharacterOffsetBegin=946 CharacterOffsetEnd=954 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=954 CharacterOffsetEnd=955 PartOfSpeech=.]
+[Text=Interestingly CharacterOffsetBegin=754 CharacterOffsetEnd=767 PartOfSpeech=RB Lemma=interestingly NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=767 CharacterOffsetEnd=768 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=should CharacterOffsetBegin=769 CharacterOffsetEnd=775 PartOfSpeech=MD Lemma=should NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=776 CharacterOffsetEnd=780 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=storyline CharacterOffsetBegin=781 CharacterOffsetEnd=790 PartOfSpeech=NN Lemma=storyline NamedEntityTag=O]
+[Text=emerge CharacterOffsetBegin=791 CharacterOffsetEnd=797 PartOfSpeech=VBP Lemma=emerge NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=797 CharacterOffsetEnd=798 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=799 CharacterOffsetEnd=801 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=802 CharacterOffsetEnd=807 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=808 CharacterOffsetEnd=811 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=812 CharacterOffsetEnd=813 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=fascinating CharacterOffsetBegin=814 CharacterOffsetEnd=825 PartOfSpeech=JJ Lemma=fascinating NamedEntityTag=O]
+[Text=role CharacterOffsetBegin=826 CharacterOffsetEnd=830 PartOfSpeech=NN Lemma=role NamedEntityTag=O]
+[Text=reversal CharacterOffsetBegin=831 CharacterOffsetEnd=839 PartOfSpeech=NN Lemma=reversal NamedEntityTag=O]
+[Text=between CharacterOffsetBegin=840 CharacterOffsetEnd=847 PartOfSpeech=IN Lemma=between NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=848 CharacterOffsetEnd=851 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=two CharacterOffsetBegin=852 CharacterOffsetEnd=855 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text=characters CharacterOffsetBegin=856 CharacterOffsetEnd=866 PartOfSpeech=NNS Lemma=character NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=866 CharacterOffsetEnd=867 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=868 CharacterOffsetEnd=872 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=873 CharacterOffsetEnd=877 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=being CharacterOffsetBegin=878 CharacterOffsetEnd=883 PartOfSpeech=VBG Lemma=be NamedEntityTag=O]
+[Text=blinded CharacterOffsetBegin=884 CharacterOffsetEnd=891 PartOfSpeech=VBN Lemma=blind NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=892 CharacterOffsetEnd=894 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=hate CharacterOffsetBegin=895 CharacterOffsetEnd=899 PartOfSpeech=NN Lemma=hate NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=900 CharacterOffsetEnd=903 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=violence CharacterOffsetBegin=904 CharacterOffsetEnd=912 PartOfSpeech=NN Lemma=violence NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=912 CharacterOffsetEnd=913 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=914 CharacterOffsetEnd=917 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=918 CharacterOffsetEnd=921 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Hound CharacterOffsetBegin=922 CharacterOffsetEnd=927 PartOfSpeech=NNP Lemma=Hound NamedEntityTag=O]
+[Text=trying CharacterOffsetBegin=928 CharacterOffsetEnd=934 PartOfSpeech=VBG Lemma=try NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=935 CharacterOffsetEnd=937 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=keep CharacterOffsetBegin=938 CharacterOffsetEnd=942 PartOfSpeech=VB Lemma=keep NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=943 CharacterOffsetEnd=946 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=balanced CharacterOffsetBegin=947 CharacterOffsetEnd=955 PartOfSpeech=JJ Lemma=balanced NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=955 CharacterOffsetEnd=956 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Interestingly))
+    (PRN (, ,)
+      (SINV (MD should)
+        (NP (DT this) (NN storyline))
+        (VP (VBP emerge)))
+      (, ,))
+    (NP (PRP we))
+    (VP (MD could)
+      (VP (VB see)
+        (NP
+          (NP (DT a) (JJ fascinating) (NN role) (NN reversal))
+          (PP (IN between)
+            (NP (DT the) (CD two) (NNS characters))))
+        (, ,)
+        (PP (IN with)
+          (NP
+            (NP
+              (NP (NNP Arya))
+              (VP (VBG being)
+                (VP (VBN blinded)
+                  (PP (IN by)
+                    (NP (NN hate)
+                      (CC and)
+                      (NN violence))))))
+            (, ,)
+            (CC and)
+            (NP
+              (NP (DT The) (NNP Hound))
+              (VP (VBG trying)
+                (S
+                  (VP (TO to)
+                    (VP (VB keep)
+                      (NP (PRP$ her) (JJ balanced)))))))))))
+    (. .)))
+
+root(ROOT-0, see-10)
+advmod(see-10, Interestingly-1)
+punct(emerge-6, ,-2)
+aux(emerge-6, should-3)
+det(storyline-5, this-4)
+nsubj(emerge-6, storyline-5)
+parataxis(see-10, emerge-6)
+punct(emerge-6, ,-7)
+nsubj(see-10, we-8)
+aux(see-10, could-9)
+det(reversal-14, a-11)
+amod(reversal-14, fascinating-12)
+compound(reversal-14, role-13)
+dobj(see-10, reversal-14)
+case(characters-18, between-15)
+det(characters-18, the-16)
+nummod(characters-18, two-17)
+nmod:between(reversal-14, characters-18)
+punct(see-10, ,-19)
+case(Arya-21, with-20)
+nmod:with(see-10, Arya-21)
+auxpass(blinded-23, being-22)
+acl(Arya-21, blinded-23)
+case(hate-25, by-24)
+nmod:agent(blinded-23, hate-25)
+cc(hate-25, and-26)
+nmod:agent(blinded-23, violence-27)
+conj:and(hate-25, violence-27)
+punct(Arya-21, ,-28)
+cc(Arya-21, and-29)
+det(Hound-31, The-30)
+nmod:with(see-10, Hound-31)
+conj:and(Arya-21, Hound-31)
+acl(Hound-31, trying-32)
+mark(keep-34, to-33)
+xcomp(trying-32, keep-34)
+nmod:poss(balanced-36, her-35)
+dobj(keep-34, balanced-36)
+punct(see-10, .-37)
+
+Coreference set:
+	(2,7,[7,8]) -> (1,1,[1,2]), that is: "Arya" -> "Arya"
+	(3,6,[6,7]) -> (1,1,[1,2]), that is: "Arya" -> "Arya"
+	(5,3,[3,4]) -> (1,1,[1,2]), that is: "Arya" -> "Arya"
+	(7,26,[26,27]) -> (1,1,[1,2]), that is: "Arya" -> "Arya"
+Coreference set:
+	(1,4,[3,5]) -> (4,24,[21,25]), that is: "Lady Stoneheart" -> "the corpsified Lady Stoneheart"
+	(3,12,[12,13]) -> (4,24,[21,25]), that is: "Stoneheart" -> "the corpsified Lady Stoneheart"
+	(4,24,[23,25]) -> (4,24,[21,25]), that is: "Lady Stoneheart" -> "the corpsified Lady Stoneheart"
+Coreference set:
+	(3,2,[2,3]) -> (2,2,[2,3]), that is: "it" -> "this"
+Coreference set:
+	(5,12,[12,13]) -> (4,4,[2,7]), that is: "her" -> "the past couple of seasons"
+	(5,20,[20,21]) -> (4,4,[2,7]), that is: "her" -> "the past couple of seasons"
+	(6,1,[1,2]) -> (4,4,[2,7]), that is: "She" -> "the past couple of seasons"
+	(8,35,[35,36]) -> (4,4,[2,7]), that is: "her" -> "the past couple of seasons"
+Coreference set:
+	(4,36,[36,37]) -> (4,8,[8,9]), that is: "that" -> "I"
+Coreference set:
+	(6,8,[8,11]) -> (7,7,[6,9]), that is: "Brothers Without Banners" -> "the Brothers '"
+Coreference set:
+	(7,22,[22,23]) -> (6,16,[15,17]), that is: "his" -> "their leader"

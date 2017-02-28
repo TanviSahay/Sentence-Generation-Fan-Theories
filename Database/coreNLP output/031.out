@@ -1,25 +1,77 @@
 Sentence #1 (8 tokens):
 Tyrion would bridge them into a marriage.
-[Text=Tyrion CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP]
-[Text=would CharacterOffsetBegin=7 CharacterOffsetEnd=12 PartOfSpeech=MD]
-[Text=bridge CharacterOffsetBegin=13 CharacterOffsetEnd=19 PartOfSpeech=VB]
-[Text=them CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=PRP]
-[Text=into CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=DT]
-[Text=marriage CharacterOffsetBegin=32 CharacterOffsetEnd=40 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=.]
+[Text=Tyrion CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=NNP Lemma=Tyrion NamedEntityTag=PERSON]
+[Text=would CharacterOffsetBegin=7 CharacterOffsetEnd=12 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=bridge CharacterOffsetBegin=13 CharacterOffsetEnd=19 PartOfSpeech=VB Lemma=bridge NamedEntityTag=O]
+[Text=them CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=25 CharacterOffsetEnd=29 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=30 CharacterOffsetEnd=31 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=marriage CharacterOffsetBegin=32 CharacterOffsetEnd=40 PartOfSpeech=NN Lemma=marriage NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=40 CharacterOffsetEnd=41 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Tyrion))
+    (VP (MD would)
+      (VP (VB bridge)
+        (NP (PRP them))
+        (PP (IN into)
+          (NP (DT a) (NN marriage)))))
+    (. .)))
+
+root(ROOT-0, bridge-3)
+nsubj(bridge-3, Tyrion-1)
+aux(bridge-3, would-2)
+dobj(bridge-3, them-4)
+case(marriage-7, into-5)
+det(marriage-7, a-6)
+nmod:into(bridge-3, marriage-7)
+punct(bridge-3, .-8)
+
 Sentence #2 (13 tokens):
 It was hinted on through their talk on alliances to secure Westeros.
-[Text=It CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=VBD]
-[Text=hinted CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=VBN]
-[Text=on CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=IN]
-[Text=through CharacterOffsetBegin=59 CharacterOffsetEnd=66 PartOfSpeech=IN]
-[Text=their CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=PRP$]
-[Text=talk CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=NN]
-[Text=on CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=IN]
-[Text=alliances CharacterOffsetBegin=81 CharacterOffsetEnd=90 PartOfSpeech=NNS]
-[Text=to CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=TO]
-[Text=secure CharacterOffsetBegin=94 CharacterOffsetEnd=100 PartOfSpeech=VB]
-[Text=Westeros CharacterOffsetBegin=101 CharacterOffsetEnd=109 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=.]
+[Text=It CharacterOffsetBegin=42 CharacterOffsetEnd=44 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=hinted CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=VBN Lemma=hint NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=through CharacterOffsetBegin=59 CharacterOffsetEnd=66 PartOfSpeech=IN Lemma=through NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=67 CharacterOffsetEnd=72 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=talk CharacterOffsetBegin=73 CharacterOffsetEnd=77 PartOfSpeech=NN Lemma=talk NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=78 CharacterOffsetEnd=80 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=alliances CharacterOffsetBegin=81 CharacterOffsetEnd=90 PartOfSpeech=NNS Lemma=alliance NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=secure CharacterOffsetBegin=94 CharacterOffsetEnd=100 PartOfSpeech=VB Lemma=secure NamedEntityTag=O]
+[Text=Westeros CharacterOffsetBegin=101 CharacterOffsetEnd=109 PartOfSpeech=NNP Lemma=Westeros NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP It))
+    (VP (VBD was)
+      (VP (VBN hinted)
+        (PP (IN on) (IN through)
+          (NP
+            (NP (PRP$ their) (NN talk))
+            (PP (IN on)
+              (NP (NNS alliances)))))
+        (S
+          (VP (TO to)
+            (VP (VB secure)
+              (NP (NNP Westeros)))))))
+    (. .)))
+
+root(ROOT-0, hinted-3)
+nsubjpass(hinted-3, It-1)
+nsubj:xsubj(secure-11, It-1)
+auxpass(hinted-3, was-2)
+case(talk-7, on-4)
+case(talk-7, through-5)
+nmod:poss(talk-7, their-6)
+nmod:through(hinted-3, talk-7)
+case(alliances-9, on-8)
+nmod:on(talk-7, alliances-9)
+mark(secure-11, to-10)
+xcomp(hinted-3, secure-11)
+dobj(secure-11, Westeros-12)
+punct(hinted-3, .-13)
+
+Coreference set:
+	(2,6,[6,7]) -> (1,4,[4,5]), that is: "their" -> "them"

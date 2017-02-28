@@ -1,38 +1,121 @@
-Sentence #1 (15 tokens):
-Dragonglass is pooped out by dragons rather than just being obsidian
+Sentence #1 (12 tokens):
+Dragonglass is pooped out by dragons rather than just being obsidian.
+[Text=Dragonglass CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=NNP Lemma=Dragonglass NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=pooped CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=VBN Lemma=poop NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=dragons CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=NNS Lemma=dragon NamedEntityTag=O]
+[Text=rather CharacterOffsetBegin=37 CharacterOffsetEnd=43 PartOfSpeech=RB Lemma=rather NamedEntityTag=O]
+[Text=than CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=IN Lemma=than NamedEntityTag=O]
+[Text=just CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=being CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=VBG Lemma=be NamedEntityTag=O]
+[Text=obsidian CharacterOffsetBegin=60 CharacterOffsetEnd=68 PartOfSpeech=NN Lemma=obsidian NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Dragonglass))
+    (VP (VBZ is)
+      (VP (VBN pooped)
+        (PRT (RP out))
+        (PP (IN by)
+          (NP (NNS dragons)))
+        (PP (RB rather) (IN than)
+          (S
+            (ADVP (RB just))
+            (VP (VBG being)
+              (NP (NN obsidian)))))))
+    (. .)))
+
+root(ROOT-0, pooped-3)
+nsubjpass(pooped-3, Dragonglass-1)
+auxpass(pooped-3, is-2)
+compound:prt(pooped-3, out-4)
+case(dragons-6, by-5)
+nmod:agent(pooped-3, dragons-6)
+mark(obsidian-11, rather-7)
+mwe(rather-7, than-8)
+advmod(obsidian-11, just-9)
+cop(obsidian-11, being-10)
+advcl:rather_than(pooped-3, obsidian-11)
+punct(pooped-3, .-12)
+
+Sentence #2 (4 tokens):
 Does this matter?
-[Text=Dragonglass CharacterOffsetBegin=0 CharacterOffsetEnd=11 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=VBZ]
-[Text=pooped CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=VBN]
-[Text=out CharacterOffsetBegin=22 CharacterOffsetEnd=25 PartOfSpeech=RP]
-[Text=by CharacterOffsetBegin=26 CharacterOffsetEnd=28 PartOfSpeech=IN]
-[Text=dragons CharacterOffsetBegin=29 CharacterOffsetEnd=36 PartOfSpeech=NNS]
-[Text=rather CharacterOffsetBegin=37 CharacterOffsetEnd=43 PartOfSpeech=RB]
-[Text=than CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=IN]
-[Text=just CharacterOffsetBegin=49 CharacterOffsetEnd=53 PartOfSpeech=RB]
-[Text=being CharacterOffsetBegin=54 CharacterOffsetEnd=59 PartOfSpeech=VBG]
-[Text=obsidian CharacterOffsetBegin=60 CharacterOffsetEnd=68 PartOfSpeech=JJ]
-[Text=Does CharacterOffsetBegin=69 CharacterOffsetEnd=73 PartOfSpeech=VBZ]
-[Text=this CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=DT]
-[Text=matter CharacterOffsetBegin=79 CharacterOffsetEnd=85 PartOfSpeech=NN]
-[Text=? CharacterOffsetBegin=85 CharacterOffsetEnd=86 PartOfSpeech=.]
-Sentence #2 (11 tokens):
+[Text=Does CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=matter CharacterOffsetBegin=80 CharacterOffsetEnd=86 PartOfSpeech=NN Lemma=matter NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=86 CharacterOffsetEnd=87 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (VP (VBZ Does)
+      (NP (DT this) (NN matter)))
+    (. ?)))
+
+root(ROOT-0, Does-1)
+det(matter-3, this-2)
+dobj(Does-1, matter-3)
+punct(Does-1, ?-4)
+
+Sentence #3 (11 tokens):
 No, and we'll probably never find out anyway.
-[Text=No CharacterOffsetBegin=87 CharacterOffsetEnd=89 PartOfSpeech=DT]
-[Text=, CharacterOffsetBegin=89 CharacterOffsetEnd=90 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=91 CharacterOffsetEnd=94 PartOfSpeech=CC]
-[Text=we CharacterOffsetBegin=95 CharacterOffsetEnd=97 PartOfSpeech=PRP]
-[Text='ll CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=MD]
-[Text=probably CharacterOffsetBegin=101 CharacterOffsetEnd=109 PartOfSpeech=RB]
-[Text=never CharacterOffsetBegin=110 CharacterOffsetEnd=115 PartOfSpeech=RB]
-[Text=find CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=VB]
-[Text=out CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=RP]
-[Text=anyway CharacterOffsetBegin=125 CharacterOffsetEnd=131 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=131 CharacterOffsetEnd=132 PartOfSpeech=.]
-Sentence #3 (5 tokens):
+[Text=No CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=DT Lemma=no NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=90 CharacterOffsetEnd=91 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=92 CharacterOffsetEnd=95 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=96 CharacterOffsetEnd=98 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text='ll CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=probably CharacterOffsetBegin=102 CharacterOffsetEnd=110 PartOfSpeech=RB Lemma=probably NamedEntityTag=O]
+[Text=never CharacterOffsetBegin=111 CharacterOffsetEnd=116 PartOfSpeech=RB Lemma=never NamedEntityTag=O]
+[Text=find CharacterOffsetBegin=117 CharacterOffsetEnd=121 PartOfSpeech=VB Lemma=find NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=anyway CharacterOffsetBegin=126 CharacterOffsetEnd=132 PartOfSpeech=RB Lemma=anyway NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=132 CharacterOffsetEnd=133 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (NP (DT No))
+    (, ,)
+    (CC and)
+    (S
+      (NP (PRP we))
+      (VP (MD 'll)
+        (ADVP (RB probably))
+        (ADVP (RB never))
+        (VP (VB find)
+          (PRT (RP out))
+          (ADVP (RB anyway)))))
+    (. .)))
+
+root(ROOT-0, No-1)
+punct(No-1, ,-2)
+cc(No-1, and-3)
+nsubj(find-8, we-4)
+aux(find-8, 'll-5)
+advmod(find-8, probably-6)
+neg(find-8, never-7)
+dep(No-1, find-8)
+compound:prt(find-8, out-9)
+advmod(find-8, anyway-10)
+punct(No-1, .-11)
+
+Sentence #4 (5 tokens):
 But it's funny.
-[Text=But CharacterOffsetBegin=133 CharacterOffsetEnd=136 PartOfSpeech=CC]
-[Text=it CharacterOffsetBegin=137 CharacterOffsetEnd=139 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=139 CharacterOffsetEnd=141 PartOfSpeech=VBZ]
-[Text=funny CharacterOffsetBegin=142 CharacterOffsetEnd=147 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=147 CharacterOffsetEnd=148 PartOfSpeech=.]
+[Text=But CharacterOffsetBegin=134 CharacterOffsetEnd=137 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=138 CharacterOffsetEnd=140 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=140 CharacterOffsetEnd=142 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=funny CharacterOffsetBegin=143 CharacterOffsetEnd=148 PartOfSpeech=JJ Lemma=funny NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=148 CharacterOffsetEnd=149 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC But)
+    (NP (PRP it))
+    (VP (VBZ 's)
+      (ADJP (JJ funny)))
+    (. .)))
+
+root(ROOT-0, funny-4)
+cc(funny-4, But-1)
+nsubj(funny-4, it-2)
+cop(funny-4, 's-3)
+punct(funny-4, .-5)
+
+Coreference set:
+	(4,2,[2,3]) -> (3,1,[1,2]), that is: "it" -> "No"

@@ -1,200 +1,627 @@
 Sentence #1 (13 tokens):
 The theory that Sansa Stark is pregnant with Ramsay Bolton's child.
-[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=WDT]
-[Text=Sansa CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=VBZ]
-[Text=pregnant CharacterOffsetBegin=31 CharacterOffsetEnd=39 PartOfSpeech=JJ]
-[Text=with CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=IN]
-[Text=Ramsay CharacterOffsetBegin=45 CharacterOffsetEnd=51 PartOfSpeech=NNP]
-[Text=Bolton CharacterOffsetBegin=52 CharacterOffsetEnd=58 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=POS]
-[Text=child CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=11 CharacterOffsetEnd=15 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=16 CharacterOffsetEnd=21 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=PERSON]
+[Text=Stark CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=28 CharacterOffsetEnd=30 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=pregnant CharacterOffsetBegin=31 CharacterOffsetEnd=39 PartOfSpeech=JJ Lemma=pregnant NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=Ramsay CharacterOffsetBegin=45 CharacterOffsetEnd=51 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text=Bolton CharacterOffsetBegin=52 CharacterOffsetEnd=58 PartOfSpeech=NNP Lemma=Bolton NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=child CharacterOffsetBegin=61 CharacterOffsetEnd=66 PartOfSpeech=NN Lemma=child NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP (DT The) (NN theory)
+    (SBAR
+      (WHNP (WDT that))
+      (S
+        (NP (NNP Sansa) (NNP Stark))
+        (VP (VBZ is)
+          (ADJP (JJ pregnant)
+            (PP (IN with)
+              (NP
+                (NP (NNP Ramsay) (NNP Bolton) (POS 's))
+                (NN child)))))))
+    (. .)))
+
+root(ROOT-0, theory-2)
+det(theory-2, The-1)
+dobj(pregnant-7, that-3)
+compound(Stark-5, Sansa-4)
+nsubj(pregnant-7, Stark-5)
+cop(pregnant-7, is-6)
+ccomp(theory-2, pregnant-7)
+case(child-12, with-8)
+compound(Bolton-10, Ramsay-9)
+nmod:poss(child-12, Bolton-10)
+case(Bolton-10, 's-11)
+nmod:with(pregnant-7, child-12)
+punct(theory-2, .-13)
+
 Sentence #2 (46 tokens):
 A Redditor argues that Sansa dropped plenty of pregnancy hints in Episode 5: She's making a new dress, she can't stomach the food at Castle Black and she says she can "still feel" — physically — Ramsay's assault.
-[Text=A CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=DT]
-[Text=Redditor CharacterOffsetBegin=70 CharacterOffsetEnd=78 PartOfSpeech=NN]
-[Text=argues CharacterOffsetBegin=79 CharacterOffsetEnd=85 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=IN]
-[Text=Sansa CharacterOffsetBegin=91 CharacterOffsetEnd=96 PartOfSpeech=NNP]
-[Text=dropped CharacterOffsetBegin=97 CharacterOffsetEnd=104 PartOfSpeech=VBD]
-[Text=plenty CharacterOffsetBegin=105 CharacterOffsetEnd=111 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=IN]
-[Text=pregnancy CharacterOffsetBegin=115 CharacterOffsetEnd=124 PartOfSpeech=NN]
-[Text=hints CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=NNS]
-[Text=in CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=IN]
-[Text=Episode CharacterOffsetBegin=134 CharacterOffsetEnd=141 PartOfSpeech=NNP]
-[Text=5 CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=CD]
-[Text=: CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=:]
-[Text=She CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=VBZ]
-[Text=making CharacterOffsetBegin=151 CharacterOffsetEnd=157 PartOfSpeech=VBG]
-[Text=a CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=DT]
-[Text=new CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=JJ]
-[Text=dress CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=,]
-[Text=she CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=PRP]
-[Text=ca CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=MD]
-[Text=n't CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=RB]
-[Text=stomach CharacterOffsetBegin=181 CharacterOffsetEnd=188 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=DT]
-[Text=food CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=IN]
-[Text=Castle CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=NNP]
-[Text=Black CharacterOffsetBegin=208 CharacterOffsetEnd=213 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=CC]
-[Text=she CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=PRP]
-[Text=says CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=VBZ]
-[Text=she CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=PRP]
-[Text=can CharacterOffsetBegin=231 CharacterOffsetEnd=234 PartOfSpeech=MD]
-[Text=`` CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=``]
-[Text=still CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=RB]
-[Text=feel CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=VB]
-[Text='' CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech='']
-[Text=-- CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=:]
-[Text=physically CharacterOffsetBegin=250 CharacterOffsetEnd=260 PartOfSpeech=RB]
-[Text=-- CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=:]
-[Text=Ramsay CharacterOffsetBegin=263 CharacterOffsetEnd=269 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=POS]
-[Text=assault CharacterOffsetBegin=272 CharacterOffsetEnd=279 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=279 CharacterOffsetEnd=280 PartOfSpeech=.]
+[Text=A CharacterOffsetBegin=68 CharacterOffsetEnd=69 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Redditor CharacterOffsetBegin=70 CharacterOffsetEnd=78 PartOfSpeech=NN Lemma=redditor NamedEntityTag=O]
+[Text=argues CharacterOffsetBegin=79 CharacterOffsetEnd=85 PartOfSpeech=VBZ Lemma=argue NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=91 CharacterOffsetEnd=96 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=ORGANIZATION]
+[Text=dropped CharacterOffsetBegin=97 CharacterOffsetEnd=104 PartOfSpeech=VBD Lemma=drop NamedEntityTag=O]
+[Text=plenty CharacterOffsetBegin=105 CharacterOffsetEnd=111 PartOfSpeech=NN Lemma=plenty NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=pregnancy CharacterOffsetBegin=115 CharacterOffsetEnd=124 PartOfSpeech=NN Lemma=pregnancy NamedEntityTag=O]
+[Text=hints CharacterOffsetBegin=125 CharacterOffsetEnd=130 PartOfSpeech=NNS Lemma=hint NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Episode CharacterOffsetBegin=134 CharacterOffsetEnd=141 PartOfSpeech=NNP Lemma=Episode NamedEntityTag=O]
+[Text=5 CharacterOffsetBegin=142 CharacterOffsetEnd=143 PartOfSpeech=CD Lemma=5 NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0]
+[Text=: CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=She CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=148 CharacterOffsetEnd=150 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=making CharacterOffsetBegin=151 CharacterOffsetEnd=157 PartOfSpeech=VBG Lemma=make NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=158 CharacterOffsetEnd=159 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=new CharacterOffsetBegin=160 CharacterOffsetEnd=163 PartOfSpeech=JJ Lemma=new NamedEntityTag=O]
+[Text=dress CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=NN Lemma=dress NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=169 CharacterOffsetEnd=170 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=171 CharacterOffsetEnd=174 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=ca CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=stomach CharacterOffsetBegin=181 CharacterOffsetEnd=188 PartOfSpeech=VB Lemma=stomach NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=food CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=NN Lemma=food NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=198 CharacterOffsetEnd=200 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=Castle CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=NNP Lemma=Castle NamedEntityTag=ORGANIZATION]
+[Text=Black CharacterOffsetBegin=208 CharacterOffsetEnd=213 PartOfSpeech=NNP Lemma=Black NamedEntityTag=ORGANIZATION]
+[Text=and CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=says CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=231 CharacterOffsetEnd=234 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=still CharacterOffsetBegin=236 CharacterOffsetEnd=241 PartOfSpeech=RB Lemma=still NamedEntityTag=O]
+[Text=feel CharacterOffsetBegin=242 CharacterOffsetEnd=246 PartOfSpeech=VB Lemma=feel NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=248 CharacterOffsetEnd=249 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=physically CharacterOffsetBegin=250 CharacterOffsetEnd=260 PartOfSpeech=RB Lemma=physically NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=261 CharacterOffsetEnd=262 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=Ramsay CharacterOffsetBegin=263 CharacterOffsetEnd=269 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=assault CharacterOffsetBegin=272 CharacterOffsetEnd=279 PartOfSpeech=NN Lemma=assault NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=279 CharacterOffsetEnd=280 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT A) (NN Redditor))
+    (VP (VBZ argues)
+      (NP
+        (SBAR (IN that)
+          (S
+            (S
+              (NP (NNP Sansa))
+              (VP (VBD dropped)
+                (NP
+                  (NP (NN plenty))
+                  (PP (IN of)
+                    (NP (NN pregnancy) (NNS hints))))
+                (PP (IN in)
+                  (NP (NNP Episode) (CD 5)))))
+            (: :)
+            (S
+              (NP (PRP She))
+              (VP (VBZ 's)
+                (VP (VBG making)
+                  (NP (DT a) (JJ new) (NN dress)))))
+            (, ,)
+            (S
+              (NP (PRP she))
+              (VP (MD ca) (RB n't)
+                (VP (VB stomach)
+                  (NP (DT the) (NN food))
+                  (PP (IN at)
+                    (NP (NNP Castle) (NNP Black))))))
+            (CC and)
+            (S
+              (NP (PRP she))
+              (VP (VBZ says)
+                (S
+                  (NP (PRP she))
+                  (VP (MD can) (`` ``)
+                    (ADVP (RB still))
+                    (VP (VB feel) ('' ''))))
+                (: --)
+                (ADVP (RB physically))))))
+        (: --)
+        (NP
+          (NP (NNP Ramsay) (POS 's))
+          (NN assault))))
+    (. .)))
+
+root(ROOT-0, argues-3)
+det(Redditor-2, A-1)
+nsubj(argues-3, Redditor-2)
+mark(dropped-6, that-4)
+nsubj(dropped-6, Sansa-5)
+dep(assault-45, dropped-6)
+det:qmod(hints-10, plenty-7)
+mwe(plenty-7, of-8)
+compound(hints-10, pregnancy-9)
+dobj(dropped-6, hints-10)
+case(Episode-12, in-11)
+nmod:in(dropped-6, Episode-12)
+nummod(Episode-12, 5-13)
+punct(dropped-6, :-14)
+nsubj(making-17, She-15)
+aux(making-17, 's-16)
+conj:and(dropped-6, making-17)
+dep(assault-45, making-17)
+det(dress-20, a-18)
+amod(dress-20, new-19)
+dobj(making-17, dress-20)
+punct(dropped-6, ,-21)
+nsubj(stomach-25, she-22)
+aux(stomach-25, ca-23)
+neg(stomach-25, n't-24)
+conj:and(dropped-6, stomach-25)
+dep(assault-45, stomach-25)
+det(food-27, the-26)
+dobj(stomach-25, food-27)
+case(Black-30, at-28)
+compound(Black-30, Castle-29)
+nmod:at(stomach-25, Black-30)
+cc(dropped-6, and-31)
+nsubj(says-33, she-32)
+conj:and(dropped-6, says-33)
+dep(assault-45, says-33)
+nsubj(feel-38, she-34)
+aux(feel-38, can-35)
+punct(feel-38, ``-36)
+advmod(feel-38, still-37)
+ccomp(says-33, feel-38)
+punct(feel-38, ''-39)
+punct(says-33, ---40)
+advmod(says-33, physically-41)
+punct(assault-45, ---42)
+nmod:poss(assault-45, Ramsay-43)
+case(Ramsay-43, 's-44)
+dobj(argues-3, assault-45)
+punct(argues-3, .-46)
+
 Sentence #3 (5 tokens):
 How likely is it?
-[Text=How CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=WRB]
-[Text=likely CharacterOffsetBegin=286 CharacterOffsetEnd=292 PartOfSpeech=JJ]
-[Text=is CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=VBZ]
-[Text=it CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=PRP]
-[Text=? CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=.]
+[Text=How CharacterOffsetBegin=282 CharacterOffsetEnd=285 PartOfSpeech=WRB Lemma=how NamedEntityTag=O]
+[Text=likely CharacterOffsetBegin=286 CharacterOffsetEnd=292 PartOfSpeech=JJ Lemma=likely NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=293 CharacterOffsetEnd=295 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=298 CharacterOffsetEnd=299 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (SBARQ
+    (WHADJP (WRB How)
+      (ADJP (JJ likely)))
+    (SQ (VBZ is)
+      (NP (PRP it)))
+    (. ?)))
+
+root(ROOT-0, is-3)
+advmod(likely-2, How-1)
+dep(is-3, likely-2)
+nsubj(is-3, it-4)
+punct(is-3, ?-5)
+
 Sentence #4 (14 tokens):
 In the world of the show, this seems like a plausible circumstance.
-[Text=In CharacterOffsetBegin=301 CharacterOffsetEnd=303 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=DT]
-[Text=world CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=314 CharacterOffsetEnd=316 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=DT]
-[Text=show CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=325 CharacterOffsetEnd=326 PartOfSpeech=,]
-[Text=this CharacterOffsetBegin=327 CharacterOffsetEnd=331 PartOfSpeech=DT]
-[Text=seems CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=VBZ]
-[Text=like CharacterOffsetBegin=338 CharacterOffsetEnd=342 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=343 CharacterOffsetEnd=344 PartOfSpeech=DT]
-[Text=plausible CharacterOffsetBegin=345 CharacterOffsetEnd=354 PartOfSpeech=JJ]
-[Text=circumstance CharacterOffsetBegin=355 CharacterOffsetEnd=367 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=.]
+[Text=In CharacterOffsetBegin=301 CharacterOffsetEnd=303 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=world CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=NN Lemma=world NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=314 CharacterOffsetEnd=316 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=317 CharacterOffsetEnd=320 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=show CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=NN Lemma=show NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=325 CharacterOffsetEnd=326 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=327 CharacterOffsetEnd=331 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=seems CharacterOffsetBegin=332 CharacterOffsetEnd=337 PartOfSpeech=VBZ Lemma=seem NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=338 CharacterOffsetEnd=342 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=343 CharacterOffsetEnd=344 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=plausible CharacterOffsetBegin=345 CharacterOffsetEnd=354 PartOfSpeech=JJ Lemma=plausible NamedEntityTag=O]
+[Text=circumstance CharacterOffsetBegin=355 CharacterOffsetEnd=367 PartOfSpeech=NN Lemma=circumstance NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=367 CharacterOffsetEnd=368 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN In)
+      (NP
+        (NP (DT the) (NN world))
+        (PP (IN of)
+          (NP (DT the) (NN show)))))
+    (, ,)
+    (NP (DT this))
+    (VP (VBZ seems)
+      (PP (IN like)
+        (NP (DT a) (JJ plausible) (NN circumstance))))
+    (. .)))
+
+root(ROOT-0, seems-9)
+case(world-3, In-1)
+det(world-3, the-2)
+nmod:in(seems-9, world-3)
+case(show-6, of-4)
+det(show-6, the-5)
+nmod:of(world-3, show-6)
+punct(seems-9, ,-7)
+nsubj(seems-9, this-8)
+case(circumstance-13, like-10)
+det(circumstance-13, a-11)
+amod(circumstance-13, plausible-12)
+nmod:like(seems-9, circumstance-13)
+punct(seems-9, .-14)
+
 Sentence #5 (8 tokens):
 Ramsay wants a Stark heir, right?
-[Text=Ramsay CharacterOffsetBegin=369 CharacterOffsetEnd=375 PartOfSpeech=NNP]
-[Text=wants CharacterOffsetBegin=376 CharacterOffsetEnd=381 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=DT]
-[Text=Stark CharacterOffsetBegin=384 CharacterOffsetEnd=389 PartOfSpeech=NNP]
-[Text=heir CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=394 CharacterOffsetEnd=395 PartOfSpeech=,]
-[Text=right CharacterOffsetBegin=396 CharacterOffsetEnd=401 PartOfSpeech=NN]
-[Text=? CharacterOffsetBegin=401 CharacterOffsetEnd=402 PartOfSpeech=.]
+[Text=Ramsay CharacterOffsetBegin=369 CharacterOffsetEnd=375 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text=wants CharacterOffsetBegin=376 CharacterOffsetEnd=381 PartOfSpeech=VBZ Lemma=want NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=382 CharacterOffsetEnd=383 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Stark CharacterOffsetBegin=384 CharacterOffsetEnd=389 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text=heir CharacterOffsetBegin=390 CharacterOffsetEnd=394 PartOfSpeech=NN Lemma=heir NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=394 CharacterOffsetEnd=395 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=right CharacterOffsetBegin=396 CharacterOffsetEnd=401 PartOfSpeech=NN Lemma=right NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=401 CharacterOffsetEnd=402 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Ramsay))
+    (VP (VBZ wants)
+      (NP
+        (NP (DT a) (NNP Stark) (NN heir))
+        (, ,)
+        (NP (NN right))))
+    (. ?)))
+
+root(ROOT-0, wants-2)
+nsubj(wants-2, Ramsay-1)
+det(heir-5, a-3)
+compound(heir-5, Stark-4)
+dobj(wants-2, heir-5)
+punct(heir-5, ,-6)
+appos(heir-5, right-7)
+punct(wants-2, ?-8)
+
 Sentence #6 (30 tokens):
 But it would be a huge deviation from the books — in those, Ramsay marries Jeyne Poole, a friend of Sansa's from Winterfell masquerading as Arya.
-[Text=But CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=CC]
-[Text=it CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=410 CharacterOffsetEnd=415 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=416 CharacterOffsetEnd=418 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=419 CharacterOffsetEnd=420 PartOfSpeech=DT]
-[Text=huge CharacterOffsetBegin=421 CharacterOffsetEnd=425 PartOfSpeech=JJ]
-[Text=deviation CharacterOffsetBegin=426 CharacterOffsetEnd=435 PartOfSpeech=NN]
-[Text=from CharacterOffsetBegin=436 CharacterOffsetEnd=440 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=DT]
-[Text=books CharacterOffsetBegin=445 CharacterOffsetEnd=450 PartOfSpeech=NNS]
-[Text=-- CharacterOffsetBegin=451 CharacterOffsetEnd=452 PartOfSpeech=:]
-[Text=in CharacterOffsetBegin=453 CharacterOffsetEnd=455 PartOfSpeech=IN]
-[Text=those CharacterOffsetBegin=456 CharacterOffsetEnd=461 PartOfSpeech=DT]
-[Text=, CharacterOffsetBegin=461 CharacterOffsetEnd=462 PartOfSpeech=,]
-[Text=Ramsay CharacterOffsetBegin=463 CharacterOffsetEnd=469 PartOfSpeech=NNP]
-[Text=marries CharacterOffsetBegin=470 CharacterOffsetEnd=477 PartOfSpeech=VBZ]
-[Text=Jeyne CharacterOffsetBegin=478 CharacterOffsetEnd=483 PartOfSpeech=NNP]
-[Text=Poole CharacterOffsetBegin=484 CharacterOffsetEnd=489 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=489 CharacterOffsetEnd=490 PartOfSpeech=,]
-[Text=a CharacterOffsetBegin=491 CharacterOffsetEnd=492 PartOfSpeech=DT]
-[Text=friend CharacterOffsetBegin=493 CharacterOffsetEnd=499 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=500 CharacterOffsetEnd=502 PartOfSpeech=IN]
-[Text=Sansa CharacterOffsetBegin=503 CharacterOffsetEnd=508 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=508 CharacterOffsetEnd=510 PartOfSpeech=POS]
-[Text=from CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=IN]
-[Text=Winterfell CharacterOffsetBegin=516 CharacterOffsetEnd=526 PartOfSpeech=NNP]
-[Text=masquerading CharacterOffsetBegin=527 CharacterOffsetEnd=539 PartOfSpeech=VBG]
-[Text=as CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=IN]
-[Text=Arya CharacterOffsetBegin=543 CharacterOffsetEnd=547 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=.]
+[Text=But CharacterOffsetBegin=403 CharacterOffsetEnd=406 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=407 CharacterOffsetEnd=409 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=410 CharacterOffsetEnd=415 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=416 CharacterOffsetEnd=418 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=419 CharacterOffsetEnd=420 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=huge CharacterOffsetBegin=421 CharacterOffsetEnd=425 PartOfSpeech=JJ Lemma=huge NamedEntityTag=O]
+[Text=deviation CharacterOffsetBegin=426 CharacterOffsetEnd=435 PartOfSpeech=NN Lemma=deviation NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=436 CharacterOffsetEnd=440 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=441 CharacterOffsetEnd=444 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=books CharacterOffsetBegin=445 CharacterOffsetEnd=450 PartOfSpeech=NNS Lemma=book NamedEntityTag=O]
+[Text=-- CharacterOffsetBegin=451 CharacterOffsetEnd=452 PartOfSpeech=: Lemma=-- NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=453 CharacterOffsetEnd=455 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=those CharacterOffsetBegin=456 CharacterOffsetEnd=461 PartOfSpeech=DT Lemma=those NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=461 CharacterOffsetEnd=462 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Ramsay CharacterOffsetBegin=463 CharacterOffsetEnd=469 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text=marries CharacterOffsetBegin=470 CharacterOffsetEnd=477 PartOfSpeech=VBZ Lemma=marry NamedEntityTag=O]
+[Text=Jeyne CharacterOffsetBegin=478 CharacterOffsetEnd=483 PartOfSpeech=NNP Lemma=Jeyne NamedEntityTag=PERSON]
+[Text=Poole CharacterOffsetBegin=484 CharacterOffsetEnd=489 PartOfSpeech=NNP Lemma=Poole NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=489 CharacterOffsetEnd=490 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=491 CharacterOffsetEnd=492 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=friend CharacterOffsetBegin=493 CharacterOffsetEnd=499 PartOfSpeech=NN Lemma=friend NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=500 CharacterOffsetEnd=502 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=503 CharacterOffsetEnd=508 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=508 CharacterOffsetEnd=510 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=Winterfell CharacterOffsetBegin=516 CharacterOffsetEnd=526 PartOfSpeech=NNP Lemma=Winterfell NamedEntityTag=LOCATION]
+[Text=masquerading CharacterOffsetBegin=527 CharacterOffsetEnd=539 PartOfSpeech=VBG Lemma=masquerade NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=540 CharacterOffsetEnd=542 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=543 CharacterOffsetEnd=547 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S (CC But)
+      (NP (PRP it))
+      (VP (MD would)
+        (VP (VB be)
+          (NP
+            (NP (DT a) (JJ huge) (NN deviation))
+            (PP (IN from)
+              (NP (DT the) (NNS books)))))))
+    (: --)
+    (S
+      (PP (IN in)
+        (NP (DT those)))
+      (, ,)
+      (NP (NNP Ramsay))
+      (VP (VBZ marries)
+        (NP
+          (NP (NNP Jeyne) (NNP Poole))
+          (, ,)
+          (NP
+            (NP (DT a) (NN friend))
+            (PP (IN of)
+              (NP (NNP Sansa) (POS 's)))))
+        (PP (IN from)
+          (NP
+            (NP (NNP Winterfell))
+            (VP (VBG masquerading)
+              (PP (IN as)
+                (NP (NNP Arya))))))))
+    (. .)))
+
+root(ROOT-0, deviation-7)
+cc(deviation-7, But-1)
+nsubj(deviation-7, it-2)
+aux(deviation-7, would-3)
+cop(deviation-7, be-4)
+det(deviation-7, a-5)
+amod(deviation-7, huge-6)
+case(books-10, from-8)
+det(books-10, the-9)
+nmod:from(deviation-7, books-10)
+punct(deviation-7, ---11)
+case(those-13, in-12)
+nmod:in(marries-16, those-13)
+punct(marries-16, ,-14)
+nsubj(marries-16, Ramsay-15)
+parataxis(deviation-7, marries-16)
+compound(Poole-18, Jeyne-17)
+dobj(marries-16, Poole-18)
+punct(Poole-18, ,-19)
+det(friend-21, a-20)
+appos(Poole-18, friend-21)
+case(Sansa-23, of-22)
+nmod:'s(friend-21, Sansa-23)
+case(Sansa-23, 's-24)
+case(Winterfell-26, from-25)
+nmod:from(marries-16, Winterfell-26)
+acl(Winterfell-26, masquerading-27)
+case(Arya-29, as-28)
+nmod:as(masquerading-27, Arya-29)
+punct(deviation-7, .-30)
+
 Sentence #7 (7 tokens):
 Ramsay and Sansa never even meet.
-[Text=Ramsay CharacterOffsetBegin=549 CharacterOffsetEnd=555 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=CC]
-[Text=Sansa CharacterOffsetBegin=560 CharacterOffsetEnd=565 PartOfSpeech=NNP]
-[Text=never CharacterOffsetBegin=566 CharacterOffsetEnd=571 PartOfSpeech=RB]
-[Text=even CharacterOffsetBegin=572 CharacterOffsetEnd=576 PartOfSpeech=RB]
-[Text=meet CharacterOffsetBegin=577 CharacterOffsetEnd=581 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=581 CharacterOffsetEnd=582 PartOfSpeech=.]
+[Text=Ramsay CharacterOffsetBegin=549 CharacterOffsetEnd=555 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=556 CharacterOffsetEnd=559 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=560 CharacterOffsetEnd=565 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=PERSON]
+[Text=never CharacterOffsetBegin=566 CharacterOffsetEnd=571 PartOfSpeech=RB Lemma=never NamedEntityTag=O]
+[Text=even CharacterOffsetBegin=572 CharacterOffsetEnd=576 PartOfSpeech=RB Lemma=even NamedEntityTag=O]
+[Text=meet CharacterOffsetBegin=577 CharacterOffsetEnd=581 PartOfSpeech=VB Lemma=meet NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=581 CharacterOffsetEnd=582 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Ramsay)
+      (CC and)
+      (NNP Sansa))
+    (ADVP (RB never) (RB even))
+    (VP (VB meet))
+    (. .)))
+
+root(ROOT-0, meet-6)
+nsubj(meet-6, Ramsay-1)
+cc(Ramsay-1, and-2)
+conj:and(Ramsay-1, Sansa-3)
+nsubj(meet-6, Sansa-3)
+dep(even-5, never-4)
+advmod(meet-6, even-5)
+punct(meet-6, .-7)
+
 Sentence #8 (61 tokens):
 Plus, there are alternate explanations for all the clues above: Sansa wants a new dress to appear noble when she's recruiting northerners for her army, it doesn't seem like anyone is fond of the food at Castle Black and Sansa certainly doesn't need to be pregnant to feel the effects of Ramsay's abuse.
-[Text=Plus CharacterOffsetBegin=583 CharacterOffsetEnd=587 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=587 CharacterOffsetEnd=588 PartOfSpeech=,]
-[Text=there CharacterOffsetBegin=589 CharacterOffsetEnd=594 PartOfSpeech=EX]
-[Text=are CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=VBP]
-[Text=alternate CharacterOffsetBegin=599 CharacterOffsetEnd=608 PartOfSpeech=JJ]
-[Text=explanations CharacterOffsetBegin=609 CharacterOffsetEnd=621 PartOfSpeech=NNS]
-[Text=for CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=IN]
-[Text=all CharacterOffsetBegin=626 CharacterOffsetEnd=629 PartOfSpeech=PDT]
-[Text=the CharacterOffsetBegin=630 CharacterOffsetEnd=633 PartOfSpeech=DT]
-[Text=clues CharacterOffsetBegin=634 CharacterOffsetEnd=639 PartOfSpeech=NNS]
-[Text=above CharacterOffsetBegin=640 CharacterOffsetEnd=645 PartOfSpeech=IN]
-[Text=: CharacterOffsetBegin=645 CharacterOffsetEnd=646 PartOfSpeech=:]
-[Text=Sansa CharacterOffsetBegin=647 CharacterOffsetEnd=652 PartOfSpeech=NNP]
-[Text=wants CharacterOffsetBegin=653 CharacterOffsetEnd=658 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=659 CharacterOffsetEnd=660 PartOfSpeech=DT]
-[Text=new CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=JJ]
-[Text=dress CharacterOffsetBegin=665 CharacterOffsetEnd=670 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=671 CharacterOffsetEnd=673 PartOfSpeech=TO]
-[Text=appear CharacterOffsetBegin=674 CharacterOffsetEnd=680 PartOfSpeech=VB]
-[Text=noble CharacterOffsetBegin=681 CharacterOffsetEnd=686 PartOfSpeech=JJ]
-[Text=when CharacterOffsetBegin=687 CharacterOffsetEnd=691 PartOfSpeech=WRB]
-[Text=she CharacterOffsetBegin=692 CharacterOffsetEnd=695 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=695 CharacterOffsetEnd=697 PartOfSpeech=VBZ]
-[Text=recruiting CharacterOffsetBegin=698 CharacterOffsetEnd=708 PartOfSpeech=VBG]
-[Text=northerners CharacterOffsetBegin=709 CharacterOffsetEnd=720 PartOfSpeech=NNS]
-[Text=for CharacterOffsetBegin=721 CharacterOffsetEnd=724 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=725 CharacterOffsetEnd=728 PartOfSpeech=PRP$]
-[Text=army CharacterOffsetBegin=729 CharacterOffsetEnd=733 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=733 CharacterOffsetEnd=734 PartOfSpeech=,]
-[Text=it CharacterOffsetBegin=735 CharacterOffsetEnd=737 PartOfSpeech=PRP]
-[Text=does CharacterOffsetBegin=738 CharacterOffsetEnd=742 PartOfSpeech=VBZ]
-[Text=n't CharacterOffsetBegin=742 CharacterOffsetEnd=745 PartOfSpeech=RB]
-[Text=seem CharacterOffsetBegin=746 CharacterOffsetEnd=750 PartOfSpeech=VB]
-[Text=like CharacterOffsetBegin=751 CharacterOffsetEnd=755 PartOfSpeech=IN]
-[Text=anyone CharacterOffsetBegin=756 CharacterOffsetEnd=762 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=763 CharacterOffsetEnd=765 PartOfSpeech=VBZ]
-[Text=fond CharacterOffsetBegin=766 CharacterOffsetEnd=770 PartOfSpeech=JJ]
-[Text=of CharacterOffsetBegin=771 CharacterOffsetEnd=773 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=774 CharacterOffsetEnd=777 PartOfSpeech=DT]
-[Text=food CharacterOffsetBegin=778 CharacterOffsetEnd=782 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=783 CharacterOffsetEnd=785 PartOfSpeech=IN]
-[Text=Castle CharacterOffsetBegin=786 CharacterOffsetEnd=792 PartOfSpeech=NNP]
-[Text=Black CharacterOffsetBegin=793 CharacterOffsetEnd=798 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=799 CharacterOffsetEnd=802 PartOfSpeech=CC]
-[Text=Sansa CharacterOffsetBegin=803 CharacterOffsetEnd=808 PartOfSpeech=NNP]
-[Text=certainly CharacterOffsetBegin=809 CharacterOffsetEnd=818 PartOfSpeech=RB]
-[Text=does CharacterOffsetBegin=819 CharacterOffsetEnd=823 PartOfSpeech=VBZ]
-[Text=n't CharacterOffsetBegin=823 CharacterOffsetEnd=826 PartOfSpeech=RB]
-[Text=need CharacterOffsetBegin=827 CharacterOffsetEnd=831 PartOfSpeech=VB]
-[Text=to CharacterOffsetBegin=832 CharacterOffsetEnd=834 PartOfSpeech=TO]
-[Text=be CharacterOffsetBegin=835 CharacterOffsetEnd=837 PartOfSpeech=VB]
-[Text=pregnant CharacterOffsetBegin=838 CharacterOffsetEnd=846 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=847 CharacterOffsetEnd=849 PartOfSpeech=TO]
-[Text=feel CharacterOffsetBegin=850 CharacterOffsetEnd=854 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=855 CharacterOffsetEnd=858 PartOfSpeech=DT]
-[Text=effects CharacterOffsetBegin=859 CharacterOffsetEnd=866 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=867 CharacterOffsetEnd=869 PartOfSpeech=IN]
-[Text=Ramsay CharacterOffsetBegin=870 CharacterOffsetEnd=876 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=876 CharacterOffsetEnd=878 PartOfSpeech=POS]
-[Text=abuse CharacterOffsetBegin=879 CharacterOffsetEnd=884 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=884 CharacterOffsetEnd=885 PartOfSpeech=.]
+[Text=Plus CharacterOffsetBegin=583 CharacterOffsetEnd=587 PartOfSpeech=NN Lemma=plus NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=587 CharacterOffsetEnd=588 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=there CharacterOffsetBegin=589 CharacterOffsetEnd=594 PartOfSpeech=EX Lemma=there NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=595 CharacterOffsetEnd=598 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=alternate CharacterOffsetBegin=599 CharacterOffsetEnd=608 PartOfSpeech=JJ Lemma=alternate NamedEntityTag=O]
+[Text=explanations CharacterOffsetBegin=609 CharacterOffsetEnd=621 PartOfSpeech=NNS Lemma=explanation NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=622 CharacterOffsetEnd=625 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=626 CharacterOffsetEnd=629 PartOfSpeech=PDT Lemma=all NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=630 CharacterOffsetEnd=633 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=clues CharacterOffsetBegin=634 CharacterOffsetEnd=639 PartOfSpeech=NNS Lemma=clue NamedEntityTag=O]
+[Text=above CharacterOffsetBegin=640 CharacterOffsetEnd=645 PartOfSpeech=IN Lemma=above NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=645 CharacterOffsetEnd=646 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=647 CharacterOffsetEnd=652 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=ORGANIZATION]
+[Text=wants CharacterOffsetBegin=653 CharacterOffsetEnd=658 PartOfSpeech=VBZ Lemma=want NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=659 CharacterOffsetEnd=660 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=new CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=JJ Lemma=new NamedEntityTag=O]
+[Text=dress CharacterOffsetBegin=665 CharacterOffsetEnd=670 PartOfSpeech=NN Lemma=dress NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=671 CharacterOffsetEnd=673 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=appear CharacterOffsetBegin=674 CharacterOffsetEnd=680 PartOfSpeech=VB Lemma=appear NamedEntityTag=O]
+[Text=noble CharacterOffsetBegin=681 CharacterOffsetEnd=686 PartOfSpeech=JJ Lemma=noble NamedEntityTag=O]
+[Text=when CharacterOffsetBegin=687 CharacterOffsetEnd=691 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=692 CharacterOffsetEnd=695 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=695 CharacterOffsetEnd=697 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=recruiting CharacterOffsetBegin=698 CharacterOffsetEnd=708 PartOfSpeech=VBG Lemma=recruit NamedEntityTag=O]
+[Text=northerners CharacterOffsetBegin=709 CharacterOffsetEnd=720 PartOfSpeech=NNS Lemma=northerner NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=721 CharacterOffsetEnd=724 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=725 CharacterOffsetEnd=728 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=army CharacterOffsetBegin=729 CharacterOffsetEnd=733 PartOfSpeech=NN Lemma=army NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=733 CharacterOffsetEnd=734 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=735 CharacterOffsetEnd=737 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=does CharacterOffsetBegin=738 CharacterOffsetEnd=742 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=742 CharacterOffsetEnd=745 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=seem CharacterOffsetBegin=746 CharacterOffsetEnd=750 PartOfSpeech=VB Lemma=seem NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=751 CharacterOffsetEnd=755 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=anyone CharacterOffsetBegin=756 CharacterOffsetEnd=762 PartOfSpeech=NN Lemma=anyone NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=763 CharacterOffsetEnd=765 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=fond CharacterOffsetBegin=766 CharacterOffsetEnd=770 PartOfSpeech=JJ Lemma=fond NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=771 CharacterOffsetEnd=773 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=774 CharacterOffsetEnd=777 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=food CharacterOffsetBegin=778 CharacterOffsetEnd=782 PartOfSpeech=NN Lemma=food NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=783 CharacterOffsetEnd=785 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=Castle CharacterOffsetBegin=786 CharacterOffsetEnd=792 PartOfSpeech=NNP Lemma=Castle NamedEntityTag=ORGANIZATION]
+[Text=Black CharacterOffsetBegin=793 CharacterOffsetEnd=798 PartOfSpeech=NNP Lemma=Black NamedEntityTag=ORGANIZATION]
+[Text=and CharacterOffsetBegin=799 CharacterOffsetEnd=802 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=803 CharacterOffsetEnd=808 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=O]
+[Text=certainly CharacterOffsetBegin=809 CharacterOffsetEnd=818 PartOfSpeech=RB Lemma=certainly NamedEntityTag=O]
+[Text=does CharacterOffsetBegin=819 CharacterOffsetEnd=823 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=823 CharacterOffsetEnd=826 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=need CharacterOffsetBegin=827 CharacterOffsetEnd=831 PartOfSpeech=VB Lemma=need NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=832 CharacterOffsetEnd=834 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=835 CharacterOffsetEnd=837 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=pregnant CharacterOffsetBegin=838 CharacterOffsetEnd=846 PartOfSpeech=JJ Lemma=pregnant NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=847 CharacterOffsetEnd=849 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=feel CharacterOffsetBegin=850 CharacterOffsetEnd=854 PartOfSpeech=VB Lemma=feel NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=855 CharacterOffsetEnd=858 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=effects CharacterOffsetBegin=859 CharacterOffsetEnd=866 PartOfSpeech=NNS Lemma=effect NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=867 CharacterOffsetEnd=869 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Ramsay CharacterOffsetBegin=870 CharacterOffsetEnd=876 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=876 CharacterOffsetEnd=878 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=abuse CharacterOffsetBegin=879 CharacterOffsetEnd=884 PartOfSpeech=NN Lemma=abuse NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=884 CharacterOffsetEnd=885 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (S
+        (ADJP (NN Plus)))
+      (, ,)
+      (NP (EX there))
+      (VP (VBP are)
+        (NP
+          (NP (JJ alternate) (NNS explanations))
+          (PP (IN for)
+            (NP (PDT all) (DT the) (NNS clues))))
+        (ADVP (IN above))))
+    (: :)
+    (S
+      (NP (NNP Sansa))
+      (VP (VBZ wants)
+        (NP (DT a) (JJ new) (NN dress)
+          (S
+            (VP (TO to)
+              (VP (VB appear)
+                (ADJP (JJ noble))
+                (SBAR
+                  (WHADVP (WRB when))
+                  (S
+                    (NP (PRP she))
+                    (VP (VBZ 's)
+                      (VP (VBG recruiting)
+                        (NP
+                          (NP (NNS northerners))
+                          (PP (IN for)
+                            (NP (PRP$ her) (NN army))))))))))))))
+    (, ,)
+    (S
+      (NP (PRP it))
+      (VP (VBZ does) (RB n't)
+        (VP (VB seem)
+          (SBAR (IN like)
+            (S
+              (NP (NN anyone))
+              (VP (VBZ is)
+                (ADJP (JJ fond)
+                  (PP (IN of)
+                    (NP
+                      (NP (DT the) (NN food))
+                      (PP (IN at)
+                        (NP (NNP Castle) (NNP Black))))))))))))
+    (CC and)
+    (S
+      (NP (NNP Sansa))
+      (ADVP (RB certainly))
+      (VP (VBZ does) (RB n't)
+        (VP (VB need)
+          (S
+            (VP (TO to)
+              (VP (VB be)
+                (ADJP (JJ pregnant)
+                  (S
+                    (VP (TO to)
+                      (VP (VB feel)
+                        (NP
+                          (NP (DT the) (NNS effects))
+                          (PP (IN of)
+                            (NP
+                              (NP (NNP Ramsay) (POS 's))
+                              (NN abuse))))))))))))))
+    (. .)))
+
+root(ROOT-0, are-4)
+ccomp(are-4, Plus-1)
+punct(are-4, ,-2)
+expl(are-4, there-3)
+amod(explanations-6, alternate-5)
+nsubj(are-4, explanations-6)
+case(clues-10, for-7)
+det:predet(clues-10, all-8)
+det(clues-10, the-9)
+nmod:for(explanations-6, clues-10)
+advmod(are-4, above-11)
+punct(are-4, :-12)
+nsubj(wants-14, Sansa-13)
+conj:and(are-4, wants-14)
+det(dress-17, a-15)
+amod(dress-17, new-16)
+dobj(wants-14, dress-17)
+mark(appear-19, to-18)
+acl:to(dress-17, appear-19)
+xcomp(appear-19, noble-20)
+advmod(recruiting-24, when-21)
+nsubj(recruiting-24, she-22)
+aux(recruiting-24, 's-23)
+advcl(appear-19, recruiting-24)
+dobj(recruiting-24, northerners-25)
+case(army-28, for-26)
+nmod:poss(army-28, her-27)
+nmod:for(northerners-25, army-28)
+punct(are-4, ,-29)
+nsubj(seem-33, it-30)
+aux(seem-33, does-31)
+neg(seem-33, n't-32)
+conj:and(are-4, seem-33)
+mark(fond-37, like-34)
+nsubj(fond-37, anyone-35)
+cop(fond-37, is-36)
+advcl:like(seem-33, fond-37)
+case(food-40, of-38)
+det(food-40, the-39)
+nmod:of(fond-37, food-40)
+case(Black-43, at-41)
+compound(Black-43, Castle-42)
+nmod:at(food-40, Black-43)
+cc(are-4, and-44)
+nsubj(need-49, Sansa-45)
+nsubj:xsubj(pregnant-52, Sansa-45)
+advmod(need-49, certainly-46)
+aux(need-49, does-47)
+neg(need-49, n't-48)
+conj:and(are-4, need-49)
+mark(pregnant-52, to-50)
+cop(pregnant-52, be-51)
+xcomp(need-49, pregnant-52)
+mark(feel-54, to-53)
+xcomp(pregnant-52, feel-54)
+det(effects-56, the-55)
+dobj(feel-54, effects-56)
+case(abuse-60, of-57)
+nmod:poss(abuse-60, Ramsay-58)
+case(Ramsay-58, 's-59)
+nmod:of(effects-56, abuse-60)
+punct(are-4, .-61)
+
+Coreference set:
+	(2,43,[43,45]) -> (1,10,[9,12]), that is: "Ramsay 's" -> "Ramsay Bolton 's"
+	(5,1,[1,2]) -> (1,10,[9,12]), that is: "Ramsay" -> "Ramsay Bolton 's"
+	(6,15,[15,16]) -> (1,10,[9,12]), that is: "Ramsay" -> "Ramsay Bolton 's"
+	(7,1,[1,2]) -> (1,10,[9,12]), that is: "Ramsay" -> "Ramsay Bolton 's"
+	(8,58,[58,60]) -> (1,10,[9,12]), that is: "Ramsay 's" -> "Ramsay Bolton 's"
+Coreference set:
+	(2,15,[15,16]) -> (2,5,[5,6]), that is: "She" -> "Sansa"
+	(2,22,[22,23]) -> (2,5,[5,6]), that is: "she" -> "Sansa"
+	(2,32,[32,33]) -> (2,5,[5,6]), that is: "she" -> "Sansa"
+	(2,34,[34,35]) -> (2,5,[5,6]), that is: "she" -> "Sansa"
+	(6,23,[23,25]) -> (2,5,[5,6]), that is: "Sansa 's" -> "Sansa"
+	(7,3,[3,4]) -> (2,5,[5,6]), that is: "Sansa" -> "Sansa"
+	(8,13,[13,14]) -> (2,5,[5,6]), that is: "Sansa" -> "Sansa"
+	(8,22,[22,23]) -> (2,5,[5,6]), that is: "she" -> "Sansa"
+	(8,27,[27,28]) -> (2,5,[5,6]), that is: "her" -> "Sansa"
+	(8,45,[45,46]) -> (2,5,[5,6]), that is: "Sansa" -> "Sansa"
+Coreference set:
+	(8,43,[42,44]) -> (2,30,[29,31]), that is: "Castle Black" -> "Castle Black"
+Coreference set:
+	(3,4,[4,5]) -> (2,2,[1,3]), that is: "it" -> "A Redditor"
+Coreference set:
+	(4,3,[2,7]) -> (6,7,[5,11]), that is: "the world of the show" -> "a huge deviation from the books"
+	(6,2,[2,3]) -> (6,7,[5,11]), that is: "it" -> "a huge deviation from the books"
+Coreference set:
+	(6,21,[20,25]) -> (6,18,[17,19]), that is: "a friend of Sansa 's" -> "Jeyne Poole"
+Coreference set:
+	(8,30,[30,31]) -> (8,17,[15,29]), that is: "it" -> "a new dress to appear noble when she 's recruiting northerners for her army"

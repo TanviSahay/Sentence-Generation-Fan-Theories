@@ -1,144 +1,459 @@
 Sentence #1 (5 tokens):
 JON WILL KILL DAENERYS.
-[Text=JON CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
-[Text=WILL CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=MD]
-[Text=KILL CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=VB]
-[Text=DAENERYS CharacterOffsetBegin=14 CharacterOffsetEnd=22 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=.]
+[Text=JON CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=JON NamedEntityTag=O]
+[Text=WILL CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=KILL CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=VB Lemma=kill NamedEntityTag=O]
+[Text=DAENERYS CharacterOffsetBegin=14 CharacterOffsetEnd=22 PartOfSpeech=NNS Lemma=daenery NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=22 CharacterOffsetEnd=23 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP JON))
+    (VP (MD WILL)
+      (VP (VB KILL)
+        (NP (NNS DAENERYS))))
+    (. .)))
+
+root(ROOT-0, KILL-3)
+nsubj(KILL-3, JON-1)
+aux(KILL-3, WILL-2)
+dobj(KILL-3, DAENERYS-4)
+punct(KILL-3, .-5)
+
 Sentence #2 (45 tokens):
 If Jon is the "Prince who was promised", he has to have the legendary sword  Lightbringer, which will only come about if it's quenched in "living fire" (specifically, the heart of a loved one).
-[Text=If CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=IN]
-[Text=Jon CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=DT]
-[Text=`` CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=``]
-[Text=Prince CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=NNP]
-[Text=who CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=WP]
-[Text=was CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=VBD]
-[Text=promised CharacterOffsetBegin=54 CharacterOffsetEnd=62 PartOfSpeech=VBN]
-[Text='' CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech='']
-[Text=, CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=,]
-[Text=he CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=PRP]
-[Text=has CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=TO]
-[Text=have CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=DT]
-[Text=legendary CharacterOffsetBegin=84 CharacterOffsetEnd=93 PartOfSpeech=JJ]
-[Text=sword CharacterOffsetBegin=94 CharacterOffsetEnd=99 PartOfSpeech=NN]
-[Text=Lightbringer CharacterOffsetBegin=101 CharacterOffsetEnd=113 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=,]
-[Text=which CharacterOffsetBegin=115 CharacterOffsetEnd=120 PartOfSpeech=WDT]
-[Text=will CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=MD]
-[Text=only CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=RB]
-[Text=come CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=VB]
-[Text=about CharacterOffsetBegin=136 CharacterOffsetEnd=141 PartOfSpeech=RB]
-[Text=if CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=VBZ]
-[Text=quenched CharacterOffsetBegin=150 CharacterOffsetEnd=158 PartOfSpeech=VBN]
-[Text=in CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=IN]
-[Text=`` CharacterOffsetBegin=162 CharacterOffsetEnd=163 PartOfSpeech=``]
-[Text=living CharacterOffsetBegin=163 CharacterOffsetEnd=169 PartOfSpeech=VBG]
-[Text=fire CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=NN]
-[Text='' CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech='']
-[Text=-LRB- CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=-LRB-]
-[Text=specifically CharacterOffsetBegin=177 CharacterOffsetEnd=189 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=DT]
-[Text=heart CharacterOffsetBegin=195 CharacterOffsetEnd=200 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=DT]
-[Text=loved CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=VBN]
-[Text=one CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=CD]
-[Text=-RRB- CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=-RRB-]
-[Text=. CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=.]
+[Text=If CharacterOffsetBegin=24 CharacterOffsetEnd=26 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=31 CharacterOffsetEnd=33 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=38 CharacterOffsetEnd=39 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=Prince CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=NNP Lemma=Prince NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=50 CharacterOffsetEnd=53 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=promised CharacterOffsetBegin=54 CharacterOffsetEnd=62 PartOfSpeech=VBN Lemma=promise NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=62 CharacterOffsetEnd=63 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=63 CharacterOffsetEnd=64 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=65 CharacterOffsetEnd=67 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=68 CharacterOffsetEnd=71 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=72 CharacterOffsetEnd=74 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=legendary CharacterOffsetBegin=84 CharacterOffsetEnd=93 PartOfSpeech=JJ Lemma=legendary NamedEntityTag=O]
+[Text=sword CharacterOffsetBegin=94 CharacterOffsetEnd=99 PartOfSpeech=NN Lemma=sword NamedEntityTag=O]
+[Text=Lightbringer CharacterOffsetBegin=101 CharacterOffsetEnd=113 PartOfSpeech=NNP Lemma=Lightbringer NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=113 CharacterOffsetEnd=114 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=115 CharacterOffsetEnd=120 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=121 CharacterOffsetEnd=125 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=only CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=RB Lemma=only NamedEntityTag=O]
+[Text=come CharacterOffsetBegin=131 CharacterOffsetEnd=135 PartOfSpeech=VB Lemma=come NamedEntityTag=O]
+[Text=about CharacterOffsetBegin=136 CharacterOffsetEnd=141 PartOfSpeech=RB Lemma=about NamedEntityTag=O]
+[Text=if CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=145 CharacterOffsetEnd=147 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=147 CharacterOffsetEnd=149 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=quenched CharacterOffsetBegin=150 CharacterOffsetEnd=158 PartOfSpeech=VBN Lemma=quench NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=159 CharacterOffsetEnd=161 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=162 CharacterOffsetEnd=163 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=living CharacterOffsetBegin=163 CharacterOffsetEnd=169 PartOfSpeech=VBG Lemma=live NamedEntityTag=O]
+[Text=fire CharacterOffsetBegin=170 CharacterOffsetEnd=174 PartOfSpeech=NN Lemma=fire NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=174 CharacterOffsetEnd=175 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=176 CharacterOffsetEnd=177 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=specifically CharacterOffsetBegin=177 CharacterOffsetEnd=189 PartOfSpeech=RB Lemma=specifically NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=189 CharacterOffsetEnd=190 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=heart CharacterOffsetBegin=195 CharacterOffsetEnd=200 PartOfSpeech=NN Lemma=heart NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=201 CharacterOffsetEnd=203 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=204 CharacterOffsetEnd=205 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=loved CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=VBN Lemma=love NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=-RRB- CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (NNP Jon))
+        (VP (VBZ is)
+          (NP
+            (NP (DT the) (`` ``) (NNP Prince))
+            (SBAR
+              (WHNP (WP who))
+              (S
+                (VP (VBD was)
+                  (VP (VBN promised) ('' '')))))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBZ has)
+      (S
+        (VP (TO to)
+          (VP (VB have)
+            (NP
+              (NP
+                (NP (DT the) (JJ legendary) (NN sword) (NNP Lightbringer))
+                (, ,)
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (MD will)
+                      (ADVP (RB only))
+                      (VP (VB come)
+                        (ADVP (RB about))
+                        (SBAR (IN if)
+                          (S
+                            (NP (PRP it))
+                            (VP (VBZ 's)
+                              (VP (VBN quenched)
+                                (PP (IN in) (`` ``)
+                                  (S
+                                    (VP (VBG living)
+                                      (NP (NN fire) ('' ''))))))))))))))
+              (PRN (-LRB- -LRB-)
+                (NP
+                  (NP (RB specifically))
+                  (, ,)
+                  (NP
+                    (NP (DT the) (NN heart))
+                    (PP (IN of)
+                      (NP (DT a)
+                        (ADJP (VBN loved))
+                        (CD one)))))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+root(ROOT-0, has-13)
+mark(Prince-6, If-1)
+nsubj(Prince-6, Jon-2)
+cop(Prince-6, is-3)
+det(Prince-6, the-4)
+punct(Prince-6, ``-5)
+nsubjpass(promised-9, Prince-6)
+advcl:if(has-13, Prince-6)
+ref(Prince-6, who-7)
+auxpass(promised-9, was-8)
+acl:relcl(Prince-6, promised-9)
+punct(promised-9, ''-10)
+punct(has-13, ,-11)
+nsubj(has-13, he-12)
+nsubj:xsubj(have-15, he-12)
+mark(have-15, to-14)
+xcomp(has-13, have-15)
+det(Lightbringer-19, the-16)
+amod(Lightbringer-19, legendary-17)
+compound(Lightbringer-19, sword-18)
+dobj(have-15, Lightbringer-19)
+nsubj(come-24, Lightbringer-19)
+punct(Lightbringer-19, ,-20)
+ref(Lightbringer-19, which-21)
+aux(come-24, will-22)
+advmod(come-24, only-23)
+acl:relcl(Lightbringer-19, come-24)
+advmod(come-24, about-25)
+mark(quenched-29, if-26)
+nsubjpass(quenched-29, it-27)
+auxpass(quenched-29, 's-28)
+advcl:if(come-24, quenched-29)
+case(living-32, in-30)
+punct(living-32, ``-31)
+advcl:in(quenched-29, living-32)
+dobj(living-32, fire-33)
+punct(fire-33, ''-34)
+punct(specifically-36, -LRB--35)
+dep(Lightbringer-19, specifically-36)
+punct(specifically-36, ,-37)
+det(heart-39, the-38)
+appos(specifically-36, heart-39)
+case(one-43, of-40)
+det(one-43, a-41)
+amod(one-43, loved-42)
+nmod:of(heart-39, one-43)
+punct(specifically-36, -RRB--44)
+punct(has-13, .-45)
+
 Sentence #3 (30 tokens):
 Azor Ahai, the ancient legendary figure of the Red Priests' religion, did just this by plunging it in the heart of his (willing) wife.
-[Text=Azor CharacterOffsetBegin=219 CharacterOffsetEnd=223 PartOfSpeech=NNP]
-[Text=Ahai CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=DT]
-[Text=ancient CharacterOffsetBegin=234 CharacterOffsetEnd=241 PartOfSpeech=JJ]
-[Text=legendary CharacterOffsetBegin=242 CharacterOffsetEnd=251 PartOfSpeech=JJ]
-[Text=figure CharacterOffsetBegin=252 CharacterOffsetEnd=258 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=DT]
-[Text=Red CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=NNP]
-[Text=Priests CharacterOffsetBegin=270 CharacterOffsetEnd=277 PartOfSpeech=NNPS]
-[Text=' CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=POS]
-[Text=religion CharacterOffsetBegin=279 CharacterOffsetEnd=287 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=,]
-[Text=did CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=VBD]
-[Text=just CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=RB]
-[Text=this CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=DT]
-[Text=by CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=IN]
-[Text=plunging CharacterOffsetBegin=306 CharacterOffsetEnd=314 PartOfSpeech=VBG]
-[Text=it CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=PRP]
-[Text=in CharacterOffsetBegin=318 CharacterOffsetEnd=320 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=DT]
-[Text=heart CharacterOffsetBegin=325 CharacterOffsetEnd=330 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=PRP$]
-[Text=-LRB- CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=-LRB-]
-[Text=willing CharacterOffsetBegin=339 CharacterOffsetEnd=346 PartOfSpeech=JJ]
-[Text=-RRB- CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=-RRB-]
-[Text=wife CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=.]
+[Text=Azor CharacterOffsetBegin=219 CharacterOffsetEnd=223 PartOfSpeech=NNP Lemma=Azor NamedEntityTag=PERSON]
+[Text=Ahai CharacterOffsetBegin=224 CharacterOffsetEnd=228 PartOfSpeech=NNP Lemma=Ahai NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=228 CharacterOffsetEnd=229 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=ancient CharacterOffsetBegin=234 CharacterOffsetEnd=241 PartOfSpeech=JJ Lemma=ancient NamedEntityTag=O]
+[Text=legendary CharacterOffsetBegin=242 CharacterOffsetEnd=251 PartOfSpeech=JJ Lemma=legendary NamedEntityTag=O]
+[Text=figure CharacterOffsetBegin=252 CharacterOffsetEnd=258 PartOfSpeech=NN Lemma=figure NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=259 CharacterOffsetEnd=261 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=262 CharacterOffsetEnd=265 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Red CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=NNP Lemma=Red NamedEntityTag=MISC]
+[Text=Priests CharacterOffsetBegin=270 CharacterOffsetEnd=277 PartOfSpeech=NNPS Lemma=Priests NamedEntityTag=MISC]
+[Text=' CharacterOffsetBegin=277 CharacterOffsetEnd=278 PartOfSpeech=POS Lemma=' NamedEntityTag=O]
+[Text=religion CharacterOffsetBegin=279 CharacterOffsetEnd=287 PartOfSpeech=NN Lemma=religion NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=just CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=298 CharacterOffsetEnd=302 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=303 CharacterOffsetEnd=305 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=plunging CharacterOffsetBegin=306 CharacterOffsetEnd=314 PartOfSpeech=VBG Lemma=plunge NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=315 CharacterOffsetEnd=317 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=318 CharacterOffsetEnd=320 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=heart CharacterOffsetBegin=325 CharacterOffsetEnd=330 PartOfSpeech=NN Lemma=heart NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=331 CharacterOffsetEnd=333 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=334 CharacterOffsetEnd=337 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=338 CharacterOffsetEnd=339 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=willing CharacterOffsetBegin=339 CharacterOffsetEnd=346 PartOfSpeech=JJ Lemma=willing NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=346 CharacterOffsetEnd=347 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=wife CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=NN Lemma=wife NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=352 CharacterOffsetEnd=353 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (NNP Azor) (NNP Ahai))
+      (, ,)
+      (NP
+        (NP (DT the) (JJ ancient) (JJ legendary) (NN figure))
+        (PP (IN of)
+          (NP
+            (NP (DT the) (NNP Red) (NNPS Priests) (POS '))
+            (NN religion))))
+      (, ,))
+    (VP (VBD did)
+      (NP (RB just) (DT this))
+      (PP (IN by)
+        (S
+          (VP (VBG plunging)
+            (NP (PRP it))
+            (PP (IN in)
+              (NP
+                (NP
+                  (NP (DT the) (NN heart))
+                  (PP (IN of)
+                    (NP
+                      (NP (PRP$ his))
+                      (PRN (-LRB- -LRB-)
+                        (ADJP (JJ willing))
+                        (-RRB- -RRB-)))))
+                (NN wife)))))))
+    (. .)))
+
+root(ROOT-0, did-15)
+compound(Ahai-2, Azor-1)
+nsubj(did-15, Ahai-2)
+punct(Ahai-2, ,-3)
+det(figure-7, the-4)
+amod(figure-7, ancient-5)
+amod(figure-7, legendary-6)
+appos(Ahai-2, figure-7)
+case(religion-13, of-8)
+det(Priests-11, the-9)
+compound(Priests-11, Red-10)
+nmod:poss(religion-13, Priests-11)
+case(Priests-11, '-12)
+nmod:of(figure-7, religion-13)
+punct(Ahai-2, ,-14)
+advmod(this-17, just-16)
+dobj(did-15, this-17)
+mark(plunging-19, by-18)
+advcl:by(did-15, plunging-19)
+dobj(plunging-19, it-20)
+case(wife-29, in-21)
+det(heart-23, the-22)
+compound(wife-29, heart-23)
+case(his-25, of-24)
+nmod:of(heart-23, his-25)
+punct(willing-27, -LRB--26)
+dep(his-25, willing-27)
+punct(willing-27, -RRB--28)
+nmod:in(plunging-19, wife-29)
+punct(did-15, .-30)
+
 Sentence #4 (12 tokens):
 So, he may have to sacrifice Dany to do it.
-[Text=So CharacterOffsetBegin=354 CharacterOffsetEnd=356 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=356 CharacterOffsetEnd=357 PartOfSpeech=,]
-[Text=he CharacterOffsetBegin=358 CharacterOffsetEnd=360 PartOfSpeech=PRP]
-[Text=may CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=MD]
-[Text=have CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=VB]
-[Text=to CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=TO]
-[Text=sacrifice CharacterOffsetBegin=373 CharacterOffsetEnd=382 PartOfSpeech=VB]
-[Text=Dany CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=TO]
-[Text=do CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=VB]
-[Text=it CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=.]
+[Text=So CharacterOffsetBegin=354 CharacterOffsetEnd=356 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=356 CharacterOffsetEnd=357 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=358 CharacterOffsetEnd=360 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=may CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=MD Lemma=may NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=sacrifice CharacterOffsetBegin=373 CharacterOffsetEnd=382 PartOfSpeech=VB Lemma=sacrifice NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=to CharacterOffsetBegin=388 CharacterOffsetEnd=390 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=VB Lemma=do NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=394 CharacterOffsetEnd=396 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=396 CharacterOffsetEnd=397 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB So))
+    (, ,)
+    (NP (PRP he))
+    (VP (MD may)
+      (VP (VB have)
+        (S
+          (VP (TO to)
+            (VP (VB sacrifice)
+              (S
+                (NP (NNP Dany))
+                (VP (TO to)
+                  (VP (VB do)
+                    (NP (PRP it))))))))))
+    (. .)))
+
+root(ROOT-0, have-5)
+advmod(have-5, So-1)
+punct(have-5, ,-2)
+nsubj(have-5, he-3)
+nsubj:xsubj(sacrifice-7, he-3)
+aux(have-5, may-4)
+mark(sacrifice-7, to-6)
+xcomp(have-5, sacrifice-7)
+dobj(sacrifice-7, Dany-8)
+nsubj:xsubj(do-10, Dany-8)
+mark(do-10, to-9)
+xcomp(sacrifice-7, do-10)
+dobj(do-10, it-11)
+punct(have-5, .-12)
+
 Sentence #5 (31 tokens):
 Stannis thought he had made the real Lightbringer, but Maester Aemon made it clear that this wasn't the case, as the sword was not radiating any heat.
-[Text=Stannis CharacterOffsetBegin=399 CharacterOffsetEnd=406 PartOfSpeech=NNP]
-[Text=thought CharacterOffsetBegin=407 CharacterOffsetEnd=414 PartOfSpeech=VBD]
-[Text=he CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=PRP]
-[Text=had CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=VBD]
-[Text=made CharacterOffsetBegin=422 CharacterOffsetEnd=426 PartOfSpeech=VBN]
-[Text=the CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=DT]
-[Text=real CharacterOffsetBegin=431 CharacterOffsetEnd=435 PartOfSpeech=JJ]
-[Text=Lightbringer CharacterOffsetBegin=436 CharacterOffsetEnd=448 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=448 CharacterOffsetEnd=449 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=CC]
-[Text=Maester CharacterOffsetBegin=454 CharacterOffsetEnd=461 PartOfSpeech=NNP]
-[Text=Aemon CharacterOffsetBegin=462 CharacterOffsetEnd=467 PartOfSpeech=NNP]
-[Text=made CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=VBD]
-[Text=it CharacterOffsetBegin=473 CharacterOffsetEnd=475 PartOfSpeech=PRP]
-[Text=clear CharacterOffsetBegin=476 CharacterOffsetEnd=481 PartOfSpeech=JJ]
-[Text=that CharacterOffsetBegin=482 CharacterOffsetEnd=486 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=DT]
-[Text=was CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=VBD]
-[Text=n't CharacterOffsetBegin=495 CharacterOffsetEnd=498 PartOfSpeech=RB]
-[Text=the CharacterOffsetBegin=499 CharacterOffsetEnd=502 PartOfSpeech=DT]
-[Text=case CharacterOffsetBegin=503 CharacterOffsetEnd=507 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=,]
-[Text=as CharacterOffsetBegin=509 CharacterOffsetEnd=511 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=512 CharacterOffsetEnd=515 PartOfSpeech=DT]
-[Text=sword CharacterOffsetBegin=516 CharacterOffsetEnd=521 PartOfSpeech=NN]
-[Text=was CharacterOffsetBegin=522 CharacterOffsetEnd=525 PartOfSpeech=VBD]
-[Text=not CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=RB]
-[Text=radiating CharacterOffsetBegin=530 CharacterOffsetEnd=539 PartOfSpeech=VBG]
-[Text=any CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=DT]
-[Text=heat CharacterOffsetBegin=544 CharacterOffsetEnd=548 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=548 CharacterOffsetEnd=549 PartOfSpeech=.]
+[Text=Stannis CharacterOffsetBegin=399 CharacterOffsetEnd=406 PartOfSpeech=NNP Lemma=Stannis NamedEntityTag=PERSON]
+[Text=thought CharacterOffsetBegin=407 CharacterOffsetEnd=414 PartOfSpeech=VBD Lemma=think NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=415 CharacterOffsetEnd=417 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=had CharacterOffsetBegin=418 CharacterOffsetEnd=421 PartOfSpeech=VBD Lemma=have NamedEntityTag=O]
+[Text=made CharacterOffsetBegin=422 CharacterOffsetEnd=426 PartOfSpeech=VBN Lemma=make NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=real CharacterOffsetBegin=431 CharacterOffsetEnd=435 PartOfSpeech=JJ Lemma=real NamedEntityTag=O]
+[Text=Lightbringer CharacterOffsetBegin=436 CharacterOffsetEnd=448 PartOfSpeech=NNP Lemma=Lightbringer NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=448 CharacterOffsetEnd=449 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=450 CharacterOffsetEnd=453 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=Maester CharacterOffsetBegin=454 CharacterOffsetEnd=461 PartOfSpeech=NNP Lemma=Maester NamedEntityTag=PERSON]
+[Text=Aemon CharacterOffsetBegin=462 CharacterOffsetEnd=467 PartOfSpeech=NNP Lemma=Aemon NamedEntityTag=PERSON]
+[Text=made CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=VBD Lemma=make NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=473 CharacterOffsetEnd=475 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=clear CharacterOffsetBegin=476 CharacterOffsetEnd=481 PartOfSpeech=JJ Lemma=clear NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=482 CharacterOffsetEnd=486 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=487 CharacterOffsetEnd=491 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=495 CharacterOffsetEnd=498 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=499 CharacterOffsetEnd=502 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=case CharacterOffsetBegin=503 CharacterOffsetEnd=507 PartOfSpeech=NN Lemma=case NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=509 CharacterOffsetEnd=511 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=512 CharacterOffsetEnd=515 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=sword CharacterOffsetBegin=516 CharacterOffsetEnd=521 PartOfSpeech=NN Lemma=sword NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=522 CharacterOffsetEnd=525 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=526 CharacterOffsetEnd=529 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=radiating CharacterOffsetBegin=530 CharacterOffsetEnd=539 PartOfSpeech=VBG Lemma=radiate NamedEntityTag=O]
+[Text=any CharacterOffsetBegin=540 CharacterOffsetEnd=543 PartOfSpeech=DT Lemma=any NamedEntityTag=O]
+[Text=heat CharacterOffsetBegin=544 CharacterOffsetEnd=548 PartOfSpeech=NN Lemma=heat NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=548 CharacterOffsetEnd=549 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Stannis))
+      (VP (VBD thought)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (VBD had)
+              (VP (VBN made)
+                (NP (DT the) (JJ real) (NNP Lightbringer))))))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (NNP Maester) (NNP Aemon))
+      (VP (VBD made)
+        (S
+          (NP (PRP it))
+          (ADJP (JJ clear)
+            (SBAR (IN that)
+              (S
+                (NP (DT this))
+                (VP (VBD was) (RB n't)
+                  (NP (DT the) (NN case)))))))
+        (, ,)
+        (SBAR (IN as)
+          (S
+            (NP (DT the) (NN sword))
+            (VP (VBD was) (RB not)
+              (VP (VBG radiating)
+                (NP (DT any) (NN heat))))))))
+    (. .)))
+
+root(ROOT-0, thought-2)
+nsubj(thought-2, Stannis-1)
+nsubj(made-5, he-3)
+aux(made-5, had-4)
+ccomp(thought-2, made-5)
+det(Lightbringer-8, the-6)
+amod(Lightbringer-8, real-7)
+dobj(made-5, Lightbringer-8)
+punct(thought-2, ,-9)
+cc(thought-2, but-10)
+compound(Aemon-12, Maester-11)
+nsubj(made-13, Aemon-12)
+conj:but(thought-2, made-13)
+nsubj(clear-15, it-14)
+xcomp(made-13, clear-15)
+mark(case-21, that-16)
+nsubj(case-21, this-17)
+cop(case-21, was-18)
+neg(case-21, n't-19)
+det(case-21, the-20)
+ccomp(clear-15, case-21)
+punct(made-13, ,-22)
+mark(radiating-28, as-23)
+det(sword-25, the-24)
+nsubj(radiating-28, sword-25)
+aux(radiating-28, was-26)
+neg(radiating-28, not-27)
+advcl:as(made-13, radiating-28)
+det(heat-30, any-29)
+dobj(radiating-28, heat-30)
+punct(thought-2, .-31)
+
 Sentence #6 (9 tokens):
 This is getting far too complicated, now.
-[Text=This CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=DT]
-[Text=is CharacterOffsetBegin=555 CharacterOffsetEnd=557 PartOfSpeech=VBZ]
-[Text=getting CharacterOffsetBegin=558 CharacterOffsetEnd=565 PartOfSpeech=VBG]
-[Text=far CharacterOffsetBegin=566 CharacterOffsetEnd=569 PartOfSpeech=RB]
-[Text=too CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=RB]
-[Text=complicated CharacterOffsetBegin=574 CharacterOffsetEnd=585 PartOfSpeech=JJ]
-[Text=, CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=,]
-[Text=now CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=590 CharacterOffsetEnd=591 PartOfSpeech=.]
+[Text=This CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=555 CharacterOffsetEnd=557 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=getting CharacterOffsetBegin=558 CharacterOffsetEnd=565 PartOfSpeech=VBG Lemma=get NamedEntityTag=O]
+[Text=far CharacterOffsetBegin=566 CharacterOffsetEnd=569 PartOfSpeech=RB Lemma=far NamedEntityTag=O]
+[Text=too CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=RB Lemma=too NamedEntityTag=O]
+[Text=complicated CharacterOffsetBegin=574 CharacterOffsetEnd=585 PartOfSpeech=JJ Lemma=complicated NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=585 CharacterOffsetEnd=586 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=587 CharacterOffsetEnd=590 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=. CharacterOffsetBegin=590 CharacterOffsetEnd=591 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (VP (VBG getting)
+        (ADJP (RB far) (RB too) (JJ complicated)))
+      (, ,)
+      (ADVP (RB now)))
+    (. .)))
+
+root(ROOT-0, getting-3)
+nsubj(getting-3, This-1)
+aux(getting-3, is-2)
+advmod(complicated-6, far-4)
+advmod(complicated-6, too-5)
+xcomp(getting-3, complicated-6)
+punct(getting-3, ,-7)
+advmod(getting-3, now-8)
+punct(getting-3, .-9)
+
+Coreference set:
+	(1,1,[1,2]) -> (2,2,[2,3]), that is: "JON" -> "Jon"
+	(2,6,[4,11]) -> (2,2,[2,3]), that is: "the `` Prince who was promised ''" -> "Jon"
+	(2,12,[12,13]) -> (2,2,[2,3]), that is: "he" -> "Jon"
+Coreference set:
+	(5,17,[17,18]) -> (5,21,[20,22]), that is: "this" -> "the case"
+	(6,1,[1,2]) -> (5,21,[20,22]), that is: "This" -> "the case"
+Coreference set:
+	(2,27,[27,28]) -> (2,19,[16,20]), that is: "it" -> "the legendary sword Lightbringer"
+	(5,8,[6,9]) -> (2,19,[16,20]), that is: "the real Lightbringer" -> "the legendary sword Lightbringer"
+	(5,14,[14,15]) -> (2,19,[16,20]), that is: "it" -> "the legendary sword Lightbringer"
+Coreference set:
+	(2,36,[36,37]) -> (2,39,[38,44]), that is: "specifically" -> "the heart of a loved one"
+Coreference set:
+	(3,20,[20,21]) -> (3,7,[4,14]), that is: "it" -> "the ancient legendary figure of the Red Priests ' religion"
+	(4,11,[11,12]) -> (3,7,[4,14]), that is: "it" -> "the ancient legendary figure of the Red Priests ' religion"
+Coreference set:
+	(3,25,[25,29]) -> (3,11,[9,13]), that is: "his -LRB- willing -RRB-" -> "the Red Priests '"
+	(4,3,[3,4]) -> (3,11,[9,13]), that is: "he" -> "the Red Priests '"
+Coreference set:
+	(5,3,[3,4]) -> (5,1,[1,2]), that is: "he" -> "Stannis"

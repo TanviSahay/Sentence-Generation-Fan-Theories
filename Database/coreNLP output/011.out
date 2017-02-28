@@ -1,42 +1,139 @@
 Sentence #1 (34 tokens):
 Dany will take King's Landing with relative ease, Cersei will die at the hands of Jaime when he stops her from burning the rest of the city, a la Aerys.
-[Text=Dany CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD]
-[Text=take CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=VB]
-[Text=King CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=POS]
-[Text=Landing CharacterOffsetBegin=22 CharacterOffsetEnd=29 PartOfSpeech=NN]
-[Text=with CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=IN]
-[Text=relative CharacterOffsetBegin=35 CharacterOffsetEnd=43 PartOfSpeech=JJ]
-[Text=ease CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=,]
-[Text=Cersei CharacterOffsetBegin=50 CharacterOffsetEnd=56 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=MD]
-[Text=die CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=VB]
-[Text=at CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=DT]
-[Text=hands CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=IN]
-[Text=Jaime CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=NNP]
-[Text=when CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=WRB]
-[Text=he CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=PRP]
-[Text=stops CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=VBZ]
-[Text=her CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=PRP$]
-[Text=from CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=IN]
-[Text=burning CharacterOffsetBegin=111 CharacterOffsetEnd=118 PartOfSpeech=VBG]
-[Text=the CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=DT]
-[Text=rest CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=DT]
-[Text=city CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=,]
-[Text=a CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=DT]
-[Text=la CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=NNP]
-[Text=Aerys CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=.]
-Sentence #2 (4 tokens):
-Jaime then kills himself
-[Text=Jaime CharacterOffsetBegin=153 CharacterOffsetEnd=158 PartOfSpeech=NNP]
-[Text=then CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=RB]
-[Text=kills CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=VBZ]
-[Text=himself CharacterOffsetBegin=170 CharacterOffsetEnd=177 PartOfSpeech=PRP]
+[Text=Dany CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=take CharacterOffsetBegin=10 CharacterOffsetEnd=14 PartOfSpeech=VB Lemma=take NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=NNP Lemma=King NamedEntityTag=ORGANIZATION]
+[Text='s CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Landing CharacterOffsetBegin=22 CharacterOffsetEnd=29 PartOfSpeech=NN Lemma=landing NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=relative CharacterOffsetBegin=35 CharacterOffsetEnd=43 PartOfSpeech=JJ Lemma=relative NamedEntityTag=O]
+[Text=ease CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=NN Lemma=ease NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=50 CharacterOffsetEnd=56 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=die CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=VB Lemma=die NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=69 CharacterOffsetEnd=72 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=hands CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=NNS Lemma=hand NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Jaime CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=NNP Lemma=Jaime NamedEntityTag=PERSON]
+[Text=when CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=stops CharacterOffsetBegin=96 CharacterOffsetEnd=101 PartOfSpeech=VBZ Lemma=stop NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=burning CharacterOffsetBegin=111 CharacterOffsetEnd=118 PartOfSpeech=VBG Lemma=burn NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=119 CharacterOffsetEnd=122 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=rest CharacterOffsetBegin=123 CharacterOffsetEnd=127 PartOfSpeech=NN Lemma=rest NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=128 CharacterOffsetEnd=130 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=city CharacterOffsetBegin=135 CharacterOffsetEnd=139 PartOfSpeech=NN Lemma=city NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=141 CharacterOffsetEnd=142 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=la CharacterOffsetBegin=143 CharacterOffsetEnd=145 PartOfSpeech=NNP Lemma=la NamedEntityTag=O]
+[Text=Aerys CharacterOffsetBegin=146 CharacterOffsetEnd=151 PartOfSpeech=NNP Lemma=Aerys NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Dany))
+      (VP (MD will)
+        (VP (VB take)
+          (NP
+            (NP (NNP King) (POS 's))
+            (NN Landing))
+          (PP (IN with)
+            (NP (JJ relative) (NN ease))))))
+    (, ,)
+    (NP (NNP Cersei))
+    (VP (MD will)
+      (VP (VB die)
+        (PP (IN at)
+          (NP
+            (NP (DT the) (NNS hands))
+            (PP (IN of)
+              (NP (NNP Jaime)))))
+        (SBAR
+          (WHADVP (WRB when))
+          (S
+            (NP (PRP he))
+            (VP (VBZ stops)
+              (NP (PRP$ her))
+              (PP (IN from)
+                (S
+                  (VP (VBG burning)
+                    (NP
+                      (NP (DT the) (NN rest))
+                      (PP (IN of)
+                        (NP
+                          (NP (DT the) (NN city))
+                          (, ,)
+                          (NP (DT a) (NNP la) (NNP Aerys)))))))))))))
+    (. .)))
+
+root(ROOT-0, die-13)
+nsubj(take-3, Dany-1)
+aux(take-3, will-2)
+ccomp(die-13, take-3)
+nmod:poss(Landing-6, King-4)
+case(King-4, 's-5)
+dobj(take-3, Landing-6)
+case(ease-9, with-7)
+amod(ease-9, relative-8)
+nmod:with(take-3, ease-9)
+punct(die-13, ,-10)
+nsubj(die-13, Cersei-11)
+aux(die-13, will-12)
+case(hands-16, at-14)
+det(hands-16, the-15)
+nmod:at(die-13, hands-16)
+case(Jaime-18, of-17)
+nmod:of(hands-16, Jaime-18)
+advmod(stops-21, when-19)
+nsubj(stops-21, he-20)
+advcl(die-13, stops-21)
+dobj(stops-21, her-22)
+mark(burning-24, from-23)
+advcl:from(stops-21, burning-24)
+det(rest-26, the-25)
+dobj(burning-24, rest-26)
+case(city-29, of-27)
+det(city-29, the-28)
+nmod:of(rest-26, city-29)
+punct(city-29, ,-30)
+det(Aerys-33, a-31)
+compound(Aerys-33, la-32)
+appos(city-29, Aerys-33)
+punct(die-13, .-34)
+
+Sentence #2 (5 tokens):
+Jaime then kills himself.
+[Text=Jaime CharacterOffsetBegin=153 CharacterOffsetEnd=158 PartOfSpeech=NNP Lemma=Jaime NamedEntityTag=PERSON]
+[Text=then CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=RB Lemma=then NamedEntityTag=O]
+[Text=kills CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=VBZ Lemma=kill NamedEntityTag=O]
+[Text=himself CharacterOffsetBegin=170 CharacterOffsetEnd=177 PartOfSpeech=PRP Lemma=himself NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=177 CharacterOffsetEnd=178 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Jaime))
+    (ADVP (RB then))
+    (VP (VBZ kills)
+      (NP (PRP himself)))
+    (. .)))
+
+root(ROOT-0, kills-3)
+nsubj(kills-3, Jaime-1)
+advmod(kills-3, then-2)
+dobj(kills-3, himself-4)
+punct(kills-3, .-5)
+
+Coreference set:
+	(1,20,[20,21]) -> (1,1,[1,2]), that is: "he" -> "Dany"
+Coreference set:
+	(1,22,[22,23]) -> (1,11,[11,12]), that is: "her" -> "Cersei"
+Coreference set:
+	(2,1,[1,2]) -> (1,18,[18,19]), that is: "Jaime" -> "Jaime"
+	(2,4,[4,5]) -> (1,18,[18,19]), that is: "himself" -> "Jaime"
+Coreference set:
+	(1,29,[28,30]) -> (1,33,[31,34]), that is: "the city" -> "a la Aerys"

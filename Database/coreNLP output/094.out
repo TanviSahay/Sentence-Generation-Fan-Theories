@@ -1,221 +1,702 @@
-Sentence #1 (24 tokens):
-Jon Snow
+Sentence #1 (3 tokens):
+Jon Snow.
+[Text=Jon CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=8 CharacterOffsetEnd=9 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP (NNP Jon) (NNP Snow) (. .)))
+
+root(ROOT-0, Snow-2)
+compound(Snow-2, Jon-1)
+punct(Snow-2, .-3)
+
+Sentence #2 (22 tokens):
 Being the only character big enough to rival Dany's definitely gives Jon a legitimate shot at becoming Mr. Daenarys Targaryan.
-[Text=Jon CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NNP]
-[Text=Being CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=VBG]
-[Text=the CharacterOffsetBegin=15 CharacterOffsetEnd=18 PartOfSpeech=DT]
-[Text=only CharacterOffsetBegin=19 CharacterOffsetEnd=23 PartOfSpeech=JJ]
-[Text=character CharacterOffsetBegin=24 CharacterOffsetEnd=33 PartOfSpeech=NN]
-[Text=big CharacterOffsetBegin=34 CharacterOffsetEnd=37 PartOfSpeech=JJ]
-[Text=enough CharacterOffsetBegin=38 CharacterOffsetEnd=44 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=45 CharacterOffsetEnd=47 PartOfSpeech=TO]
-[Text=rival CharacterOffsetBegin=48 CharacterOffsetEnd=53 PartOfSpeech=JJ]
-[Text=Dany CharacterOffsetBegin=54 CharacterOffsetEnd=58 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=58 CharacterOffsetEnd=60 PartOfSpeech=POS]
-[Text=definitely CharacterOffsetBegin=61 CharacterOffsetEnd=71 PartOfSpeech=RB]
-[Text=gives CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=VBZ]
-[Text=Jon CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=NNP]
-[Text=a CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=DT]
-[Text=legitimate CharacterOffsetBegin=84 CharacterOffsetEnd=94 PartOfSpeech=JJ]
-[Text=shot CharacterOffsetBegin=95 CharacterOffsetEnd=99 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=100 CharacterOffsetEnd=102 PartOfSpeech=IN]
-[Text=becoming CharacterOffsetBegin=103 CharacterOffsetEnd=111 PartOfSpeech=VBG]
-[Text=Mr. CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=NNP]
-[Text=Daenarys CharacterOffsetBegin=116 CharacterOffsetEnd=124 PartOfSpeech=NNP]
-[Text=Targaryan CharacterOffsetBegin=125 CharacterOffsetEnd=134 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=134 CharacterOffsetEnd=135 PartOfSpeech=.]
-Sentence #2 (25 tokens):
+[Text=Being CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=VBG Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=16 CharacterOffsetEnd=19 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=only CharacterOffsetBegin=20 CharacterOffsetEnd=24 PartOfSpeech=JJ Lemma=only NamedEntityTag=O]
+[Text=character CharacterOffsetBegin=25 CharacterOffsetEnd=34 PartOfSpeech=NN Lemma=character NamedEntityTag=O]
+[Text=big CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=JJ Lemma=big NamedEntityTag=O]
+[Text=enough CharacterOffsetBegin=39 CharacterOffsetEnd=45 PartOfSpeech=RB Lemma=enough NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=46 CharacterOffsetEnd=48 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=rival CharacterOffsetBegin=49 CharacterOffsetEnd=54 PartOfSpeech=JJ Lemma=rival NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=definitely CharacterOffsetBegin=62 CharacterOffsetEnd=72 PartOfSpeech=RB Lemma=definitely NamedEntityTag=O]
+[Text=gives CharacterOffsetBegin=73 CharacterOffsetEnd=78 PartOfSpeech=VBZ Lemma=give NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=a CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=legitimate CharacterOffsetBegin=85 CharacterOffsetEnd=95 PartOfSpeech=JJ Lemma=legitimate NamedEntityTag=O]
+[Text=shot CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=NN Lemma=shot NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=becoming CharacterOffsetBegin=104 CharacterOffsetEnd=112 PartOfSpeech=VBG Lemma=become NamedEntityTag=O]
+[Text=Mr. CharacterOffsetBegin=113 CharacterOffsetEnd=116 PartOfSpeech=NNP Lemma=Mr. NamedEntityTag=O]
+[Text=Daenarys CharacterOffsetBegin=117 CharacterOffsetEnd=125 PartOfSpeech=NNP Lemma=Daenarys NamedEntityTag=PERSON]
+[Text=Targaryan CharacterOffsetBegin=126 CharacterOffsetEnd=135 PartOfSpeech=NNP Lemma=Targaryan NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (VP (VBG Being)
+        (NP
+          (NP (DT the) (JJ only) (NN character))
+          (ADJP (JJ big) (RB enough)))
+        (PP (TO to)
+          (NP (JJ rival)
+            (NP (NNP Dany) (POS 's))))))
+    (VP
+      (ADVP (RB definitely))
+      (VBZ gives)
+      (NP (NNP Jon))
+      (NP
+        (NP (DT a) (JJ legitimate) (NN shot))
+        (PP (IN at)
+          (S
+            (VP (VBG becoming)
+              (NP (NNP Mr.) (NNP Daenarys) (NNP Targaryan)))))))
+    (. .)))
+
+root(ROOT-0, gives-12)
+cop(character-4, Being-1)
+det(character-4, the-2)
+amod(character-4, only-3)
+csubj(gives-12, character-4)
+amod(character-4, big-5)
+advmod(big-5, enough-6)
+case(Dany-9, to-7)
+amod(Dany-9, rival-8)
+nmod:'s(character-4, Dany-9)
+case(Dany-9, 's-10)
+advmod(gives-12, definitely-11)
+iobj(gives-12, Jon-13)
+det(shot-16, a-14)
+amod(shot-16, legitimate-15)
+dobj(gives-12, shot-16)
+mark(becoming-18, at-17)
+acl:at(shot-16, becoming-18)
+compound(Targaryan-21, Mr.-19)
+compound(Targaryan-21, Daenarys-20)
+xcomp(becoming-18, Targaryan-21)
+punct(gives-12, .-22)
+
+Sentence #3 (25 tokens):
 However, the problems with this match is that if Jon is Rhaegar Targaryan's son, then that would make Dany his aunt.
-[Text=However CharacterOffsetBegin=136 CharacterOffsetEnd=143 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=DT]
-[Text=problems CharacterOffsetBegin=149 CharacterOffsetEnd=157 PartOfSpeech=NNS]
-[Text=with CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=163 CharacterOffsetEnd=167 PartOfSpeech=DT]
-[Text=match CharacterOffsetBegin=168 CharacterOffsetEnd=173 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=174 CharacterOffsetEnd=176 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=IN]
-[Text=if CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=IN]
-[Text=Jon CharacterOffsetBegin=185 CharacterOffsetEnd=188 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=189 CharacterOffsetEnd=191 PartOfSpeech=VBZ]
-[Text=Rhaegar CharacterOffsetBegin=192 CharacterOffsetEnd=199 PartOfSpeech=NNP]
-[Text=Targaryan CharacterOffsetBegin=200 CharacterOffsetEnd=209 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=209 CharacterOffsetEnd=211 PartOfSpeech=POS]
-[Text=son CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=215 CharacterOffsetEnd=216 PartOfSpeech=,]
-[Text=then CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=RB]
-[Text=that CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=DT]
-[Text=would CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=MD]
-[Text=make CharacterOffsetBegin=233 CharacterOffsetEnd=237 PartOfSpeech=VB]
-[Text=Dany CharacterOffsetBegin=238 CharacterOffsetEnd=242 PartOfSpeech=NNP]
-[Text=his CharacterOffsetBegin=243 CharacterOffsetEnd=246 PartOfSpeech=PRP$]
-[Text=aunt CharacterOffsetBegin=247 CharacterOffsetEnd=251 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=251 CharacterOffsetEnd=252 PartOfSpeech=.]
-Sentence #3 (24 tokens):
+[Text=However CharacterOffsetBegin=137 CharacterOffsetEnd=144 PartOfSpeech=RB Lemma=however NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=problems CharacterOffsetBegin=150 CharacterOffsetEnd=158 PartOfSpeech=NNS Lemma=problem NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=164 CharacterOffsetEnd=168 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=match CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=NN Lemma=match NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=175 CharacterOffsetEnd=177 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=if CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=186 CharacterOffsetEnd=189 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=is CharacterOffsetBegin=190 CharacterOffsetEnd=192 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=Rhaegar CharacterOffsetBegin=193 CharacterOffsetEnd=200 PartOfSpeech=NNP Lemma=Rhaegar NamedEntityTag=PERSON]
+[Text=Targaryan CharacterOffsetBegin=201 CharacterOffsetEnd=210 PartOfSpeech=NNP Lemma=Targaryan NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=son CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=NN Lemma=son NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=216 CharacterOffsetEnd=217 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=then CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=RB Lemma=then NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=223 CharacterOffsetEnd=227 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=228 CharacterOffsetEnd=233 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=make CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=VB Lemma=make NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=his CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=aunt CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=NN Lemma=aunt NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=252 CharacterOffsetEnd=253 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (NP
+      (NP (DT the) (NNS problems))
+      (PP (IN with)
+        (NP (DT this) (NN match))))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (SBAR (IN if)
+            (S
+              (NP (NNP Jon))
+              (VP (VBZ is)
+                (NP
+                  (NP (NNP Rhaegar) (NNP Targaryan) (POS 's))
+                  (NN son))
+                (, ,)
+                (ADVP (RB then)))))
+          (NP (DT that))
+          (VP (MD would)
+            (VP (VB make)
+              (S
+                (NP (NNP Dany))
+                (NP (PRP$ his) (NN aunt))))))))
+    (. .)))
+
+root(ROOT-0, is-8)
+advmod(is-8, However-1)
+punct(is-8, ,-2)
+det(problems-4, the-3)
+nsubj(is-8, problems-4)
+case(match-7, with-5)
+det(match-7, this-6)
+nmod:with(problems-4, match-7)
+mark(make-21, that-9)
+mark(son-16, if-10)
+nsubj(son-16, Jon-11)
+cop(son-16, is-12)
+compound(Targaryan-14, Rhaegar-13)
+nmod:poss(son-16, Targaryan-14)
+case(Targaryan-14, 's-15)
+advcl:if(make-21, son-16)
+punct(son-16, ,-17)
+advmod(son-16, then-18)
+nsubj(make-21, that-19)
+aux(make-21, would-20)
+ccomp(is-8, make-21)
+nsubj(aunt-24, Dany-22)
+nmod:poss(aunt-24, his-23)
+xcomp(make-21, aunt-24)
+punct(is-8, .-25)
+
+Sentence #4 (24 tokens):
 Incestuous type relationships among Targaryan's wasn't an uncommon thing, but I'm not sure how the Starks felt about that.
-[Text=Incestuous CharacterOffsetBegin=253 CharacterOffsetEnd=263 PartOfSpeech=JJ]
-[Text=type CharacterOffsetBegin=264 CharacterOffsetEnd=268 PartOfSpeech=NN]
-[Text=relationships CharacterOffsetBegin=269 CharacterOffsetEnd=282 PartOfSpeech=NNS]
-[Text=among CharacterOffsetBegin=283 CharacterOffsetEnd=288 PartOfSpeech=IN]
-[Text=Targaryan CharacterOffsetBegin=289 CharacterOffsetEnd=298 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=POS]
-[Text=was CharacterOffsetBegin=301 CharacterOffsetEnd=304 PartOfSpeech=VBD]
-[Text=n't CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=RB]
-[Text=an CharacterOffsetBegin=308 CharacterOffsetEnd=310 PartOfSpeech=DT]
-[Text=uncommon CharacterOffsetBegin=311 CharacterOffsetEnd=319 PartOfSpeech=JJ]
-[Text=thing CharacterOffsetBegin=320 CharacterOffsetEnd=325 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=325 CharacterOffsetEnd=326 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=CC]
-[Text=I CharacterOffsetBegin=331 CharacterOffsetEnd=332 PartOfSpeech=PRP]
-[Text='m CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=VBP]
-[Text=not CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=RB]
-[Text=sure CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=JJ]
-[Text=how CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=WRB]
-[Text=the CharacterOffsetBegin=348 CharacterOffsetEnd=351 PartOfSpeech=DT]
-[Text=Starks CharacterOffsetBegin=352 CharacterOffsetEnd=358 PartOfSpeech=NNPS]
-[Text=felt CharacterOffsetBegin=359 CharacterOffsetEnd=363 PartOfSpeech=VBD]
-[Text=about CharacterOffsetBegin=364 CharacterOffsetEnd=369 PartOfSpeech=IN]
-[Text=that CharacterOffsetBegin=370 CharacterOffsetEnd=374 PartOfSpeech=DT]
-[Text=. CharacterOffsetBegin=374 CharacterOffsetEnd=375 PartOfSpeech=.]
-Sentence #4 (36 tokens):
-But Jon and Dany were raised on different sides of the world so it's not like they would have been raised as nephew and aunt (but still that's kind of gross).
-[Text=But CharacterOffsetBegin=376 CharacterOffsetEnd=379 PartOfSpeech=CC]
-[Text=Jon CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=384 CharacterOffsetEnd=387 PartOfSpeech=CC]
-[Text=Dany CharacterOffsetBegin=388 CharacterOffsetEnd=392 PartOfSpeech=NNP]
-[Text=were CharacterOffsetBegin=393 CharacterOffsetEnd=397 PartOfSpeech=VBD]
-[Text=raised CharacterOffsetBegin=398 CharacterOffsetEnd=404 PartOfSpeech=VBN]
-[Text=on CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=IN]
-[Text=different CharacterOffsetBegin=408 CharacterOffsetEnd=417 PartOfSpeech=JJ]
-[Text=sides CharacterOffsetBegin=418 CharacterOffsetEnd=423 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=424 CharacterOffsetEnd=426 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=427 CharacterOffsetEnd=430 PartOfSpeech=DT]
-[Text=world CharacterOffsetBegin=431 CharacterOffsetEnd=436 PartOfSpeech=NN]
-[Text=so CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=440 CharacterOffsetEnd=442 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=442 CharacterOffsetEnd=444 PartOfSpeech=VBZ]
-[Text=not CharacterOffsetBegin=445 CharacterOffsetEnd=448 PartOfSpeech=RB]
-[Text=like CharacterOffsetBegin=449 CharacterOffsetEnd=453 PartOfSpeech=IN]
-[Text=they CharacterOffsetBegin=454 CharacterOffsetEnd=458 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=459 CharacterOffsetEnd=464 PartOfSpeech=MD]
-[Text=have CharacterOffsetBegin=465 CharacterOffsetEnd=469 PartOfSpeech=VB]
-[Text=been CharacterOffsetBegin=470 CharacterOffsetEnd=474 PartOfSpeech=VBN]
-[Text=raised CharacterOffsetBegin=475 CharacterOffsetEnd=481 PartOfSpeech=VBN]
-[Text=as CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=IN]
-[Text=nephew CharacterOffsetBegin=485 CharacterOffsetEnd=491 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=492 CharacterOffsetEnd=495 PartOfSpeech=CC]
-[Text=aunt CharacterOffsetBegin=496 CharacterOffsetEnd=500 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=501 CharacterOffsetEnd=502 PartOfSpeech=-LRB-]
-[Text=but CharacterOffsetBegin=502 CharacterOffsetEnd=505 PartOfSpeech=CC]
-[Text=still CharacterOffsetBegin=506 CharacterOffsetEnd=511 PartOfSpeech=RB]
-[Text=that CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=DT]
-[Text='s CharacterOffsetBegin=516 CharacterOffsetEnd=518 PartOfSpeech=VBZ]
-[Text=kind CharacterOffsetBegin=519 CharacterOffsetEnd=523 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=524 CharacterOffsetEnd=526 PartOfSpeech=IN]
-[Text=gross CharacterOffsetBegin=527 CharacterOffsetEnd=532 PartOfSpeech=JJ]
-[Text=-RRB- CharacterOffsetBegin=532 CharacterOffsetEnd=533 PartOfSpeech=-RRB-]
-[Text=. CharacterOffsetBegin=533 CharacterOffsetEnd=534 PartOfSpeech=.]
+[Text=Incestuous CharacterOffsetBegin=254 CharacterOffsetEnd=264 PartOfSpeech=JJ Lemma=incestuous NamedEntityTag=O]
+[Text=type CharacterOffsetBegin=265 CharacterOffsetEnd=269 PartOfSpeech=NN Lemma=type NamedEntityTag=O]
+[Text=relationships CharacterOffsetBegin=270 CharacterOffsetEnd=283 PartOfSpeech=NNS Lemma=relationship NamedEntityTag=O]
+[Text=among CharacterOffsetBegin=284 CharacterOffsetEnd=289 PartOfSpeech=IN Lemma=among NamedEntityTag=O]
+[Text=Targaryan CharacterOffsetBegin=290 CharacterOffsetEnd=299 PartOfSpeech=NNP Lemma=Targaryan NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=299 CharacterOffsetEnd=301 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=302 CharacterOffsetEnd=305 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=an CharacterOffsetBegin=309 CharacterOffsetEnd=311 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=uncommon CharacterOffsetBegin=312 CharacterOffsetEnd=320 PartOfSpeech=JJ Lemma=uncommon NamedEntityTag=O]
+[Text=thing CharacterOffsetBegin=321 CharacterOffsetEnd=326 PartOfSpeech=NN Lemma=thing NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=326 CharacterOffsetEnd=327 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=332 CharacterOffsetEnd=333 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text='m CharacterOffsetBegin=333 CharacterOffsetEnd=335 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=336 CharacterOffsetEnd=339 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=sure CharacterOffsetBegin=340 CharacterOffsetEnd=344 PartOfSpeech=JJ Lemma=sure NamedEntityTag=O]
+[Text=how CharacterOffsetBegin=345 CharacterOffsetEnd=348 PartOfSpeech=WRB Lemma=how NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=349 CharacterOffsetEnd=352 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Starks CharacterOffsetBegin=353 CharacterOffsetEnd=359 PartOfSpeech=NNPS Lemma=Starks NamedEntityTag=PERSON]
+[Text=felt CharacterOffsetBegin=360 CharacterOffsetEnd=364 PartOfSpeech=VBD Lemma=feel NamedEntityTag=O]
+[Text=about CharacterOffsetBegin=365 CharacterOffsetEnd=370 PartOfSpeech=IN Lemma=about NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=371 CharacterOffsetEnd=375 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=375 CharacterOffsetEnd=376 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP
+        (NP (JJ Incestuous) (NN type) (NNS relationships))
+        (PP (IN among)
+          (NP (NNP Targaryan) (POS 's))))
+      (VP (VBD was) (RB n't)
+        (NP (DT an) (JJ uncommon) (NN thing))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP I))
+      (VP (VBP 'm) (RB not)
+        (ADJP (JJ sure))
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (NP (DT the) (NNPS Starks))
+            (VP (VBD felt)
+              (PP (IN about)
+                (NP (DT that))))))))
+    (. .)))
+
+root(ROOT-0, thing-11)
+amod(relationships-3, Incestuous-1)
+compound(relationships-3, type-2)
+nsubj(thing-11, relationships-3)
+case(Targaryan-5, among-4)
+nmod:'s(relationships-3, Targaryan-5)
+case(Targaryan-5, 's-6)
+cop(thing-11, was-7)
+neg(thing-11, n't-8)
+det(thing-11, an-9)
+amod(thing-11, uncommon-10)
+punct(thing-11, ,-12)
+cc(thing-11, but-13)
+nsubj(sure-17, I-14)
+cop(sure-17, 'm-15)
+neg(sure-17, not-16)
+conj:but(thing-11, sure-17)
+advmod(felt-21, how-18)
+det(Starks-20, the-19)
+nsubj(felt-21, Starks-20)
+ccomp(sure-17, felt-21)
+case(that-23, about-22)
+nmod:about(felt-21, that-23)
+punct(thing-11, .-24)
+
 Sentence #5 (36 tokens):
+But Jon and Dany were raised on different sides of the world so it's not like they would have been raised as nephew and aunt (but still that's kind of gross).
+[Text=But CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=381 CharacterOffsetEnd=384 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=385 CharacterOffsetEnd=388 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=389 CharacterOffsetEnd=393 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=were CharacterOffsetBegin=394 CharacterOffsetEnd=398 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=raised CharacterOffsetBegin=399 CharacterOffsetEnd=405 PartOfSpeech=VBN Lemma=raise NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=406 CharacterOffsetEnd=408 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=different CharacterOffsetBegin=409 CharacterOffsetEnd=418 PartOfSpeech=JJ Lemma=different NamedEntityTag=O]
+[Text=sides CharacterOffsetBegin=419 CharacterOffsetEnd=424 PartOfSpeech=NNS Lemma=side NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=428 CharacterOffsetEnd=431 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=world CharacterOffsetBegin=432 CharacterOffsetEnd=437 PartOfSpeech=NN Lemma=world NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=438 CharacterOffsetEnd=440 PartOfSpeech=IN Lemma=so NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=441 CharacterOffsetEnd=443 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=443 CharacterOffsetEnd=445 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=446 CharacterOffsetEnd=449 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=450 CharacterOffsetEnd=454 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=455 CharacterOffsetEnd=459 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=460 CharacterOffsetEnd=465 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=466 CharacterOffsetEnd=470 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=471 CharacterOffsetEnd=475 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=raised CharacterOffsetBegin=476 CharacterOffsetEnd=482 PartOfSpeech=VBN Lemma=raise NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=483 CharacterOffsetEnd=485 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=nephew CharacterOffsetBegin=486 CharacterOffsetEnd=492 PartOfSpeech=NN Lemma=nephew NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=493 CharacterOffsetEnd=496 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=aunt CharacterOffsetBegin=497 CharacterOffsetEnd=501 PartOfSpeech=NN Lemma=aunt NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=502 CharacterOffsetEnd=503 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=503 CharacterOffsetEnd=506 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=still CharacterOffsetBegin=507 CharacterOffsetEnd=512 PartOfSpeech=RB Lemma=still NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=513 CharacterOffsetEnd=517 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=517 CharacterOffsetEnd=519 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=kind CharacterOffsetBegin=520 CharacterOffsetEnd=524 PartOfSpeech=NN Lemma=kind NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=525 CharacterOffsetEnd=527 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=gross CharacterOffsetBegin=528 CharacterOffsetEnd=533 PartOfSpeech=JJ Lemma=gross NamedEntityTag=NUMBER NormalizedNamedEntityTag=144.0]
+[Text=-RRB- CharacterOffsetBegin=533 CharacterOffsetEnd=534 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=534 CharacterOffsetEnd=535 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC But)
+    (NP (NNP Jon)
+      (CC and)
+      (NNP Dany))
+    (VP (VBD were)
+      (VP (VBN raised)
+        (PP (IN on)
+          (NP
+            (NP (JJ different) (NNS sides))
+            (PP (IN of)
+              (NP (DT the) (NN world)))))
+        (SBAR (IN so)
+          (S
+            (NP (PRP it))
+            (VP (VBZ 's) (RB not)
+              (SBAR (IN like)
+                (S
+                  (NP (PRP they))
+                  (VP (MD would)
+                    (VP (VB have)
+                      (VP (VBN been)
+                        (VP (VBN raised)
+                          (PP (IN as)
+                            (NP (NN nephew)
+                              (CC and)
+                              (NN aunt)))))))))
+              (PRN (-LRB- -LRB-)
+                (FRAG (CC but)
+                  (ADVP (RB still))
+                  (SBAR
+                    (WHNP (DT that))
+                    (S
+                      (VP (VBZ 's)
+                        (NP
+                          (NP (NN kind))
+                          (PP (IN of)
+                            (NP (JJ gross))))))))
+                (-RRB- -RRB-)))))))
+    (. .)))
+
+root(ROOT-0, raised-6)
+cc(raised-6, But-1)
+nsubjpass(raised-6, Jon-2)
+cc(Jon-2, and-3)
+conj:and(Jon-2, Dany-4)
+nsubjpass(raised-6, Dany-4)
+auxpass(raised-6, were-5)
+case(sides-9, on-7)
+amod(sides-9, different-8)
+nmod:on(raised-6, sides-9)
+case(world-12, of-10)
+det(world-12, the-11)
+nmod:of(sides-9, world-12)
+mark('s-15, so-13)
+nsubj('s-15, it-14)
+advcl:so(raised-6, 's-15)
+neg('s-15, not-16)
+mark(raised-22, like-17)
+nsubjpass(raised-22, they-18)
+aux(raised-22, would-19)
+aux(raised-22, have-20)
+auxpass(raised-22, been-21)
+advcl:like('s-15, raised-22)
+case(nephew-24, as-23)
+nmod:as(raised-22, nephew-24)
+cc(nephew-24, and-25)
+nmod:as(raised-22, aunt-26)
+conj:and(nephew-24, aunt-26)
+punct(still-29, -LRB--27)
+cc(still-29, but-28)
+dep('s-15, still-29)
+nsubj(kind-32, that-30)
+cop(kind-32, 's-31)
+dep(still-29, kind-32)
+case(gross-34, of-33)
+nmod:of(kind-32, gross-34)
+punct(still-29, -RRB--35)
+punct(raised-6, .-36)
+
+Sentence #6 (36 tokens):
 My last reason I have trouble seeing this pairing work is because say at the end of the show Jon and Dany manage to defeat Cersei and the white walkers and decide to get married.
-[Text=My CharacterOffsetBegin=535 CharacterOffsetEnd=537 PartOfSpeech=PRP$]
-[Text=last CharacterOffsetBegin=538 CharacterOffsetEnd=542 PartOfSpeech=JJ]
-[Text=reason CharacterOffsetBegin=543 CharacterOffsetEnd=549 PartOfSpeech=NN]
-[Text=I CharacterOffsetBegin=550 CharacterOffsetEnd=551 PartOfSpeech=PRP]
-[Text=have CharacterOffsetBegin=552 CharacterOffsetEnd=556 PartOfSpeech=VBP]
-[Text=trouble CharacterOffsetBegin=557 CharacterOffsetEnd=564 PartOfSpeech=NN]
-[Text=seeing CharacterOffsetBegin=565 CharacterOffsetEnd=571 PartOfSpeech=VBG]
-[Text=this CharacterOffsetBegin=572 CharacterOffsetEnd=576 PartOfSpeech=DT]
-[Text=pairing CharacterOffsetBegin=577 CharacterOffsetEnd=584 PartOfSpeech=NN]
-[Text=work CharacterOffsetBegin=585 CharacterOffsetEnd=589 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=590 CharacterOffsetEnd=592 PartOfSpeech=VBZ]
-[Text=because CharacterOffsetBegin=593 CharacterOffsetEnd=600 PartOfSpeech=IN]
-[Text=say CharacterOffsetBegin=601 CharacterOffsetEnd=604 PartOfSpeech=VB]
-[Text=at CharacterOffsetBegin=605 CharacterOffsetEnd=607 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=608 CharacterOffsetEnd=611 PartOfSpeech=DT]
-[Text=end CharacterOffsetBegin=612 CharacterOffsetEnd=615 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=616 CharacterOffsetEnd=618 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=619 CharacterOffsetEnd=622 PartOfSpeech=DT]
-[Text=show CharacterOffsetBegin=623 CharacterOffsetEnd=627 PartOfSpeech=NN]
-[Text=Jon CharacterOffsetBegin=628 CharacterOffsetEnd=631 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=632 CharacterOffsetEnd=635 PartOfSpeech=CC]
-[Text=Dany CharacterOffsetBegin=636 CharacterOffsetEnd=640 PartOfSpeech=NNP]
-[Text=manage CharacterOffsetBegin=641 CharacterOffsetEnd=647 PartOfSpeech=VBP]
-[Text=to CharacterOffsetBegin=648 CharacterOffsetEnd=650 PartOfSpeech=TO]
-[Text=defeat CharacterOffsetBegin=651 CharacterOffsetEnd=657 PartOfSpeech=VB]
-[Text=Cersei CharacterOffsetBegin=658 CharacterOffsetEnd=664 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=665 CharacterOffsetEnd=668 PartOfSpeech=CC]
-[Text=the CharacterOffsetBegin=669 CharacterOffsetEnd=672 PartOfSpeech=DT]
-[Text=white CharacterOffsetBegin=673 CharacterOffsetEnd=678 PartOfSpeech=JJ]
-[Text=walkers CharacterOffsetBegin=679 CharacterOffsetEnd=686 PartOfSpeech=NNS]
-[Text=and CharacterOffsetBegin=687 CharacterOffsetEnd=690 PartOfSpeech=CC]
-[Text=decide CharacterOffsetBegin=691 CharacterOffsetEnd=697 PartOfSpeech=VB]
-[Text=to CharacterOffsetBegin=698 CharacterOffsetEnd=700 PartOfSpeech=TO]
-[Text=get CharacterOffsetBegin=701 CharacterOffsetEnd=704 PartOfSpeech=VB]
-[Text=married CharacterOffsetBegin=705 CharacterOffsetEnd=712 PartOfSpeech=VBN]
-[Text=. CharacterOffsetBegin=712 CharacterOffsetEnd=713 PartOfSpeech=.]
-Sentence #6 (22 tokens):
+[Text=My CharacterOffsetBegin=536 CharacterOffsetEnd=538 PartOfSpeech=PRP$ Lemma=my NamedEntityTag=O]
+[Text=last CharacterOffsetBegin=539 CharacterOffsetEnd=543 PartOfSpeech=JJ Lemma=last NamedEntityTag=O]
+[Text=reason CharacterOffsetBegin=544 CharacterOffsetEnd=550 PartOfSpeech=NN Lemma=reason NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=551 CharacterOffsetEnd=552 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=553 CharacterOffsetEnd=557 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=trouble CharacterOffsetBegin=558 CharacterOffsetEnd=565 PartOfSpeech=NN Lemma=trouble NamedEntityTag=O]
+[Text=seeing CharacterOffsetBegin=566 CharacterOffsetEnd=572 PartOfSpeech=VBG Lemma=see NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=573 CharacterOffsetEnd=577 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=pairing CharacterOffsetBegin=578 CharacterOffsetEnd=585 PartOfSpeech=NN Lemma=pairing NamedEntityTag=O]
+[Text=work CharacterOffsetBegin=586 CharacterOffsetEnd=590 PartOfSpeech=NN Lemma=work NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=591 CharacterOffsetEnd=593 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=because CharacterOffsetBegin=594 CharacterOffsetEnd=601 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=say CharacterOffsetBegin=602 CharacterOffsetEnd=605 PartOfSpeech=VB Lemma=say NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=609 CharacterOffsetEnd=612 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=end CharacterOffsetBegin=613 CharacterOffsetEnd=616 PartOfSpeech=NN Lemma=end NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=617 CharacterOffsetEnd=619 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=620 CharacterOffsetEnd=623 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=show CharacterOffsetBegin=624 CharacterOffsetEnd=628 PartOfSpeech=NN Lemma=show NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=629 CharacterOffsetEnd=632 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=633 CharacterOffsetEnd=636 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=637 CharacterOffsetEnd=641 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=manage CharacterOffsetBegin=642 CharacterOffsetEnd=648 PartOfSpeech=VBP Lemma=manage NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=649 CharacterOffsetEnd=651 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=defeat CharacterOffsetBegin=652 CharacterOffsetEnd=658 PartOfSpeech=VB Lemma=defeat NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=659 CharacterOffsetEnd=665 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=666 CharacterOffsetEnd=669 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=670 CharacterOffsetEnd=673 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=white CharacterOffsetBegin=674 CharacterOffsetEnd=679 PartOfSpeech=JJ Lemma=white NamedEntityTag=O]
+[Text=walkers CharacterOffsetBegin=680 CharacterOffsetEnd=687 PartOfSpeech=NNS Lemma=walker NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=688 CharacterOffsetEnd=691 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=decide CharacterOffsetBegin=692 CharacterOffsetEnd=698 PartOfSpeech=VB Lemma=decide NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=699 CharacterOffsetEnd=701 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=get CharacterOffsetBegin=702 CharacterOffsetEnd=705 PartOfSpeech=VB Lemma=get NamedEntityTag=O]
+[Text=married CharacterOffsetBegin=706 CharacterOffsetEnd=713 PartOfSpeech=VBN Lemma=marry NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=713 CharacterOffsetEnd=714 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (PRP$ My) (JJ last) (NN reason))
+      (SBAR
+        (S
+          (NP (PRP I))
+          (VP (VBP have)
+            (NP
+              (NP (NN trouble))
+              (VP (VBG seeing)
+                (NP (DT this) (NN pairing) (NN work))))))))
+    (VP (VBZ is)
+      (SBAR (IN because)
+        (S
+          (VP
+            (VP (VB say)
+              (PP (IN at)
+                (NP
+                  (NP (DT the) (NN end))
+                  (PP (IN of)
+                    (NP
+                      (NP (DT the) (NN show))
+                      (SBAR
+                        (S
+                          (NP (NNP Jon)
+                            (CC and)
+                            (NNP Dany))
+                          (VP (VBP manage)
+                            (S
+                              (VP (TO to)
+                                (VP (VB defeat)
+                                  (NP
+                                    (NP (NNP Cersei))
+                                    (CC and)
+                                    (NP (DT the) (JJ white) (NNS walkers))))))))))))))
+            (CC and)
+            (VP (VB decide)
+              (S
+                (VP (TO to)
+                  (VP (VB get)
+                    (ADJP (VBN married))))))))))
+    (. .)))
+
+root(ROOT-0, is-11)
+nmod:poss(reason-3, My-1)
+amod(reason-3, last-2)
+nsubj(is-11, reason-3)
+nsubj(have-5, I-4)
+acl:relcl(reason-3, have-5)
+dobj(have-5, trouble-6)
+acl(trouble-6, seeing-7)
+det(work-10, this-8)
+compound(work-10, pairing-9)
+dobj(seeing-7, work-10)
+mark(say-13, because-12)
+advcl:because(is-11, say-13)
+case(end-16, at-14)
+det(end-16, the-15)
+nmod:at(say-13, end-16)
+case(show-19, of-17)
+det(show-19, the-18)
+nmod:of(end-16, show-19)
+nsubj(manage-23, Jon-20)
+nsubj:xsubj(defeat-25, Jon-20)
+cc(Jon-20, and-21)
+conj:and(Jon-20, Dany-22)
+nsubj(manage-23, Dany-22)
+nsubj:xsubj(defeat-25, Dany-22)
+acl:relcl(show-19, manage-23)
+mark(defeat-25, to-24)
+xcomp(manage-23, defeat-25)
+dobj(defeat-25, Cersei-26)
+cc(Cersei-26, and-27)
+det(walkers-30, the-28)
+amod(walkers-30, white-29)
+dobj(defeat-25, walkers-30)
+conj:and(Cersei-26, walkers-30)
+cc(say-13, and-31)
+advcl:because(is-11, decide-32)
+conj:and(say-13, decide-32)
+mark(get-34, to-33)
+xcomp(decide-32, get-34)
+xcomp(get-34, married-35)
+punct(is-11, .-36)
+
+Sentence #7 (22 tokens):
 Can anyone possibly picture Jon Snow sitting on the iron throne in King's Landing for the rest of his days.
-[Text=Can CharacterOffsetBegin=714 CharacterOffsetEnd=717 PartOfSpeech=MD]
-[Text=anyone CharacterOffsetBegin=718 CharacterOffsetEnd=724 PartOfSpeech=NN]
-[Text=possibly CharacterOffsetBegin=725 CharacterOffsetEnd=733 PartOfSpeech=RB]
-[Text=picture CharacterOffsetBegin=734 CharacterOffsetEnd=741 PartOfSpeech=NN]
-[Text=Jon CharacterOffsetBegin=742 CharacterOffsetEnd=745 PartOfSpeech=NNP]
-[Text=Snow CharacterOffsetBegin=746 CharacterOffsetEnd=750 PartOfSpeech=NNP]
-[Text=sitting CharacterOffsetBegin=751 CharacterOffsetEnd=758 PartOfSpeech=VBG]
-[Text=on CharacterOffsetBegin=759 CharacterOffsetEnd=761 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=762 CharacterOffsetEnd=765 PartOfSpeech=DT]
-[Text=iron CharacterOffsetBegin=766 CharacterOffsetEnd=770 PartOfSpeech=NN]
-[Text=throne CharacterOffsetBegin=771 CharacterOffsetEnd=777 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=778 CharacterOffsetEnd=780 PartOfSpeech=IN]
-[Text=King CharacterOffsetBegin=781 CharacterOffsetEnd=785 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=785 CharacterOffsetEnd=787 PartOfSpeech=POS]
-[Text=Landing CharacterOffsetBegin=788 CharacterOffsetEnd=795 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=796 CharacterOffsetEnd=799 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=800 CharacterOffsetEnd=803 PartOfSpeech=DT]
-[Text=rest CharacterOffsetBegin=804 CharacterOffsetEnd=808 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=809 CharacterOffsetEnd=811 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=812 CharacterOffsetEnd=815 PartOfSpeech=PRP$]
-[Text=days CharacterOffsetBegin=816 CharacterOffsetEnd=820 PartOfSpeech=NNS]
-[Text=. CharacterOffsetBegin=820 CharacterOffsetEnd=821 PartOfSpeech=.]
-Sentence #7 (12 tokens):
+[Text=Can CharacterOffsetBegin=715 CharacterOffsetEnd=718 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=anyone CharacterOffsetBegin=719 CharacterOffsetEnd=725 PartOfSpeech=NN Lemma=anyone NamedEntityTag=O]
+[Text=possibly CharacterOffsetBegin=726 CharacterOffsetEnd=734 PartOfSpeech=RB Lemma=possibly NamedEntityTag=O]
+[Text=picture CharacterOffsetBegin=735 CharacterOffsetEnd=742 PartOfSpeech=NN Lemma=picture NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=743 CharacterOffsetEnd=746 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=Snow CharacterOffsetBegin=747 CharacterOffsetEnd=751 PartOfSpeech=NNP Lemma=Snow NamedEntityTag=PERSON]
+[Text=sitting CharacterOffsetBegin=752 CharacterOffsetEnd=759 PartOfSpeech=VBG Lemma=sit NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=760 CharacterOffsetEnd=762 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=763 CharacterOffsetEnd=766 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=iron CharacterOffsetBegin=767 CharacterOffsetEnd=771 PartOfSpeech=NN Lemma=iron NamedEntityTag=O]
+[Text=throne CharacterOffsetBegin=772 CharacterOffsetEnd=778 PartOfSpeech=NN Lemma=throne NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=779 CharacterOffsetEnd=781 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=782 CharacterOffsetEnd=786 PartOfSpeech=NNP Lemma=King NamedEntityTag=ORGANIZATION]
+[Text='s CharacterOffsetBegin=786 CharacterOffsetEnd=788 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Landing CharacterOffsetBegin=789 CharacterOffsetEnd=796 PartOfSpeech=NN Lemma=landing NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=797 CharacterOffsetEnd=800 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=801 CharacterOffsetEnd=804 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=rest CharacterOffsetBegin=805 CharacterOffsetEnd=809 PartOfSpeech=NN Lemma=rest NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=810 CharacterOffsetEnd=812 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=813 CharacterOffsetEnd=816 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=days CharacterOffsetBegin=817 CharacterOffsetEnd=821 PartOfSpeech=NNS Lemma=day NamedEntityTag=DURATION NormalizedNamedEntityTag=PXD Timex=<TIMEX3 tid="t1" type="DURATION" value="PXD">days</TIMEX3>]
+[Text=. CharacterOffsetBegin=821 CharacterOffsetEnd=822 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (VP (MD Can)
+      (NP (NN anyone) (RB possibly))
+      (S
+        (NP
+          (NP (NN picture) (NNP Jon) (NNP Snow))
+          (VP (VBG sitting)
+            (PP (IN on)
+              (NP
+                (NP (DT the) (NN iron) (NN throne))
+                (PP (IN in)
+                  (NP
+                    (NP (NNP King) (POS 's))
+                    (NN Landing)))))
+            (PP (IN for)
+              (NP
+                (NP (DT the) (NN rest))
+                (PP (IN of)
+                  (NP (PRP$ his) (NNS days)))))))))
+    (. .)))
+
+root(ROOT-0, Can-1)
+dobj(Can-1, anyone-2)
+advmod(anyone-2, possibly-3)
+compound(Snow-6, picture-4)
+compound(Snow-6, Jon-5)
+xcomp(Can-1, Snow-6)
+acl(Snow-6, sitting-7)
+case(throne-11, on-8)
+det(throne-11, the-9)
+compound(throne-11, iron-10)
+nmod:on(sitting-7, throne-11)
+case(Landing-15, in-12)
+nmod:poss(Landing-15, King-13)
+case(King-13, 's-14)
+nmod:in(throne-11, Landing-15)
+case(rest-18, for-16)
+det(rest-18, the-17)
+nmod:for(sitting-7, rest-18)
+case(days-21, of-19)
+nmod:poss(days-21, his-20)
+nmod:of(rest-18, days-21)
+punct(Can-1, .-22)
+
+Sentence #8 (12 tokens):
 Or try and picture Daenarys sitting on a throne in Winterfell.
-[Text=Or CharacterOffsetBegin=822 CharacterOffsetEnd=824 PartOfSpeech=CC]
-[Text=try CharacterOffsetBegin=825 CharacterOffsetEnd=828 PartOfSpeech=VB]
-[Text=and CharacterOffsetBegin=829 CharacterOffsetEnd=832 PartOfSpeech=CC]
-[Text=picture CharacterOffsetBegin=833 CharacterOffsetEnd=840 PartOfSpeech=VB]
-[Text=Daenarys CharacterOffsetBegin=841 CharacterOffsetEnd=849 PartOfSpeech=NNP]
-[Text=sitting CharacterOffsetBegin=850 CharacterOffsetEnd=857 PartOfSpeech=VBG]
-[Text=on CharacterOffsetBegin=858 CharacterOffsetEnd=860 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=861 CharacterOffsetEnd=862 PartOfSpeech=DT]
-[Text=throne CharacterOffsetBegin=863 CharacterOffsetEnd=869 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=870 CharacterOffsetEnd=872 PartOfSpeech=IN]
-[Text=Winterfell CharacterOffsetBegin=873 CharacterOffsetEnd=883 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=883 CharacterOffsetEnd=884 PartOfSpeech=.]
-Sentence #8 (25 tokens):
+[Text=Or CharacterOffsetBegin=823 CharacterOffsetEnd=825 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=try CharacterOffsetBegin=826 CharacterOffsetEnd=829 PartOfSpeech=VB Lemma=try NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=830 CharacterOffsetEnd=833 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=picture CharacterOffsetBegin=834 CharacterOffsetEnd=841 PartOfSpeech=VB Lemma=picture NamedEntityTag=O]
+[Text=Daenarys CharacterOffsetBegin=842 CharacterOffsetEnd=850 PartOfSpeech=NNP Lemma=Daenarys NamedEntityTag=O]
+[Text=sitting CharacterOffsetBegin=851 CharacterOffsetEnd=858 PartOfSpeech=VBG Lemma=sit NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=859 CharacterOffsetEnd=861 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=862 CharacterOffsetEnd=863 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=throne CharacterOffsetBegin=864 CharacterOffsetEnd=870 PartOfSpeech=NN Lemma=throne NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=871 CharacterOffsetEnd=873 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Winterfell CharacterOffsetBegin=874 CharacterOffsetEnd=884 PartOfSpeech=NNP Lemma=Winterfell NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=884 CharacterOffsetEnd=885 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (FRAG (CC Or)
+    (VP (VB try)
+      (CC and)
+      (VB picture)
+      (NP
+        (NP (NNP Daenarys))
+        (VP (VBG sitting)
+          (PP (IN on)
+            (NP
+              (NP (DT a) (NN throne))
+              (PP (IN in)
+                (NP (NNP Winterfell))))))))
+    (. .)))
+
+root(ROOT-0, try-2)
+cc(try-2, Or-1)
+cc(try-2, and-3)
+conj:and(try-2, picture-4)
+dobj(try-2, Daenarys-5)
+acl(Daenarys-5, sitting-6)
+case(throne-9, on-7)
+det(throne-9, a-8)
+nmod:on(sitting-6, throne-9)
+case(Winterfell-11, in-10)
+nmod:in(throne-9, Winterfell-11)
+punct(try-2, .-12)
+
+Sentence #9 (25 tokens):
 I think at this point in the show Jon would do similar to Ned Stark and pass on the opportunity to wear the crown.
-[Text=I CharacterOffsetBegin=885 CharacterOffsetEnd=886 PartOfSpeech=PRP]
-[Text=think CharacterOffsetBegin=887 CharacterOffsetEnd=892 PartOfSpeech=VBP]
-[Text=at CharacterOffsetBegin=893 CharacterOffsetEnd=895 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=896 CharacterOffsetEnd=900 PartOfSpeech=DT]
-[Text=point CharacterOffsetBegin=901 CharacterOffsetEnd=906 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=907 CharacterOffsetEnd=909 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=910 CharacterOffsetEnd=913 PartOfSpeech=DT]
-[Text=show CharacterOffsetBegin=914 CharacterOffsetEnd=918 PartOfSpeech=NN]
-[Text=Jon CharacterOffsetBegin=919 CharacterOffsetEnd=922 PartOfSpeech=NNP]
-[Text=would CharacterOffsetBegin=923 CharacterOffsetEnd=928 PartOfSpeech=MD]
-[Text=do CharacterOffsetBegin=929 CharacterOffsetEnd=931 PartOfSpeech=VB]
-[Text=similar CharacterOffsetBegin=932 CharacterOffsetEnd=939 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=940 CharacterOffsetEnd=942 PartOfSpeech=TO]
-[Text=Ned CharacterOffsetBegin=943 CharacterOffsetEnd=946 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=947 CharacterOffsetEnd=952 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=953 CharacterOffsetEnd=956 PartOfSpeech=CC]
-[Text=pass CharacterOffsetBegin=957 CharacterOffsetEnd=961 PartOfSpeech=VB]
-[Text=on CharacterOffsetBegin=962 CharacterOffsetEnd=964 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=965 CharacterOffsetEnd=968 PartOfSpeech=DT]
-[Text=opportunity CharacterOffsetBegin=969 CharacterOffsetEnd=980 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=981 CharacterOffsetEnd=983 PartOfSpeech=TO]
-[Text=wear CharacterOffsetBegin=984 CharacterOffsetEnd=988 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=989 CharacterOffsetEnd=992 PartOfSpeech=DT]
-[Text=crown CharacterOffsetBegin=993 CharacterOffsetEnd=998 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=998 CharacterOffsetEnd=999 PartOfSpeech=.]
+[Text=I CharacterOffsetBegin=886 CharacterOffsetEnd=887 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=think CharacterOffsetBegin=888 CharacterOffsetEnd=893 PartOfSpeech=VBP Lemma=think NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=894 CharacterOffsetEnd=896 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=897 CharacterOffsetEnd=901 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=point CharacterOffsetBegin=902 CharacterOffsetEnd=907 PartOfSpeech=NN Lemma=point NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=908 CharacterOffsetEnd=910 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=911 CharacterOffsetEnd=914 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=show CharacterOffsetBegin=915 CharacterOffsetEnd=919 PartOfSpeech=NN Lemma=show NamedEntityTag=O]
+[Text=Jon CharacterOffsetBegin=920 CharacterOffsetEnd=923 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=would CharacterOffsetBegin=924 CharacterOffsetEnd=929 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=930 CharacterOffsetEnd=932 PartOfSpeech=VB Lemma=do NamedEntityTag=O]
+[Text=similar CharacterOffsetBegin=933 CharacterOffsetEnd=940 PartOfSpeech=JJ Lemma=similar NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=941 CharacterOffsetEnd=943 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Ned CharacterOffsetBegin=944 CharacterOffsetEnd=947 PartOfSpeech=NNP Lemma=Ned NamedEntityTag=PERSON]
+[Text=Stark CharacterOffsetBegin=948 CharacterOffsetEnd=953 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=954 CharacterOffsetEnd=957 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=pass CharacterOffsetBegin=958 CharacterOffsetEnd=962 PartOfSpeech=VB Lemma=pass NamedEntityTag=O]
+[Text=on CharacterOffsetBegin=963 CharacterOffsetEnd=965 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=966 CharacterOffsetEnd=969 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=opportunity CharacterOffsetBegin=970 CharacterOffsetEnd=981 PartOfSpeech=NN Lemma=opportunity NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=982 CharacterOffsetEnd=984 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=wear CharacterOffsetBegin=985 CharacterOffsetEnd=989 PartOfSpeech=VB Lemma=wear NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=990 CharacterOffsetEnd=993 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=crown CharacterOffsetBegin=994 CharacterOffsetEnd=999 PartOfSpeech=NN Lemma=crown NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=999 CharacterOffsetEnd=1000 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP I))
+    (VP (VBP think)
+      (PP (IN at)
+        (NP
+          (NP (DT this) (NN point))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (NN show))
+              (SBAR
+                (S
+                  (NP (NNP Jon))
+                  (VP (MD would)
+                    (VP
+                      (VP (VB do)
+                        (ADJP (JJ similar)
+                          (PP (TO to)
+                            (NP (NNP Ned) (NNP Stark)))))
+                      (CC and)
+                      (VP (VB pass)
+                        (PP (IN on)
+                          (NP (DT the) (NN opportunity)
+                            (S
+                              (VP (TO to)
+                                (VP (VB wear)
+                                  (NP (DT the) (NN crown)))))))))))))))))
+    (. .)))
+
+root(ROOT-0, think-2)
+nsubj(think-2, I-1)
+case(point-5, at-3)
+det(point-5, this-4)
+nmod:at(think-2, point-5)
+case(show-8, in-6)
+det(show-8, the-7)
+nmod:in(point-5, show-8)
+nsubj(do-11, Jon-9)
+nsubj(pass-17, Jon-9)
+aux(do-11, would-10)
+acl:relcl(show-8, do-11)
+xcomp(do-11, similar-12)
+case(Stark-15, to-13)
+compound(Stark-15, Ned-14)
+nmod:to(similar-12, Stark-15)
+cc(do-11, and-16)
+acl:relcl(show-8, pass-17)
+conj:and(do-11, pass-17)
+case(opportunity-20, on-18)
+det(opportunity-20, the-19)
+nmod:on(pass-17, opportunity-20)
+mark(wear-22, to-21)
+acl:to(opportunity-20, wear-22)
+det(crown-24, the-23)
+dobj(wear-22, crown-24)
+punct(think-2, .-25)
+
+Coreference set:
+	(3,11,[11,12]) -> (2,13,[13,14]), that is: "Jon" -> "Jon"
+	(3,16,[13,17]) -> (2,13,[13,14]), that is: "Rhaegar Targaryan 's son" -> "Jon"
+	(5,2,[2,3]) -> (2,13,[13,14]), that is: "Jon" -> "Jon"
+	(6,20,[20,21]) -> (2,13,[13,14]), that is: "Jon" -> "Jon"
+	(9,9,[9,10]) -> (2,13,[13,14]), that is: "Jon" -> "Jon"
+Coreference set:
+	(3,22,[22,23]) -> (2,9,[8,11]), that is: "Dany" -> "rival Dany 's"
+	(3,23,[23,24]) -> (2,9,[8,11]), that is: "his" -> "rival Dany 's"
+	(5,4,[4,5]) -> (2,9,[8,11]), that is: "Dany" -> "rival Dany 's"
+	(6,22,[22,23]) -> (2,9,[8,11]), that is: "Dany" -> "rival Dany 's"
+Coreference set:
+	(4,5,[5,7]) -> (3,14,[13,16]), that is: "Targaryan 's" -> "Rhaegar Targaryan 's"
+Coreference set:
+	(3,19,[19,20]) -> (3,7,[6,8]), that is: "that" -> "this match"
+Coreference set:
+	(4,23,[23,24]) -> (4,11,[9,12]), that is: "that" -> "an uncommon thing"
+Coreference set:
+	(6,1,[1,2]) -> (4,14,[14,15]), that is: "My" -> "I"
+	(6,4,[4,5]) -> (4,14,[14,15]), that is: "I" -> "I"
+	(9,1,[1,2]) -> (4,14,[14,15]), that is: "I" -> "I"
+Coreference set:
+	(5,18,[18,19]) -> (5,2,[2,5]), that is: "they" -> "Jon and Dany"
+	(6,20,[20,23]) -> (5,2,[2,5]), that is: "Jon and Dany" -> "Jon and Dany"
+Coreference set:
+	(5,14,[14,15]) -> (5,12,[11,13]), that is: "it" -> "the world"
+Coreference set:
+	(7,20,[20,21]) -> (7,2,[2,4]), that is: "his" -> "anyone possibly"

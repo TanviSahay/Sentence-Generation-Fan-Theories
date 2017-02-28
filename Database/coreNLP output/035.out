@@ -1,47 +1,157 @@
 Sentence #1 (27 tokens):
 Varys will be revealed to have been aligned with Qyburn, who has helped Cersei to power with the endgame of bringing Kings Landing to chaos.
-[Text=Varys CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=MD]
-[Text=be CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VB]
-[Text=revealed CharacterOffsetBegin=14 CharacterOffsetEnd=22 PartOfSpeech=VBN]
-[Text=to CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=TO]
-[Text=have CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=VB]
-[Text=been CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=VBN]
-[Text=aligned CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=VBN]
-[Text=with CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=IN]
-[Text=Qyburn CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=,]
-[Text=who CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=WP]
-[Text=has CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=VBZ]
-[Text=helped CharacterOffsetBegin=65 CharacterOffsetEnd=71 PartOfSpeech=VBN]
-[Text=Cersei CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=TO]
-[Text=power CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=NN]
-[Text=with CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=DT]
-[Text=endgame CharacterOffsetBegin=97 CharacterOffsetEnd=104 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=IN]
-[Text=bringing CharacterOffsetBegin=108 CharacterOffsetEnd=116 PartOfSpeech=VBG]
-[Text=Kings CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=NNPS]
-[Text=Landing CharacterOffsetBegin=123 CharacterOffsetEnd=130 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=TO]
-[Text=chaos CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=.]
-Sentence #2 (16 tokens):
-This was to ensure Dany's takeover would not be met with much resistance at KL
-[Text=This CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=DT]
-[Text=was CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=VBD]
-[Text=to CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=TO]
-[Text=ensure CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=VB]
-[Text=Dany CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=POS]
-[Text=takeover CharacterOffsetBegin=167 CharacterOffsetEnd=175 PartOfSpeech=NN]
-[Text=would CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=MD]
-[Text=not CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=RB]
-[Text=be CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=VB]
-[Text=met CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=VBN]
-[Text=with CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=IN]
-[Text=much CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=JJ]
-[Text=resistance CharacterOffsetBegin=203 CharacterOffsetEnd=213 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=IN]
-[Text=KL CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=NNP]
+[Text=Varys CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Varys NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=6 CharacterOffsetEnd=10 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=revealed CharacterOffsetBegin=14 CharacterOffsetEnd=22 PartOfSpeech=VBN Lemma=reveal NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=26 CharacterOffsetEnd=30 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=aligned CharacterOffsetBegin=36 CharacterOffsetEnd=43 PartOfSpeech=VBN Lemma=align NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=Qyburn CharacterOffsetBegin=49 CharacterOffsetEnd=55 PartOfSpeech=NNP Lemma=Qyburn NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=57 CharacterOffsetEnd=60 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=61 CharacterOffsetEnd=64 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=helped CharacterOffsetBegin=65 CharacterOffsetEnd=71 PartOfSpeech=VBN Lemma=help NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=72 CharacterOffsetEnd=78 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=to CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=power CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=NN Lemma=power NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=endgame CharacterOffsetBegin=97 CharacterOffsetEnd=104 PartOfSpeech=NN Lemma=endgame NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=105 CharacterOffsetEnd=107 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=bringing CharacterOffsetBegin=108 CharacterOffsetEnd=116 PartOfSpeech=VBG Lemma=bring NamedEntityTag=O]
+[Text=Kings CharacterOffsetBegin=117 CharacterOffsetEnd=122 PartOfSpeech=NNPS Lemma=Kings NamedEntityTag=O]
+[Text=Landing CharacterOffsetBegin=123 CharacterOffsetEnd=130 PartOfSpeech=NN Lemma=landing NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=131 CharacterOffsetEnd=133 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=chaos CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=NN Lemma=chaos NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Varys))
+    (VP (MD will)
+      (VP (VB be)
+        (VP (VBN revealed)
+          (S
+            (VP (TO to)
+              (VP (VB have)
+                (VP (VBN been)
+                  (VP (VBN aligned)
+                    (PP (IN with)
+                      (NP
+                        (NP (NNP Qyburn))
+                        (, ,)
+                        (SBAR
+                          (WHNP (WP who))
+                          (S
+                            (VP (VBZ has)
+                              (VP (VBN helped)
+                                (NP
+                                  (NP (NNP Cersei))
+                                  (PP (TO to)
+                                    (NP (NN power))))
+                                (PP (IN with)
+                                  (NP
+                                    (NP (DT the) (NN endgame))
+                                    (PP (IN of)
+                                      (S
+                                        (VP (VBG bringing)
+                                          (NP (NNPS Kings))
+                                          (NP
+                                            (NP (NN Landing))
+                                            (PP (TO to)
+                                              (NP (NN chaos)))))))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, revealed-4)
+nsubjpass(revealed-4, Varys-1)
+nsubjpass:xsubj(aligned-8, Varys-1)
+aux(revealed-4, will-2)
+auxpass(revealed-4, be-3)
+mark(aligned-8, to-5)
+aux(aligned-8, have-6)
+auxpass(aligned-8, been-7)
+xcomp(revealed-4, aligned-8)
+case(Qyburn-10, with-9)
+nmod:with(aligned-8, Qyburn-10)
+nsubj(helped-14, Qyburn-10)
+punct(Qyburn-10, ,-11)
+ref(Qyburn-10, who-12)
+aux(helped-14, has-13)
+acl:relcl(Qyburn-10, helped-14)
+dobj(helped-14, Cersei-15)
+case(power-17, to-16)
+nmod:to(Cersei-15, power-17)
+case(endgame-20, with-18)
+det(endgame-20, the-19)
+nmod:with(helped-14, endgame-20)
+mark(bringing-22, of-21)
+acl:of(endgame-20, bringing-22)
+iobj(bringing-22, Kings-23)
+dobj(bringing-22, Landing-24)
+case(chaos-26, to-25)
+nmod:to(Landing-24, chaos-26)
+punct(revealed-4, .-27)
+
+Sentence #2 (17 tokens):
+This was to ensure Dany's takeover would not be met with much resistance at KL.
+[Text=This CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=150 CharacterOffsetEnd=152 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=ensure CharacterOffsetBegin=153 CharacterOffsetEnd=159 PartOfSpeech=VB Lemma=ensure NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=164 CharacterOffsetEnd=166 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=takeover CharacterOffsetBegin=167 CharacterOffsetEnd=175 PartOfSpeech=NN Lemma=takeover NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=176 CharacterOffsetEnd=181 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=met CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=VBN Lemma=meet NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=193 CharacterOffsetEnd=197 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=much CharacterOffsetBegin=198 CharacterOffsetEnd=202 PartOfSpeech=JJ Lemma=much NamedEntityTag=O]
+[Text=resistance CharacterOffsetBegin=203 CharacterOffsetEnd=213 PartOfSpeech=NN Lemma=resistance NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=214 CharacterOffsetEnd=216 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=KL CharacterOffsetBegin=217 CharacterOffsetEnd=219 PartOfSpeech=NNP Lemma=KL NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=219 CharacterOffsetEnd=220 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBD was)
+      (S
+        (VP (TO to)
+          (VP (VB ensure)
+            (SBAR
+              (S
+                (NP
+                  (NP (NNP Dany) (POS 's))
+                  (NN takeover))
+                (VP (MD would) (RB not)
+                  (VP (VB be)
+                    (VP (VBN met)
+                      (PP (IN with)
+                        (NP (JJ much) (NN resistance)))
+                      (PP (IN at)
+                        (NP (NNP KL))))))))))))
+    (. .)))
+
+root(ROOT-0, was-2)
+nsubj(was-2, This-1)
+nsubj:xsubj(ensure-4, This-1)
+mark(ensure-4, to-3)
+xcomp(was-2, ensure-4)
+nmod:poss(takeover-7, Dany-5)
+case(Dany-5, 's-6)
+nsubjpass(met-11, takeover-7)
+aux(met-11, would-8)
+neg(met-11, not-9)
+auxpass(met-11, be-10)
+ccomp(ensure-4, met-11)
+case(resistance-14, with-12)
+amod(resistance-14, much-13)
+nmod:with(met-11, resistance-14)
+case(KL-16, at-15)
+nmod:at(met-11, KL-16)
+punct(was-2, .-17)
+
+Coreference set:
+	(1,20,[19,27]) -> (2,16,[16,17]), that is: "the endgame of bringing Kings Landing to chaos" -> "KL"

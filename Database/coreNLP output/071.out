@@ -1,95 +1,298 @@
 Sentence #1 (15 tokens):
 That cat Arya used to chase around the Red Keep is Princess Rhaenys Targaryen.
-[Text=That CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=DT]
-[Text=cat CharacterOffsetBegin=5 CharacterOffsetEnd=8 PartOfSpeech=NN]
-[Text=Arya CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NNP]
-[Text=used CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=VBD]
-[Text=to CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=TO]
-[Text=chase CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=VB]
-[Text=around CharacterOffsetBegin=28 CharacterOffsetEnd=34 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=DT]
-[Text=Red CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=NNP]
-[Text=Keep CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=VB]
-[Text=is CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=VBZ]
-[Text=Princess CharacterOffsetBegin=51 CharacterOffsetEnd=59 PartOfSpeech=NNP]
-[Text=Rhaenys CharacterOffsetBegin=60 CharacterOffsetEnd=67 PartOfSpeech=NNP]
-[Text=Targaryen CharacterOffsetBegin=68 CharacterOffsetEnd=77 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=.]
+[Text=That CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=cat CharacterOffsetBegin=5 CharacterOffsetEnd=8 PartOfSpeech=NN Lemma=cat NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=9 CharacterOffsetEnd=13 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=used CharacterOffsetBegin=14 CharacterOffsetEnd=18 PartOfSpeech=VBD Lemma=use NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=19 CharacterOffsetEnd=21 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=chase CharacterOffsetBegin=22 CharacterOffsetEnd=27 PartOfSpeech=VB Lemma=chase NamedEntityTag=O]
+[Text=around CharacterOffsetBegin=28 CharacterOffsetEnd=34 PartOfSpeech=IN Lemma=around NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=35 CharacterOffsetEnd=38 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Red CharacterOffsetBegin=39 CharacterOffsetEnd=42 PartOfSpeech=NNP Lemma=Red NamedEntityTag=O]
+[Text=Keep CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=VB Lemma=keep NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=48 CharacterOffsetEnd=50 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=Princess CharacterOffsetBegin=51 CharacterOffsetEnd=59 PartOfSpeech=NNP Lemma=Princess NamedEntityTag=O]
+[Text=Rhaenys CharacterOffsetBegin=60 CharacterOffsetEnd=67 PartOfSpeech=NNP Lemma=Rhaenys NamedEntityTag=PERSON]
+[Text=Targaryen CharacterOffsetBegin=68 CharacterOffsetEnd=77 PartOfSpeech=NNP Lemma=Targaryen NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (DT That) (NN cat))
+      (SBAR
+        (S
+          (NP (NNP Arya))
+          (VP (VBD used)
+            (S
+              (VP (TO to)
+                (VP (VB chase)
+                  (PP (IN around)
+                    (NP (DT the) (NNP Red)))
+                  (S
+                    (VP (VB Keep))))))))))
+    (VP (VBZ is)
+      (NP (NNP Princess) (NNP Rhaenys) (NNP Targaryen)))
+    (. .)))
+
+root(ROOT-0, Targaryen-14)
+det(cat-2, That-1)
+nsubj(Targaryen-14, cat-2)
+nsubj(used-4, Arya-3)
+nsubj:xsubj(chase-6, Arya-3)
+acl:relcl(cat-2, used-4)
+mark(chase-6, to-5)
+xcomp(used-4, chase-6)
+case(Red-9, around-7)
+det(Red-9, the-8)
+nmod:around(chase-6, Red-9)
+ccomp(chase-6, Keep-10)
+cop(Targaryen-14, is-11)
+compound(Targaryen-14, Princess-12)
+compound(Targaryen-14, Rhaenys-13)
+punct(Targaryen-14, .-15)
+
 Sentence #2 (28 tokens):
 At the very least, the cat is probably Balerion, the black kitten Rhaenys kept before she was killed during the Sack of King's Landing.
-[Text=At CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=DT]
-[Text=very CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=RB]
-[Text=least CharacterOffsetBegin=91 CharacterOffsetEnd=96 PartOfSpeech=JJS]
-[Text=, CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=DT]
-[Text=cat CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=VBZ]
-[Text=probably CharacterOffsetBegin=109 CharacterOffsetEnd=117 PartOfSpeech=RB]
-[Text=Balerion CharacterOffsetBegin=118 CharacterOffsetEnd=126 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=DT]
-[Text=black CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=JJ]
-[Text=kitten CharacterOffsetBegin=138 CharacterOffsetEnd=144 PartOfSpeech=NN]
-[Text=Rhaenys CharacterOffsetBegin=145 CharacterOffsetEnd=152 PartOfSpeech=NNPS]
-[Text=kept CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=VBD]
-[Text=before CharacterOffsetBegin=158 CharacterOffsetEnd=164 PartOfSpeech=IN]
-[Text=she CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=VBD]
-[Text=killed CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=VBN]
-[Text=during CharacterOffsetBegin=180 CharacterOffsetEnd=186 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=DT]
-[Text=Sack CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=IN]
-[Text=King CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=POS]
-[Text=Landing CharacterOffsetBegin=206 CharacterOffsetEnd=213 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=.]
+[Text=At CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=very CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=RB Lemma=very NamedEntityTag=O]
+[Text=least CharacterOffsetBegin=91 CharacterOffsetEnd=96 PartOfSpeech=JJS Lemma=least NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=96 CharacterOffsetEnd=97 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=98 CharacterOffsetEnd=101 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=cat CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=NN Lemma=cat NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=probably CharacterOffsetBegin=109 CharacterOffsetEnd=117 PartOfSpeech=RB Lemma=probably NamedEntityTag=O]
+[Text=Balerion CharacterOffsetBegin=118 CharacterOffsetEnd=126 PartOfSpeech=NNP Lemma=Balerion NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=126 CharacterOffsetEnd=127 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=128 CharacterOffsetEnd=131 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=black CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=JJ Lemma=black NamedEntityTag=O]
+[Text=kitten CharacterOffsetBegin=138 CharacterOffsetEnd=144 PartOfSpeech=NN Lemma=kitten NamedEntityTag=O]
+[Text=Rhaenys CharacterOffsetBegin=145 CharacterOffsetEnd=152 PartOfSpeech=NNPS Lemma=Rhaenys NamedEntityTag=PERSON]
+[Text=kept CharacterOffsetBegin=153 CharacterOffsetEnd=157 PartOfSpeech=VBD Lemma=keep NamedEntityTag=O]
+[Text=before CharacterOffsetBegin=158 CharacterOffsetEnd=164 PartOfSpeech=IN Lemma=before NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=169 CharacterOffsetEnd=172 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=killed CharacterOffsetBegin=173 CharacterOffsetEnd=179 PartOfSpeech=VBN Lemma=kill NamedEntityTag=O]
+[Text=during CharacterOffsetBegin=180 CharacterOffsetEnd=186 PartOfSpeech=IN Lemma=during NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Sack CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=NN Lemma=sack NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=196 CharacterOffsetEnd=198 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=Landing CharacterOffsetBegin=206 CharacterOffsetEnd=213 PartOfSpeech=NN Lemma=landing NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=213 CharacterOffsetEnd=214 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN At)
+      (NP (DT the) (RB very) (JJS least)))
+    (, ,)
+    (NP (DT the) (NN cat))
+    (VP (VBZ is)
+      (ADVP (RB probably))
+      (NP
+        (NP (NNP Balerion))
+        (, ,)
+        (NP
+          (NP (DT the) (JJ black) (NN kitten))
+          (SBAR
+            (S
+              (NP (NNPS Rhaenys))
+              (VP (VBD kept)
+                (SBAR (IN before)
+                  (S
+                    (NP (PRP she))
+                    (VP (VBD was)
+                      (VP (VBN killed)
+                        (PP (IN during)
+                          (NP
+                            (NP (DT the) (NN Sack))
+                            (PP (IN of)
+                              (NP
+                                (NP (NNP King) (POS 's))
+                                (NN Landing)))))))))))))))
+    (. .)))
+
+root(ROOT-0, Balerion-10)
+case(least-4, At-1)
+det(least-4, the-2)
+advmod(least-4, very-3)
+nmod:at(Balerion-10, least-4)
+punct(Balerion-10, ,-5)
+det(cat-7, the-6)
+nsubj(Balerion-10, cat-7)
+cop(Balerion-10, is-8)
+advmod(Balerion-10, probably-9)
+punct(Balerion-10, ,-11)
+det(kitten-14, the-12)
+amod(kitten-14, black-13)
+appos(Balerion-10, kitten-14)
+nsubj(kept-16, Rhaenys-15)
+acl:relcl(kitten-14, kept-16)
+mark(killed-20, before-17)
+nsubjpass(killed-20, she-18)
+auxpass(killed-20, was-19)
+advcl:before(kept-16, killed-20)
+case(Sack-23, during-21)
+det(Sack-23, the-22)
+nmod:during(killed-20, Sack-23)
+case(Landing-27, of-24)
+nmod:poss(Landing-27, King-25)
+case(King-25, 's-26)
+nmod:of(Sack-23, Landing-27)
+punct(Balerion-10, .-28)
+
 Sentence #3 (30 tokens):
 To take it further, the Targaryens (like the Starks) have historically been able to warg, and Rhaenys accidentally warged into Balerion right before her death.
-[Text=To CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=TO]
-[Text=take CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=VB]
-[Text=it CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=PRP]
-[Text=further CharacterOffsetBegin=226 CharacterOffsetEnd=233 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=DT]
-[Text=Targaryens CharacterOffsetBegin=239 CharacterOffsetEnd=249 PartOfSpeech=NNP]
-[Text=-LRB- CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=-LRB-]
-[Text=like CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=256 CharacterOffsetEnd=259 PartOfSpeech=DT]
-[Text=Starks CharacterOffsetBegin=260 CharacterOffsetEnd=266 PartOfSpeech=NNP]
-[Text=-RRB- CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=-RRB-]
-[Text=have CharacterOffsetBegin=268 CharacterOffsetEnd=272 PartOfSpeech=VBP]
-[Text=historically CharacterOffsetBegin=273 CharacterOffsetEnd=285 PartOfSpeech=RB]
-[Text=been CharacterOffsetBegin=286 CharacterOffsetEnd=290 PartOfSpeech=VBN]
-[Text=able CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=TO]
-[Text=warg CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=CC]
-[Text=Rhaenys CharacterOffsetBegin=309 CharacterOffsetEnd=316 PartOfSpeech=NNP]
-[Text=accidentally CharacterOffsetBegin=317 CharacterOffsetEnd=329 PartOfSpeech=RB]
-[Text=warged CharacterOffsetBegin=330 CharacterOffsetEnd=336 PartOfSpeech=VBD]
-[Text=into CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=IN]
-[Text=Balerion CharacterOffsetBegin=342 CharacterOffsetEnd=350 PartOfSpeech=NN]
-[Text=right CharacterOffsetBegin=351 CharacterOffsetEnd=356 PartOfSpeech=NN]
-[Text=before CharacterOffsetBegin=357 CharacterOffsetEnd=363 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=PRP$]
-[Text=death CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=.]
+[Text=To CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=take CharacterOffsetBegin=218 CharacterOffsetEnd=222 PartOfSpeech=VB Lemma=take NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=223 CharacterOffsetEnd=225 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=further CharacterOffsetBegin=226 CharacterOffsetEnd=233 PartOfSpeech=RB Lemma=further NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=233 CharacterOffsetEnd=234 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Targaryens CharacterOffsetBegin=239 CharacterOffsetEnd=249 PartOfSpeech=NNP Lemma=Targaryens NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=250 CharacterOffsetEnd=251 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=256 CharacterOffsetEnd=259 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Starks CharacterOffsetBegin=260 CharacterOffsetEnd=266 PartOfSpeech=NNP Lemma=Starks NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=266 CharacterOffsetEnd=267 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=268 CharacterOffsetEnd=272 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=historically CharacterOffsetBegin=273 CharacterOffsetEnd=285 PartOfSpeech=RB Lemma=historically NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=286 CharacterOffsetEnd=290 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=able CharacterOffsetBegin=291 CharacterOffsetEnd=295 PartOfSpeech=JJ Lemma=able NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=warg CharacterOffsetBegin=299 CharacterOffsetEnd=303 PartOfSpeech=NN Lemma=warg NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=303 CharacterOffsetEnd=304 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Rhaenys CharacterOffsetBegin=309 CharacterOffsetEnd=316 PartOfSpeech=NNP Lemma=Rhaenys NamedEntityTag=PERSON]
+[Text=accidentally CharacterOffsetBegin=317 CharacterOffsetEnd=329 PartOfSpeech=RB Lemma=accidentally NamedEntityTag=O]
+[Text=warged CharacterOffsetBegin=330 CharacterOffsetEnd=336 PartOfSpeech=VBD Lemma=warge NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=337 CharacterOffsetEnd=341 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=Balerion CharacterOffsetBegin=342 CharacterOffsetEnd=350 PartOfSpeech=NN Lemma=balerion NamedEntityTag=LOCATION]
+[Text=right CharacterOffsetBegin=351 CharacterOffsetEnd=356 PartOfSpeech=NN Lemma=right NamedEntityTag=O]
+[Text=before CharacterOffsetBegin=357 CharacterOffsetEnd=363 PartOfSpeech=IN Lemma=before NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=364 CharacterOffsetEnd=367 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=death CharacterOffsetBegin=368 CharacterOffsetEnd=373 PartOfSpeech=NN Lemma=death NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (VP (TO To)
+        (VP (VB take)
+          (NP (PRP it)))))
+    (S
+      (ADVP (RB further))
+      (, ,)
+      (NP
+        (NP (DT the) (NNP Targaryens))
+        (PRN (-LRB- -LRB-)
+          (PP (IN like)
+            (NP (DT the) (NNP Starks)))
+          (-RRB- -RRB-)))
+      (VP (VBP have)
+        (ADVP (RB historically))
+        (VP (VBN been)
+          (ADJP (JJ able)
+            (PP (TO to)
+              (NP (NN warg)))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP (NNP Rhaenys))
+      (ADVP (RB accidentally))
+      (VP (VBD warged)
+        (PP (IN into)
+          (NP (NN Balerion) (NN right)))
+        (PP (IN before)
+          (NP (PRP$ her) (NN death)))))
+    (. .)))
+
+root(ROOT-0, take-2)
+mark(take-2, To-1)
+dobj(take-2, it-3)
+advmod(able-16, further-4)
+punct(able-16, ,-5)
+det(Targaryens-7, the-6)
+nsubj(able-16, Targaryens-7)
+punct(Starks-11, -LRB--8)
+case(Starks-11, like-9)
+det(Starks-11, the-10)
+nmod:like(Targaryens-7, Starks-11)
+punct(Starks-11, -RRB--12)
+aux(able-16, have-13)
+advmod(able-16, historically-14)
+cop(able-16, been-15)
+ccomp(take-2, able-16)
+case(warg-18, to-17)
+nmod:to(able-16, warg-18)
+punct(take-2, ,-19)
+cc(take-2, and-20)
+nsubj(warged-23, Rhaenys-21)
+advmod(warged-23, accidentally-22)
+conj:and(take-2, warged-23)
+case(right-26, into-24)
+compound(right-26, Balerion-25)
+nmod:into(warged-23, right-26)
+case(death-29, before-27)
+nmod:poss(death-29, her-28)
+nmod:before(warged-23, death-29)
+punct(take-2, .-30)
+
 Sentence #4 (14 tokens):
 Or it's just a stray cat getting up in everybody's business.
-[Text=Or CharacterOffsetBegin=375 CharacterOffsetEnd=377 PartOfSpeech=CC]
-[Text=it CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=VBZ]
-[Text=just CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=RB]
-[Text=a CharacterOffsetBegin=388 CharacterOffsetEnd=389 PartOfSpeech=DT]
-[Text=stray CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=JJ]
-[Text=cat CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=NN]
-[Text=getting CharacterOffsetBegin=400 CharacterOffsetEnd=407 PartOfSpeech=VBG]
-[Text=up CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=RP]
-[Text=in CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=IN]
-[Text=everybody CharacterOffsetBegin=414 CharacterOffsetEnd=423 PartOfSpeech=NN]
-[Text='s CharacterOffsetBegin=423 CharacterOffsetEnd=425 PartOfSpeech=POS]
-[Text=business CharacterOffsetBegin=426 CharacterOffsetEnd=434 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=.]
+[Text=Or CharacterOffsetBegin=375 CharacterOffsetEnd=377 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=just CharacterOffsetBegin=383 CharacterOffsetEnd=387 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=388 CharacterOffsetEnd=389 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=stray CharacterOffsetBegin=390 CharacterOffsetEnd=395 PartOfSpeech=JJ Lemma=stray NamedEntityTag=O]
+[Text=cat CharacterOffsetBegin=396 CharacterOffsetEnd=399 PartOfSpeech=NN Lemma=cat NamedEntityTag=O]
+[Text=getting CharacterOffsetBegin=400 CharacterOffsetEnd=407 PartOfSpeech=VBG Lemma=get NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=408 CharacterOffsetEnd=410 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=everybody CharacterOffsetBegin=414 CharacterOffsetEnd=423 PartOfSpeech=NN Lemma=everybody NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=423 CharacterOffsetEnd=425 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=business CharacterOffsetBegin=426 CharacterOffsetEnd=434 PartOfSpeech=NN Lemma=business NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=434 CharacterOffsetEnd=435 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC Or)
+    (NP (PRP it))
+    (VP (VBZ 's)
+      (ADVP (RB just))
+      (NP
+        (NP (DT a) (JJ stray) (NN cat))
+        (VP (VBG getting)
+          (PRT (RP up))
+          (PP (IN in)
+            (NP
+              (NP (NN everybody) (POS 's))
+              (NN business))))))
+    (. .)))
+
+root(ROOT-0, cat-7)
+cc(cat-7, Or-1)
+nsubj(cat-7, it-2)
+cop(cat-7, 's-3)
+advmod(cat-7, just-4)
+det(cat-7, a-5)
+amod(cat-7, stray-6)
+acl(cat-7, getting-8)
+compound:prt(getting-8, up-9)
+case(business-13, in-10)
+nmod:poss(business-13, everybody-11)
+case(everybody-11, 's-12)
+nmod:in(getting-8, business-13)
+punct(cat-7, .-14)
+
+Coreference set:
+	(1,2,[1,11]) -> (1,14,[12,15]), that is: "That cat Arya used to chase around the Red Keep" -> "Princess Rhaenys Targaryen"
+Coreference set:
+	(2,18,[18,19]) -> (2,15,[15,16]), that is: "she" -> "Rhaenys"
+	(3,21,[21,22]) -> (2,15,[15,16]), that is: "Rhaenys" -> "Rhaenys"
+	(3,28,[28,29]) -> (2,15,[15,16]), that is: "her" -> "Rhaenys"
+Coreference set:
+	(2,7,[6,8]) -> (2,10,[10,28]), that is: "the cat" -> "Balerion , the black kitten Rhaenys kept before she was killed during the Sack of King 's Landing"
+	(2,10,[10,11]) -> (2,10,[10,28]), that is: "Balerion" -> "Balerion , the black kitten Rhaenys kept before she was killed during the Sack of King 's Landing"
+	(2,14,[12,28]) -> (2,10,[10,28]), that is: "the black kitten Rhaenys kept before she was killed during the Sack of King 's Landing" -> "Balerion , the black kitten Rhaenys kept before she was killed during the Sack of King 's Landing"
+Coreference set:
+	(3,3,[3,4]) -> (2,23,[22,28]), that is: "it" -> "the Sack of King 's Landing"
+	(4,2,[2,3]) -> (2,23,[22,28]), that is: "it" -> "the Sack of King 's Landing"

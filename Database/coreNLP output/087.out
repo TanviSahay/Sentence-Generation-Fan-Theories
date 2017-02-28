@@ -1,114 +1,363 @@
-Sentence #1 (49 tokens):
-Bran made the Mad King go mad
+Sentence #1 (8 tokens):
+Bran made the Mad King go mad.
+[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=made CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=VBD Lemma=make NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mad CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=NNP Lemma=Mad NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text=go CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=VB Lemma=go NamedEntityTag=O]
+[Text=mad CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=JJ Lemma=mad NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=29 CharacterOffsetEnd=30 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Bran))
+    (VP (VBD made)
+      (S
+        (NP (DT the) (NNP Mad) (NNP King))
+        (VP (VB go)
+          (ADJP (JJ mad)))))
+    (. .)))
+
+root(ROOT-0, made-2)
+nsubj(made-2, Bran-1)
+det(King-5, the-3)
+compound(King-5, Mad-4)
+nsubj(go-6, King-5)
+ccomp(made-2, go-6)
+xcomp(go-6, mad-7)
+punct(made-2, .-8)
+
+Sentence #2 (42 tokens):
 When Bran and the Three-Eyed Raven traveled back to the events outside the Tower of Joy in the May 8 episode, Bran was apparently able to shout and be heard by the younger version of his father, Ned Stark.
-[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=made CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=DT]
-[Text=Mad CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=NNP]
-[Text=King CharacterOffsetBegin=18 CharacterOffsetEnd=22 PartOfSpeech=NNP]
-[Text=go CharacterOffsetBegin=23 CharacterOffsetEnd=25 PartOfSpeech=VB]
-[Text=mad CharacterOffsetBegin=26 CharacterOffsetEnd=29 PartOfSpeech=JJ]
-[Text=When CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=WRB]
-[Text=Bran CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=CC]
-[Text=the CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=DT]
-[Text=Three-Eyed CharacterOffsetBegin=48 CharacterOffsetEnd=58 PartOfSpeech=NNP]
-[Text=Raven CharacterOffsetBegin=59 CharacterOffsetEnd=64 PartOfSpeech=NN]
-[Text=traveled CharacterOffsetBegin=65 CharacterOffsetEnd=73 PartOfSpeech=VBD]
-[Text=back CharacterOffsetBegin=74 CharacterOffsetEnd=78 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=79 CharacterOffsetEnd=81 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=DT]
-[Text=events CharacterOffsetBegin=86 CharacterOffsetEnd=92 PartOfSpeech=NNS]
-[Text=outside CharacterOffsetBegin=93 CharacterOffsetEnd=100 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=DT]
-[Text=Tower CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=IN]
-[Text=Joy CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=NNP]
-[Text=in CharacterOffsetBegin=118 CharacterOffsetEnd=120 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=DT]
-[Text=May CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=NNP]
-[Text=8 CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=CD]
-[Text=episode CharacterOffsetBegin=131 CharacterOffsetEnd=138 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=138 CharacterOffsetEnd=139 PartOfSpeech=,]
-[Text=Bran CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=NNP]
-[Text=was CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=VBD]
-[Text=apparently CharacterOffsetBegin=149 CharacterOffsetEnd=159 PartOfSpeech=RB]
-[Text=able CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=165 CharacterOffsetEnd=167 PartOfSpeech=TO]
-[Text=shout CharacterOffsetBegin=168 CharacterOffsetEnd=173 PartOfSpeech=VB]
-[Text=and CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=CC]
-[Text=be CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=VB]
-[Text=heard CharacterOffsetBegin=181 CharacterOffsetEnd=186 PartOfSpeech=VBN]
-[Text=by CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=DT]
-[Text=younger CharacterOffsetBegin=194 CharacterOffsetEnd=201 PartOfSpeech=JJR]
-[Text=version CharacterOffsetBegin=202 CharacterOffsetEnd=209 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=210 CharacterOffsetEnd=212 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=PRP$]
-[Text=father CharacterOffsetBegin=217 CharacterOffsetEnd=223 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=223 CharacterOffsetEnd=224 PartOfSpeech=,]
-[Text=Ned CharacterOffsetBegin=225 CharacterOffsetEnd=228 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=229 CharacterOffsetEnd=234 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=.]
-Sentence #2 (41 tokens):
+[Text=When CharacterOffsetBegin=31 CharacterOffsetEnd=35 PartOfSpeech=WRB Lemma=when NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=36 CharacterOffsetEnd=40 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=41 CharacterOffsetEnd=44 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=45 CharacterOffsetEnd=48 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Three-Eyed CharacterOffsetBegin=49 CharacterOffsetEnd=59 PartOfSpeech=NNP Lemma=Three-Eyed NamedEntityTag=MISC]
+[Text=Raven CharacterOffsetBegin=60 CharacterOffsetEnd=65 PartOfSpeech=NN Lemma=raven NamedEntityTag=MISC]
+[Text=traveled CharacterOffsetBegin=66 CharacterOffsetEnd=74 PartOfSpeech=VBD Lemma=travel NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=75 CharacterOffsetEnd=79 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=80 CharacterOffsetEnd=82 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=83 CharacterOffsetEnd=86 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=events CharacterOffsetBegin=87 CharacterOffsetEnd=93 PartOfSpeech=NNS Lemma=event NamedEntityTag=O]
+[Text=outside CharacterOffsetBegin=94 CharacterOffsetEnd=101 PartOfSpeech=IN Lemma=outside NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Tower CharacterOffsetBegin=106 CharacterOffsetEnd=111 PartOfSpeech=NN Lemma=tower NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=112 CharacterOffsetEnd=114 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Joy CharacterOffsetBegin=115 CharacterOffsetEnd=118 PartOfSpeech=NNP Lemma=Joy NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=119 CharacterOffsetEnd=121 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=122 CharacterOffsetEnd=125 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=May CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=NNP Lemma=May NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-08 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-05-08">May 8</TIMEX3>]
+[Text=8 CharacterOffsetBegin=130 CharacterOffsetEnd=131 PartOfSpeech=CD Lemma=8 NamedEntityTag=DATE NormalizedNamedEntityTag=XXXX-05-08 Timex=<TIMEX3 tid="t1" type="DATE" value="XXXX-05-08">May 8</TIMEX3>]
+[Text=episode CharacterOffsetBegin=132 CharacterOffsetEnd=139 PartOfSpeech=NN Lemma=episode NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=139 CharacterOffsetEnd=140 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=141 CharacterOffsetEnd=145 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=apparently CharacterOffsetBegin=150 CharacterOffsetEnd=160 PartOfSpeech=RB Lemma=apparently NamedEntityTag=O]
+[Text=able CharacterOffsetBegin=161 CharacterOffsetEnd=165 PartOfSpeech=JJ Lemma=able NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=shout CharacterOffsetBegin=169 CharacterOffsetEnd=174 PartOfSpeech=VB Lemma=shout NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=175 CharacterOffsetEnd=178 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=179 CharacterOffsetEnd=181 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=heard CharacterOffsetBegin=182 CharacterOffsetEnd=187 PartOfSpeech=VBN Lemma=hear NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=188 CharacterOffsetEnd=190 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=191 CharacterOffsetEnd=194 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=younger CharacterOffsetBegin=195 CharacterOffsetEnd=202 PartOfSpeech=JJR Lemma=younger NamedEntityTag=O]
+[Text=version CharacterOffsetBegin=203 CharacterOffsetEnd=210 PartOfSpeech=NN Lemma=version NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=211 CharacterOffsetEnd=213 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=father CharacterOffsetBegin=218 CharacterOffsetEnd=224 PartOfSpeech=NN Lemma=father NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Ned CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=NNP Lemma=Ned NamedEntityTag=PERSON]
+[Text=Stark CharacterOffsetBegin=230 CharacterOffsetEnd=235 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=235 CharacterOffsetEnd=236 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR
+      (WHADVP (WRB When))
+      (S
+        (NP
+          (NP (NNP Bran))
+          (CC and)
+          (NP (DT the) (NNP Three-Eyed) (NN Raven)))
+        (VP (VBD traveled)
+          (ADVP (RB back)
+            (PP (TO to)
+              (NP (DT the) (NNS events))))
+          (PP (IN outside)
+            (NP
+              (NP (DT the) (NN Tower))
+              (PP (IN of)
+                (NP (NNP Joy)))))
+          (PP (IN in)
+            (NP (DT the) (NNP May) (CD 8) (NN episode))))))
+    (, ,)
+    (NP (NNP Bran))
+    (VP (VBD was)
+      (ADVP (RB apparently))
+      (ADJP (JJ able)
+        (S
+          (VP (TO to)
+            (VP
+              (VP (VB shout))
+              (CC and)
+              (VP (VB be)
+                (VP (VBN heard)
+                  (PP (IN by)
+                    (NP
+                      (NP (DT the) (JJR younger) (NN version))
+                      (PP (IN of)
+                        (NP
+                          (NP (PRP$ his) (NN father))
+                          (, ,)
+                          (NP (NNP Ned) (NNP Stark)))))))))))))
+    (. .)))
+
+root(ROOT-0, able-26)
+advmod(traveled-7, When-1)
+nsubj(traveled-7, Bran-2)
+cc(Bran-2, and-3)
+det(Raven-6, the-4)
+compound(Raven-6, Three-Eyed-5)
+conj:and(Bran-2, Raven-6)
+nsubj(traveled-7, Raven-6)
+advcl(able-26, traveled-7)
+advmod(traveled-7, back-8)
+case(events-11, to-9)
+det(events-11, the-10)
+nmod:to(back-8, events-11)
+case(Tower-14, outside-12)
+det(Tower-14, the-13)
+nmod:outside(traveled-7, Tower-14)
+case(Joy-16, of-15)
+nmod:of(Tower-14, Joy-16)
+case(episode-21, in-17)
+det(episode-21, the-18)
+compound(episode-21, May-19)
+nummod(episode-21, 8-20)
+nmod:in(traveled-7, episode-21)
+punct(able-26, ,-22)
+nsubj(able-26, Bran-23)
+nsubj:xsubj(shout-28, Bran-23)
+nsubjpass:xsubj(heard-31, Bran-23)
+cop(able-26, was-24)
+advmod(able-26, apparently-25)
+mark(shout-28, to-27)
+xcomp(able-26, shout-28)
+cc(shout-28, and-29)
+auxpass(heard-31, be-30)
+xcomp(able-26, heard-31)
+conj:and(shout-28, heard-31)
+case(version-35, by-32)
+det(version-35, the-33)
+amod(version-35, younger-34)
+nmod:agent(heard-31, version-35)
+case(father-38, of-36)
+nmod:poss(father-38, his-37)
+nmod:of(version-35, father-38)
+punct(father-38, ,-39)
+compound(Stark-41, Ned-40)
+appos(father-38, Stark-41)
+punct(able-26, .-42)
+
+Sentence #3 (41 tokens):
 What if, going back further, the "whispers" that the Mad King Aerys Targaryen heard were simply Bran trying to talk to him and it was actually he who set in motion the events of the show?
-[Text=What CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=WP]
-[Text=if CharacterOffsetBegin=241 CharacterOffsetEnd=243 PartOfSpeech=IN]
-[Text=, CharacterOffsetBegin=243 CharacterOffsetEnd=244 PartOfSpeech=,]
-[Text=going CharacterOffsetBegin=245 CharacterOffsetEnd=250 PartOfSpeech=VBG]
-[Text=back CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=RB]
-[Text=further CharacterOffsetBegin=256 CharacterOffsetEnd=263 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=263 CharacterOffsetEnd=264 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=DT]
-[Text=`` CharacterOffsetBegin=269 CharacterOffsetEnd=270 PartOfSpeech=``]
-[Text=whispers CharacterOffsetBegin=270 CharacterOffsetEnd=278 PartOfSpeech=NNS]
-[Text='' CharacterOffsetBegin=278 CharacterOffsetEnd=279 PartOfSpeech='']
-[Text=that CharacterOffsetBegin=280 CharacterOffsetEnd=284 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=285 CharacterOffsetEnd=288 PartOfSpeech=DT]
-[Text=Mad CharacterOffsetBegin=289 CharacterOffsetEnd=292 PartOfSpeech=NNP]
-[Text=King CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=NNP]
-[Text=Aerys CharacterOffsetBegin=298 CharacterOffsetEnd=303 PartOfSpeech=NNP]
-[Text=Targaryen CharacterOffsetBegin=304 CharacterOffsetEnd=313 PartOfSpeech=NNP]
-[Text=heard CharacterOffsetBegin=314 CharacterOffsetEnd=319 PartOfSpeech=VBD]
-[Text=were CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=VBD]
-[Text=simply CharacterOffsetBegin=325 CharacterOffsetEnd=331 PartOfSpeech=RB]
-[Text=Bran CharacterOffsetBegin=332 CharacterOffsetEnd=336 PartOfSpeech=NNP]
-[Text=trying CharacterOffsetBegin=337 CharacterOffsetEnd=343 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=344 CharacterOffsetEnd=346 PartOfSpeech=TO]
-[Text=talk CharacterOffsetBegin=347 CharacterOffsetEnd=351 PartOfSpeech=VB]
-[Text=to CharacterOffsetBegin=352 CharacterOffsetEnd=354 PartOfSpeech=TO]
-[Text=him CharacterOffsetBegin=355 CharacterOffsetEnd=358 PartOfSpeech=PRP]
-[Text=and CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=CC]
-[Text=it CharacterOffsetBegin=363 CharacterOffsetEnd=365 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=VBD]
-[Text=actually CharacterOffsetBegin=370 CharacterOffsetEnd=378 PartOfSpeech=RB]
-[Text=he CharacterOffsetBegin=379 CharacterOffsetEnd=381 PartOfSpeech=PRP]
-[Text=who CharacterOffsetBegin=382 CharacterOffsetEnd=385 PartOfSpeech=WP]
-[Text=set CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=VBD]
-[Text=in CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=IN]
-[Text=motion CharacterOffsetBegin=393 CharacterOffsetEnd=399 PartOfSpeech=NN]
-[Text=the CharacterOffsetBegin=400 CharacterOffsetEnd=403 PartOfSpeech=DT]
-[Text=events CharacterOffsetBegin=404 CharacterOffsetEnd=410 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=411 CharacterOffsetEnd=413 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=414 CharacterOffsetEnd=417 PartOfSpeech=DT]
-[Text=show CharacterOffsetBegin=418 CharacterOffsetEnd=422 PartOfSpeech=NN]
-[Text=? CharacterOffsetBegin=422 CharacterOffsetEnd=423 PartOfSpeech=.]
-Sentence #3 (17 tokens):
+[Text=What CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=if CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=244 CharacterOffsetEnd=245 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=going CharacterOffsetBegin=246 CharacterOffsetEnd=251 PartOfSpeech=VBG Lemma=go NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=further CharacterOffsetBegin=257 CharacterOffsetEnd=264 PartOfSpeech=RB Lemma=further NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=264 CharacterOffsetEnd=265 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=whispers CharacterOffsetBegin=271 CharacterOffsetEnd=279 PartOfSpeech=NNS Lemma=whisper NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=279 CharacterOffsetEnd=280 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=281 CharacterOffsetEnd=285 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mad CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=NNP Lemma=Mad NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=294 CharacterOffsetEnd=298 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text=Aerys CharacterOffsetBegin=299 CharacterOffsetEnd=304 PartOfSpeech=NNP Lemma=Aerys NamedEntityTag=PERSON]
+[Text=Targaryen CharacterOffsetBegin=305 CharacterOffsetEnd=314 PartOfSpeech=NNP Lemma=Targaryen NamedEntityTag=PERSON]
+[Text=heard CharacterOffsetBegin=315 CharacterOffsetEnd=320 PartOfSpeech=VBD Lemma=hear NamedEntityTag=O]
+[Text=were CharacterOffsetBegin=321 CharacterOffsetEnd=325 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=simply CharacterOffsetBegin=326 CharacterOffsetEnd=332 PartOfSpeech=RB Lemma=simply NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=333 CharacterOffsetEnd=337 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=trying CharacterOffsetBegin=338 CharacterOffsetEnd=344 PartOfSpeech=VBG Lemma=try NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=345 CharacterOffsetEnd=347 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=talk CharacterOffsetBegin=348 CharacterOffsetEnd=352 PartOfSpeech=VB Lemma=talk NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=356 CharacterOffsetEnd=359 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=360 CharacterOffsetEnd=363 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=367 CharacterOffsetEnd=370 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=actually CharacterOffsetBegin=371 CharacterOffsetEnd=379 PartOfSpeech=RB Lemma=actually NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=380 CharacterOffsetEnd=382 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=set CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=VBD Lemma=set NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=391 CharacterOffsetEnd=393 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=motion CharacterOffsetBegin=394 CharacterOffsetEnd=400 PartOfSpeech=NN Lemma=motion NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=events CharacterOffsetBegin=405 CharacterOffsetEnd=411 PartOfSpeech=NNS Lemma=event NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=415 CharacterOffsetEnd=418 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=show CharacterOffsetBegin=419 CharacterOffsetEnd=423 PartOfSpeech=NN Lemma=show NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=423 CharacterOffsetEnd=424 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (WHNP (WP What))
+    (SBAR (IN if) (, ,)
+      (S
+        (VP (VBG going)
+          (S
+            (S
+              (ADVP (RB back) (RB further))
+              (, ,)
+              (NP
+                (NP (DT the) (`` ``) (NNS whispers) ('' ''))
+                (SBAR (IN that)
+                  (S
+                    (NP (DT the) (NNP Mad) (NNP King) (NNP Aerys) (NNP Targaryen))
+                    (VP (VBD heard)))))
+              (VP (VBD were)
+                (ADVP (RB simply))
+                (NP
+                  (NP (NNP Bran))
+                  (VP (VBG trying)
+                    (S
+                      (VP (TO to)
+                        (VP (VB talk)
+                          (PP (TO to)
+                            (NP (PRP him))))))))))
+            (CC and)
+            (S
+              (NP (PRP it))
+              (VP (VBD was)
+                (ADVP (RB actually))
+                (NP
+                  (NP (PRP he))
+                  (SBAR
+                    (WHNP (WP who))
+                    (S
+                      (VP (VBD set)
+                        (PP (IN in)
+                          (NP (NN motion)))))))))))
+        (NP-TMP
+          (NP (DT the) (NNS events))
+          (PP (IN of)
+            (NP (DT the) (NN show))))))
+    (. ?)))
+
+root(ROOT-0, going-4)
+dep(going-4, What-1)
+mark(going-4, if-2)
+punct(going-4, ,-3)
+advmod(further-6, back-5)
+advmod(Bran-21, further-6)
+punct(Bran-21, ,-7)
+det(whispers-10, the-8)
+punct(whispers-10, ``-9)
+nsubj(Bran-21, whispers-10)
+punct(whispers-10, ''-11)
+mark(heard-18, that-12)
+det(Targaryen-17, the-13)
+compound(Targaryen-17, Mad-14)
+compound(Targaryen-17, King-15)
+compound(Targaryen-17, Aerys-16)
+nsubj(heard-18, Targaryen-17)
+dep(whispers-10, heard-18)
+cop(Bran-21, were-19)
+advmod(Bran-21, simply-20)
+xcomp(going-4, Bran-21)
+acl(Bran-21, trying-22)
+mark(talk-24, to-23)
+xcomp(trying-22, talk-24)
+case(him-26, to-25)
+nmod:to(talk-24, him-26)
+cc(Bran-21, and-27)
+nsubj(he-31, it-28)
+cop(he-31, was-29)
+advmod(he-31, actually-30)
+xcomp(going-4, he-31)
+conj:and(Bran-21, he-31)
+nsubj(set-33, he-31)
+ref(he-31, who-32)
+acl:relcl(he-31, set-33)
+case(motion-35, in-34)
+nmod:in(set-33, motion-35)
+det(events-37, the-36)
+dep(going-4, events-37)
+case(show-40, of-38)
+det(show-40, the-39)
+nmod:of(events-37, show-40)
+punct(going-4, ?-41)
+
+Sentence #4 (17 tokens):
 The events of season 6, episode 5, seem to indicate this is very possible.
-[Text=The CharacterOffsetBegin=425 CharacterOffsetEnd=428 PartOfSpeech=DT]
-[Text=events CharacterOffsetBegin=429 CharacterOffsetEnd=435 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=436 CharacterOffsetEnd=438 PartOfSpeech=IN]
-[Text=season CharacterOffsetBegin=439 CharacterOffsetEnd=445 PartOfSpeech=NN]
-[Text=6 CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=CD]
-[Text=, CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=,]
-[Text=episode CharacterOffsetBegin=449 CharacterOffsetEnd=456 PartOfSpeech=NN]
-[Text=5 CharacterOffsetBegin=457 CharacterOffsetEnd=458 PartOfSpeech=CD]
-[Text=, CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=,]
-[Text=seem CharacterOffsetBegin=460 CharacterOffsetEnd=464 PartOfSpeech=VBP]
-[Text=to CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=TO]
-[Text=indicate CharacterOffsetBegin=468 CharacterOffsetEnd=476 PartOfSpeech=VB]
-[Text=this CharacterOffsetBegin=477 CharacterOffsetEnd=481 PartOfSpeech=DT]
-[Text=is CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=VBZ]
-[Text=very CharacterOffsetBegin=485 CharacterOffsetEnd=489 PartOfSpeech=RB]
-[Text=possible CharacterOffsetBegin=490 CharacterOffsetEnd=498 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=498 CharacterOffsetEnd=499 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=426 CharacterOffsetEnd=429 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=events CharacterOffsetBegin=430 CharacterOffsetEnd=436 PartOfSpeech=NNS Lemma=event NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=437 CharacterOffsetEnd=439 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=440 CharacterOffsetEnd=446 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=6 CharacterOffsetBegin=447 CharacterOffsetEnd=448 PartOfSpeech=CD Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0]
+[Text=, CharacterOffsetBegin=448 CharacterOffsetEnd=449 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=episode CharacterOffsetBegin=450 CharacterOffsetEnd=457 PartOfSpeech=NN Lemma=episode NamedEntityTag=O]
+[Text=5 CharacterOffsetBegin=458 CharacterOffsetEnd=459 PartOfSpeech=CD Lemma=5 NamedEntityTag=NUMBER NormalizedNamedEntityTag=5.0]
+[Text=, CharacterOffsetBegin=459 CharacterOffsetEnd=460 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=seem CharacterOffsetBegin=461 CharacterOffsetEnd=465 PartOfSpeech=VBP Lemma=seem NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=indicate CharacterOffsetBegin=469 CharacterOffsetEnd=477 PartOfSpeech=VB Lemma=indicate NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=478 CharacterOffsetEnd=482 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=483 CharacterOffsetEnd=485 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=very CharacterOffsetBegin=486 CharacterOffsetEnd=490 PartOfSpeech=RB Lemma=very NamedEntityTag=O]
+[Text=possible CharacterOffsetBegin=491 CharacterOffsetEnd=499 PartOfSpeech=JJ Lemma=possible NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=499 CharacterOffsetEnd=500 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP (DT The) (NNS events))
+        (PP (IN of)
+          (NP (NN season) (CD 6))))
+      (, ,)
+      (NP (NN episode) (CD 5))
+      (, ,))
+    (VP (VBP seem)
+      (S
+        (VP (TO to)
+          (VP (VB indicate)
+            (SBAR
+              (S
+                (NP (DT this))
+                (VP (VBZ is)
+                  (ADJP (RB very) (JJ possible)))))))))
+    (. .)))
+
+root(ROOT-0, seem-10)
+det(events-2, The-1)
+nsubj(seem-10, events-2)
+nsubj:xsubj(indicate-12, events-2)
+case(season-4, of-3)
+nmod:of(events-2, season-4)
+nummod(season-4, 6-5)
+punct(events-2, ,-6)
+appos(events-2, episode-7)
+nummod(episode-7, 5-8)
+punct(events-2, ,-9)
+mark(indicate-12, to-11)
+xcomp(seem-10, indicate-12)
+nsubj(possible-16, this-13)
+cop(possible-16, is-14)
+advmod(possible-16, very-15)
+ccomp(indicate-12, possible-16)
+punct(seem-10, .-17)
+
+Coreference set:
+	(2,2,[2,3]) -> (1,1,[1,2]), that is: "Bran" -> "Bran"
+	(2,23,[23,24]) -> (1,1,[1,2]), that is: "Bran" -> "Bran"
+Coreference set:
+	(2,37,[37,38]) -> (1,5,[3,6]), that is: "his" -> "the Mad King"
+Coreference set:
+	(2,38,[37,39]) -> (2,41,[40,42]), that is: "his father" -> "Ned Stark"
+Coreference set:
+	(3,26,[26,27]) -> (3,17,[13,18]), that is: "him" -> "the Mad King Aerys Targaryen"
+	(3,31,[31,36]) -> (3,17,[13,18]), that is: "he who set in motion" -> "the Mad King Aerys Targaryen"

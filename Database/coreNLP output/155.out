@@ -1,115 +1,363 @@
 Sentence #1 (5 tokens):
 Ned Stark Is Alive.
-[Text=Ned CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP]
-[Text=Is CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=VBZ]
-[Text=Alive CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=.]
+[Text=Ned CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Ned NamedEntityTag=O]
+[Text=Stark CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text=Is CharacterOffsetBegin=10 CharacterOffsetEnd=12 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=Alive CharacterOffsetBegin=13 CharacterOffsetEnd=18 PartOfSpeech=JJ Lemma=alive NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Ned) (NNP Stark))
+    (VP (VBZ Is)
+      (ADJP (JJ Alive)))
+    (. .)))
+
+root(ROOT-0, Alive-4)
+compound(Stark-2, Ned-1)
+nsubj(Alive-4, Stark-2)
+cop(Alive-4, Is-3)
+punct(Alive-4, .-5)
+
 Sentence #2 (6 tokens):
 Wouldn't this be nice?
-[Text=Would CharacterOffsetBegin=20 CharacterOffsetEnd=25 PartOfSpeech=MD]
-[Text=n't CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=RB]
-[Text=this CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=DT]
-[Text=be CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=VB]
-[Text=nice CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=JJ]
-[Text=? CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=.]
+[Text=Would CharacterOffsetBegin=20 CharacterOffsetEnd=25 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=25 CharacterOffsetEnd=28 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=34 CharacterOffsetEnd=36 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=nice CharacterOffsetBegin=37 CharacterOffsetEnd=41 PartOfSpeech=JJ Lemma=nice NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=41 CharacterOffsetEnd=42 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (SQ (MD Would) (RB n't)
+    (NP (DT this))
+    (VP (VB be)
+      (ADJP (JJ nice)))
+    (. ?)))
+
+root(ROOT-0, nice-5)
+aux(nice-5, Would-1)
+neg(nice-5, n't-2)
+nsubj(nice-5, this-3)
+cop(nice-5, be-4)
+punct(nice-5, ?-6)
+
 Sentence #3 (31 tokens):
 In the books it is said that Sansa doesn't recognize her father's head and Catelyn does not think his bones are big enough to be from his body.
-[Text=In CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=DT]
-[Text=books CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=NNS]
-[Text=it CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=PRP]
-[Text=is CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=VBZ]
-[Text=said CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=VBD]
-[Text=that CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=IN]
-[Text=Sansa CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=NNP]
-[Text=does CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=VBZ]
-[Text=n't CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=RB]
-[Text=recognize CharacterOffsetBegin=86 CharacterOffsetEnd=95 PartOfSpeech=VB]
-[Text=her CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=PRP$]
-[Text=father CharacterOffsetBegin=100 CharacterOffsetEnd=106 PartOfSpeech=NN]
-[Text='s CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=POS]
-[Text=head CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=CC]
-[Text=Catelyn CharacterOffsetBegin=118 CharacterOffsetEnd=125 PartOfSpeech=NN]
-[Text=does CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=VBZ]
-[Text=not CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=RB]
-[Text=think CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=VB]
-[Text=his CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=PRP$]
-[Text=bones CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NNS]
-[Text=are CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=VBP]
-[Text=big CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=JJ]
-[Text=enough CharacterOffsetBegin=159 CharacterOffsetEnd=165 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=TO]
-[Text=be CharacterOffsetBegin=169 CharacterOffsetEnd=171 PartOfSpeech=VB]
-[Text=from CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=PRP$]
-[Text=body CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=.]
+[Text=In CharacterOffsetBegin=43 CharacterOffsetEnd=45 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=46 CharacterOffsetEnd=49 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=books CharacterOffsetBegin=50 CharacterOffsetEnd=55 PartOfSpeech=NNS Lemma=book NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=56 CharacterOffsetEnd=58 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=said CharacterOffsetBegin=62 CharacterOffsetEnd=66 PartOfSpeech=VBD Lemma=say NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=67 CharacterOffsetEnd=71 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Sansa CharacterOffsetBegin=72 CharacterOffsetEnd=77 PartOfSpeech=NNP Lemma=Sansa NamedEntityTag=PERSON]
+[Text=does CharacterOffsetBegin=78 CharacterOffsetEnd=82 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=recognize CharacterOffsetBegin=86 CharacterOffsetEnd=95 PartOfSpeech=VB Lemma=recognize NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=96 CharacterOffsetEnd=99 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=father CharacterOffsetBegin=100 CharacterOffsetEnd=106 PartOfSpeech=NN Lemma=father NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=106 CharacterOffsetEnd=108 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=head CharacterOffsetBegin=109 CharacterOffsetEnd=113 PartOfSpeech=NN Lemma=head NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Catelyn CharacterOffsetBegin=118 CharacterOffsetEnd=125 PartOfSpeech=NN Lemma=catelyn NamedEntityTag=PERSON]
+[Text=does CharacterOffsetBegin=126 CharacterOffsetEnd=130 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=131 CharacterOffsetEnd=134 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=think CharacterOffsetBegin=135 CharacterOffsetEnd=140 PartOfSpeech=VB Lemma=think NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=141 CharacterOffsetEnd=144 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=bones CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NNS Lemma=bone NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=big CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=JJ Lemma=big NamedEntityTag=O]
+[Text=enough CharacterOffsetBegin=159 CharacterOffsetEnd=165 PartOfSpeech=RB Lemma=enough NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=166 CharacterOffsetEnd=168 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=169 CharacterOffsetEnd=171 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=172 CharacterOffsetEnd=176 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=177 CharacterOffsetEnd=180 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=body CharacterOffsetBegin=181 CharacterOffsetEnd=185 PartOfSpeech=NN Lemma=body NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=185 CharacterOffsetEnd=186 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (PP (IN In)
+        (NP (DT the) (NNS books)))
+      (NP (PRP it))
+      (VP (VBZ is)
+        (VP (VBD said)
+          (SBAR (IN that)
+            (S
+              (NP (NNP Sansa))
+              (VP (VBZ does) (RB n't)
+                (VP (VB recognize)
+                  (NP
+                    (NP (PRP$ her) (NN father) (POS 's))
+                    (NN head)))))))))
+    (CC and)
+    (S
+      (NP (NN Catelyn))
+      (VP (VBZ does) (RB not)
+        (VP (VB think)
+          (SBAR
+            (S
+              (NP (PRP$ his) (NNS bones))
+              (VP (VBP are)
+                (ADJP (JJ big) (RB enough)
+                  (S
+                    (VP (TO to)
+                      (VP (VB be)
+                        (PP (IN from)
+                          (NP (PRP$ his) (NN body)))))))))))))
+    (. .)))
+
+root(ROOT-0, said-6)
+case(books-3, In-1)
+det(books-3, the-2)
+nmod:in(said-6, books-3)
+nsubjpass(said-6, it-4)
+auxpass(said-6, is-5)
+mark(recognize-11, that-7)
+nsubj(recognize-11, Sansa-8)
+aux(recognize-11, does-9)
+neg(recognize-11, n't-10)
+ccomp(said-6, recognize-11)
+nmod:poss(father-13, her-12)
+nmod:poss(head-15, father-13)
+case(father-13, 's-14)
+dobj(recognize-11, head-15)
+cc(said-6, and-16)
+nsubj(think-20, Catelyn-17)
+aux(think-20, does-18)
+neg(think-20, not-19)
+conj:and(said-6, think-20)
+nmod:poss(bones-22, his-21)
+nsubj(big-24, bones-22)
+nsubj:xsubj(body-30, bones-22)
+cop(big-24, are-23)
+ccomp(think-20, big-24)
+advmod(big-24, enough-25)
+mark(body-30, to-26)
+cop(body-30, be-27)
+case(body-30, from-28)
+nmod:poss(body-30, his-29)
+xcomp(big-24, body-30)
+punct(said-6, .-31)
+
 Sentence #4 (44 tokens):
 So people are saying that he may have either warged (because all Stark's are apparently warging enthusiasts of the highest order) or Syrio Forel is a Faceless Man and took Ned's place to effectively save him from being executed.
-[Text=So CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=IN]
-[Text=people CharacterOffsetBegin=190 CharacterOffsetEnd=196 PartOfSpeech=NNS]
-[Text=are CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=VBP]
-[Text=saying CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=VBG]
-[Text=that CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=PRP]
-[Text=may CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=MD]
-[Text=have CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=VB]
-[Text=either CharacterOffsetBegin=225 CharacterOffsetEnd=231 PartOfSpeech=CC]
-[Text=warged CharacterOffsetBegin=232 CharacterOffsetEnd=238 PartOfSpeech=VBN]
-[Text=-LRB- CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=-LRB-]
-[Text=because CharacterOffsetBegin=240 CharacterOffsetEnd=247 PartOfSpeech=IN]
-[Text=all CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=DT]
-[Text=Stark CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=POS]
-[Text=are CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=VBP]
-[Text=apparently CharacterOffsetBegin=264 CharacterOffsetEnd=274 PartOfSpeech=RB]
-[Text=warging CharacterOffsetBegin=275 CharacterOffsetEnd=282 PartOfSpeech=VBG]
-[Text=enthusiasts CharacterOffsetBegin=283 CharacterOffsetEnd=294 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=DT]
-[Text=highest CharacterOffsetBegin=302 CharacterOffsetEnd=309 PartOfSpeech=JJS]
-[Text=order CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=NN]
-[Text=-RRB- CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=-RRB-]
-[Text=or CharacterOffsetBegin=317 CharacterOffsetEnd=319 PartOfSpeech=CC]
-[Text=Syrio CharacterOffsetBegin=320 CharacterOffsetEnd=325 PartOfSpeech=NNP]
-[Text=Forel CharacterOffsetBegin=326 CharacterOffsetEnd=331 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=335 CharacterOffsetEnd=336 PartOfSpeech=DT]
-[Text=Faceless CharacterOffsetBegin=337 CharacterOffsetEnd=345 PartOfSpeech=JJ]
-[Text=Man CharacterOffsetBegin=346 CharacterOffsetEnd=349 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=350 CharacterOffsetEnd=353 PartOfSpeech=CC]
-[Text=took CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=VBD]
-[Text=Ned CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=POS]
-[Text=place CharacterOffsetBegin=365 CharacterOffsetEnd=370 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=371 CharacterOffsetEnd=373 PartOfSpeech=TO]
-[Text=effectively CharacterOffsetBegin=374 CharacterOffsetEnd=385 PartOfSpeech=RB]
-[Text=save CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=VB]
-[Text=him CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=PRP]
-[Text=from CharacterOffsetBegin=395 CharacterOffsetEnd=399 PartOfSpeech=IN]
-[Text=being CharacterOffsetBegin=400 CharacterOffsetEnd=405 PartOfSpeech=VBG]
-[Text=executed CharacterOffsetBegin=406 CharacterOffsetEnd=414 PartOfSpeech=VBN]
-[Text=. CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=.]
+[Text=So CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=IN Lemma=so NamedEntityTag=O]
+[Text=people CharacterOffsetBegin=190 CharacterOffsetEnd=196 PartOfSpeech=NNS Lemma=people NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=saying CharacterOffsetBegin=201 CharacterOffsetEnd=207 PartOfSpeech=VBG Lemma=say NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=213 CharacterOffsetEnd=215 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=may CharacterOffsetBegin=216 CharacterOffsetEnd=219 PartOfSpeech=MD Lemma=may NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=220 CharacterOffsetEnd=224 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=either CharacterOffsetBegin=225 CharacterOffsetEnd=231 PartOfSpeech=CC Lemma=either NamedEntityTag=O]
+[Text=warged CharacterOffsetBegin=232 CharacterOffsetEnd=238 PartOfSpeech=VBN Lemma=warge NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=239 CharacterOffsetEnd=240 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=because CharacterOffsetBegin=240 CharacterOffsetEnd=247 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=248 CharacterOffsetEnd=251 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=Stark CharacterOffsetBegin=252 CharacterOffsetEnd=257 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=257 CharacterOffsetEnd=259 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=260 CharacterOffsetEnd=263 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=apparently CharacterOffsetBegin=264 CharacterOffsetEnd=274 PartOfSpeech=RB Lemma=apparently NamedEntityTag=O]
+[Text=warging CharacterOffsetBegin=275 CharacterOffsetEnd=282 PartOfSpeech=VBG Lemma=warge NamedEntityTag=O]
+[Text=enthusiasts CharacterOffsetBegin=283 CharacterOffsetEnd=294 PartOfSpeech=NNS Lemma=enthusiast NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=highest CharacterOffsetBegin=302 CharacterOffsetEnd=309 PartOfSpeech=JJS Lemma=highest NamedEntityTag=O]
+[Text=order CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=NN Lemma=order NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=317 CharacterOffsetEnd=319 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=Syrio CharacterOffsetBegin=320 CharacterOffsetEnd=325 PartOfSpeech=NNP Lemma=Syrio NamedEntityTag=O]
+[Text=Forel CharacterOffsetBegin=326 CharacterOffsetEnd=331 PartOfSpeech=NNP Lemma=Forel NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=335 CharacterOffsetEnd=336 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Faceless CharacterOffsetBegin=337 CharacterOffsetEnd=345 PartOfSpeech=JJ Lemma=faceless NamedEntityTag=MISC]
+[Text=Man CharacterOffsetBegin=346 CharacterOffsetEnd=349 PartOfSpeech=NN Lemma=man NamedEntityTag=MISC]
+[Text=and CharacterOffsetBegin=350 CharacterOffsetEnd=353 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=took CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=VBD Lemma=take NamedEntityTag=O]
+[Text=Ned CharacterOffsetBegin=359 CharacterOffsetEnd=362 PartOfSpeech=NNP Lemma=Ned NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=place CharacterOffsetBegin=365 CharacterOffsetEnd=370 PartOfSpeech=NN Lemma=place NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=371 CharacterOffsetEnd=373 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=effectively CharacterOffsetBegin=374 CharacterOffsetEnd=385 PartOfSpeech=RB Lemma=effectively NamedEntityTag=O]
+[Text=save CharacterOffsetBegin=386 CharacterOffsetEnd=390 PartOfSpeech=VB Lemma=save NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=395 CharacterOffsetEnd=399 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=being CharacterOffsetBegin=400 CharacterOffsetEnd=405 PartOfSpeech=VBG Lemma=be NamedEntityTag=O]
+[Text=executed CharacterOffsetBegin=406 CharacterOffsetEnd=414 PartOfSpeech=VBN Lemma=execute NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=414 CharacterOffsetEnd=415 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S (IN So)
+      (NP (NNS people))
+      (VP (VBP are)
+        (VP (VBG saying)
+          (SBAR (IN that)
+            (S
+              (NP (PRP he))
+              (VP (MD may)
+                (VP (VB have)
+                  (VP
+                    (ADVP (CC either))
+                    (VBN warged)))))))))
+    (PRN (-LRB- -LRB-)
+      (SBAR (IN because)
+        (S
+          (NP (DT all) (NNP Stark) (POS 's))
+          (VP (VBP are)
+            (ADVP (RB apparently))
+            (VP (VBG warging)
+              (NP
+                (NP (NNS enthusiasts))
+                (PP (IN of)
+                  (NP (DT the) (JJS highest) (NN order))))))))
+      (-RRB- -RRB-))
+    (CC or)
+    (S
+      (NP (NNP Syrio) (NNP Forel))
+      (VP
+        (VP (VBZ is)
+          (NP (DT a) (JJ Faceless) (NN Man)))
+        (CC and)
+        (VP (VBD took)
+          (NP
+            (NP (NNP Ned) (POS 's))
+            (NN place)
+            (S
+              (VP (TO to)
+                (VP
+                  (ADVP (RB effectively))
+                  (VB save)
+                  (NP (PRP him))
+                  (PP (IN from)
+                    (S
+                      (VP (VBG being)
+                        (VP (VBN executed))))))))))))
+    (. .)))
+
+root(ROOT-0, saying-4)
+dep(saying-4, So-1)
+nsubj(saying-4, people-2)
+aux(saying-4, are-3)
+mark(warged-10, that-5)
+nsubj(warged-10, he-6)
+aux(warged-10, may-7)
+aux(warged-10, have-8)
+advmod(warged-10, either-9)
+ccomp(saying-4, warged-10)
+punct(warging-18, -LRB--11)
+mark(warging-18, because-12)
+det(Stark-14, all-13)
+nsubj(warging-18, Stark-14)
+case(Stark-14, 's-15)
+aux(warging-18, are-16)
+advmod(warging-18, apparently-17)
+dep(saying-4, warging-18)
+dobj(warging-18, enthusiasts-19)
+case(order-23, of-20)
+det(order-23, the-21)
+amod(order-23, highest-22)
+nmod:of(enthusiasts-19, order-23)
+punct(warging-18, -RRB--24)
+cc(saying-4, or-25)
+compound(Forel-27, Syrio-26)
+nsubj(Man-31, Forel-27)
+nsubj(took-33, Forel-27)
+cop(Man-31, is-28)
+det(Man-31, a-29)
+amod(Man-31, Faceless-30)
+conj:or(saying-4, Man-31)
+cc(Man-31, and-32)
+conj:or(saying-4, took-33)
+conj:and(Man-31, took-33)
+nmod:poss(place-36, Ned-34)
+case(Ned-34, 's-35)
+dobj(took-33, place-36)
+mark(save-39, to-37)
+advmod(save-39, effectively-38)
+acl:to(place-36, save-39)
+dobj(save-39, him-40)
+mark(executed-43, from-41)
+auxpass(executed-43, being-42)
+advcl:from(save-39, executed-43)
+punct(saying-4, .-44)
+
 Sentence #5 (19 tokens):
 There's a lot of moving parts here and I don't think any of them really work.
-[Text=There CharacterOffsetBegin=416 CharacterOffsetEnd=421 PartOfSpeech=EX]
-[Text='s CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=424 CharacterOffsetEnd=425 PartOfSpeech=DT]
-[Text=lot CharacterOffsetBegin=426 CharacterOffsetEnd=429 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=IN]
-[Text=moving CharacterOffsetBegin=433 CharacterOffsetEnd=439 PartOfSpeech=VBG]
-[Text=parts CharacterOffsetBegin=440 CharacterOffsetEnd=445 PartOfSpeech=NNS]
-[Text=here CharacterOffsetBegin=446 CharacterOffsetEnd=450 PartOfSpeech=RB]
-[Text=and CharacterOffsetBegin=451 CharacterOffsetEnd=454 PartOfSpeech=CC]
-[Text=I CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=PRP]
-[Text=do CharacterOffsetBegin=457 CharacterOffsetEnd=459 PartOfSpeech=VBP]
-[Text=n't CharacterOffsetBegin=459 CharacterOffsetEnd=462 PartOfSpeech=RB]
-[Text=think CharacterOffsetBegin=463 CharacterOffsetEnd=468 PartOfSpeech=VB]
-[Text=any CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=DT]
-[Text=of CharacterOffsetBegin=473 CharacterOffsetEnd=475 PartOfSpeech=IN]
-[Text=them CharacterOffsetBegin=476 CharacterOffsetEnd=480 PartOfSpeech=PRP]
-[Text=really CharacterOffsetBegin=481 CharacterOffsetEnd=487 PartOfSpeech=RB]
-[Text=work CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=VBP]
-[Text=. CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=.]
+[Text=There CharacterOffsetBegin=416 CharacterOffsetEnd=421 PartOfSpeech=EX Lemma=there NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=424 CharacterOffsetEnd=425 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=lot CharacterOffsetBegin=426 CharacterOffsetEnd=429 PartOfSpeech=NN Lemma=lot NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=430 CharacterOffsetEnd=432 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=moving CharacterOffsetBegin=433 CharacterOffsetEnd=439 PartOfSpeech=VBG Lemma=move NamedEntityTag=O]
+[Text=parts CharacterOffsetBegin=440 CharacterOffsetEnd=445 PartOfSpeech=NNS Lemma=part NamedEntityTag=O]
+[Text=here CharacterOffsetBegin=446 CharacterOffsetEnd=450 PartOfSpeech=RB Lemma=here NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=451 CharacterOffsetEnd=454 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=457 CharacterOffsetEnd=459 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=459 CharacterOffsetEnd=462 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=think CharacterOffsetBegin=463 CharacterOffsetEnd=468 PartOfSpeech=VB Lemma=think NamedEntityTag=O]
+[Text=any CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=DT Lemma=any NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=473 CharacterOffsetEnd=475 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=them CharacterOffsetBegin=476 CharacterOffsetEnd=480 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=really CharacterOffsetBegin=481 CharacterOffsetEnd=487 PartOfSpeech=RB Lemma=really NamedEntityTag=O]
+[Text=work CharacterOffsetBegin=488 CharacterOffsetEnd=492 PartOfSpeech=VBP Lemma=work NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=492 CharacterOffsetEnd=493 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (EX There))
+      (VP (VBZ 's)
+        (NP
+          (NP (DT a) (NN lot))
+          (PP (IN of)
+            (S
+              (VP (VBG moving)
+                (NP (NNS parts))
+                (ADVP (RB here))))))))
+    (CC and)
+    (S
+      (NP (PRP I))
+      (VP (VBP do) (RB n't)
+        (VP (VB think)
+          (SBAR
+            (S
+              (NP
+                (NP (DT any))
+                (PP (IN of)
+                  (NP (PRP them))))
+              (ADVP (RB really))
+              (VP (VBP work)))))))
+    (. .)))
+
+root(ROOT-0, 's-2)
+expl('s-2, There-1)
+det(lot-4, a-3)
+nsubj('s-2, lot-4)
+mark(moving-6, of-5)
+acl:of(lot-4, moving-6)
+dobj(moving-6, parts-7)
+advmod(moving-6, here-8)
+cc('s-2, and-9)
+nsubj(think-13, I-10)
+aux(think-13, do-11)
+neg(think-13, n't-12)
+conj:and('s-2, think-13)
+nsubj(work-18, any-14)
+case(them-16, of-15)
+nmod:of(any-14, them-16)
+advmod(work-18, really-17)
+ccomp(think-13, work-18)
+punct('s-2, .-19)
+
+Coreference set:
+	(3,4,[4,5]) -> (2,3,[3,4]), that is: "it" -> "this"
+Coreference set:
+	(3,12,[12,13]) -> (3,8,[8,9]), that is: "her" -> "Sansa"
+Coreference set:
+	(3,21,[21,22]) -> (3,13,[12,15]), that is: "his" -> "her father 's"
+	(3,29,[29,30]) -> (3,13,[12,15]), that is: "his" -> "her father 's"
+	(4,6,[6,7]) -> (3,13,[12,15]), that is: "he" -> "her father 's"
+Coreference set:
+	(5,16,[16,17]) -> (4,2,[2,3]), that is: "them" -> "people"
+Coreference set:
+	(4,40,[40,41]) -> (4,27,[26,28]), that is: "him" -> "Syrio Forel"

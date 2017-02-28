@@ -1,85 +1,273 @@
 Sentence #1 (3 tokens):
 Targaryen Twins?
-[Text=Targaryen CharacterOffsetBegin=0 CharacterOffsetEnd=9 PartOfSpeech=NNP]
-[Text=Twins CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=NNS]
-[Text=? CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=.]
+[Text=Targaryen CharacterOffsetBegin=0 CharacterOffsetEnd=9 PartOfSpeech=NNP Lemma=Targaryen NamedEntityTag=ORGANIZATION]
+[Text=Twins CharacterOffsetBegin=10 CharacterOffsetEnd=15 PartOfSpeech=NNS Lemma=twin NamedEntityTag=ORGANIZATION]
+[Text=? CharacterOffsetBegin=15 CharacterOffsetEnd=16 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (NP
+    (NP (NNP Targaryen))
+    (NP (NNS Twins))
+    (. ?)))
+
+root(ROOT-0, Targaryen-1)
+dep(Targaryen-1, Twins-2)
+punct(Targaryen-1, ?-3)
+
 Sentence #2 (26 tokens):
 Well, now that we have one Lannister who may not be a Lannister at all, why not add more fuel to the fire.
-[Text=Well CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=,]
-[Text=now CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=RB]
-[Text=that CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=IN]
-[Text=we CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=PRP]
-[Text=have CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=VBP]
-[Text=one CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=CD]
-[Text=Lannister CharacterOffsetBegin=44 CharacterOffsetEnd=53 PartOfSpeech=NNP]
-[Text=who CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=WP]
-[Text=may CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=MD]
-[Text=not CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=RB]
-[Text=be CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=DT]
-[Text=Lannister CharacterOffsetBegin=71 CharacterOffsetEnd=80 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=IN]
-[Text=all CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=DT]
-[Text=, CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=,]
-[Text=why CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=WRB]
-[Text=not CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=RB]
-[Text=add CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=VB]
-[Text=more CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=JJR]
-[Text=fuel CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=DT]
-[Text=fire CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=.]
+[Text=Well CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=RB Lemma=well NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=21 CharacterOffsetEnd=22 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=that CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=Lannister CharacterOffsetBegin=44 CharacterOffsetEnd=53 PartOfSpeech=NNP Lemma=Lannister NamedEntityTag=O]
+[Text=who CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=may CharacterOffsetBegin=58 CharacterOffsetEnd=61 PartOfSpeech=MD Lemma=may NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=66 CharacterOffsetEnd=68 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=69 CharacterOffsetEnd=70 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Lannister CharacterOffsetBegin=71 CharacterOffsetEnd=80 PartOfSpeech=NN Lemma=lannister NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=81 CharacterOffsetEnd=83 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=87 CharacterOffsetEnd=88 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=why CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=WRB Lemma=why NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=93 CharacterOffsetEnd=96 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=add CharacterOffsetBegin=97 CharacterOffsetEnd=100 PartOfSpeech=VB Lemma=add NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=JJR Lemma=more NamedEntityTag=O]
+[Text=fuel CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=NN Lemma=fuel NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=111 CharacterOffsetEnd=113 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=114 CharacterOffsetEnd=117 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=fire CharacterOffsetBegin=118 CharacterOffsetEnd=122 PartOfSpeech=NN Lemma=fire NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=122 CharacterOffsetEnd=123 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (PRN
+    (ADVP (RB Well))
+    (, ,)
+    (SBAR
+      (ADVP (RB now))
+      (IN that)
+      (S
+        (NP (PRP we))
+        (VP (VBP have)
+          (NP
+            (NP (CD one) (NNP Lannister))
+            (FRAG
+              (SBAR
+                (WHNP (WP who))
+                (S
+                  (VP (MD may) (RB not)
+                    (VP (VB be)
+                      (NP
+                        (NP (DT a) (NN Lannister))
+                        (PP (IN at)
+                          (NP (DT all))))))))
+              (, ,)
+              (WHADVP (WRB why))
+              (RB not)
+              (VP (VB add)
+                (NP (JJR more) (NN fuel))
+                (PP (TO to)
+                  (NP (DT the) (NN fire))))
+              (. .))))))))
+
+root(ROOT-0, have-6)
+dep(have-6, Well-1)
+punct(have-6, ,-2)
+advmod(have-6, now-3)
+mark(have-6, that-4)
+nsubj(have-6, we-5)
+nummod(Lannister-8, one-7)
+dobj(have-6, Lannister-8)
+nsubj(Lannister-14, who-9)
+aux(Lannister-14, may-10)
+neg(Lannister-14, not-11)
+cop(Lannister-14, be-12)
+det(Lannister-14, a-13)
+dep(Lannister-8, Lannister-14)
+case(all-16, at-15)
+nmod:at(Lannister-14, all-16)
+punct(Lannister-14, ,-17)
+dep(Lannister-14, why-18)
+neg(add-20, not-19)
+dep(Lannister-14, add-20)
+amod(fuel-22, more-21)
+dobj(add-20, fuel-22)
+case(fire-25, to-23)
+det(fire-25, the-24)
+nmod:to(add-20, fire-25)
+punct(Lannister-14, .-26)
+
 Sentence #3 (29 tokens):
 If King Aerys did jump the turnstile and cut in front of Tywin on his wedding night, maybe he was the one who fathered Jamie and Cersei.
-[Text=If CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=IN]
-[Text=King CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=NNP]
-[Text=Aerys CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=NNP]
-[Text=did CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=VBD]
-[Text=jump CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=DT]
-[Text=turnstile CharacterOffsetBegin=151 CharacterOffsetEnd=160 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=161 CharacterOffsetEnd=164 PartOfSpeech=CC]
-[Text=cut CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=169 CharacterOffsetEnd=171 PartOfSpeech=IN]
-[Text=front CharacterOffsetBegin=172 CharacterOffsetEnd=177 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=IN]
-[Text=Tywin CharacterOffsetBegin=181 CharacterOffsetEnd=186 PartOfSpeech=NN]
-[Text=on CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=PRP$]
-[Text=wedding CharacterOffsetBegin=194 CharacterOffsetEnd=201 PartOfSpeech=NN]
-[Text=night CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=207 CharacterOffsetEnd=208 PartOfSpeech=,]
-[Text=maybe CharacterOffsetBegin=209 CharacterOffsetEnd=214 PartOfSpeech=RB]
-[Text=he CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=DT]
-[Text=one CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=NN]
-[Text=who CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=WP]
-[Text=fathered CharacterOffsetBegin=234 CharacterOffsetEnd=242 PartOfSpeech=VBD]
-[Text=Jamie CharacterOffsetBegin=243 CharacterOffsetEnd=248 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=CC]
-[Text=Cersei CharacterOffsetBegin=253 CharacterOffsetEnd=259 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=.]
+[Text=If CharacterOffsetBegin=124 CharacterOffsetEnd=126 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=127 CharacterOffsetEnd=131 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text=Aerys CharacterOffsetBegin=132 CharacterOffsetEnd=137 PartOfSpeech=NNP Lemma=Aerys NamedEntityTag=PERSON]
+[Text=did CharacterOffsetBegin=138 CharacterOffsetEnd=141 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=jump CharacterOffsetBegin=142 CharacterOffsetEnd=146 PartOfSpeech=VB Lemma=jump NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=147 CharacterOffsetEnd=150 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=turnstile CharacterOffsetBegin=151 CharacterOffsetEnd=160 PartOfSpeech=NN Lemma=turnstile NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=161 CharacterOffsetEnd=164 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=cut CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=NN Lemma=cut NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=169 CharacterOffsetEnd=171 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=front CharacterOffsetBegin=172 CharacterOffsetEnd=177 PartOfSpeech=NN Lemma=front NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=178 CharacterOffsetEnd=180 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Tywin CharacterOffsetBegin=181 CharacterOffsetEnd=186 PartOfSpeech=NN Lemma=tywin NamedEntityTag=LOCATION]
+[Text=on CharacterOffsetBegin=187 CharacterOffsetEnd=189 PartOfSpeech=IN Lemma=on NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=190 CharacterOffsetEnd=193 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=wedding CharacterOffsetBegin=194 CharacterOffsetEnd=201 PartOfSpeech=NN Lemma=wedding NamedEntityTag=O]
+[Text=night CharacterOffsetBegin=202 CharacterOffsetEnd=207 PartOfSpeech=NN Lemma=night NamedEntityTag=TIME NormalizedNamedEntityTag=TNI Timex=<TIMEX3 tid="t2" type="TIME" value="TNI">night</TIMEX3>]
+[Text=, CharacterOffsetBegin=207 CharacterOffsetEnd=208 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=maybe CharacterOffsetBegin=209 CharacterOffsetEnd=214 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=NN Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=who CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=fathered CharacterOffsetBegin=234 CharacterOffsetEnd=242 PartOfSpeech=VBD Lemma=father NamedEntityTag=O]
+[Text=Jamie CharacterOffsetBegin=243 CharacterOffsetEnd=248 PartOfSpeech=NNP Lemma=Jamie NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=249 CharacterOffsetEnd=252 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=253 CharacterOffsetEnd=259 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=LOCATION]
+[Text=. CharacterOffsetBegin=259 CharacterOffsetEnd=260 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR (IN If)
+      (S
+        (NP (NNP King) (NNP Aerys))
+        (VP (VBD did)
+          (VP (VB jump)
+            (NP
+              (NP (DT the) (NN turnstile)
+                (CC and)
+                (NN cut))
+              (PP (IN in)
+                (NP
+                  (NP (NN front))
+                  (PP (IN of)
+                    (NP (NN Tywin))))))
+            (PP (IN on)
+              (NP (PRP$ his) (NN wedding) (NN night)))))))
+    (, ,)
+    (ADVP (RB maybe))
+    (NP (PRP he))
+    (VP (VBD was)
+      (NP
+        (NP (DT the) (NN one))
+        (SBAR
+          (WHNP (WP who))
+          (S
+            (VP (VBD fathered)
+              (NP (NNP Jamie)
+                (CC and)
+                (NNP Cersei)))))))
+    (. .)))
+
+root(ROOT-0, one-23)
+mark(jump-5, If-1)
+compound(Aerys-3, King-2)
+nsubj(jump-5, Aerys-3)
+aux(jump-5, did-4)
+advcl:if(one-23, jump-5)
+det(turnstile-7, the-6)
+dobj(jump-5, turnstile-7)
+cc(turnstile-7, and-8)
+dobj(jump-5, cut-9)
+conj:and(turnstile-7, cut-9)
+case(Tywin-13, in-10)
+mwe(in-10, front-11)
+mwe(in-10, of-12)
+nmod:in_front_of(turnstile-7, Tywin-13)
+case(night-17, on-14)
+nmod:poss(night-17, his-15)
+compound(night-17, wedding-16)
+nmod:on(jump-5, night-17)
+punct(one-23, ,-18)
+advmod(he-20, maybe-19)
+nsubj(one-23, he-20)
+cop(one-23, was-21)
+det(one-23, the-22)
+nsubj(fathered-25, one-23)
+ref(one-23, who-24)
+acl:relcl(one-23, fathered-25)
+dobj(fathered-25, Jamie-26)
+cc(Jamie-26, and-27)
+dobj(fathered-25, Cersei-28)
+conj:and(Jamie-26, Cersei-28)
+punct(one-23, .-29)
+
 Sentence #4 (19 tokens):
 They do have the blonde hair and penchant for incest that tends to run in the Targaryen clan.
-[Text=They CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=PRP]
-[Text=do CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=VBP]
-[Text=have CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT]
-[Text=blonde CharacterOffsetBegin=278 CharacterOffsetEnd=284 PartOfSpeech=JJ]
-[Text=hair CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=CC]
-[Text=penchant CharacterOffsetBegin=294 CharacterOffsetEnd=302 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=IN]
-[Text=incest CharacterOffsetBegin=307 CharacterOffsetEnd=313 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=WDT]
-[Text=tends CharacterOffsetBegin=319 CharacterOffsetEnd=324 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=TO]
-[Text=run CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=VB]
-[Text=in CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=DT]
-[Text=Targaryen CharacterOffsetBegin=339 CharacterOffsetEnd=348 PartOfSpeech=NNP]
-[Text=clan CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=.]
+[Text=They CharacterOffsetBegin=261 CharacterOffsetEnd=265 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=269 CharacterOffsetEnd=273 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=274 CharacterOffsetEnd=277 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=blonde CharacterOffsetBegin=278 CharacterOffsetEnd=284 PartOfSpeech=JJ Lemma=blonde NamedEntityTag=O]
+[Text=hair CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=NN Lemma=hair NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=290 CharacterOffsetEnd=293 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=penchant CharacterOffsetBegin=294 CharacterOffsetEnd=302 PartOfSpeech=NN Lemma=penchant NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=incest CharacterOffsetBegin=307 CharacterOffsetEnd=313 PartOfSpeech=NN Lemma=incest NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=tends CharacterOffsetBegin=319 CharacterOffsetEnd=324 PartOfSpeech=VBZ Lemma=tend NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=run CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=VB Lemma=run NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=332 CharacterOffsetEnd=334 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=335 CharacterOffsetEnd=338 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Targaryen CharacterOffsetBegin=339 CharacterOffsetEnd=348 PartOfSpeech=NNP Lemma=Targaryen NamedEntityTag=MISC]
+[Text=clan CharacterOffsetBegin=349 CharacterOffsetEnd=353 PartOfSpeech=NN Lemma=clan NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=353 CharacterOffsetEnd=354 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP They))
+    (VP (VBP do)
+      (VP (VB have)
+        (NP
+          (NP (DT the) (JJ blonde) (NN hair)
+            (CC and)
+            (NN penchant))
+          (PP (IN for)
+            (NP (NN incest)))
+          (SBAR
+            (WHNP (WDT that))
+            (S
+              (VP (VBZ tends)
+                (S
+                  (VP (TO to)
+                    (VP (VB run)
+                      (PP (IN in)
+                        (NP (DT the) (NNP Targaryen) (NN clan))))))))))))
+    (. .)))
+
+root(ROOT-0, have-3)
+nsubj(have-3, They-1)
+aux(have-3, do-2)
+det(hair-6, the-4)
+amod(hair-6, blonde-5)
+dobj(have-3, hair-6)
+nsubj(tends-12, hair-6)
+nsubj:xsubj(run-14, hair-6)
+cc(hair-6, and-7)
+dobj(have-3, penchant-8)
+conj:and(hair-6, penchant-8)
+nsubj(tends-12, penchant-8)
+nsubj:xsubj(run-14, penchant-8)
+case(incest-10, for-9)
+nmod:for(hair-6, incest-10)
+ref(hair-6, that-11)
+acl:relcl(hair-6, tends-12)
+mark(run-14, to-13)
+xcomp(tends-12, run-14)
+case(clan-18, in-15)
+det(clan-18, the-16)
+compound(clan-18, Targaryen-17)
+nmod:in(run-14, clan-18)
+punct(have-3, .-19)
+
+Coreference set:
+	(4,17,[17,18]) -> (1,1,[1,4]), that is: "Targaryen" -> "Targaryen Twins ?"
+Coreference set:
+	(3,15,[15,16]) -> (3,3,[2,4]), that is: "his" -> "King Aerys"
+	(3,20,[20,21]) -> (3,3,[2,4]), that is: "he" -> "King Aerys"
+Coreference set:
+	(4,1,[1,2]) -> (3,26,[26,29]), that is: "They" -> "Jamie and Cersei"

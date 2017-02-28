@@ -1,155 +1,475 @@
 Sentence #1 (23 tokens):
 House Umber is part of a "grand Northern conspiracy" to put the North back in the hands of a Stark.
-[Text=House CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=Umber CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=VBZ]
-[Text=part CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=DT]
-[Text=`` CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=``]
-[Text=grand CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=JJ]
-[Text=Northern CharacterOffsetBegin=32 CharacterOffsetEnd=40 PartOfSpeech=NN]
-[Text=conspiracy CharacterOffsetBegin=41 CharacterOffsetEnd=51 PartOfSpeech=NN]
-[Text='' CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech='']
-[Text=to CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=TO]
-[Text=put CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=DT]
-[Text=North CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=NNP]
-[Text=back CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=RB]
-[Text=in CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=DT]
-[Text=hands CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=DT]
-[Text=Stark CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=.]
+[Text=House CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=House NamedEntityTag=O]
+[Text=Umber CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=NNP Lemma=Umber NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=12 CharacterOffsetEnd=14 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=part CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=NN Lemma=part NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=23 CharacterOffsetEnd=24 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=grand CharacterOffsetBegin=26 CharacterOffsetEnd=31 PartOfSpeech=JJ Lemma=grand NamedEntityTag=O]
+[Text=Northern CharacterOffsetBegin=32 CharacterOffsetEnd=40 PartOfSpeech=NN Lemma=northern NamedEntityTag=O]
+[Text=conspiracy CharacterOffsetBegin=41 CharacterOffsetEnd=51 PartOfSpeech=NN Lemma=conspiracy NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=51 CharacterOffsetEnd=52 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=53 CharacterOffsetEnd=55 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=put CharacterOffsetBegin=56 CharacterOffsetEnd=59 PartOfSpeech=VB Lemma=put NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=60 CharacterOffsetEnd=63 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=North CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=NNP Lemma=North NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=70 CharacterOffsetEnd=74 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=75 CharacterOffsetEnd=77 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=hands CharacterOffsetBegin=82 CharacterOffsetEnd=87 PartOfSpeech=NNS Lemma=hand NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=88 CharacterOffsetEnd=90 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Stark CharacterOffsetBegin=93 CharacterOffsetEnd=98 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=98 CharacterOffsetEnd=99 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP House) (NNP Umber))
+    (VP (VBZ is)
+      (NP
+        (NP (NN part))
+        (PP (IN of)
+          (NP (DT a) (`` ``) (JJ grand) (NN Northern) (NN conspiracy) ('' '')))
+        (S
+          (VP (TO to)
+            (VP (VB put)
+              (NP (DT the) (NNP North))
+              (ADVP (RB back))
+              (PP (IN in)
+                (NP
+                  (NP (DT the) (NNS hands))
+                  (PP (IN of)
+                    (NP (DT a) (NNP Stark))))))))))
+    (. .)))
+
+root(ROOT-0, part-4)
+compound(Umber-2, House-1)
+nsubj(part-4, Umber-2)
+cop(part-4, is-3)
+case(conspiracy-10, of-5)
+det(conspiracy-10, a-6)
+punct(conspiracy-10, ``-7)
+amod(conspiracy-10, grand-8)
+compound(conspiracy-10, Northern-9)
+nmod:of(part-4, conspiracy-10)
+punct(conspiracy-10, ''-11)
+mark(put-13, to-12)
+acl:to(part-4, put-13)
+det(North-15, the-14)
+dobj(put-13, North-15)
+advmod(put-13, back-16)
+case(hands-19, in-17)
+det(hands-19, the-18)
+nmod:in(put-13, hands-19)
+case(Stark-22, of-20)
+det(Stark-22, a-21)
+nmod:of(hands-19, Stark-22)
+punct(part-4, .-23)
+
 Sentence #2 (37 tokens):
 In season 6 we saw lord Smalljon Umber drag Rickon Stark and Osha in front of Ramsay Bolton as a "gift" to demonstrate House Umber's loyalty to Ramsay as Warden of the North.
-[Text=In CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=IN]
-[Text=season CharacterOffsetBegin=104 CharacterOffsetEnd=110 PartOfSpeech=NN]
-[Text=6 CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=CD]
-[Text=we CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=PRP]
-[Text=saw CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=VBD]
-[Text=lord CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=NN]
-[Text=Smalljon CharacterOffsetBegin=125 CharacterOffsetEnd=133 PartOfSpeech=NNP]
-[Text=Umber CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=NNP]
-[Text=drag CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=NN]
-[Text=Rickon CharacterOffsetBegin=145 CharacterOffsetEnd=151 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=152 CharacterOffsetEnd=157 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=CC]
-[Text=Osha CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=NNP]
-[Text=in CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=IN]
-[Text=front CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=IN]
-[Text=Ramsay CharacterOffsetBegin=179 CharacterOffsetEnd=185 PartOfSpeech=NNP]
-[Text=Bolton CharacterOffsetBegin=186 CharacterOffsetEnd=192 PartOfSpeech=NNP]
-[Text=as CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=DT]
-[Text=`` CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=``]
-[Text=gift CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=NN]
-[Text='' CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech='']
-[Text=to CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=TO]
-[Text=demonstrate CharacterOffsetBegin=208 CharacterOffsetEnd=219 PartOfSpeech=VB]
-[Text=House CharacterOffsetBegin=220 CharacterOffsetEnd=225 PartOfSpeech=NNP]
-[Text=Umber CharacterOffsetBegin=226 CharacterOffsetEnd=231 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=231 CharacterOffsetEnd=233 PartOfSpeech=POS]
-[Text=loyalty CharacterOffsetBegin=234 CharacterOffsetEnd=241 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=TO]
-[Text=Ramsay CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=NNP]
-[Text=as CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=IN]
-[Text=Warden CharacterOffsetBegin=255 CharacterOffsetEnd=261 PartOfSpeech=NNP]
-[Text=of CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=DT]
-[Text=North CharacterOffsetBegin=269 CharacterOffsetEnd=274 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=.]
+[Text=In CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=104 CharacterOffsetEnd=110 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=6 CharacterOffsetBegin=111 CharacterOffsetEnd=112 PartOfSpeech=CD Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0]
+[Text=we CharacterOffsetBegin=113 CharacterOffsetEnd=115 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=saw CharacterOffsetBegin=116 CharacterOffsetEnd=119 PartOfSpeech=VBD Lemma=see NamedEntityTag=O]
+[Text=lord CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=NN Lemma=lord NamedEntityTag=O]
+[Text=Smalljon CharacterOffsetBegin=125 CharacterOffsetEnd=133 PartOfSpeech=NNP Lemma=Smalljon NamedEntityTag=O]
+[Text=Umber CharacterOffsetBegin=134 CharacterOffsetEnd=139 PartOfSpeech=NNP Lemma=Umber NamedEntityTag=O]
+[Text=drag CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=NN Lemma=drag NamedEntityTag=O]
+[Text=Rickon CharacterOffsetBegin=145 CharacterOffsetEnd=151 PartOfSpeech=NNP Lemma=Rickon NamedEntityTag=PERSON]
+[Text=Stark CharacterOffsetBegin=152 CharacterOffsetEnd=157 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Osha CharacterOffsetBegin=162 CharacterOffsetEnd=166 PartOfSpeech=NNP Lemma=Osha NamedEntityTag=ORGANIZATION]
+[Text=in CharacterOffsetBegin=167 CharacterOffsetEnd=169 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=front CharacterOffsetBegin=170 CharacterOffsetEnd=175 PartOfSpeech=NN Lemma=front NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=176 CharacterOffsetEnd=178 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Ramsay CharacterOffsetBegin=179 CharacterOffsetEnd=185 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text=Bolton CharacterOffsetBegin=186 CharacterOffsetEnd=192 PartOfSpeech=NNP Lemma=Bolton NamedEntityTag=PERSON]
+[Text=as CharacterOffsetBegin=193 CharacterOffsetEnd=195 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=196 CharacterOffsetEnd=197 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=198 CharacterOffsetEnd=199 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=gift CharacterOffsetBegin=199 CharacterOffsetEnd=203 PartOfSpeech=NN Lemma=gift NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=203 CharacterOffsetEnd=204 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=demonstrate CharacterOffsetBegin=208 CharacterOffsetEnd=219 PartOfSpeech=VB Lemma=demonstrate NamedEntityTag=O]
+[Text=House CharacterOffsetBegin=220 CharacterOffsetEnd=225 PartOfSpeech=NNP Lemma=House NamedEntityTag=O]
+[Text=Umber CharacterOffsetBegin=226 CharacterOffsetEnd=231 PartOfSpeech=NNP Lemma=Umber NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=231 CharacterOffsetEnd=233 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=loyalty CharacterOffsetBegin=234 CharacterOffsetEnd=241 PartOfSpeech=NN Lemma=loyalty NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=242 CharacterOffsetEnd=244 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Ramsay CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text=as CharacterOffsetBegin=252 CharacterOffsetEnd=254 PartOfSpeech=IN Lemma=as NamedEntityTag=O]
+[Text=Warden CharacterOffsetBegin=255 CharacterOffsetEnd=261 PartOfSpeech=NNP Lemma=Warden NamedEntityTag=PERSON]
+[Text=of CharacterOffsetBegin=262 CharacterOffsetEnd=264 PartOfSpeech=IN Lemma=of NamedEntityTag=PERSON]
+[Text=the CharacterOffsetBegin=265 CharacterOffsetEnd=268 PartOfSpeech=DT Lemma=the NamedEntityTag=PERSON]
+[Text=North CharacterOffsetBegin=269 CharacterOffsetEnd=274 PartOfSpeech=NNP Lemma=North NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=274 CharacterOffsetEnd=275 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN In)
+      (NP (NN season) (CD 6)))
+    (NP (PRP we))
+    (VP (VBD saw)
+      (NP
+        (NP
+          (NP (NN lord))
+          (NP (NNP Smalljon) (NNP Umber) (NN drag) (NNP Rickon) (NNP Stark)))
+        (CC and)
+        (NP
+          (NP (NNP Osha))
+          (PP (IN in)
+            (NP
+              (NP (NN front))
+              (PP (IN of)
+                (NP (NNP Ramsay) (NNP Bolton)))))))
+      (PP (IN as)
+        (NP (DT a) (`` ``) (NN gift) ('' '')))
+      (S
+        (VP (TO to)
+          (VP (VB demonstrate)
+            (NP
+              (NP (NNP House) (NNP Umber) (POS 's))
+              (NN loyalty))
+            (PP (TO to)
+              (NP (NNP Ramsay)))
+            (PP (IN as)
+              (NP
+                (NP (NNP Warden))
+                (PP (IN of)
+                  (NP (DT the) (NNP North)))))))))
+    (. .)))
+
+root(ROOT-0, saw-5)
+case(season-2, In-1)
+nmod:in(saw-5, season-2)
+nummod(season-2, 6-3)
+nsubj(saw-5, we-4)
+dobj(saw-5, lord-6)
+compound(Stark-11, Smalljon-7)
+compound(Stark-11, Umber-8)
+compound(Stark-11, drag-9)
+compound(Stark-11, Rickon-10)
+dep(lord-6, Stark-11)
+cc(lord-6, and-12)
+dobj(saw-5, Osha-13)
+conj:and(lord-6, Osha-13)
+case(Bolton-18, in-14)
+mwe(in-14, front-15)
+mwe(in-14, of-16)
+compound(Bolton-18, Ramsay-17)
+nmod:in_front_of(Osha-13, Bolton-18)
+case(gift-22, as-19)
+det(gift-22, a-20)
+punct(gift-22, ``-21)
+nmod:as(saw-5, gift-22)
+punct(gift-22, ''-23)
+mark(demonstrate-25, to-24)
+advcl:to(saw-5, demonstrate-25)
+compound(Umber-27, House-26)
+nmod:poss(loyalty-29, Umber-27)
+case(Umber-27, 's-28)
+dobj(demonstrate-25, loyalty-29)
+case(Ramsay-31, to-30)
+nmod:to(demonstrate-25, Ramsay-31)
+case(Warden-33, as-32)
+nmod:as(demonstrate-25, Warden-33)
+case(North-36, of-34)
+det(North-36, the-35)
+nmod:of(Warden-33, North-36)
+punct(saw-5, .-37)
+
 Sentence #3 (26 tokens):
 However, what he didn't do was any of the traditional shows of loyalty like kneeling or kissing Ramsay's hand and so forth.
-[Text=However CharacterOffsetBegin=276 CharacterOffsetEnd=283 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=,]
-[Text=what CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=WP]
-[Text=he CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=PRP]
-[Text=did CharacterOffsetBegin=293 CharacterOffsetEnd=296 PartOfSpeech=VBD]
-[Text=n't CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=RB]
-[Text=do CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=VB]
-[Text=was CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=VBD]
-[Text=any CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=DT]
-[Text=of CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=DT]
-[Text=traditional CharacterOffsetBegin=318 CharacterOffsetEnd=329 PartOfSpeech=JJ]
-[Text=shows CharacterOffsetBegin=330 CharacterOffsetEnd=335 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=IN]
-[Text=loyalty CharacterOffsetBegin=339 CharacterOffsetEnd=346 PartOfSpeech=NN]
-[Text=like CharacterOffsetBegin=347 CharacterOffsetEnd=351 PartOfSpeech=IN]
-[Text=kneeling CharacterOffsetBegin=352 CharacterOffsetEnd=360 PartOfSpeech=VBG]
-[Text=or CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=CC]
-[Text=kissing CharacterOffsetBegin=364 CharacterOffsetEnd=371 PartOfSpeech=VBG]
-[Text=Ramsay CharacterOffsetBegin=372 CharacterOffsetEnd=378 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=POS]
-[Text=hand CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=CC]
-[Text=so CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=RB]
-[Text=forth CharacterOffsetBegin=393 CharacterOffsetEnd=398 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=398 CharacterOffsetEnd=399 PartOfSpeech=.]
+[Text=However CharacterOffsetBegin=276 CharacterOffsetEnd=283 PartOfSpeech=RB Lemma=however NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=did CharacterOffsetBegin=293 CharacterOffsetEnd=296 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=296 CharacterOffsetEnd=299 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=300 CharacterOffsetEnd=302 PartOfSpeech=VB Lemma=do NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=any CharacterOffsetBegin=307 CharacterOffsetEnd=310 PartOfSpeech=DT Lemma=any NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=311 CharacterOffsetEnd=313 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=314 CharacterOffsetEnd=317 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=traditional CharacterOffsetBegin=318 CharacterOffsetEnd=329 PartOfSpeech=JJ Lemma=traditional NamedEntityTag=O]
+[Text=shows CharacterOffsetBegin=330 CharacterOffsetEnd=335 PartOfSpeech=NNS Lemma=show NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=loyalty CharacterOffsetBegin=339 CharacterOffsetEnd=346 PartOfSpeech=NN Lemma=loyalty NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=347 CharacterOffsetEnd=351 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=kneeling CharacterOffsetBegin=352 CharacterOffsetEnd=360 PartOfSpeech=VBG Lemma=kneel NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=kissing CharacterOffsetBegin=364 CharacterOffsetEnd=371 PartOfSpeech=VBG Lemma=kiss NamedEntityTag=O]
+[Text=Ramsay CharacterOffsetBegin=372 CharacterOffsetEnd=378 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=378 CharacterOffsetEnd=380 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=hand CharacterOffsetBegin=381 CharacterOffsetEnd=385 PartOfSpeech=NN Lemma=hand NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=386 CharacterOffsetEnd=389 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=390 CharacterOffsetEnd=392 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=forth CharacterOffsetBegin=393 CharacterOffsetEnd=398 PartOfSpeech=RB Lemma=forth NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=398 CharacterOffsetEnd=399 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB However))
+    (, ,)
+    (S
+      (SBAR
+        (WHNP (WP what))
+        (S
+          (NP (PRP he))
+          (VP (VBD did) (RB n't)
+            (VP (VB do)))))
+      (VP (VBD was)
+        (NP
+          (NP (DT any))
+          (PP (IN of)
+            (NP
+              (NP (DT the) (JJ traditional) (NNS shows))
+              (PP (IN of)
+                (NP (NN loyalty))))))
+        (PP (IN like)
+          (S
+            (VP (VBG kneeling)
+              (CC or)
+              (VBG kissing)
+              (NP
+                (NP (NNP Ramsay) (POS 's))
+                (NN hand)))))))
+    (CC and)
+    (ADVP (RB so) (RB forth))
+    (. .)))
+
+root(ROOT-0, any-9)
+advmod(any-9, However-1)
+punct(any-9, ,-2)
+dobj(do-7, what-3)
+nsubj(do-7, he-4)
+aux(do-7, did-5)
+neg(do-7, n't-6)
+csubj(any-9, do-7)
+cop(any-9, was-8)
+case(shows-13, of-10)
+det(shows-13, the-11)
+amod(shows-13, traditional-12)
+nmod:of(any-9, shows-13)
+case(loyalty-15, of-14)
+nmod:of(shows-13, loyalty-15)
+mark(kneeling-17, like-16)
+advcl:like(any-9, kneeling-17)
+cc(kneeling-17, or-18)
+advcl:like(any-9, kissing-19)
+conj:or(kneeling-17, kissing-19)
+nmod:poss(hand-22, Ramsay-20)
+case(Ramsay-20, 's-21)
+dobj(kneeling-17, hand-22)
+cc(any-9, and-23)
+advmod(forth-25, so-24)
+advmod(any-9, forth-25)
+punct(any-9, .-26)
+
 Sentence #4 (34 tokens):
 The thought is that maybe House Umber remains loyal to the Starks and are part of a group of houses prepping to take back the North with a Stark at the head again.
-[Text=The CharacterOffsetBegin=400 CharacterOffsetEnd=403 PartOfSpeech=DT]
-[Text=thought CharacterOffsetBegin=404 CharacterOffsetEnd=411 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=415 CharacterOffsetEnd=419 PartOfSpeech=IN]
-[Text=maybe CharacterOffsetBegin=420 CharacterOffsetEnd=425 PartOfSpeech=RB]
-[Text=House CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=NNP]
-[Text=Umber CharacterOffsetBegin=432 CharacterOffsetEnd=437 PartOfSpeech=NNP]
-[Text=remains CharacterOffsetBegin=438 CharacterOffsetEnd=445 PartOfSpeech=VBZ]
-[Text=loyal CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=JJ]
-[Text=to CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=TO]
-[Text=the CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=DT]
-[Text=Starks CharacterOffsetBegin=459 CharacterOffsetEnd=465 PartOfSpeech=NNPS]
-[Text=and CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=CC]
-[Text=are CharacterOffsetBegin=470 CharacterOffsetEnd=473 PartOfSpeech=VBP]
-[Text=part CharacterOffsetBegin=474 CharacterOffsetEnd=478 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=479 CharacterOffsetEnd=481 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=482 CharacterOffsetEnd=483 PartOfSpeech=DT]
-[Text=group CharacterOffsetBegin=484 CharacterOffsetEnd=489 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=490 CharacterOffsetEnd=492 PartOfSpeech=IN]
-[Text=houses CharacterOffsetBegin=493 CharacterOffsetEnd=499 PartOfSpeech=NNS]
-[Text=prepping CharacterOffsetBegin=500 CharacterOffsetEnd=508 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=509 CharacterOffsetEnd=511 PartOfSpeech=TO]
-[Text=take CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=VB]
-[Text=back CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=RP]
-[Text=the CharacterOffsetBegin=522 CharacterOffsetEnd=525 PartOfSpeech=DT]
-[Text=North CharacterOffsetBegin=526 CharacterOffsetEnd=531 PartOfSpeech=NN]
-[Text=with CharacterOffsetBegin=532 CharacterOffsetEnd=536 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=537 CharacterOffsetEnd=538 PartOfSpeech=DT]
-[Text=Stark CharacterOffsetBegin=539 CharacterOffsetEnd=544 PartOfSpeech=NNP]
-[Text=at CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=DT]
-[Text=head CharacterOffsetBegin=552 CharacterOffsetEnd=556 PartOfSpeech=NN]
-[Text=again CharacterOffsetBegin=557 CharacterOffsetEnd=562 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=562 CharacterOffsetEnd=563 PartOfSpeech=.]
+[Text=The CharacterOffsetBegin=400 CharacterOffsetEnd=403 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=thought CharacterOffsetBegin=404 CharacterOffsetEnd=411 PartOfSpeech=NN Lemma=thought NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=412 CharacterOffsetEnd=414 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=415 CharacterOffsetEnd=419 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=maybe CharacterOffsetBegin=420 CharacterOffsetEnd=425 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=House CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=NNP Lemma=House NamedEntityTag=ORGANIZATION]
+[Text=Umber CharacterOffsetBegin=432 CharacterOffsetEnd=437 PartOfSpeech=NNP Lemma=Umber NamedEntityTag=O]
+[Text=remains CharacterOffsetBegin=438 CharacterOffsetEnd=445 PartOfSpeech=VBZ Lemma=remain NamedEntityTag=O]
+[Text=loyal CharacterOffsetBegin=446 CharacterOffsetEnd=451 PartOfSpeech=JJ Lemma=loyal NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=452 CharacterOffsetEnd=454 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Starks CharacterOffsetBegin=459 CharacterOffsetEnd=465 PartOfSpeech=NNPS Lemma=Starks NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=466 CharacterOffsetEnd=469 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=470 CharacterOffsetEnd=473 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=part CharacterOffsetBegin=474 CharacterOffsetEnd=478 PartOfSpeech=NN Lemma=part NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=479 CharacterOffsetEnd=481 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=482 CharacterOffsetEnd=483 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=group CharacterOffsetBegin=484 CharacterOffsetEnd=489 PartOfSpeech=NN Lemma=group NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=490 CharacterOffsetEnd=492 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=houses CharacterOffsetBegin=493 CharacterOffsetEnd=499 PartOfSpeech=NNS Lemma=house NamedEntityTag=O]
+[Text=prepping CharacterOffsetBegin=500 CharacterOffsetEnd=508 PartOfSpeech=VBG Lemma=prep NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=509 CharacterOffsetEnd=511 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=take CharacterOffsetBegin=512 CharacterOffsetEnd=516 PartOfSpeech=VB Lemma=take NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=517 CharacterOffsetEnd=521 PartOfSpeech=RP Lemma=back NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=522 CharacterOffsetEnd=525 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=North CharacterOffsetBegin=526 CharacterOffsetEnd=531 PartOfSpeech=NN Lemma=north NamedEntityTag=LOCATION]
+[Text=with CharacterOffsetBegin=532 CharacterOffsetEnd=536 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=537 CharacterOffsetEnd=538 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Stark CharacterOffsetBegin=539 CharacterOffsetEnd=544 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=545 CharacterOffsetEnd=547 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=548 CharacterOffsetEnd=551 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=head CharacterOffsetBegin=552 CharacterOffsetEnd=556 PartOfSpeech=NN Lemma=head NamedEntityTag=O]
+[Text=again CharacterOffsetBegin=557 CharacterOffsetEnd=562 PartOfSpeech=RB Lemma=again NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=562 CharacterOffsetEnd=563 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NN thought))
+    (VP (VBZ is)
+      (SBAR (IN that)
+        (S
+          (NP (RB maybe) (NNP House) (NNP Umber))
+          (VP
+            (VP (VBZ remains)
+              (ADJP (JJ loyal)
+                (PP (TO to)
+                  (NP (DT the) (NNPS Starks)))))
+            (CC and)
+            (VP (VBP are)
+              (NP
+                (NP (NN part))
+                (PP (IN of)
+                  (NP
+                    (NP (DT a) (NN group))
+                    (PP (IN of)
+                      (NP (NNS houses)))))))
+            (S
+              (VP (VBG prepping)
+                (S
+                  (VP (TO to)
+                    (VP (VB take)
+                      (PRT (RP back))
+                      (NP
+                        (NP (DT the) (NN North))
+                        (PP (IN with)
+                          (NP (DT a) (NNP Stark))))
+                      (PP (IN at)
+                        (NP (DT the) (NN head)))
+                      (ADVP (RB again)))))))))))
+    (. .)))
+
+root(ROOT-0, is-3)
+det(thought-2, The-1)
+nsubj(is-3, thought-2)
+mark(remains-8, that-4)
+advmod(Umber-7, maybe-5)
+compound(Umber-7, House-6)
+nsubj(remains-8, Umber-7)
+ccomp(is-3, remains-8)
+xcomp(remains-8, loyal-9)
+case(Starks-12, to-10)
+det(Starks-12, the-11)
+nmod:to(loyal-9, Starks-12)
+cc(remains-8, and-13)
+cop(part-15, are-14)
+ccomp(is-3, part-15)
+conj:and(remains-8, part-15)
+case(group-18, of-16)
+det(group-18, a-17)
+nmod:of(part-15, group-18)
+case(houses-20, of-19)
+nmod:of(group-18, houses-20)
+xcomp(remains-8, prepping-21)
+mark(take-23, to-22)
+xcomp(prepping-21, take-23)
+compound:prt(take-23, back-24)
+det(North-26, the-25)
+dobj(take-23, North-26)
+case(Stark-29, with-27)
+det(Stark-29, a-28)
+nmod:with(North-26, Stark-29)
+case(head-32, at-30)
+det(head-32, the-31)
+nmod:at(take-23, head-32)
+advmod(take-23, again-33)
+punct(is-3, .-34)
+
 Sentence #5 (25 tokens):
 With Rickon dead and Lord Umber fighting pretty hard for Ramsay in the battle at Winterfell, we can safely consider this one DEBUNKED.
-[Text=With CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=IN]
-[Text=Rickon CharacterOffsetBegin=570 CharacterOffsetEnd=576 PartOfSpeech=NNP]
-[Text=dead CharacterOffsetBegin=577 CharacterOffsetEnd=581 PartOfSpeech=JJ]
-[Text=and CharacterOffsetBegin=582 CharacterOffsetEnd=585 PartOfSpeech=CC]
-[Text=Lord CharacterOffsetBegin=586 CharacterOffsetEnd=590 PartOfSpeech=NNP]
-[Text=Umber CharacterOffsetBegin=591 CharacterOffsetEnd=596 PartOfSpeech=NNP]
-[Text=fighting CharacterOffsetBegin=597 CharacterOffsetEnd=605 PartOfSpeech=VBG]
-[Text=pretty CharacterOffsetBegin=606 CharacterOffsetEnd=612 PartOfSpeech=RB]
-[Text=hard CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=RB]
-[Text=for CharacterOffsetBegin=618 CharacterOffsetEnd=621 PartOfSpeech=IN]
-[Text=Ramsay CharacterOffsetBegin=622 CharacterOffsetEnd=628 PartOfSpeech=NNP]
-[Text=in CharacterOffsetBegin=629 CharacterOffsetEnd=631 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=632 CharacterOffsetEnd=635 PartOfSpeech=DT]
-[Text=battle CharacterOffsetBegin=636 CharacterOffsetEnd=642 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=643 CharacterOffsetEnd=645 PartOfSpeech=IN]
-[Text=Winterfell CharacterOffsetBegin=646 CharacterOffsetEnd=656 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=656 CharacterOffsetEnd=657 PartOfSpeech=,]
-[Text=we CharacterOffsetBegin=658 CharacterOffsetEnd=660 PartOfSpeech=PRP]
-[Text=can CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=MD]
-[Text=safely CharacterOffsetBegin=665 CharacterOffsetEnd=671 PartOfSpeech=RB]
-[Text=consider CharacterOffsetBegin=672 CharacterOffsetEnd=680 PartOfSpeech=VB]
-[Text=this CharacterOffsetBegin=681 CharacterOffsetEnd=685 PartOfSpeech=DT]
-[Text=one CharacterOffsetBegin=686 CharacterOffsetEnd=689 PartOfSpeech=CD]
-[Text=DEBUNKED CharacterOffsetBegin=690 CharacterOffsetEnd=698 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=698 CharacterOffsetEnd=699 PartOfSpeech=.]
+[Text=With CharacterOffsetBegin=565 CharacterOffsetEnd=569 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=Rickon CharacterOffsetBegin=570 CharacterOffsetEnd=576 PartOfSpeech=NNP Lemma=Rickon NamedEntityTag=PERSON]
+[Text=dead CharacterOffsetBegin=577 CharacterOffsetEnd=581 PartOfSpeech=JJ Lemma=dead NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=582 CharacterOffsetEnd=585 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Lord CharacterOffsetBegin=586 CharacterOffsetEnd=590 PartOfSpeech=NNP Lemma=Lord NamedEntityTag=O]
+[Text=Umber CharacterOffsetBegin=591 CharacterOffsetEnd=596 PartOfSpeech=NNP Lemma=Umber NamedEntityTag=O]
+[Text=fighting CharacterOffsetBegin=597 CharacterOffsetEnd=605 PartOfSpeech=VBG Lemma=fight NamedEntityTag=O]
+[Text=pretty CharacterOffsetBegin=606 CharacterOffsetEnd=612 PartOfSpeech=RB Lemma=pretty NamedEntityTag=O]
+[Text=hard CharacterOffsetBegin=613 CharacterOffsetEnd=617 PartOfSpeech=RB Lemma=hard NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=618 CharacterOffsetEnd=621 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=Ramsay CharacterOffsetBegin=622 CharacterOffsetEnd=628 PartOfSpeech=NNP Lemma=Ramsay NamedEntityTag=PERSON]
+[Text=in CharacterOffsetBegin=629 CharacterOffsetEnd=631 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=632 CharacterOffsetEnd=635 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=battle CharacterOffsetBegin=636 CharacterOffsetEnd=642 PartOfSpeech=NN Lemma=battle NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=643 CharacterOffsetEnd=645 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=Winterfell CharacterOffsetBegin=646 CharacterOffsetEnd=656 PartOfSpeech=NNP Lemma=Winterfell NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=656 CharacterOffsetEnd=657 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=658 CharacterOffsetEnd=660 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=661 CharacterOffsetEnd=664 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=safely CharacterOffsetBegin=665 CharacterOffsetEnd=671 PartOfSpeech=RB Lemma=safely NamedEntityTag=O]
+[Text=consider CharacterOffsetBegin=672 CharacterOffsetEnd=680 PartOfSpeech=VB Lemma=consider NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=681 CharacterOffsetEnd=685 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=686 CharacterOffsetEnd=689 PartOfSpeech=CD Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=DEBUNKED CharacterOffsetBegin=690 CharacterOffsetEnd=698 PartOfSpeech=NNP Lemma=DEBUNKED NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=698 CharacterOffsetEnd=699 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR (IN With)
+      (S
+        (S
+          (NP (NNP Rickon))
+          (ADJP (JJ dead)))
+        (CC and)
+        (S
+          (NP (NNP Lord) (NNP Umber))
+          (VP (VBG fighting)
+            (ADVP (RB pretty) (RB hard))
+            (PP (IN for)
+              (NP
+                (NP (NNP Ramsay))
+                (PP (IN in)
+                  (NP
+                    (NP (DT the) (NN battle))
+                    (PP (IN at)
+                      (NP (NNP Winterfell)))))))))))
+    (, ,)
+    (NP (PRP we))
+    (VP (MD can)
+      (ADVP (RB safely))
+      (VP (VB consider)
+        (NP (DT this) (CD one) (NNP DEBUNKED))))
+    (. .)))
+
+root(ROOT-0, consider-21)
+mark(dead-3, With-1)
+dep(dead-3, Rickon-2)
+advcl:with(consider-21, dead-3)
+cc(dead-3, and-4)
+compound(Umber-6, Lord-5)
+nsubj(fighting-7, Umber-6)
+conj:and(dead-3, fighting-7)
+advcl:with(consider-21, fighting-7)
+advmod(hard-9, pretty-8)
+advmod(fighting-7, hard-9)
+case(Ramsay-11, for-10)
+nmod:for(fighting-7, Ramsay-11)
+case(battle-14, in-12)
+det(battle-14, the-13)
+nmod:in(Ramsay-11, battle-14)
+case(Winterfell-16, at-15)
+nmod:at(battle-14, Winterfell-16)
+punct(consider-21, ,-17)
+nsubj(consider-21, we-18)
+aux(consider-21, can-19)
+advmod(consider-21, safely-20)
+det(DEBUNKED-24, this-22)
+nummod(DEBUNKED-24, one-23)
+dobj(consider-21, DEBUNKED-24)
+punct(consider-21, .-25)
+
+Coreference set:
+	(1,2,[1,3]) -> (4,7,[5,8]), that is: "House Umber" -> "maybe House Umber"
+	(1,4,[4,23]) -> (4,7,[5,8]), that is: "part of a `` grand Northern conspiracy '' to put the North back in the hands of a Stark" -> "maybe House Umber"
+	(2,27,[26,29]) -> (4,7,[5,8]), that is: "House Umber 's" -> "maybe House Umber"
+Coreference set:
+	(4,29,[28,30]) -> (1,22,[21,23]), that is: "a Stark" -> "a Stark"
+Coreference set:
+	(4,12,[12,13]) -> (2,11,[10,12]), that is: "Starks" -> "Rickon Stark"
+	(5,2,[2,3]) -> (2,11,[10,12]), that is: "Rickon" -> "Rickon Stark"
+Coreference set:
+	(2,31,[31,32]) -> (2,18,[17,19]), that is: "Ramsay" -> "Ramsay Bolton"
+	(3,20,[20,22]) -> (2,18,[17,19]), that is: "Ramsay 's" -> "Ramsay Bolton"
+Coreference set:
+	(5,18,[18,19]) -> (2,4,[4,5]), that is: "we" -> "we"
+Coreference set:
+	(3,4,[4,5]) -> (2,6,[6,12]), that is: "he" -> "lord Smalljon Umber drag Rickon Stark"

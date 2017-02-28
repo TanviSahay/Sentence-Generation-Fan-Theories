@@ -1,239 +1,766 @@
-Sentence #1 (11 tokens):
-Varys is actually a merman
+Sentence #1 (6 tokens):
+Varys is actually a merman.
+[Text=Varys CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Varys NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=actually CharacterOffsetBegin=9 CharacterOffsetEnd=17 PartOfSpeech=RB Lemma=actually NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=merman CharacterOffsetBegin=20 CharacterOffsetEnd=26 PartOfSpeech=NN Lemma=merman NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Varys))
+    (VP (VBZ is)
+      (ADVP (RB actually))
+      (NP (DT a) (NN merman)))
+    (. .)))
 
+root(ROOT-0, merman-5)
+nsubj(merman-5, Varys-1)
+cop(merman-5, is-2)
+advmod(merman-5, actually-3)
+det(merman-5, a-4)
+punct(merman-5, .-6)
+
+Sentence #2 (6 tokens):
 What this means: Everything.
-[Text=Varys CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=6 CharacterOffsetEnd=8 PartOfSpeech=VBZ]
-[Text=actually CharacterOffsetBegin=9 CharacterOffsetEnd=17 PartOfSpeech=RB]
-[Text=a CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=DT]
-[Text=merman CharacterOffsetBegin=20 CharacterOffsetEnd=26 PartOfSpeech=NN]
-[Text=What CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=WP]
-[Text=this CharacterOffsetBegin=33 CharacterOffsetEnd=37 PartOfSpeech=DT]
-[Text=means CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=VBZ]
-[Text=: CharacterOffsetBegin=43 CharacterOffsetEnd=44 PartOfSpeech=:]
-[Text=Everything CharacterOffsetBegin=45 CharacterOffsetEnd=55 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=55 CharacterOffsetEnd=56 PartOfSpeech=.]
-Sentence #2 (4 tokens):
+[Text=What CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=34 CharacterOffsetEnd=38 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=means CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=VBZ Lemma=mean NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=44 CharacterOffsetEnd=45 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=Everything CharacterOffsetBegin=46 CharacterOffsetEnd=56 PartOfSpeech=NN Lemma=everything NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (SBAR
+    (WHNP (WP What))
+    (S
+      (UCP
+        (S
+          (NP (DT this))
+          (VP (VBZ means)))
+        (: :)
+        (NP (NN Everything))
+        (. .)))))
+
+root(ROOT-0, means-3)
+dep(means-3, What-1)
+nsubj(means-3, this-2)
+punct(means-3, :-4)
+dep(means-3, Everything-5)
+punct(means-3, .-6)
+
+Sentence #3 (4 tokens):
 This means everything.
-[Text=This CharacterOffsetBegin=57 CharacterOffsetEnd=61 PartOfSpeech=DT]
-[Text=means CharacterOffsetBegin=62 CharacterOffsetEnd=67 PartOfSpeech=VBZ]
-[Text=everything CharacterOffsetBegin=68 CharacterOffsetEnd=78 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech=.]
-Sentence #3 (13 tokens):
+[Text=This CharacterOffsetBegin=58 CharacterOffsetEnd=62 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=means CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=VBZ Lemma=mean NamedEntityTag=O]
+[Text=everything CharacterOffsetBegin=69 CharacterOffsetEnd=79 PartOfSpeech=NN Lemma=everything NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=79 CharacterOffsetEnd=80 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ means)
+      (NP (NN everything)))
+    (. .)))
+
+root(ROOT-0, means-2)
+nsubj(means-2, This-1)
+dobj(means-2, everything-3)
+punct(means-2, .-4)
+
+Sentence #4 (13 tokens):
 This is the probably the most spectacular thing I’ve ever heard.
-[Text=This CharacterOffsetBegin=80 CharacterOffsetEnd=84 PartOfSpeech=DT]
-[Text=is CharacterOffsetBegin=85 CharacterOffsetEnd=87 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=88 CharacterOffsetEnd=91 PartOfSpeech=DT]
-[Text=probably CharacterOffsetBegin=92 CharacterOffsetEnd=100 PartOfSpeech=RB]
-[Text=the CharacterOffsetBegin=101 CharacterOffsetEnd=104 PartOfSpeech=DT]
-[Text=most CharacterOffsetBegin=105 CharacterOffsetEnd=109 PartOfSpeech=RBS]
-[Text=spectacular CharacterOffsetBegin=110 CharacterOffsetEnd=121 PartOfSpeech=JJ]
-[Text=thing CharacterOffsetBegin=122 CharacterOffsetEnd=127 PartOfSpeech=NN]
-[Text=I CharacterOffsetBegin=128 CharacterOffsetEnd=129 PartOfSpeech=PRP]
-[Text='ve CharacterOffsetBegin=129 CharacterOffsetEnd=132 PartOfSpeech=VBP]
-[Text=ever CharacterOffsetBegin=133 CharacterOffsetEnd=137 PartOfSpeech=RB]
-[Text=heard CharacterOffsetBegin=138 CharacterOffsetEnd=143 PartOfSpeech=VBN]
-[Text=. CharacterOffsetBegin=143 CharacterOffsetEnd=144 PartOfSpeech=.]
-Sentence #4 (16 tokens):
+[Text=This CharacterOffsetBegin=81 CharacterOffsetEnd=85 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=86 CharacterOffsetEnd=88 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=89 CharacterOffsetEnd=92 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=probably CharacterOffsetBegin=93 CharacterOffsetEnd=101 PartOfSpeech=RB Lemma=probably NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=102 CharacterOffsetEnd=105 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=most CharacterOffsetBegin=106 CharacterOffsetEnd=110 PartOfSpeech=RBS Lemma=most NamedEntityTag=O]
+[Text=spectacular CharacterOffsetBegin=111 CharacterOffsetEnd=122 PartOfSpeech=JJ Lemma=spectacular NamedEntityTag=O]
+[Text=thing CharacterOffsetBegin=123 CharacterOffsetEnd=128 PartOfSpeech=NN Lemma=thing NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=129 CharacterOffsetEnd=130 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text='ve CharacterOffsetBegin=130 CharacterOffsetEnd=133 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=ever CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=RB Lemma=ever NamedEntityTag=O]
+[Text=heard CharacterOffsetBegin=139 CharacterOffsetEnd=144 PartOfSpeech=VBN Lemma=hear NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=144 CharacterOffsetEnd=145 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (ADVP (DT the) (RB probably))
+      (NP
+        (NP (DT the)
+          (ADJP (RBS most) (JJ spectacular))
+          (NN thing))
+        (SBAR
+          (S
+            (NP (PRP I))
+            (VP (VBP 've)
+              (ADVP (RB ever))
+              (VP (VBN heard)))))))
+    (. .)))
+
+root(ROOT-0, thing-8)
+nsubj(thing-8, This-1)
+cop(thing-8, is-2)
+dep(probably-4, the-3)
+advmod(thing-8, probably-4)
+det(thing-8, the-5)
+advmod(spectacular-7, most-6)
+amod(thing-8, spectacular-7)
+nsubj(heard-12, I-9)
+aux(heard-12, 've-10)
+advmod(heard-12, ever-11)
+acl:relcl(thing-8, heard-12)
+punct(thing-8, .-13)
+
+Sentence #5 (16 tokens):
 You know how Varys and Littlefinger are basically caught in their own game of thrones?
-[Text=You CharacterOffsetBegin=145 CharacterOffsetEnd=148 PartOfSpeech=PRP]
-[Text=know CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=VBP]
-[Text=how CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=WRB]
-[Text=Varys CharacterOffsetBegin=158 CharacterOffsetEnd=163 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=164 CharacterOffsetEnd=167 PartOfSpeech=CC]
-[Text=Littlefinger CharacterOffsetBegin=168 CharacterOffsetEnd=180 PartOfSpeech=NNP]
-[Text=are CharacterOffsetBegin=181 CharacterOffsetEnd=184 PartOfSpeech=VBP]
-[Text=basically CharacterOffsetBegin=185 CharacterOffsetEnd=194 PartOfSpeech=RB]
-[Text=caught CharacterOffsetBegin=195 CharacterOffsetEnd=201 PartOfSpeech=VBN]
-[Text=in CharacterOffsetBegin=202 CharacterOffsetEnd=204 PartOfSpeech=IN]
-[Text=their CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=PRP$]
-[Text=own CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=JJ]
-[Text=game CharacterOffsetBegin=215 CharacterOffsetEnd=219 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=220 CharacterOffsetEnd=222 PartOfSpeech=IN]
-[Text=thrones CharacterOffsetBegin=223 CharacterOffsetEnd=230 PartOfSpeech=NNS]
-[Text=? CharacterOffsetBegin=230 CharacterOffsetEnd=231 PartOfSpeech=.]
-Sentence #5 (14 tokens):
+[Text=You CharacterOffsetBegin=146 CharacterOffsetEnd=149 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=know CharacterOffsetBegin=150 CharacterOffsetEnd=154 PartOfSpeech=VBP Lemma=know NamedEntityTag=O]
+[Text=how CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=WRB Lemma=how NamedEntityTag=O]
+[Text=Varys CharacterOffsetBegin=159 CharacterOffsetEnd=164 PartOfSpeech=NNP Lemma=Varys NamedEntityTag=LOCATION]
+[Text=and CharacterOffsetBegin=165 CharacterOffsetEnd=168 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Littlefinger CharacterOffsetBegin=169 CharacterOffsetEnd=181 PartOfSpeech=NNP Lemma=Littlefinger NamedEntityTag=O]
+[Text=are CharacterOffsetBegin=182 CharacterOffsetEnd=185 PartOfSpeech=VBP Lemma=be NamedEntityTag=O]
+[Text=basically CharacterOffsetBegin=186 CharacterOffsetEnd=195 PartOfSpeech=RB Lemma=basically NamedEntityTag=O]
+[Text=caught CharacterOffsetBegin=196 CharacterOffsetEnd=202 PartOfSpeech=VBN Lemma=catch NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=203 CharacterOffsetEnd=205 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=their CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=PRP$ Lemma=they NamedEntityTag=O]
+[Text=own CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=JJ Lemma=own NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=221 CharacterOffsetEnd=223 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=thrones CharacterOffsetBegin=224 CharacterOffsetEnd=231 PartOfSpeech=NNS Lemma=throne NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=231 CharacterOffsetEnd=232 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBP know)
+      (SBAR
+        (WHADVP (WRB how))
+        (S
+          (NP (NNP Varys)
+            (CC and)
+            (NNP Littlefinger))
+          (VP (VBP are)
+            (ADVP (RB basically))
+            (VP (VBN caught)
+              (PP (IN in)
+                (NP
+                  (NP (PRP$ their) (JJ own) (NN game))
+                  (PP (IN of)
+                    (NP (NNS thrones))))))))))
+    (. ?)))
+
+root(ROOT-0, know-2)
+nsubj(know-2, You-1)
+advmod(caught-9, how-3)
+nsubjpass(caught-9, Varys-4)
+cc(Varys-4, and-5)
+conj:and(Varys-4, Littlefinger-6)
+nsubjpass(caught-9, Littlefinger-6)
+auxpass(caught-9, are-7)
+advmod(caught-9, basically-8)
+ccomp(know-2, caught-9)
+case(game-13, in-10)
+nmod:poss(game-13, their-11)
+amod(game-13, own-12)
+nmod:in(caught-9, game-13)
+case(thrones-15, of-14)
+nmod:of(game-13, thrones-15)
+punct(know-2, ?-16)
+
+Sentence #6 (14 tokens):
 We now know why Littlefinger’s doing it, because he wants power.
-[Text=We CharacterOffsetBegin=232 CharacterOffsetEnd=234 PartOfSpeech=PRP]
-[Text=now CharacterOffsetBegin=235 CharacterOffsetEnd=238 PartOfSpeech=RB]
-[Text=know CharacterOffsetBegin=239 CharacterOffsetEnd=243 PartOfSpeech=VBP]
-[Text=why CharacterOffsetBegin=244 CharacterOffsetEnd=247 PartOfSpeech=WRB]
-[Text=Littlefinger CharacterOffsetBegin=248 CharacterOffsetEnd=260 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=260 CharacterOffsetEnd=262 PartOfSpeech=POS]
-[Text=doing CharacterOffsetBegin=263 CharacterOffsetEnd=268 PartOfSpeech=VBG]
-[Text=it CharacterOffsetBegin=269 CharacterOffsetEnd=271 PartOfSpeech=PRP]
-[Text=, CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=,]
-[Text=because CharacterOffsetBegin=273 CharacterOffsetEnd=280 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=281 CharacterOffsetEnd=283 PartOfSpeech=PRP]
-[Text=wants CharacterOffsetBegin=284 CharacterOffsetEnd=289 PartOfSpeech=VBZ]
-[Text=power CharacterOffsetBegin=290 CharacterOffsetEnd=295 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=295 CharacterOffsetEnd=296 PartOfSpeech=.]
-Sentence #6 (6 tokens):
+[Text=We CharacterOffsetBegin=233 CharacterOffsetEnd=235 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=now CharacterOffsetBegin=236 CharacterOffsetEnd=239 PartOfSpeech=RB Lemma=now NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">now</TIMEX3>]
+[Text=know CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=VBP Lemma=know NamedEntityTag=O]
+[Text=why CharacterOffsetBegin=245 CharacterOffsetEnd=248 PartOfSpeech=WRB Lemma=why NamedEntityTag=O]
+[Text=Littlefinger CharacterOffsetBegin=249 CharacterOffsetEnd=261 PartOfSpeech=NNP Lemma=Littlefinger NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=261 CharacterOffsetEnd=263 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=doing CharacterOffsetBegin=264 CharacterOffsetEnd=269 PartOfSpeech=VBG Lemma=do NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=270 CharacterOffsetEnd=272 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=272 CharacterOffsetEnd=273 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=because CharacterOffsetBegin=274 CharacterOffsetEnd=281 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=wants CharacterOffsetBegin=285 CharacterOffsetEnd=290 PartOfSpeech=VBZ Lemma=want NamedEntityTag=O]
+[Text=power CharacterOffsetBegin=291 CharacterOffsetEnd=296 PartOfSpeech=NN Lemma=power NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=296 CharacterOffsetEnd=297 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP We))
+    (ADVP (RB now))
+    (VP (VBP know)
+      (SBAR
+        (WHADVP (WRB why))
+        (S
+          (S
+            (NP (NNP Littlefinger) (POS 's))
+            (VP (VBG doing)
+              (NP (PRP it))
+              (, ,)
+              (PP (IN because)
+                (NP (PRP he)))))
+          (VP (VBZ wants)
+            (NP (NN power))))))
+    (. .)))
+
+root(ROOT-0, know-3)
+nsubj(know-3, We-1)
+advmod(know-3, now-2)
+advmod(wants-12, why-4)
+nsubj(doing-7, Littlefinger-5)
+case(Littlefinger-5, 's-6)
+csubj(wants-12, doing-7)
+dobj(doing-7, it-8)
+punct(doing-7, ,-9)
+case(he-11, because-10)
+nmod:because(doing-7, he-11)
+ccomp(know-3, wants-12)
+dobj(wants-12, power-13)
+punct(know-3, .-14)
+
+Sentence #7 (6 tokens):
 But what does Varys want?
-[Text=But CharacterOffsetBegin=297 CharacterOffsetEnd=300 PartOfSpeech=CC]
-[Text=what CharacterOffsetBegin=301 CharacterOffsetEnd=305 PartOfSpeech=WP]
-[Text=does CharacterOffsetBegin=306 CharacterOffsetEnd=310 PartOfSpeech=VBZ]
-[Text=Varys CharacterOffsetBegin=311 CharacterOffsetEnd=316 PartOfSpeech=NNP]
-[Text=want CharacterOffsetBegin=317 CharacterOffsetEnd=321 PartOfSpeech=VB]
-[Text=? CharacterOffsetBegin=321 CharacterOffsetEnd=322 PartOfSpeech=.]
-Sentence #7 (23 tokens):
+[Text=But CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=does CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=Varys CharacterOffsetBegin=312 CharacterOffsetEnd=317 PartOfSpeech=NNP Lemma=Varys NamedEntityTag=O]
+[Text=want CharacterOffsetBegin=318 CharacterOffsetEnd=322 PartOfSpeech=VB Lemma=want NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=322 CharacterOffsetEnd=323 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (SBARQ (CC But)
+    (WHNP (WP what))
+    (SQ (VBZ does)
+      (NP (NNP Varys))
+      (VP (VB want)))
+    (. ?)))
+
+root(ROOT-0, want-5)
+cc(want-5, But-1)
+dobj(want-5, what-2)
+aux(want-5, does-3)
+nsubj(want-5, Varys-4)
+punct(want-5, ?-6)
+
+Sentence #8 (23 tokens):
 Well, according to Nerdist, it’s simple: He is a merman and he wants to free his fellow merpeople.
-[Text=Well CharacterOffsetBegin=323 CharacterOffsetEnd=327 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=327 CharacterOffsetEnd=328 PartOfSpeech=,]
-[Text=according CharacterOffsetBegin=329 CharacterOffsetEnd=338 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=339 CharacterOffsetEnd=341 PartOfSpeech=TO]
-[Text=Nerdist CharacterOffsetBegin=342 CharacterOffsetEnd=349 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=349 CharacterOffsetEnd=350 PartOfSpeech=,]
-[Text=it CharacterOffsetBegin=351 CharacterOffsetEnd=353 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=353 CharacterOffsetEnd=355 PartOfSpeech=VBZ]
-[Text=simple CharacterOffsetBegin=356 CharacterOffsetEnd=362 PartOfSpeech=JJ]
-[Text=: CharacterOffsetBegin=362 CharacterOffsetEnd=363 PartOfSpeech=:]
-[Text=He CharacterOffsetBegin=364 CharacterOffsetEnd=366 PartOfSpeech=PRP]
-[Text=is CharacterOffsetBegin=367 CharacterOffsetEnd=369 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=370 CharacterOffsetEnd=371 PartOfSpeech=DT]
-[Text=merman CharacterOffsetBegin=372 CharacterOffsetEnd=378 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=379 CharacterOffsetEnd=382 PartOfSpeech=CC]
-[Text=he CharacterOffsetBegin=383 CharacterOffsetEnd=385 PartOfSpeech=PRP]
-[Text=wants CharacterOffsetBegin=386 CharacterOffsetEnd=391 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=392 CharacterOffsetEnd=394 PartOfSpeech=TO]
-[Text=free CharacterOffsetBegin=395 CharacterOffsetEnd=399 PartOfSpeech=VB]
-[Text=his CharacterOffsetBegin=400 CharacterOffsetEnd=403 PartOfSpeech=PRP$]
-[Text=fellow CharacterOffsetBegin=404 CharacterOffsetEnd=410 PartOfSpeech=JJ]
-[Text=merpeople CharacterOffsetBegin=411 CharacterOffsetEnd=420 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=420 CharacterOffsetEnd=421 PartOfSpeech=.]
-Sentence #8 (5 tokens):
+[Text=Well CharacterOffsetBegin=324 CharacterOffsetEnd=328 PartOfSpeech=RB Lemma=well NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=328 CharacterOffsetEnd=329 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=according CharacterOffsetBegin=330 CharacterOffsetEnd=339 PartOfSpeech=VBG Lemma=accord NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=340 CharacterOffsetEnd=342 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Nerdist CharacterOffsetBegin=343 CharacterOffsetEnd=350 PartOfSpeech=NNP Lemma=Nerdist NamedEntityTag=LOCATION]
+[Text=, CharacterOffsetBegin=350 CharacterOffsetEnd=351 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=352 CharacterOffsetEnd=354 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=354 CharacterOffsetEnd=356 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=simple CharacterOffsetBegin=357 CharacterOffsetEnd=363 PartOfSpeech=JJ Lemma=simple NamedEntityTag=O]
+[Text=: CharacterOffsetBegin=363 CharacterOffsetEnd=364 PartOfSpeech=: Lemma=: NamedEntityTag=O]
+[Text=He CharacterOffsetBegin=365 CharacterOffsetEnd=367 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=368 CharacterOffsetEnd=370 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=371 CharacterOffsetEnd=372 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=merman CharacterOffsetBegin=373 CharacterOffsetEnd=379 PartOfSpeech=NN Lemma=merman NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=380 CharacterOffsetEnd=383 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=384 CharacterOffsetEnd=386 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=wants CharacterOffsetBegin=387 CharacterOffsetEnd=392 PartOfSpeech=VBZ Lemma=want NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=393 CharacterOffsetEnd=395 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=free CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=VB Lemma=free NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=fellow CharacterOffsetBegin=405 CharacterOffsetEnd=411 PartOfSpeech=JJ Lemma=fellow NamedEntityTag=O]
+[Text=merpeople CharacterOffsetBegin=412 CharacterOffsetEnd=421 PartOfSpeech=NN Lemma=merpeople NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=421 CharacterOffsetEnd=422 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (INTJ (RB Well))
+      (, ,)
+      (PP (VBG according)
+        (PP (TO to)
+          (NP (NNP Nerdist))))
+      (, ,)
+      (NP (PRP it))
+      (VP (VBZ 's)
+        (ADJP (JJ simple))))
+    (: :)
+    (S
+      (S
+        (NP (PRP He))
+        (VP (VBZ is)
+          (NP (DT a) (NN merman))))
+      (CC and)
+      (S
+        (NP (PRP he))
+        (VP (VBZ wants)
+          (S
+            (VP (TO to)
+              (VP (VB free)
+                (NP (PRP$ his) (JJ fellow) (NN merpeople))))))))
+    (. .)))
+
+root(ROOT-0, simple-9)
+discourse(simple-9, Well-1)
+punct(simple-9, ,-2)
+case(Nerdist-5, according-3)
+mwe(according-3, to-4)
+nmod:according_to(simple-9, Nerdist-5)
+punct(simple-9, ,-6)
+nsubj(simple-9, it-7)
+cop(simple-9, 's-8)
+punct(simple-9, :-10)
+nsubj(merman-14, He-11)
+cop(merman-14, is-12)
+det(merman-14, a-13)
+parataxis(simple-9, merman-14)
+cc(merman-14, and-15)
+nsubj(wants-17, he-16)
+nsubj:xsubj(free-19, he-16)
+parataxis(simple-9, wants-17)
+conj:and(merman-14, wants-17)
+mark(free-19, to-18)
+xcomp(wants-17, free-19)
+nmod:poss(merpeople-22, his-20)
+amod(merpeople-22, fellow-21)
+dobj(free-19, merpeople-22)
+punct(simple-9, .-23)
+
+Sentence #9 (5 tokens):
 You heard that right.
-[Text=You CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=PRP]
-[Text=heard CharacterOffsetBegin=426 CharacterOffsetEnd=431 PartOfSpeech=VBD]
-[Text=that CharacterOffsetBegin=432 CharacterOffsetEnd=436 PartOfSpeech=IN]
-[Text=right CharacterOffsetBegin=437 CharacterOffsetEnd=442 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=442 CharacterOffsetEnd=443 PartOfSpeech=.]
-Sentence #9 (26 tokens):
+[Text=You CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=heard CharacterOffsetBegin=427 CharacterOffsetEnd=432 PartOfSpeech=VBD Lemma=hear NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=433 CharacterOffsetEnd=437 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=right CharacterOffsetBegin=438 CharacterOffsetEnd=443 PartOfSpeech=NN Lemma=right NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=443 CharacterOffsetEnd=444 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP You))
+    (VP (VBD heard)
+      (ADVP (IN that) (NN right)))
+    (. .)))
+
+root(ROOT-0, heard-2)
+nsubj(heard-2, You-1)
+case(right-4, that-3)
+advmod(heard-2, right-4)
+punct(heard-2, .-5)
+
+Sentence #10 (26 tokens):
 And not just any merman, but a member of the “merlings” species, which exist in A Song of Ice and Fire.
-[Text=And CharacterOffsetBegin=444 CharacterOffsetEnd=447 PartOfSpeech=CC]
-[Text=not CharacterOffsetBegin=448 CharacterOffsetEnd=451 PartOfSpeech=RB]
-[Text=just CharacterOffsetBegin=452 CharacterOffsetEnd=456 PartOfSpeech=RB]
-[Text=any CharacterOffsetBegin=457 CharacterOffsetEnd=460 PartOfSpeech=DT]
-[Text=merman CharacterOffsetBegin=461 CharacterOffsetEnd=467 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=467 CharacterOffsetEnd=468 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=CC]
-[Text=a CharacterOffsetBegin=473 CharacterOffsetEnd=474 PartOfSpeech=DT]
-[Text=member CharacterOffsetBegin=475 CharacterOffsetEnd=481 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=482 CharacterOffsetEnd=484 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=485 CharacterOffsetEnd=488 PartOfSpeech=DT]
-[Text=`` CharacterOffsetBegin=489 CharacterOffsetEnd=490 PartOfSpeech=``]
-[Text=merlings CharacterOffsetBegin=490 CharacterOffsetEnd=498 PartOfSpeech=NNS]
-[Text='' CharacterOffsetBegin=498 CharacterOffsetEnd=499 PartOfSpeech='']
-[Text=species CharacterOffsetBegin=500 CharacterOffsetEnd=507 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=,]
-[Text=which CharacterOffsetBegin=509 CharacterOffsetEnd=514 PartOfSpeech=WDT]
-[Text=exist CharacterOffsetBegin=515 CharacterOffsetEnd=520 PartOfSpeech=VBP]
-[Text=in CharacterOffsetBegin=521 CharacterOffsetEnd=523 PartOfSpeech=IN]
-[Text=A CharacterOffsetBegin=524 CharacterOffsetEnd=525 PartOfSpeech=DT]
-[Text=Song CharacterOffsetBegin=526 CharacterOffsetEnd=530 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=531 CharacterOffsetEnd=533 PartOfSpeech=IN]
-[Text=Ice CharacterOffsetBegin=534 CharacterOffsetEnd=537 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=538 CharacterOffsetEnd=541 PartOfSpeech=CC]
-[Text=Fire CharacterOffsetBegin=542 CharacterOffsetEnd=546 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=546 CharacterOffsetEnd=547 PartOfSpeech=.]
-Sentence #10 (8 tokens):
+[Text=And CharacterOffsetBegin=445 CharacterOffsetEnd=448 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=not CharacterOffsetBegin=449 CharacterOffsetEnd=452 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=just CharacterOffsetBegin=453 CharacterOffsetEnd=457 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=any CharacterOffsetBegin=458 CharacterOffsetEnd=461 PartOfSpeech=DT Lemma=any NamedEntityTag=O]
+[Text=merman CharacterOffsetBegin=462 CharacterOffsetEnd=468 PartOfSpeech=NN Lemma=merman NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=468 CharacterOffsetEnd=469 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=470 CharacterOffsetEnd=473 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=474 CharacterOffsetEnd=475 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=member CharacterOffsetBegin=476 CharacterOffsetEnd=482 PartOfSpeech=NN Lemma=member NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=483 CharacterOffsetEnd=485 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=486 CharacterOffsetEnd=489 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=490 CharacterOffsetEnd=491 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=merlings CharacterOffsetBegin=491 CharacterOffsetEnd=499 PartOfSpeech=NNS Lemma=merling NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=499 CharacterOffsetEnd=500 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=species CharacterOffsetBegin=501 CharacterOffsetEnd=508 PartOfSpeech=NNS Lemma=species NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=508 CharacterOffsetEnd=509 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=510 CharacterOffsetEnd=515 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=exist CharacterOffsetBegin=516 CharacterOffsetEnd=521 PartOfSpeech=VBP Lemma=exist NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=522 CharacterOffsetEnd=524 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=A CharacterOffsetBegin=525 CharacterOffsetEnd=526 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=Song CharacterOffsetBegin=527 CharacterOffsetEnd=531 PartOfSpeech=NN Lemma=song NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=532 CharacterOffsetEnd=534 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Ice CharacterOffsetBegin=535 CharacterOffsetEnd=538 PartOfSpeech=NN Lemma=ice NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=539 CharacterOffsetEnd=542 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Fire CharacterOffsetBegin=543 CharacterOffsetEnd=547 PartOfSpeech=NN Lemma=fire NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=547 CharacterOffsetEnd=548 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (FRAG (CC And)
+    (RB not)
+    (NP
+      (NP (RB just) (DT any) (NN merman))
+      (, ,)
+      (NP
+        (NP
+          (ADVP (CC but))
+          (NP (DT a) (NN member))
+          (PP (IN of)
+            (NP (DT the) (`` ``) (NNS merlings) ('' '') (NNS species))))
+        (, ,)
+        (SBAR
+          (WHNP (WDT which))
+          (S
+            (VP (VBP exist)
+              (PP (IN in)
+                (NP
+                  (NP (DT A) (NN Song))
+                  (PP (IN of)
+                    (NP (NN Ice)
+                      (CC and)
+                      (NN Fire))))))))))
+    (. .)))
+
+root(ROOT-0, not-2)
+cc(not-2, And-1)
+advmod(merman-5, just-3)
+det(merman-5, any-4)
+dep(not-2, merman-5)
+punct(merman-5, ,-6)
+advmod(member-9, but-7)
+det(member-9, a-8)
+appos(merman-5, member-9)
+nsubj(exist-18, member-9)
+case(species-15, of-10)
+det(species-15, the-11)
+punct(species-15, ``-12)
+compound(species-15, merlings-13)
+punct(species-15, ''-14)
+nmod:of(member-9, species-15)
+punct(member-9, ,-16)
+ref(member-9, which-17)
+acl:relcl(member-9, exist-18)
+case(Song-21, in-19)
+det(Song-21, A-20)
+nmod:in(exist-18, Song-21)
+case(Ice-23, of-22)
+nmod:of(Song-21, Ice-23)
+cc(Ice-23, and-24)
+nmod:of(Song-21, Fire-25)
+conj:and(Ice-23, Fire-25)
+punct(not-2, .-26)
+
+Sentence #11 (8 tokens):
 The biggest hook (get it?)
-[Text=The CharacterOffsetBegin=550 CharacterOffsetEnd=553 PartOfSpeech=DT]
-[Text=biggest CharacterOffsetBegin=554 CharacterOffsetEnd=561 PartOfSpeech=JJS]
-[Text=hook CharacterOffsetBegin=562 CharacterOffsetEnd=566 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=567 CharacterOffsetEnd=568 PartOfSpeech=-LRB-]
-[Text=get CharacterOffsetBegin=568 CharacterOffsetEnd=571 PartOfSpeech=VB]
-[Text=it CharacterOffsetBegin=572 CharacterOffsetEnd=574 PartOfSpeech=PRP]
-[Text=? CharacterOffsetBegin=574 CharacterOffsetEnd=575 PartOfSpeech=.]
-[Text=-RRB- CharacterOffsetBegin=575 CharacterOffsetEnd=576 PartOfSpeech=-RRB-]
-Sentence #11 (17 tokens):
+[Text=The CharacterOffsetBegin=551 CharacterOffsetEnd=554 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=biggest CharacterOffsetBegin=555 CharacterOffsetEnd=562 PartOfSpeech=JJS Lemma=biggest NamedEntityTag=O]
+[Text=hook CharacterOffsetBegin=563 CharacterOffsetEnd=567 PartOfSpeech=NN Lemma=hook NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=568 CharacterOffsetEnd=569 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=get CharacterOffsetBegin=569 CharacterOffsetEnd=572 PartOfSpeech=VB Lemma=get NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=573 CharacterOffsetEnd=575 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=575 CharacterOffsetEnd=576 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=576 CharacterOffsetEnd=577 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The)
+      (NP
+        (NP (JJS biggest) (NN hook))
+        (PRN (-LRB- -LRB-)
+          (SQ
+            (VP (VB get)
+              (NP (PRP it)))
+            (. ?))
+          (-RRB- -RRB-))))))
+
+root(ROOT-0, hook-3)
+det(hook-3, The-1)
+amod(hook-3, biggest-2)
+punct(get-5, -LRB--4)
+dep(hook-3, get-5)
+dobj(get-5, it-6)
+punct(get-5, ?-7)
+punct(get-5, -RRB--8)
+
+Sentence #12 (17 tokens):
 for this theory is the speed in which Varys traveled from Dorne to Dany’s ship.
-[Text=for CharacterOffsetBegin=577 CharacterOffsetEnd=580 PartOfSpeech=IN]
-[Text=this CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=586 CharacterOffsetEnd=592 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=593 CharacterOffsetEnd=595 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=596 CharacterOffsetEnd=599 PartOfSpeech=DT]
-[Text=speed CharacterOffsetBegin=600 CharacterOffsetEnd=605 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=606 CharacterOffsetEnd=608 PartOfSpeech=IN]
-[Text=which CharacterOffsetBegin=609 CharacterOffsetEnd=614 PartOfSpeech=WDT]
-[Text=Varys CharacterOffsetBegin=615 CharacterOffsetEnd=620 PartOfSpeech=NNP]
-[Text=traveled CharacterOffsetBegin=621 CharacterOffsetEnd=629 PartOfSpeech=VBD]
-[Text=from CharacterOffsetBegin=630 CharacterOffsetEnd=634 PartOfSpeech=IN]
-[Text=Dorne CharacterOffsetBegin=635 CharacterOffsetEnd=640 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=641 CharacterOffsetEnd=643 PartOfSpeech=TO]
-[Text=Dany CharacterOffsetBegin=644 CharacterOffsetEnd=648 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=648 CharacterOffsetEnd=650 PartOfSpeech=POS]
-[Text=ship CharacterOffsetBegin=651 CharacterOffsetEnd=655 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=655 CharacterOffsetEnd=656 PartOfSpeech=.]
-Sentence #12 (24 tokens):
+[Text=for CharacterOffsetBegin=578 CharacterOffsetEnd=581 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=582 CharacterOffsetEnd=586 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=587 CharacterOffsetEnd=593 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=594 CharacterOffsetEnd=596 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=597 CharacterOffsetEnd=600 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=speed CharacterOffsetBegin=601 CharacterOffsetEnd=606 PartOfSpeech=NN Lemma=speed NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=607 CharacterOffsetEnd=609 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=610 CharacterOffsetEnd=615 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=Varys CharacterOffsetBegin=616 CharacterOffsetEnd=621 PartOfSpeech=NNP Lemma=Varys NamedEntityTag=PERSON]
+[Text=traveled CharacterOffsetBegin=622 CharacterOffsetEnd=630 PartOfSpeech=VBD Lemma=travel NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=631 CharacterOffsetEnd=635 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=Dorne CharacterOffsetBegin=636 CharacterOffsetEnd=641 PartOfSpeech=NNP Lemma=Dorne NamedEntityTag=LOCATION]
+[Text=to CharacterOffsetBegin=642 CharacterOffsetEnd=644 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=645 CharacterOffsetEnd=649 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=649 CharacterOffsetEnd=651 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=ship CharacterOffsetBegin=652 CharacterOffsetEnd=656 PartOfSpeech=NN Lemma=ship NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=656 CharacterOffsetEnd=657 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (IN for)
+    (NP (DT this) (NN theory))
+    (VP (VBZ is)
+      (NP
+        (NP (DT the) (NN speed))
+        (SBAR
+          (WHPP (IN in)
+            (WHNP (WDT which)))
+          (S
+            (NP (NNP Varys))
+            (VP (VBD traveled)
+              (PP (IN from)
+                (NP (NNP Dorne)))
+              (PP (TO to)
+                (NP
+                  (NP (NNP Dany) (POS 's))
+                  (NN ship))))))))
+    (. .)))
+
+root(ROOT-0, speed-6)
+dep(speed-6, for-1)
+det(theory-3, this-2)
+nsubj(speed-6, theory-3)
+cop(speed-6, is-4)
+det(speed-6, the-5)
+nmod:in(traveled-10, speed-6)
+case(which-8, in-7)
+ref(speed-6, which-8)
+nsubj(traveled-10, Varys-9)
+acl:relcl(speed-6, traveled-10)
+case(Dorne-12, from-11)
+nmod:from(traveled-10, Dorne-12)
+case(ship-16, to-13)
+nmod:poss(ship-16, Dany-14)
+case(Dany-14, 's-15)
+nmod:to(traveled-10, ship-16)
+punct(speed-6, .-17)
+
+Sentence #13 (24 tokens):
 While the showrunners have chalked it up to pacing, others have loosely speculated that it’s because Varys actually has a tail.
-[Text=While CharacterOffsetBegin=657 CharacterOffsetEnd=662 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=663 CharacterOffsetEnd=666 PartOfSpeech=DT]
-[Text=showrunners CharacterOffsetBegin=667 CharacterOffsetEnd=678 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=679 CharacterOffsetEnd=683 PartOfSpeech=VBP]
-[Text=chalked CharacterOffsetBegin=684 CharacterOffsetEnd=691 PartOfSpeech=VBN]
-[Text=it CharacterOffsetBegin=692 CharacterOffsetEnd=694 PartOfSpeech=PRP]
-[Text=up CharacterOffsetBegin=695 CharacterOffsetEnd=697 PartOfSpeech=RP]
-[Text=to CharacterOffsetBegin=698 CharacterOffsetEnd=700 PartOfSpeech=TO]
-[Text=pacing CharacterOffsetBegin=701 CharacterOffsetEnd=707 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=707 CharacterOffsetEnd=708 PartOfSpeech=,]
-[Text=others CharacterOffsetBegin=709 CharacterOffsetEnd=715 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=716 CharacterOffsetEnd=720 PartOfSpeech=VBP]
-[Text=loosely CharacterOffsetBegin=721 CharacterOffsetEnd=728 PartOfSpeech=RB]
-[Text=speculated CharacterOffsetBegin=729 CharacterOffsetEnd=739 PartOfSpeech=VBN]
-[Text=that CharacterOffsetBegin=740 CharacterOffsetEnd=744 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=745 CharacterOffsetEnd=747 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=747 CharacterOffsetEnd=749 PartOfSpeech=VBZ]
-[Text=because CharacterOffsetBegin=750 CharacterOffsetEnd=757 PartOfSpeech=IN]
-[Text=Varys CharacterOffsetBegin=758 CharacterOffsetEnd=763 PartOfSpeech=NNP]
-[Text=actually CharacterOffsetBegin=764 CharacterOffsetEnd=772 PartOfSpeech=RB]
-[Text=has CharacterOffsetBegin=773 CharacterOffsetEnd=776 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=777 CharacterOffsetEnd=778 PartOfSpeech=DT]
-[Text=tail CharacterOffsetBegin=779 CharacterOffsetEnd=783 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=783 CharacterOffsetEnd=784 PartOfSpeech=.]
-Sentence #13 (44 tokens):
+[Text=While CharacterOffsetBegin=658 CharacterOffsetEnd=663 PartOfSpeech=IN Lemma=while NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=664 CharacterOffsetEnd=667 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=showrunners CharacterOffsetBegin=668 CharacterOffsetEnd=679 PartOfSpeech=NNS Lemma=showrunner NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=680 CharacterOffsetEnd=684 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=chalked CharacterOffsetBegin=685 CharacterOffsetEnd=692 PartOfSpeech=VBN Lemma=chalk NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=693 CharacterOffsetEnd=695 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=696 CharacterOffsetEnd=698 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=699 CharacterOffsetEnd=701 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=pacing CharacterOffsetBegin=702 CharacterOffsetEnd=708 PartOfSpeech=NN Lemma=pacing NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=708 CharacterOffsetEnd=709 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=others CharacterOffsetBegin=710 CharacterOffsetEnd=716 PartOfSpeech=NNS Lemma=other NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=717 CharacterOffsetEnd=721 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=loosely CharacterOffsetBegin=722 CharacterOffsetEnd=729 PartOfSpeech=RB Lemma=loosely NamedEntityTag=O]
+[Text=speculated CharacterOffsetBegin=730 CharacterOffsetEnd=740 PartOfSpeech=VBN Lemma=speculate NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=741 CharacterOffsetEnd=745 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=746 CharacterOffsetEnd=748 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=748 CharacterOffsetEnd=750 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=because CharacterOffsetBegin=751 CharacterOffsetEnd=758 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=Varys CharacterOffsetBegin=759 CharacterOffsetEnd=764 PartOfSpeech=NNP Lemma=Varys NamedEntityTag=ORGANIZATION]
+[Text=actually CharacterOffsetBegin=765 CharacterOffsetEnd=773 PartOfSpeech=RB Lemma=actually NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=774 CharacterOffsetEnd=777 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=778 CharacterOffsetEnd=779 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=tail CharacterOffsetBegin=780 CharacterOffsetEnd=784 PartOfSpeech=NN Lemma=tail NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=784 CharacterOffsetEnd=785 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (SBAR (IN While)
+      (S
+        (NP (DT the) (NNS showrunners))
+        (VP (VBP have)
+          (VP (VBN chalked)
+            (NP (PRP it))
+            (PRT (RP up))
+            (PP (TO to)
+              (NP (NN pacing)))))))
+    (, ,)
+    (NP (NNS others))
+    (VP (VBP have)
+      (ADVP (RB loosely))
+      (VP (VBN speculated)
+        (SBAR (IN that)
+          (S
+            (NP (PRP it))
+            (VP (VBZ 's)
+              (SBAR (IN because)
+                (S
+                  (NP (NNP Varys))
+                  (ADVP (RB actually))
+                  (VP (VBZ has)
+                    (NP (DT a) (NN tail))))))))))
+    (. .)))
+
+root(ROOT-0, speculated-14)
+mark(chalked-5, While-1)
+det(showrunners-3, the-2)
+nsubj(chalked-5, showrunners-3)
+aux(chalked-5, have-4)
+advcl:while(speculated-14, chalked-5)
+dobj(chalked-5, it-6)
+compound:prt(chalked-5, up-7)
+case(pacing-9, to-8)
+nmod:to(chalked-5, pacing-9)
+punct(speculated-14, ,-10)
+nsubj(speculated-14, others-11)
+aux(speculated-14, have-12)
+advmod(speculated-14, loosely-13)
+mark('s-17, that-15)
+nsubj('s-17, it-16)
+ccomp(speculated-14, 's-17)
+mark(has-21, because-18)
+nsubj(has-21, Varys-19)
+advmod(has-21, actually-20)
+advcl:because('s-17, has-21)
+det(tail-23, a-22)
+dobj(has-21, tail-23)
+punct(speculated-14, .-24)
+
+Sentence #14 (44 tokens):
 There’s even the belief that Dany’s dragons could melt the ice in The North so much that the entire Seven Kingdoms will turn into a giant ocean, leaving only merlings … and Littlefinger, because that dude will never die.
-[Text=There CharacterOffsetBegin=785 CharacterOffsetEnd=790 PartOfSpeech=EX]
-[Text='s CharacterOffsetBegin=790 CharacterOffsetEnd=792 PartOfSpeech=VBZ]
-[Text=even CharacterOffsetBegin=793 CharacterOffsetEnd=797 PartOfSpeech=RB]
-[Text=the CharacterOffsetBegin=798 CharacterOffsetEnd=801 PartOfSpeech=DT]
-[Text=belief CharacterOffsetBegin=802 CharacterOffsetEnd=808 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=809 CharacterOffsetEnd=813 PartOfSpeech=WDT]
-[Text=Dany CharacterOffsetBegin=814 CharacterOffsetEnd=818 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=818 CharacterOffsetEnd=820 PartOfSpeech=POS]
-[Text=dragons CharacterOffsetBegin=821 CharacterOffsetEnd=828 PartOfSpeech=NNS]
-[Text=could CharacterOffsetBegin=829 CharacterOffsetEnd=834 PartOfSpeech=MD]
-[Text=melt CharacterOffsetBegin=835 CharacterOffsetEnd=839 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=840 CharacterOffsetEnd=843 PartOfSpeech=DT]
-[Text=ice CharacterOffsetBegin=844 CharacterOffsetEnd=847 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=848 CharacterOffsetEnd=850 PartOfSpeech=IN]
-[Text=The CharacterOffsetBegin=851 CharacterOffsetEnd=854 PartOfSpeech=DT]
-[Text=North CharacterOffsetBegin=855 CharacterOffsetEnd=860 PartOfSpeech=NNP]
-[Text=so CharacterOffsetBegin=861 CharacterOffsetEnd=863 PartOfSpeech=RB]
-[Text=much CharacterOffsetBegin=864 CharacterOffsetEnd=868 PartOfSpeech=RB]
-[Text=that CharacterOffsetBegin=869 CharacterOffsetEnd=873 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=874 CharacterOffsetEnd=877 PartOfSpeech=DT]
-[Text=entire CharacterOffsetBegin=878 CharacterOffsetEnd=884 PartOfSpeech=JJ]
-[Text=Seven CharacterOffsetBegin=885 CharacterOffsetEnd=890 PartOfSpeech=CD]
-[Text=Kingdoms CharacterOffsetBegin=891 CharacterOffsetEnd=899 PartOfSpeech=NNS]
-[Text=will CharacterOffsetBegin=900 CharacterOffsetEnd=904 PartOfSpeech=MD]
-[Text=turn CharacterOffsetBegin=905 CharacterOffsetEnd=909 PartOfSpeech=VB]
-[Text=into CharacterOffsetBegin=910 CharacterOffsetEnd=914 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=915 CharacterOffsetEnd=916 PartOfSpeech=DT]
-[Text=giant CharacterOffsetBegin=917 CharacterOffsetEnd=922 PartOfSpeech=JJ]
-[Text=ocean CharacterOffsetBegin=923 CharacterOffsetEnd=928 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=928 CharacterOffsetEnd=929 PartOfSpeech=,]
-[Text=leaving CharacterOffsetBegin=930 CharacterOffsetEnd=937 PartOfSpeech=VBG]
-[Text=only CharacterOffsetBegin=938 CharacterOffsetEnd=942 PartOfSpeech=RB]
-[Text=merlings CharacterOffsetBegin=943 CharacterOffsetEnd=951 PartOfSpeech=NNS]
-[Text=... CharacterOffsetBegin=952 CharacterOffsetEnd=953 PartOfSpeech=:]
-[Text=and CharacterOffsetBegin=954 CharacterOffsetEnd=957 PartOfSpeech=CC]
-[Text=Littlefinger CharacterOffsetBegin=958 CharacterOffsetEnd=970 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=970 CharacterOffsetEnd=971 PartOfSpeech=,]
-[Text=because CharacterOffsetBegin=972 CharacterOffsetEnd=979 PartOfSpeech=IN]
-[Text=that CharacterOffsetBegin=980 CharacterOffsetEnd=984 PartOfSpeech=DT]
-[Text=dude CharacterOffsetBegin=985 CharacterOffsetEnd=989 PartOfSpeech=NN]
-[Text=will CharacterOffsetBegin=990 CharacterOffsetEnd=994 PartOfSpeech=MD]
-[Text=never CharacterOffsetBegin=995 CharacterOffsetEnd=1000 PartOfSpeech=RB]
-[Text=die CharacterOffsetBegin=1001 CharacterOffsetEnd=1004 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=1004 CharacterOffsetEnd=1005 PartOfSpeech=.]
+[Text=There CharacterOffsetBegin=786 CharacterOffsetEnd=791 PartOfSpeech=EX Lemma=there NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=791 CharacterOffsetEnd=793 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=even CharacterOffsetBegin=794 CharacterOffsetEnd=798 PartOfSpeech=RB Lemma=even NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=799 CharacterOffsetEnd=802 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=belief CharacterOffsetBegin=803 CharacterOffsetEnd=809 PartOfSpeech=NN Lemma=belief NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=810 CharacterOffsetEnd=814 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=815 CharacterOffsetEnd=819 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=819 CharacterOffsetEnd=821 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=dragons CharacterOffsetBegin=822 CharacterOffsetEnd=829 PartOfSpeech=NNS Lemma=dragon NamedEntityTag=O]
+[Text=could CharacterOffsetBegin=830 CharacterOffsetEnd=835 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=melt CharacterOffsetBegin=836 CharacterOffsetEnd=840 PartOfSpeech=VB Lemma=melt NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=841 CharacterOffsetEnd=844 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=ice CharacterOffsetBegin=845 CharacterOffsetEnd=848 PartOfSpeech=NN Lemma=ice NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=849 CharacterOffsetEnd=851 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=852 CharacterOffsetEnd=855 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=North CharacterOffsetBegin=856 CharacterOffsetEnd=861 PartOfSpeech=NNP Lemma=North NamedEntityTag=LOCATION]
+[Text=so CharacterOffsetBegin=862 CharacterOffsetEnd=864 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=much CharacterOffsetBegin=865 CharacterOffsetEnd=869 PartOfSpeech=RB Lemma=much NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=870 CharacterOffsetEnd=874 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=875 CharacterOffsetEnd=878 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=entire CharacterOffsetBegin=879 CharacterOffsetEnd=885 PartOfSpeech=JJ Lemma=entire NamedEntityTag=O]
+[Text=Seven CharacterOffsetBegin=886 CharacterOffsetEnd=891 PartOfSpeech=CD Lemma=seven NamedEntityTag=NUMBER NormalizedNamedEntityTag=7.0]
+[Text=Kingdoms CharacterOffsetBegin=892 CharacterOffsetEnd=900 PartOfSpeech=NNS Lemma=kingdom NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=901 CharacterOffsetEnd=905 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=turn CharacterOffsetBegin=906 CharacterOffsetEnd=910 PartOfSpeech=VB Lemma=turn NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=911 CharacterOffsetEnd=915 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=916 CharacterOffsetEnd=917 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=giant CharacterOffsetBegin=918 CharacterOffsetEnd=923 PartOfSpeech=JJ Lemma=giant NamedEntityTag=O]
+[Text=ocean CharacterOffsetBegin=924 CharacterOffsetEnd=929 PartOfSpeech=NN Lemma=ocean NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=929 CharacterOffsetEnd=930 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=leaving CharacterOffsetBegin=931 CharacterOffsetEnd=938 PartOfSpeech=VBG Lemma=leave NamedEntityTag=O]
+[Text=only CharacterOffsetBegin=939 CharacterOffsetEnd=943 PartOfSpeech=RB Lemma=only NamedEntityTag=O]
+[Text=merlings CharacterOffsetBegin=944 CharacterOffsetEnd=952 PartOfSpeech=NNS Lemma=merling NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=953 CharacterOffsetEnd=954 PartOfSpeech=: Lemma=... NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=955 CharacterOffsetEnd=958 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Littlefinger CharacterOffsetBegin=959 CharacterOffsetEnd=971 PartOfSpeech=NNP Lemma=Littlefinger NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=971 CharacterOffsetEnd=972 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=because CharacterOffsetBegin=973 CharacterOffsetEnd=980 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=981 CharacterOffsetEnd=985 PartOfSpeech=DT Lemma=that NamedEntityTag=O]
+[Text=dude CharacterOffsetBegin=986 CharacterOffsetEnd=990 PartOfSpeech=NN Lemma=dude NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=991 CharacterOffsetEnd=995 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=never CharacterOffsetBegin=996 CharacterOffsetEnd=1001 PartOfSpeech=RB Lemma=never NamedEntityTag=O]
+[Text=die CharacterOffsetBegin=1002 CharacterOffsetEnd=1005 PartOfSpeech=VB Lemma=die NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=1005 CharacterOffsetEnd=1006 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (EX There))
+    (VP (VBZ 's)
+      (ADVP (RB even))
+      (NP
+        (NP (DT the) (NN belief))
+        (SBAR
+          (WHNP (WDT that))
+          (S
+            (NP
+              (NP (NNP Dany) (POS 's))
+              (NNS dragons))
+            (VP (MD could)
+              (VP (VB melt)
+                (NP (DT the) (NN ice))
+                (PP (IN in)
+                  (NP (DT The) (NNP North)))
+                (ADVP
+                  (ADVP (RB so) (RB much))
+                  (SBAR (IN that)
+                    (S
+                      (NP (DT the) (JJ entire) (CD Seven) (NNS Kingdoms))
+                      (VP (MD will)
+                        (VP (VB turn)
+                          (PP (IN into)
+                            (NP (DT a) (JJ giant) (NN ocean)))
+                          (, ,)
+                          (S
+                            (VP (VBG leaving)
+                              (NP
+                                (NP (RB only) (NNS merlings))
+                                (: ...)
+                                (CC and)
+                                (NP (NNP Littlefinger))
+                                (, ,))
+                              (SBAR (IN because)
+                                (S
+                                  (NP (DT that) (NN dude))
+                                  (VP (MD will)
+                                    (ADVP (RB never))
+                                    (VP (VB die))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, 's-2)
+expl('s-2, There-1)
+advmod('s-2, even-3)
+det(belief-5, the-4)
+nsubj('s-2, belief-5)
+dobj(melt-11, belief-5)
+ref(belief-5, that-6)
+nmod:poss(dragons-9, Dany-7)
+case(Dany-7, 's-8)
+nsubj(melt-11, dragons-9)
+aux(melt-11, could-10)
+acl:relcl(belief-5, melt-11)
+det(ice-13, the-12)
+dobj(melt-11, ice-13)
+case(North-16, in-14)
+det(North-16, The-15)
+nmod:in(melt-11, North-16)
+advmod(much-18, so-17)
+advmod(melt-11, much-18)
+mark(turn-25, that-19)
+det(Kingdoms-23, the-20)
+amod(Kingdoms-23, entire-21)
+nummod(Kingdoms-23, Seven-22)
+nsubj(turn-25, Kingdoms-23)
+aux(turn-25, will-24)
+advcl:that(much-18, turn-25)
+case(ocean-29, into-26)
+det(ocean-29, a-27)
+amod(ocean-29, giant-28)
+nmod:into(turn-25, ocean-29)
+punct(turn-25, ,-30)
+xcomp(turn-25, leaving-31)
+advmod(merlings-33, only-32)
+dobj(leaving-31, merlings-33)
+punct(merlings-33, ...-34)
+cc(merlings-33, and-35)
+dobj(leaving-31, Littlefinger-36)
+conj:and(merlings-33, Littlefinger-36)
+punct(merlings-33, ,-37)
+mark(die-43, because-38)
+det(dude-40, that-39)
+nsubj(die-43, dude-40)
+aux(die-43, will-41)
+neg(die-43, never-42)
+advcl:because(leaving-31, die-43)
+punct('s-2, .-44)
+
+Coreference set:
+	(1,1,[1,2]) -> (5,4,[4,5]), that is: "Varys" -> "Varys"
+	(1,5,[4,6]) -> (5,4,[4,5]), that is: "a merman" -> "Varys"
+	(7,4,[4,5]) -> (5,4,[4,5]), that is: "Varys" -> "Varys"
+	(8,11,[11,12]) -> (5,4,[4,5]), that is: "He" -> "Varys"
+	(8,14,[13,15]) -> (5,4,[4,5]), that is: "a merman" -> "Varys"
+	(8,16,[16,17]) -> (5,4,[4,5]), that is: "he" -> "Varys"
+	(8,20,[20,21]) -> (5,4,[4,5]), that is: "his" -> "Varys"
+	(10,5,[3,26]) -> (5,4,[4,5]), that is: "just any merman , but a member of the `` merlings '' species , which exist in A Song of Ice and Fire" -> "Varys"
+	(10,5,[3,6]) -> (5,4,[4,5]), that is: "just any merman" -> "Varys"
+	(10,9,[7,26]) -> (5,4,[4,5]), that is: "but a member of the `` merlings '' species , which exist in A Song of Ice and Fire" -> "Varys"
+	(10,9,[7,16]) -> (5,4,[4,5]), that is: "but a member of the `` merlings '' species" -> "Varys"
+	(12,9,[9,10]) -> (5,4,[4,5]), that is: "Varys" -> "Varys"
+	(13,19,[19,20]) -> (5,4,[4,5]), that is: "Varys" -> "Varys"
+Coreference set:
+	(2,2,[2,3]) -> (4,8,[5,13]), that is: "this" -> "the most spectacular thing I 've ever heard"
+	(3,1,[1,2]) -> (4,8,[5,13]), that is: "This" -> "the most spectacular thing I 've ever heard"
+	(4,1,[1,2]) -> (4,8,[5,13]), that is: "This" -> "the most spectacular thing I 've ever heard"
+Coreference set:
+	(6,8,[8,9]) -> (5,13,[11,16]), that is: "it" -> "their own game of thrones"
+Coreference set:
+	(5,6,[6,7]) -> (6,5,[5,7]), that is: "Littlefinger" -> "Littlefinger 's"
+	(6,11,[11,12]) -> (6,5,[5,7]), that is: "he" -> "Littlefinger 's"
+	(14,36,[36,37]) -> (6,5,[5,7]), that is: "Littlefinger" -> "Littlefinger 's"
+Coreference set:
+	(8,7,[7,8]) -> (8,5,[5,6]), that is: "it" -> "Nerdist"
+Coreference set:
+	(11,6,[6,7]) -> (10,21,[20,26]), that is: "it" -> "A Song of Ice and Fire"
+Coreference set:
+	(10,23,[23,26]) -> (14,13,[12,14]), that is: "Ice and Fire" -> "the ice"
+Coreference set:
+	(14,7,[7,9]) -> (12,14,[14,16]), that is: "Dany 's" -> "Dany 's"
+Coreference set:
+	(12,6,[5,17]) -> (12,3,[2,4]), that is: "the speed in which Varys traveled from Dorne to Dany 's ship" -> "this theory"
+	(13,6,[6,7]) -> (12,3,[2,4]), that is: "it" -> "this theory"
+	(13,16,[16,17]) -> (12,3,[2,4]), that is: "it" -> "this theory"

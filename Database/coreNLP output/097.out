@@ -1,114 +1,369 @@
-Sentence #1 (16 tokens):
-Little Finger/ Robert Aryn
+Sentence #1 (6 tokens):
+Little Finger/ Robert Aryn.
+[Text=Little CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=JJ Lemma=little NamedEntityTag=O]
+[Text=Finger CharacterOffsetBegin=7 CharacterOffsetEnd=13 PartOfSpeech=NN Lemma=finger NamedEntityTag=O]
+[Text=/ CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=: Lemma=/ NamedEntityTag=O]
+[Text=Robert CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON]
+[Text=Aryn CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=NNP Lemma=Aryn NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=26 CharacterOffsetEnd=27 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (FRAG
+    (NP (JJ Little) (NN Finger))
+    (: /)
+    (NP (NNP Robert) (NNP Aryn))
+    (. .)))
+
+root(ROOT-0, Finger-2)
+amod(Finger-2, Little-1)
+punct(Finger-2, /-3)
+compound(Aryn-5, Robert-4)
+dep(Finger-2, Aryn-5)
+punct(Finger-2, .-6)
+
+Sentence #2 (11 tokens):
 This is my dark horse in the marry Daenarys sweepstakes.
-[Text=Little CharacterOffsetBegin=0 CharacterOffsetEnd=6 PartOfSpeech=JJ]
-[Text=Finger CharacterOffsetBegin=7 CharacterOffsetEnd=13 PartOfSpeech=NN]
-[Text=/ CharacterOffsetBegin=13 CharacterOffsetEnd=14 PartOfSpeech=:]
-[Text=Robert CharacterOffsetBegin=15 CharacterOffsetEnd=21 PartOfSpeech=NNP]
-[Text=Aryn CharacterOffsetBegin=22 CharacterOffsetEnd=26 PartOfSpeech=NNP]
-[Text=This CharacterOffsetBegin=27 CharacterOffsetEnd=31 PartOfSpeech=DT]
-[Text=is CharacterOffsetBegin=32 CharacterOffsetEnd=34 PartOfSpeech=VBZ]
-[Text=my CharacterOffsetBegin=35 CharacterOffsetEnd=37 PartOfSpeech=PRP$]
-[Text=dark CharacterOffsetBegin=38 CharacterOffsetEnd=42 PartOfSpeech=JJ]
-[Text=horse CharacterOffsetBegin=43 CharacterOffsetEnd=48 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=49 CharacterOffsetEnd=51 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=52 CharacterOffsetEnd=55 PartOfSpeech=DT]
-[Text=marry CharacterOffsetBegin=56 CharacterOffsetEnd=61 PartOfSpeech=VB]
-[Text=Daenarys CharacterOffsetBegin=62 CharacterOffsetEnd=70 PartOfSpeech=NNP]
-[Text=sweepstakes CharacterOffsetBegin=71 CharacterOffsetEnd=82 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=82 CharacterOffsetEnd=83 PartOfSpeech=.]
-Sentence #2 (41 tokens):
+[Text=This CharacterOffsetBegin=28 CharacterOffsetEnd=32 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=33 CharacterOffsetEnd=35 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=my CharacterOffsetBegin=36 CharacterOffsetEnd=38 PartOfSpeech=PRP$ Lemma=my NamedEntityTag=O]
+[Text=dark CharacterOffsetBegin=39 CharacterOffsetEnd=43 PartOfSpeech=JJ Lemma=dark NamedEntityTag=O]
+[Text=horse CharacterOffsetBegin=44 CharacterOffsetEnd=49 PartOfSpeech=NN Lemma=horse NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=50 CharacterOffsetEnd=52 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=53 CharacterOffsetEnd=56 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=marry CharacterOffsetBegin=57 CharacterOffsetEnd=62 PartOfSpeech=VB Lemma=marry NamedEntityTag=O]
+[Text=Daenarys CharacterOffsetBegin=63 CharacterOffsetEnd=71 PartOfSpeech=NNP Lemma=Daenarys NamedEntityTag=O]
+[Text=sweepstakes CharacterOffsetBegin=72 CharacterOffsetEnd=83 PartOfSpeech=NN Lemma=sweepstakes NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=83 CharacterOffsetEnd=84 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT This))
+    (VP (VBZ is)
+      (NP
+        (NP (PRP$ my) (JJ dark) (NN horse))
+        (PP (IN in)
+          (NP (DT the)
+            (S
+              (VP (VB marry)
+                (NP (NNP Daenarys))))
+            (NN sweepstakes)))))
+    (. .)))
+
+root(ROOT-0, horse-5)
+nsubj(horse-5, This-1)
+cop(horse-5, is-2)
+nmod:poss(horse-5, my-3)
+amod(horse-5, dark-4)
+case(sweepstakes-10, in-6)
+det(sweepstakes-10, the-7)
+dep(sweepstakes-10, marry-8)
+dobj(marry-8, Daenarys-9)
+nmod:in(horse-5, sweepstakes-10)
+punct(horse-5, .-11)
+
+Sentence #3 (41 tokens):
 Little Finger is such a beast at playing the game of thrones that I can't imagine a scenario that he won't find someway to toss his name into the running for marrying Dany should the opportunity present itself.
-[Text=Little CharacterOffsetBegin=84 CharacterOffsetEnd=90 PartOfSpeech=JJ]
-[Text=Finger CharacterOffsetBegin=91 CharacterOffsetEnd=97 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=98 CharacterOffsetEnd=100 PartOfSpeech=VBZ]
-[Text=such CharacterOffsetBegin=101 CharacterOffsetEnd=105 PartOfSpeech=JJ]
-[Text=a CharacterOffsetBegin=106 CharacterOffsetEnd=107 PartOfSpeech=DT]
-[Text=beast CharacterOffsetBegin=108 CharacterOffsetEnd=113 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=114 CharacterOffsetEnd=116 PartOfSpeech=IN]
-[Text=playing CharacterOffsetBegin=117 CharacterOffsetEnd=124 PartOfSpeech=VBG]
-[Text=the CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=DT]
-[Text=game CharacterOffsetBegin=129 CharacterOffsetEnd=133 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=134 CharacterOffsetEnd=136 PartOfSpeech=IN]
-[Text=thrones CharacterOffsetBegin=137 CharacterOffsetEnd=144 PartOfSpeech=NNS]
-[Text=that CharacterOffsetBegin=145 CharacterOffsetEnd=149 PartOfSpeech=IN]
-[Text=I CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=PRP]
-[Text=ca CharacterOffsetBegin=152 CharacterOffsetEnd=154 PartOfSpeech=MD]
-[Text=n't CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=RB]
-[Text=imagine CharacterOffsetBegin=158 CharacterOffsetEnd=165 PartOfSpeech=VB]
-[Text=a CharacterOffsetBegin=166 CharacterOffsetEnd=167 PartOfSpeech=DT]
-[Text=scenario CharacterOffsetBegin=168 CharacterOffsetEnd=176 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=177 CharacterOffsetEnd=181 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=PRP]
-[Text=wo CharacterOffsetBegin=185 CharacterOffsetEnd=187 PartOfSpeech=MD]
-[Text=n't CharacterOffsetBegin=187 CharacterOffsetEnd=190 PartOfSpeech=RB]
-[Text=find CharacterOffsetBegin=191 CharacterOffsetEnd=195 PartOfSpeech=VB]
-[Text=someway CharacterOffsetBegin=196 CharacterOffsetEnd=203 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=204 CharacterOffsetEnd=206 PartOfSpeech=TO]
-[Text=toss CharacterOffsetBegin=207 CharacterOffsetEnd=211 PartOfSpeech=VB]
-[Text=his CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=PRP$]
-[Text=name CharacterOffsetBegin=216 CharacterOffsetEnd=220 PartOfSpeech=NN]
-[Text=into CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=DT]
-[Text=running CharacterOffsetBegin=230 CharacterOffsetEnd=237 PartOfSpeech=VBG]
-[Text=for CharacterOffsetBegin=238 CharacterOffsetEnd=241 PartOfSpeech=IN]
-[Text=marrying CharacterOffsetBegin=242 CharacterOffsetEnd=250 PartOfSpeech=VBG]
-[Text=Dany CharacterOffsetBegin=251 CharacterOffsetEnd=255 PartOfSpeech=NNP]
-[Text=should CharacterOffsetBegin=256 CharacterOffsetEnd=262 PartOfSpeech=MD]
-[Text=the CharacterOffsetBegin=263 CharacterOffsetEnd=266 PartOfSpeech=DT]
-[Text=opportunity CharacterOffsetBegin=267 CharacterOffsetEnd=278 PartOfSpeech=NN]
-[Text=present CharacterOffsetBegin=279 CharacterOffsetEnd=286 PartOfSpeech=JJ]
-[Text=itself CharacterOffsetBegin=287 CharacterOffsetEnd=293 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=293 CharacterOffsetEnd=294 PartOfSpeech=.]
-Sentence #3 (28 tokens):
+[Text=Little CharacterOffsetBegin=85 CharacterOffsetEnd=91 PartOfSpeech=JJ Lemma=little NamedEntityTag=O]
+[Text=Finger CharacterOffsetBegin=92 CharacterOffsetEnd=98 PartOfSpeech=NN Lemma=finger NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=99 CharacterOffsetEnd=101 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=such CharacterOffsetBegin=102 CharacterOffsetEnd=106 PartOfSpeech=JJ Lemma=such NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=107 CharacterOffsetEnd=108 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=beast CharacterOffsetBegin=109 CharacterOffsetEnd=114 PartOfSpeech=NN Lemma=beast NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=115 CharacterOffsetEnd=117 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=playing CharacterOffsetBegin=118 CharacterOffsetEnd=125 PartOfSpeech=VBG Lemma=play NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=126 CharacterOffsetEnd=129 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=game CharacterOffsetBegin=130 CharacterOffsetEnd=134 PartOfSpeech=NN Lemma=game NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=135 CharacterOffsetEnd=137 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=thrones CharacterOffsetBegin=138 CharacterOffsetEnd=145 PartOfSpeech=NNS Lemma=throne NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=151 CharacterOffsetEnd=152 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=ca CharacterOffsetBegin=153 CharacterOffsetEnd=155 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=imagine CharacterOffsetBegin=159 CharacterOffsetEnd=166 PartOfSpeech=VB Lemma=imagine NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=167 CharacterOffsetEnd=168 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=scenario CharacterOffsetBegin=169 CharacterOffsetEnd=177 PartOfSpeech=NN Lemma=scenario NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=183 CharacterOffsetEnd=185 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=wo CharacterOffsetBegin=186 CharacterOffsetEnd=188 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=find CharacterOffsetBegin=192 CharacterOffsetEnd=196 PartOfSpeech=VB Lemma=find NamedEntityTag=O]
+[Text=someway CharacterOffsetBegin=197 CharacterOffsetEnd=204 PartOfSpeech=NN Lemma=someway NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=toss CharacterOffsetBegin=208 CharacterOffsetEnd=212 PartOfSpeech=VB Lemma=toss NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=213 CharacterOffsetEnd=216 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=name CharacterOffsetBegin=217 CharacterOffsetEnd=221 PartOfSpeech=NN Lemma=name NamedEntityTag=O]
+[Text=into CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=227 CharacterOffsetEnd=230 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=running CharacterOffsetBegin=231 CharacterOffsetEnd=238 PartOfSpeech=VBG Lemma=run NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=239 CharacterOffsetEnd=242 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=marrying CharacterOffsetBegin=243 CharacterOffsetEnd=251 PartOfSpeech=VBG Lemma=marry NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=252 CharacterOffsetEnd=256 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=should CharacterOffsetBegin=257 CharacterOffsetEnd=263 PartOfSpeech=MD Lemma=should NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=264 CharacterOffsetEnd=267 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=opportunity CharacterOffsetBegin=268 CharacterOffsetEnd=279 PartOfSpeech=NN Lemma=opportunity NamedEntityTag=O]
+[Text=present CharacterOffsetBegin=280 CharacterOffsetEnd=287 PartOfSpeech=JJ Lemma=present NamedEntityTag=DATE NormalizedNamedEntityTag=PRESENT_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PRESENT_REF">present</TIMEX3>]
+[Text=itself CharacterOffsetBegin=288 CharacterOffsetEnd=294 PartOfSpeech=PRP Lemma=itself NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=294 CharacterOffsetEnd=295 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (JJ Little) (NN Finger))
+    (VP (VBZ is)
+      (PP (JJ such)
+        (NP
+          (NP (DT a) (NN beast))
+          (PP (IN at)
+            (S
+              (VP (VBG playing)
+                (NP
+                  (NP (DT the) (NN game))
+                  (PP (IN of)
+                    (NP (NNS thrones))))
+                (SBAR (IN that)
+                  (S
+                    (NP (PRP I))
+                    (VP (MD ca) (RB n't)
+                      (VP (VB imagine)
+                        (NP (DT a) (NN scenario))
+                        (SBAR (IN that)
+                          (S
+                            (NP (PRP he))
+                            (VP (MD wo) (RB n't)
+                              (VP (VB find)
+                                (NP (NN someway)
+                                  (S
+                                    (VP (TO to)
+                                      (VP (VB toss)
+                                        (NP (PRP$ his) (NN name))
+                                        (PP (IN into)
+                                          (NP
+                                            (NP (DT the) (VBG running))
+                                            (PP (IN for)
+                                              (S
+                                                (VP (VBG marrying)
+                                                  (SBAR
+                                                    (S
+                                                      (NP (NNP Dany))
+                                                      (VP (MD should)))))))))))))
+                                (NP (DT the) (NN opportunity) (JJ present))
+                                (NP (PRP itself))))))))))))))))
+    (. .)))
+
+root(ROOT-0, beast-6)
+amod(Finger-2, Little-1)
+nsubj(beast-6, Finger-2)
+cop(beast-6, is-3)
+case(beast-6, such-4)
+det(beast-6, a-5)
+mark(playing-8, at-7)
+acl:at(beast-6, playing-8)
+det(game-10, the-9)
+dobj(playing-8, game-10)
+case(thrones-12, of-11)
+nmod:of(game-10, thrones-12)
+mark(imagine-17, that-13)
+nsubj(imagine-17, I-14)
+aux(imagine-17, ca-15)
+neg(imagine-17, n't-16)
+ccomp(playing-8, imagine-17)
+det(scenario-19, a-18)
+dobj(imagine-17, scenario-19)
+mark(find-24, that-20)
+nsubj(find-24, he-21)
+aux(find-24, wo-22)
+neg(find-24, n't-23)
+ccomp(imagine-17, find-24)
+iobj(find-24, someway-25)
+mark(toss-27, to-26)
+acl:to(someway-25, toss-27)
+nmod:poss(name-29, his-28)
+dobj(toss-27, name-29)
+case(the-31, into-30)
+nmod:into(toss-27, the-31)
+amod(the-31, running-32)
+mark(marrying-34, for-33)
+acl:for(the-31, marrying-34)
+nsubj(should-36, Dany-35)
+ccomp(marrying-34, should-36)
+det(opportunity-38, the-37)
+iobj(find-24, opportunity-38)
+amod(opportunity-38, present-39)
+dobj(find-24, itself-40)
+punct(beast-6, .-41)
+
+Sentence #4 (28 tokens):
 If he doesn't throw his name in the running then I would assume he'd throw in his puppet Robert Aryn into the mix at least.
-[Text=If CharacterOffsetBegin=295 CharacterOffsetEnd=297 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=298 CharacterOffsetEnd=300 PartOfSpeech=PRP]
-[Text=does CharacterOffsetBegin=301 CharacterOffsetEnd=305 PartOfSpeech=VBZ]
-[Text=n't CharacterOffsetBegin=305 CharacterOffsetEnd=308 PartOfSpeech=RB]
-[Text=throw CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=VB]
-[Text=his CharacterOffsetBegin=315 CharacterOffsetEnd=318 PartOfSpeech=PRP$]
-[Text=name CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=324 CharacterOffsetEnd=326 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=DT]
-[Text=running CharacterOffsetBegin=331 CharacterOffsetEnd=338 PartOfSpeech=VBG]
-[Text=then CharacterOffsetBegin=339 CharacterOffsetEnd=343 PartOfSpeech=RB]
-[Text=I CharacterOffsetBegin=344 CharacterOffsetEnd=345 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=346 CharacterOffsetEnd=351 PartOfSpeech=MD]
-[Text=assume CharacterOffsetBegin=352 CharacterOffsetEnd=358 PartOfSpeech=VB]
-[Text=he CharacterOffsetBegin=359 CharacterOffsetEnd=361 PartOfSpeech=PRP]
-[Text='d CharacterOffsetBegin=361 CharacterOffsetEnd=363 PartOfSpeech=MD]
-[Text=throw CharacterOffsetBegin=364 CharacterOffsetEnd=369 PartOfSpeech=VB]
-[Text=in CharacterOffsetBegin=370 CharacterOffsetEnd=372 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=373 CharacterOffsetEnd=376 PartOfSpeech=PRP$]
-[Text=puppet CharacterOffsetBegin=377 CharacterOffsetEnd=383 PartOfSpeech=NN]
-[Text=Robert CharacterOffsetBegin=384 CharacterOffsetEnd=390 PartOfSpeech=NNP]
-[Text=Aryn CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=NNP]
-[Text=into CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=401 CharacterOffsetEnd=404 PartOfSpeech=DT]
-[Text=mix CharacterOffsetBegin=405 CharacterOffsetEnd=408 PartOfSpeech=NN]
-[Text=at CharacterOffsetBegin=409 CharacterOffsetEnd=411 PartOfSpeech=IN]
-[Text=least CharacterOffsetBegin=412 CharacterOffsetEnd=417 PartOfSpeech=JJS]
-[Text=. CharacterOffsetBegin=417 CharacterOffsetEnd=418 PartOfSpeech=.]
-Sentence #4 (20 tokens):
+[Text=If CharacterOffsetBegin=296 CharacterOffsetEnd=298 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=299 CharacterOffsetEnd=301 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=does CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=VBZ Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=306 CharacterOffsetEnd=309 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=throw CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=VB Lemma=throw NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=316 CharacterOffsetEnd=319 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=name CharacterOffsetBegin=320 CharacterOffsetEnd=324 PartOfSpeech=NN Lemma=name NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=325 CharacterOffsetEnd=327 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=328 CharacterOffsetEnd=331 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=running CharacterOffsetBegin=332 CharacterOffsetEnd=339 PartOfSpeech=VBG Lemma=run NamedEntityTag=O]
+[Text=then CharacterOffsetBegin=340 CharacterOffsetEnd=344 PartOfSpeech=RB Lemma=then NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=345 CharacterOffsetEnd=346 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=347 CharacterOffsetEnd=352 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=assume CharacterOffsetBegin=353 CharacterOffsetEnd=359 PartOfSpeech=VB Lemma=assume NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=360 CharacterOffsetEnd=362 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text='d CharacterOffsetBegin=362 CharacterOffsetEnd=364 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=throw CharacterOffsetBegin=365 CharacterOffsetEnd=370 PartOfSpeech=VB Lemma=throw NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=371 CharacterOffsetEnd=373 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=374 CharacterOffsetEnd=377 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=puppet CharacterOffsetBegin=378 CharacterOffsetEnd=384 PartOfSpeech=NN Lemma=puppet NamedEntityTag=O]
+[Text=Robert CharacterOffsetBegin=385 CharacterOffsetEnd=391 PartOfSpeech=NNP Lemma=Robert NamedEntityTag=PERSON]
+[Text=Aryn CharacterOffsetBegin=392 CharacterOffsetEnd=396 PartOfSpeech=NNP Lemma=Aryn NamedEntityTag=PERSON]
+[Text=into CharacterOffsetBegin=397 CharacterOffsetEnd=401 PartOfSpeech=IN Lemma=into NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=402 CharacterOffsetEnd=405 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=mix CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=NN Lemma=mix NamedEntityTag=O]
+[Text=at CharacterOffsetBegin=410 CharacterOffsetEnd=412 PartOfSpeech=IN Lemma=at NamedEntityTag=O]
+[Text=least CharacterOffsetBegin=413 CharacterOffsetEnd=418 PartOfSpeech=JJS Lemma=least NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=418 CharacterOffsetEnd=419 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (SINV
+    (S
+      (SBAR (IN If)
+        (S
+          (NP (PRP he))
+          (VP (VBZ does) (RB n't)
+            (VP (VB throw)
+              (NP (PRP$ his) (NN name))
+              (PP (IN in)
+                (NP (DT the) (VBG running)))))))
+      (ADVP (RB then))
+      (NP (PRP I))
+      (VP (MD would)
+        (VP (VB assume)
+          (NP (PRP he)))))
+    (VP (MD 'd)
+      (VP (VB throw)
+        (PP (IN in)
+          (NP (PRP$ his) (NN puppet)))))
+    (NP (NNP Robert) (NNP Aryn))
+    (PP (IN into)
+      (NP
+        (NP (DT the) (NN mix))
+        (ADVP (IN at) (JJS least))))
+    (. .)))
+
+root(ROOT-0, throw-17)
+mark(throw-5, If-1)
+nsubj(throw-5, he-2)
+aux(throw-5, does-3)
+neg(throw-5, n't-4)
+advcl:if(assume-14, throw-5)
+nmod:poss(name-7, his-6)
+dobj(throw-5, name-7)
+case(the-9, in-8)
+nmod:in(throw-5, the-9)
+amod(the-9, running-10)
+advmod(assume-14, then-11)
+nsubj(assume-14, I-12)
+aux(assume-14, would-13)
+dep(throw-17, assume-14)
+dobj(assume-14, he-15)
+aux(throw-17, 'd-16)
+case(puppet-20, in-18)
+nmod:poss(puppet-20, his-19)
+nmod:in(throw-17, puppet-20)
+compound(Aryn-22, Robert-21)
+nsubj(throw-17, Aryn-22)
+case(mix-25, into-23)
+det(mix-25, the-24)
+nmod:into(throw-17, mix-25)
+case(least-27, at-26)
+advmod(mix-25, least-27)
+punct(throw-17, .-28)
+
+Sentence #5 (20 tokens):
 I don't think this would happen but I believe he would get very close to tying the knot.
-[Text=I CharacterOffsetBegin=419 CharacterOffsetEnd=420 PartOfSpeech=PRP]
-[Text=do CharacterOffsetBegin=421 CharacterOffsetEnd=423 PartOfSpeech=VBP]
-[Text=n't CharacterOffsetBegin=423 CharacterOffsetEnd=426 PartOfSpeech=RB]
-[Text=think CharacterOffsetBegin=427 CharacterOffsetEnd=432 PartOfSpeech=VB]
-[Text=this CharacterOffsetBegin=433 CharacterOffsetEnd=437 PartOfSpeech=DT]
-[Text=would CharacterOffsetBegin=438 CharacterOffsetEnd=443 PartOfSpeech=MD]
-[Text=happen CharacterOffsetBegin=444 CharacterOffsetEnd=450 PartOfSpeech=VB]
-[Text=but CharacterOffsetBegin=451 CharacterOffsetEnd=454 PartOfSpeech=CC]
-[Text=I CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=PRP]
-[Text=believe CharacterOffsetBegin=457 CharacterOffsetEnd=464 PartOfSpeech=VBP]
-[Text=he CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=468 CharacterOffsetEnd=473 PartOfSpeech=MD]
-[Text=get CharacterOffsetBegin=474 CharacterOffsetEnd=477 PartOfSpeech=VB]
-[Text=very CharacterOffsetBegin=478 CharacterOffsetEnd=482 PartOfSpeech=RB]
-[Text=close CharacterOffsetBegin=483 CharacterOffsetEnd=488 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=489 CharacterOffsetEnd=491 PartOfSpeech=TO]
-[Text=tying CharacterOffsetBegin=492 CharacterOffsetEnd=497 PartOfSpeech=VBG]
-[Text=the CharacterOffsetBegin=498 CharacterOffsetEnd=501 PartOfSpeech=DT]
-[Text=knot CharacterOffsetBegin=502 CharacterOffsetEnd=506 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=506 CharacterOffsetEnd=507 PartOfSpeech=.]
+[Text=I CharacterOffsetBegin=420 CharacterOffsetEnd=421 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=422 CharacterOffsetEnd=424 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=424 CharacterOffsetEnd=427 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=think CharacterOffsetBegin=428 CharacterOffsetEnd=433 PartOfSpeech=VB Lemma=think NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=434 CharacterOffsetEnd=438 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=439 CharacterOffsetEnd=444 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=happen CharacterOffsetBegin=445 CharacterOffsetEnd=451 PartOfSpeech=VB Lemma=happen NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=452 CharacterOffsetEnd=455 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=I CharacterOffsetBegin=456 CharacterOffsetEnd=457 PartOfSpeech=PRP Lemma=I NamedEntityTag=O]
+[Text=believe CharacterOffsetBegin=458 CharacterOffsetEnd=465 PartOfSpeech=VBP Lemma=believe NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=466 CharacterOffsetEnd=468 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=469 CharacterOffsetEnd=474 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=get CharacterOffsetBegin=475 CharacterOffsetEnd=478 PartOfSpeech=VB Lemma=get NamedEntityTag=O]
+[Text=very CharacterOffsetBegin=479 CharacterOffsetEnd=483 PartOfSpeech=RB Lemma=very NamedEntityTag=O]
+[Text=close CharacterOffsetBegin=484 CharacterOffsetEnd=489 PartOfSpeech=RB Lemma=close NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=490 CharacterOffsetEnd=492 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=tying CharacterOffsetBegin=493 CharacterOffsetEnd=498 PartOfSpeech=VBG Lemma=tie NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=499 CharacterOffsetEnd=502 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=knot CharacterOffsetBegin=503 CharacterOffsetEnd=507 PartOfSpeech=NN Lemma=knot NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=507 CharacterOffsetEnd=508 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (PRP I))
+      (VP (VBP do) (RB n't)
+        (VP (VB think)
+          (SBAR
+            (S
+              (NP (DT this))
+              (VP (MD would)
+                (VP (VB happen))))))))
+    (CC but)
+    (S
+      (NP (PRP I))
+      (VP (VBP believe)
+        (SBAR
+          (S
+            (NP (PRP he))
+            (VP (MD would)
+              (VP (VB get)
+                (ADVP (RB very) (RB close)
+                  (PP (TO to)
+                    (S
+                      (VP (VBG tying)
+                        (NP (DT the) (NN knot))))))))))))
+    (. .)))
+
+root(ROOT-0, think-4)
+nsubj(think-4, I-1)
+aux(think-4, do-2)
+neg(think-4, n't-3)
+nsubj(happen-7, this-5)
+aux(happen-7, would-6)
+ccomp(think-4, happen-7)
+cc(think-4, but-8)
+nsubj(believe-10, I-9)
+conj:but(think-4, believe-10)
+nsubj(get-13, he-11)
+aux(get-13, would-12)
+ccomp(believe-10, get-13)
+advmod(close-15, very-14)
+advmod(get-13, close-15)
+mark(tying-17, to-16)
+advcl:to(close-15, tying-17)
+det(knot-19, the-18)
+dobj(tying-17, knot-19)
+punct(think-4, .-20)
+
+Coreference set:
+	(4,22,[21,23]) -> (1,5,[4,6]), that is: "Robert Aryn" -> "Robert Aryn"
+Coreference set:
+	(5,5,[5,6]) -> (2,1,[1,2]), that is: "this" -> "This"
+Coreference set:
+	(3,14,[14,15]) -> (2,3,[3,4]), that is: "I" -> "my"
+	(4,12,[12,13]) -> (2,3,[3,4]), that is: "I" -> "my"
+	(5,1,[1,2]) -> (2,3,[3,4]), that is: "I" -> "my"
+	(5,9,[9,10]) -> (2,3,[3,4]), that is: "I" -> "my"
+Coreference set:
+	(3,21,[21,22]) -> (2,9,[9,10]), that is: "he" -> "Daenarys"
+	(3,28,[28,29]) -> (2,9,[9,10]), that is: "his" -> "Daenarys"
+	(4,2,[2,3]) -> (2,9,[9,10]), that is: "he" -> "Daenarys"
+	(4,6,[6,7]) -> (2,9,[9,10]), that is: "his" -> "Daenarys"
+	(4,15,[15,16]) -> (2,9,[9,10]), that is: "he" -> "Daenarys"
+	(4,19,[19,20]) -> (2,9,[9,10]), that is: "his" -> "Daenarys"
+	(5,11,[11,12]) -> (2,9,[9,10]), that is: "he" -> "Daenarys"
+Coreference set:
+	(3,40,[40,41]) -> (3,25,[25,37]), that is: "itself" -> "someway to toss his name into the running for marrying Dany should"
+Coreference set:
+	(4,7,[6,8]) -> (3,29,[28,30]), that is: "his name" -> "his name"
+Coreference set:
+	(4,9,[9,11]) -> (3,31,[31,37]), that is: "the running" -> "the running for marrying Dany should"

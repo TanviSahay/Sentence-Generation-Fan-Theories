@@ -1,102 +1,322 @@
 Sentence #1 (23 tokens):
 Quaithe is a time traveler and possibly also Daenerys, come from the future to teach her past self what to do.
-[Text=Quaithe CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=VBZ]
-[Text=a CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=DT]
-[Text=time CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=NN]
-[Text=traveler CharacterOffsetBegin=18 CharacterOffsetEnd=26 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=CC]
-[Text=possibly CharacterOffsetBegin=31 CharacterOffsetEnd=39 PartOfSpeech=RB]
-[Text=also CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=RB]
-[Text=Daenerys CharacterOffsetBegin=45 CharacterOffsetEnd=53 PartOfSpeech=NNPS]
-[Text=, CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=,]
-[Text=come CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=VBN]
-[Text=from CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=DT]
-[Text=future CharacterOffsetBegin=69 CharacterOffsetEnd=75 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=TO]
-[Text=teach CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=VB]
-[Text=her CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=PRP$]
-[Text=past CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=JJ]
-[Text=self CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NN]
-[Text=what CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=WDT]
-[Text=to CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=TO]
-[Text=do CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=VB]
-[Text=. CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=.]
+[Text=Quaithe CharacterOffsetBegin=0 CharacterOffsetEnd=7 PartOfSpeech=NNP Lemma=Quaithe NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=8 CharacterOffsetEnd=10 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=11 CharacterOffsetEnd=12 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=time CharacterOffsetBegin=13 CharacterOffsetEnd=17 PartOfSpeech=NN Lemma=time NamedEntityTag=O]
+[Text=traveler CharacterOffsetBegin=18 CharacterOffsetEnd=26 PartOfSpeech=NN Lemma=traveler NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=27 CharacterOffsetEnd=30 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=possibly CharacterOffsetBegin=31 CharacterOffsetEnd=39 PartOfSpeech=RB Lemma=possibly NamedEntityTag=O]
+[Text=also CharacterOffsetBegin=40 CharacterOffsetEnd=44 PartOfSpeech=RB Lemma=also NamedEntityTag=O]
+[Text=Daenerys CharacterOffsetBegin=45 CharacterOffsetEnd=53 PartOfSpeech=NNPS Lemma=Daenerys NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=53 CharacterOffsetEnd=54 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=come CharacterOffsetBegin=55 CharacterOffsetEnd=59 PartOfSpeech=VBN Lemma=come NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=60 CharacterOffsetEnd=64 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=FUTURE_REF Timex=<TIMEX3 tid="t1" type="DATE" value="FUTURE_REF">the future</TIMEX3>]
+[Text=future CharacterOffsetBegin=69 CharacterOffsetEnd=75 PartOfSpeech=NN Lemma=future NamedEntityTag=DATE NormalizedNamedEntityTag=FUTURE_REF Timex=<TIMEX3 tid="t1" type="DATE" value="FUTURE_REF">the future</TIMEX3>]
+[Text=to CharacterOffsetBegin=76 CharacterOffsetEnd=78 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=teach CharacterOffsetBegin=79 CharacterOffsetEnd=84 PartOfSpeech=VB Lemma=teach NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=past CharacterOffsetBegin=89 CharacterOffsetEnd=93 PartOfSpeech=JJ Lemma=past NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PAST_REF">past</TIMEX3>]
+[Text=self CharacterOffsetBegin=94 CharacterOffsetEnd=98 PartOfSpeech=NN Lemma=self NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=WDT Lemma=what NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=VB Lemma=do NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=109 CharacterOffsetEnd=110 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Quaithe))
+    (VP (VBZ is)
+      (NP
+        (NP
+          (NP (DT a) (NN time) (NN traveler))
+          (CC and)
+          (NP (RB possibly) (RB also) (NNPS Daenerys)))
+        (, ,)
+        (VP (VBN come)
+          (PP (IN from)
+            (NP (DT the) (NN future)))
+          (S
+            (VP (TO to)
+              (VP (VB teach)
+                (NP
+                  (NP (PRP$ her) (JJ past) (NN self))
+                  (SBAR
+                    (WHNP (WDT what))
+                    (S
+                      (VP (TO to)
+                        (VP (VB do))))))))))))
+    (. .)))
+
+root(ROOT-0, traveler-5)
+nsubj(traveler-5, Quaithe-1)
+cop(traveler-5, is-2)
+det(traveler-5, a-3)
+compound(traveler-5, time-4)
+cc(traveler-5, and-6)
+advmod(Daenerys-9, possibly-7)
+advmod(Daenerys-9, also-8)
+conj:and(traveler-5, Daenerys-9)
+punct(traveler-5, ,-10)
+acl(traveler-5, come-11)
+case(future-14, from-12)
+det(future-14, the-13)
+nmod:from(come-11, future-14)
+mark(teach-16, to-15)
+xcomp(come-11, teach-16)
+nmod:poss(self-19, her-17)
+amod(self-19, past-18)
+dobj(teach-16, self-19)
+nsubj(do-22, self-19)
+ref(self-19, what-20)
+mark(do-22, to-21)
+acl:relcl(self-19, do-22)
+punct(traveler-5, .-23)
+
 Sentence #2 (24 tokens):
 Remember that masked lady back in season two who gave Daenerys that prophecy she's been using to guide her all over Essos?
-[Text=Remember CharacterOffsetBegin=111 CharacterOffsetEnd=119 PartOfSpeech=VB]
-[Text=that CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=IN]
-[Text=masked CharacterOffsetBegin=125 CharacterOffsetEnd=131 PartOfSpeech=VBN]
-[Text=lady CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=NN]
-[Text=back CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=RB]
-[Text=in CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=IN]
-[Text=season CharacterOffsetBegin=145 CharacterOffsetEnd=151 PartOfSpeech=NN]
-[Text=two CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=CD]
-[Text=who CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=WP]
-[Text=gave CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=VBD]
-[Text=Daenerys CharacterOffsetBegin=165 CharacterOffsetEnd=173 PartOfSpeech=NNP]
-[Text=that CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=IN]
-[Text=prophecy CharacterOffsetBegin=179 CharacterOffsetEnd=187 PartOfSpeech=NN]
-[Text=she CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=PRP]
-[Text='s CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=VBZ]
-[Text=been CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=VBN]
-[Text=using CharacterOffsetBegin=199 CharacterOffsetEnd=204 PartOfSpeech=VBG]
-[Text=to CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=TO]
-[Text=guide CharacterOffsetBegin=208 CharacterOffsetEnd=213 PartOfSpeech=VB]
-[Text=her CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=PRP$]
-[Text=all CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=DT]
-[Text=over CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=IN]
-[Text=Essos CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=NNP]
-[Text=? CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=.]
+[Text=Remember CharacterOffsetBegin=111 CharacterOffsetEnd=119 PartOfSpeech=VB Lemma=remember NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=120 CharacterOffsetEnd=124 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=masked CharacterOffsetBegin=125 CharacterOffsetEnd=131 PartOfSpeech=VBN Lemma=mask NamedEntityTag=O]
+[Text=lady CharacterOffsetBegin=132 CharacterOffsetEnd=136 PartOfSpeech=NN Lemma=lady NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=137 CharacterOffsetEnd=141 PartOfSpeech=RB Lemma=back NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=142 CharacterOffsetEnd=144 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=145 CharacterOffsetEnd=151 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=two CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=CD Lemma=two NamedEntityTag=NUMBER NormalizedNamedEntityTag=2.0]
+[Text=who CharacterOffsetBegin=156 CharacterOffsetEnd=159 PartOfSpeech=WP Lemma=who NamedEntityTag=O]
+[Text=gave CharacterOffsetBegin=160 CharacterOffsetEnd=164 PartOfSpeech=VBD Lemma=give NamedEntityTag=O]
+[Text=Daenerys CharacterOffsetBegin=165 CharacterOffsetEnd=173 PartOfSpeech=NNP Lemma=Daenerys NamedEntityTag=PERSON]
+[Text=that CharacterOffsetBegin=174 CharacterOffsetEnd=178 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=prophecy CharacterOffsetBegin=179 CharacterOffsetEnd=187 PartOfSpeech=NN Lemma=prophecy NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=188 CharacterOffsetEnd=191 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=191 CharacterOffsetEnd=193 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=been CharacterOffsetBegin=194 CharacterOffsetEnd=198 PartOfSpeech=VBN Lemma=be NamedEntityTag=O]
+[Text=using CharacterOffsetBegin=199 CharacterOffsetEnd=204 PartOfSpeech=VBG Lemma=use NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=205 CharacterOffsetEnd=207 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=guide CharacterOffsetBegin=208 CharacterOffsetEnd=213 PartOfSpeech=VB Lemma=guide NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=214 CharacterOffsetEnd=217 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=over CharacterOffsetBegin=222 CharacterOffsetEnd=226 PartOfSpeech=IN Lemma=over NamedEntityTag=O]
+[Text=Essos CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=NNP Lemma=Essos NamedEntityTag=PERSON]
+[Text=? CharacterOffsetBegin=232 CharacterOffsetEnd=233 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (SQ
+    (VP (VB Remember)
+      (SBAR (IN that)
+        (S
+          (S
+            (VP (VBN masked)
+              (NP (NN lady))
+              (PP
+                (ADVP (RB back))
+                (IN in)
+                (NP
+                  (NP (NN season) (CD two))
+                  (SBAR
+                    (WHNP (WP who))
+                    (S
+                      (VP (VBD gave)
+                        (NP (NNP Daenerys))
+                        (SBAR (IN that)
+                          (S
+                            (NP (NN prophecy))
+                            (NP (PRP she)))))))))))
+          (VP (VBZ 's)
+            (VP (VBN been)
+              (VP (VBG using)
+                (S
+                  (VP (TO to)
+                    (VP (VB guide)
+                      (NP (PRP$ her))
+                      (PP (DT all) (IN over)
+                        (NP (NNP Essos))))))))))))
+    (. ?)))
+
+root(ROOT-0, Remember-1)
+mark(using-17, that-2)
+csubjpass(using-17, masked-3)
+dobj(masked-3, lady-4)
+advmod(season-7, back-5)
+case(season-7, in-6)
+nmod:in(masked-3, season-7)
+nsubj(gave-10, season-7)
+nummod(season-7, two-8)
+ref(season-7, who-9)
+acl:relcl(season-7, gave-10)
+dobj(gave-10, Daenerys-11)
+mark(she-14, that-12)
+dep(she-14, prophecy-13)
+dep(gave-10, she-14)
+auxpass(using-17, 's-15)
+aux(using-17, been-16)
+ccomp(Remember-1, using-17)
+mark(guide-19, to-18)
+xcomp(using-17, guide-19)
+dobj(guide-19, her-20)
+dep(Essos-23, all-21)
+case(Essos-23, over-22)
+nmod:over(guide-19, Essos-23)
+punct(Remember-1, ?-24)
+
 Sentence #3 (41 tokens):
 Well, this theory posits that Quaithe is wearing a mask to hide her true identity from her past self, because the first rule of time travel is you don't let your past self see your future self.
-[Text=Well CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=,]
-[Text=this CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=DT]
-[Text=theory CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=NN]
-[Text=posits CharacterOffsetBegin=252 CharacterOffsetEnd=258 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=259 CharacterOffsetEnd=263 PartOfSpeech=IN]
-[Text=Quaithe CharacterOffsetBegin=264 CharacterOffsetEnd=271 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=272 CharacterOffsetEnd=274 PartOfSpeech=VBZ]
-[Text=wearing CharacterOffsetBegin=275 CharacterOffsetEnd=282 PartOfSpeech=VBG]
-[Text=a CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=DT]
-[Text=mask CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=TO]
-[Text=hide CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=VB]
-[Text=her CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=PRP$]
-[Text=true CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=JJ]
-[Text=identity CharacterOffsetBegin=307 CharacterOffsetEnd=315 PartOfSpeech=NN]
-[Text=from CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=PRP$]
-[Text=past CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=JJ]
-[Text=self CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=,]
-[Text=because CharacterOffsetBegin=336 CharacterOffsetEnd=343 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=DT]
-[Text=first CharacterOffsetBegin=348 CharacterOffsetEnd=353 PartOfSpeech=JJ]
-[Text=rule CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=359 CharacterOffsetEnd=361 PartOfSpeech=IN]
-[Text=time CharacterOffsetBegin=362 CharacterOffsetEnd=366 PartOfSpeech=NN]
-[Text=travel CharacterOffsetBegin=367 CharacterOffsetEnd=373 PartOfSpeech=NN]
-[Text=is CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=VBZ]
-[Text=you CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=PRP]
-[Text=do CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=VBP]
-[Text=n't CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=RB]
-[Text=let CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=VB]
-[Text=your CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=PRP$]
-[Text=past CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=JJ]
-[Text=self CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=NN]
-[Text=see CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=VB]
-[Text=your CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=PRP$]
-[Text=future CharacterOffsetBegin=415 CharacterOffsetEnd=421 PartOfSpeech=JJ]
-[Text=self CharacterOffsetBegin=422 CharacterOffsetEnd=426 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=.]
+[Text=Well CharacterOffsetBegin=234 CharacterOffsetEnd=238 PartOfSpeech=RB Lemma=well NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=240 CharacterOffsetEnd=244 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=theory CharacterOffsetBegin=245 CharacterOffsetEnd=251 PartOfSpeech=NN Lemma=theory NamedEntityTag=O]
+[Text=posits CharacterOffsetBegin=252 CharacterOffsetEnd=258 PartOfSpeech=VBZ Lemma=posit NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=259 CharacterOffsetEnd=263 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Quaithe CharacterOffsetBegin=264 CharacterOffsetEnd=271 PartOfSpeech=NNP Lemma=Quaithe NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=272 CharacterOffsetEnd=274 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=wearing CharacterOffsetBegin=275 CharacterOffsetEnd=282 PartOfSpeech=VBG Lemma=wear NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=283 CharacterOffsetEnd=284 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=mask CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=NN Lemma=mask NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=290 CharacterOffsetEnd=292 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=hide CharacterOffsetBegin=293 CharacterOffsetEnd=297 PartOfSpeech=VB Lemma=hide NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=298 CharacterOffsetEnd=301 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=true CharacterOffsetBegin=302 CharacterOffsetEnd=306 PartOfSpeech=JJ Lemma=true NamedEntityTag=O]
+[Text=identity CharacterOffsetBegin=307 CharacterOffsetEnd=315 PartOfSpeech=NN Lemma=identity NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=316 CharacterOffsetEnd=320 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=321 CharacterOffsetEnd=324 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=past CharacterOffsetBegin=325 CharacterOffsetEnd=329 PartOfSpeech=JJ Lemma=past NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t3" type="DATE" value="PAST_REF">past</TIMEX3>]
+[Text=self CharacterOffsetBegin=330 CharacterOffsetEnd=334 PartOfSpeech=NN Lemma=self NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=334 CharacterOffsetEnd=335 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=because CharacterOffsetBegin=336 CharacterOffsetEnd=343 PartOfSpeech=IN Lemma=because NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=first CharacterOffsetBegin=348 CharacterOffsetEnd=353 PartOfSpeech=JJ Lemma=first NamedEntityTag=ORDINAL NormalizedNamedEntityTag=1.0]
+[Text=rule CharacterOffsetBegin=354 CharacterOffsetEnd=358 PartOfSpeech=NN Lemma=rule NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=359 CharacterOffsetEnd=361 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=time CharacterOffsetBegin=362 CharacterOffsetEnd=366 PartOfSpeech=NN Lemma=time NamedEntityTag=O]
+[Text=travel CharacterOffsetBegin=367 CharacterOffsetEnd=373 PartOfSpeech=NN Lemma=travel NamedEntityTag=O]
+[Text=is CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=you CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=PRP Lemma=you NamedEntityTag=O]
+[Text=do CharacterOffsetBegin=381 CharacterOffsetEnd=383 PartOfSpeech=VBP Lemma=do NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=383 CharacterOffsetEnd=386 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=let CharacterOffsetBegin=387 CharacterOffsetEnd=390 PartOfSpeech=VB Lemma=let NamedEntityTag=O]
+[Text=your CharacterOffsetBegin=391 CharacterOffsetEnd=395 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O]
+[Text=past CharacterOffsetBegin=396 CharacterOffsetEnd=400 PartOfSpeech=JJ Lemma=past NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t4" type="DATE" value="PAST_REF">past</TIMEX3>]
+[Text=self CharacterOffsetBegin=401 CharacterOffsetEnd=405 PartOfSpeech=NN Lemma=self NamedEntityTag=O]
+[Text=see CharacterOffsetBegin=406 CharacterOffsetEnd=409 PartOfSpeech=VB Lemma=see NamedEntityTag=O]
+[Text=your CharacterOffsetBegin=410 CharacterOffsetEnd=414 PartOfSpeech=PRP$ Lemma=you NamedEntityTag=O]
+[Text=future CharacterOffsetBegin=415 CharacterOffsetEnd=421 PartOfSpeech=JJ Lemma=future NamedEntityTag=DATE NormalizedNamedEntityTag=FUTURE_REF Timex=<TIMEX3 tid="t5" type="DATE" value="FUTURE_REF">future</TIMEX3>]
+[Text=self CharacterOffsetBegin=422 CharacterOffsetEnd=426 PartOfSpeech=NN Lemma=self NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=426 CharacterOffsetEnd=427 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (INTJ (RB Well))
+    (, ,)
+    (NP (DT this) (NN theory))
+    (VP (VBZ posits)
+      (SBAR (IN that)
+        (S
+          (NP (NNP Quaithe))
+          (VP (VBZ is)
+            (VP (VBG wearing)
+              (NP (DT a) (NN mask)
+                (S
+                  (VP (TO to)
+                    (VP (VB hide)
+                      (NP (PRP$ her) (JJ true) (NN identity))
+                      (PP (IN from)
+                        (NP (PRP$ her) (JJ past) (NN self)))
+                      (, ,)
+                      (SBAR (IN because)
+                        (S
+                          (NP
+                            (NP (DT the) (JJ first) (NN rule))
+                            (PP (IN of)
+                              (NP (NN time) (NN travel))))
+                          (VP (VBZ is)
+                            (SBAR
+                              (S
+                                (NP (PRP you))
+                                (VP (VBP do) (RB n't)
+                                  (VP (VB let)
+                                    (S
+                                      (NP (PRP$ your) (JJ past) (NN self))
+                                      (VP (VB see)
+                                        (NP (PRP$ your) (JJ future) (NN self))))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, posits-5)
+discourse(posits-5, Well-1)
+punct(posits-5, ,-2)
+det(theory-4, this-3)
+nsubj(posits-5, theory-4)
+mark(wearing-9, that-6)
+nsubj(wearing-9, Quaithe-7)
+aux(wearing-9, is-8)
+ccomp(posits-5, wearing-9)
+det(mask-11, a-10)
+dobj(wearing-9, mask-11)
+mark(hide-13, to-12)
+acl:to(mask-11, hide-13)
+nmod:poss(identity-16, her-14)
+amod(identity-16, true-15)
+dobj(hide-13, identity-16)
+case(self-20, from-17)
+nmod:poss(self-20, her-18)
+amod(self-20, past-19)
+nmod:from(hide-13, self-20)
+punct(hide-13, ,-21)
+mark(is-29, because-22)
+det(rule-25, the-23)
+amod(rule-25, first-24)
+nsubj(is-29, rule-25)
+case(travel-28, of-26)
+compound(travel-28, time-27)
+nmod:of(rule-25, travel-28)
+advcl:because(hide-13, is-29)
+nsubj(let-33, you-30)
+aux(let-33, do-31)
+neg(let-33, n't-32)
+ccomp(is-29, let-33)
+nmod:poss(self-36, your-34)
+amod(self-36, past-35)
+nsubj(see-37, self-36)
+ccomp(let-33, see-37)
+nmod:poss(self-40, your-38)
+amod(self-40, future-39)
+dobj(see-37, self-40)
+punct(posits-5, .-41)
+
 Sentence #4 (6 tokens):
 Hermione knows all about it.
-[Text=Hermione CharacterOffsetBegin=428 CharacterOffsetEnd=436 PartOfSpeech=NNP]
-[Text=knows CharacterOffsetBegin=437 CharacterOffsetEnd=442 PartOfSpeech=VBZ]
-[Text=all CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=DT]
-[Text=about CharacterOffsetBegin=447 CharacterOffsetEnd=452 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=453 CharacterOffsetEnd=455 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=.]
+[Text=Hermione CharacterOffsetBegin=428 CharacterOffsetEnd=436 PartOfSpeech=NNP Lemma=Hermione NamedEntityTag=PERSON]
+[Text=knows CharacterOffsetBegin=437 CharacterOffsetEnd=442 PartOfSpeech=VBZ Lemma=know NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=443 CharacterOffsetEnd=446 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=about CharacterOffsetBegin=447 CharacterOffsetEnd=452 PartOfSpeech=IN Lemma=about NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=453 CharacterOffsetEnd=455 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=455 CharacterOffsetEnd=456 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Hermione))
+    (VP (VBZ knows)
+      (NP
+        (NP (DT all))
+        (PP (IN about)
+          (NP (PRP it)))))
+    (. .)))
+
+root(ROOT-0, knows-2)
+nsubj(knows-2, Hermione-1)
+dobj(knows-2, all-3)
+case(it-5, about-4)
+nmod:about(all-3, it-5)
+punct(knows-2, .-6)
+
+Coreference set:
+	(1,17,[17,18]) -> (1,9,[9,10]), that is: "her" -> "Daenerys"
+	(2,11,[11,12]) -> (1,9,[9,10]), that is: "Daenerys" -> "Daenerys"
+	(2,14,[14,15]) -> (1,9,[9,10]), that is: "she" -> "Daenerys"
+	(2,20,[20,21]) -> (1,9,[9,10]), that is: "her" -> "Daenerys"
+	(3,14,[14,15]) -> (1,9,[9,10]), that is: "her" -> "Daenerys"
+	(3,18,[18,19]) -> (1,9,[9,10]), that is: "her" -> "Daenerys"
+Coreference set:
+	(1,5,[3,6]) -> (1,1,[1,2]), that is: "a time traveler" -> "Quaithe"
+	(3,7,[7,8]) -> (1,1,[1,2]), that is: "Quaithe" -> "Quaithe"
+Coreference set:
+	(3,20,[18,21]) -> (1,19,[17,23]), that is: "her past self" -> "her past self what to do"
+	(3,36,[34,37]) -> (1,19,[17,23]), that is: "your past self" -> "her past self what to do"
+Coreference set:
+	(4,5,[5,6]) -> (3,4,[3,5]), that is: "it" -> "this theory"

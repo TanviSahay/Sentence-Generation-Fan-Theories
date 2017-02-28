@@ -1,51 +1,159 @@
 Sentence #1 (25 tokens):
 Bran crosses the Wall without thinking about being touched by the Night King, and the army of the dead can pass the Wall.
-[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=crosses CharacterOffsetBegin=5 CharacterOffsetEnd=12 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=DT]
-[Text=Wall CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=NN]
-[Text=without CharacterOffsetBegin=22 CharacterOffsetEnd=29 PartOfSpeech=IN]
-[Text=thinking CharacterOffsetBegin=30 CharacterOffsetEnd=38 PartOfSpeech=VBG]
-[Text=about CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=IN]
-[Text=being CharacterOffsetBegin=45 CharacterOffsetEnd=50 PartOfSpeech=VBG]
-[Text=touched CharacterOffsetBegin=51 CharacterOffsetEnd=58 PartOfSpeech=VBN]
-[Text=by CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=DT]
-[Text=Night CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=NNP]
-[Text=King CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=CC]
-[Text=the CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=DT]
-[Text=army CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=DT]
-[Text=dead CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=NN]
-[Text=can CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=MD]
-[Text=pass CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=DT]
-[Text=Wall CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=.]
+[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=crosses CharacterOffsetBegin=5 CharacterOffsetEnd=12 PartOfSpeech=VBZ Lemma=cross NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=13 CharacterOffsetEnd=16 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Wall CharacterOffsetBegin=17 CharacterOffsetEnd=21 PartOfSpeech=NN Lemma=wall NamedEntityTag=O]
+[Text=without CharacterOffsetBegin=22 CharacterOffsetEnd=29 PartOfSpeech=IN Lemma=without NamedEntityTag=O]
+[Text=thinking CharacterOffsetBegin=30 CharacterOffsetEnd=38 PartOfSpeech=VBG Lemma=think NamedEntityTag=O]
+[Text=about CharacterOffsetBegin=39 CharacterOffsetEnd=44 PartOfSpeech=IN Lemma=about NamedEntityTag=O]
+[Text=being CharacterOffsetBegin=45 CharacterOffsetEnd=50 PartOfSpeech=VBG Lemma=be NamedEntityTag=O]
+[Text=touched CharacterOffsetBegin=51 CharacterOffsetEnd=58 PartOfSpeech=VBN Lemma=touch NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=59 CharacterOffsetEnd=61 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=62 CharacterOffsetEnd=65 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Night CharacterOffsetBegin=66 CharacterOffsetEnd=71 PartOfSpeech=NNP Lemma=Night NamedEntityTag=TIME NormalizedNamedEntityTag=TNI Timex=<TIMEX3 tid="t1" type="TIME" value="TNI">Night</TIMEX3>]
+[Text=King CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=76 CharacterOffsetEnd=77 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=82 CharacterOffsetEnd=85 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=army CharacterOffsetBegin=86 CharacterOffsetEnd=90 PartOfSpeech=NN Lemma=army NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=91 CharacterOffsetEnd=93 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=94 CharacterOffsetEnd=97 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=dead CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=NN Lemma=dead NamedEntityTag=O]
+[Text=can CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=MD Lemma=can NamedEntityTag=O]
+[Text=pass CharacterOffsetBegin=107 CharacterOffsetEnd=111 PartOfSpeech=VB Lemma=pass NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=112 CharacterOffsetEnd=115 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Wall CharacterOffsetBegin=116 CharacterOffsetEnd=120 PartOfSpeech=NNP Lemma=Wall NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Bran))
+      (VP (VBZ crosses)
+        (NP (DT the) (NN Wall))
+        (PP (IN without)
+          (S
+            (VP (VBG thinking)
+              (PP (IN about)
+                (S
+                  (VP (VBG being)
+                    (VP (VBN touched)
+                      (PP (IN by)
+                        (NP (DT the) (NNP Night) (NNP King))))))))))))
+    (, ,)
+    (CC and)
+    (S
+      (NP
+        (NP (DT the) (NN army))
+        (PP (IN of)
+          (NP (DT the) (NN dead))))
+      (VP (MD can)
+        (VP (VB pass)
+          (NP (DT the) (NNP Wall)))))
+    (. .)))
+
+root(ROOT-0, crosses-2)
+nsubj(crosses-2, Bran-1)
+det(Wall-4, the-3)
+dobj(crosses-2, Wall-4)
+mark(thinking-6, without-5)
+advcl:without(crosses-2, thinking-6)
+mark(touched-9, about-7)
+auxpass(touched-9, being-8)
+advcl:about(thinking-6, touched-9)
+case(King-13, by-10)
+det(King-13, the-11)
+compound(King-13, Night-12)
+nmod:agent(touched-9, King-13)
+punct(crosses-2, ,-14)
+cc(crosses-2, and-15)
+det(army-17, the-16)
+nsubj(pass-22, army-17)
+case(dead-20, of-18)
+det(dead-20, the-19)
+nmod:of(army-17, dead-20)
+aux(pass-22, can-21)
+conj:and(crosses-2, pass-22)
+det(Wall-24, the-23)
+dobj(pass-22, Wall-24)
+punct(crosses-2, .-25)
+
 Sentence #2 (22 tokens):
 Many people have suggested this so far, and knowing how this show likes to create worst-case scenarios, seems likely.
-[Text=Many CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=JJ]
-[Text=people CharacterOffsetBegin=127 CharacterOffsetEnd=133 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=VBP]
-[Text=suggested CharacterOffsetBegin=139 CharacterOffsetEnd=148 PartOfSpeech=VBN]
-[Text=this CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=DT]
-[Text=so CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=RB]
-[Text=far CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=,]
-[Text=and CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=CC]
-[Text=knowing CharacterOffsetBegin=166 CharacterOffsetEnd=173 PartOfSpeech=VBG]
-[Text=how CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=WRB]
-[Text=this CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=DT]
-[Text=show CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=NN]
-[Text=likes CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=TO]
-[Text=create CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=VB]
-[Text=worst-case CharacterOffsetBegin=204 CharacterOffsetEnd=214 PartOfSpeech=JJ]
-[Text=scenarios CharacterOffsetBegin=215 CharacterOffsetEnd=224 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=,]
-[Text=seems CharacterOffsetBegin=226 CharacterOffsetEnd=231 PartOfSpeech=VBZ]
-[Text=likely CharacterOffsetBegin=232 CharacterOffsetEnd=238 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=.]
+[Text=Many CharacterOffsetBegin=122 CharacterOffsetEnd=126 PartOfSpeech=JJ Lemma=many NamedEntityTag=O]
+[Text=people CharacterOffsetBegin=127 CharacterOffsetEnd=133 PartOfSpeech=NNS Lemma=people NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=134 CharacterOffsetEnd=138 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=suggested CharacterOffsetBegin=139 CharacterOffsetEnd=148 PartOfSpeech=VBN Lemma=suggest NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=149 CharacterOffsetEnd=153 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=so CharacterOffsetBegin=154 CharacterOffsetEnd=156 PartOfSpeech=RB Lemma=so NamedEntityTag=O]
+[Text=far CharacterOffsetBegin=157 CharacterOffsetEnd=160 PartOfSpeech=RB Lemma=far NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=160 CharacterOffsetEnd=161 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=162 CharacterOffsetEnd=165 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=knowing CharacterOffsetBegin=166 CharacterOffsetEnd=173 PartOfSpeech=VBG Lemma=know NamedEntityTag=O]
+[Text=how CharacterOffsetBegin=174 CharacterOffsetEnd=177 PartOfSpeech=WRB Lemma=how NamedEntityTag=O]
+[Text=this CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=DT Lemma=this NamedEntityTag=O]
+[Text=show CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=NN Lemma=show NamedEntityTag=O]
+[Text=likes CharacterOffsetBegin=188 CharacterOffsetEnd=193 PartOfSpeech=VBZ Lemma=like NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=194 CharacterOffsetEnd=196 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=create CharacterOffsetBegin=197 CharacterOffsetEnd=203 PartOfSpeech=VB Lemma=create NamedEntityTag=O]
+[Text=worst-case CharacterOffsetBegin=204 CharacterOffsetEnd=214 PartOfSpeech=JJ Lemma=worst-case NamedEntityTag=O]
+[Text=scenarios CharacterOffsetBegin=215 CharacterOffsetEnd=224 PartOfSpeech=NNS Lemma=scenario NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=224 CharacterOffsetEnd=225 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=seems CharacterOffsetBegin=226 CharacterOffsetEnd=231 PartOfSpeech=VBZ Lemma=seem NamedEntityTag=O]
+[Text=likely CharacterOffsetBegin=232 CharacterOffsetEnd=238 PartOfSpeech=JJ Lemma=likely NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=238 CharacterOffsetEnd=239 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (JJ Many) (NNS people))
+      (VP (VBP have)
+        (VP (VBN suggested)
+          (NP (DT this))
+          (ADVP (RB so) (RB far)))))
+    (, ,)
+    (CC and)
+    (S
+      (S
+        (VP (VBG knowing)
+          (SBAR
+            (WHADVP (WRB how))
+            (S
+              (NP (DT this) (NN show))
+              (VP (VBZ likes)
+                (S
+                  (VP (TO to)
+                    (VP (VB create)
+                      (NP (JJ worst-case) (NNS scenarios))))))))))
+      (, ,)
+      (S
+        (VP (VBZ seems)
+          (ADJP (JJ likely)))))
+    (. .)))
+
+root(ROOT-0, suggested-4)
+amod(people-2, Many-1)
+nsubj(suggested-4, people-2)
+nsubj(knowing-10, people-2)
+aux(suggested-4, have-3)
+dobj(suggested-4, this-5)
+advmod(far-7, so-6)
+advmod(suggested-4, far-7)
+punct(suggested-4, ,-8)
+cc(suggested-4, and-9)
+conj:and(suggested-4, knowing-10)
+advmod(likes-14, how-11)
+det(show-13, this-12)
+nsubj(likes-14, show-13)
+nsubj:xsubj(create-16, show-13)
+ccomp(knowing-10, likes-14)
+mark(create-16, to-15)
+xcomp(likes-14, create-16)
+amod(scenarios-18, worst-case-17)
+dobj(create-16, scenarios-18)
+punct(knowing-10, ,-19)
+parataxis(knowing-10, seems-20)
+xcomp(seems-20, likely-21)
+punct(suggested-4, .-22)
+
+Coreference set:
+	(1,4,[3,5]) -> (1,24,[23,25]), that is: "the Wall" -> "the Wall"

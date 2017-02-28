@@ -1,9 +1,28 @@
-Sentence #1 (7 tokens):
-The Wall comes down in the finale
-[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
-[Text=Wall CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NN]
-[Text=comes CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=VBZ]
-[Text=down CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=RP]
-[Text=in CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=DT]
-[Text=finale CharacterOffsetBegin=27 CharacterOffsetEnd=33 PartOfSpeech=NN]
+Sentence #1 (8 tokens):
+The Wall comes down in the finale.
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Wall CharacterOffsetBegin=4 CharacterOffsetEnd=8 PartOfSpeech=NN Lemma=wall NamedEntityTag=O]
+[Text=comes CharacterOffsetBegin=9 CharacterOffsetEnd=14 PartOfSpeech=VBZ Lemma=come NamedEntityTag=O]
+[Text=down CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=RP Lemma=down NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=20 CharacterOffsetEnd=22 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=23 CharacterOffsetEnd=26 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=finale CharacterOffsetBegin=27 CharacterOffsetEnd=33 PartOfSpeech=NN Lemma=finale NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=33 CharacterOffsetEnd=34 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NN Wall))
+    (VP (VBZ comes)
+      (PRT (RP down))
+      (PP (IN in)
+        (NP (DT the) (NN finale))))
+    (. .)))
+
+root(ROOT-0, comes-3)
+det(Wall-2, The-1)
+nsubj(comes-3, Wall-2)
+compound:prt(comes-3, down-4)
+case(finale-7, in-5)
+det(finale-7, the-6)
+nmod:in(comes-3, finale-7)
+punct(comes-3, .-8)
+

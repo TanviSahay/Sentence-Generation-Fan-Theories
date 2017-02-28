@@ -1,172 +1,547 @@
-Sentence #1 (22 tokens):
-Jaime kills Cersei
+Sentence #1 (4 tokens):
+Jaime kills Cersei.
+[Text=Jaime CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP Lemma=Jaime NamedEntityTag=PERSON]
+[Text=kills CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=VBZ Lemma=kill NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=12 CharacterOffsetEnd=18 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=. CharacterOffsetBegin=18 CharacterOffsetEnd=19 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Jaime))
+    (VP (VBZ kills)
+      (NP (NNP Cersei)))
+    (. .)))
 
+root(ROOT-0, kills-2)
+nsubj(kills-2, Jaime-1)
+dobj(kills-2, Cersei-3)
+punct(kills-2, .-4)
+
+Sentence #2 (19 tokens):
 The fifth season began with a flashback to young Cersei getting her fortune told by Maggy the Frog.
-[Text=Jaime CharacterOffsetBegin=0 CharacterOffsetEnd=5 PartOfSpeech=NNP]
-[Text=kills CharacterOffsetBegin=6 CharacterOffsetEnd=11 PartOfSpeech=VBZ]
-[Text=Cersei CharacterOffsetBegin=12 CharacterOffsetEnd=18 PartOfSpeech=NNP]
-[Text=The CharacterOffsetBegin=20 CharacterOffsetEnd=23 PartOfSpeech=DT]
-[Text=fifth CharacterOffsetBegin=24 CharacterOffsetEnd=29 PartOfSpeech=JJ]
-[Text=season CharacterOffsetBegin=30 CharacterOffsetEnd=36 PartOfSpeech=NN]
-[Text=began CharacterOffsetBegin=37 CharacterOffsetEnd=42 PartOfSpeech=VBD]
-[Text=with CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=48 CharacterOffsetEnd=49 PartOfSpeech=DT]
-[Text=flashback CharacterOffsetBegin=50 CharacterOffsetEnd=59 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=60 CharacterOffsetEnd=62 PartOfSpeech=TO]
-[Text=young CharacterOffsetBegin=63 CharacterOffsetEnd=68 PartOfSpeech=JJ]
-[Text=Cersei CharacterOffsetBegin=69 CharacterOffsetEnd=75 PartOfSpeech=NNP]
-[Text=getting CharacterOffsetBegin=76 CharacterOffsetEnd=83 PartOfSpeech=VBG]
-[Text=her CharacterOffsetBegin=84 CharacterOffsetEnd=87 PartOfSpeech=PRP$]
-[Text=fortune CharacterOffsetBegin=88 CharacterOffsetEnd=95 PartOfSpeech=NN]
-[Text=told CharacterOffsetBegin=96 CharacterOffsetEnd=100 PartOfSpeech=VBN]
-[Text=by CharacterOffsetBegin=101 CharacterOffsetEnd=103 PartOfSpeech=IN]
-[Text=Maggy CharacterOffsetBegin=104 CharacterOffsetEnd=109 PartOfSpeech=NNP]
-[Text=the CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=DT]
-[Text=Frog CharacterOffsetBegin=114 CharacterOffsetEnd=118 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=118 CharacterOffsetEnd=119 PartOfSpeech=.]
-Sentence #2 (41 tokens):
+[Text=The CharacterOffsetBegin=21 CharacterOffsetEnd=24 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=fifth CharacterOffsetBegin=25 CharacterOffsetEnd=30 PartOfSpeech=JJ Lemma=fifth NamedEntityTag=ORDINAL NormalizedNamedEntityTag=5.0]
+[Text=season CharacterOffsetBegin=31 CharacterOffsetEnd=37 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=began CharacterOffsetBegin=38 CharacterOffsetEnd=43 PartOfSpeech=VBD Lemma=begin NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=44 CharacterOffsetEnd=48 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=49 CharacterOffsetEnd=50 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=flashback CharacterOffsetBegin=51 CharacterOffsetEnd=60 PartOfSpeech=NN Lemma=flashback NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=61 CharacterOffsetEnd=63 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=young CharacterOffsetBegin=64 CharacterOffsetEnd=69 PartOfSpeech=JJ Lemma=young NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=70 CharacterOffsetEnd=76 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=getting CharacterOffsetBegin=77 CharacterOffsetEnd=84 PartOfSpeech=VBG Lemma=get NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=85 CharacterOffsetEnd=88 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=fortune CharacterOffsetBegin=89 CharacterOffsetEnd=96 PartOfSpeech=NN Lemma=fortune NamedEntityTag=O]
+[Text=told CharacterOffsetBegin=97 CharacterOffsetEnd=101 PartOfSpeech=VBN Lemma=tell NamedEntityTag=O]
+[Text=by CharacterOffsetBegin=102 CharacterOffsetEnd=104 PartOfSpeech=IN Lemma=by NamedEntityTag=O]
+[Text=Maggy CharacterOffsetBegin=105 CharacterOffsetEnd=110 PartOfSpeech=NNP Lemma=Maggy NamedEntityTag=PERSON]
+[Text=the CharacterOffsetBegin=111 CharacterOffsetEnd=114 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Frog CharacterOffsetBegin=115 CharacterOffsetEnd=119 PartOfSpeech=NN Lemma=frog NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=119 CharacterOffsetEnd=120 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (JJ fifth) (NN season))
+    (VP (VBD began)
+      (PP (IN with)
+        (NP (DT a) (NN flashback)))
+      (PP (TO to)
+        (NP (JJ young) (NNP Cersei)))
+      (S
+        (VP (VBG getting)
+          (NP
+            (NP (PRP$ her) (NN fortune))
+            (VP (VBN told)
+              (PP (IN by)
+                (NP (NNP Maggy) (DT the) (NN Frog))))))))
+    (. .)))
+
+root(ROOT-0, began-4)
+det(season-3, The-1)
+amod(season-3, fifth-2)
+nsubj(began-4, season-3)
+case(flashback-7, with-5)
+det(flashback-7, a-6)
+nmod:with(began-4, flashback-7)
+case(Cersei-10, to-8)
+amod(Cersei-10, young-9)
+nmod:to(began-4, Cersei-10)
+xcomp(began-4, getting-11)
+nmod:poss(fortune-13, her-12)
+dobj(getting-11, fortune-13)
+acl(fortune-13, told-14)
+case(Frog-18, by-15)
+compound(Frog-18, Maggy-16)
+det(Frog-18, the-17)
+nmod:by(told-14, Frog-18)
+punct(began-4, .-19)
+
+Sentence #3 (41 tokens):
 The prophet warned Cersei that she'll have three children with gold crowns, but that after all of her children have died the "valonqar" (Valyrian for "little brother") will choke Cersei to death.
-[Text=The CharacterOffsetBegin=120 CharacterOffsetEnd=123 PartOfSpeech=DT]
-[Text=prophet CharacterOffsetBegin=124 CharacterOffsetEnd=131 PartOfSpeech=NN]
-[Text=warned CharacterOffsetBegin=132 CharacterOffsetEnd=138 PartOfSpeech=VBD]
-[Text=Cersei CharacterOffsetBegin=139 CharacterOffsetEnd=145 PartOfSpeech=NNP]
-[Text=that CharacterOffsetBegin=146 CharacterOffsetEnd=150 PartOfSpeech=IN]
-[Text=she CharacterOffsetBegin=151 CharacterOffsetEnd=154 PartOfSpeech=PRP]
-[Text='ll CharacterOffsetBegin=154 CharacterOffsetEnd=157 PartOfSpeech=MD]
-[Text=have CharacterOffsetBegin=158 CharacterOffsetEnd=162 PartOfSpeech=VB]
-[Text=three CharacterOffsetBegin=163 CharacterOffsetEnd=168 PartOfSpeech=CD]
-[Text=children CharacterOffsetBegin=169 CharacterOffsetEnd=177 PartOfSpeech=NNS]
-[Text=with CharacterOffsetBegin=178 CharacterOffsetEnd=182 PartOfSpeech=IN]
-[Text=gold CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=NN]
-[Text=crowns CharacterOffsetBegin=188 CharacterOffsetEnd=194 PartOfSpeech=NNS]
-[Text=, CharacterOffsetBegin=194 CharacterOffsetEnd=195 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=CC]
-[Text=that CharacterOffsetBegin=200 CharacterOffsetEnd=204 PartOfSpeech=IN]
-[Text=after CharacterOffsetBegin=205 CharacterOffsetEnd=210 PartOfSpeech=IN]
-[Text=all CharacterOffsetBegin=211 CharacterOffsetEnd=214 PartOfSpeech=DT]
-[Text=of CharacterOffsetBegin=215 CharacterOffsetEnd=217 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=PRP$]
-[Text=children CharacterOffsetBegin=222 CharacterOffsetEnd=230 PartOfSpeech=NNS]
-[Text=have CharacterOffsetBegin=231 CharacterOffsetEnd=235 PartOfSpeech=VBP]
-[Text=died CharacterOffsetBegin=236 CharacterOffsetEnd=240 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=241 CharacterOffsetEnd=244 PartOfSpeech=DT]
-[Text=`` CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=``]
-[Text=valonqar CharacterOffsetBegin=246 CharacterOffsetEnd=254 PartOfSpeech=NN]
-[Text='' CharacterOffsetBegin=254 CharacterOffsetEnd=255 PartOfSpeech='']
-[Text=-LRB- CharacterOffsetBegin=256 CharacterOffsetEnd=257 PartOfSpeech=-LRB-]
-[Text=Valyrian CharacterOffsetBegin=257 CharacterOffsetEnd=265 PartOfSpeech=NNP]
-[Text=for CharacterOffsetBegin=266 CharacterOffsetEnd=269 PartOfSpeech=IN]
-[Text=`` CharacterOffsetBegin=270 CharacterOffsetEnd=271 PartOfSpeech=``]
-[Text=little CharacterOffsetBegin=271 CharacterOffsetEnd=277 PartOfSpeech=JJ]
-[Text=brother CharacterOffsetBegin=278 CharacterOffsetEnd=285 PartOfSpeech=NN]
-[Text='' CharacterOffsetBegin=285 CharacterOffsetEnd=286 PartOfSpeech='']
-[Text=-RRB- CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=-RRB-]
-[Text=will CharacterOffsetBegin=288 CharacterOffsetEnd=292 PartOfSpeech=MD]
-[Text=choke CharacterOffsetBegin=293 CharacterOffsetEnd=298 PartOfSpeech=VB]
-[Text=Cersei CharacterOffsetBegin=299 CharacterOffsetEnd=305 PartOfSpeech=NNP]
-[Text=to CharacterOffsetBegin=306 CharacterOffsetEnd=308 PartOfSpeech=TO]
-[Text=death CharacterOffsetBegin=309 CharacterOffsetEnd=314 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=314 CharacterOffsetEnd=315 PartOfSpeech=.]
-Sentence #3 (18 tokens):
+[Text=The CharacterOffsetBegin=121 CharacterOffsetEnd=124 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=prophet CharacterOffsetBegin=125 CharacterOffsetEnd=132 PartOfSpeech=NN Lemma=prophet NamedEntityTag=O]
+[Text=warned CharacterOffsetBegin=133 CharacterOffsetEnd=139 PartOfSpeech=VBD Lemma=warn NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=140 CharacterOffsetEnd=146 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=that CharacterOffsetBegin=147 CharacterOffsetEnd=151 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=152 CharacterOffsetEnd=155 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text='ll CharacterOffsetBegin=155 CharacterOffsetEnd=158 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=159 CharacterOffsetEnd=163 PartOfSpeech=VB Lemma=have NamedEntityTag=O]
+[Text=three CharacterOffsetBegin=164 CharacterOffsetEnd=169 PartOfSpeech=CD Lemma=three NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0]
+[Text=children CharacterOffsetBegin=170 CharacterOffsetEnd=178 PartOfSpeech=NNS Lemma=child NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=179 CharacterOffsetEnd=183 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=gold CharacterOffsetBegin=184 CharacterOffsetEnd=188 PartOfSpeech=NN Lemma=gold NamedEntityTag=O]
+[Text=crowns CharacterOffsetBegin=189 CharacterOffsetEnd=195 PartOfSpeech=NNS Lemma=crown NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=195 CharacterOffsetEnd=196 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=197 CharacterOffsetEnd=200 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=201 CharacterOffsetEnd=205 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=206 CharacterOffsetEnd=211 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=all CharacterOffsetBegin=212 CharacterOffsetEnd=215 PartOfSpeech=DT Lemma=all NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=216 CharacterOffsetEnd=218 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=219 CharacterOffsetEnd=222 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=children CharacterOffsetBegin=223 CharacterOffsetEnd=231 PartOfSpeech=NNS Lemma=child NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=232 CharacterOffsetEnd=236 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=died CharacterOffsetBegin=237 CharacterOffsetEnd=241 PartOfSpeech=VBD Lemma=die NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=242 CharacterOffsetEnd=245 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=valonqar CharacterOffsetBegin=247 CharacterOffsetEnd=255 PartOfSpeech=NN Lemma=valonqar NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=255 CharacterOffsetEnd=256 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=257 CharacterOffsetEnd=258 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=Valyrian CharacterOffsetBegin=258 CharacterOffsetEnd=266 PartOfSpeech=NNP Lemma=Valyrian NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=`` CharacterOffsetBegin=271 CharacterOffsetEnd=272 PartOfSpeech=`` Lemma=`` NamedEntityTag=O]
+[Text=little CharacterOffsetBegin=272 CharacterOffsetEnd=278 PartOfSpeech=JJ Lemma=little NamedEntityTag=O]
+[Text=brother CharacterOffsetBegin=279 CharacterOffsetEnd=286 PartOfSpeech=NN Lemma=brother NamedEntityTag=O]
+[Text='' CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=287 CharacterOffsetEnd=288 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=289 CharacterOffsetEnd=293 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=choke CharacterOffsetBegin=294 CharacterOffsetEnd=299 PartOfSpeech=VB Lemma=choke NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=300 CharacterOffsetEnd=306 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=to CharacterOffsetBegin=307 CharacterOffsetEnd=309 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=death CharacterOffsetBegin=310 CharacterOffsetEnd=315 PartOfSpeech=NN Lemma=death NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=315 CharacterOffsetEnd=316 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (DT The) (NN prophet))
+    (VP (VBD warned)
+      (NP (NNP Cersei))
+      (SBAR
+        (SBAR (IN that)
+          (S
+            (NP (PRP she))
+            (VP (MD 'll)
+              (VP (VB have)
+                (NP
+                  (NP (CD three) (NNS children))
+                  (PP (IN with)
+                    (NP (NN gold) (NNS crowns))))))))
+        (, ,)
+        (CC but)
+        (SBAR (IN that) (IN after)
+          (S
+            (NP
+              (NP (DT all))
+              (PP (IN of)
+                (NP (PRP$ her) (NNS children))))
+            (VP (VBP have)
+              (VP (VBD died)
+                (SBAR
+                  (S
+                    (NP
+                      (NP (DT the) (`` ``) (NN valonqar) ('' ''))
+                      (PRN (-LRB- -LRB-)
+                        (NP
+                          (NP (NNP Valyrian))
+                          (PP (IN for) (`` ``)
+                            (NP (JJ little) (NN brother))
+                            ('' '')))
+                        (-RRB- -RRB-)))
+                    (VP (MD will)
+                      (VP (VB choke)
+                        (NP (NNP Cersei))
+                        (PP (TO to)
+                          (NP (NN death)))))))))))))
+    (. .)))
+
+root(ROOT-0, warned-3)
+det(prophet-2, The-1)
+nsubj(warned-3, prophet-2)
+dobj(warned-3, Cersei-4)
+mark(have-8, that-5)
+nsubj(have-8, she-6)
+aux(have-8, 'll-7)
+advcl:that(warned-3, have-8)
+nummod(children-10, three-9)
+dobj(have-8, children-10)
+case(crowns-13, with-11)
+compound(crowns-13, gold-12)
+nmod:with(children-10, crowns-13)
+punct(have-8, ,-14)
+cc(have-8, but-15)
+mark(died-23, that-16)
+mark(died-23, after-17)
+nsubj(died-23, all-18)
+case(children-21, of-19)
+nmod:poss(children-21, her-20)
+nmod:of(all-18, children-21)
+aux(died-23, have-22)
+advcl:that(warned-3, died-23)
+conj:but(have-8, died-23)
+det(valonqar-26, the-24)
+punct(valonqar-26, ``-25)
+nsubj(choke-37, valonqar-26)
+punct(valonqar-26, ''-27)
+punct(Valyrian-29, -LRB--28)
+dep(valonqar-26, Valyrian-29)
+case(brother-33, for-30)
+punct(brother-33, ``-31)
+amod(brother-33, little-32)
+nmod:for(Valyrian-29, brother-33)
+punct(brother-33, ''-34)
+punct(Valyrian-29, -RRB--35)
+aux(choke-37, will-36)
+ccomp(died-23, choke-37)
+dobj(choke-37, Cersei-38)
+case(death-40, to-39)
+nmod:to(choke-37, death-40)
+punct(warned-3, .-41)
+
+Sentence #4 (18 tokens):
 Cersei seems to assume Tyrion is the prophesized valonqar, which explains her deep-rooted hatred of him.
-[Text=Cersei CharacterOffsetBegin=316 CharacterOffsetEnd=322 PartOfSpeech=NNP]
-[Text=seems CharacterOffsetBegin=323 CharacterOffsetEnd=328 PartOfSpeech=VBZ]
-[Text=to CharacterOffsetBegin=329 CharacterOffsetEnd=331 PartOfSpeech=TO]
-[Text=assume CharacterOffsetBegin=332 CharacterOffsetEnd=338 PartOfSpeech=VB]
-[Text=Tyrion CharacterOffsetBegin=339 CharacterOffsetEnd=345 PartOfSpeech=NNP]
-[Text=is CharacterOffsetBegin=346 CharacterOffsetEnd=348 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=349 CharacterOffsetEnd=352 PartOfSpeech=DT]
-[Text=prophesized CharacterOffsetBegin=353 CharacterOffsetEnd=364 PartOfSpeech=VBN]
-[Text=valonqar CharacterOffsetBegin=365 CharacterOffsetEnd=373 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=373 CharacterOffsetEnd=374 PartOfSpeech=,]
-[Text=which CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=WDT]
-[Text=explains CharacterOffsetBegin=381 CharacterOffsetEnd=389 PartOfSpeech=VBZ]
-[Text=her CharacterOffsetBegin=390 CharacterOffsetEnd=393 PartOfSpeech=PRP$]
-[Text=deep-rooted CharacterOffsetBegin=394 CharacterOffsetEnd=405 PartOfSpeech=JJ]
-[Text=hatred CharacterOffsetBegin=406 CharacterOffsetEnd=412 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=413 CharacterOffsetEnd=415 PartOfSpeech=IN]
-[Text=him CharacterOffsetBegin=416 CharacterOffsetEnd=419 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=419 CharacterOffsetEnd=420 PartOfSpeech=.]
-Sentence #4 (21 tokens):
+[Text=Cersei CharacterOffsetBegin=317 CharacterOffsetEnd=323 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=seems CharacterOffsetBegin=324 CharacterOffsetEnd=329 PartOfSpeech=VBZ Lemma=seem NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=330 CharacterOffsetEnd=332 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=assume CharacterOffsetBegin=333 CharacterOffsetEnd=339 PartOfSpeech=VB Lemma=assume NamedEntityTag=O]
+[Text=Tyrion CharacterOffsetBegin=340 CharacterOffsetEnd=346 PartOfSpeech=NNP Lemma=Tyrion NamedEntityTag=LOCATION]
+[Text=is CharacterOffsetBegin=347 CharacterOffsetEnd=349 PartOfSpeech=VBZ Lemma=be NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=350 CharacterOffsetEnd=353 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=prophesized CharacterOffsetBegin=354 CharacterOffsetEnd=365 PartOfSpeech=VBN Lemma=prophesize NamedEntityTag=O]
+[Text=valonqar CharacterOffsetBegin=366 CharacterOffsetEnd=374 PartOfSpeech=NN Lemma=valonqar NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=374 CharacterOffsetEnd=375 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=376 CharacterOffsetEnd=381 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=explains CharacterOffsetBegin=382 CharacterOffsetEnd=390 PartOfSpeech=VBZ Lemma=explain NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=391 CharacterOffsetEnd=394 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=deep-rooted CharacterOffsetBegin=395 CharacterOffsetEnd=406 PartOfSpeech=JJ Lemma=deep-rooted NamedEntityTag=O]
+[Text=hatred CharacterOffsetBegin=407 CharacterOffsetEnd=413 PartOfSpeech=NN Lemma=hatred NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=414 CharacterOffsetEnd=416 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=417 CharacterOffsetEnd=420 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=420 CharacterOffsetEnd=421 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Cersei))
+    (VP (VBZ seems)
+      (S
+        (VP (TO to)
+          (VP (VB assume)
+            (SBAR
+              (S
+                (NP (NNP Tyrion))
+                (VP (VBZ is)
+                  (NP
+                    (NP (DT the))
+                    (VP (VBN prophesized)
+                      (NP
+                        (NP (NN valonqar))
+                        (, ,)
+                        (SBAR
+                          (WHNP (WDT which))
+                          (S
+                            (VP (VBZ explains)
+                              (NP
+                                (NP (PRP$ her) (JJ deep-rooted) (NN hatred))
+                                (PP (IN of)
+                                  (NP (PRP him)))))))))))))))))
+    (. .)))
+
+root(ROOT-0, seems-2)
+nsubj(seems-2, Cersei-1)
+nsubj:xsubj(assume-4, Cersei-1)
+mark(assume-4, to-3)
+xcomp(seems-2, assume-4)
+nsubj(the-7, Tyrion-5)
+cop(the-7, is-6)
+ccomp(assume-4, the-7)
+acl(the-7, prophesized-8)
+dobj(prophesized-8, valonqar-9)
+nsubj(explains-12, valonqar-9)
+punct(valonqar-9, ,-10)
+ref(valonqar-9, which-11)
+acl:relcl(valonqar-9, explains-12)
+nmod:poss(hatred-15, her-13)
+amod(hatred-15, deep-rooted-14)
+dobj(explains-12, hatred-15)
+case(him-17, of-16)
+nmod:of(hatred-15, him-17)
+punct(seems-2, .-18)
+
+Sentence #5 (21 tokens):
 But ...
 her twin brother, Jaime, was born after her, putting him in the running as well.
-[Text=But CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=CC]
-[Text=... CharacterOffsetBegin=425 CharacterOffsetEnd=428 PartOfSpeech=:]
-[Text=her CharacterOffsetBegin=429 CharacterOffsetEnd=432 PartOfSpeech=PRP$]
-[Text=twin CharacterOffsetBegin=433 CharacterOffsetEnd=437 PartOfSpeech=NN]
-[Text=brother CharacterOffsetBegin=438 CharacterOffsetEnd=445 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=445 CharacterOffsetEnd=446 PartOfSpeech=,]
-[Text=Jaime CharacterOffsetBegin=447 CharacterOffsetEnd=452 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=452 CharacterOffsetEnd=453 PartOfSpeech=,]
-[Text=was CharacterOffsetBegin=454 CharacterOffsetEnd=457 PartOfSpeech=VBD]
-[Text=born CharacterOffsetBegin=458 CharacterOffsetEnd=462 PartOfSpeech=VBN]
-[Text=after CharacterOffsetBegin=463 CharacterOffsetEnd=468 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=469 CharacterOffsetEnd=472 PartOfSpeech=PRP]
-[Text=, CharacterOffsetBegin=472 CharacterOffsetEnd=473 PartOfSpeech=,]
-[Text=putting CharacterOffsetBegin=474 CharacterOffsetEnd=481 PartOfSpeech=VBG]
-[Text=him CharacterOffsetBegin=482 CharacterOffsetEnd=485 PartOfSpeech=PRP]
-[Text=in CharacterOffsetBegin=486 CharacterOffsetEnd=488 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=DT]
-[Text=running CharacterOffsetBegin=493 CharacterOffsetEnd=500 PartOfSpeech=VBG]
-[Text=as CharacterOffsetBegin=501 CharacterOffsetEnd=503 PartOfSpeech=RB]
-[Text=well CharacterOffsetBegin=504 CharacterOffsetEnd=508 PartOfSpeech=RB]
-[Text=. CharacterOffsetBegin=508 CharacterOffsetEnd=509 PartOfSpeech=.]
-Sentence #5 (19 tokens):
+[Text=But CharacterOffsetBegin=422 CharacterOffsetEnd=425 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=... CharacterOffsetBegin=426 CharacterOffsetEnd=429 PartOfSpeech=: Lemma=... NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=430 CharacterOffsetEnd=433 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=twin CharacterOffsetBegin=434 CharacterOffsetEnd=438 PartOfSpeech=NN Lemma=twin NamedEntityTag=O]
+[Text=brother CharacterOffsetBegin=439 CharacterOffsetEnd=446 PartOfSpeech=NN Lemma=brother NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=446 CharacterOffsetEnd=447 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Jaime CharacterOffsetBegin=448 CharacterOffsetEnd=453 PartOfSpeech=NNP Lemma=Jaime NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=453 CharacterOffsetEnd=454 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=455 CharacterOffsetEnd=458 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=born CharacterOffsetBegin=459 CharacterOffsetEnd=463 PartOfSpeech=VBN Lemma=bear NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=464 CharacterOffsetEnd=469 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=470 CharacterOffsetEnd=473 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=473 CharacterOffsetEnd=474 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=putting CharacterOffsetBegin=475 CharacterOffsetEnd=482 PartOfSpeech=VBG Lemma=put NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=483 CharacterOffsetEnd=486 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=487 CharacterOffsetEnd=489 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=490 CharacterOffsetEnd=493 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=running CharacterOffsetBegin=494 CharacterOffsetEnd=501 PartOfSpeech=VBG Lemma=run NamedEntityTag=O]
+[Text=as CharacterOffsetBegin=502 CharacterOffsetEnd=504 PartOfSpeech=RB Lemma=as NamedEntityTag=O]
+[Text=well CharacterOffsetBegin=505 CharacterOffsetEnd=509 PartOfSpeech=RB Lemma=well NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=509 CharacterOffsetEnd=510 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (CC But))
+    (: ...)
+    (NP (PRP$ her))
+    (VP
+      (VP
+        (PP
+          (NP (NN twin))
+          (NP
+            (NP (NN brother))
+            (, ,)
+            (NP (NNP Jaime))))
+        (, ,) (VBD was)
+        (VP (VBN born)
+          (PP (IN after)
+            (NP (PRP her)))))
+      (, ,)
+      (S
+        (VP (VBG putting)
+          (NP (PRP him))
+          (PP (IN in)
+            (NP
+              (NP (DT the) (VBG running))
+              (ADVP (RB as) (RB well)))))))
+    (. .)))
+
+root(ROOT-0, born-10)
+advmod(born-10, But-1)
+punct(born-10, ...-2)
+nsubjpass(born-10, her-3)
+nmod(born-10, twin-4)
+dep(twin-4, brother-5)
+punct(brother-5, ,-6)
+appos(brother-5, Jaime-7)
+punct(born-10, ,-8)
+auxpass(born-10, was-9)
+case(her-12, after-11)
+nmod:after(born-10, her-12)
+punct(born-10, ,-13)
+advcl(born-10, putting-14)
+dobj(putting-14, him-15)
+case(the-17, in-16)
+nmod:in(putting-14, the-17)
+amod(the-17, running-18)
+advmod(the-17, as-19)
+mwe(as-19, well-20)
+punct(born-10, .-21)
+
+Sentence #6 (19 tokens):
 And ever since Jaime lost his hand, the pair's relationship has grown more and more complicated.
-[Text=And CharacterOffsetBegin=510 CharacterOffsetEnd=513 PartOfSpeech=CC]
-[Text=ever CharacterOffsetBegin=514 CharacterOffsetEnd=518 PartOfSpeech=RB]
-[Text=since CharacterOffsetBegin=519 CharacterOffsetEnd=524 PartOfSpeech=IN]
-[Text=Jaime CharacterOffsetBegin=525 CharacterOffsetEnd=530 PartOfSpeech=NNP]
-[Text=lost CharacterOffsetBegin=531 CharacterOffsetEnd=535 PartOfSpeech=VBD]
-[Text=his CharacterOffsetBegin=536 CharacterOffsetEnd=539 PartOfSpeech=PRP$]
-[Text=hand CharacterOffsetBegin=540 CharacterOffsetEnd=544 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=544 CharacterOffsetEnd=545 PartOfSpeech=,]
-[Text=the CharacterOffsetBegin=546 CharacterOffsetEnd=549 PartOfSpeech=DT]
-[Text=pair CharacterOffsetBegin=550 CharacterOffsetEnd=554 PartOfSpeech=NN]
-[Text='s CharacterOffsetBegin=554 CharacterOffsetEnd=556 PartOfSpeech=POS]
-[Text=relationship CharacterOffsetBegin=557 CharacterOffsetEnd=569 PartOfSpeech=NN]
-[Text=has CharacterOffsetBegin=570 CharacterOffsetEnd=573 PartOfSpeech=VBZ]
-[Text=grown CharacterOffsetBegin=574 CharacterOffsetEnd=579 PartOfSpeech=VBN]
-[Text=more CharacterOffsetBegin=580 CharacterOffsetEnd=584 PartOfSpeech=JJR]
-[Text=and CharacterOffsetBegin=585 CharacterOffsetEnd=588 PartOfSpeech=CC]
-[Text=more CharacterOffsetBegin=589 CharacterOffsetEnd=593 PartOfSpeech=RBR]
-[Text=complicated CharacterOffsetBegin=594 CharacterOffsetEnd=605 PartOfSpeech=JJ]
-[Text=. CharacterOffsetBegin=605 CharacterOffsetEnd=606 PartOfSpeech=.]
-Sentence #6 (36 tokens):
+[Text=And CharacterOffsetBegin=511 CharacterOffsetEnd=514 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=ever CharacterOffsetBegin=515 CharacterOffsetEnd=519 PartOfSpeech=RB Lemma=ever NamedEntityTag=O]
+[Text=since CharacterOffsetBegin=520 CharacterOffsetEnd=525 PartOfSpeech=IN Lemma=since NamedEntityTag=O]
+[Text=Jaime CharacterOffsetBegin=526 CharacterOffsetEnd=531 PartOfSpeech=NNP Lemma=Jaime NamedEntityTag=PERSON]
+[Text=lost CharacterOffsetBegin=532 CharacterOffsetEnd=536 PartOfSpeech=VBD Lemma=lose NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=537 CharacterOffsetEnd=540 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=hand CharacterOffsetBegin=541 CharacterOffsetEnd=545 PartOfSpeech=NN Lemma=hand NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=545 CharacterOffsetEnd=546 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=547 CharacterOffsetEnd=550 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=pair CharacterOffsetBegin=551 CharacterOffsetEnd=555 PartOfSpeech=NN Lemma=pair NamedEntityTag=O]
+[Text='s CharacterOffsetBegin=555 CharacterOffsetEnd=557 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=relationship CharacterOffsetBegin=558 CharacterOffsetEnd=570 PartOfSpeech=NN Lemma=relationship NamedEntityTag=O]
+[Text=has CharacterOffsetBegin=571 CharacterOffsetEnd=574 PartOfSpeech=VBZ Lemma=have NamedEntityTag=O]
+[Text=grown CharacterOffsetBegin=575 CharacterOffsetEnd=580 PartOfSpeech=VBN Lemma=grow NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=581 CharacterOffsetEnd=585 PartOfSpeech=JJR Lemma=more NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=586 CharacterOffsetEnd=589 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=more CharacterOffsetBegin=590 CharacterOffsetEnd=594 PartOfSpeech=RBR Lemma=more NamedEntityTag=O]
+[Text=complicated CharacterOffsetBegin=595 CharacterOffsetEnd=606 PartOfSpeech=JJ Lemma=complicated NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=606 CharacterOffsetEnd=607 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S (CC And)
+    (SBAR (RB ever) (IN since)
+      (S
+        (NP (NNP Jaime))
+        (VP (VBD lost)
+          (NP (PRP$ his) (NN hand)))))
+    (, ,)
+    (NP
+      (NP (DT the) (NN pair) (POS 's))
+      (NN relationship))
+    (VP (VBZ has)
+      (VP (VBN grown)
+        (S
+          (ADJP
+            (ADJP (JJR more))
+            (CC and)
+            (ADJP (RBR more) (JJ complicated))))))
+    (. .)))
+
+root(ROOT-0, grown-14)
+cc(grown-14, And-1)
+advmod(lost-5, ever-2)
+mark(lost-5, since-3)
+nsubj(lost-5, Jaime-4)
+advcl:since(grown-14, lost-5)
+nmod:poss(hand-7, his-6)
+dobj(lost-5, hand-7)
+punct(grown-14, ,-8)
+det(pair-10, the-9)
+nmod:poss(relationship-12, pair-10)
+case(pair-10, 's-11)
+nsubj(grown-14, relationship-12)
+aux(grown-14, has-13)
+xcomp(grown-14, more-15)
+cc(more-15, and-16)
+advmod(complicated-18, more-17)
+xcomp(grown-14, complicated-18)
+conj:and(more-15, complicated-18)
+punct(grown-14, .-19)
+
+Sentence #7 (36 tokens):
 He loves his sister, but we wouldn't put it past him to kill Cersei, eventually, for the good of the kingdom, just like he once did with the Mad King.
-[Text=He CharacterOffsetBegin=608 CharacterOffsetEnd=610 PartOfSpeech=PRP]
-[Text=loves CharacterOffsetBegin=611 CharacterOffsetEnd=616 PartOfSpeech=VBZ]
-[Text=his CharacterOffsetBegin=617 CharacterOffsetEnd=620 PartOfSpeech=PRP$]
-[Text=sister CharacterOffsetBegin=621 CharacterOffsetEnd=627 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=627 CharacterOffsetEnd=628 PartOfSpeech=,]
-[Text=but CharacterOffsetBegin=629 CharacterOffsetEnd=632 PartOfSpeech=CC]
-[Text=we CharacterOffsetBegin=633 CharacterOffsetEnd=635 PartOfSpeech=PRP]
-[Text=would CharacterOffsetBegin=636 CharacterOffsetEnd=641 PartOfSpeech=MD]
-[Text=n't CharacterOffsetBegin=641 CharacterOffsetEnd=644 PartOfSpeech=RB]
-[Text=put CharacterOffsetBegin=645 CharacterOffsetEnd=648 PartOfSpeech=VB]
-[Text=it CharacterOffsetBegin=649 CharacterOffsetEnd=651 PartOfSpeech=PRP]
-[Text=past CharacterOffsetBegin=652 CharacterOffsetEnd=656 PartOfSpeech=IN]
-[Text=him CharacterOffsetBegin=657 CharacterOffsetEnd=660 PartOfSpeech=PRP]
-[Text=to CharacterOffsetBegin=661 CharacterOffsetEnd=663 PartOfSpeech=TO]
-[Text=kill CharacterOffsetBegin=664 CharacterOffsetEnd=668 PartOfSpeech=VB]
-[Text=Cersei CharacterOffsetBegin=669 CharacterOffsetEnd=675 PartOfSpeech=NNP]
-[Text=, CharacterOffsetBegin=675 CharacterOffsetEnd=676 PartOfSpeech=,]
-[Text=eventually CharacterOffsetBegin=677 CharacterOffsetEnd=687 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=687 CharacterOffsetEnd=688 PartOfSpeech=,]
-[Text=for CharacterOffsetBegin=689 CharacterOffsetEnd=692 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=693 CharacterOffsetEnd=696 PartOfSpeech=DT]
-[Text=good CharacterOffsetBegin=697 CharacterOffsetEnd=701 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=702 CharacterOffsetEnd=704 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=705 CharacterOffsetEnd=708 PartOfSpeech=DT]
-[Text=kingdom CharacterOffsetBegin=709 CharacterOffsetEnd=716 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=716 CharacterOffsetEnd=717 PartOfSpeech=,]
-[Text=just CharacterOffsetBegin=718 CharacterOffsetEnd=722 PartOfSpeech=RB]
-[Text=like CharacterOffsetBegin=723 CharacterOffsetEnd=727 PartOfSpeech=IN]
-[Text=he CharacterOffsetBegin=728 CharacterOffsetEnd=730 PartOfSpeech=PRP]
-[Text=once CharacterOffsetBegin=731 CharacterOffsetEnd=735 PartOfSpeech=RB]
-[Text=did CharacterOffsetBegin=736 CharacterOffsetEnd=739 PartOfSpeech=VBD]
-[Text=with CharacterOffsetBegin=740 CharacterOffsetEnd=744 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=745 CharacterOffsetEnd=748 PartOfSpeech=DT]
-[Text=Mad CharacterOffsetBegin=749 CharacterOffsetEnd=752 PartOfSpeech=NNP]
-[Text=King CharacterOffsetBegin=753 CharacterOffsetEnd=757 PartOfSpeech=NNP]
-[Text=. CharacterOffsetBegin=757 CharacterOffsetEnd=758 PartOfSpeech=.]
+[Text=He CharacterOffsetBegin=609 CharacterOffsetEnd=611 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=loves CharacterOffsetBegin=612 CharacterOffsetEnd=617 PartOfSpeech=VBZ Lemma=love NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=618 CharacterOffsetEnd=621 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=sister CharacterOffsetBegin=622 CharacterOffsetEnd=628 PartOfSpeech=NN Lemma=sister NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=628 CharacterOffsetEnd=629 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=630 CharacterOffsetEnd=633 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=634 CharacterOffsetEnd=636 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=would CharacterOffsetBegin=637 CharacterOffsetEnd=642 PartOfSpeech=MD Lemma=would NamedEntityTag=O]
+[Text=n't CharacterOffsetBegin=642 CharacterOffsetEnd=645 PartOfSpeech=RB Lemma=not NamedEntityTag=O]
+[Text=put CharacterOffsetBegin=646 CharacterOffsetEnd=649 PartOfSpeech=VB Lemma=put NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=650 CharacterOffsetEnd=652 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=past CharacterOffsetBegin=653 CharacterOffsetEnd=657 PartOfSpeech=IN Lemma=past NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PAST_REF">past</TIMEX3>]
+[Text=him CharacterOffsetBegin=658 CharacterOffsetEnd=661 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=662 CharacterOffsetEnd=664 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=kill CharacterOffsetBegin=665 CharacterOffsetEnd=669 PartOfSpeech=VB Lemma=kill NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=670 CharacterOffsetEnd=676 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=, CharacterOffsetBegin=676 CharacterOffsetEnd=677 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=eventually CharacterOffsetBegin=678 CharacterOffsetEnd=688 PartOfSpeech=RB Lemma=eventually NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=688 CharacterOffsetEnd=689 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=690 CharacterOffsetEnd=693 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=694 CharacterOffsetEnd=697 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=good CharacterOffsetBegin=698 CharacterOffsetEnd=702 PartOfSpeech=NN Lemma=good NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=703 CharacterOffsetEnd=705 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=706 CharacterOffsetEnd=709 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=kingdom CharacterOffsetBegin=710 CharacterOffsetEnd=717 PartOfSpeech=NN Lemma=kingdom NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=717 CharacterOffsetEnd=718 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=just CharacterOffsetBegin=719 CharacterOffsetEnd=723 PartOfSpeech=RB Lemma=just NamedEntityTag=O]
+[Text=like CharacterOffsetBegin=724 CharacterOffsetEnd=728 PartOfSpeech=IN Lemma=like NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=729 CharacterOffsetEnd=731 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=once CharacterOffsetBegin=732 CharacterOffsetEnd=736 PartOfSpeech=RB Lemma=once NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t2" type="DATE" value="PAST_REF">once</TIMEX3>]
+[Text=did CharacterOffsetBegin=737 CharacterOffsetEnd=740 PartOfSpeech=VBD Lemma=do NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=741 CharacterOffsetEnd=745 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=746 CharacterOffsetEnd=749 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Mad CharacterOffsetBegin=750 CharacterOffsetEnd=753 PartOfSpeech=NNP Lemma=Mad NamedEntityTag=O]
+[Text=King CharacterOffsetBegin=754 CharacterOffsetEnd=758 PartOfSpeech=NNP Lemma=King NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=758 CharacterOffsetEnd=759 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (PRP He))
+      (VP (VBZ loves)
+        (NP (PRP$ his) (NN sister))))
+    (, ,)
+    (CC but)
+    (S
+      (NP (PRP we))
+      (VP (MD would) (RB n't)
+        (VP (VB put)
+          (NP (PRP it))
+          (PP (IN past)
+            (NP (PRP him)))
+          (S
+            (VP (TO to)
+              (VP (VB kill)
+                (NP (NNP Cersei))
+                (, ,)
+                (ADVP (RB eventually))
+                (, ,)
+                (PP (IN for)
+                  (NP
+                    (NP (DT the) (NN good))
+                    (PP (IN of)
+                      (NP (DT the) (NN kingdom)))))
+                (, ,)
+                (SBAR (RB just) (IN like)
+                  (S
+                    (NP (PRP he))
+                    (ADVP (RB once))
+                    (VP (VBD did)
+                      (PP (IN with)
+                        (NP (DT the) (NNP Mad) (NNP King))))))))))))
+    (. .)))
+
+root(ROOT-0, loves-2)
+nsubj(loves-2, He-1)
+nmod:poss(sister-4, his-3)
+dobj(loves-2, sister-4)
+punct(loves-2, ,-5)
+cc(loves-2, but-6)
+nsubj(put-10, we-7)
+aux(put-10, would-8)
+neg(put-10, n't-9)
+conj:but(loves-2, put-10)
+dobj(put-10, it-11)
+case(him-13, past-12)
+nmod:past(put-10, him-13)
+mark(kill-15, to-14)
+advcl:to(put-10, kill-15)
+dobj(kill-15, Cersei-16)
+punct(kill-15, ,-17)
+advmod(kill-15, eventually-18)
+punct(kill-15, ,-19)
+case(good-22, for-20)
+det(good-22, the-21)
+nmod:for(kill-15, good-22)
+case(kingdom-25, of-23)
+det(kingdom-25, the-24)
+nmod:of(good-22, kingdom-25)
+punct(kill-15, ,-26)
+advmod(did-31, just-27)
+mark(did-31, like-28)
+nsubj(did-31, he-29)
+advmod(did-31, once-30)
+advcl:like(kill-15, did-31)
+case(King-35, with-32)
+det(King-35, the-33)
+compound(King-35, Mad-34)
+nmod:with(did-31, King-35)
+punct(loves-2, .-36)
+
+Coreference set:
+	(2,12,[12,13]) -> (1,1,[1,2]), that is: "her" -> "Jaime"
+	(3,6,[6,7]) -> (1,1,[1,2]), that is: "she" -> "Jaime"
+	(4,13,[13,14]) -> (1,1,[1,2]), that is: "her" -> "Jaime"
+	(5,7,[7,8]) -> (1,1,[1,2]), that is: "Jaime" -> "Jaime"
+	(6,4,[4,5]) -> (1,1,[1,2]), that is: "Jaime" -> "Jaime"
+Coreference set:
+	(1,3,[3,4]) -> (2,10,[9,11]), that is: "Cersei" -> "young Cersei"
+	(3,4,[4,5]) -> (2,10,[9,11]), that is: "Cersei" -> "young Cersei"
+	(3,38,[38,39]) -> (2,10,[9,11]), that is: "Cersei" -> "young Cersei"
+	(4,1,[1,2]) -> (2,10,[9,11]), that is: "Cersei" -> "young Cersei"
+	(4,17,[17,18]) -> (2,10,[9,11]), that is: "him" -> "young Cersei"
+	(7,16,[16,17]) -> (2,10,[9,11]), that is: "Cersei" -> "young Cersei"
+	(7,29,[29,30]) -> (2,10,[9,11]), that is: "he" -> "young Cersei"
+Coreference set:
+	(4,7,[7,18]) -> (4,5,[5,6]), that is: "the prophesized valonqar , which explains her deep-rooted hatred of him" -> "Tyrion"
+Coreference set:
+	(5,3,[3,4]) -> (4,9,[9,18]), that is: "her" -> "valonqar , which explains her deep-rooted hatred of him"
+	(5,12,[12,13]) -> (4,9,[9,18]), that is: "her" -> "valonqar , which explains her deep-rooted hatred of him"
+Coreference set:
+	(5,15,[15,16]) -> (5,5,[5,8]), that is: "him" -> "brother , Jaime"
+	(6,6,[6,7]) -> (5,5,[5,8]), that is: "his" -> "brother , Jaime"
+	(7,1,[1,2]) -> (5,5,[5,8]), that is: "He" -> "brother , Jaime"
+	(7,3,[3,4]) -> (5,5,[5,8]), that is: "his" -> "brother , Jaime"
+	(7,13,[13,14]) -> (5,5,[5,8]), that is: "him" -> "brother , Jaime"
+Coreference set:
+	(7,11,[11,12]) -> (6,7,[6,8]), that is: "it" -> "his hand"

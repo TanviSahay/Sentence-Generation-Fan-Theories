@@ -1,121 +1,390 @@
-Sentence #1 (24 tokens):
-The Return of Gendry:
+Sentence #1 (5 tokens):
+The Return of Gendry.
+[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Return CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NN Lemma=return NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Gendry CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=NN Lemma=gendry NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (NP
+    (NP (DT The) (NN Return))
+    (PP (IN of)
+      (NP (NN Gendry)))
+    (. .)))
 
+root(ROOT-0, Return-2)
+det(Return-2, The-1)
+case(Gendry-4, of-3)
+nmod:of(Return-2, Gendry-4)
+punct(Return-2, .-5)
+
+Sentence #2 (19 tokens):
 Arya’s close friend and confidant, Gendry (Joe Dempsie) was last seen in Season 3.
-[Text=The CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=DT]
-[Text=Return CharacterOffsetBegin=4 CharacterOffsetEnd=10 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=11 CharacterOffsetEnd=13 PartOfSpeech=IN]
-[Text=Gendry CharacterOffsetBegin=14 CharacterOffsetEnd=20 PartOfSpeech=NNP]
-[Text=: CharacterOffsetBegin=20 CharacterOffsetEnd=21 PartOfSpeech=:]
-[Text=Arya CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=NNP]
-[Text='s CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=POS]
-[Text=close CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=JJ]
-[Text=friend CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=CC]
-[Text=confidant CharacterOffsetBegin=47 CharacterOffsetEnd=56 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=,]
-[Text=Gendry CharacterOffsetBegin=58 CharacterOffsetEnd=64 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=-LRB-]
-[Text=Joe CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=NNP]
-[Text=Dempsie CharacterOffsetBegin=70 CharacterOffsetEnd=77 PartOfSpeech=NNP]
-[Text=-RRB- CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=-RRB-]
-[Text=was CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=VBD]
-[Text=last CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=JJ]
-[Text=seen CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=VBN]
-[Text=in CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=IN]
-[Text=Season CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=NN]
-[Text=3 CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=CD]
-[Text=. CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=.]
-Sentence #2 (27 tokens):
+[Text=Arya CharacterOffsetBegin=23 CharacterOffsetEnd=27 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text='s CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=POS Lemma='s NamedEntityTag=O]
+[Text=close CharacterOffsetBegin=30 CharacterOffsetEnd=35 PartOfSpeech=JJ Lemma=close NamedEntityTag=O]
+[Text=friend CharacterOffsetBegin=36 CharacterOffsetEnd=42 PartOfSpeech=NN Lemma=friend NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=43 CharacterOffsetEnd=46 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=confidant CharacterOffsetBegin=47 CharacterOffsetEnd=56 PartOfSpeech=NN Lemma=confidant NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=56 CharacterOffsetEnd=57 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=Gendry CharacterOffsetBegin=58 CharacterOffsetEnd=64 PartOfSpeech=NN Lemma=gendry NamedEntityTag=PERSON]
+[Text=-LRB- CharacterOffsetBegin=65 CharacterOffsetEnd=66 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=Joe CharacterOffsetBegin=66 CharacterOffsetEnd=69 PartOfSpeech=NNP Lemma=Joe NamedEntityTag=PERSON]
+[Text=Dempsie CharacterOffsetBegin=70 CharacterOffsetEnd=77 PartOfSpeech=NNP Lemma=Dempsie NamedEntityTag=PERSON]
+[Text=-RRB- CharacterOffsetBegin=77 CharacterOffsetEnd=78 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=79 CharacterOffsetEnd=82 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=last CharacterOffsetBegin=83 CharacterOffsetEnd=87 PartOfSpeech=JJ Lemma=last NamedEntityTag=O]
+[Text=seen CharacterOffsetBegin=88 CharacterOffsetEnd=92 PartOfSpeech=VBN Lemma=see NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=93 CharacterOffsetEnd=95 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Season CharacterOffsetBegin=96 CharacterOffsetEnd=102 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=3 CharacterOffsetBegin=103 CharacterOffsetEnd=104 PartOfSpeech=CD Lemma=3 NamedEntityTag=NUMBER NormalizedNamedEntityTag=3.0]
+[Text=. CharacterOffsetBegin=104 CharacterOffsetEnd=105 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP
+        (NP
+          (NP (NNP Arya) (POS 's))
+          (JJ close) (NN friend))
+        (CC and)
+        (NP
+          (NP (NN confidant))
+          (, ,)
+          (NP (NN Gendry))))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Joe) (NNP Dempsie))
+        (-RRB- -RRB-)))
+    (VP (VBD was)
+      (ADVP (JJ last))
+      (VP (VBN seen)
+        (PP (IN in)
+          (NP (NN Season) (CD 3)))))
+    (. .)))
+
+root(ROOT-0, seen-15)
+nmod:poss(friend-4, Arya-1)
+case(Arya-1, 's-2)
+amod(friend-4, close-3)
+nsubjpass(seen-15, friend-4)
+cc(friend-4, and-5)
+conj:and(friend-4, confidant-6)
+nsubjpass(seen-15, confidant-6)
+punct(confidant-6, ,-7)
+appos(confidant-6, Gendry-8)
+punct(Dempsie-11, -LRB--9)
+compound(Dempsie-11, Joe-10)
+appos(friend-4, Dempsie-11)
+punct(Dempsie-11, -RRB--12)
+auxpass(seen-15, was-13)
+advmod(seen-15, last-14)
+case(Season-17, in-16)
+nmod:in(seen-15, Season-17)
+nummod(Season-17, 3-18)
+punct(seen-15, .-19)
+
+Sentence #3 (27 tokens):
 Melisandre (Carice von Houten) convinced Stannis Baratheon (Stephen Dillane) that they needed drops of his blood to please the Lord of Light.
-[Text=Melisandre CharacterOffsetBegin=106 CharacterOffsetEnd=116 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=-LRB-]
-[Text=Carice CharacterOffsetBegin=118 CharacterOffsetEnd=124 PartOfSpeech=NNP]
-[Text=von CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=NNP]
-[Text=Houten CharacterOffsetBegin=129 CharacterOffsetEnd=135 PartOfSpeech=NNP]
-[Text=-RRB- CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=-RRB-]
-[Text=convinced CharacterOffsetBegin=137 CharacterOffsetEnd=146 PartOfSpeech=JJ]
-[Text=Stannis CharacterOffsetBegin=147 CharacterOffsetEnd=154 PartOfSpeech=NNP]
-[Text=Baratheon CharacterOffsetBegin=155 CharacterOffsetEnd=164 PartOfSpeech=NNP]
-[Text=-LRB- CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=-LRB-]
-[Text=Stephen CharacterOffsetBegin=166 CharacterOffsetEnd=173 PartOfSpeech=NNP]
-[Text=Dillane CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=NNP]
-[Text=-RRB- CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=-RRB-]
-[Text=that CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=IN]
-[Text=they CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=PRP]
-[Text=needed CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=VBD]
-[Text=drops CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=PRP$]
-[Text=blood CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=TO]
-[Text=please CharacterOffsetBegin=222 CharacterOffsetEnd=228 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=DT]
-[Text=Lord CharacterOffsetBegin=233 CharacterOffsetEnd=237 PartOfSpeech=NN]
-[Text=of CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=IN]
-[Text=Light CharacterOffsetBegin=241 CharacterOffsetEnd=246 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=.]
-Sentence #3 (23 tokens):
+[Text=Melisandre CharacterOffsetBegin=106 CharacterOffsetEnd=116 PartOfSpeech=NN Lemma=melisandre NamedEntityTag=O]
+[Text=-LRB- CharacterOffsetBegin=117 CharacterOffsetEnd=118 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=Carice CharacterOffsetBegin=118 CharacterOffsetEnd=124 PartOfSpeech=NNP Lemma=Carice NamedEntityTag=PERSON]
+[Text=von CharacterOffsetBegin=125 CharacterOffsetEnd=128 PartOfSpeech=NNP Lemma=von NamedEntityTag=PERSON]
+[Text=Houten CharacterOffsetBegin=129 CharacterOffsetEnd=135 PartOfSpeech=NNP Lemma=Houten NamedEntityTag=PERSON]
+[Text=-RRB- CharacterOffsetBegin=135 CharacterOffsetEnd=136 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=convinced CharacterOffsetBegin=137 CharacterOffsetEnd=146 PartOfSpeech=JJ Lemma=convinced NamedEntityTag=O]
+[Text=Stannis CharacterOffsetBegin=147 CharacterOffsetEnd=154 PartOfSpeech=NNP Lemma=Stannis NamedEntityTag=PERSON]
+[Text=Baratheon CharacterOffsetBegin=155 CharacterOffsetEnd=164 PartOfSpeech=NNP Lemma=Baratheon NamedEntityTag=PERSON]
+[Text=-LRB- CharacterOffsetBegin=165 CharacterOffsetEnd=166 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=Stephen CharacterOffsetBegin=166 CharacterOffsetEnd=173 PartOfSpeech=NNP Lemma=Stephen NamedEntityTag=PERSON]
+[Text=Dillane CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=NNP Lemma=Dillane NamedEntityTag=PERSON]
+[Text=-RRB- CharacterOffsetBegin=181 CharacterOffsetEnd=182 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=183 CharacterOffsetEnd=187 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=they CharacterOffsetBegin=188 CharacterOffsetEnd=192 PartOfSpeech=PRP Lemma=they NamedEntityTag=O]
+[Text=needed CharacterOffsetBegin=193 CharacterOffsetEnd=199 PartOfSpeech=VBD Lemma=need NamedEntityTag=O]
+[Text=drops CharacterOffsetBegin=200 CharacterOffsetEnd=205 PartOfSpeech=NNS Lemma=drop NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=206 CharacterOffsetEnd=208 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=209 CharacterOffsetEnd=212 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=blood CharacterOffsetBegin=213 CharacterOffsetEnd=218 PartOfSpeech=NN Lemma=blood NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=219 CharacterOffsetEnd=221 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=please CharacterOffsetBegin=222 CharacterOffsetEnd=228 PartOfSpeech=VB Lemma=please NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=229 CharacterOffsetEnd=232 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Lord CharacterOffsetBegin=233 CharacterOffsetEnd=237 PartOfSpeech=NN Lemma=lord NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=238 CharacterOffsetEnd=240 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=Light CharacterOffsetBegin=241 CharacterOffsetEnd=246 PartOfSpeech=NN Lemma=light NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (NN Melisandre))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Carice) (NNP von) (NNP Houten))
+        (-RRB- -RRB-)))
+    (VP (JJ convinced)
+      (NP
+        (NP (NNP Stannis) (NNP Baratheon))
+        (PRN (-LRB- -LRB-)
+          (NP (NNP Stephen) (NNP Dillane))
+          (-RRB- -RRB-))
+        (SBAR (IN that)
+          (S
+            (NP (PRP they))
+            (VP (VBD needed)
+              (NP
+                (NP (NNS drops))
+                (PP (IN of)
+                  (NP (PRP$ his) (NN blood)
+                    (S
+                      (VP (TO to)
+                        (VP (VB please)
+                          (NP
+                            (NP (DT the) (NN Lord))
+                            (PP (IN of)
+                              (NP (NN Light)))))))))))))))
+    (. .)))
+
+root(ROOT-0, convinced-7)
+nsubj(convinced-7, Melisandre-1)
+punct(Houten-5, -LRB--2)
+compound(Houten-5, Carice-3)
+compound(Houten-5, von-4)
+appos(Melisandre-1, Houten-5)
+punct(Houten-5, -RRB--6)
+compound(Baratheon-9, Stannis-8)
+dobj(convinced-7, Baratheon-9)
+punct(Dillane-12, -LRB--10)
+compound(Dillane-12, Stephen-11)
+appos(Baratheon-9, Dillane-12)
+punct(Dillane-12, -RRB--13)
+mark(needed-16, that-14)
+nsubj(needed-16, they-15)
+dep(Baratheon-9, needed-16)
+dobj(needed-16, drops-17)
+case(blood-20, of-18)
+nmod:poss(blood-20, his-19)
+nmod:of(drops-17, blood-20)
+mark(please-22, to-21)
+acl:to(blood-20, please-22)
+det(Lord-24, the-23)
+dobj(please-22, Lord-24)
+case(Light-26, of-25)
+nmod:of(Lord-24, Light-26)
+punct(convinced-7, .-27)
+
+Sentence #4 (23 tokens):
 After getting what she needed from him, he was temporarily freed though it was implied that Melisandre wanted to kill him.
-[Text=After CharacterOffsetBegin=248 CharacterOffsetEnd=253 PartOfSpeech=IN]
-[Text=getting CharacterOffsetBegin=254 CharacterOffsetEnd=261 PartOfSpeech=VBG]
-[Text=what CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=WP]
-[Text=she CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=PRP]
-[Text=needed CharacterOffsetBegin=271 CharacterOffsetEnd=277 PartOfSpeech=VBD]
-[Text=from CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=IN]
-[Text=him CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=PRP]
-[Text=, CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=,]
-[Text=he CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=VBD]
-[Text=temporarily CharacterOffsetBegin=295 CharacterOffsetEnd=306 PartOfSpeech=RB]
-[Text=freed CharacterOffsetBegin=307 CharacterOffsetEnd=312 PartOfSpeech=VBN]
-[Text=though CharacterOffsetBegin=313 CharacterOffsetEnd=319 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=VBD]
-[Text=implied CharacterOffsetBegin=327 CharacterOffsetEnd=334 PartOfSpeech=VBN]
-[Text=that CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=IN]
-[Text=Melisandre CharacterOffsetBegin=340 CharacterOffsetEnd=350 PartOfSpeech=NNP]
-[Text=wanted CharacterOffsetBegin=351 CharacterOffsetEnd=357 PartOfSpeech=VBD]
-[Text=to CharacterOffsetBegin=358 CharacterOffsetEnd=360 PartOfSpeech=TO]
-[Text=kill CharacterOffsetBegin=361 CharacterOffsetEnd=365 PartOfSpeech=VB]
-[Text=him CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=369 CharacterOffsetEnd=370 PartOfSpeech=.]
-Sentence #4 (37 tokens):
+[Text=After CharacterOffsetBegin=248 CharacterOffsetEnd=253 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=getting CharacterOffsetBegin=254 CharacterOffsetEnd=261 PartOfSpeech=VBG Lemma=get NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=262 CharacterOffsetEnd=266 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=needed CharacterOffsetBegin=271 CharacterOffsetEnd=277 PartOfSpeech=VBD Lemma=need NamedEntityTag=O]
+[Text=from CharacterOffsetBegin=278 CharacterOffsetEnd=282 PartOfSpeech=IN Lemma=from NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=283 CharacterOffsetEnd=286 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=286 CharacterOffsetEnd=287 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=288 CharacterOffsetEnd=290 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=291 CharacterOffsetEnd=294 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=temporarily CharacterOffsetBegin=295 CharacterOffsetEnd=306 PartOfSpeech=RB Lemma=temporarily NamedEntityTag=O]
+[Text=freed CharacterOffsetBegin=307 CharacterOffsetEnd=312 PartOfSpeech=VBN Lemma=free NamedEntityTag=O]
+[Text=though CharacterOffsetBegin=313 CharacterOffsetEnd=319 PartOfSpeech=IN Lemma=though NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=320 CharacterOffsetEnd=322 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=323 CharacterOffsetEnd=326 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=implied CharacterOffsetBegin=327 CharacterOffsetEnd=334 PartOfSpeech=VBN Lemma=imply NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=335 CharacterOffsetEnd=339 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Melisandre CharacterOffsetBegin=340 CharacterOffsetEnd=350 PartOfSpeech=NNP Lemma=Melisandre NamedEntityTag=PERSON]
+[Text=wanted CharacterOffsetBegin=351 CharacterOffsetEnd=357 PartOfSpeech=VBD Lemma=want NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=358 CharacterOffsetEnd=360 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=kill CharacterOffsetBegin=361 CharacterOffsetEnd=365 PartOfSpeech=VB Lemma=kill NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=366 CharacterOffsetEnd=369 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=369 CharacterOffsetEnd=370 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN After)
+      (S
+        (VP (VBG getting)
+          (SBAR
+            (WHNP (WP what))
+            (S
+              (NP (PRP she))
+              (VP (VBD needed)
+                (PP (IN from)
+                  (NP (PRP him)))))))))
+    (, ,)
+    (NP (PRP he))
+    (VP (VBD was)
+      (ADVP (RB temporarily))
+      (VP (VBN freed)
+        (SBAR (IN though)
+          (S
+            (NP (PRP it))
+            (VP (VBD was)
+              (VP (VBN implied)
+                (SBAR (IN that)
+                  (S
+                    (NP (NNP Melisandre))
+                    (VP (VBD wanted)
+                      (S
+                        (VP (TO to)
+                          (VP (VB kill)
+                            (NP (PRP him))))))))))))))
+    (. .)))
+
+root(ROOT-0, freed-12)
+mark(getting-2, After-1)
+advcl:after(freed-12, getting-2)
+dobj(needed-5, what-3)
+nsubj(needed-5, she-4)
+ccomp(getting-2, needed-5)
+case(him-7, from-6)
+nmod:from(needed-5, him-7)
+punct(freed-12, ,-8)
+nsubjpass(freed-12, he-9)
+auxpass(freed-12, was-10)
+advmod(freed-12, temporarily-11)
+mark(implied-16, though-13)
+nsubjpass(implied-16, it-14)
+auxpass(implied-16, was-15)
+advcl:though(freed-12, implied-16)
+mark(wanted-19, that-17)
+nsubj(wanted-19, Melisandre-18)
+nsubj:xsubj(kill-21, Melisandre-18)
+ccomp(implied-16, wanted-19)
+mark(kill-21, to-20)
+xcomp(wanted-19, kill-21)
+dobj(kill-21, him-22)
+punct(freed-12, .-23)
+
+Sentence #5 (37 tokens):
 Ser Davos (Liam Cunningham) released him, setting him up with a small paddle boat and rations of food to last through his journey, which we have yet to pick back up with.
-[Text=Ser CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=NNP]
-[Text=Davos CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=NNP]
-[Text=-LRB- CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=-LRB-]
-[Text=Liam CharacterOffsetBegin=382 CharacterOffsetEnd=386 PartOfSpeech=NNP]
-[Text=Cunningham CharacterOffsetBegin=387 CharacterOffsetEnd=397 PartOfSpeech=NNP]
-[Text=-RRB- CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=-RRB-]
-[Text=released CharacterOffsetBegin=399 CharacterOffsetEnd=407 PartOfSpeech=VBD]
-[Text=him CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=PRP]
-[Text=, CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=,]
-[Text=setting CharacterOffsetBegin=413 CharacterOffsetEnd=420 PartOfSpeech=VBG]
-[Text=him CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=PRP]
-[Text=up CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=RP]
-[Text=with CharacterOffsetBegin=428 CharacterOffsetEnd=432 PartOfSpeech=IN]
-[Text=a CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=DT]
-[Text=small CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=JJ]
-[Text=paddle CharacterOffsetBegin=441 CharacterOffsetEnd=447 PartOfSpeech=NN]
-[Text=boat CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=NN]
-[Text=and CharacterOffsetBegin=453 CharacterOffsetEnd=456 PartOfSpeech=CC]
-[Text=rations CharacterOffsetBegin=457 CharacterOffsetEnd=464 PartOfSpeech=NNS]
-[Text=of CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=IN]
-[Text=food CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=NN]
-[Text=to CharacterOffsetBegin=473 CharacterOffsetEnd=475 PartOfSpeech=TO]
-[Text=last CharacterOffsetBegin=476 CharacterOffsetEnd=480 PartOfSpeech=VB]
-[Text=through CharacterOffsetBegin=481 CharacterOffsetEnd=488 PartOfSpeech=IN]
-[Text=his CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=PRP$]
-[Text=journey CharacterOffsetBegin=493 CharacterOffsetEnd=500 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=500 CharacterOffsetEnd=501 PartOfSpeech=,]
-[Text=which CharacterOffsetBegin=502 CharacterOffsetEnd=507 PartOfSpeech=WDT]
-[Text=we CharacterOffsetBegin=508 CharacterOffsetEnd=510 PartOfSpeech=PRP]
-[Text=have CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=VBP]
-[Text=yet CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=RB]
-[Text=to CharacterOffsetBegin=520 CharacterOffsetEnd=522 PartOfSpeech=TO]
-[Text=pick CharacterOffsetBegin=523 CharacterOffsetEnd=527 PartOfSpeech=VB]
-[Text=back CharacterOffsetBegin=528 CharacterOffsetEnd=532 PartOfSpeech=RP]
-[Text=up CharacterOffsetBegin=533 CharacterOffsetEnd=535 PartOfSpeech=RP]
-[Text=with CharacterOffsetBegin=536 CharacterOffsetEnd=540 PartOfSpeech=IN]
-[Text=. CharacterOffsetBegin=540 CharacterOffsetEnd=541 PartOfSpeech=.]
+[Text=Ser CharacterOffsetBegin=371 CharacterOffsetEnd=374 PartOfSpeech=NNP Lemma=Ser NamedEntityTag=PERSON]
+[Text=Davos CharacterOffsetBegin=375 CharacterOffsetEnd=380 PartOfSpeech=NNP Lemma=Davos NamedEntityTag=PERSON]
+[Text=-LRB- CharacterOffsetBegin=381 CharacterOffsetEnd=382 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=Liam CharacterOffsetBegin=382 CharacterOffsetEnd=386 PartOfSpeech=NNP Lemma=Liam NamedEntityTag=PERSON]
+[Text=Cunningham CharacterOffsetBegin=387 CharacterOffsetEnd=397 PartOfSpeech=NNP Lemma=Cunningham NamedEntityTag=PERSON]
+[Text=-RRB- CharacterOffsetBegin=397 CharacterOffsetEnd=398 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=released CharacterOffsetBegin=399 CharacterOffsetEnd=407 PartOfSpeech=VBD Lemma=release NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=408 CharacterOffsetEnd=411 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=411 CharacterOffsetEnd=412 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=setting CharacterOffsetBegin=413 CharacterOffsetEnd=420 PartOfSpeech=VBG Lemma=set NamedEntityTag=O]
+[Text=him CharacterOffsetBegin=421 CharacterOffsetEnd=424 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=425 CharacterOffsetEnd=427 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=428 CharacterOffsetEnd=432 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=433 CharacterOffsetEnd=434 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=small CharacterOffsetBegin=435 CharacterOffsetEnd=440 PartOfSpeech=JJ Lemma=small NamedEntityTag=O]
+[Text=paddle CharacterOffsetBegin=441 CharacterOffsetEnd=447 PartOfSpeech=NN Lemma=paddle NamedEntityTag=O]
+[Text=boat CharacterOffsetBegin=448 CharacterOffsetEnd=452 PartOfSpeech=NN Lemma=boat NamedEntityTag=O]
+[Text=and CharacterOffsetBegin=453 CharacterOffsetEnd=456 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=rations CharacterOffsetBegin=457 CharacterOffsetEnd=464 PartOfSpeech=NNS Lemma=ration NamedEntityTag=O]
+[Text=of CharacterOffsetBegin=465 CharacterOffsetEnd=467 PartOfSpeech=IN Lemma=of NamedEntityTag=O]
+[Text=food CharacterOffsetBegin=468 CharacterOffsetEnd=472 PartOfSpeech=NN Lemma=food NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=473 CharacterOffsetEnd=475 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=last CharacterOffsetBegin=476 CharacterOffsetEnd=480 PartOfSpeech=VB Lemma=last NamedEntityTag=O]
+[Text=through CharacterOffsetBegin=481 CharacterOffsetEnd=488 PartOfSpeech=IN Lemma=through NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=489 CharacterOffsetEnd=492 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=journey CharacterOffsetBegin=493 CharacterOffsetEnd=500 PartOfSpeech=NN Lemma=journey NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=500 CharacterOffsetEnd=501 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=502 CharacterOffsetEnd=507 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=508 CharacterOffsetEnd=510 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=have CharacterOffsetBegin=511 CharacterOffsetEnd=515 PartOfSpeech=VBP Lemma=have NamedEntityTag=O]
+[Text=yet CharacterOffsetBegin=516 CharacterOffsetEnd=519 PartOfSpeech=RB Lemma=yet NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=520 CharacterOffsetEnd=522 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=pick CharacterOffsetBegin=523 CharacterOffsetEnd=527 PartOfSpeech=VB Lemma=pick NamedEntityTag=O]
+[Text=back CharacterOffsetBegin=528 CharacterOffsetEnd=532 PartOfSpeech=RP Lemma=back NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=533 CharacterOffsetEnd=535 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=536 CharacterOffsetEnd=540 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=540 CharacterOffsetEnd=541 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP
+      (NP (NNP Ser) (NNP Davos))
+      (PRN (-LRB- -LRB-)
+        (NP (NNP Liam) (NNP Cunningham))
+        (-RRB- -RRB-)))
+    (VP (VBD released)
+      (NP (PRP him))
+      (, ,)
+      (S
+        (VP (VBG setting)
+          (NP (PRP him))
+          (PRT (RP up))
+          (PP (IN with)
+            (NP
+              (NP (DT a) (JJ small) (NN paddle) (NN boat))
+              (CC and)
+              (NP
+                (NP (NNS rations))
+                (PP (IN of)
+                  (NP (NN food)))
+                (S
+                  (VP (TO to)
+                    (VP (VB last)
+                      (PP (IN through)
+                        (NP
+                          (NP (PRP$ his) (NN journey))
+                          (, ,)
+                          (SBAR
+                            (WHNP (WDT which))
+                            (S
+                              (NP (PRP we))
+                              (VP (VBP have)
+                                (ADVP (RB yet))
+                                (S
+                                  (VP (TO to)
+                                    (VP (VB pick)
+                                      (PRT (RP back))
+                                      (PRT (RP up))
+                                      (PP (IN with)))))))))))))))))))
+    (. .)))
+
+root(ROOT-0, released-7)
+compound(Davos-2, Ser-1)
+nsubj(released-7, Davos-2)
+punct(Cunningham-5, -LRB--3)
+compound(Cunningham-5, Liam-4)
+appos(Davos-2, Cunningham-5)
+punct(Cunningham-5, -RRB--6)
+dobj(released-7, him-8)
+punct(released-7, ,-9)
+advcl(released-7, setting-10)
+dobj(setting-10, him-11)
+compound:prt(setting-10, up-12)
+case(boat-17, with-13)
+det(boat-17, a-14)
+amod(boat-17, small-15)
+compound(boat-17, paddle-16)
+nmod:with(setting-10, boat-17)
+cc(boat-17, and-18)
+nmod:with(setting-10, rations-19)
+conj:and(boat-17, rations-19)
+case(food-21, of-20)
+nmod:of(rations-19, food-21)
+mark(last-23, to-22)
+acl:to(rations-19, last-23)
+case(journey-26, through-24)
+nmod:poss(journey-26, his-25)
+nmod:through(last-23, journey-26)
+dobj(have-30, journey-26)
+nsubj:xsubj(pick-33, journey-26)
+punct(journey-26, ,-27)
+ref(journey-26, which-28)
+nsubj(have-30, we-29)
+acl:relcl(journey-26, have-30)
+advmod(have-30, yet-31)
+mark(pick-33, to-32)
+xcomp(have-30, pick-33)
+compound:prt(pick-33, back-34)
+compound:prt(pick-33, up-35)
+nmod(pick-33, with-36)
+punct(released-7, .-37)
+
+Coreference set:
+	(3,15,[15,16]) -> (2,4,[1,13]), that is: "they" -> "Arya 's close friend and confidant , Gendry -LRB- Joe Dempsie -RRB-"
+Coreference set:
+	(3,1,[1,7]) -> (4,18,[18,19]), that is: "Melisandre -LRB- Carice von Houten -RRB-" -> "Melisandre"
+	(3,19,[19,20]) -> (4,18,[18,19]), that is: "his" -> "Melisandre"
+	(4,7,[7,8]) -> (4,18,[18,19]), that is: "him" -> "Melisandre"
+	(4,9,[9,10]) -> (4,18,[18,19]), that is: "he" -> "Melisandre"
+	(4,22,[22,23]) -> (4,18,[18,19]), that is: "him" -> "Melisandre"
+Coreference set:
+	(4,4,[4,5]) -> (3,9,[8,27]), that is: "she" -> "Stannis Baratheon -LRB- Stephen Dillane -RRB- that they needed drops of his blood to please the Lord of Light"
+Coreference set:
+	(5,8,[8,9]) -> (5,5,[4,6]), that is: "him" -> "Liam Cunningham"
+	(5,11,[11,12]) -> (5,5,[4,6]), that is: "him" -> "Liam Cunningham"
+	(5,25,[25,26]) -> (5,5,[4,6]), that is: "his" -> "Liam Cunningham"

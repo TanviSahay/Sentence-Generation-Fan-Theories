@@ -1,84 +1,260 @@
 Sentence #1 (5 tokens):
 Bran Built The Wall.
-[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=Built CharacterOffsetBegin=5 CharacterOffsetEnd=10 PartOfSpeech=VBN]
-[Text=The CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=DT]
-[Text=Wall CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=NN]
-[Text=. CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=.]
+[Text=Bran CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=Built CharacterOffsetBegin=5 CharacterOffsetEnd=10 PartOfSpeech=VBN Lemma=build NamedEntityTag=O]
+[Text=The CharacterOffsetBegin=11 CharacterOffsetEnd=14 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=Wall CharacterOffsetBegin=15 CharacterOffsetEnd=19 PartOfSpeech=NN Lemma=wall NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=19 CharacterOffsetEnd=20 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Bran))
+    (VP (VBN Built)
+      (NP (DT The) (NN Wall)))
+    (. .)))
+
+root(ROOT-0, Built-2)
+nsubj(Built-2, Bran-1)
+det(Wall-4, The-3)
+dobj(Built-2, Wall-4)
+punct(Built-2, .-5)
+
 Sentence #2 (28 tokens):
 Well, we know that the legend says that Bran "The Builder" built the wall but what if it was actually a time-traveling Bran Stark?
-[Text=Well CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=RB]
-[Text=, CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=,]
-[Text=we CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=PRP]
-[Text=know CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=VBP]
-[Text=that CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=DT]
-[Text=legend CharacterOffsetBegin=44 CharacterOffsetEnd=50 PartOfSpeech=NN]
-[Text=says CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=VBZ]
-[Text=that CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=IN]
-[Text=Bran CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=NNP]
-[Text=`` CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=``]
-[Text=The CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=DT]
-[Text=Builder CharacterOffsetBegin=71 CharacterOffsetEnd=78 PartOfSpeech=NN]
-[Text='' CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech='']
-[Text=built CharacterOffsetBegin=80 CharacterOffsetEnd=85 PartOfSpeech=VBD]
-[Text=the CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=DT]
-[Text=wall CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=NN]
-[Text=but CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=CC]
-[Text=what CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=WP]
-[Text=if CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=IN]
-[Text=it CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=VBD]
-[Text=actually CharacterOffsetBegin=114 CharacterOffsetEnd=122 PartOfSpeech=RB]
-[Text=a CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=DT]
-[Text=time-traveling CharacterOffsetBegin=125 CharacterOffsetEnd=139 PartOfSpeech=JJ]
-[Text=Bran CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=NNP]
-[Text=Stark CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NNP]
-[Text=? CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=.]
+[Text=Well CharacterOffsetBegin=21 CharacterOffsetEnd=25 PartOfSpeech=RB Lemma=well NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=25 CharacterOffsetEnd=26 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=we CharacterOffsetBegin=27 CharacterOffsetEnd=29 PartOfSpeech=PRP Lemma=we NamedEntityTag=O]
+[Text=know CharacterOffsetBegin=30 CharacterOffsetEnd=34 PartOfSpeech=VBP Lemma=know NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=35 CharacterOffsetEnd=39 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=legend CharacterOffsetBegin=44 CharacterOffsetEnd=50 PartOfSpeech=NN Lemma=legend NamedEntityTag=O]
+[Text=says CharacterOffsetBegin=51 CharacterOffsetEnd=55 PartOfSpeech=VBZ Lemma=say NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=56 CharacterOffsetEnd=60 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=61 CharacterOffsetEnd=65 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=MISC]
+[Text=`` CharacterOffsetBegin=66 CharacterOffsetEnd=67 PartOfSpeech=`` Lemma=`` NamedEntityTag=MISC]
+[Text=The CharacterOffsetBegin=67 CharacterOffsetEnd=70 PartOfSpeech=DT Lemma=the NamedEntityTag=MISC]
+[Text=Builder CharacterOffsetBegin=71 CharacterOffsetEnd=78 PartOfSpeech=NN Lemma=builder NamedEntityTag=MISC]
+[Text='' CharacterOffsetBegin=78 CharacterOffsetEnd=79 PartOfSpeech='' Lemma='' NamedEntityTag=O]
+[Text=built CharacterOffsetBegin=80 CharacterOffsetEnd=85 PartOfSpeech=VBD Lemma=build NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=86 CharacterOffsetEnd=89 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=wall CharacterOffsetBegin=90 CharacterOffsetEnd=94 PartOfSpeech=NN Lemma=wall NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=95 CharacterOffsetEnd=98 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=what CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=WP Lemma=what NamedEntityTag=O]
+[Text=if CharacterOffsetBegin=104 CharacterOffsetEnd=106 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=it CharacterOffsetBegin=107 CharacterOffsetEnd=109 PartOfSpeech=PRP Lemma=it NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=110 CharacterOffsetEnd=113 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=actually CharacterOffsetBegin=114 CharacterOffsetEnd=122 PartOfSpeech=RB Lemma=actually NamedEntityTag=O]
+[Text=a CharacterOffsetBegin=123 CharacterOffsetEnd=124 PartOfSpeech=DT Lemma=a NamedEntityTag=O]
+[Text=time-traveling CharacterOffsetBegin=125 CharacterOffsetEnd=139 PartOfSpeech=JJ Lemma=time-traveling NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=140 CharacterOffsetEnd=144 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=O]
+[Text=Stark CharacterOffsetBegin=145 CharacterOffsetEnd=150 PartOfSpeech=NNP Lemma=Stark NamedEntityTag=O]
+[Text=? CharacterOffsetBegin=150 CharacterOffsetEnd=151 PartOfSpeech=. Lemma=? NamedEntityTag=O]
+(ROOT
+  (S
+    (ADVP (RB Well))
+    (, ,)
+    (NP (PRP we))
+    (VP (VBP know)
+      (SBAR (IN that)
+        (S
+          (NP (DT the) (NN legend))
+          (VP (VBZ says)
+            (SBAR
+              (SBAR (IN that)
+                (S
+                  (NP
+                    (NP (NNP Bran))
+                    (`` ``)
+                    (NP (DT The) (NN Builder))
+                    ('' ''))
+                  (VP (VBD built)
+                    (NP (DT the) (NN wall)))))
+              (CC but)
+              (SBAR (WP what) (IN if)
+                (S
+                  (NP (PRP it))
+                  (VP (VBD was)
+                    (ADVP (RB actually))
+                    (NP (DT a) (JJ time-traveling) (NNP Bran) (NNP Stark))))
+                (. ?)))))))))
+
+root(ROOT-0, know-4)
+advmod(know-4, Well-1)
+punct(know-4, ,-2)
+nsubj(know-4, we-3)
+mark(says-8, that-5)
+det(legend-7, the-6)
+nsubj(says-8, legend-7)
+ccomp(know-4, says-8)
+mark(built-15, that-9)
+nsubj(built-15, Bran-10)
+punct(Bran-10, ``-11)
+det(Builder-13, The-12)
+dep(Bran-10, Builder-13)
+punct(Bran-10, ''-14)
+advcl:that(says-8, built-15)
+det(wall-17, the-16)
+dobj(built-15, wall-17)
+cc(built-15, but-18)
+dep(Stark-27, what-19)
+mark(Stark-27, if-20)
+nsubj(Stark-27, it-21)
+cop(Stark-27, was-22)
+advmod(Stark-27, actually-23)
+det(Stark-27, a-24)
+amod(Stark-27, time-traveling-25)
+compound(Stark-27, Bran-26)
+advcl:that(says-8, Stark-27)
+conj:but(built-15, Stark-27)
+punct(Stark-27, ?-28)
+
 Sentence #3 (45 tokens):
 After the devastating episode in Season 6 where our beloved Hodor bit the big one (heroically), many fans started to believe that if Bran could affect the past, then maybe he was actually the man he was supposedly named after.
-[Text=After CharacterOffsetBegin=152 CharacterOffsetEnd=157 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=DT]
-[Text=devastating CharacterOffsetBegin=162 CharacterOffsetEnd=173 PartOfSpeech=JJ]
-[Text=episode CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=IN]
-[Text=Season CharacterOffsetBegin=185 CharacterOffsetEnd=191 PartOfSpeech=NN]
-[Text=6 CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=CD]
-[Text=where CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=WRB]
-[Text=our CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=PRP$]
-[Text=beloved CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=JJ]
-[Text=Hodor CharacterOffsetBegin=212 CharacterOffsetEnd=217 PartOfSpeech=NNP]
-[Text=bit CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=NN]
-[Text=the CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=DT]
-[Text=big CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=JJ]
-[Text=one CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=NN]
-[Text=-LRB- CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=-LRB-]
-[Text=heroically CharacterOffsetBegin=235 CharacterOffsetEnd=245 PartOfSpeech=RB]
-[Text=-RRB- CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=-RRB-]
-[Text=, CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=,]
-[Text=many CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=JJ]
-[Text=fans CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=NNS]
-[Text=started CharacterOffsetBegin=258 CharacterOffsetEnd=265 PartOfSpeech=VBD]
-[Text=to CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=TO]
-[Text=believe CharacterOffsetBegin=269 CharacterOffsetEnd=276 PartOfSpeech=VB]
-[Text=that CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=IN]
-[Text=if CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=IN]
-[Text=Bran CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=NNP]
-[Text=could CharacterOffsetBegin=290 CharacterOffsetEnd=295 PartOfSpeech=MD]
-[Text=affect CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=DT]
-[Text=past CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=,]
-[Text=then CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=RB]
-[Text=maybe CharacterOffsetBegin=318 CharacterOffsetEnd=323 PartOfSpeech=RB]
-[Text=he CharacterOffsetBegin=324 CharacterOffsetEnd=326 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=VBD]
-[Text=actually CharacterOffsetBegin=331 CharacterOffsetEnd=339 PartOfSpeech=RB]
-[Text=the CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=DT]
-[Text=man CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=NN]
-[Text=he CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=PRP]
-[Text=was CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=VBD]
-[Text=supposedly CharacterOffsetBegin=355 CharacterOffsetEnd=365 PartOfSpeech=RB]
-[Text=named CharacterOffsetBegin=366 CharacterOffsetEnd=371 PartOfSpeech=VBN]
-[Text=after CharacterOffsetBegin=372 CharacterOffsetEnd=377 PartOfSpeech=IN]
-[Text=. CharacterOffsetBegin=377 CharacterOffsetEnd=378 PartOfSpeech=.]
+[Text=After CharacterOffsetBegin=152 CharacterOffsetEnd=157 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=158 CharacterOffsetEnd=161 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=devastating CharacterOffsetBegin=162 CharacterOffsetEnd=173 PartOfSpeech=JJ Lemma=devastating NamedEntityTag=O]
+[Text=episode CharacterOffsetBegin=174 CharacterOffsetEnd=181 PartOfSpeech=NN Lemma=episode NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=182 CharacterOffsetEnd=184 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=Season CharacterOffsetBegin=185 CharacterOffsetEnd=191 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=6 CharacterOffsetBegin=192 CharacterOffsetEnd=193 PartOfSpeech=CD Lemma=6 NamedEntityTag=NUMBER NormalizedNamedEntityTag=6.0]
+[Text=where CharacterOffsetBegin=194 CharacterOffsetEnd=199 PartOfSpeech=WRB Lemma=where NamedEntityTag=O]
+[Text=our CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=PRP$ Lemma=we NamedEntityTag=O]
+[Text=beloved CharacterOffsetBegin=204 CharacterOffsetEnd=211 PartOfSpeech=JJ Lemma=beloved NamedEntityTag=O]
+[Text=Hodor CharacterOffsetBegin=212 CharacterOffsetEnd=217 PartOfSpeech=NNP Lemma=Hodor NamedEntityTag=O]
+[Text=bit CharacterOffsetBegin=218 CharacterOffsetEnd=221 PartOfSpeech=NN Lemma=bit NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=222 CharacterOffsetEnd=225 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=big CharacterOffsetBegin=226 CharacterOffsetEnd=229 PartOfSpeech=JJ Lemma=big NamedEntityTag=O]
+[Text=one CharacterOffsetBegin=230 CharacterOffsetEnd=233 PartOfSpeech=NN Lemma=one NamedEntityTag=NUMBER NormalizedNamedEntityTag=1.0]
+[Text=-LRB- CharacterOffsetBegin=234 CharacterOffsetEnd=235 PartOfSpeech=-LRB- Lemma=-lrb- NamedEntityTag=O]
+[Text=heroically CharacterOffsetBegin=235 CharacterOffsetEnd=245 PartOfSpeech=RB Lemma=heroically NamedEntityTag=O]
+[Text=-RRB- CharacterOffsetBegin=245 CharacterOffsetEnd=246 PartOfSpeech=-RRB- Lemma=-rrb- NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=246 CharacterOffsetEnd=247 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=many CharacterOffsetBegin=248 CharacterOffsetEnd=252 PartOfSpeech=JJ Lemma=many NamedEntityTag=O]
+[Text=fans CharacterOffsetBegin=253 CharacterOffsetEnd=257 PartOfSpeech=NNS Lemma=fan NamedEntityTag=O]
+[Text=started CharacterOffsetBegin=258 CharacterOffsetEnd=265 PartOfSpeech=VBD Lemma=start NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=266 CharacterOffsetEnd=268 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=believe CharacterOffsetBegin=269 CharacterOffsetEnd=276 PartOfSpeech=VB Lemma=believe NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=277 CharacterOffsetEnd=281 PartOfSpeech=IN Lemma=that NamedEntityTag=O]
+[Text=if CharacterOffsetBegin=282 CharacterOffsetEnd=284 PartOfSpeech=IN Lemma=if NamedEntityTag=O]
+[Text=Bran CharacterOffsetBegin=285 CharacterOffsetEnd=289 PartOfSpeech=NNP Lemma=Bran NamedEntityTag=PERSON]
+[Text=could CharacterOffsetBegin=290 CharacterOffsetEnd=295 PartOfSpeech=MD Lemma=could NamedEntityTag=O]
+[Text=affect CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=VB Lemma=affect NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=303 CharacterOffsetEnd=306 PartOfSpeech=DT Lemma=the NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PAST_REF">the past</TIMEX3>]
+[Text=past CharacterOffsetBegin=307 CharacterOffsetEnd=311 PartOfSpeech=NN Lemma=past NamedEntityTag=DATE NormalizedNamedEntityTag=PAST_REF Timex=<TIMEX3 tid="t1" type="DATE" value="PAST_REF">the past</TIMEX3>]
+[Text=, CharacterOffsetBegin=311 CharacterOffsetEnd=312 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=then CharacterOffsetBegin=313 CharacterOffsetEnd=317 PartOfSpeech=RB Lemma=then NamedEntityTag=O]
+[Text=maybe CharacterOffsetBegin=318 CharacterOffsetEnd=323 PartOfSpeech=RB Lemma=maybe NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=324 CharacterOffsetEnd=326 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=327 CharacterOffsetEnd=330 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=actually CharacterOffsetBegin=331 CharacterOffsetEnd=339 PartOfSpeech=RB Lemma=actually NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=340 CharacterOffsetEnd=343 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=man CharacterOffsetBegin=344 CharacterOffsetEnd=347 PartOfSpeech=NN Lemma=man NamedEntityTag=O]
+[Text=he CharacterOffsetBegin=348 CharacterOffsetEnd=350 PartOfSpeech=PRP Lemma=he NamedEntityTag=O]
+[Text=was CharacterOffsetBegin=351 CharacterOffsetEnd=354 PartOfSpeech=VBD Lemma=be NamedEntityTag=O]
+[Text=supposedly CharacterOffsetBegin=355 CharacterOffsetEnd=365 PartOfSpeech=RB Lemma=supposedly NamedEntityTag=O]
+[Text=named CharacterOffsetBegin=366 CharacterOffsetEnd=371 PartOfSpeech=VBN Lemma=name NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=372 CharacterOffsetEnd=377 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=377 CharacterOffsetEnd=378 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (PP (IN After)
+      (NP
+        (NP (DT the) (JJ devastating) (NN episode))
+        (PP (IN in)
+          (NP (NN Season) (CD 6)))
+        (SBAR
+          (WHADVP (WRB where))
+          (S
+            (NP
+              (NP
+                (NP (PRP$ our) (JJ beloved) (NNP Hodor) (NN bit))
+                (NP
+                  (NP (DT the) (JJ big) (NN one))
+                  (PRN (-LRB- -LRB-)
+                    (ADVP (RB heroically))
+                    (-RRB- -RRB-))))
+              (, ,)
+              (NP (JJ many) (NNS fans)))
+            (VP (VBD started)
+              (S
+                (VP (TO to)
+                  (VP (VB believe)
+                    (SBAR (IN that)
+                      (S
+                        (SBAR (IN if)
+                          (S
+                            (NP (NNP Bran))
+                            (VP (MD could)
+                              (VP (VB affect)
+                                (NP (DT the) (NN past))
+                                (, ,)
+                                (ADVP (RB then))
+                                (ADVP (RB maybe))))))
+                        (NP (PRP he))
+                        (VP (VBD was)
+                          (ADVP (RB actually))
+                          (NP (DT the) (NN man)))))))))))))
+    (NP (PRP he))
+    (VP (VBD was)
+      (ADVP (RB supposedly))
+      (VP (VBN named)
+        (PP (IN after))))
+    (. .)))
+
+root(ROOT-0, named-43)
+case(episode-4, After-1)
+det(episode-4, the-2)
+amod(episode-4, devastating-3)
+nmod:after(named-43, episode-4)
+case(Season-6, in-5)
+nmod:in(episode-4, Season-6)
+nummod(Season-6, 6-7)
+advmod(started-22, where-8)
+nmod:poss(bit-12, our-9)
+amod(bit-12, beloved-10)
+compound(bit-12, Hodor-11)
+nsubj(started-22, bit-12)
+nsubj:xsubj(believe-24, bit-12)
+det(one-15, the-13)
+amod(one-15, big-14)
+dep(bit-12, one-15)
+punct(heroically-17, -LRB--16)
+dep(one-15, heroically-17)
+punct(heroically-17, -RRB--18)
+punct(bit-12, ,-19)
+amod(fans-21, many-20)
+appos(bit-12, fans-21)
+acl:relcl(episode-4, started-22)
+mark(believe-24, to-23)
+xcomp(started-22, believe-24)
+mark(man-39, that-25)
+mark(affect-29, if-26)
+nsubj(affect-29, Bran-27)
+aux(affect-29, could-28)
+advcl:if(man-39, affect-29)
+det(past-31, the-30)
+dobj(affect-29, past-31)
+punct(affect-29, ,-32)
+advmod(affect-29, then-33)
+advmod(affect-29, maybe-34)
+nsubj(man-39, he-35)
+cop(man-39, was-36)
+advmod(man-39, actually-37)
+det(man-39, the-38)
+ccomp(believe-24, man-39)
+nsubjpass(named-43, he-40)
+auxpass(named-43, was-41)
+advmod(named-43, supposedly-42)
+case(episode-4, after-44)
+punct(named-43, .-45)
+
+Coreference set:
+	(1,1,[1,2]) -> (3,27,[27,28]), that is: "Bran" -> "Bran"
+	(3,35,[35,36]) -> (3,27,[27,28]), that is: "he" -> "Bran"
+	(3,39,[38,40]) -> (3,27,[27,28]), that is: "the man" -> "Bran"
+	(3,40,[40,41]) -> (3,27,[27,28]), that is: "he" -> "Bran"
+Coreference set:
+	(2,17,[16,18]) -> (1,4,[3,5]), that is: "the wall" -> "The Wall"
+Coreference set:
+	(3,9,[9,10]) -> (2,3,[3,4]), that is: "our" -> "we"
+Coreference set:
+	(2,21,[21,22]) -> (2,10,[10,15]), that is: "it" -> "Bran `` The Builder ''"

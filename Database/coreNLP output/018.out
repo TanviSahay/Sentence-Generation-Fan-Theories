@@ -1,25 +1,84 @@
 Sentence #1 (13 tokens):
 Arya will continue her quest for vengeance that will ultimately consume her.
-[Text=Arya CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD]
-[Text=continue CharacterOffsetBegin=10 CharacterOffsetEnd=18 PartOfSpeech=VB]
-[Text=her CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=PRP$]
-[Text=quest CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=IN]
-[Text=vengeance CharacterOffsetBegin=33 CharacterOffsetEnd=42 PartOfSpeech=NN]
-[Text=that CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=WDT]
-[Text=will CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=MD]
-[Text=ultimately CharacterOffsetBegin=53 CharacterOffsetEnd=63 PartOfSpeech=RB]
-[Text=consume CharacterOffsetBegin=64 CharacterOffsetEnd=71 PartOfSpeech=VB]
-[Text=her CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=PRP]
-[Text=. CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=.]
-Sentence #2 (8 tokens):
-She'll never reunite with her family again
-[Text=She CharacterOffsetBegin=77 CharacterOffsetEnd=80 PartOfSpeech=PRP]
-[Text='ll CharacterOffsetBegin=80 CharacterOffsetEnd=83 PartOfSpeech=MD]
-[Text=never CharacterOffsetBegin=84 CharacterOffsetEnd=89 PartOfSpeech=RB]
-[Text=reunite CharacterOffsetBegin=90 CharacterOffsetEnd=97 PartOfSpeech=VB]
-[Text=with CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=IN]
-[Text=her CharacterOffsetBegin=103 CharacterOffsetEnd=106 PartOfSpeech=PRP$]
-[Text=family CharacterOffsetBegin=107 CharacterOffsetEnd=113 PartOfSpeech=NN]
-[Text=again CharacterOffsetBegin=114 CharacterOffsetEnd=119 PartOfSpeech=RB]
+[Text=Arya CharacterOffsetBegin=0 CharacterOffsetEnd=4 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=5 CharacterOffsetEnd=9 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=continue CharacterOffsetBegin=10 CharacterOffsetEnd=18 PartOfSpeech=VB Lemma=continue NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=19 CharacterOffsetEnd=22 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=quest CharacterOffsetBegin=23 CharacterOffsetEnd=28 PartOfSpeech=NN Lemma=quest NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=29 CharacterOffsetEnd=32 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=vengeance CharacterOffsetBegin=33 CharacterOffsetEnd=42 PartOfSpeech=NN Lemma=vengeance NamedEntityTag=O]
+[Text=that CharacterOffsetBegin=43 CharacterOffsetEnd=47 PartOfSpeech=WDT Lemma=that NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=ultimately CharacterOffsetBegin=53 CharacterOffsetEnd=63 PartOfSpeech=RB Lemma=ultimately NamedEntityTag=O]
+[Text=consume CharacterOffsetBegin=64 CharacterOffsetEnd=71 PartOfSpeech=VB Lemma=consume NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=72 CharacterOffsetEnd=75 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=75 CharacterOffsetEnd=76 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (NNP Arya))
+    (VP (MD will)
+      (VP (VB continue)
+        (NP (PRP$ her) (NN quest))
+        (PP (IN for)
+          (NP
+            (NP (NN vengeance))
+            (SBAR
+              (WHNP (WDT that))
+              (S
+                (VP (MD will)
+                  (ADVP (RB ultimately))
+                  (VP (VB consume)
+                    (NP (PRP her))))))))))
+    (. .)))
+
+root(ROOT-0, continue-3)
+nsubj(continue-3, Arya-1)
+aux(continue-3, will-2)
+nmod:poss(quest-5, her-4)
+dobj(continue-3, quest-5)
+case(vengeance-7, for-6)
+nmod:for(continue-3, vengeance-7)
+nsubj(consume-11, vengeance-7)
+ref(vengeance-7, that-8)
+aux(consume-11, will-9)
+advmod(consume-11, ultimately-10)
+acl:relcl(vengeance-7, consume-11)
+dobj(consume-11, her-12)
+punct(continue-3, .-13)
+
+Sentence #2 (9 tokens):
+She'll never reunite with her family again.
+[Text=She CharacterOffsetBegin=78 CharacterOffsetEnd=81 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text='ll CharacterOffsetBegin=81 CharacterOffsetEnd=84 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=never CharacterOffsetBegin=85 CharacterOffsetEnd=90 PartOfSpeech=RB Lemma=never NamedEntityTag=O]
+[Text=reunite CharacterOffsetBegin=91 CharacterOffsetEnd=98 PartOfSpeech=VB Lemma=reunite NamedEntityTag=O]
+[Text=with CharacterOffsetBegin=99 CharacterOffsetEnd=103 PartOfSpeech=IN Lemma=with NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=104 CharacterOffsetEnd=107 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=family CharacterOffsetBegin=108 CharacterOffsetEnd=114 PartOfSpeech=NN Lemma=family NamedEntityTag=O]
+[Text=again CharacterOffsetBegin=115 CharacterOffsetEnd=120 PartOfSpeech=RB Lemma=again NamedEntityTag=O]
+[Text=. CharacterOffsetBegin=120 CharacterOffsetEnd=121 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (NP (PRP She))
+    (VP (MD 'll)
+      (ADVP (RB never))
+      (VP (VB reunite)
+        (PP (IN with)
+          (NP (PRP$ her) (NN family)))
+        (ADVP (RB again))))
+    (. .)))
+
+root(ROOT-0, reunite-4)
+nsubj(reunite-4, She-1)
+aux(reunite-4, 'll-2)
+neg(reunite-4, never-3)
+case(family-7, with-5)
+nmod:poss(family-7, her-6)
+nmod:with(reunite-4, family-7)
+advmod(reunite-4, again-8)
+punct(reunite-4, .-9)
+
+Coreference set:
+	(1,12,[12,13]) -> (1,4,[4,5]), that is: "her" -> "her"
+	(2,1,[1,2]) -> (1,4,[4,5]), that is: "She" -> "her"
+	(2,6,[6,7]) -> (1,4,[4,5]), that is: "her" -> "her"

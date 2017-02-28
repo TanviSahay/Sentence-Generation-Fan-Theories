@@ -1,84 +1,263 @@
 Sentence #1 (82 tokens):
 Jon finds out his parentage; Arya fills the LSH void; Sam learns how to make valyrian steel; Dany will encounter some unforseen trouble or resistance but will win the throne, after winning she'll set her sight toward the wall; Jaime and Cersei drift apart setting up for Jaime becoming the queen slayer; the story line will essentially be setting the stage for the true war in the north which will happen in season 8.
-[Text=Jon CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP]
-[Text=finds CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=VBZ]
-[Text=out CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=RP]
-[Text=his CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=PRP$]
-[Text=parentage CharacterOffsetBegin=18 CharacterOffsetEnd=27 PartOfSpeech=NN]
-[Text=; CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=:]
-[Text=Arya CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=NNP]
-[Text=fills CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=VBZ]
-[Text=the CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=DT]
-[Text=LSH CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=NN]
-[Text=void CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=NN]
-[Text=; CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=:]
-[Text=Sam CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=NNP]
-[Text=learns CharacterOffsetBegin=58 CharacterOffsetEnd=64 PartOfSpeech=VBZ]
-[Text=how CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=WRB]
-[Text=to CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=TO]
-[Text=make CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=VB]
-[Text=valyrian CharacterOffsetBegin=77 CharacterOffsetEnd=85 PartOfSpeech=JJ]
-[Text=steel CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=NN]
-[Text=; CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=:]
-[Text=Dany CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=NNP]
-[Text=will CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=MD]
-[Text=encounter CharacterOffsetBegin=103 CharacterOffsetEnd=112 PartOfSpeech=VB]
-[Text=some CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=DT]
-[Text=unforseen CharacterOffsetBegin=118 CharacterOffsetEnd=127 PartOfSpeech=JJ]
-[Text=trouble CharacterOffsetBegin=128 CharacterOffsetEnd=135 PartOfSpeech=NN]
-[Text=or CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=CC]
-[Text=resistance CharacterOffsetBegin=139 CharacterOffsetEnd=149 PartOfSpeech=NN]
-[Text=but CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=CC]
-[Text=will CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=MD]
-[Text=win CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=VB]
-[Text=the CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=DT]
-[Text=throne CharacterOffsetBegin=167 CharacterOffsetEnd=173 PartOfSpeech=NN]
-[Text=, CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=,]
-[Text=after CharacterOffsetBegin=175 CharacterOffsetEnd=180 PartOfSpeech=IN]
-[Text=winning CharacterOffsetBegin=181 CharacterOffsetEnd=188 PartOfSpeech=VBG]
-[Text=she CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=PRP]
-[Text='ll CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=MD]
-[Text=set CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=VB]
-[Text=her CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=PRP$]
-[Text=sight CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=NN]
-[Text=toward CharacterOffsetBegin=210 CharacterOffsetEnd=216 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=DT]
-[Text=wall CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=NN]
-[Text=; CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=:]
-[Text=Jaime CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=NNP]
-[Text=and CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=CC]
-[Text=Cersei CharacterOffsetBegin=237 CharacterOffsetEnd=243 PartOfSpeech=NNP]
-[Text=drift CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=NN]
-[Text=apart CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=RB]
-[Text=setting CharacterOffsetBegin=256 CharacterOffsetEnd=263 PartOfSpeech=VBG]
-[Text=up CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=RP]
-[Text=for CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=IN]
-[Text=Jaime CharacterOffsetBegin=271 CharacterOffsetEnd=276 PartOfSpeech=NNP]
-[Text=becoming CharacterOffsetBegin=277 CharacterOffsetEnd=285 PartOfSpeech=VBG]
-[Text=the CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=DT]
-[Text=queen CharacterOffsetBegin=290 CharacterOffsetEnd=295 PartOfSpeech=NN]
-[Text=slayer CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=NN]
-[Text=; CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=:]
-[Text=the CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=DT]
-[Text=story CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=NN]
-[Text=line CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=NN]
-[Text=will CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=MD]
-[Text=essentially CharacterOffsetBegin=324 CharacterOffsetEnd=335 PartOfSpeech=RB]
-[Text=be CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=VB]
-[Text=setting CharacterOffsetBegin=339 CharacterOffsetEnd=346 PartOfSpeech=VBG]
-[Text=the CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=DT]
-[Text=stage CharacterOffsetBegin=351 CharacterOffsetEnd=356 PartOfSpeech=NN]
-[Text=for CharacterOffsetBegin=357 CharacterOffsetEnd=360 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=DT]
-[Text=true CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=JJ]
-[Text=war CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=NN]
-[Text=in CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=IN]
-[Text=the CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=DT]
-[Text=north CharacterOffsetBegin=381 CharacterOffsetEnd=386 PartOfSpeech=NN]
-[Text=which CharacterOffsetBegin=387 CharacterOffsetEnd=392 PartOfSpeech=WDT]
-[Text=will CharacterOffsetBegin=393 CharacterOffsetEnd=397 PartOfSpeech=MD]
-[Text=happen CharacterOffsetBegin=398 CharacterOffsetEnd=404 PartOfSpeech=VB]
-[Text=in CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=IN]
-[Text=season CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=NN]
-[Text=8 CharacterOffsetBegin=415 CharacterOffsetEnd=416 PartOfSpeech=CD]
-[Text=. CharacterOffsetBegin=416 CharacterOffsetEnd=417 PartOfSpeech=.]
+[Text=Jon CharacterOffsetBegin=0 CharacterOffsetEnd=3 PartOfSpeech=NNP Lemma=Jon NamedEntityTag=PERSON]
+[Text=finds CharacterOffsetBegin=4 CharacterOffsetEnd=9 PartOfSpeech=VBZ Lemma=find NamedEntityTag=O]
+[Text=out CharacterOffsetBegin=10 CharacterOffsetEnd=13 PartOfSpeech=RP Lemma=out NamedEntityTag=O]
+[Text=his CharacterOffsetBegin=14 CharacterOffsetEnd=17 PartOfSpeech=PRP$ Lemma=he NamedEntityTag=O]
+[Text=parentage CharacterOffsetBegin=18 CharacterOffsetEnd=27 PartOfSpeech=NN Lemma=parentage NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=27 CharacterOffsetEnd=28 PartOfSpeech=: Lemma=; NamedEntityTag=O]
+[Text=Arya CharacterOffsetBegin=29 CharacterOffsetEnd=33 PartOfSpeech=NNP Lemma=Arya NamedEntityTag=PERSON]
+[Text=fills CharacterOffsetBegin=34 CharacterOffsetEnd=39 PartOfSpeech=VBZ Lemma=fill NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=40 CharacterOffsetEnd=43 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=LSH CharacterOffsetBegin=44 CharacterOffsetEnd=47 PartOfSpeech=NN Lemma=lsh NamedEntityTag=O]
+[Text=void CharacterOffsetBegin=48 CharacterOffsetEnd=52 PartOfSpeech=NN Lemma=void NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=52 CharacterOffsetEnd=53 PartOfSpeech=: Lemma=; NamedEntityTag=O]
+[Text=Sam CharacterOffsetBegin=54 CharacterOffsetEnd=57 PartOfSpeech=NNP Lemma=Sam NamedEntityTag=PERSON]
+[Text=learns CharacterOffsetBegin=58 CharacterOffsetEnd=64 PartOfSpeech=VBZ Lemma=learn NamedEntityTag=O]
+[Text=how CharacterOffsetBegin=65 CharacterOffsetEnd=68 PartOfSpeech=WRB Lemma=how NamedEntityTag=O]
+[Text=to CharacterOffsetBegin=69 CharacterOffsetEnd=71 PartOfSpeech=TO Lemma=to NamedEntityTag=O]
+[Text=make CharacterOffsetBegin=72 CharacterOffsetEnd=76 PartOfSpeech=VB Lemma=make NamedEntityTag=O]
+[Text=valyrian CharacterOffsetBegin=77 CharacterOffsetEnd=85 PartOfSpeech=JJ Lemma=valyrian NamedEntityTag=O]
+[Text=steel CharacterOffsetBegin=86 CharacterOffsetEnd=91 PartOfSpeech=NN Lemma=steel NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=91 CharacterOffsetEnd=92 PartOfSpeech=: Lemma=; NamedEntityTag=O]
+[Text=Dany CharacterOffsetBegin=93 CharacterOffsetEnd=97 PartOfSpeech=NNP Lemma=Dany NamedEntityTag=PERSON]
+[Text=will CharacterOffsetBegin=98 CharacterOffsetEnd=102 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=encounter CharacterOffsetBegin=103 CharacterOffsetEnd=112 PartOfSpeech=VB Lemma=encounter NamedEntityTag=O]
+[Text=some CharacterOffsetBegin=113 CharacterOffsetEnd=117 PartOfSpeech=DT Lemma=some NamedEntityTag=O]
+[Text=unforseen CharacterOffsetBegin=118 CharacterOffsetEnd=127 PartOfSpeech=JJ Lemma=unforseen NamedEntityTag=O]
+[Text=trouble CharacterOffsetBegin=128 CharacterOffsetEnd=135 PartOfSpeech=NN Lemma=trouble NamedEntityTag=O]
+[Text=or CharacterOffsetBegin=136 CharacterOffsetEnd=138 PartOfSpeech=CC Lemma=or NamedEntityTag=O]
+[Text=resistance CharacterOffsetBegin=139 CharacterOffsetEnd=149 PartOfSpeech=NN Lemma=resistance NamedEntityTag=O]
+[Text=but CharacterOffsetBegin=150 CharacterOffsetEnd=153 PartOfSpeech=CC Lemma=but NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=154 CharacterOffsetEnd=158 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=win CharacterOffsetBegin=159 CharacterOffsetEnd=162 PartOfSpeech=VB Lemma=win NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=163 CharacterOffsetEnd=166 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=throne CharacterOffsetBegin=167 CharacterOffsetEnd=173 PartOfSpeech=NN Lemma=throne NamedEntityTag=O]
+[Text=, CharacterOffsetBegin=173 CharacterOffsetEnd=174 PartOfSpeech=, Lemma=, NamedEntityTag=O]
+[Text=after CharacterOffsetBegin=175 CharacterOffsetEnd=180 PartOfSpeech=IN Lemma=after NamedEntityTag=O]
+[Text=winning CharacterOffsetBegin=181 CharacterOffsetEnd=188 PartOfSpeech=VBG Lemma=win NamedEntityTag=O]
+[Text=she CharacterOffsetBegin=189 CharacterOffsetEnd=192 PartOfSpeech=PRP Lemma=she NamedEntityTag=O]
+[Text='ll CharacterOffsetBegin=192 CharacterOffsetEnd=195 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=set CharacterOffsetBegin=196 CharacterOffsetEnd=199 PartOfSpeech=VB Lemma=set NamedEntityTag=O]
+[Text=her CharacterOffsetBegin=200 CharacterOffsetEnd=203 PartOfSpeech=PRP$ Lemma=she NamedEntityTag=O]
+[Text=sight CharacterOffsetBegin=204 CharacterOffsetEnd=209 PartOfSpeech=NN Lemma=sight NamedEntityTag=O]
+[Text=toward CharacterOffsetBegin=210 CharacterOffsetEnd=216 PartOfSpeech=IN Lemma=toward NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=217 CharacterOffsetEnd=220 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=wall CharacterOffsetBegin=221 CharacterOffsetEnd=225 PartOfSpeech=NN Lemma=wall NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=225 CharacterOffsetEnd=226 PartOfSpeech=: Lemma=; NamedEntityTag=O]
+[Text=Jaime CharacterOffsetBegin=227 CharacterOffsetEnd=232 PartOfSpeech=NNP Lemma=Jaime NamedEntityTag=PERSON]
+[Text=and CharacterOffsetBegin=233 CharacterOffsetEnd=236 PartOfSpeech=CC Lemma=and NamedEntityTag=O]
+[Text=Cersei CharacterOffsetBegin=237 CharacterOffsetEnd=243 PartOfSpeech=NNP Lemma=Cersei NamedEntityTag=PERSON]
+[Text=drift CharacterOffsetBegin=244 CharacterOffsetEnd=249 PartOfSpeech=NN Lemma=drift NamedEntityTag=O]
+[Text=apart CharacterOffsetBegin=250 CharacterOffsetEnd=255 PartOfSpeech=RB Lemma=apart NamedEntityTag=O]
+[Text=setting CharacterOffsetBegin=256 CharacterOffsetEnd=263 PartOfSpeech=VBG Lemma=set NamedEntityTag=O]
+[Text=up CharacterOffsetBegin=264 CharacterOffsetEnd=266 PartOfSpeech=RP Lemma=up NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=267 CharacterOffsetEnd=270 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=Jaime CharacterOffsetBegin=271 CharacterOffsetEnd=276 PartOfSpeech=NNP Lemma=Jaime NamedEntityTag=PERSON]
+[Text=becoming CharacterOffsetBegin=277 CharacterOffsetEnd=285 PartOfSpeech=VBG Lemma=become NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=286 CharacterOffsetEnd=289 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=queen CharacterOffsetBegin=290 CharacterOffsetEnd=295 PartOfSpeech=NN Lemma=queen NamedEntityTag=O]
+[Text=slayer CharacterOffsetBegin=296 CharacterOffsetEnd=302 PartOfSpeech=NN Lemma=slayer NamedEntityTag=O]
+[Text=; CharacterOffsetBegin=302 CharacterOffsetEnd=303 PartOfSpeech=: Lemma=; NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=304 CharacterOffsetEnd=307 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=story CharacterOffsetBegin=308 CharacterOffsetEnd=313 PartOfSpeech=NN Lemma=story NamedEntityTag=O]
+[Text=line CharacterOffsetBegin=314 CharacterOffsetEnd=318 PartOfSpeech=NN Lemma=line NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=319 CharacterOffsetEnd=323 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=essentially CharacterOffsetBegin=324 CharacterOffsetEnd=335 PartOfSpeech=RB Lemma=essentially NamedEntityTag=O]
+[Text=be CharacterOffsetBegin=336 CharacterOffsetEnd=338 PartOfSpeech=VB Lemma=be NamedEntityTag=O]
+[Text=setting CharacterOffsetBegin=339 CharacterOffsetEnd=346 PartOfSpeech=VBG Lemma=set NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=347 CharacterOffsetEnd=350 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=stage CharacterOffsetBegin=351 CharacterOffsetEnd=356 PartOfSpeech=NN Lemma=stage NamedEntityTag=O]
+[Text=for CharacterOffsetBegin=357 CharacterOffsetEnd=360 PartOfSpeech=IN Lemma=for NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=361 CharacterOffsetEnd=364 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=true CharacterOffsetBegin=365 CharacterOffsetEnd=369 PartOfSpeech=JJ Lemma=true NamedEntityTag=O]
+[Text=war CharacterOffsetBegin=370 CharacterOffsetEnd=373 PartOfSpeech=NN Lemma=war NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=374 CharacterOffsetEnd=376 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=the CharacterOffsetBegin=377 CharacterOffsetEnd=380 PartOfSpeech=DT Lemma=the NamedEntityTag=O]
+[Text=north CharacterOffsetBegin=381 CharacterOffsetEnd=386 PartOfSpeech=NN Lemma=north NamedEntityTag=O]
+[Text=which CharacterOffsetBegin=387 CharacterOffsetEnd=392 PartOfSpeech=WDT Lemma=which NamedEntityTag=O]
+[Text=will CharacterOffsetBegin=393 CharacterOffsetEnd=397 PartOfSpeech=MD Lemma=will NamedEntityTag=O]
+[Text=happen CharacterOffsetBegin=398 CharacterOffsetEnd=404 PartOfSpeech=VB Lemma=happen NamedEntityTag=O]
+[Text=in CharacterOffsetBegin=405 CharacterOffsetEnd=407 PartOfSpeech=IN Lemma=in NamedEntityTag=O]
+[Text=season CharacterOffsetBegin=408 CharacterOffsetEnd=414 PartOfSpeech=NN Lemma=season NamedEntityTag=O]
+[Text=8 CharacterOffsetBegin=415 CharacterOffsetEnd=416 PartOfSpeech=CD Lemma=8 NamedEntityTag=NUMBER NormalizedNamedEntityTag=8.0]
+[Text=. CharacterOffsetBegin=416 CharacterOffsetEnd=417 PartOfSpeech=. Lemma=. NamedEntityTag=O]
+(ROOT
+  (S
+    (S
+      (NP (NNP Jon))
+      (VP (VBZ finds)
+        (PRT (RP out))
+        (NP (PRP$ his) (NN parentage))))
+    (: ;)
+    (S
+      (NP (NNP Arya))
+      (VP (VBZ fills)
+        (NP (DT the) (NN LSH) (NN void))))
+    (: ;)
+    (S
+      (NP (NNP Sam))
+      (VP (VBZ learns)
+        (SBAR
+          (WHADVP (WRB how))
+          (S
+            (VP (TO to)
+              (VP (VB make)
+                (NP (JJ valyrian) (NN steel))))))))
+    (: ;)
+    (S
+      (NP (NNP Dany))
+      (VP
+        (VP (MD will)
+          (VP (VB encounter)
+            (NP (DT some) (JJ unforseen) (NN trouble)
+              (CC or)
+              (NN resistance))))
+        (CC but)
+        (VP (MD will)
+          (VP (VB win)
+            (NP (DT the) (NN throne))))
+        (, ,)
+        (PP (IN after)
+          (S
+            (VP (VBG winning)
+              (SBAR
+                (S
+                  (NP (PRP she))
+                  (VP (MD 'll)
+                    (VP (VB set)
+                      (NP (PRP$ her) (NN sight))
+                      (PP (IN toward)
+                        (NP (DT the) (NN wall))))))))))))
+    (: ;)
+    (S
+      (NP (NNP Jaime)
+        (CC and)
+        (NNP Cersei))
+      (VP (NN drift)
+        (PP (RB apart)
+          (S
+            (VP (VBG setting)
+              (PRT (RP up))
+              (PP (IN for)
+                (S
+                  (NP (NNP Jaime))
+                  (VP (VBG becoming)
+                    (NP (DT the) (NN queen) (NN slayer))))))))))
+    (: ;)
+    (S
+      (NP (DT the) (NN story) (NN line))
+      (VP (MD will)
+        (ADVP (RB essentially))
+        (VP (VB be)
+          (VP (VBG setting)
+            (NP
+              (NP (DT the) (NN stage))
+              (PP (IN for)
+                (NP (DT the) (JJ true) (NN war))))
+            (PP (IN in)
+              (NP
+                (NP (DT the) (NN north))
+                (SBAR
+                  (WHNP (WDT which))
+                  (S
+                    (VP (MD will)
+                      (VP (VB happen)
+                        (PP (IN in)
+                          (NP (NN season) (CD 8)))))))))))))
+    (. .)))
+
+root(ROOT-0, finds-2)
+nsubj(finds-2, Jon-1)
+compound:prt(finds-2, out-3)
+nmod:poss(parentage-5, his-4)
+dobj(finds-2, parentage-5)
+punct(finds-2, ;-6)
+nsubj(fills-8, Arya-7)
+parataxis(finds-2, fills-8)
+det(void-11, the-9)
+compound(void-11, LSH-10)
+dobj(fills-8, void-11)
+punct(finds-2, ;-12)
+nsubj(learns-14, Sam-13)
+parataxis(finds-2, learns-14)
+advmod(make-17, how-15)
+mark(make-17, to-16)
+ccomp(learns-14, make-17)
+amod(steel-19, valyrian-18)
+dobj(make-17, steel-19)
+punct(finds-2, ;-20)
+nsubj(encounter-23, Dany-21)
+nsubj(win-31, Dany-21)
+aux(encounter-23, will-22)
+parataxis(finds-2, encounter-23)
+det(trouble-26, some-24)
+amod(trouble-26, unforseen-25)
+dobj(encounter-23, trouble-26)
+cc(trouble-26, or-27)
+dobj(encounter-23, resistance-28)
+conj:or(trouble-26, resistance-28)
+cc(encounter-23, but-29)
+aux(win-31, will-30)
+parataxis(finds-2, win-31)
+conj:but(encounter-23, win-31)
+det(throne-33, the-32)
+dobj(win-31, throne-33)
+punct(encounter-23, ,-34)
+mark(winning-36, after-35)
+advcl:after(encounter-23, winning-36)
+nsubj(set-39, she-37)
+aux(set-39, 'll-38)
+ccomp(winning-36, set-39)
+nmod:poss(sight-41, her-40)
+dobj(set-39, sight-41)
+case(wall-44, toward-42)
+det(wall-44, the-43)
+nmod:toward(set-39, wall-44)
+punct(finds-2, ;-45)
+nsubj(drift-49, Jaime-46)
+cc(Jaime-46, and-47)
+conj:and(Jaime-46, Cersei-48)
+nsubj(drift-49, Cersei-48)
+parataxis(finds-2, drift-49)
+advmod(setting-51, apart-50)
+advcl(drift-49, setting-51)
+compound:prt(setting-51, up-52)
+mark(becoming-55, for-53)
+nsubj(becoming-55, Jaime-54)
+advcl:for(setting-51, becoming-55)
+det(slayer-58, the-56)
+compound(slayer-58, queen-57)
+xcomp(becoming-55, slayer-58)
+punct(finds-2, ;-59)
+det(line-62, the-60)
+compound(line-62, story-61)
+nsubj(setting-66, line-62)
+aux(setting-66, will-63)
+advmod(setting-66, essentially-64)
+aux(setting-66, be-65)
+parataxis(finds-2, setting-66)
+det(stage-68, the-67)
+dobj(setting-66, stage-68)
+case(war-72, for-69)
+det(war-72, the-70)
+amod(war-72, true-71)
+nmod:for(stage-68, war-72)
+case(north-75, in-73)
+det(north-75, the-74)
+nmod:in(setting-66, north-75)
+nsubj(happen-78, north-75)
+ref(north-75, which-76)
+aux(happen-78, will-77)
+acl:relcl(north-75, happen-78)
+case(season-80, in-79)
+nmod:in(happen-78, season-80)
+nummod(season-80, 8-81)
+punct(finds-2, .-82)
+
+Coreference set:
+	(1,4,[4,5]) -> (1,1,[1,2]), that is: "his" -> "Jon"
+Coreference set:
+	(1,54,[54,55]) -> (1,46,[46,47]), that is: "Jaime" -> "Jaime"
+Coreference set:
+	(1,40,[40,41]) -> (1,37,[37,38]), that is: "her" -> "she"
