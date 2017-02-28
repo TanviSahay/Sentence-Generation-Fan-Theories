@@ -1,0 +1,3457 @@
+1.0	Arya 's friend	was	seen in Season 3
+1.0	Arya 's close friend	was	last seen
+1.0	Arya	's friend is	Gendry
+1.0	Arya 's friend	was	last seen
+1.0	Arya 's close friend	was	seen in Season 3
+1.0	Arya 's close friend	was	seen
+1.0	Arya 's close friend	was	last seen in Season 3
+1.0	Arya 's friend	was	last seen in Season 3
+1.0	Arya	has	friend
+1.0	Arya 's friend	was	seen
+1.0	Arya 's close friend and confidant Gendry -LRB- Joe Dempsie -RRB-	please	Lord of Light
+1.0	Arya 's close friend and confidant Gendry -LRB- Joe Dempsie -RRB-	please	Lord
+0.8668960177608519	Arya 's close friend and confidant Gendry -LRB- Joe Dempsie -RRB-	drops of	his blood
+1.0	his	was	temporarily freed
+1.0	his	was temporarily freed	getting
+1.0	his	was	freed
+1.0	his	was freed	getting
+1.0	Melisandre	kill	his
+1.0	it	was	implied
+1.0	Ser Davos	setting up	his
+1.0	Ser Davos	released	his
+1.0	Arya Stark	Off	Kill List
+1.0	Yoren	planned	kill
+1.0	majority	had wronged Arya like	Francis Magee
+1.0	Night	like	Yoren
+1.0	majority	had wronged	Yoren family
+1.0	Night	's Yoren is	Francis Magee
+1.0	her	brother	Catelynn Stark
+1.0	her	brother	Robb Stark
+1.0	Arya	crossed name At	close of Season 6
+1.0	Arya	crossed	major name
+1.0	mother	were	killed
+1.0	Arya	crossed name At	close
+1.0	Arya	crossed name off	Yoren list
+1.0	Arya	crossed	name
+1.0	Samwell Tarly Will	Step Up to	Plate
+1.0	Samwell Tarly Will	Step to	Plate
+1.0	citadel	is in	tow
+1.0	citadel	is with	Gilly
+1.0	Samwell	looks out over	library of books housed in Oldtown
+1.0	Samwell	looks out over	vast library
+1.0	Samwell	looks out over	vast library of books housed in Oldtown
+1.0	Samwell	looks out over	library of books
+1.0	Samwell	looks out over	library of books housed
+1.0	Samwell	looks out over	library
+1.0	Samwell	looks out over	vast library of books
+1.0	Samwell	looks out over	vast library of books housed
+1.0	Citadel library	has	gyroscope chandelier hanging above vast library of books housed in Oldtown
+1.0	Citadel library	has	gyroscope chandelier
+1.0	Citadel library	has	large gyroscope chandelier
+1.0	Citadel library	has	large gyroscope chandelier hanging above vast library of books housed in Oldtown
+1.0	Citadel library	has	large gyroscope chandelier hanging
+1.0	Citadel library	has	gyroscope chandelier hanging
+1.0	light fixture	should look	featured in opening credits
+1.0	light fixture	should look	featured
+1.0	fixture	should look	familiar to fans of show
+1.0	light fixture	should look	familiar
+1.0	light fixture	is featured in	opening credits
+1.0	fixture	should look	familiar to fans
+1.0	fixture	should look	familiar
+1.0	light fixture	is	featured
+1.0	light fixture	should look	familiar to fans
+1.0	light fixture	should look	familiar to fans of show
+1.0	fixture	should look	featured in opening credits
+1.0	fixture	should look	featured
+0.5682652074749401	friend Jon Snow 's adventures	happenings in	Seven Kingdoms
+1.0	other happenings	is in	Seven Kingdoms
+1.0	Jon Snow	has	adventures
+0.5682652074749401	friend Jon Snow 's adventures	other happenings in	Seven Kingdoms
+1.0	based	has made	suggesting
+1.0	This	is based off	comments George R.R. Martin
+1.0	show	play out like	Lord
+1.0	show	play out like	Lord of Rings
+1.0	theory	is	sure
+1.0	Sam	is	Samwell
+1.0	Thrones '' fan theory	is	sign
+1.0	theory	Should prove	true
+1.0	Thrones '' fan theory	is	sure sign
+1.0	Jamie	will conflict at_time	season over Jamie burning Sept.
+1.0	Daenerys	can take	King 's Landing
+1.0	King	has	Landing
+1.0	Jamie	will slowly descend into	madness culminating
+1.0	Daenerys	can take King 's Landing from	Jamie
+1.0	Jamie	will slowly descend into	madness
+1.0	Jamie	will slowly descend further into	madness
+1.0	Jamie	will descend into	madness
+1.0	Jamie	will descend into	madness culminating
+1.0	Jamie	will descend further into	madness culminating
+1.0	Jamie	will descend further into	madness
+1.0	Jamie	will slowly descend further into	madness culminating
+1.0	Jamie	kill	Jamie
+1.0	Jamie	will fulfill	Valonqar prophecy
+1.0	Jamie	did	Mad King
+0.794441614624504	Fans	speculating about	Season 7
+1.0	Clarke	is	ready
+1.0	face-off	is with	Cersei
+1.0	British actress	told	Entertainment Weekly
+1.0	actress	told	Entertainment Weekly
+1.0	Clarke	told	publication
+1.0	Clarke	've got	manpower
+1.0	only thing	is	Jorah
+1.0	thing	is	Jorah
+1.0	his	has	got
+1.0	Jon Snow May Fulfill The Azor Ahai Prophecy	brushed On	July 5
+1.0	Jon Snow	be	second
+0.9749409261450659	Jon Snow	coming of	Azor Ahai
+0.9491800300429865	Movie Pilot	dust of	fan theory
+0.9596967329828779	god	dust of	fan theory
+1.0	Much	aligns in	where Season 6
+1.0	show	is in	where Season 6
+1.0	Much	aligns in	Season 6
+1.0	show	is in	Season 6
+1.0	Jon Snow	is in	case
+1.0	Winterfell	is	Lightbringer
+1.0	Reddit post	meets	criteria
+1.0	House Greyjoy briefly	seized	Reddit post
+1.0	House Greyjoy briefly	seized Reddit post in	Season 2
+1.0	lion	through	heart
+1.0	Reddit post	was driven through	lion 's heart
+1.0	Reddit post	was	then proverbially driven
+1.0	Reddit post	was proverbially driven through	lion 's heart
+1.0	Reddit post	was	driven
+1.0	Reddit post	was	then proverbially driven through lion 's heart
+1.0	Reddit post	was	then driven
+1.0	Reddit post	was	proverbially driven
+1.0	Reddit post	was	then driven through lion 's heart
+1.0	final forging	come in	form
+1.0	forging	come in	form
+1.0	forging	come in	form of betrayal
+1.0	final forging	come in	form of betrayal
+1.0	Dany	has	third betrayal
+1.0	Dany	makes	it
+1.0	Jon	will fall in	love
+1.0	Dany	will fall in	love
+1.0	Dany	of	dragons
+1.0	Dany	will	will Nissa Nissa
+1.0	her	soul	Drogon
+1.0	Sam	will make	discovery
+1.0	Sam	will make	crucial discovery
+1.0	This	seems	inevitable
+1.0	discovery	seems like	most likely development for Sam
+0.9753154262808628	Sam key skill	is	research
+1.0	big discovery	seems like	likely development
+1.0	big discovery	is in	Citadel 's library
+1.0	big discovery	seems like	most likely development
+0.9753154262808628	Sam proven skill	is	research
+0.9753154262808628	Sam key proven skill	is	research
+0.9753154262808628	Sam skill	is	research
+1.0	discovery	seems like	likely development
+1.0	big discovery	seems like	most likely development for Sam
+1.0	big discovery	seems like	likely development for Sam
+1.0	Citadel	in	library
+1.0	discovery	seems like	most likely development
+1.0	discovery	seems like	likely development for Sam
+1.0	Gendry	will reappear	save
+1.0	Gendry	save at_time	day
+1.0	Gendry	will reappear	save day
+1.0	Jon	will marry	Daenerys
+1.0	Daenerys	did hint at	tactical marriage
+1.0	Daenerys	did	hint
+1.0	Daenerys	did hint at	end
+1.0	Daenerys	did hint at	marriage
+1.0	Daenerys	did hint at	end of Season 6
+1.0	they	'll	at least 'll allies
+1.0	they	'll	'll allies
+1.0	they	'll	at very least 'll allies
+1.0	allegiance	being	tense
+1.0	Euron	lasting	couple episodes
+1.0	Euron	only lasting	couple episodes
+1.0	Bran	inform Jon of	Bran parentage
+1.0	Bran	inform	Jon
+1.0	Bran	will reunite with	Bran Starks siblings at Winterfell
+1.0	Bran	will reunite with	Bran Starks siblings
+1.0	uncle	will likely return in	Season 7
+1.0	uncle	will return in	Season 7
+1.0	Theon Greyjoy	's got	plans
+1.0	Theon Greyjoy	's got	big plans
+1.0	Theon Greyjoy	be out	out power
+1.0	Theon Greyjoy	do	anything
+1.0	Theon Greyjoy	returns to	show
+1.0	Euron -LRB- Pilou Asbæk	has	well aware
+1.0	Theon Greyjoy initial plan	woo	Mother of Dragons
+1.0	Theon Greyjoy plan	woo	Mother of Dragons
+1.0	her new alliance	is with	his family members
+1.0	Euron -LRB- Pilou Asbæk	's well aware of	Theon Greyjoy tricks
+1.0	Theon Greyjoy initial plan	woo	Mother
+1.0	Theon Greyjoy plan	woo	Mother
+1.0	Pilou Asbæk	is	Euron
+1.0	Euron Pilou Asbæk	acquire	horn
+1.0	instrument	become	master of dragons
+1.0	instrument	become	master
+1.0	instrument	can	can used
+1.0	Euron	has yet	seen in show
+1.0	Euron	has yet	seen
+1.0	Euron	has	seen
+1.0	Euron	has	instrument
+1.0	Euron	has instrument In	books
+1.0	Euron	has	seen in show
+1.0	Sam	be	maester
+1.0	theory	makes sense as	as Song
+1.0	theory	makes	sense
+1.0	Sam	is studying	maester
+1.0	Euron	into	return
+1.0	something	much worse coming for	White Walkers
+1.0	Jon Snow	discusses In	finale
+1.0	something	worse coming for	White Walkers
+1.0	Jon Snow	discusses	suggesting
+1.0	something	coming for	White Walkers
+1.0	something	much worse coming for	the White Walkers
+1.0	Jon Snow	brings	storm
+1.0	Euron	Talking to	Jon Snow brother Balon
+1.0	Euron	Talking prior to	Patrick Malahide
+1.0	Euron	calls	storm
+1.0	Euron	Talking to	Patrick Malahide
+1.0	his	Balon	Patrick Malahide
+1.0	Euron	Talking prior to	Jon Snow brother Balon
+1.0	Cersei	burning	rest of city
+1.0	Cersei	die at	hands of Jaime
+1.0	King	has	Landing
+1.0	Dany	take	King 's Landing
+1.0	Cersei	burning	rest
+1.0	Cersei	stops	Jaime
+1.0	Jaime	kills	Cersei
+1.0	Arya	will kill	Melisandre
+1.0	King 's Landing	destroyed	King 's Landing
+1.0	King	has	Landing
+1.0	King 's Landing	destroyed King 's Landing from	inside
+1.0	King 's Landing	will devolve into	war
+1.0	King 's Landing	will devolve into	civil war
+1.0	Dany	even gets	there
+1.0	Dany	gets	there
+1.0	Jamie	will kill	Cersei
+1.0	marriage	assure	audience
+1.0	happiness	is	fleeting
+0.48686087747202583	Wall	falling	consummated
+1.0	marriage	is	consummated
+1.0	Jon	butting	heads
+1.0	Jon	will manipulate Littlefinger out of	game
+1.0	Jon	will ultimately manipulate	Littlefinger
+1.0	Jon	will ultimately manipulate Littlefinger out of	game
+1.0	Jon	will manipulate	Littlefinger
+1.0	Wall	comes in	finale
+1.0	Wall	comes down in	finale
+1.0	We	'll get	flashback with Rhaegar
+1.0	flashback	is with	Rhaegar
+1.0	Sansa 's	is on	Sansa 's side
+1.0	Sansa 's	turn against	Sansa 's
+1.0	Sansa	into	head
+1.0	LF	appear on	Sansa 's side
+1.0	Tyrion	will bring	Dany
+1.0	Tyrion	'll form	alliance
+1.0	Tyrion	will bring	Jon
+1.0	Tyrion	learn	truth
+1.0	Tyrion	learn	truth of Jon 's birth
+1.0	Tyrion	even learn	truth of Jon 's birth
+1.0	Jon	of	birth
+1.0	Tyrion	even learn	truth
+1.0	Tyrion	will bring together	Dany
+0.7643359581117086	Tyrion	truth of	Jon 's birth
+1.0	Tyrion	'll form alliance through	marriage
+1.0	Tyrion	will bring together	Jon
+1.0	Cersei	making	Vale King
+1.0	Cersei	giving	Harrenhaal
+1.0	Littlefinger	Marry	Cersei
+1.0	Cersei	giving	Knights of Vale
+1.0	Cersei	making	the Vale effectively King
+1.0	Cersei	giving	her
+1.0	Cersei	giving	Knights
+1.0	Cersei	making	Vale effectively King
+1.0	Sansa	will put end to	LF
+1.0	Sansa	will put	end
+1.0	Sansa	's betraying	Jon
+1.0	Sansa	's gone through	too much betrayal
+1.0	Sansa	do to	one of Sansa family members
+1.0	Sansa	's gone	do to one Sansa family members
+1.0	Sansa	's gone	do
+1.0	Sansa	's gone	do to one Sansa last family members
+1.0	Sansa	's gone	do to one of Sansa family members
+1.0	Sansa	's gone	do to one of Sansa last family members
+1.0	Sansa	do to	one Sansa last family members
+1.0	Sansa	's gone through	much betrayal
+1.0	Sansa	do to	one Sansa family members
+1.0	Sansa	do to	one of Sansa last family members
+1.0	Sansa	's gone through	betrayal
+1.0	Sansa	's gone through	character development
+1.0	Sansa	has	gone
+1.0	wedding	is in	citadel
+1.0	Sam	will find	record of wedding in citadel
+1.0	Sam	will find	record
+1.0	Sam	will find	record of wedding
+1.0	Sam	will find	secret record of wedding in citadel
+1.0	Sam	will find	secret record of wedding
+1.0	Sam	will find	secret record
+1.0	Tyrion	would bridge	them
+1.0	It	was hinted on	on them talk
+1.0	It	was	hinted
+1.0	Bronn	will take	casterly rock
+1.0	Bronn	will take	rock
+1.0	Bronn	will take rock after	Cersei
+1.0	Jamie	made	promise
+0.47528851186078347	eye	taking	north
+0.47528851186078347	eye	taking north from	Jon
+1.0	Events	will lead Dany to	eye
+1.0	Events	will lead	Dany
+1.0	people of Westeros	are	related
+1.0	battle	weaken	people of Westeros
+1.0	Bran	will cross	wall
+1.0	battle	weaken	people
+1.0	battle	weaken people against	White Walkers
+0.704537883553662	battle	people of	Westeros
+1.0	the people of Westeros	are	related
+1.0	Bran	thinking	touched
+1.0	Bran	crosses Wall	thinking
+1.0	Bran	crosses	Wall
+1.0	army	can pass	Wall
+0.8860575021041505	Wall	army of	dead
+1.0	Bran	thinking	touched by Night King
+1.0	people	seems	likely
+1.0	show	create	worst-case scenarios
+1.0	show	create	scenarios
+1.0	Many people	seems	likely
+1.0	Varys	will	will revealed
+1.0	power	is with	endgame bringing to chaos
+1.0	Varys	been	aligned
+1.0	Dany	has	takeover
+1.0	Aegon Conqueror	eyed	North
+1.0	Jon	will surrender fealty to	Jon
+1.0	Sam	leaves for	Ruins of Valyria
+1.0	Sam	leaves	search for information about creation steel
+1.0	Sam	leaves	search
+1.0	Sam	search for	information about creation steel
+1.0	Sam	leaves for	Ruins
+1.0	Sam	search for	information about creation Valyrian steel
+1.0	Sam	leaves	search for information about creation Valyrian steel
+1.0	Sam	search for	information
+1.0	Sam	leaves	search for information
+1.0	maester	known something already via	Shireen
+0.3239295221123589	maester	known via	Shireen
+1.0	Sam	read in	process
+1.0	Sam	read about	Doom
+0.3239295221123589	maester	seems	have known via Shireen
+1.0	maester	known	something
+1.0	maester	known something via	Shireen
+0.3239295221123589	maester	seems	have known already
+0.3239295221123589	maester	seems	have known already via Shireen
+0.3239295221123589	maester	seems	have known
+1.0	maester	known already	something
+1.0	Sam	read about	Doom of Valyria
+0.3239295221123589	maester	known already via	Shireen
+0.9510069600148632	Jorah	immune to	Greyscale
+1.0	Jorah immune	finds	secret to steel
+1.0	Jorah	enters	Valyria
+0.744939866928192	finds	secret to	steel
+1.0	Jorah	finds	secret to Valyrian steel
+0.744939866928192	finds	secret to	Valyrian steel
+1.0	Jorah immune	finds	secret
+1.0	Jorah	finds	secret
+0.9510069600148632	Jorah	now immune to	Greyscale
+1.0	Jorah immune	finds	secret to Valyrian steel
+1.0	Jorah	finds	secret to steel
+1.0	Jorah immune	enters	Valyria
+1.0	Sam	also brings tomes with	history
+1.0	Sam	brings	tomes
+1.0	Sam	Unfortunately brings tomes with	history
+1.0	Sam	also brings	tomes
+1.0	Sam	brings tomes with	history
+1.0	Dany	commit	same destruction
+1.0	Dany	is	bound
+1.0	Sam	Unfortunately brings	tomes
+1.0	Dany	commit	destruction
+1.0	Sam	Unfortunately also brings tomes with	history
+1.0	Sam	Unfortunately also brings	tomes
+1.0	Dany aids	is in	destruction of White Walkers
+1.0	Jorah	put honor above	love
+1.0	Jorah	has	act
+1.0	Jorah	put	honor
+1.0	Jorah	has	act against Dany
+1.0	Jaime drift	setting up for	Jaime
+1.0	Dany	will encounter trouble	winning
+1.0	Arya	fills	LSH void
+1.0	Jaime drift	apart setting up for	Jaime
+1.0	true war	is in	north
+1.0	Dany	will encounter	unforseen trouble
+1.0	Dany	will encounter	trouble
+1.0	Jaime drift	apart setting up	becoming
+1.0	Jon	set	Jon sight
+1.0	Dany	will encounter resistance	winning
+1.0	Jaime drift	setting up	becoming
+1.0	Dany	will encounter	resistance
+1.0	Jaime drift	becoming	queen slayer
+1.0	Dany	win	throne
+1.0	them	break in	last time
+1.0	Meera	leave behind	Night King
+1.0	Meera	can spread	word
+0.8587129314257419	them	touch of	Night King
+1.0	Meera	leave	Night King
+0.33669769426858	touch	allowed	break in last time
+0.33669769426858	touch	allowed	break
+1.0	touch	allowed	them
+1.0	them	break in	time
+0.33669769426858	touch	allowed	break in time
+1.0	I	'd like	think
+1.0	Bran	sacrifice Night King	staying
+1.0	Bran	sacrifice	Night King
+1.0	Bran	sacrifice Night King	staying behind
+1.0	possibility	is	then forced to by concerned member of Night 's Watch
+1.0	possibility	is forced by	member of Night 's Watch
+1.0	possibility	is forced by	concerned member of Night 's Watch
+1.0	possibility	is	then forced to
+1.0	possibility	is	forced to by member of Night 's Watch
+1.0	Night King	cross	Wall
+1.0	possibility	is	then forced
+1.0	possibility	is	forced to by member
+1.0	possibility	is	then forced by concerned member of Night 's Watch
+1.0	possibility	is	then forced to by member
+1.0	possibility	is	forced
+1.0	Night	of	Watch
+1.0	possibility	is	then forced to by member of Night 's Watch
+1.0	possibility	is forced by	member
+1.0	possibility	is	then forced to by concerned member
+1.0	possibility	is	then forced by member
+1.0	possibility	is	then forced by member of Night 's Watch
+1.0	possibility	is	forced to by concerned member of Night 's Watch
+1.0	possibility	is	forced to by concerned member
+1.0	possibility	is forced by	concerned member
+1.0	possibility	is	forced to
+1.0	possibility	is	then forced by concerned member
+1.0	someone	is in	Night 's Watch
+1.0	Night	in	Watch
+1.0	Arya	reunites with	Arya wolf
+1.0	King	at	Landing
+1.0	Northern army	arrives at	King 's Landing
+1.0	Northern army	coinciding with	Targaryen advance
+1.0	city	blown up with	wildfire
+1.0	Northern army	arrives	coinciding
+1.0	Northern army	arrives	coinciding with Targaryen advance
+1.0	Jaime	sitting	Jaime uncle did
+1.0	Jaime	slays Jaime as	prophecy states
+1.0	Jon Stark	find	Jaime sitting
+1.0	Jaime	slays	Jaime
+1.0	Jaime	sitting on	Iron Throne
+1.0	Jon Stark	find	Jaime sitting on Iron Throne
+1.0	Jaime	sitting	Jaime uncle did 20 years ago
+1.0	Jaime	sitting	Jaime uncle did ago
+1.0	Jon Stark	will walk in	find
+1.0	cycle	will complete	cycle
+1.0	Littlefinger	mastered in	South
+1.0	Littlefinger	manipulate	men like Ned
+1.0	Littlefinger	manipulate	honorable men
+1.0	Littlefinger	manipulate	honorable men like Ned
+1.0	Littlefinger	manipulate	men
+1.0	Lord Royce	hates	Littlefinger
+1.0	Lord Royce	already hates	Littlefinger
+1.0	Knights	might turn against	Littlefinger
+1.0	Robin	is in	apparently Vale
+1.0	Robin	is in	Vale
+1.0	Sansa	be	ruin
+1.0	Sansa	be blatant ruin of	Littlefinger development
+1.0	Sansa	be	blatant ruin
+1.0	problems	is with	Jon
+1.0	Sansa	be	blatant
+0.8218260575899283	Sansa	working with	Littlefinger
+1.0	Sansa	be ruin of	Littlefinger development
+1.0	undead	are	whole
+1.0	Littlefinger	can play	game of men
+1.0	Littlefinger	can play	game
+1.0	undead	are	different story
+1.0	White Walkers	are	whole story
+1.0	undead	are	story
+1.0	White Walkers	are	story
+1.0	White Walkers	are	whole different story
+1.0	Walkers	are	whole
+1.0	White Walkers	are	different story
+1.0	Walkers	are	different
+1.0	undead	are	whole different story
+1.0	undead	are	whole story
+1.0	undead	are	different
+1.0	Littlefinger	is out of	Littlefinger element
+1.0	Littlefinger	is out of	finally Littlefinger element
+1.0	we	believe at_time	next season
+1.0	we	believe at	point
+1.0	we	believe at_time	season
+1.0	pieces	are coming in	other words
+1.0	Arya	has returned to	Westeros
+1.0	pieces	are coming together in	words
+1.0	pieces	are coming in	words
+1.0	pieces	are coming together in	other words
+1.0	Arya	has already returned to	Westeros
+1.0	Bran	makes	sense
+0.8832464356359223	symmetry	Game of	Thrones
+1.0	Game	loves	symmetry
+1.0	Night	of	Watch
+1.0	Bran	are	found
+1.0	Jon	will offer	place of King
+1.0	Bran	will meet In	Winterfell
+0.7473489306594795	Jon	place of	King
+1.0	Jon	will offer place in	North
+1.0	Jon	will offer	place
+1.0	Bran	will meet with	Jon
+1.0	Bran	will contact	Howland
+1.0	Bran	ask	Howland come
+1.0	Bran	ask	Howland come to Winterfell
+1.0	Bran	will contact Howland through	dreams
+1.0	Howland	come to	Winterfell
+1.0	Howland	confirms	Jon 's paternity
+1.0	Jon	has	paternity
+1.0	Jon	will find out about	Jon 's dad
+1.0	Jon	will find out about	Jon 's real dad
+1.0	Jon	about	true parentage
+1.0	Bran	Now knows about	Jon 's true parentage
+1.0	Jon 's	eventually makes	Bran
+1.0	Jon 's	makes back	Bran
+1.0	Jon 's	makes	Bran
+1.0	Jon 's	eventually makes back	Bran
+1.0	Bran	Now knows about	Jon 's parentage
+1.0	Bran	knows about	Jon 's parentage
+1.0	Bran	knows about	Jon 's true parentage
+0.989378065598135	Bran	make	Bran
+0.989378065598135	Bran	make Bran beyond	Wall
+0.989378065598135	Bran	make Bran in	place
+0.989378065598135	Bran	make Bran in	first place
+1.0	Jon	find out at	point
+1.0	revelation	comes in	Season 7
+1.0	eventual alliance	is with	Daenerys
+1.0	Jon	find out about	Jon 's Targaryen heritage
+1.0	Sansa	will go	rogue
+1.0	Sansa	has	increased levels of badassery
+1.0	Sansa 's	do something behind	back
+1.0	conjunction	is with	Littlefinger
+1.0	Sansa 's	do	something
+1.0	Sansa 's	do again	something
+1.0	Sansa 's	do something again behind	back
+1.0	Sansa 's	go	completely rogue
+1.0	Sansa 's	go	rogue
+1.0	It	has	likely
+1.0	It	has	less likely
+1.0	George R. R. Martin	from	1993 letter to agent detailing
+1.0	We	know from	George R. R. Martin 's 1993 letter to George R. R. Martin 's agent
+0.6895758252548059	detailing	initial outline	George R. R. Martin 's 'd originally intended
+0.6895758252548059	detailing	outline	George R. R. Martin 's 'd intended
+0.6895758252548059	detailing	outline	George R. R. Martin 's 'd originally intended
+1.0	We	know from	George R. R. Martin 's 1993 letter
+0.6895758252548059	detailing	initial outline	George R. R. Martin 's 'd intended
+1.0	Sansa	betray	Starks
+1.0	George R. R. Martin 's story	has ended up	changing massively
+1.0	George R. R. Martin 's	decided	keep
+1.0	George R. R. Martin 's story	changing massively since	then
+1.0	George R. R. Martin 's story	Obviously has ended up	changing massively
+1.0	George R. R. Martin 's story	changing since	then
+1.0	Sandor Clegane	has	has brought into show for reason dammit
+1.0	Sandor Clegane	has	has brought into show
+1.0	Sandor Clegane	has	has brought back
+1.0	Sandor Clegane	has	has brought
+1.0	Sandor Clegane	has	has brought for reason dammit
+1.0	Sandor Clegane	has	has brought back into show
+1.0	Sandor Clegane	has	has brought back for reason dammit
+1.0	Sandor Clegane	has	has brought back into show for reason
+1.0	Sandor Clegane	has	has brought back into show for reason dammit
+1.0	Sandor Clegane	has	has brought for reason
+1.0	Sandor Clegane	has	has brought into show for reason
+1.0	Sandor Clegane	has	has brought back for reason
+1.0	Sandor Clegane	actually do	something
+1.0	Sandor Clegane character	Obviously represents	struggle
+1.0	Sandor Clegane	do something at_time	next season
+1.0	Sandor Clegane	actually do something at_time	season
+1.0	Sandor Clegane character	Obviously represents	struggle between redemption
+1.0	Sandor Clegane character	represents	struggle between redemption
+1.0	Sandor Clegane	actually do something at_time	next season
+1.0	Sandor Clegane	do	something
+1.0	Sandor Clegane	do something at_time	season
+1.0	Sandor Clegane character	represents	struggle
+1.0	Cersei	has	downfall
+1.0	Cersei 's downfall	will come before	end
+1.0	her	protector	Ser Gregor
+1.0	Cersei 's downfall	will surely come before	end of show
+1.0	Cersei 's downfall	will surely come before	end
+1.0	Cersei 's downfall	will come before	end of show
+1.0	Hound	hopefully get drafted onto	their team
+1.0	Hound	'll encounter Starks at	point
+1.0	Hound	is headed	North
+1.0	Hound	'll likely encounter	Starks
+1.0	Hound	get	hopefully drafted
+1.0	Hound	get drafted onto	their team
+1.0	Hound	'll likely encounter Starks at	point
+1.0	Hound	'll encounter	Starks
+1.0	Hound	get	drafted
+1.0	The Hound	hopefully get drafted onto	their team
+1.0	Hound	is headed North at	moment
+1.0	their	ally in	Daenerys quest
+1.0	their	ally with	Daenerys
+1.0	their	ally in	Daenerys quest for Iron Throne
+1.0	Daenerys	will take	care of Euron Greyjoy
+1.0	Daenerys	will take	care
+1.0	Martin	has	book characters
+1.0	Euron Greyjoy mission	is	make
+1.0	Euron Greyjoy main mission	is	make
+1.0	Euron	has	main beef
+1.0	Euron Greyjoy mission	make	Daenerys Euron Greyjoy bride
+1.0	Euron 's main beef	is with	At moment Theon
+1.0	Euron Greyjoy main mission	make	Daenerys Euron Greyjoy bride
+1.0	Euron 's main beef	is with	Theon
+1.0	Euron Greyjoy	build	thousand ships
+1.0	we	saw	Euron Greyjoy
+1.0	ambitious request	help	Euron Greyjoy could chase after his Ironborn friends
+1.0	Euron Greyjoy	was making	slightly ambitious request of Euron Greyjoy Ironborn friends
+1.0	Euron Greyjoy	was making	request of Euron Greyjoy Ironborn friends
+1.0	Euron Greyjoy	could chase after	his Ironborn friends
+1.0	request	help	Euron Greyjoy could chase after his Ironborn friends
+1.0	Euron Greyjoy	was making	ambitious request of Euron Greyjoy Ironborn friends
+1.0	Euron Greyjoy	swats Cersei off	Iron Throne
+1.0	Euron Greyjoy	swats	Cersei
+1.0	we	giving	warm-up snack
+1.0	we	giving	Mother of Dragons
+1.0	we	giving	Mother
+1.0	we	giving	handy warm-up snack
+1.0	Cersei	will die at	hands of Jamie
+1.0	Cersei	will die at	hands
+1.0	it	be	one hell of reign
+1.0	it	's going	one hell
+1.0	Cersei	be on	may Iron Throne for now
+1.0	it	be	one hell
+1.0	it	be	one hell of short-lived reign
+1.0	Cersei	be on	may Iron Throne
+1.0	it	's going	one hell of short-lived reign
+1.0	it	's going	one hell of reign
+1.0	Cersei	making	enemies of everyone
+1.0	Cersei	alienated	Cersei brother
+1.0	Cersei	alienated	Cersei own brother
+1.0	Cersei	making	enemies
+1.0	Cersei	has	even gone
+1.0	Cersei	has	gone
+1.0	Cersei	has	now even gone
+1.0	Cersei	making	enemies of practically everyone
+1.0	Cersei	making enemies in	Seven Kingdoms
+1.0	Cersei	has	now gone
+1.0	Cersei	die at	hands
+1.0	Cersei	ultimately die at	hands of Jamie
+1.0	Cersei	was	when child
+1.0	Cersei	die at	hands of Jamie
+1.0	Cersei	ultimately die at	hands
+1.0	Cersei	was	child
+1.0	Wall	will come	tumbling
+1.0	Wall	will come	tumbling down
+1.0	White Walkers	have got	get over thing somehow
+1.0	Horn	will	will only way
+1.0	White Walkers	have got	get over thing
+1.0	Horn	will	will way
+1.0	White Walkers	get over	thing
+1.0	we	bringing down	that thing
+1.0	White Walkers	get somehow over	thing
+1.0	we	bringing down	thing
+1.0	thing	's via	Horn
+1.0	thing	's via	Horn of Joramun
+1.0	Night 's King	now has marked	Wall
+1.0	Bran	inadvertently bring	Wall
+1.0	Bran	bring down	Wall
+1.0	Bran	bring	Wall
+1.0	Night	has	King
+1.0	Bran	inadvertently bring down	Wall
+1.0	Night 's King	has marked	Wall
+1.0	Tyrion Lannister	is	Targaryen
+1.0	Tyrion Lannister	is	also believed
+1.0	Tyrion Lannister	is	believed
+1.0	Tywin	hated so much	Tywin Lannister 's
+1.0	Tywin Lannister 's wife	mother of	Tyrion
+1.0	Tywin	hated	Tywin Lannister 's
+1.0	Tywin Lannister	's wife is	mother of Tyrion
+1.0	mad King Aerys Targaryen	had	affair
+1.0	Tywin Lannister 's	comes from	theory
+1.0	affair	is with	Tywin Lannister 's wife
+1.0	Tywin	hated much	Tywin Lannister 's
+1.0	King Aerys Targaryen	had	affair
+1.0	Tywin Lannister	with	wife
+1.0	Tywin Lannister	's wife is	Joanna
+1.0	Joanna	is wife of	Tywin Lannister
+1.0	TV show	is pointing in	direction
+1.0	We	've also seen	connection
+1.0	We	've seen	strong connection develop
+1.0	We	've also seen	connection develop between Tyrion
+1.0	We	've also seen	strong connection develop between Tyrion
+1.0	her	trusting	Tywin Lannister 's
+1.0	We	've seen	connection develop between Tyrion
+1.0	We	've seen	strong connection develop between Tyrion
+1.0	We	've also seen	connection develop
+1.0	We	've seen	strong connection
+1.0	We	've also seen	strong connection develop
+1.0	We	've seen	connection develop
+1.0	We	've seen	connection
+1.0	We	've also seen	strong connection
+1.0	I	see	TV show more familial bond
+1.0	I	see	TV show familial bond
+1.0	love	is with	Dany
+1.0	this	falling in	love with Dany
+1.0	Jaime	will kill	Cersei
+1.0	Tommen	prediction 's	Frog
+1.0	Cersei	of	children
+1.0	Cersei	will	will killed by Cersei Valonqar
+1.0	Cersei	will	will killed
+1.0	Dany	with	army
+1.0	route	is with	Dany 's army
+0.308421633671098	Jaime	was	born
+1.0	Jaime	was born	minutes
+1.0	Jaime	was born	few minutes
+1.0	Cersei	has	twin
+1.0	we	saw	Jaime
+1.0	Cersei	take	crown
+1.0	someone else	is in	his life
+1.0	Brienne	is of	Tarth
+1.0	Jaime	has said	time again
+1.0	Jaime	Even has said	time again
+1.0	someone	is	threatened
+1.0	someone else	is	threatened
+1.0	Jaime	Even has said	time
+1.0	important thing	is in	his life
+1.0	Jaime	has said	time
+1.0	Kingslayer	would	would justice
+1.0	Kingslayer	would	given Jaime 's reputation as Kingslayer would justice
+1.0	Kingslayer	would	given Jaime 's reputation would justice
+1.0	Kingslayer	would	given Jaime 's reputation would poetic justice
+1.0	Kingslayer	would	given Jaime 's reputation would heartbreakingly poetic justice
+1.0	Kingslayer	would	given Jaime 's reputation as Kingslayer would heartbreakingly poetic justice
+1.0	Jaime	given	reputation as Kingslayer
+1.0	Jaime	kill	Mad Queen
+1.0	Kingslayer	would	would poetic justice
+1.0	Kingslayer	would	given Jaime 's reputation as Kingslayer would poetic justice
+1.0	Kingslayer	would	would heartbreakingly poetic justice
+1.0	Cersei	becomes	Mad Queen
+1.0	I	think aka	Mad King
+1.0	Cersei	went	girl on fire
+0.8454697875763737	Cersei	girl on	fire
+1.0	Cersei	declared	Westeros Ruler of Seven Kingdoms
+1.0	Westeros	Ruler of	Seven Kingdoms
+1.0	Cersei	declared	Westeros Ruler
+1.0	First	can say	Yaaasss Mad Queen
+1.0	I	can say	Yaaasss Mad Queen
+1.0	this	be	serious
+1.0	Westeros	's only interested	doing
+1.0	Westeros	's interested	doing
+1.0	Westeros	has	only interested
+1.0	Westeros	has	interested
+1.0	psychologist	even diagnosed Cersei In	fact
+1.0	one psychologist	even diagnosed Cersei as	narcissist on Reddit
+1.0	one psychologist	diagnosed	Cersei
+1.0	one psychologist	even diagnosed Cersei In	fact
+1.0	one psychologist	diagnosed Cersei In	fact
+1.0	psychologist	diagnosed Cersei as	classic narcissist on Reddit
+1.0	one psychologist	even diagnosed Cersei as	classic narcissist
+1.0	psychologist	even diagnosed Cersei as	classic narcissist
+1.0	psychologist	even diagnosed Cersei as	classic narcissist on Reddit
+1.0	psychologist	even diagnosed Cersei as	narcissist on Reddit
+1.0	one psychologist	diagnosed Cersei as	classic narcissist on Reddit
+1.0	one psychologist	even diagnosed Cersei as	classic narcissist on Reddit
+1.0	one psychologist	even diagnosed Cersei as	narcissist
+1.0	one psychologist	diagnosed Cersei as	classic narcissist
+1.0	psychologist	even diagnosed Cersei as	narcissist
+1.0	psychologist	diagnosed Cersei In	fact
+1.0	one psychologist	even diagnosed	Cersei
+1.0	one psychologist	diagnosed Cersei as	narcissist
+1.0	one psychologist	diagnosed Cersei as	narcissist on Reddit
+1.0	psychologist	diagnosed Cersei as	narcissist on Reddit
+1.0	psychologist	diagnosed Cersei as	classic narcissist
+1.0	psychologist	even diagnosed	Cersei
+1.0	psychologist	diagnosed	Cersei
+1.0	psychologist	diagnosed Cersei as	narcissist
+1.0	Cersei	has	only saving grace
+1.0	Cersei 's only saving grace	was	For time Westeros love
+1.0	Cersei 's only saving grace	was	Westeros love for Westeros children
+1.0	Cersei 's only saving grace	was	For longest time Westeros love
+1.0	Cersei 's only saving grace	was	Westeros love
+1.0	Cersei 's saving grace	was	Westeros love for Westeros children
+1.0	Cersei 's only saving grace	was	For time Westeros love for Westeros children
+1.0	Cersei 's saving grace	was	For time Westeros love
+1.0	Cersei 's saving grace	was	Westeros love
+1.0	Cersei 's only saving grace	was	For longest time Westeros love for Westeros children
+1.0	Cersei 's saving grace	was	For longest time Westeros love for Westeros children
+1.0	Cersei 's saving grace	was	For longest time Westeros love
+1.0	Cersei 's saving grace	was	For time Westeros love for Westeros children
+1.0	we	'll get to	that in bit
+1.0	we	'll get to	that
+1.0	Cersei	has	reign of terror
+1.0	Dany	of	first major Westeros battle
+1.0	Euron	is	seafaring
+1.0	Euron	is man For	starters
+1.0	Dany	of	army
+1.0	Euron	is	man
+1.0	Euron	is seafaring man For	starters
+1.0	Euron	is	seafaring man
+1.0	Euron Greyjoy	searching	ruins of Old Valyria
+1.0	Euron Greyjoy	searching	ruins
+1.0	Euron Greyjoy	acquired horn In	books
+1.0	Euron Greyjoy	acquired	horn
+1.0	Euron Greyjoy	acquired	horn called
+1.0	Euron Greyjoy	could surprise	her army
+1.0	Euron Greyjoy	could definitely surprise	Dany
+1.0	Euron Greyjoy	could definitely surprise	her army
+1.0	Euron Greyjoy	could surprise	Dany
+1.0	someone	used	one her own dragons
+1.0	someone	used	one of her dragons
+1.0	someone	used	one of her own dragons
+1.0	someone	used	one her dragons
+1.0	Greyjoy	be	major
+1.0	Euron Greyjoy	be	major player
+1.0	Euron Greyjoy	be	player
+1.0	Jon Snow	Warrior of	Light
+1.0	Jon Snow	is	Azor Ahai
+1.0	R+L =	get	totally canon now
+1.0	we	get	totally canon
+1.0	R+L	get	totally canon now
+1.0	we	get	canon
+1.0	R+L	get	totally canon
+1.0	R+L	get	canon now
+1.0	pesky	get	canon
+1.0	R+L	get	canon
+1.0	pesky	get	totally canon
+1.0	pesky	get	totally canon now
+1.0	pesky	get	look
+1.0	we	get	canon now
+1.0	R+L =	get	totally canon
+1.0	we	get	totally canon now
+1.0	pesky	get	canon now
+1.0	R+L =	get	canon now
+1.0	we	get	look
+1.0	R+L	get	look
+1.0	R+L =	get	canon
+1.0	he	Warrior of	Light
+1.0	he	is	Azor Ahai
+1.0	signs	point to	yes
+1.0	Jon 's wounds smoke	cry	salty tears
+1.0	Jon	has	smoke
+1.0	Jon Snow comrades	cry	tears
+1.0	Jon Snow comrades	cry all	salty tears
+1.0	Jon Snow comrades	cry	salty tears
+1.0	Jon 's wounds smoke	cry	tears
+1.0	Azor Ahai	have	blood
+1.0	Melisandre	has	prophecy states
+0.8740566166159852	Azor Ahai	blood of	dragon
+1.0	Jon Snow comrades	cry all	tears
+1.0	Azor Ahai	have	blood of dragon
+1.0	Nissa Nissa	's looked into	fires for Azor
+1.0	Nissa Nissa	has	looked
+1.0	Nissa Nissa	's looked into	fires
+1.0	Nissa Nissa	's only seen	things do
+1.0	Nissa Nissa	has	Whenever looked into fires
+1.0	Nissa Nissa	has	Whenever looked into fires for Azor
+0.010717726303177022	Nissa Nissa	has	seen
+1.0	Nissa Nissa	's seen	things do
+0.010717726303177022	Nissa Nissa	has	only seen
+1.0	Nissa Nissa	's looked at_time	Whenever
+1.0	his	love	Ygritte
+1.0	Night	has	Watch post
+1.0	Bran	will bring White Walkers to	Westeros
+1.0	you	had	one job
+1.0	Bran	will bring	White Walkers
+1.0	everybody 's job	is in	way
+1.0	wall	taking away	magic
+1.0	Bran	was	how marked
+1.0	Bran	was marked by	Night 's King
+1.0	Bran	was	how marked by Night 's King
+1.0	Bran	was	marked
+1.0	Night	by	King
+1.0	Night 's King	's going	need
+1.0	Night 's King	sooner or later 's going	need
+1.0	Night 's King	sooner 's going	need
+1.0	White Walkers	break down	Wall
+1.0	door	unlocked for	White Walkers
+1.0	Winterfell	raised	Wall
+1.0	Winterfell	raised Wall	events covered
+1.0	events	covered in	Game
+1.0	events	covered in	Game of Thrones
+1.0	Winterfell	raised Wall	events covered in Game
+1.0	Winterfell	raised Wall	events covered in Game of Thrones
+1.0	Winterfell	raised Wall over	8000 years
+1.0	his	can influence	events
+1.0	his	can influence warg into	people
+1.0	his	can influence	warg
+1.0	Bran	see into	past
+1.0	his	can influence events into	people
+1.0	his	's aware of	White Walkers
+1.0	it	has	maybe his responsibility travel into past
+1.0	White Walkers	is in	the present day
+1.0	it	has	his responsibility travel
+1.0	his	has	aware
+1.0	it	has	his responsibility travel into past
+1.0	his	's aware of	White Walkers in day
+1.0	his	's aware of	White Walkers in present day
+1.0	it	has	maybe his responsibility travel
+0.7090567305297839	Bran 's stories	are ones about	Bran Builder
+0.7090567305297839	Bran 's favourite stories	are ones about	Bran Builder
+0.7090567305297839	Bran 's stories	are	ones
+1.0	Old Nan	Also mentions in	books
+1.0	Old Nan	Also mentions on	occasions
+1.0	Nan	mentions on	occasions
+1.0	Nan	Also mentions in	books
+1.0	Nan	Also mentions on	several occasions
+0.7090567305297839	Bran 's favourite stories	are	ones
+0.7090567305297839	Bran 's favourite stories	are ones about	yup Bran Builder
+1.0	Nan	Also mentions on	occasions
+1.0	Old Nan	mentions in	books
+1.0	Bran	has	favourite stories
+0.7090567305297839	Bran 's stories	are ones about	yup Bran Builder
+1.0	Nan	mentions on	several occasions
+1.0	Old Nan	mentions on	occasions
+1.0	Nan	mentions in	books
+1.0	Old Nan	Also mentions on	several occasions
+1.0	Old Nan	mentions on	several occasions
+1.0	Stark	of	future
+1.0	Jorah	has	storyline
+1.0	Jorah	will	will healed of Greyscale
+1.0	Jorah	will	will healed
+1.0	person	posted	online
+1.0	Jorah	saw	Gwendoline Christie
+1.0	Jorah	saw	Iain Glen
+1.0	person	recently posted	online
+1.0	One person	recently posted	online
+1.0	Jorah	saw Iain Glen on	plane
+1.0	One person	posted	online
+1.0	Jorah	saw Gwendoline Christie on	plane
+1.0	Gwendoline Christie	was reading	script
+1.0	Jorah	be	healed
+1.0	speculation	has	uncertain by whom
+1.0	speculation	Well 's	uncertain by whom
+1.0	lot of speculation Jorah will be healed of Greyscale	has	uncertain
+1.0	speculation	has	uncertain
+1.0	Jorah	be healed of	Greyscale
+1.0	speculation	Well 's	uncertain
+1.0	lot of speculation Jorah will be healed of Greyscale	has	uncertain by whom
+1.0	theory	lies with	Quaithe
+1.0	Jorah	find	Dany 's dragons
+1.0	Quaithe	woman in	season 2
+1.0	Dany 's dragons	were	stolen
+1.0	biggest theory	lies with	Quaithe
+1.0	Dany	has	dragons
+1.0	magical woman	is in	season 2
+1.0	Jorah	travel	past Valyria
+1.0	Jorah	travel	past Old Valyria
+1.0	Old Valyria	is	past
+1.0	Jorah	finding	cure for greyscale
+1.0	Daenerys	have	weapon
+0.6572413281679889	weapon	powerful than	disease
+1.0	Jorah	finding	cure
+1.0	Greyscale	will	will used
+1.0	Greyscale	will	will used as biological weapon
+1.0	Greyscale	will	will used as weapon
+0.6572413281679889	weapon	more powerful than	disease
+1.0	more people	side with	Daenerys
+1.0	people	side with	Daenerys
+1.0	Daenerys	could threaten Westeros with	greyscale epidemic
+1.0	Daenerys	could threaten	Westeros
+1.0	greyscale	could come	even protected
+1.0	Daenerys	were	protected
+1.0	greyscale	could come	protected
+1.0	greyscale	However could come	even protected
+1.0	greyscale	However could come with	catch
+1.0	Daenerys	were	even protected
+1.0	greyscale	could come with	catch
+1.0	greyscale	However could come	protected
+1.0	Dany	ended up	having
+1.0	greyscale	turns people into	Stone Men unable
+1.0	greyscale	mentioned in	Hitflix
+1.0	greyscale	turns	people
+1.0	greyscale	turns people	mentioned in Hitflix
+1.0	greyscale	turns people into	Stone Men
+1.0	greyscale	turns people	mentioned
+1.0	people	are like	very much wights
+1.0	people	are like	In sense wights
+1.0	people	are like	much wights
+1.0	people	are like	In sense much wights
+1.0	people	are like	In sense very much wights
+1.0	wights	is In	sense
+1.0	people	are like	wights
+1.0	we	see	arrival of Shrouded Lord
+1.0	we	see	arrival
+1.0	can curse	is with	greyscale
+1.0	Night	of	King
+0.6290618390260668	we	arrival of	Shrouded Lord
+1.0	White Walkers	had	zombie army contend
+1.0	White Walkers	had	dragon-scaled zombie army contend with
+1.0	White Walkers	had	zombie army contend with
+1.0	White Walkers	had	dragon-scaled zombie army contend
+1.0	armies	completely lay waste to	Seven Kingdoms
+1.0	armies	completely lay	waste
+0.02038138290973901	armies	completely lay to	Seven Kingdoms
+0.02038138290973901	armies	lay to	Seven Kingdoms
+1.0	armies	lay waste to	Seven Kingdoms
+1.0	armies	lay	waste
+1.0	Arya	is in	Westeros
+1.0	Arya	is in	However back Westeros
+1.0	Arya	is in	However Westeros
+1.0	Arya	continue	Arya campaign
+1.0	Arya	is in	back Westeros
+1.0	Arya	continue	Arya campaign of vengeance
+1.0	Arya	could meet up with	Brothers
+1.0	Arya	could meet up with	Brothers Without Banners
+1.0	Arya	could totally meet up with	Brothers Without Banners
+1.0	Arya	take over as	the Brothers Without Banners leader
+1.0	Arya	take over as	Brothers Without Banners leader
+1.0	Arya	could totally meet up with	Brothers
+1.0	Arya	being	blinded
+1.0	Hound	trying	keep
+1.0	Hound	keep	Arya balanced
+1.0	Arya	being blinded by	hate
+1.0	Sansa	is	pregnant
+1.0	Sansa	is pregnant with	Ramsay 's child
+1.0	Ramsay	with	child
+0.8035526647118767	many nights	sexually assaulting	Ramsay Bolton then-wife Sansa
+1.0	We all	hated	his then-wife Sansa
+0.8035526647118767	nights	sexually assaulting	Ramsay Bolton then-wife Sansa
+1.0	it	was	gross
+1.0	Ramsay	cryptically told	her
+1.0	Ramsay	told	her
+1.0	Ramsay Bolton	gave	her
+1.0	I	took	Ramsay Bolton message
+1.0	her	carrying	Ramsay Bolton baby
+1.0	Sansa	is	pregnant
+1.0	Sansa	is pregnant with	Ramsay 's child
+1.0	Ramsay	with	child
+1.0	her	raise	child
+1.0	people	'd make	super cute babies
+1.0	people	'd make	babies
+1.0	people	'd make	super babies
+1.0	people	'd make	cute babies
+1.0	alliance	is	smart
+1.0	alliance	is	Overall smart idea
+1.0	alliance	is	idea
+1.0	alliance	is	smart idea
+1.0	alliance	is	Overall idea
+1.0	he	's King of	North
+1.0	She	has	Dragon Queen
+1.0	he	has	King
+1.0	he	has	newly crowned King
+1.0	he	's crowned King of	North
+1.0	he	has	crowned King
+1.0	he	's newly crowned King of	North
+1.0	alliance	is with	handshake
+1.0	I	'm	sure
+1.0	people	might	Sure might related
+1.0	people	might	might related
+0.9502730010763534	Beauty	action	Beast-style traipsing through library
+1.0	Beast-style	traipsing through	magical library
+0.9502730010763534	Beauty	action	Beast-style
+0.8327459012647865	Beauty	last episode of	season
+0.8327459012647865	Beauty	last episode	Beast-style traipsing
+0.9502730010763534	Beauty	action	Beast-style traipsing through magical library of wonder
+0.8327459012647865	Beauty	last episode	Beast-style traipsing through magical library of wonder
+0.8327459012647865	Beauty	last episode of	season 6
+0.8327459012647865	Beauty	last episode	Beast-style traipsing through library
+0.8327459012647865	Beauty	last episode	Beast-style traipsing through magical library
+1.0	Beast-style	traipsing through	library wonder
+1.0	Beast-style	traipsing through	magical library wonder
+1.0	Beast-style	traipsing through	library
+0.8327459012647865	Beauty	last episode	Beast-style traipsing through library of wonder
+0.8327459012647865	Beauty	last episode	Beast-style
+0.9502730010763534	Beauty	action	Beast-style traipsing
+0.9502730010763534	Beauty	action	Beast-style traipsing through library of wonder
+0.9502730010763534	Beauty	action	Beast-style traipsing through magical library
+1.0	Sam Tarly 's arrival	definitely felt	out-of-place in rest
+1.0	Sam Tarly	has	arrival at Citadel
+1.0	Sam Tarly 's arrival	felt	out-of-place in rest of episode
+1.0	Sam Tarly 's arrival	definitely felt	out-of-place
+1.0	Sam Tarly 's arrival	felt	out-of-place in rest
+1.0	Sam Tarly 's arrival	definitely felt	out-of-place in rest of episode
+1.0	Sam Tarly 's arrival	felt	out-of-place
+1.0	he	just happens	major bookworm
+1.0	he	be	major
+1.0	training maester	has	access to entire literary history
+1.0	training maester	has	access to entire history
+1.0	he	be	major bookworm
+1.0	training maester	has	access to entire literary history of world
+1.0	training maester	now has	access to entire history of world
+1.0	he	happens	major bookworm
+1.0	training maester	has	access to history
+1.0	training maester	has	access to entire history of world
+1.0	training maester	now has	access to entire history
+1.0	training maester	has	access to history of world
+1.0	he	be	bookworm
+1.0	training maester	now has	access to literary history
+1.0	training maester	now has	access to entire literary history
+1.0	training maester	has	access
+1.0	training maester	now has	access to entire literary history of world
+1.0	training maester	now has	access to literary history of world
+1.0	he	just happens	bookworm
+1.0	training maester	has	access to literary history
+1.0	training maester	now has	access to history
+1.0	training maester	now has	access to history of world
+1.0	training maester	has	access to literary history of world
+1.0	he	happens	bookworm
+1.0	training maester	now has	access
+1.0	bets	are on	that
+1.0	Euron Greyjoy	for	invading army of pirates
+1.0	Sam Tarly	protect	little baby Sam
+1.0	Sam Tarly	protect	Gilly
+1.0	Town	is	key
+1.0	Citadel	is	where located
+1.0	Citadel	is	located
+1.0	Sam Tarly	protect	baby Sam
+1.0	Littlefinger 's	sit on	Iron Throne
+1.0	Littlefinger 's	wants	sit on Iron Throne as King with Sansa as queen
+1.0	Littlefinger 's	wants	sit with Sansa as queen
+1.0	Littlefinger 's	wants	sit with Sansa by Sansa 's side as queen
+1.0	Littlefinger 's	wants	sit on Iron Throne as King of Westeros with Sansa as queen
+1.0	Littlefinger	will marry	Cersei
+1.0	we	Last left	Littlefinger
+1.0	Littlefinger 's	wants	sit as King of Westeros with Sansa by Sansa 's side
+1.0	Littlefinger 's	wants	sit as King of Westeros
+1.0	Littlefinger 's	wants	sit as King with Sansa as queen
+1.0	Littlefinger 's	wants	sit on Iron Throne as King with Sansa by Sansa 's side
+1.0	Littlefinger 's	sit as	King of Westeros
+1.0	we	left	Littlefinger
+1.0	Littlefinger 's	wants	sit
+1.0	Littlefinger 's	wants	sit with Sansa by Sansa 's side
+1.0	Littlefinger	become	King
+1.0	Littlefinger 's	sit as	King
+1.0	Littlefinger	become	King of Westeros
+1.0	Littlefinger 's	wants	sit on Iron Throne as King of Westeros with Sansa by Sansa 's side as queen
+1.0	Littlefinger 's	wants	sit as King with Sansa by Sansa 's side as queen
+1.0	Littlefinger 's	wants	sit on Iron Throne
+1.0	Littlefinger 's	wants	sit on Iron Throne with Sansa by Sansa 's side as queen
+1.0	Littlefinger 's	wants	sit on Iron Throne as King with Sansa
+1.0	Littlefinger 's	wants	sit as King of Westeros with Sansa
+1.0	Littlefinger 's	wants	sit on Iron Throne with Sansa as queen
+1.0	Littlefinger 's	sit with	Sansa by Sansa 's side as queen
+1.0	Littlefinger 's	wants	sit as King of Westeros with Sansa as queen
+1.0	Littlefinger 's	wants	sit as King of Westeros with Sansa by Sansa 's side as queen
+1.0	Littlefinger 's	wants	sit on Iron Throne as King of Westeros with Sansa by Sansa 's side
+1.0	Littlefinger 's	wants	sit on Iron Throne as King with Sansa by Sansa 's side as queen
+1.0	Littlefinger 's	wants	sit on Iron Throne as King of Westeros with Sansa
+1.0	Littlefinger 's	wants	sit as King with Sansa by Sansa 's side
+1.0	Littlefinger 's	wants	sit with Sansa
+1.0	Littlefinger 's	wants	sit on Iron Throne with Sansa
+1.0	Littlefinger 's	wants	sit on Iron Throne as King of Westeros
+1.0	Littlefinger 's	wants	sit as King
+1.0	Littlefinger 's	sit with	Sansa by Sansa 's side
+1.0	Littlefinger 's	sit with	Sansa
+1.0	Littlefinger 's	sit with	Sansa as queen
+1.0	Littlefinger 's	wants	sit on Iron Throne with Sansa by Sansa 's side
+1.0	Littlefinger 's	wants	sit on Iron Throne as King
+1.0	Littlefinger 's	wants	sit as King with Sansa
+1.0	herself	need	army
+1.0	Littlefinger	have	army
+0.06547772389957607	herself	's going	need
+1.0	Littlefinger	have	big army
+1.0	herself	need	big army
+1.0	marital partnership	would also give	Cersei control
+1.0	marital partnership	would give	Cersei control
+1.0	partnership	would also give	Cersei control
+1.0	partnership	would give	Cersei control
+1.0	crucial area	is in	fight for Seven Kingdoms
+1.0	marital partnership	is with	Littlefinger
+1.0	It	would	would interesting
+1.0	It	would give	competition for control of North
+1.0	It	would give	serious competition for control
+1.0	It	would give	serious competition
+1.0	It	would expose	Littlefinger 's true colors
+1.0	It	would give	competition for control
+1.0	Littlefinger	has	true colors
+1.0	It	would give	serious competition for control of North
+1.0	It	would expose	Littlefinger 's colors
+1.0	It	would give	Sansa Snow
+1.0	It	would finally expose	Littlefinger 's true colors
+1.0	It	would give	competition
+1.0	It	would finally expose	Littlefinger 's colors
+1.0	It	Unfortunately could push	Jon Snow
+1.0	It	could push Jon Snow into	alliance
+1.0	It	could push	Jon Snow
+1.0	It	Unfortunately could push Jon Snow into	alliance
+1.0	Sansa Stark	is	pregnant
+1.0	Sansa Stark	is pregnant with	Ramsay Bolton 's child
+1.0	Ramsay Bolton	with	child
+1.0	Jon Snow	are going	married
+1.0	well-connected husband	is with	band of loyal supporters behind him
+1.0	Daenerys Targaryen	could benefit from	husband with band of loyal supporters behind Daenerys Targaryen
+1.0	Daenerys Targaryen	could benefit from	well-connected husband with band of loyal supporters behind Daenerys Targaryen
+1.0	Daenerys Targaryen	could benefit from	well-connected husband with band of supporters behind Daenerys Targaryen
+1.0	Daenerys Targaryen	could benefit from	husband with band of supporters behind Daenerys Targaryen
+1.0	Daenerys Targaryen	could benefit from	well-connected husband with band
+1.0	Daenerys Targaryen	could benefit from	well-connected husband
+1.0	Daenerys Targaryen	could benefit from	Daenerys Targaryen army
+1.0	Daenerys Targaryen	could benefit from	husband
+1.0	Daenerys Targaryen	could benefit from	husband with band
+1.0	This	means	everything
+1.0	Varys	are	caught in Varys and Littlefinger game
+1.0	Varys	are	how basically caught in Varys and Littlefinger own game
+1.0	Varys	are	how caught in Varys and Littlefinger game of thrones
+1.0	Varys	are	caught in Varys and Littlefinger own game
+1.0	Varys	are	how basically caught in Varys and Littlefinger game
+1.0	Varys	are	caught in Varys and Littlefinger own game of thrones
+1.0	Varys	are	how basically caught
+1.0	Varys	are	how basically caught in Varys and Littlefinger own game of thrones
+1.0	Varys	are	basically caught in Varys and Littlefinger game
+1.0	Varys	are	how caught in Varys and Littlefinger own game
+1.0	Varys	are	how caught
+1.0	Varys	are	how caught in Varys and Littlefinger own game of thrones
+1.0	Varys	are	caught in Varys and Littlefinger game of thrones
+1.0	Varys	are	how caught in Varys and Littlefinger game
+1.0	Varys	are	basically caught in Varys and Littlefinger own game of thrones
+1.0	Varys	are	basically caught in Varys and Littlefinger own game
+1.0	Varys	are	how basically caught in Varys and Littlefinger game of thrones
+1.0	Varys	are	basically caught
+1.0	Varys	are	caught
+1.0	Varys	are	basically caught in Varys and Littlefinger game of thrones
+1.0	Littlefinger	doing	Littlefinger 's
+1.0	Littlefinger 's	wants	power
+1.0	Varys	is	merman
+1.0	Varys	free	Varys fellow merpeople
+1.0	You	heard	right
+1.0	Varys	traveled from	Dorne
+1.0	Varys	traveled to	Dany 's ship
+1.0	Dany	to	ship
+1.0	showrunners	have chalked theory up to	pacing
+1.0	Varys	has	tail
+1.0	showrunners	have chalked up	theory
+1.0	Varys	actually has	tail
+1.0	Dany 's dragons	melt	ice
+0.6719117544191839	Dany 's dragons	ice in	North
+1.0	Dany 's dragons	melt	ice in North
+1.0	Dany	has	dragons
+1.0	ice	is in	North
+1.0	Jon Snow	are going	married
+1.0	Sansa	marry	royal
+1.0	it	would	would less frowned upon in world
+1.0	it	would	would frowned upon in world
+1.0	it	would	would less frowned upon in world of Westeros
+1.0	they	're	Now cousins
+1.0	it	would	would frowned
+1.0	they	're	cousins
+1.0	it	would	would frowned upon in world of Westeros
+1.0	it	would	would less frowned
+1.0	Tyrion Lannister	is	Targaryen
+1.0	Tyrion	has	Joanna
+1.0	Tywin Lannister	always treated Tyrion like	dirt
+1.0	Tywin Lannister	treated Tyrion like	dirt
+1.0	Tywin Lannister	always treated	Tyrion
+1.0	Tyrion 's mother Joanna	giving	birth
+1.0	Tywin Lannister	treated	Tyrion
+1.0	Joanna	is mother of	Tyrion
+1.0	Joanna	is on	night
+1.0	Twyin	hated	Tyrion
+1.0	Tywin	on	night
+1.0	Believers	is in	theory
+1.0	Tyrion	is	good
+1.0	Tyrion	Also is pretty good with	dragons
+1.0	Tyrion	is	Also pretty good
+1.0	Tyrion	Also is good with	dragons
+1.0	Tyrion	is	Also good
+1.0	Tyrion	is	pretty good
+1.0	Tyrion	is pretty good with	dragons
+1.0	Tyrion	is good with	dragons
+1.0	dragon living	's under	Winterfell
+1.0	Stark ancestral home	warm throughout	Westeros 's winters
+1.0	The Stark ancestral home	warm throughout	Westeros 's years-long winters
+1.0	Stark ancestral home	warm throughout	Westeros 's years-long winters
+1.0	Stark ancestral home	is	situated
+1.0	Westeros	throughout	winters
+1.0	Stark ancestral home	is	notably situated
+1.0	your tinfoil hats	begin	debate
+1.0	Zombie Gregor Clegane	has	head of Joffrey
+1.0	Zombie Gregor Clegane	has	head
+1.0	Joffrey 's head	was	decomposed
+1.0	Joffrey 's head	was	less decomposed
+1.0	Gregor	than	head
+1.0	Joffrey	has	head
+1.0	Ned Stark	is	alive
+1.0	other members	have	abilities
+1.0	Cersei	has	favorite executioner
+1.0	members	have	abilities
+1.0	Ned Stark	did	it
+1.0	Arya	is in	books
+1.0	members	have	warging abilities
+1.0	other members	have	warging abilities
+1.0	Roose Bolton	is	vampire
+1.0	Roose Bolton	likes to	skin people
+1.0	Roose Bolton	's got	thing
+1.0	Roose Bolton	's got	weird thing
+0.6353903209308851	Roose Bolton	thing for	leeches
+1.0	Roose Bolton	's got	weird thing for leeches
+1.0	Roose Bolton	's got	thing for leeches
+0.6353903209308851	Roose Bolton	weird thing for	leeches
+1.0	Roose Bolton	has	pale
+1.0	Roose Bolton	does sparkle in	sunlight
+1.0	sparkle	is in	sunlight
+1.0	cat Arya used	is	Princess Rhaenys Targaryen
+1.0	cat Arya	used	chase around Red Keep
+1.0	cat Arya	chase around	Red Keep
+1.0	cat Arya	used	chase
+1.0	King	of	Landing
+1.0	cat	is Balerion	kitten Rhaenys kept
+1.0	Rhaenys	was killed during	Sack
+1.0	black kitten Rhaenys	kept	killed
+1.0	cat	is probably Balerion	kitten Rhaenys kept
+1.0	black kitten Rhaenys	kept	killed during Sack
+1.0	cat	is probably Balerion	black kitten Rhaenys kept
+1.0	kitten Rhaenys	kept	killed
+1.0	kitten Rhaenys	kept	killed during Sack of King 's Landing
+1.0	Rhaenys	was killed during	Sack of King 's Landing
+1.0	cat	is Balerion	black kitten Rhaenys kept
+1.0	black kitten Rhaenys	kept	killed during Sack of King 's Landing
+1.0	kitten Rhaenys	kept	killed during Sack
+1.0	Rhaenys	was	killed
+1.0	Targaryens	take	it
+1.0	Rhaenys	warged into	Balerion right
+1.0	Targaryens	have	have able
+1.0	Targaryens	have	have historically able to warg
+1.0	Targaryens	have	have historically able
+1.0	Targaryens	take further	it
+1.0	Rhaenys	warged before	Rhaenys death
+1.0	Targaryens	have	have able to warg
+1.0	Rhaenys	accidentally warged into	Balerion right
+1.0	Rhaenys	accidentally warged before	Rhaenys death
+1.0	everybody	in	business
+1.0	Targaryens -LRB- like Starks -RRB-	has	cat
+1.0	Targaryens -LRB- like Starks -RRB-	has	stray cat
+1.0	-RRB-	has	stray
+1.0	Targaryens -LRB- like Starks -RRB-	has	just stray cat
+1.0	Targaryens -LRB- like Starks -RRB-	has	just cat
+1.0	Missandei	is	Faceless
+1.0	Missandei	is	Man
+1.0	Missandei	is	Faceless Man
+1.0	She	has	wise
+1.0	She	's so wise for	She age
+1.0	She	has	so wise
+1.0	She	's wise for	She age
+1.0	She	sees	everything
+1.0	Lord Varys	is	merman
+1.0	theory	is	too hilarious
+1.0	theory	is	just too hilarious
+1.0	theory	is hilarious	largely treated
+1.0	theory	is hilarious	largely treated as joke
+1.0	Varys	has	treated
+1.0	Varys	has	largely treated
+1.0	theory	is just hilarious	treated
+1.0	theory	is just too hilarious	treated
+1.0	theory	is just hilarious	largely treated as joke
+1.0	theory	is just hilarious	treated as joke
+1.0	theory	is just too hilarious	treated as joke
+1.0	Varys	's largely treated as	joke
+1.0	theory	is too hilarious	treated as joke
+1.0	theory	is just too hilarious	largely treated as joke
+1.0	Varys	's treated as	joke
+1.0	theory	is too hilarious	treated
+1.0	theory	is hilarious	treated as joke
+1.0	theory	is	just hilarious
+1.0	theory	is just hilarious	largely treated
+1.0	theory	is too hilarious	largely treated as joke
+1.0	theory	is too hilarious	largely treated
+1.0	theory	is	hilarious
+1.0	theory	is hilarious	treated
+1.0	theory	is just too hilarious	largely treated
+1.0	Varys dragons	come to	Westeros
+1.0	Varys	is helping	Daenerys
+1.0	Varys	is helping Daenerys In	short
+1.0	Varys	wants	Varys dragons
+1.0	Jorah Mormont	is	Azor Ahai
+1.0	guy who 's going to save world from White Walkers	kill	Daenerys
+1.0	Melisandre	has	theory
+1.0	guy who 's going to save world from White Walkers	kill Daenerys in	process
+1.0	Tolkien	has	Middle-earth
+1.0	way	is in	the future
+1.0	Westeros	way in	future
+1.0	Westeros	is	J.R.R. Tolkien 's Middle-earth
+1.0	Mordor	became	Valyria
+1.0	Hobbits	Children of	Forest
+1.0	Hobbits	became	Children
+1.0	Hobbits	became	Children of Forest
+1.0	traveler	come from	future
+1.0	Quaithe	is time	traveler come
+1.0	Quaithe	is time	traveler come from future
+0.8568901545512804	you	rule of	time travel
+1.0	you past self	see	you future self
+1.0	Quaithe	hide	Daenerys true identity
+1.0	Quaithe	hide	Daenerys identity
+0.8568901545512804	you	first rule of	time travel
+1.0	Hermione	knows	all this theory
+1.0	Hermione	knows	all theory
+1.0	Hermione	knows	all
+1.0	Meera Reed	are	twins
+1.0	Jon Snow	are	twins
+1.0	Meera 's dad Howland Reed	was	person
+1.0	Ned 's sister Lyanna	handed over	Ned 's sister Lyanna baby
+1.0	Lyanna	is sister of	Ned
+1.0	Meera	has	Howland Reed
+1.0	her	baby	Jon Snow
+1.0	Meera 's dad Howland Reed	was person at	Tower of Joy with Ned Stark
+1.0	Ned	has	Lyanna
+1.0	Meera 's dad Howland Reed	was only person at	Tower with Ned Stark
+1.0	Meera 's dad Howland Reed	was person at	Tower with Ned Stark
+1.0	Meera 's dad Howland Reed	was	only person
+1.0	Meera 's dad Howland Reed	was only person at	Tower of Joy with Ned Stark
+1.0	Tower	is with	Ned Stark
+1.0	Ned 's sister Lyanna	handed over	Jon Snow
+1.0	Howland Reed	is dad of	Meera
+1.0	Ned 's sister Lyanna	begged	Ned
+1.0	Ned 's sister Lyanna	raise	Ned 's sister Lyanna
+1.0	Lyanna	had	baby
+1.0	Ned 's sister Lyanna	raise Ned 's sister Lyanna as	Ned Stark own
+0.6991905011718195	Ned	take	Ned 's sister Lyanna
+1.0	Ned	asked	Howland
+1.0	Lyanna	had	second baby
+1.0	This	means	everything
+1.0	Varys	are	how caught in Varys and Littlefinger game of thrones
+1.0	Varys	are	caught in Varys and Littlefinger game
+1.0	Varys	are	how basically caught in Varys and Littlefinger own game
+1.0	Varys	are	caught in Varys and Littlefinger own game
+1.0	Varys	are	caught in Varys and Littlefinger own game of thrones
+1.0	Varys	are	how basically caught in Varys and Littlefinger game
+1.0	Varys	are	how basically caught in Varys and Littlefinger own game of thrones
+1.0	Varys	are	basically caught in Varys and Littlefinger game
+1.0	Varys	are	how caught in Varys and Littlefinger own game
+1.0	Varys	are	how caught in Varys and Littlefinger own game of thrones
+1.0	Varys	are	how caught in Varys and Littlefinger game
+1.0	Varys	are	basically caught in Varys and Littlefinger own game of thrones
+1.0	Varys	are	caught in Varys and Littlefinger game of thrones
+1.0	Varys	are	how basically caught in Varys and Littlefinger game of thrones
+1.0	Varys	are	basically caught in Varys and Littlefinger own game
+1.0	Varys	are	basically caught in Varys and Littlefinger game of thrones
+1.0	Littlefinger 's	wants	power
+1.0	Littlefinger	doing	Varys and Littlefinger
+1.0	Varys	is	merman
+1.0	Varys	free	Varys fellow merpeople
+1.0	You	heard	right
+1.0	Varys	traveled from	Dorne
+1.0	Varys	traveled to	Dany 's ship
+1.0	Dany	to	ship
+1.0	showrunners	have chalked theory up to	pacing
+1.0	Varys	has	tail
+1.0	showrunners	have chalked up	theory
+1.0	Varys	actually has	tail
+1.0	Dany 's dragons	melt	ice
+0.6719117544191839	Dany 's dragons	ice in	North
+1.0	Dany 's dragons	melt	ice in North
+1.0	Dany	has	dragons
+1.0	ice	is in	North
+1.0	Jon Snow	thus also heir to	throne of Westeros
+1.0	one	is	very well known
+1.0	Jon Snow	son of	Lyanna Stark
+1.0	one	is	known
+1.0	one	is	well known
+1.0	Lyanna	has	child
+1.0	Jon Snow	is	Lyanna 's child
+1.0	Rhaegar	is	father
+1.0	it	's confirmed In	season 6 finale
+1.0	it	has	confirmed
+1.0	Mad King	go	mad
+1.0	Bran Stark	caused	Mad King
+1.0	theory	gained	prominence
+1.0	Bran	inadvertently went back in	time
+1.0	Bran	inadvertently went in	something
+1.0	Bran	inadvertently went back in	something
+1.0	Bran	caused	Hodor
+1.0	Hodor	lose	Hodor mind
+1.0	Bran	inadvertently went in	time
+1.0	Bran	went back in	something
+1.0	Bran	went in	something
+1.0	Bran	went in	time
+1.0	Bran	went back in	time
+1.0	theory	gained	more prominence
+1.0	King	has	Landing
+1.0	Hodor	tell	Aerys
+1.0	Aerys	burn	White Walkers
+1.0	time-traveling Bran	warged Hodor into	Jaime Lannister
+1.0	Bran	also warged Hodor into	Jaime Lannister
+1.0	time-traveling Bran	also warged Hodor into	Jaime Lannister
+1.0	Bran	prevent	future
+1.0	Bran	prevent	cataclysmic future
+1.0	time-traveling Bran	prevent	even more cataclysmic future
+1.0	Bran	warged Hodor into	Jaime Lannister
+1.0	time-traveling Bran	pushed out	Jaime Lannister
+1.0	Bran	pushed out	window
+1.0	Bran	prevent	more cataclysmic future
+1.0	Bran	pushed out	Jaime Lannister
+1.0	time-traveling Bran	pushed out	window
+1.0	time-traveling Bran	prevent	more cataclysmic future
+1.0	time-traveling Bran	prevent	cataclysmic future
+1.0	time-traveling Bran	prevent	future
+1.0	Bran	prevent	even more cataclysmic future
+1.0	Mad King Aerys	raped	Joanna Lannister
+1.0	Tywin 's total hatred	So has	deeper motivations
+1.0	Tywin	has	total hatred for dude
+1.0	Mad King Aerys	has	dwarf
+1.0	Joanna	giving	birth
+1.0	Joanna	giving birth to	Mad King Aerys
+1.0	Tywin 's hatred	has	deeper motivations
+1.0	Tywin 's total hatred	has	deeper motivations
+1.0	Tywin 's hatred	So has	deeper motivations
+1.0	Joanna	giving birth to	the Mad King Aerys
+1.0	Meera Reed	is	Jon Snow 's sister Ned Stark 's trip to Tower of Joy
+1.0	Meera Reed	is	Jon Snow 's twin sister Ned Stark 's trip to Tower
+1.0	Lyanna	gave	birth
+1.0	Ned Stark	has	trip to Tower of Joy
+1.0	Meera Reed	is	Jon Snow 's sister Ned Stark 's trip
+1.0	Meera Reed	is	Jon Snow 's twin sister Ned Stark 's trip to Tower of Joy
+1.0	Jon Snow	has	Ned Stark
+1.0	Meera Reed	is	Jon Snow 's twin sister Ned Stark 's trip
+1.0	Meera Reed	is	Jon Snow 's sister Ned Stark 's trip to Tower
+1.0	Meera 's father Howland	was at	Tower of Joy after all
+1.0	Meera 's alleged father Howland	was at	Tower after all
+1.0	Meera 's alleged father Howland	was at	Tower of Joy after all
+1.0	Meera 's father Howland	was at	also Tower
+1.0	Meera 's alleged father Howland	was at	Tower of Joy
+1.0	Meera 's alleged father Howland	was at	also Tower after all
+1.0	Meera 's father Howland	was at	also Tower of Joy
+1.0	Meera 's father Howland	was at	Tower after all
+1.0	Meera 's alleged father Howland	was at	also Tower
+1.0	Meera 's alleged father Howland	was at	also Tower of Joy
+1.0	Meera 's father Howland	was at	Tower
+1.0	Meera 's father Howland	was at	also Tower after all
+1.0	Meera	has	Howland
+1.0	Meera 's alleged father Howland	was at	Tower
+1.0	Meera 's alleged father Howland	was at	also Tower of Joy after all
+1.0	Meera 's father Howland	was at	also Tower of Joy after all
+1.0	Meera 's father Howland	was at	Tower of Joy
+1.0	they	're	Luke Skywalker
+1.0	Faceless Men	have	part play in endgame
+1.0	Men	have	big part play in endgame
+1.0	Men	have	part play in endgame of Game
+1.0	Men	have	big part play in endgame of Game
+1.0	Men	have	part play in endgame of Game of Thrones
+1.0	Men	have	big part play
+1.0	Men	have	big part play in endgame of Game of Thrones
+1.0	Faceless Men	have	part play
+1.0	Faceless Men	have	part play in endgame of Game
+1.0	Faceless Men	have	big part play in endgame of Game
+1.0	Faceless Men	have	big part play
+1.0	Faceless Men	have	big part play in endgame of Game of Thrones
+1.0	Missandei	is	Faceless
+1.0	Men	have	part play in endgame
+1.0	Faceless Men	have	big part play in endgame
+1.0	Faceless Men	have	part play in endgame of Game of Thrones
+1.0	Arya	has	whole arc
+1.0	Men	have	part play
+1.0	these	are	Faceless Men traits
+1.0	Missandei	has	nearly-always-consistent tone
+1.0	Missandei	has	tone
+1.0	Missandei	has	tone of voice
+1.0	Missandei	has	nearly-always-consistent tone of voice
+1.0	House Umber	is	part
+1.0	Osha	saw	Osha
+1.0	Osha	saw lord Smalljon Umber drag Rickon Stark In	season 6
+1.0	Osha	saw	lord Smalljon Umber drag Rickon Stark
+1.0	Osha	saw Osha in front of	Ramsay Bolton
+1.0	House Umber	has	loyalty to Ramsay as Warden of North
+1.0	Osha	saw lord Smalljon Umber drag Rickon Stark in front of	Ramsay Bolton
+1.0	Osha	saw Osha In	season 6
+1.0	Ramsay	has	hand
+1.0	House Umber	are part of	group of houses prepping
+1.0	House Umber	remains	loyal to Starks
+1.0	House Umber	are part of	group of houses
+1.0	House Umber	remains	loyal
+1.0	House Umber	maybe remains	loyal to Starks
+1.0	House Umber	are part of	group
+1.0	House Umber	are	part
+1.0	House Umber	maybe remains	loyal
+0.07149773898788192	we	can safely consider With	Rickon dead
+0.07149773898788192	we	can consider With	Rickon dead
+1.0	we	can consider	one DEBUNKED
+0.07149773898788192	we	can consider With	dead
+1.0	we	can safely consider	one DEBUNKED
+0.07149773898788192	we	can safely consider With	dead
+1.0	Jaime	will kill Cersei Way in	day
+1.0	Tommen	will kill Cersei Way back in	day
+1.0	Jaime	will kill Cersei Way back in	day
+1.0	Tommen	will kill back	Cersei Way
+1.0	Tommen	will kill Cersei Way in	day
+1.0	Tommen	will kill	Cersei Way
+1.0	Jaime	will kill	Cersei Way
+1.0	Jaime	will kill back	Cersei Way
+1.0	Cersei	would	would killed
+1.0	Cersei	would	after which would killed
+1.0	Sparrow	getting	his hooks
+1.0	it	could	could Tommen
+1.0	High Sparrow	getting	his hooks
+1.0	previous Daario	was	hot
+1.0	the previous Daario	was	too hot
+1.0	Daario	was	When recast
+1.0	previous Daario	was	too hot
+1.0	Daario	was	When recast after one season
+1.0	reason	was	hot
+1.0	Daario	was	recast
+1.0	reason	was	too hot
+1.0	Daario	was recast after	one season
+1.0	previous Daario	Well looks	completely different
+1.0	previous Daario	awful lot like	version
+1.0	previous Daario	looks	completely different
+1.0	previous Daario	Well looks	different
+1.0	previous Daario	Well looks from	Daario
+1.0	previous Daario	lot like	younger version
+1.0	previous Daario	looks	different
+1.0	previous Daario	looks from	previous Daario
+1.0	previous Daario	Well looks from	previous Daario
+1.0	previous Daario	lot like	version
+1.0	previous Daario	looks from	Daario
+1.0	previous Daario	awful lot like	younger version
+1.0	previous Daario	's doing	task
+1.0	previous Daario	Maybe 's doing	task
+1.0	This	be	weird
+0.8206110488871907	return	Blood of	My Blood
+1.0	ridiculous theory	is	DEBUNKED
+1.0	UPDATE	saw As of	May 29 episode
+1.0	theory	is	DEBUNKED
+1.0	return	is in	Westeros
+1.0	Bran	become	Three-Eyed Raven
+1.0	Bran	will travel back in	time
+1.0	Bran	will travel in	time
+1.0	Three-Eyed Raven	says to	Bran
+1.0	Three-Eyed Raven	says during	season 6 episode
+1.0	Bran	taking over	role
+1.0	Bran	's more literal than	that
+1.0	Bran	maybe 's literal than	that
+1.0	Bran	's literal than	that
+1.0	Bran	maybe 's more literal than	that
+1.0	Bran	has	maybe more literal
+1.0	Bran	has	maybe literal
+1.0	Bran	has	more literal
+1.0	Bran	has	literal
+1.0	Lady Stoneheart	is leading	them
+1.0	Bran	traveled back to	events in May 8 episode
+1.0	Mad King	go	mad
+1.0	Bran	was	able
+1.0	Bran	traveled back to	events
+1.0	Bran	traveled to	events in May 8 episode
+1.0	Bran	traveled back to	events outside Tower of Joy in May 8 episode
+1.0	Three-Eyed Raven	traveled to	events outside Tower of Joy in May 8 episode
+1.0	Bran	traveled back to	events outside Tower of Joy
+1.0	Bran	traveled back to	events outside Tower
+1.0	Three-Eyed Raven	traveled back to	events outside Tower of Joy
+1.0	Bran	was	apparently able
+1.0	Bran	traveled to	events outside Tower of Joy in May 8 episode
+1.0	Three-Eyed Raven	traveled to	events
+1.0	Three-Eyed Raven	traveled to	events in May 8 episode
+1.0	Three-Eyed Raven	traveled back to	events outside Tower
+1.0	Bran	traveled to	events outside Tower of Joy
+1.0	Three-Eyed Raven	traveled back to	events in May 8 episode
+1.0	Bran	traveled back to	events outside Tower in May 8 episode
+1.0	his	father	Ned Stark
+1.0	Three-Eyed Raven	traveled back to	events
+1.0	events	is in	May 8 episode
+1.0	Three-Eyed Raven	traveled back to	events outside Tower in May 8 episode
+1.0	Three-Eyed Raven	traveled to	events outside Tower of Joy
+1.0	Three-Eyed Raven	traveled to	events outside Tower in May 8 episode
+1.0	Bran	traveled to	events outside Tower in May 8 episode
+1.0	Bran	traveled to	events
+1.0	Three-Eyed Raven	traveled back to	events outside Tower of Joy in May 8 episode
+1.0	Bran	traveled to	events outside Tower
+1.0	Three-Eyed Raven	traveled to	events outside Tower
+1.0	this	is	very possible
+1.0	Clegane	hates	Clegane brother
+1.0	Clegane	hates	Mountain
+1.0	Clegane	really hates	Clegane older brother
+0.6912406597750768	younger Clegane	known as	Hound
+1.0	younger Clegane	really hates	Clegane brother
+0.6912406597750768	Clegane	known as	Hound
+1.0	younger Clegane	really hates	Mountain
+1.0	Clegane	hates	Clegane older brother
+1.0	younger Clegane	really hates	Clegane older brother
+1.0	younger Clegane	hates	Clegane older brother
+1.0	Clegane	really hates	Mountain
+1.0	younger Clegane	hates	Clegane brother
+1.0	Clegane	really hates	Clegane brother
+1.0	younger Clegane	hates	Mountain
+1.0	his	brother	Mountain
+1.0	both	are	alive
+1.0	both	are	again alive
+1.0	Both	were	thought
+1.0	Both	were thought	dead
+1.0	Dragonglass	is pooped out by	dragons
+1.0	Dragonglass	has	funny
+1.0	Bran	travels to	past
+1.0	this	is	good
+1.0	Builder	is	legendary
+1.0	Sansa	told	Jon Snow
+1.0	Sansa	told Jon Snow about	residual effect of Ramsay 's horrific abuse of Sansa
+1.0	Ramsay	of	horrific sexual abuse of Sansa
+1.0	Sansa	told Jon Snow about	residual effect of Ramsay 's sexual abuse
+1.0	Sansa	told Jon Snow about	residual effect of Ramsay 's horrific sexual abuse
+1.0	Sansa	told Jon Snow about	effect
+1.0	Sansa	told Jon Snow about	residual effect of Ramsay 's sexual abuse of Sansa
+1.0	Sansa	told Jon Snow about	residual effect
+1.0	Ramsay Bolton	with	child
+1.0	Sansa	told Jon Snow about	effect of Ramsay 's horrific abuse of Sansa
+1.0	Sansa	told Jon Snow about	effect of Ramsay 's horrific sexual abuse
+1.0	Sansa	told Jon Snow about	effect of Ramsay 's sexual abuse
+1.0	Sansa	told Jon Snow about	residual effect of Ramsay 's abuse of Sansa
+1.0	Sansa	told Jon Snow about	effect of Ramsay 's sexual abuse of Sansa
+1.0	Sansa	told Jon Snow about	effect of Ramsay 's abuse of Sansa
+1.0	Sansa	told Jon Snow about	effect of Ramsay 's abuse
+1.0	Sansa	told Jon Snow about	residual effect of Ramsay 's horrific abuse
+1.0	Sansa	told Jon Snow about	effect of Ramsay 's horrific sexual abuse of Sansa
+1.0	Sansa	told Jon Snow about	residual effect of Ramsay 's abuse
+1.0	Sansa	told Jon Snow about	effect of Ramsay 's horrific abuse
+1.0	Sansa	told Jon Snow about	residual effect of Ramsay 's horrific sexual abuse of Sansa
+1.0	house	be	enticing
+1.0	Jaimie	is well loved by	ladies
+1.0	Jaimie	is	loved
+1.0	Jamie lannister richest house in Westeros	is	also common knowledge
+1.0	Jamie lannister The richest house	is in	Westeros
+1.0	Jamie lannister richest house in Westeros	is	common knowledge
+1.0	Jaimie	is	well loved
+1.0	Jamie lannister richest house in Westeros	is	also knowledge
+1.0	Jamie lannister richest house in Westeros	is	knowledge
+1.0	Jaimie	is loved by	ladies
+1.0	Dany	could look	past
+1.0	Dany	banging	Dany sister
+1.0	Dany	could just look	past
+1.0	Dany	fathering	bastards
+1.0	her	father	Mad King
+1.0	Dany	oh stabbed	Mad King
+1.0	Dany	oh yeah stabbed	Mad King
+1.0	Dany	stabbed	her father
+1.0	Dany	stabbed	Mad King
+1.0	Dany	oh yeah stabbed	her father
+1.0	Dany	oh stabbed	her father
+1.0	his	snake	Euron
+1.0	I	could see	happening on list for reason
+1.0	I	could see	happening on list for simple reason
+1.0	I	happening on	list for simple reason
+1.0	I	could see	happening
+1.0	Theon	met	Dany
+1.0	Theon sister	turned Theon against	Euron
+1.0	I	happening on	list
+1.0	I	could see	happening on list
+1.0	Theon sister	turned	Theon
+1.0	I	happening on	list for reason
+0.11982177299755592	Theon sister	turned against	Euron
+1.0	Theon	already met	Dany
+1.0	my dark horse	is in	marry Daenarys sweepstakes
+1.0	Finger	is	such
+1.0	opportunity	should present	opportunity
+0.9392849493147256	someway	toss	name
+0.9392849493147256	someway	toss	he name
+0.9392849493147256	someway	toss name into	running
+1.0	Dany	definitely gives	Jon
+1.0	Dany	gives	legitimate shot becoming
+1.0	rival Dany	gives	legitimate shot becoming
+1.0	Dany	definitely gives	legitimate shot becoming
+1.0	Jon Snow	Being	only character
+1.0	rival Dany	definitely gives	shot becoming
+0.6994818254569208	Jon	legitimate shot	becoming
+1.0	Jon Snow	Being	only character big enough
+0.6549972125067753	rival Dany	shot	becoming
+0.6549972125067753	Dany	shot	becoming
+0.6549972125067753	Dany	legitimate shot	becoming
+1.0	Jon Snow	Being	character big enough
+1.0	rival Dany	gives	shot becoming
+1.0	Dany	definitely gives	shot becoming
+0.6994818254569208	Jon	shot	becoming
+1.0	rival Dany	definitely gives	Jon
+1.0	Jon Snow	Being	character
+1.0	Dany	gives	shot becoming
+1.0	Jon Snow	Being	character big
+1.0	Jon Snow	Being	only character big
+0.6549972125067753	rival Dany	legitimate shot	becoming
+1.0	rival Dany	definitely gives	legitimate shot becoming
+1.0	rival Dany	gives	Jon
+1.0	Dany	gives	Jon
+1.0	problems	is with	match
+1.0	Rhaegar Targaryan	has	son
+1.0	that	make	Rhaegar Targaryan 's son
+1.0	that	make	Dany Rhaegar Targaryan 's aunt
+1.0	Jon	is	Rhaegar Targaryan 's son
+1.0	Starks	felt about	that
+0.524607081580468	trouble	seeing	pairing work
+1.0	Rhaegar Targaryan 's	have	trouble
+1.0	King	in	Landing for rest of days
+0.5523995115570303	picture	sitting on	throne
+0.7392854537168391	Daenarys	sitting on	throne
+0.7392854537168391	Daenarys	sitting in	Winterfell
+0.5523995115570303	picture	sitting in	Winterfell
+1.0	Jon	would do	similar
+1.0	Rhaegar Targaryan 's	think at	point
+1.0	Jon	would do	similar to Ned Stark
+1.0	point	is in	show
+1.0	legend	is	often forgotten
+1.0	legend	is often forgotten in	Song of Ice
+1.0	legend	is forgotten in	Song
+1.0	legend	is often forgotten in	Song
+1.0	legend	is forgotten in	Song of Ice
+1.0	legend	is	forgotten
+1.0	Sam Tarly story	is	lost
+1.0	Sam Tarly story	is lost amongst	tales
+1.0	Sam Tarly story	is lost amongst	tales of dragons
+1.0	Sam	has lived in	shadow of Jon Snow
+1.0	Sam	has often lived in	shadow of Jon Snow
+1.0	Sam Tarly	had arrived with	Gilly
+1.0	Sam Tarly	had arrived at	Citadel in Old Town
+1.0	Citadel	is in	Old Town
+1.0	Sam Tarly	had arrived at	Citadel
+1.0	Sam Tarly	become	Maester to Castle Black
+1.0	Sam Tarly	become	Maester
+0.6418350955990179	we	see	Sam standing in massive library
+1.0	Sam standing	is in	massive library
+0.6418350955990179	we	see	Sam standing
+0.6418350955990179	we	see Sam standing at	end of season 6
+0.6418350955990179	we	see Sam standing at	end
+0.6418350955990179	we	see	Sam standing in library
+1.0	Sam 's plotline	is in	season 7
+1.0	Sam	has	plotline in season 7
+1.0	It	's too far of	stretch assume
+1.0	It	's far of	stretch assume
+1.0	It	has	too far
+1.0	It	has	far
+1.0	Old Town	was good place	hide from Cersei
+1.0	Town	was	good
+1.0	Old Town	was good place	hide
+1.0	Old Town	was place	hide from Cersei
+1.0	Old Town	was place	hide
+0.913625080387449	last little tidbit with Gendry	bring back	Gendry
+1.0	last little tidbit	is with	Gendry
+0.913625080387449	last little tidbit with Gendry	bring	Gendry
+1.0	Gendry	make	Sam Tarly relevant
+1.0	Gendry	make	Sam Tarly relevant quickly
+1.0	Gendry	make	Sam Tarly relevant relatively quickly
+1.0	tidbit	is	enormous
+1.0	Gendry	has	crazy
+1.0	Hound	Brothers Without	banners
+1.0	ton	is in	River lands
+1.0	Melisandre	has	burned face partner
+1.0	Melisandre	has	huge burned face partner
+1.0	Melisandre	has	huge face partner
+1.0	Melisandre	has	face partner
+1.0	Melisandre	has face partner in	plot
+1.0	prediction	seems	fate of lost child
+1.0	prediction	just seems	fate
+1.0	prediction	fate of	lost child
+1.0	prediction	seems	fate of child
+1.0	Melisandre	has	I favorite character
+1.0	prediction	just seems	fate of lost child
+1.0	prediction	seems	fate
+1.0	prediction	just seems	fate of child
+1.0	Melisandre	has	I character
+1.0	prediction	fate of	child
+1.0	I	making	prediction
+1.0	Jon	by	side
+1.0	Melisandre	serves	Hounds hand
+1.0	Hounds	help Jon in	fight
+1.0	Melisandre	serves	Hounds right hand
+1.0	Hound	takes over as	BWB Hound takes over as their leader -LRB- another theory I 'll bring up later -RRB- and she serves as Hounds right hand and they ride North to help Jon in big fight leader
+1.0	Melisandre	kills	leaders
+1.0	I	see to	this
+1.0	Hounds	help Jon in	big fight
+1.0	Hounds	help	Jon
+1.0	Gendry	will become	legitimized
+1.0	Gendry	marry	Sansa Stark
+1.0	This	hear out	me
+1.0	Gendry	legitimized as	Baratheon
+1.0	Gendry	will become	legitimized as Baratheon
+1.0	Gendry	is	Robert Baratheons
+1.0	Gendry	is	Robert Baratheons oldest
+0.9696406928334722	we	were	shown
+1.0	Joffrey	order	city watch
+1.0	Cersei	told	Joffrey
+1.0	Kings Landing	head up north to	Wall
+1.0	Gendry	leaving	Kings Landing
+1.0	Gendry	escaped	massacre
+1.0	Kings Landing	head up to	Wall
+1.0	Gendry	only escaped	massacre
+1.0	Sam Tarly	was	first taken
+1.0	Sam Tarly	was taken on	road
+1.0	Sam Tarly	was	on road taken by gold cloaks
+1.0	Sam Tarly	was	on road taken by gold cloaks to Harrenhal
+1.0	Sam Tarly	was taken by	gold cloaks
+1.0	Sam Tarly	was	taken
+1.0	Sam Tarly	was first taken by	gold cloaks to Harrenhal
+1.0	Sam Tarly	was first taken by	gold cloaks
+1.0	Dragonstone	is with	Stannis Baratheon
+1.0	Sam Tarly	was taken by	gold cloaks to Harrenhal
+1.0	Onion Knight Sir Davos	is	helps
+1.0	Sam Tarly	puts	Sam Tarly
+1.0	Gendry	is	helps
+1.0	Sam Tarly	puts Sam Tarly on	rowboat in blackwater bay
+1.0	rowboat	is in	blackwater bay
+1.0	Sam Tarly	puts Sam Tarly on	rowboat
+0.11945873530819895	Sam Tarly	return to	Kings Landing knowing
+1.0	Sam Tarly	return to	Kings Landing
+1.0	Sam Tarly	attained	courtesy of Melisandre
+0.5758315603460424	Sam Tarly	courtesy of	Melisandre
+1.0	Sam Tarly	attained	courtesy
+1.0	it	has	possible
+1.0	Sam Tarly	ran in	Riverlands
+1.0	it	has	also possible
+1.0	Sam Tarly	ran back in	Riverlands
+1.0	Sam Tarly	ran without	Banners
+1.0	Sam Tarly	ran back to	Brotherhood
+1.0	Sam Tarly	ran back without	Banners
+1.0	Sam Tarly	ran in	anywhere Riverlands
+1.0	Sam Tarly	ran to	Brotherhood
+1.0	Sam Tarly	ran back in	anywhere Riverlands
+1.0	speculation	has	gone
+1.0	complete speculation	has	ever gone
+1.0	speculation	has	Where gone
+1.0	complete speculation	has	gone
+1.0	speculation	has	Where ever gone
+1.0	complete speculation	has	Where gone
+1.0	speculation	has	ever gone
+1.0	complete speculation	has	Where ever gone
+1.0	no Baratheons whatsoever in existence house	is	extinct
+1.0	house	is	extinct
+1.0	last bit	is in	world
+1.0	Sam Tarly	be	legitimized
+1.0	Storm	to	End
+1.0	Sam Tarly	could make	claim
+1.0	Sam Tarly	were	legitimized
+1.0	Sam Tarly	could make claim	Sam Tarly were
+1.0	I	like	think
+1.0	Gendry	inherit	large Baratheon army
+1.0	Gendry	would become	legitimized
+1.0	Gendry	inherit	Baratheon army
+1.0	Sansa Stark	is going in	seventh season
+1.0	Sansa Stark	is going	have
+1.0	Sansa Stark	is going At	point
+1.0	Sansa Stark	is going in	season
+1.0	Sansa Stark	have	be looking at possible suitors
+1.0	Sansa Stark	have	be looking
+1.0	Jon Snow	offspring of	Lyanna Stark
+1.0	none	had	claim
+1.0	King Robert Baratheon	died upon	Once season
+0.8343199165675379	claim	none of	Ned Stark children
+1.0	King Robert Baratheon	died upon	season
+1.0	none	had	claim to iron throne
+1.0	secret	was revealed by	Ned Stark
+1.0	event	led	believing
+1.0	Stannis	is to	Roberts
+1.0	Stannis	is brother of	Roberts
+1.0	event	led to	Roberts brother Stannis
+1.0	Storm	from	End
+1.0	Ned Stark	gathers	100,000 men
+1.0	Ned Stark	make	king
+0.7864818559386649	Ned Stark	king than	Stannis
+1.0	Ned Stark	make	better king
+1.0	Ned Stark	make	king than Stannis
+1.0	Ned Stark	make	better king than Stannis
+1.0	Reach	is with	purpose taking for himself
+0.7864818559386649	Ned Stark	better king than	Stannis
+1.0	Brienne	is of	Tarth
+1.0	Renly	meets	Brienne
+1.0	Renly	meets	Brienne of Tarth
+0.7169678120062493	Renly	Brienne of	Tarth
+1.0	Stannis	is around	Roberts
+1.0	Stannis	is death of	Roberts
+1.0	Melisandre	talk	Stannis
+0.07965261146369207	Melisandre	manages	talk
+1.0	his	God	LoL
+1.0	Stannis	have sex After	meeting
+1.0	Melisandre	have sex After	meeting
+1.0	Melisandre	have	sex
+1.0	Stannis	have	sex
+1.0	knight sir Davos	takes Melisandre on	row boat
+1.0	Melisandre	is	extremely pregnant
+1.0	Melisandre	is	extremely pregnant
+1.0	onion knight sir Davos	takes Melisandre at_time	night
+1.0	knight sir Davos	takes	Melisandre
+1.0	Melisandre	is	pregnant
+1.0	knight sir Davos	takes Melisandre at_time	night
+1.0	onion knight sir Davos	takes	Melisandre
+1.0	Melisandre	is	extremely extremely pregnant
+1.0	Melisandre	gets	naked
+1.0	onion knight sir Davos	takes Melisandre on	row boat
+1.0	Davos	watches	Melisandre goes
+1.0	Melisandre	goes on	ground
+1.0	Davos	watches	Melisandre goes into labor
+1.0	Davos	watches	Melisandre goes into labor on ground
+1.0	Melisandre	pushes out	shadowy demon
+1.0	Melisandre	goes into	labor
+1.0	Melisandre	pushes out	demon
+1.0	Davos	watches	Melisandre goes on ground
+1.0	Renly Baratheon	stabbed to	death
+1.0	we	see at_time	night
+1.0	we	see at_time	Later night
+1.0	event	is	witnessed
+1.0	event	is witnessed by	Brienne
+1.0	Melisandre	is searching for	Gendry
+1.0	Melisandre	Sometime is searching for	Gendry
+1.0	Melisandre	Sometime is searching for	Robert Baratheons bastard
+1.0	Melisandre	is searching for	Robert Baratheons bastard
+1.0	Melisandre briefly	speaks	saying
+0.9274662478048005	Brienne	been	just banished
+1.0	Jon	for	battle against Ramsey
+0.9274662478048005	Brienne	just been banished by	Jon
+0.9274662478048005	Brienne	been	banished
+0.9274662478048005	Brienne	been	banished from North by Jon
+0.9274662478048005	Brienne	been banished by	Jon
+0.9274662478048005	Brienne	just been banished from	North
+0.9274662478048005	Brienne	been	just banished from North by Jon
+0.9274662478048005	Brienne	been banished from	North
+1.0	certain little girl near Riverlands	were cakes at	Towers
+1.0	certain little girl near Riverlands	were	hot cakes
+1.0	certain little girl near Riverlands	were	cakes
+1.0	certain little girl near Riverlands	were hot cakes at	Towers
+1.0	we	saw	Frey 's
+1.0	Arya Stark	was murdering	Frey
+1.0	Brienne	is of	Tarth
+1.0	two	run into	Melisandre
+1.0	Brienne	forgive	Melisandre
+0.9126831410843536	I	really doubt	to Roberts brother Stannis
+0.8460707508550883	Frey 's	having already killed	Stannis
+1.0	Frey 's	joins up with	BWB
+1.0	Frey 's	forgive	Melisandre
+1.0	I think	is	inevitable
+1.0	Jaime Lannister	did with	Mad King
+1.0	King	in	Landing
+1.0	Jaime Lannister	be forced	much Jaime Lannister did
+1.0	Jaime Lannister	much did with	Mad King
+1.0	Jaime Lannister	did	show began
+1.0	load	is in	King 's Landing
+1.0	Jaime	kill	Cersei
+1.0	Jaime Lannister	be forced	much Jaime Lannister did with Mad King
+1.0	Jaime Lannister	much did	show began
+1.0	Jaime Lannister	be	forced
+1.0	Jaime	kill Cersei at_time	season
+1.0	Jaime	kill Cersei at_time	Earlier season
+1.0	Jaime Lannister	kill	Jaime Lannister sister/lover
+1.0	Jaime Lannister	be forced	Jaime Lannister did with Mad King
+1.0	Jaime Lannister	be forced	Jaime Lannister did
+1.0	Cersei	tore down	Great Sept
+1.0	Cersei	carried out	Jaime Lannister plan
+1.0	Cersei	being halted by	anyone
+1.0	Cersei	tore down Sept rather than	whole
+1.0	Cersei	tore down	Sept
+1.0	Cersei	being	halted
+1.0	Cersei	tore down	Sept of Baelor
+1.0	Cersei	tore down	Great Sept of Baelor
+1.0	it	elevated	Jaime Lannister
+1.0	it	had led to	death of their child Tommen
+1.0	it	elevated Jaime Lannister to	Iron Throne
+1.0	Jaime	returned	how it had led to death of their last child Tommen
+1.0	Jaime	returned	how it had led
+1.0	Jaime	returned	it had led
+1.0	Jaime	returned	how it had led to death of their child Tommen
+1.0	it	had led to	death
+1.0	Jaime	looked on in	horror
+1.0	it	had led to	death of their last child Tommen
+1.0	Jaime	returned	it had led to death
+1.0	Jaime	returned	how it had led to death
+1.0	Jaime	returned	it had led to death of their child Tommen
+1.0	Jaime	returned	it had led to death of their last child Tommen
+1.0	Cersei	was told in	flashback
+1.0	Cersei	was	In show told in flashback by woman
+1.0	Cersei	was	told in flashback by woman
+1.0	Cersei	was	In show told in flashback
+1.0	Jaime	Maybe will finally see	sense
+1.0	his	's meant	Brienne
+1.0	Jaime	Maybe will see	sense
+1.0	Jaime	will see	sense
+1.0	his	be with	Brienne
+1.0	Jaime	will finally see	sense
+1.0	his	has	meant
+1.0	none	having	legitimate claim to iron throne
+1.0	Cersei Lannister	of	children
+0.886525722877793	Ned Stark	was put in	charge
+0.886525722877793	Ned Stark	was	put
+0.886525722877793	Ned Stark	was put in	charge of Seven Kingdoms
+0.886525722877793	Ned Stark	was put	either
+1.0	Ned Stark	learned	listening
+1.0	Ned Stark	learned	listening to troubles of people
+1.0	Ned Stark	listening to	troubles
+1.0	Ned Stark	learned	listening to troubles
+1.0	Ned Stark	learned of	Sir Gregor
+1.0	Ned Stark	listening to	troubles of people
+1.0	Ned	demand	Ned Stark arrest
+0.26364370487195143	Ned	need	strike swiftly
+1.0	Mountain	was	Tywin Lannister 's personal bodyguard
+1.0	Tywin Lannister	has	personal bodyguard
+1.0	Mountain	was	Tywin Lannister 's bodyguard
+0.26364370487195143	Ned	need	strike
+1.0	rag tag group of rebels and her and Hound	decided	say
+1.0	group	became	Brothers Without Banners
+1.0	group	became	Brothers
+1.0	Riverlands	is with	Brothers Without Banners
+1.0	he	being offered	chance travel to as hell North
+0.15138681586922478	he	chance	travel to as hell North
+1.0	he	being offered	chance travel with BWB to far as hell North
+0.15138681586922478	he	chance	travel to far as hell North
+0.15138681586922478	he	chance	travel with BWB to as hell North
+0.15138681586922478	he	chance	travel with BWB
+1.0	he	being offered	chance travel with BWB to as hell North
+1.0	we	Last see of	Hound
+1.0	he	being offered	chance travel to far as hell North
+0.15138681586922478	he	chance	travel with BWB to far as hell North
+1.0	he	being offered	chance travel with BWB
+1.0	he	being offered	chance travel
+1.0	we	see of	Hound
+0.15138681586922478	he	chance	travel
+1.0	name	crossed	name
+1.0	name	just crossed name off	her kill Queen Cersei list
+1.0	name	just crossed	name
+1.0	her kill Queen Cersei	come upon	two leaders of BWB
+1.0	name	crossed name off	her kill Queen Cersei list
+1.0	her kill Queen Cersei	come upon	the two leaders of the BWB
+1.0	Arya	on	shit list selling to Melisandre back in season 2 for supplies
+1.0	priest leader	found	priest
+1.0	Robert	has	bastard
+1.0	priest	found	priest
+1.0	Gendry	is bastard of	Robert
+1.0	Arya	has	friend
+0.7102410811751411	Hound	killing butchers boy in	season 1
+1.0	I	like	think
+0.7102410811751411	Hound	killing	butchers boy
+0.7329922715628674	they	can all redeem	they
+1.0	Mountain	fulfill	they mission
+1.0	they	returning to	Kings Landing
+1.0	Ned Stark	initially set out	they
+1.0	Ned Stark	set out	they
+0.7329922715628674	they	can redeem	they
+1.0	Ned Stark	do in	first place
+1.0	Arya	kill	leaders
+1.0	Ned Stark	do in	place
+1.0	Cersei	of	forces
+1.0	that	be	big
+1.0	they	might possibly arrive	Daeneryus is invading
+1.0	they	might arrive	Daeneryus is invading
+1.0	Brienne	is of	Tarth
+1.0	Hound	talk	Arya
+1.0	Hound	talk out	Arya
+1.0	Jon Snow 's secret parentage	Like Targaryen is	inspiring fierce debates from those
+1.0	Secret Targaryen	debates from	those
+1.0	Jon Snow	Like	secret parentage
+1.0	Lannister	is	Secret
+1.0	book version	visiting	House of Undying
+1.0	Mother	ride	her three children
+1.0	Mother	be	joined
+1.0	book version	visiting	House
+1.0	Mother	ride	her three majestic children
+1.0	Mother	be joined by	two others
+1.0	Snow	is	secret
+1.0	it	control	dragon
+1.0	Jon Snow	is	Targaryen
+1.0	Jon Snow	is	secret Targaryen
+1.0	fans	collected	kinds of evidence
+1.0	Targaryen	result of	certain encounter
+0.9396984743018822	collected	kinds of	evidence
+1.0	Tyrion	is	secret Targaryen
+1.0	Tyrion	is	Targaryen
+1.0	fans	have combed	books
+1.0	Tyrion	is	secret
+1.0	Daenerys	have	something in common
+1.0	Tyrion	have	something important in common
+1.0	Jon	have	something in common
+1.0	Daenerys	have	something important in common
+1.0	Jon	have	something important in common
+1.0	Tyrion	have	something in common
+1.0	three	are	connected
+1.0	evidence	dragons into	battle against army of undead
+1.0	evidence	is	shaky
+1.0	evidence	is	here shaky
+1.0	evidence	here is shaky at	best
+1.0	evidence	is shaky at	best
+1.0	Targaryen	is	third
+1.0	fans	want	true
+1.0	his life	struggling uphill	chance at redemption
+1.0	his life	struggling uphill	chance
+1.0	his entire life	struggling	chance at proper redemption
+1.0	his life	struggling uphill	chance at proper redemption
+1.0	his entire life	struggling	chance
+1.0	his life	struggling	chance at proper redemption
+1.0	his entire life	struggling uphill	chance at proper redemption
+1.0	his entire life	struggling uphill	chance
+1.0	his entire life	struggling uphill	chance at redemption
+1.0	his life	struggling	chance at redemption
+1.0	his entire life	struggling	chance at redemption
+1.0	his life	struggling	chance
+1.0	it	would cheapen Tyrion in	way
+1.0	it	would ultimately cheapen Tyrion in	way
+1.0	may my hated theory	is in	all of Game of Thrones fandom
+1.0	it	would cheapen	his relationship with Daenerys
+1.0	his relationship	is with	Daenerys
+1.0	it	would cheapen	his relationship
+1.0	it	would cheapen	his relationship with Tywin
+1.0	his relationship	is with	Tywin
+1.0	Tywin	lord of	Casterly Rock
+1.0	it	would cheapen	his relationship
+1.0	his relationship	is with	audience
+1.0	Tyrion	has	family
+1.0	it	would cheapen	his relationship
+1.0	his	has	secret Targaryen
+1.0	his	has	Targaryen
+1.0	his	has	bad
+1.0	his	has	secret
+1.0	things	were	black
+1.0	things	were so black after	all
+1.0	things	were black after	all
+1.0	things	were	so black
+1.0	Lady Stoneheart	does so without	mercy
+1.0	figure	runs	Brotherhood
+1.0	Lady Stoneheart	does	Lady Stoneheart name implies
+1.0	figure	been	hunting down
+1.0	figure	been	systematically hunting
+1.0	figure	runs Brotherhood In	books
+1.0	figure	been	hunting
+1.0	Lady Stoneheart	does without	mercy
+1.0	figure	runs Brotherhood In	original books
+1.0	figure	runs Brotherhood Without	Banners
+1.0	figure	been	systematically hunting down
+1.0	Lady Stoneheart	does so	Lady Stoneheart name implies
+1.0	Thoros	is of	Myr
+1.0	Myr	of Thoros is	process
+1.0	Myr	quickly learn	that
+1.0	Beric Dondarrion	leader of	Brotherhood
+1.0	Myr	learn	that
+1.0	Catelyn	shifted group	Lady Stoneheart vengeance brigade
+1.0	Catelyn	shifted group	Lady Stoneheart own personal vengeance brigade
+1.0	Catelyn	shifted	group
+1.0	Catelyn	shifted group	Lady Stoneheart personal vengeance brigade
+1.0	Beric	has	place
+1.0	Catelyn	shifted group	Lady Stoneheart own vengeance brigade
+1.0	writers	tip	writers hand for inevitable resurrection
+1.0	Lady Stoneheart	was	cut
+1.0	Lady Stoneheart	was cut from	show
+1.0	writers	tip	writers hand for Jon Snow 's inevitable resurrection
+1.0	fans	are speculating	Arya arrived in Westeros
+1.0	fans	However are speculating	Arya arrived in Westeros in Winds
+1.0	fans	However are speculating	Arya arrived in Winds of Winter
+1.0	Arya	arrived in	Westeros
+1.0	fans	However are speculating	Arya arrived back in Winds of Winter
+1.0	fans	However are speculating	Arya arrived in Westeros
+1.0	fans	However are speculating	Arya arrived back in Winds
+1.0	fans	However are speculating	Arya arrived back in Westeros in Winds of Winter
+1.0	fans	are speculating	Arya arrived back
+1.0	fans	However are speculating	Arya arrived back in Westeros in Winds
+1.0	fans	However are speculating	Arya arrived back in Westeros
+1.0	Arya	arrived back in	Westeros
+1.0	fans	are speculating	Arya arrived in Westeros in Winds
+1.0	Arya	arrived in	Winds
+1.0	Arya	arrived back in	Winds of Winter
+1.0	Arya	slit	Walder Frey 's throat
+1.0	fans	are speculating	Arya arrived back in Winds of Winter
+1.0	fans	are speculating	Arya arrived back in Westeros in Winds of Winter
+1.0	fans	are speculating	Arya arrived in Winds of Winter
+1.0	Arya	arrived in	Winds of Winter
+1.0	fans	are speculating	Arya arrived back in Winds
+1.0	fans	are speculating	Arya arrived in Westeros in Winds of Winter
+1.0	fans	are speculating	Arya arrived back in Westeros in Winds
+1.0	fans	However are speculating	Arya arrived
+1.0	Walder Frey	has	throat
+1.0	fans	However are speculating	Arya arrived in Westeros in Winds of Winter
+1.0	fans	are speculating	Arya arrived in Winds
+1.0	Arya	arrived back in	Winds
+1.0	fans	are speculating	Arya arrived
+1.0	fans	However are speculating	Arya arrived back
+1.0	fans	However are speculating	Arya arrived in Winds
+1.0	fans	are speculating	Arya arrived back in Westeros
+1.0	Brotherhood her basic needs will take her beyond their jurisdiction	sold	Gendry
+0.6886207371212743	take	reins of	organization
+1.0	Walder Frey 's	take	reins of organization
+1.0	Brotherhood her basic needs will take her beyond their jurisdiction	sold Gendry to	Melisandre
+1.0	Brotherhood her basic needs will take her beyond their jurisdiction	sold Gendry in	season three
+1.0	Walder Frey 's	take	reins
+1.0	Arya Clegane	reunite after	Brotherhood her basic needs will take her beyond their jurisdiction brutal parting of ways
+1.0	Arya Clegane	reunite after	Brotherhood her basic needs will take her beyond their jurisdiction brutal parting
+1.0	Arya Clegane	reunite after	Brotherhood her basic needs will take her beyond their jurisdiction brutal parting of ways at end of season four
+1.0	Arya Clegane	reunite after	Brotherhood her basic needs will take her beyond their jurisdiction parting of ways at end of season four
+1.0	Arya Clegane	reunite after	Brotherhood her basic needs will take her beyond their jurisdiction parting
+1.0	Arya Clegane	reunite after	Brotherhood her basic needs will take her beyond their jurisdiction parting of ways at end
+1.0	Arya Clegane	reunite after	Brotherhood her basic needs will take her beyond their jurisdiction brutal parting of ways at end
+1.0	Arya Clegane	reunite after	Brotherhood her basic needs will take her beyond their jurisdiction parting of ways
+1.0	it	seems	unlikely
+1.0	it	However seems	unlikely
+1.0	her foes	is in	Riverlands
+1.0	Arya	take on	name
+1.0	Arya	focus	Walder Frey 's wrath
+1.0	Arya	take on	new name
+1.0	Arya 's revenge list	has	names scattered all across Seven Kingdoms
+1.0	Arya	has	revenge list
+1.0	Walder Frey 's needs	will take	Walder Frey 's
+1.0	Walder Frey 's basic needs	will take	Walder Frey 's
+1.0	Arya 's revenge list	has	names
+1.0	Arya 's revenge list	has	names scattered across Seven Kingdoms
+1.0	Arya	instrument of	cruel revenge
+1.0	this	be	clean
+0.5611624931273699	Walder Frey 's	man	Arya 's own sons
+1.0	Arya	instrument of	revenge
+1.0	Walder Frey 's	cutting	Arya 's throat
+1.0	her path	could	So could true
+1.0	her path	could	could true
+1.0	her path	could	could partially true
+1.0	her path	could	So could partially true
+1.0	Walder Frey 's	go by	new name
+1.0	rampaging zombie Lady Stoneheart	happen in	TV show
+1.0	It	has	safe
+1.0	zombie Lady Stoneheart	happen in	TV show
+1.0	Lady Stoneheart	may go on	vengeance tour
+1.0	fans	began	Lady Stoneheart may go on vengeance tour
+1.0	Lady Stoneheart	may go	finally free
+1.0	fans	began	pondering
+1.0	Lady Stoneheart	may go	free with Jon Snow
+1.0	Lady Stoneheart	may go	now free with Jon Snow
+1.0	character	be morphed instead into	Sansa Stark
+1.0	fans	began During	season 6
+1.0	Lady Stoneheart	has	now free
+1.0	Lady Stoneheart	has	now finally free
+1.0	Lady Stoneheart	may go	finally free with Jon Snow
+1.0	Lady Stoneheart	may go	now finally free with Jon Snow
+1.0	character	be morphed into	Sansa Stark
+1.0	character	be	morphed instead
+1.0	Lady Stoneheart	now 's free with	Jon Snow
+1.0	Lady Stoneheart	has	free
+1.0	Lady Stoneheart	now 's finally free with	Jon Snow
+1.0	Lady Stoneheart	's free with	Jon Snow
+1.0	Lady Stoneheart	may go	free
+1.0	Lady Stoneheart	has	finally free
+1.0	Lady Stoneheart	may go	now finally free
+1.0	Lady Stoneheart	may go	now free
+1.0	character	be	morphed
+1.0	fans	began	Lady Stoneheart may go
+1.0	Lady Stoneheart	's finally free with	Jon Snow
+1.0	it	However makes sense	passed onto Lady Stoneheart little sister Arya
+1.0	it	makes sense	passed
+1.0	Stoneheart persona	be passed onto	Lady Stoneheart little sister Arya
+1.0	it	However makes	far more sense
+1.0	it	makes sense	passed onto Lady Stoneheart little sister Arya
+1.0	it	makes sense	passed onto Lady Stoneheart sister Arya
+1.0	Stoneheart persona	be passed onto	Lady Stoneheart sister Arya
+1.0	it	makes	sense
+1.0	it	However makes	sense
+1.0	it	makes	far more sense
+1.0	Stoneheart persona	be	passed
+1.0	it	However makes sense	passed
+1.0	it	makes	more sense
+1.0	it	However makes sense	passed onto Lady Stoneheart sister Arya
+1.0	it	However makes	more sense
+1.0	Lady Stoneheart training	murdering	Walder Frey
+0.20181629862918993	Lady Stoneheart	proved in	finale
+1.0	Lady Stoneheart	proved	Lady Stoneheart assassin-like qualities
+1.0	Lady Stoneheart	proved	Lady Stoneheart qualities
+1.0	Lady Stoneheart	becoming	dangerous assassin
+1.0	people	begin	follow
+1.0	Lady Stoneheart	becoming	seriously dangerous assassin
+0.5552525651137966	them	turning	Arya
+1.0	Lady Stoneheart	becoming	assassin
+1.0	Jon Snow	is	fireproof
+1.0	Jon Snow	is fireproof like	Daenerys
+1.0	We	are	now damned certain
+1.0	We	are	now pretty damned certain
+1.0	We	are	pretty damned certain
+1.0	We	are	now certain
+1.0	We	are	damned certain
+1.0	Daenerys	has	nephew despite flashback scene at Tower of Joy
+1.0	We	are	certain
+1.0	Jon 's blood	given	Jon Snow
+1.0	Jon 's Targaryen blood	given	Jon Snow
+1.0	Assuming	is	fact
+1.0	Jon	has	Targaryen blood
+1.0	Jon Snow	's immune like	Jon Snow aunt
+1.0	Jon Snow	has	like Jon Snow aunt immune to heat
+1.0	Jon Snow	maybe 's immune like	Jon Snow aunt
+1.0	Jon Snow	has	maybe like Jon Snow aunt immune to heat
+1.0	Jon Snow	has	maybe like Jon Snow aunt immune to powerful heat
+1.0	Jon Snow	has	like Jon Snow aunt immune to powerful heat
+1.0	We	could still see	unexpected traits from Jon
+1.0	We	could see yet	traits from Jon
+1.0	We	could still see yet	traits from Jon
+1.0	We	could still see	traits from Jon
+1.0	We	could see yet	unexpected traits
+1.0	We	could see	unexpected traits from Jon
+1.0	We	could still see	traits
+1.0	We	could see yet	traits
+1.0	We	could see yet	unexpected traits from Jon
+1.0	We	could see	traits
+1.0	We	could still see yet	unexpected traits from Jon
+1.0	We	could see	traits from Jon
+1.0	We	could still see yet	traits
+1.0	We	could see	unexpected traits
+1.0	We	could still see	unexpected traits
+1.0	We	could still see yet	unexpected traits
+1.0	Jorah	will	will saved by unicorns
+1.0	Jorah	will	will saved
+1.0	Redditor	turned out	true
+1.0	Daenerys	find	cure for Daenerys fatal disease
+1.0	Daenerys	find	cure
+1.0	his	disease	greyscale
+1.0	Daenerys	find	cure for Daenerys disease
+1.0	Daenerys	has sent	Jorah
+1.0	Daenerys	has sent Jorah on	Daenerys quest
+1.0	Daenerys	has sent Jorah on	Daenerys own quest
+1.0	Northern island	is thought In	books
+1.0	island	is	thought
+1.0	island	is thought In	books
+1.0	Northern island	is	thought
+1.0	island	is thought	home of unicorns
+1.0	Northern island	is thought	home
+1.0	island	is thought	home
+1.0	Northern island	is thought	home of unicorns
+1.0	island	be home of	unicorns
+1.0	Northern island	be	home
+1.0	island	be	home
+1.0	Northern island	be home of	unicorns
+1.0	Skagosi unicorn	is	goat
+1.0	unicorn	is	one-horned
+1.0	Skagosi unicorn	is	huge one-horned goat
+1.0	unicorn	is	just one-horned goat
+1.0	unicorn	is	just huge one-horned goat
+1.0	unicorn	is	just huge goat
+1.0	unicorn	is	goat
+1.0	unicorn	is	just goat
+1.0	Skagosi unicorn	is	huge goat
+1.0	Northern island of Skagos	is	also rumoured
+1.0	unicorn	is	huge goat
+1.0	Skagosi unicorn	is	just one-horned goat
+1.0	unicorn	is	huge one-horned goat
+1.0	Skagosi unicorn	is	just huge one-horned goat
+1.0	Northern island of Skagos	is	rumoured
+1.0	Skagosi unicorn	is	one-horned goat
+1.0	unicorn	is	one-horned goat
+1.0	Skagosi unicorn	is	just goat
+1.0	unicorn	is	huge
+1.0	Skagosi unicorn	is	just huge goat
+1.0	We	've had	White Walkers
+1.0	We	've had	giants
+1.0	Jaqen	IS	Many Faced God
+1.0	Jaqen	IS	Faced God
+1.0	Redditor	has put forward	claim
+1.0	One Redditor	has put forward	claim
+1.0	Redditor	has put	claim
+1.0	Arya	has	former teacher
+1.0	One Redditor	has put	claim
+0.08264841684192992	Arya	is	actually man
+0.08264841684192992	Arya	is	man
+0.08264841684192992	Arya	is	actually big man
+0.08264841684192992	Arya	is	big man
+1.0	Jaqen	have	extra powers
+1.0	Arya	has	sight
+1.0	Jaqen	have	powers
+1.0	Arya	left behind	Jaqen
+0.5201245426295019	Hodor	holding	door
+1.0	we	've seen	season
+1.0	characters	have	path
+1.0	characters	have	purpose
+1.0	past	is	already written
+1.0	past	is	written
+1.0	keen interest	is in	her life
+1.0	Waif	has	whole existence
+1.0	Arya	get to	stage of Jaqen quest
+1.0	Arya	get to	next stage
+1.0	Waif 's existence	was	Maybe purely
+1.0	Arya	get to	next stage of Jaqen quest
+1.0	Arya	get to	stage
+1.0	Waif 's whole existence	was	Maybe purely
+1.0	Bran and Hodor	be at	right time
+1.0	Bran and Hodor	needed	right time
+0.04584657021521499	Three-Eyed Raven	made	Arya already knew
+1.0	Arya	knew	it
+1.0	Bran and Hodor	needed	time
+1.0	Three-Eyed Raven	made	sure
+1.0	Bran and Hodor	be at	time
+1.0	Arya	already knew	it
+0.04584657021521499	Three-Eyed Raven	made	Arya knew
+1.0	Jaqen	Could have	similar plans
+1.0	Jaqen	Could have	plans for Arya
+1.0	Jaqen	Could have	similar plans for Arya
+1.0	Jaqen	Could have	plans
+1.0	Gilly	has	son
+1.0	Gilly 's son	will take down	White Walkers
+1.0	Young Samwell	could potentially end up	key
+1.0	Young Samwell	could end up	key
+1.0	Young Samwell	could end up according to	Reddit theory
+1.0	Young Samwell	could potentially end up according to	Reddit theory
+1.0	Gilly	has	son
+1.0	Gilly 's son	is	likely
+1.0	Gilly 's son	is	most likely
+0.19132517912564495	Gilly 's	shares bloodlines with	gods know
+0.3852119972464509	gods	know	who
+1.0	Craster	has	dirty history
+1.0	Gilly 's	shares	bloodlines
+0.19132517912564495	Gilly 's	probably shares bloodlines with	gods know
+1.0	Gilly 's	probably shares bloodlines with	gods
+1.0	Gilly 's	shares bloodlines with	gods
+1.0	Gilly 's	technically brother of	White Walkers
+1.0	Gilly 's	technically brother of	various White Walkers
+1.0	Gilly 's	brother of	various White Walkers
+1.0	Gilly 's	brother of	White Walkers
+1.0	Gilly 's	probably shares	bloodlines
+1.0	Sam	prophet for	White Walkers
+1.0	Sam	prophet for	humans
+1.0	Sam	has	arrival at Citadel
+1.0	little Sam	prophet for	humans
+1.0	little Sam	prophet for	White Walkers
+1.0	Sam 's Valyrian steel sword	may come in	handy
+1.0	Sam	has	Valyrian steel sword
+1.0	Sam 's steel sword	may come in	handy
+1.0	BRAN	BUILT	WALL
+1.0	Bran time	travel	more than Doc Brown
+1.0	Bran time	travel	more
+1.0	Nan	turn	Mad King mad
+1.0	Nan	turn in	place
+1.0	Nan	turn in	first place
+0.6572588742847812	Old Nan	talking about	Brans
+1.0	Bran	was	EVERY SINGLE BRAN
+1.0	they	're	meant to
+1.0	they	're	meant
+1.0	There must Stark	is in	Winterfell
+1.0	wall	is	built
+1.0	wall	protect	everyone
+1.0	Jon Snow	has	real name
+1.0	Jon	has	real dad
+1.0	we	're certain	99 %
+1.0	we	're certain	we 've already said
+1.0	we	're certain	we 've said
+1.0	we	're	certain
+1.0	Ned	has	dying sister Lyanna whispers giving to Jon
+1.0	rest	is	inaudible
+1.0	previous Targaryen kings	Well shared	name
+1.0	first	restored	peace
+1.0	first	expanded	Night 's Watch
+1.0	two previous Targaryen kings	Well shared	name
+1.0	first	constructed	Kingsroad
+1.0	two previous Targaryen kings	shared	name
+1.0	first	restored	peace between Crown
+1.0	King	has	Landing
+1.0	previous Targaryen kings	shared	name
+1.0	first	was	known
+1.0	Night	has	Watch
+1.0	Rhaegar 's son	would in	would danger
+1.0	Targaryens	were	at time were killed
+1.0	Lyanna	would in	would danger
+1.0	Lyanna	would in	so would danger
+1.0	Rhaegar 's son	being rightful heir to	Iron Throne
+1.0	Rhaegar	has	son
+1.0	Targaryens	were	However at time were killed
+1.0	Jon	of	birth
+1.0	Rhaegar 's son	would in	so would danger
+1.0	Rhaegar 's son	being	heir
+1.0	Targaryens	were	were killed
+1.0	Rhaegar 's son	being	rightful heir
+1.0	Targaryens	were	at time of Jon 's birth were killed
+1.0	Targaryens	were	However at time of Jon 's birth were killed
+1.0	Rhaegar 's son	being heir to	Iron Throne
+1.0	Targaryens	were	However were killed
+1.0	Lyanna	Instead named	Lyanna Jon
+1.0	Lyanna	named	Lyanna Jon
+1.0	BRAN	IS	LORD
+1.0	BRAN	IS	LORD OF LIGHT
+1.0	Bran	warging	trying
+1.0	Bran	actually warging	trying
+1.0	Bran	warging back	trying
+1.0	Bran	actually warging back	trying
+1.0	action	eventually gets turned into	full religion
+1.0	action	eventually gets turned into	religion
+1.0	action	gets	eventually turned
+1.0	action	gets turned into	religion
+1.0	action	gets turned into	full religion
+1.0	action	gets	turned
+1.0	Melisandre	has	previous candidate
+1.0	It	makes	sense
+1.0	SANSA	WILL BETRAY	JON
+1.0	JON	are	may have thought
+1.0	Sansa	lied to	Jon
+1.0	we	saw	Sansa
+1.0	Sansa	bizarrely lied to	Jon
+1.0	Sansa	found out about	Sansa uncle Brynden
+1.0	Sansa	was told In	reality
+1.0	Sansa	intercepted raven	held
+1.0	Sansa	being held by	Ramsay
+1.0	Sansa	was told by	Littlefinger
+1.0	Sansa	being	held
+1.0	Sansa	intercepted	raven
+1.0	Sansa	intercepted raven	held by Ramsay
+1.0	Sansa	was	In reality told by Littlefinger
+1.0	Sansa	was	told
+1.0	Sansa	being held	captive
+1.0	Jon	is	really just Sansa half-brother
+1.0	Sansa	is	thus true Stark heir
+1.0	Jon	is	really Sansa half-brother
+1.0	Jon	is	just Sansa half-brother
+1.0	Jon	is	how really just Sansa half-brother
+1.0	Jon	is	how really Sansa half-brother
+1.0	Jon	is	how Sansa half-brother
+1.0	Sansa	is	true Stark heir
+1.0	Jon	is	how just Sansa half-brother
+1.0	Jon	is	Sansa half-brother
+1.0	Sansa	is	Stark heir
+1.0	Sansa	is	thus Stark heir
+1.0	Sansa	was quite cow in	first season
+1.0	Sansa	was	cow in first season especially to Jon
+1.0	Sansa	was quite cow to	especially Jon
+1.0	Sansa	was quite cow in	season
+1.0	Sansa	was cow in	first season
+1.0	Sansa	was quite cow to	Jon
+1.0	Sansa	was cow	we forget
+1.0	Sansa	was	quite cow in season to Jon
+1.0	Sansa	was	cow in season especially to Jon
+1.0	Sansa	was	quite cow in first season especially to Jon
+1.0	Sansa	was cow in	season
+1.0	Sansa	was	quite cow in season especially to Jon
+1.0	Sansa	was	cow
+1.0	Sansa	was	quite cow
+1.0	Sansa	was cow to	especially Jon
+1.0	Sansa	was quite cow	we forget
+1.0	Sansa	was	cow in season to Jon
+1.0	Sansa	was	quite cow in first season to Jon
+1.0	Sansa	was	cow in first season to Jon
+1.0	cow	is in	first season
+1.0	Sansa	was cow to	Jon
+1.0	Sansa	Maybe 'll go back	safe
+1.0	Sansa	'll go back to	Sansa old ways
+1.0	Sansa	Maybe 'll go back to	Sansa ways
+1.0	Sansa	has	safe
+1.0	Sansa	Maybe 'll go back to	Sansa old ways
+1.0	Sansa	betray	Jon
+1.0	Sansa	has	power
+1.0	Sansa	Maybe 'll go back	now safe
+1.0	Sansa	'll go back	safe
+1.0	Sansa	'll go back	now safe
+1.0	push	comes	shove
+1.0	Sansa	has	now safe
+1.0	Sansa	'll go back to	Sansa ways
+1.0	FACELESS MEN	WILL TEAM UP WITH	WHITE WALKERS
+1.0	Jaqen	has	Faceless Men
+1.0	White Walkers	unleash	destruction
+1.0	White Walkers	unleash death across	Seven Kingdoms
+1.0	White Walkers	unleash	death
+1.0	tinfoil-hat-style theory states	is in	depth
+1.0	White Walkers	unleash destruction across	Seven Kingdoms
+1.0	JON	WILL KILL	DAENERYS
+1.0	it	's quenched in	fire
+1.0	it	's quenched in	living fire
+1.0	it	has	quenched
+1.0	Azor Ahai	plunging	just this
+1.0	Azor Ahai	figure of	Red Priests ' religion
+1.0	Azor Ahai	did	just this
+1.0	Jon	sacrifice	Dany
+1.0	This	is getting now	far too complicated
+1.0	JAQEN WAS	KILL	NED STARK
+1.0	Ned	's obsessed with	Arya
+1.0	Ned	has	why obsessed with Arya
+1.0	Ned	has	why so obsessed with Arya
+1.0	Ned	's so obsessed with	Arya
+1.0	Ned	has	why obsessed
+1.0	Ned	has	so obsessed
+1.0	Ned	has	obsessed
+1.0	Ned	has	why so obsessed
+1.0	it	Maybe 's something	do with one Ned recent tasks
+1.0	it	Maybe 's something	do with one of Ned recent tasks
+1.0	it	Maybe 's something	do with one of Ned tasks
+1.0	it	's something	do with one of Ned recent tasks
+1.0	it	's something	do with one Ned tasks
+1.0	it	's something	do
+1.0	it	's something	do with one Ned recent tasks
+1.0	it	's something	do with one of Ned tasks
+1.0	it	Maybe 's something	do with one Ned tasks
+1.0	it	Maybe 's something	do
+1.0	Ned	was locked in	black cells
+1.0	Ned	was	locked
+1.0	Ned	was	meant
+1.0	Ned	was locked in	cells
+1.0	Ned	was meant	locked in black cells
+1.0	Ned	was meant	locked in cells
+1.0	Ned	was meant	locked
+1.0	Ned	kill	Ned
+1.0	Ned son Joffrey	went	rogue
+1.0	Ned son Joffrey	However went	rogue
+1.0	Jaqen	could get to	Ned
+1.0	Ned son Joffrey	killed Ned	Jaqen could get
+1.0	Ned son Joffrey	killed	Ned
+1.0	Ned son Joffrey	killed Ned	Jaqen could get to Ned
+1.0	Lannisters	wasted	Lannisters precious time
+1.0	Lannisters	maybe sought out	Arya
+1.0	Lannisters	taken Ned under	Lannisters wing
+1.0	Lannisters	taken	Ned
+1.0	Lannisters	maybe purposely sought out	Arya
+1.0	Lannisters	sought out	Arya
+1.0	Lannisters	wasted	Lannisters time
+1.0	Lannisters	purposely sought out	Arya
+1.0	JON	WILL KILL	DAENERYS
+1.0	end game	involve Jon Snow in	way
+1.0	book series	Song of	Ice
+1.0	original book series	has	fair
+1.0	book series	was named	Song of Ice
+1.0	end game	involve	Fire
+1.0	end game	involve Daenerys in	way
+1.0	original book series	was named	Song of Ice
+1.0	original book series	's fair	named
+1.0	end game	involve	Daenerys
+1.0	original book series	was	named
+1.0	book series	was	named
+1.0	book series	was named	Song
+1.0	original book series	was named	Song
+1.0	original book series	Song of	Ice
+1.0	end game	involve	Jon Snow
+1.0	end game	involve	Ice
+1.0	Jon	kill	Jon Snow potential member/something
+1.0	Jon	kill	Jon Snow potential lover/family member/something
+1.0	Jon	be	forced
+1.0	Jon	kill else	Jon Snow potential lover/family member/something
+1.0	Jon	kill else	Jon Snow potential member/something
+1.0	Daenerys	actually ends up	Westeros ' threat
+1.0	Daenerys	goes	much like Mad King before Daenerys
+0.37058281271681803	Daenerys	goes	insane
+1.0	Daenerys	goes	much before Daenerys
+1.0	Daenerys	actually ends up	Westeros ' main threat
+1.0	Daenerys	ends up	Westeros ' main threat
+1.0	Daenerys	being	Westeros ' main threat
+1.0	Daenerys	goes	much like Mad King
+1.0	Daenerys	goes	much
+1.0	Daenerys	ends up	Westeros ' threat
+1.0	Daenerys	being	Westeros ' threat
+1.0	Daenerys dragons	will bring	ruin
+1.0	Horn	actually commands	army
+1.0	Horn	commands	army of White Walkers
+1.0	Horn	actually commands	army of White Walkers
+1.0	Horn	commands	army
+0.47937962732886696	Ice Dragon	takes	one fell
+0.47937962732886696	alleged Ice Dragon	takes	one fell
+1.0	Ice Dragon	takes on	Dany
+1.0	one	fell	swoop
+1.0	alleged Ice Dragon	takes on	Dany
+1.0	Robert Baratheon	cursed Starks in	episode of first season
+1.0	Robert Baratheon	cursed Starks in	episode of season
+1.0	Robert Baratheon	cursed Starks in	first episode of first season
+1.0	Robert Baratheon	cursed Starks in	first episode
+1.0	Robert Baratheon	cursed Starks in	episode
+1.0	Robert Baratheon	cursed Starks in	first episode of season
+1.0	Robert Baratheon	cursed	Starks
+0.605134264533068	is	back on	warpath
+1.0	Ramsay	of	final lines
+1.0	Ramsay 's	'm	part now
+1.0	Ramsay 's	'm	part
+1.0	people	revive	theory
+1.0	Many people	revive	theory
+1.0	Sansa	carrying	Ramsay 's child
+1.0	Ramsay	has	child
+1.0	Sansa	could mean	would horrible
+1.0	he	permanently scarred	her
+1.0	Sansa	could also mean	would horrible
+1.0	he	scarred	her
+1.0	Sansa	has	latter
+1.0	Sansa	's latter for	her sake
+1.0	FACELESS MEN	'S	GOD
+1.0	FACELESS MEN 'S GOD	IS	ACTUALLY MONEY
+1.0	Iron Bank	are in	league
+1.0	Iron Bank	are in	actually league
+1.0	Iron Bank	are in	Perhaps actually league
+1.0	league	is with	other
+1.0	Iron Bank	are in	Perhaps league
+1.0	Iron Bank	is known as	organisation
+1.0	richest organisation	is in	world
+1.0	Iron Bank	is known as	richest organisation
+1.0	Iron Bank	is	known
+1.0	Iron Bank	is known as	organisation in world
+1.0	Iron Bank	is known as	richest organisation in world
+1.0	someone	get	you
+1.0	FM charge	are also relative to	wealth
+1.0	FM charge	are relative to	wealth
+1.0	FM charge	are also relative to	wealth of person
+1.0	FM charge	are	relative
+1.0	FM charge	are	also relative
+1.0	FM charge	are relative to	wealth of person
+1.0	person	will pay	more than poor person
+1.0	wealthy person	will pay	more than person
+1.0	wealthy person	will pay	more than poor person
+1.0	person	will pay	more than person
+1.0	person	will pay	more
+1.0	wealthy person	will pay	more
+1.0	proportions	will	will essentially same
+1.0	proportions	will	will same
+1.0	FM	can continue	FM influence on world
+1.0	FM	can continue	FM influence
+1.0	God	is	money
+1.0	Many-Faced God	is	money
+1.0	God	is	actually money
+1.0	All this	has on	people
+1.0	this	impact	All this has on people
+1.0	this	impact	All this has
+1.0	this	has on	people
+1.0	Many-Faced God	is	actually money
+1.0	Jaqen	did give Arya as	token get
+1.0	Jaqen	did give Arya as	token get into Braavos
+1.0	Jaqen	did give	Arya
+1.0	we	Defying God	Syrio Forel supposedly died at hands
+1.0	we	Defying God	Syrio Forel died at hands of Ser Meryn Trant
+1.0	Syrio Forel	supposedly died at	hands
+1.0	Syrio Forel	died at	hands
+1.0	we	Defying God	Syrio Forel supposedly died at hands of Ser Meryn Trant
+1.0	we	Defying God	Syrio Forel supposedly died
+1.0	Syrio Forel	supposedly died at	hands of Ser Meryn Trant
+1.0	we	Defying	God
+1.0	we	Defying God	Syrio Forel died at hands
+1.0	Syrio Forel	died at	hands of Ser Meryn Trant
+1.0	we	Defying God Of	Death
+1.0	we	Defying God	Syrio Forel died
+1.0	Ser Meryn Trant	be	very well alive
+1.0	Hound	with	resurfacing
+1.0	we	've learned with	Hound 's resurfacing
+1.0	Ser Meryn Trant	be	alive
+1.0	Ser Meryn Trant	be	well alive
+1.0	theory	uses	close analysis
+1.0	theory	uses	analysis
+1.0	theory	helping once again	Arya
+1.0	theory	helping again	Arya
+1.0	theory	helping	Arya
+1.0	bloke	is with	eyepatch
+1.0	Catelyn	known as	Lady Stoneheart
+1.0	Catelyn	Thereafter known as	Lady Stoneheart
+1.0	events	have pointed	happening
+1.0	events	have pointed	finally happening
+1.0	recent events	have pointed	finally happening
+1.0	recent events	have pointed	happening
+1.0	Lady Stoneheart	make appearance on	show
+1.0	Lady Stoneheart	make	appearance
+1.0	Stoneheart	for	arrival
+0.5488145021013547	her Frey-held brother Edmure	'll	'll probably murdered
+0.5488145021013547	her Frey-held brother Edmure	'll	'll murdered
+0.5488145021013547	her Frey-held brother Edmure	'll	'll probably murdered in way
+0.5488145021013547	her Frey-held brother Edmure	'll	'll murdered in way
+0.5488145021013547	her Frey-held brother Edmure	'll	'll murdered in horrible way
+1.0	's	be	honest
+1.0	Edmure	is of	Frey-held
+0.5488145021013547	her Frey-held brother Edmure	'll	'll probably murdered in horrible way
+1.0	Brienne	are heading for	Riverrun
+1.0	Brienne	are also heading straight for	Riverrun
+1.0	Brienne	Meanwhile are heading straight for	Riverrun
+1.0	Brienne	Meanwhile are heading for	Riverrun
+1.0	Brienne	Meanwhile are also heading for	Riverrun
+1.0	Brienne	are heading straight for	Riverrun
+1.0	Brienne	are also heading for	Riverrun
+1.0	Brienne	Meanwhile are also heading straight for	Riverrun
+1.0	Jon Snow	has	resurrection at start of season
+1.0	they	made at_time	Plus
+1.0	they	made	sure
+1.0	Bran	in	latest vision
+1.0	front	is in	Bran 's latest vision
+1.0	Cersei	is facing	possibility of disastrous trial
+1.0	High Sparrow	due to	machinations
+0.8349266798826901	Cersei	possibility of	trial
+0.8349266798826901	Cersei	possibility of	disastrous trial
+1.0	Cersei	Now is facing	possibility of trial
+1.0	Cersei	Now is facing	possibility of disastrous trial
+1.0	Cersei	Now is facing	possibility
+1.0	Cersei	could turn	desperate
+1.0	Cersei	is facing	possibility
+1.0	Cersei	is facing	possibility of trial
+1.0	Cersei	has	Cersei spies
+1.0	King	under	Landing
+1.0	history	repeat	theory
+1.0	history	repeat	This theory
+1.0	Jon Snow	is child of	Lyanna Stark
+1.0	Ned	has	deceased sister
+1.0	Jon Snow	is child of	Ned 's deceased sister
+1.0	Daenerys	has	older brother
+1.0	Jon Snow	is	child
+1.0	Jon Snow	is child of	Ned 's sister
+1.0	it	looks	way
+1.0	Bran Stark 's pal Meera Reed	is	Jon Snow 's twin sister
+1.0	Meera Reed	is	Jon 's twin One theory posits
+1.0	Bran Stark 's pal Meera Reed	is	Jon Snow 's sister
+1.0	Bran Stark 's pal Meera Reed	is	actually Jon Snow 's twin sister
+1.0	Bran Stark	has	Meera Reed
+1.0	Bran Stark 's pal Meera Reed	is	actually Jon Snow 's sister
+1.0	Jon	has	twin One theory posits
+1.0	Meera Reed	is	Jon 's twin One theory
+1.0	Meera Reed	is	Jon 's One theory posits
+1.0	Meera Reed	is	Jon 's One theory
+1.0	same age	is in	books
+1.0	actors	bear	more than passing resemblance
+1.0	actors	bear	more
+1.0	actors	're same age in	books
+1.0	actors	're	age
+1.0	actors	're age in	books
+1.0	actors	bear	more than resemblance
+1.0	actors	're	same age
+1.0	Howland Reed	was	also present
+1.0	Howland Reed	was present at	Tower
+1.0	Howland Reed	was also present at	Tower
+1.0	Howland Reed	was present at	Tower of Joy
+1.0	Jon 's maybe-mom Lyanna	giving	birth
+1.0	Jon	has	Lyanna
+1.0	Howland Reed	was	present
+1.0	Lyanna	is maybe-mom of	Jon
+1.0	Howland Reed	was also present at	Tower of Joy
+1.0	Jon 's maybe-mom Lyanna	would at	would have right place
+1.0	Jon 's maybe-mom Lyanna	would at	would have place
+1.0	Tywin Lannister	told	Tyrion
+1.0	Daenerys ' dad	was	infatuated
+1.0	Daenerys ' dad	was infatuated with	Tywin 's wife
+1.0	Daenerys ' dad	was infatuated In	books
+1.0	Tywin	with	wife
+1.0	Daenerys ' dad	was infatuated with	Joanna
+1.0	Daenerys ' dad	was	In books infatuated with Tywin 's wife
+1.0	Tywin	's wife is	Joanna
+1.0	Daenerys	' dad is	Mad King
+1.0	Joanna	is wife of	Tywin
+1.0	George R.R. Martin	looking	radically different
+1.0	George R.R. Martin	looking	different
+1.0	George R.R. Martin	describes Tyrion	looking
+1.0	George R.R. Martin	also describes	Tyrion
+1.0	George R.R. Martin	also describes Tyrion	looking
+1.0	George R.R. Martin	looking	different from Cersei
+1.0	George R.R. Martin	looking	radically different from Cersei
+1.0	George R.R. Martin	describes	Tyrion
+1.0	George R.R. Martin	was	when younger
+1.0	Tyrion	has	white
+1.0	George R.R. Martin	was	younger
+1.0	Tyrion	is	said
+1.0	Tyrion	have	hair
+1.0	Tyrion	have	blonde hair
+1.0	life-long fascination	is with	dragons
+1.0	Tyrion	has	almost white
+1.0	Ramsay Bolton	is	Jon 's twin Ramsay
+1.0	Jon	are	approximately age
+1.0	Jon	are	approximately same age
+1.0	Jon	has	Ramsay
+1.0	Ramsay Bolton	is	Jon 's Ramsay
+1.0	Jon	are	same age
+1.0	Jon	are	age
+1.0	Jon 's twin Ramsay and Jon are approximately same age and both have black curly hair	share	name
+1.0	Jon 's twin Ramsay and Jon are approximately same age and both have black curly hair	even share	name
+1.0	Jon 's twin Ramsay and Jon are approximately same age and both have black curly hair	even share name As	bastards in North
+1.0	Jon 's twin Ramsay and Jon are approximately same age and both have black curly hair	even share	last name
+1.0	Jon 's twin Ramsay and Jon are approximately same age and both have black curly hair	share name As	bastards in North
+0.500342009904995	Roose	legitimized	Ramsay
+1.0	Jon 's twin Ramsay and Jon are approximately same age and both have black curly hair	even share name As	bastards
+1.0	bastards	is in	North
+1.0	Jon 's twin Ramsay and Jon are approximately same age and both have black curly hair	share name As	bastards
+1.0	Jon 's twin Ramsay and Jon are approximately same age and both have black curly hair	share	last name
+1.0	Ramsay	got	Targaryen insanity
+1.0	Ramsay	got	insanity
+1.0	theory	holds	much weight
+1.0	Ned	given away	one Ned nephews
+1.0	miller	to	wife in Bolton lands
+1.0	Ned	given	one of Ned nephews
+1.0	Ned	given away	one of Ned nephews
+1.0	theory	holds	weight
+1.0	it	has	However unlikely
+1.0	Ned	given	one Ned nephews
+1.0	miller 's wife	is in	Bolton lands
+1.0	it	has	unlikely
+1.0	dragon	has	three heads
+1.0	well-known prophecy	is in	Westeros
+1.0	heads	is	well-known
+1.0	her	dragon	Drogon
+0.454075652125797	both	are	picks
+0.454075652125797	both	are picks for	two dragon heads
+0.454075652125797	both	are	popular picks
+0.454075652125797	both	are popular picks for	remaining two dragon heads
+0.454075652125797	both	are most popular picks for	two dragon heads
+0.454075652125797	both	are most popular picks for	remaining two dragon heads
+0.454075652125797	both	are popular picks for	two dragon heads
+0.454075652125797	both	are picks for	remaining two dragon heads
+0.454075652125797	both	are	most popular picks
+1.0	both	might	might Targaryens
+1.0	he	would fly	that
+1.0	Bran 's warging abilities	grow	stronger
+1.0	Bran 's	's within	realm
+1.0	Bran 's warging abilities	grow under	Raven 's tutelage
+1.0	Bran	has	warging abilities
+1.0	Raven	under	tutelage
+1.0	he	warg into	one of Dany 's dragons
+1.0	Dany	of	dragons
+1.0	Bran 's	's within	well realm of possibility
+1.0	he	warg into	one Dany 's dragons
+1.0	Bran 's	's within	well realm
+1.0	Bran 's	's within	realm of possibility
+1.0	Daenerys Targaryen	is	Azor Ahai translation of prophecy lead everyone believe
+1.0	Daenerys Targaryen	is	Azor Ahai poor translation of prophecy lead everyone believe
+1.0	Daenerys Targaryen	is	Azor Ahai translation believe
+1.0	Daenerys Targaryen	is	Azor Ahai poor translation believe
+1.0	dragons	are	male
+1.0	it	has	possible
+1.0	it	has	However possible
+1.0	it	However 's highly possible	male
+1.0	it	has	highly possible
+1.0	it	has	However highly possible
+1.0	it	's possible	male
+1.0	it	's highly possible	male
+1.0	Daenerys	be	prophesied leader
+1.0	Daenerys	be	leader
+1.0	it	However 's possible	male
+1.0	Daenerys Targaryen	was	born
+1.0	Daenerys Targaryen	was	After all born on island Dragonstone
+1.0	Daenerys Targaryen	was born on	island Dragonstone amidst salt
+1.0	Daenerys Targaryen	was	born on island Dragonstone amidst smoke
+1.0	Daenerys Targaryen	was born amidst	smoke
+1.0	Daenerys Targaryen	was	After all born on island Dragonstone amidst salt
+1.0	Daenerys Targaryen	was born After	all
+1.0	Daenerys Targaryen	was	After all born on island Dragonstone amidst salt amidst smoke
+1.0	Daenerys Targaryen	was born on	island Dragonstone
+1.0	Daenerys Targaryen	was	After all born amidst smoke
+1.0	Daenerys Targaryen	was	After all born on island Dragonstone amidst smoke
+1.0	Daenerys Targaryen	was	born on island Dragonstone amidst salt amidst smoke
+1.0	Khal Drago	on	funeral pyre
+1.0	Robert Baratheon	overthrew	Mad King
+1.0	Aegon Targaryen	is	alive
+1.0	Targaryen	is	Aegon
+1.0	character	has	appear in show
+1.0	character	appear in	show
+1.0	character	has	appear
+1.0	character	has yet	appear
+1.0	character	has yet	appear in show
+1.0	neither	are	described
+1.0	Daario Naharis	be Aegon	described
+1.0	Samwell Tarly	secretly be Aegon	described
+1.0	Samwell Tarly	be	Aegon
+1.0	Samwell Tarly	be Aegon	described
+1.0	Daario Naharis	be	secretly Aegon
+1.0	neither	looking	very Targaryen in appearance
+1.0	neither	are described	looking
+1.0	neither	looking	Targaryen
+1.0	neither	looking	very Targaryen
+1.0	neither	looking	Targaryen in appearance
+1.0	Daario Naharis	be	Aegon
+1.0	Samwell Tarly	be	secretly Aegon
+1.0	Daario Naharis	secretly be Aegon	described
+1.0	Ahai	is	legendary
+1.0	his	sword	Lightbringer
+1.0	Azor Ahai	fight	Others
+1.0	Azor Ahai	will	will reborn
+1.0	Jon Snow death	could lead to	very literal interpretation of legendary hero 's rebirth
+1.0	Jon Snow death	could also lead to	literal interpretation of hero 's rebirth
+1.0	rezzing	could also lead to	very literal interpretation of hero 's rebirth
+1.0	rezzing	could also lead to	literal interpretation of legendary hero 's rebirth
+1.0	Jon Snow death	could lead to	literal interpretation
+1.0	Jon Snow death	could lead to	interpretation of legendary hero 's rebirth
+1.0	Jon Snow death	could also lead to	literal interpretation
+1.0	rezzing	could lead to	interpretation of legendary hero 's rebirth
+1.0	subsequent rezzing	could also lead to	interpretation of hero 's rebirth
+1.0	rezzing	could also lead to	interpretation of legendary hero 's rebirth
+1.0	rezzing	could also lead to	interpretation of hero 's rebirth
+1.0	subsequent rezzing	could also lead to	very literal interpretation of hero 's rebirth
+1.0	subsequent rezzing	could lead to	literal interpretation of legendary hero 's rebirth
+1.0	subsequent rezzing	could lead to	very literal interpretation of legendary hero 's rebirth
+1.0	rezzing	could lead to	interpretation of hero 's rebirth
+1.0	subsequent rezzing	could also lead to	very literal interpretation of legendary hero 's rebirth
+1.0	Jon Snow death	could lead to	very literal interpretation of hero 's rebirth
+1.0	rezzing	could lead to	very literal interpretation of hero 's rebirth
+1.0	subsequent rezzing	could lead to	very literal interpretation of hero 's rebirth
+1.0	Jon Snow death	could lead to	literal interpretation of legendary hero 's rebirth
+1.0	Jon Snow death	could also lead to	interpretation of hero 's rebirth
+1.0	legendary hero	of	rebirth
+1.0	subsequent rezzing	could also lead to	literal interpretation of legendary hero 's rebirth
+1.0	subsequent rezzing	could lead to	interpretation of legendary hero 's rebirth
+1.0	Jon Snow death	could also lead to	interpretation
+1.0	rezzing	could lead to	literal interpretation of legendary hero 's rebirth
+1.0	Jon Snow death	could lead to	literal interpretation of hero 's rebirth
+1.0	subsequent rezzing	could lead to	interpretation of hero 's rebirth
+1.0	Jon Snow death	could lead to	very literal interpretation
+1.0	rezzing	could lead to	literal interpretation of hero 's rebirth
+1.0	Jon Snow death	could also lead to	very literal interpretation of legendary hero 's rebirth
+1.0	Jon Snow death	could also lead to	very literal interpretation of hero 's rebirth
+1.0	subsequent rezzing	could also lead to	interpretation of legendary hero 's rebirth
+1.0	rezzing	could lead to	very literal interpretation of legendary hero 's rebirth
+1.0	Jon Snow death	could also lead to	very literal interpretation
+1.0	Jon Snow death	could lead to	interpretation
+1.0	subsequent rezzing	could also lead to	literal interpretation of hero 's rebirth
+1.0	rezzing	could also lead to	very literal interpretation of legendary hero 's rebirth
+1.0	Jon Snow death	could also lead to	interpretation of legendary hero 's rebirth
+1.0	rezzing	could also lead to	literal interpretation of hero 's rebirth
+1.0	Jon Snow death	could also lead to	literal interpretation of legendary hero 's rebirth
+1.0	Jon Snow death	could lead to	interpretation of hero 's rebirth
+1.0	subsequent rezzing	could lead to	literal interpretation of hero 's rebirth
+1.0	Cersei	has	killer
+1.0	gender	is	when unknown
+1.0	gender	is	when actually unknown
+1.0	gender	is	actually unknown
+1.0	Cersei 's killer	be	younger sibling from Daenerys to Arya to Hound
+1.0	gender	is	unknown
+1.0	Jaqen	is	assumed
+1.0	Pate	has	identity
+1.0	Balon Greyjoy	is	also murdered
+1.0	Balon Greyjoy	is	also seemingly murdered
+1.0	Balon Greyjoy	is	seemingly murdered
+1.0	Balon Greyjoy	is	murdered
+1.0	it	were	committed
+1.0	it	were	Regardless committed
+1.0	it	were committed by	Jaqen Balon Greyjoy
+1.0	it	Regardless were committed by	Jaqen Balon Greyjoy
+1.0	it	has	clear
+1.0	his battle	is with	Brienne
+1.0	Hound	did survive	Hound battle
+1.0	his	Clegane	The Mountain
+1.0	Hound	did survive	Hound battle with Brienne
+0.5408530811120671	Mountain	only fuels	theory more
+0.5408530811120671	Mountain	fuels	theory more
+1.0	anyone	has	guess
+0.5408530811120671	Mountain	fuels	theory
+0.5408530811120671	Mountain	only fuels	theory
+1.0	Arya	has	dancing instructor
+1.0	Syrio Forel	is In	first season
+1.0	Jaqen H'Ghar	is	Syrio Forel In season
+0.4903046652867438	we	confirmation of	actress Maisie Williams who plays Arya death
+1.0	Syrio Forel	instructor 's	Arya
+1.0	Jaqen H'Ghar	is	Syrio Forel
+1.0	Jaqen H'Ghar	is	Syrio Forel In first season
+1.0	many	assumed	Man
+1.0	many	assumed	Faceless Man
+1.0	First Sword	is in	disguise
+1.0	Braavosi	is	Jaqen H'Ghar
+1.0	fifth season	began with	flashback to young Cersei
+1.0	season	began with	flashback
+1.0	fifth season	began with	flashback getting
+1.0	season	began with	flashback getting
+1.0	fifth season	began with	flashback
+1.0	season	began with	flashback to Cersei
+1.0	fifth season	began with	flashback to Cersei getting
+1.0	season	began with	flashback to Cersei getting
+1.0	season	began with	flashback to young Cersei getting
+1.0	fifth season	began with	flashback to young Cersei getting
+1.0	fifth season	began with	flashback to Cersei
+1.0	season	began with	flashback to young Cersei
+1.0	three children	is with	gold crowns
+1.0	prophet	warned	Cersei
+1.0	Jaime	died after	all of Jaime children
+1.0	Jaime	have	three children with gold crowns
+1.0	valonqar	choke	Cersei
+1.0	Jaime	have	three children
+1.0	Jaime	died after	all Jaime children
+1.0	valonqar	choke Cersei to	death
+1.0	Cersei	seems	assume
+1.0	Jaime twin brother	putting Cersei in	running
+1.0	Jaime twin brother	was born after	Jaime
+1.0	her	brother	Jaime
+1.0	Jaime twin brother	putting	Cersei
+1.0	Jaime	lost	Jaime hand
+1.0	pair	has	relationship
+1.0	Jaime	ever lost	Jaime hand
+1.0	We	've now seen	way
+1.0	Night 's King	came	be
+1.0	Night	has	King
+1.0	Night	has	King
+1.0	We	've seen	way
+0.010717726303177022	Night 's King	is Stark	We 've now seen
+0.010717726303177022	Night 's King	is Stark	We 've seen
+1.0	villainous leader	was created by	Children
+1.0	villainous leader	was	created
+1.0	villainous leader	was created by	Children of Forest
+1.0	skin	was as cold as	ice
+1.0	Night	of	Watch
+1.0	Night	has	King
+1.0	skin	was	cold
+1.0	skin	was cold as	ice
+1.0	Night 's King	was	Lord Commander
+1.0	Legend	has	it
+1.0	Night 's King	was	13th Lord Commander
+1.0	skin	was	as cold
+1.0	leader	recognizing	villainous leader kin
+0.9655266292042233	his	is	could explained
+1.0	villainous leader	recognizing	villainous leader kin
+1.0	his interest	is in	Jon
+1.0	Sansa Stark	is	pregnant
+1.0	Sansa Stark	is pregnant with	Ramsay Bolton 's child
+1.0	Ramsay Bolton	with	child
+1.0	Ramsay	wants	right
+1.0	Ramsay	wants	Stark heir
+1.0	Ramsay	marries	friend from Winterfell
+1.0	Ramsay	marries	Jeyne Poole
+1.0	Ramsay	marries	friend of Sansa 's from Winterfell
+1.0	Ramsay	marries	friend of Sansa 's from Winterfell masquerading
+1.0	Ramsay	marries	friend from Winterfell masquerading as Arya
+1.0	it	would	would huge deviation
+1.0	Ramsay	marries	friend of Sansa 's from Winterfell masquerading as Arya
+1.0	Ramsay	marries	friend from Winterfell masquerading
+1.0	Ramsay	marries	friend of Sansa 's
+1.0	Jeyne Poole	friend 's	Sansa
+1.0	it	would	would huge deviation from books
+1.0	Ramsay	marries	friend
+1.0	it	would	would deviation
+1.0	Jeyne Poole	friend from	Winterfell
+1.0	it	would	would deviation from books
+1.0	it	be	huge
+1.0	books	is in	those
+1.0	Ramsay	of	abuse
+1.0	She	's recruiting northerners for	She army
+1.0	She	's recruiting	northerners
+1.0	dress	appear	noble
+1.0	new dress	appear	noble
+1.0	L	=	J
+1.0	L	=	M
+1.0	R	=	M
+1.0	R	=	J
+1.0	Jon Snow	has	twin sister
+1.0	Lyanna	giving	birth
+1.0	Ned	took	care
+1.0	Lyanna	giving birth to	twins
+1.0	Meera	has	supposed father
+1.0	Howland	took	care
+1.0	Jon	do look	sort of similar
+1.0	Jon	do look	sort
+1.0	Meera	do look	sort
+1.0	Meera	do look	sort of similar
+1.0	Jon Snow	Having turn out	Targaryen heir
+1.0	Jon Snow	Having turn out	Targaryen heir to Iron Throne
+1.0	Jon Snow	be	Targaryen heir to Iron Throne
+1.0	Jon Snow	be	Targaryen heir
+1.0	Meera theory	picking up	steam
+0.5052412633887285	vacancy	was in	words
+1.0	fact	be	dead
+0.5052412633887285	vacancy	was in	other words
+1.0	Meera theory	looked like	Jon
+1.0	one	had at_time	Meera theory day
+1.0	fact	be	dead back
+1.0	Bran	caused	Mad King
+1.0	Mad King	go	mad
+1.0	Bran	alter	#HoldTheDoor
+1.0	Bran	alter	past
+1.0	whole show	is in	motion
+1.0	Bran	tries to	reason
+1.0	reason	is with	him
+1.0	young Ned Stark	start	burning
+1.0	young Ned Stark	lose	young Ned Stark mind
+1.0	We	're thinking	one 's keeper
+1.0	one	has	keeper
+1.0	young Ned Stark	called out to	young Ned Stark
+1.0	young Ned Stark	called out at	Tower
+1.0	Bran	influence	past
+1.0	young Ned Stark	called out at	Tower of Joy
+1.0	young Ned Stark	disconcert	young Ned Stark
+1.0	Bran	influence past in	fact
+1.0	theory	picking up recently	steam
+1.0	theory	picking up	steam
+1.0	theory	picking up recently	major steam
+1.0	theory	picking up	major steam
+1.0	Tyrion	be	child
+1.0	Tyrion	be child of	Joanna Lannister
+1.0	Mad King	claimed	bedding rights to Tywin
+1.0	Mad King	had	quite thing for momma Lannister
+1.0	Mad King	claimed	bedding rights on Ser Barriston wedding night to Tywin
+1.0	Mad King	had	quite thing
+1.0	Mad King	claimed	first bedding rights
+1.0	Mad King	father	her
+1.0	Mad King	claimed	bedding rights on Ser Barriston wedding night
+1.0	Mad King	claimed	bedding rights
+1.0	Mad King	claimed	first bedding rights on Ser Barriston wedding night to Tywin
+0.8311395383069486	Mad King	quite thing for	momma Lannister
+1.0	Mad King	had	thing for momma Lannister
+1.0	Mad King	had	thing
+1.0	Mad King	claimed	first bedding rights to Tywin
+1.0	Ser Barriston	did tell	Dany
+0.8311395383069486	Mad King	thing for	momma Lannister
+1.0	Mad King	claimed	first bedding rights on Ser Barriston wedding night
+1.0	theory	claims	that
+1.0	theory	has	theory origins
+1.0	this theory	has	this theory sensible origins
+1.0	theory	has	theory sensible origins
+1.0	Tywin	loathed much	him
+1.0	Tywin	truly loathed	him
+1.0	Tywin	truly loathed much	him
+1.0	Tywin	truly loathed so much	him
+1.0	Tywin	loathed so much	him
+1.0	Tywin	loathed	him
+1.0	King Aerys	did jump	cut
+1.0	King Aerys	did jump turnstile on	King Aerys wedding night
+1.0	King Aerys	did jump cut on	King Aerys wedding night
+1.0	King Aerys	did jump cut in front of	Tywin
+1.0	King Aerys	did jump	turnstile
+1.0	King Aerys	did jump turnstile in front of	Tywin
+1.0	penchant	run in	Targaryen clan
+1.0	penchant	tends	run
+1.0	penchant	tends	run in Targaryen clan
+1.0	Dragonglass	Is	Dragon Poop
+1.0	chemists	are	fans
+1.0	It	gets though	better
+1.0	chemists	are fans of	books
+1.0	It	gets	better
+1.0	one thing opens up hell of lot of doors for fan theories	has	time travel
+1.0	theory about all Brans	picked up steam again recently after	Bran/Hodor warging incident from episode five
+1.0	theory about all Brans	picked up steam recently after	infamous Bran/Hodor warging incident from episode five
+1.0	theory about Brans	picked up again	steam
+1.0	theory about Brans	picked up steam recently after	Bran/Hodor warging incident from episode five
+1.0	theory about all Brans	picked up again recently	steam
+1.0	theory about Brans	picked up steam again after	Bran/Hodor warging incident
+1.0	theory about all Brans	picked up steam recently after	Bran/Hodor warging incident
+1.0	theory about all Brans	picked up steam again after	infamous Bran/Hodor warging incident
+1.0	theory	has for	has awhile
+1.0	theory about Brans	picked up steam recently after	infamous Bran/Hodor warging incident
+1.0	theory about all Brans	picked up steam recently after	infamous Bran/Hodor warging incident
+1.0	theory about all Brans	picked up steam recently after	Bran/Hodor warging incident from episode five
+1.0	theory about Brans	picked up steam again after	infamous Bran/Hodor warging incident
+1.0	theory about Brans	picked up	steam
+1.0	theory about Brans	picked up steam again recently after	Bran/Hodor warging incident from episode five
+1.0	theory about Brans	picked up steam after	infamous Bran/Hodor warging incident
+1.0	theory about Brans	picked up steam again recently after	Bran/Hodor warging incident
+1.0	theory about Brans	picked up steam again recently after	infamous Bran/Hodor warging incident
+1.0	theory about all Brans	picked up	steam
+1.0	theory about all Brans	picked up steam after	infamous Bran/Hodor warging incident from episode five
+1.0	theory about all Brans	picked up steam again after	Bran/Hodor warging incident
+1.0	theory about all Brans	picked up steam after	Bran/Hodor warging incident from episode five
+1.0	theory about Brans	picked up steam recently after	Bran/Hodor warging incident
+1.0	theory about all Brans	picked up steam again recently after	infamous Bran/Hodor warging incident from episode five
+1.0	theory about Brans	picked up steam again after	infamous Bran/Hodor warging incident from episode five
+1.0	theory about all Brans	picked up steam after	infamous Bran/Hodor warging incident
+1.0	theory about Brans	picked up steam after	Bran/Hodor warging incident from episode five
+1.0	theory about all Brans	picked up steam again recently after	Bran/Hodor warging incident
+1.0	theory about Brans	picked up steam again after	Bran/Hodor warging incident from episode five
+1.0	theory about Brans	picked up steam recently after	infamous Bran/Hodor warging incident from episode five
+1.0	theory about Brans	picked up steam again recently after	infamous Bran/Hodor warging incident from episode five
+1.0	theory about all Brans	picked up steam again recently after	infamous Bran/Hodor warging incident
+1.0	theory about all Brans	picked up steam after	Bran/Hodor warging incident
+1.0	theory about Brans	picked up steam after	infamous Bran/Hodor warging incident from episode five
+1.0	theory	has for	has around awhile
+1.0	theory about Brans	picked up steam after	Bran/Hodor warging incident
+1.0	theory about Brans	picked up again recently	steam
+1.0	theory about all Brans	picked up recently	steam
+1.0	theory about Brans	picked up recently	steam
+1.0	theory about all Brans	picked up steam again after	infamous Bran/Hodor warging incident from episode five
+1.0	theory about all Brans	picked up again	steam
+1.0	theory about all Brans	picked up steam again after	Bran/Hodor warging incident from episode five
+1.0	Bran	's starting	seem like more of possibility
+1.0	Bran	's starting	seem like more
+1.0	theory	seemed	sort of ridiculous at first
+1.0	theory	sort first of	ridiculous
+1.0	Bran	seem like	more
+1.0	theory	sort of	ridiculous
+1.0	Bran	seem like	more of possibility
+1.0	theory	seemed	sort
+1.0	theory	seemed	sort at first
+1.0	Bran	's starting	seem
+1.0	theory	seemed	sort of ridiculous
+1.0	we	wasted	precious screen time
+1.0	we	wasted	much screen time watching
+1.0	we	wasted	much precious screen time watching
+1.0	we	wasted	much precious screen time
+1.0	we	wasted	precious screen time watching
+1.0	we	wasted	so much precious screen time watching
+1.0	we	wasted	so much screen time
+1.0	him	plod	North
+1.0	we	wasted	so much screen time watching
+1.0	him	meet	Three Eyed Raven
+1.0	we	wasted	screen time watching
+1.0	we	wasted	screen time
+1.0	we	wasted	so much precious screen time
+1.0	we	wasted	much screen time
+1.0	entire lives	is in	different ages
+1.0	him	Will travel back in	time
+1.0	him	living out	entire lives
+1.0	him	Will travel in	time
+1.0	him	living out	entire lives in ages
+1.0	him	living out	lives in ages
+1.0	him	living out	entire lives in different ages
+1.0	him	living out	lives
+1.0	him	living out	lives in different ages
+1.0	him	is	'll observer
+1.0	him	be	silent
+1.0	it	be	silent
+1.0	it	is	silent
+1.0	it	is	'll mostly silent observer
+1.0	him	is	'll mostly silent observer
+1.0	it	is	'll silent observer
+1.0	it	is	'll observer
+1.0	him	is	'll silent observer
+1.0	him	is	silent
+1.0	Bran	Built	Wall
+1.0	Wall	was	time-traveling
+1.0	devastating episode	is in	Season 6
+1.0	Syrio Forel	Are	One
+1.0	Jaquen H'ghar	Are	One
+1.0	Faceless Men	be	can literally anyone
+1.0	Faceless Men	be	can anyone
+1.0	Men	be	can literally anyone
+1.0	Faceless Men	be	After all can anyone
+1.0	Men	be	After all can anyone
+1.0	Men	be	can anyone
+1.0	Faceless Men	be	After all can literally anyone
+1.0	Men	be	After all can literally anyone
+1.0	styles	make	theory crazy yet somewhat plausible one
+1.0	fighting styles	make	theory crazy yet somewhat plausible one
+1.0	Syrio	bite	Syrio Forel
+1.0	Joffrey	has	Head On Mountain
+1.0	Zombie Mountain	love	you
+1.0	I	love	you
+1.0	theory	is	parts
+1.0	theory	is	parts crazy
+1.0	theory	is	equal parts
+1.0	theory	is	equal parts crazy
+1.0	Mountain	onto	body
+1.0	Joffrey	has	head
+1.0	reasoning	is	pretty simple
+1.0	reasoning	is	simple
+1.0	Mountain 's head	is	sent back to Dorne
+1.0	Zombie Mountain	has	eyes
+1.0	Mountain 's head	is	In books sent back to Dorne as symbol
+1.0	Zombie Mountain	has	eyes like Joffrey
+1.0	Mountain 's head	is	sent back to Dorne as symbol of Oberyn
+1.0	Zombie Mountain	has	blue eyes like Joffrey
+1.0	Mountain 's head	is sent In	books
+1.0	Mountain 's head	is	In books sent as symbol
+1.0	Mountain 's head	is	sent back
+1.0	Mountain 's head	is	sent
+1.0	Mountain 's head	is sent back as	symbol of Oberyn
+1.0	Mountain 's head	is sent as	symbol
+1.0	Mountain 's head	is	In books sent back as symbol
+1.0	Mountain	has	head
+1.0	Mountain 's head	is	sent back to Dorne as symbol
+1.0	Zombie Mountain	has	blue eyes
+1.0	Mountain 's head	is	In books sent back to Dorne
+0.4917847589526739	Zombie Mountain	eyes like	Joffrey
+1.0	Mountain 's head	is	In books sent as symbol of Oberyn
+0.4917847589526739	Zombie Mountain	blue eyes like	Joffrey
+1.0	Mountain 's head	is	In books sent back to Dorne as symbol of Oberyn
+1.0	Mountain 's head	is sent back as	symbol
+1.0	Mountain 's head	is sent back In	books
+0.010717726303177022	Zombie Mountain	has eyes	we have seen
+1.0	Mountain 's head	is sent as	symbol of Oberyn
+1.0	Mountain 's head	is	In books sent back as symbol of Oberyn
+1.0	Mountain	had	eyes
+1.0	Mountain	had	darker eyes
+1.0	him	was	alive
+1.0	him	was	When alive
+1.0	we	get	picture
+1.0	we	get	picture of zombie mountain
+1.0	we	get picture without	him helmet
+1.0	we	get	clear picture
+1.0	we	get	clear picture of zombie mountain
+1.0	we	get picture without	him helmet on
+1.0	dark	is in	Even season finale
+1.0	him	removed	him helmet
+1.0	theory	has around	has around while
+1.0	I	want	believe
+1.0	I	want As	devoted Robb Stark/Richard Madden fan
+1.0	I	really want As	seriously devoted Robb Stark/Richard Madden fan
+1.0	I	want As	Robb Stark/Richard Madden fan
+1.0	I	really want As	Robb Stark/Richard Madden fan
+1.0	I	really want	believe
+1.0	I	want As	seriously devoted Robb Stark/Richard Madden fan
+1.0	I	really want As	devoted Robb Stark/Richard Madden fan
+1.0	I	relive	moment
+1.0	Melisandre	Is	Frog
+1.0	Maggy	Is	Frog
+1.0	Melisandre	is	old woman
+1.0	Melisandre	is	very old woman
+1.0	Melisandre	is	woman
+1.0	Melisandre	is	actually very old woman
+1.0	Melisandre	is	old
+1.0	Melisandre	remove	Melisandre necklace
+1.0	Melisandre	is	actually old woman
+1.0	Melisandre	is	actually woman
+1.0	they	have	same letter in they name
+1.0	they	are both from	Essos
+1.0	they	have	same first letter
+1.0	they	have	letter
+1.0	they	have	same letter
+1.0	they	are	both
+1.0	they	have	first letter in they name
+1.0	they	have	first letter
+1.0	same first letter	is in	their name
+0.6006498305992521	have	same letter in	they name
+0.6006498305992521	have	first letter in	they name
+1.0	they	have	letter in they name
+0.6006498305992521	have	letter in	they name
+0.6006498305992521	have	same first letter in	they name
+1.0	they	have	same first letter in they name
+1.0	Ned Stark	Is	Alive
+1.0	Ned	has	place
+1.0	Varys	Is	Merman
+1.0	user 's	has	smile
+1.0	user 's	has	slimy smile
+1.0	user	goes on	say
+0.39527928660557177	user 's	results of	that
+1.0	Varys	is	unconcerned
+1.0	Varys	is	super unconcerned
+1.0	Tyrion	throw	user 's
+1.0	Tyrion	says	something
+1.0	You	can read	rest of user 's evidence
+1.0	You	can read	rest of user 's evidence at link
+1.0	You	can read	rest
+1.0	You	can read	rest of user 's evidence at link above
+1.0	user	of	evidence at link above
+1.0	Starks	is Cursed The of	Robert Baratheon
+1.0	Starks	is	Robert Baratheon
+1.0	King Robert Baratheon	shows up According to	Reddit user NANAs_mic
+1.0	King Robert Baratheon	shows up at	Winterfell
+1.0	King Robert Baratheon	shows up in	pilot episode
+1.0	part	is	fact
