@@ -9,7 +9,7 @@ Short Term Memory(LSTM) recurrent neural networks have been explored and their r
 analyze how they perform for the proposed task. The Stanford OpenIE package has been used to extract
 relational tuples while the CoreNLP package has been used to tokenize the input text, perform part-of-
 speech tagging and find the named entities in the text. This information has been utilized in combination
-1with the N-gram models to propose three different methods of sentence generation and assess how they
+1 with the N-gram models to propose three different methods of sentence generation and assess how they
 perform as compared to other baseline models. Frequency of occurrence of each character name from the
 chosen show has been computed and sentence for the five most famous characters have been generated,
 with each sentence generation task being seeded with the name of the character. Comparison has been
